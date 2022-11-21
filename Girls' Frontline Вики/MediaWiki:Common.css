@@ -1,0 +1,1498 @@
+/* == Импорты == */
+/* === Highlight: Подсветка ников участников с глобальными статусами === */
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:Highlight.css&only=styles";
+
+/* === InterlanguageFlags: Добавляет флаги в интервики === */
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:InterlanguageFlags.css&only=styles";
+
+/* === AdaptiveProfile: Оформление профиля === */
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:AdaptiveProfile.css&only=styles";
+@import url("/ru/load.php?mode=articles&only=styles&articles=MediaWiki:RightColors.css");
+
+/* === BringExternalLinkIconsBack: Возвращает индикацию внешних ссылок === */
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:BringExternalLinkIconsBack.css&only=styles";
+
+/* === Antiborder: Удаляет множество рамок === */
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:Antiborder.css&only=styles";
+
+/* === BalancedBloglists: Улучшает дизайн блогов === */
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:BalancedBloglists.css&only=styles";
+
+/* === LocalNavExploreIcons: Добавляет иконки в меню «Исследовать» локальной навигации вики === */
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:LocalNavExploreIcons.css&only=styles";
+
+/* === Fanimp: Улучшает некоторые моменты в стилях Фэндома === */
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:Fanimp.css&only=styles";
+
+/* === SpoilerBlur: Скрипт на замазывания текста === */
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:SpoilerBlur.css&only=styles";
+/* ==== Использование: ==== */
+/* ===== <span class="spoilerblur">Текст, который нужно замазать</span> ===== */
+
+/* == Оформление вики (в основном взято с IOP Wiki) == */
+/* === Small update for the MediaWiki Version 1.32.2 and Vector 22:07, 14 October 2018 === */
+#pagehistory li.selected {
+    color:#bbb;
+}
+
+#pagehistory .selected {
+	color:#e7c554;
+	background-color: rgba(108, 108, 108, 0.75);
+}
+
+#pt-notifications-notice .mw-echo-notifications-badge::before,
+#pt-notifications-alert .mw-echo-notifications-badge::before {
+	background-color: white;
+}
+
+/* ===Disable section editing === */
+.mw-editsection { display:none!important; }
+.mw-editform .editOptions {
+    color: white;
+    background-color:#8a8a8a2b;
+}
+
+.mw-rcfilters-ui-filterTagMultiselectWidget.oo-ui-widget-etnabled .oo-ui-tagMultiselectWidget-handle {
+    border: 1px solid #a2a9b138;
+}
+
+.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined .oo-ui-tagMultiselectWidget-handle {
+    background-color:#8080803b;
+}
+
+.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined .oo-ui-tagItemWidget.oo-ui-widget-enabled {
+    background-color:#78787899;
+}
+
+.oo-ui-tagItemWidget.oo-ui-widget-enabled {
+    color:#f5f5f5;
+}
+
+.oo-ui-tagItemWidget.oo-ui-widget-enabled:hover {
+	color:#e4e4e4;
+}
+
+.oo-ui-tagItemWidget {
+	border: 1px solid #777;
+}
+
+.oo-ui-buttonElement-framed > .oo-ui-buttonElement-button {
+	border-style: none;
+	border-radius: 15px;
+	text-shadow: none;
+}
+
+.mw-rcfilters-ui-filterTagMultiselectWidget-wrapper-content-title {
+    color:#ededed;
+}
+
+.mw-rcfilters-ui-filterTagMultiselectWidget-views-select {
+    background-color:#e3e3e380;
+}
+
+.rcfilters-container .oo-ui-buttonElement-frameless.oo-ui-widget-enabled > .oo-ui-buttonElement-button {
+    background-color:#edb23a;
+    color:#4E443C;
+    border: none;
+    text-shadow: none;
+}
+
+.tabstabber > .tabber ul.tabbernav li a:link {
+    background-color:#4E443C;
+    color:#F0b000;
+}
+
+.tocnumber {
+	color: white;
+}
+
+.toctogglelabel {
+    color:#dbba6c;
+}
+
+.references-section h2:last-child {
+	display: none;
+}
+
+.mw-rcfilters-ui-changesListWrapperWidget .mw-changeslist-legend {
+    background-color:#83838347;
+    border: 1px solid #d1cec842;
+}
+
+/* === For the background images on T-Doll pages === */
+.bg-character {
+    display: none;
+}
+
+.bg-rarity {
+    display: none;
+}
+
+/* === Flowthread styling === */
+#flowthread {
+  border-top: thick solid gray;
+  padding-top: 10px;
+}
+
+#flowthread .comments-guideline {
+  border-top: 2px solid gray;
+  padding: 15px;
+}
+
+/* === Category === */
+#catlinks {
+  border: thin solid gray;
+  padding: 5px;
+}
+
+/* === Reference to the main article of an information === */
+div.hatnote {
+  padding-left: 1.6em;
+  margin-bottom: 0.5em;
+  font-style: italic;
+}
+
+/* ===For Template:DollBG on t-dproll pages=== */
+#bg-character {
+    position: fixed;
+    height: 1280px;
+    min-height:500px;
+    top:10%;
+    left:0;
+    z-index: -2;
+}
+
+#bg-rarity {
+    position: fixed;
+    top:15%;
+    right:5%;
+    z-index: -3;
+    width:650px;
+}
+
+/* === Tabs extension === */
+.tabs-tabbox {margin:0;}
+
+.tabs-tabbox > .tabs-container {
+    border: none;
+	padding: 0;
+	margin-top: 0;
+}
+
+.tabs-tabbox > .tabs-input:checked + .tabs-label, .tabs-input-0:checked + .tabs-input-1 + .tabs-label {
+    background-color:#F0b000;
+    border-radius: 15px;
+    color:#4E443C;
+    border: none;
+    text-shadow:none;
+    z-index:5;
+}
+
+.tabs-tabbox > .tabs-label {
+    background-color:#4E443C;
+    border-radius: 15px;
+    color:#F0b000;
+    border: none;
+    text-shadow:none;
+    z-index:5;
+    font-weight: bold;
+}
+
+/* === gallery tabs === */
+.tabs-gallery {	display:inline-block;}
+.tabs-gallery > .tabs-container {margin-top: -24px;}
+.tabs-gallery > .tabs-label {
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+	opacity:0.5;
+}
+
+.tabs-gallery > .tabs-label:hover {opacity:1;}
+
+/* === vertical === */
+.verticaltabber {
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.verticaltabber > .tabber {display:flex;}
+.verticaltabber > .tabber > .tabbertab {display:flex;}
+.verticaltabber > .tabber > .tabbertab > p {margin:0;}
+
+.verticaltabber > .tabber ul.tabbernav {order:2;}
+.verticaltabber > .tabber ul.tabbernav li {display:flex;}
+.verticaltabber > .tabber ul.tabbernav li a {margin: 0 0 3px 0;width:100%;font-style:italic;}
+.verticaltabber > .tabber ul.tabbernav li:first-child a {margin: 0 0 3px 0;width:100%;font-style:normal;}
+
+.verticaltabber > .tabber .tabs {margin:auto;}
+
+.paddedtabber-2px > .tabber {padding:2px;}
+
+/* === tabs styled tabber === */
+/* ==== tab body ==== */
+.tabstabber > .tabber {padding:0;}
+.tabstabber > .tabber .tabbertab {padding: 2px;background-color: transparent;}
+
+.tabstabber > .tabber ul.tabbernav {margin: 10px 0 2px 0;}
+
+.tabstabber > .tabber > .tabbertab > p {margin:0;}
+
+/* ==== inactive tab ==== */
+.tabstabber > .tabber ul.tabbernav li a:link {
+    background-color:#4E443C;
+    border-radius: 15px;
+    color:#F0b000;
+    border: none;
+    text-shadow:none;
+    font-weight: bold;    
+	padding: 3px 6px;
+	margin: 2px;
+}
+.tabstabber > .tabber ul.tabbernav li:first-child a:link {margin-left: 10px;}
+
+/* ==== active tab ==== */
+.tabstabber > .tabber ul.tabbernav li.tabberactive a, .tabstabber > .tabber ul.tabbernav li.tabberactive a:link {background-color:#F0b000;color:#4E443C;}
+
+/* === gradient divs === */
+.gradientDivs {
+	width:100%;	
+}
+.gradientDivs > div{
+	background: -moz-radial-gradient(at left top,rgba(255,255,255,0.25) 0%, rgba(255,255,255,0.25) 10%, transparent 70%); /* === FF3.6-15 === */
+	background: -webkit-radial-gradient(at left top,rgba(255,255,255,0.25) 0%, rgba(255,255,255,0.25) 10%, transparent 70%); /* === Chrome10-25,Safari5.1-6 === */
+	background: radial-gradient(at left top,rgba(255,255,255,0.25) 0%, rgba(255,255,255,0.25) 10%, transparent 70%); /* === W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ === */
+	padding: 1em;
+	overflow: hidden;
+	max-width: 800px;
+	height:90px;
+	position:relative;
+}
+
+.gradientDivs > h4 {
+	background-color: rgba(255,255,255,0.25);
+	display: table;
+	padding: 3px 6px 3px 6px;
+	margin-left: 0.25em;
+}
+.gradientDivs > h4 > .mw-editsection {display:none;}
+.gradientDivs > div > div{background: linear-gradient(115deg,rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 60%, transparent 90%);width:80%;padding:0 5px 0 5px;}	
+.gradientDivs > div > p {width:75%;text-align:right;position:absolute;bottom:1em;}
+
+/* === Charactertabber === */
+.charactertabber {
+  width: 100%;
+  border-bottom: 2px solid #808080;
+}
+
+.charactertabber td {
+  padding: 8px;
+  background-color:#808080;
+  font-weight: bold;
+  opacity: 0.45;
+  white-space: nowrap;
+}
+
+.charactertabber td:hover {
+  opacity: 1;
+}
+
+.charactertabber td.active {
+  background-color:#f0b000;
+  font-weight: bold;
+  color: white;
+  opacity: 1;
+}
+
+.charactertabber td.filler {
+  width: 100%;
+  opacity: 0;
+}
+
+/* === HOC Matrix styling === */
+.hoc-matrix {
+	display: inline-block;
+}
+
+.hoc-matrix .hoc-matrix-row {
+	display: block;
+	line-height: 0.1;
+	white-space: nowrap;
+}
+
+.hoc-matrix .hoc-matrix-element {
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+	border: thin solid #4a4a4a;
+}
+
+.hoc-matrix .hoc-matrix-element.hoc-matrix-element-type-0 {
+	background-color:#888;
+}
+
+.hoc-matrix.chipcolor-blue .hoc-matrix-element.hoc-matrix-element-type-1 {
+	background-color:#6c6cdd;
+}
+.hoc-matrix.chipcolor-blue .hoc-matrix-element.hoc-matrix-element-type-2 {
+	background-color:#4c4c79;
+}
+
+.hoc-matrix.chipcolor-orange .hoc-matrix-element.hoc-matrix-element-type-1 {
+	background-color:#dd786c;
+}
+.hoc-matrix.chipcolor-orange .hoc-matrix-element.hoc-matrix-element-type-2 {
+	background-color:#79644c;
+}
+
+/* === Stattable (The one with digimind upgrade tabs) === */
+.upgradeablestattable {
+  max-width: 1040px;
+  min-width: 510px;
+  display: flex;
+  flex-direction: column;
+}
+
+.upgradeablestattable .header {
+  color:#322300;
+  font-size: 110%;
+  background-color:#f0b000;
+  text-align: center;
+  padding: 5px;
+  text-shadow: none;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.upgradeablestattable .stattabcontainer {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.upgradeablestattable .stattabcontainer .tabbertab {
+  display: flex;
+  flex-flow: wrap;
+  background-color: rgba(100, 100, 100, 0.3);
+}
+
+.obtainflagcontainer {
+  float: left;
+  color: black;
+  text-shadow: none;
+  display: inline-block;
+  width: 150px;
+}
+
+.obtainflag {
+  border: 1px solid transparent;
+  border-radius:2px;
+  margin-right:2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  clear: both;
+}
+
+.obtainflag.obtain-normal { background:green;  }
+.obtainflag.obtain-heavy  { background:orange; }
+.obtainflag.obtain-drop   { background:yellow; }
+.obtainflag.obtain-reward { background:salmon; }
+.obtainflag.obtain-hoc-fragments { background:#f9d988; }
+.obtainflag.obtain-assimilation { background-color:#8abfee; }
+.obtainflag.notpossible   { opacity: 0.25;     }
+
+/* === TileGrid === */
+.tilegridtable {
+  background: rgba(62, 62, 62);
+  padding: 10px;
+}
+.tilegridtable td {
+  background: rgba(0, 0, 0, 0.5);
+}
+.tilegridtable td.standing {
+  background: rgba(255, 255, 255, 1);
+}
+.tilegridtable td.buff {
+  background: rgba(0, 255, 222, 1);
+}
+
+.gamebanner {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* === Fairies === */
+.fairy-sidebar-profile {
+	position: absolute;
+	margin-top: -25px;
+	margin-left: -56px;
+}
+
+/* === HOC named card === */
+.profile-card { position: relative; display:inline-block; height:190px; width:128px;}
+.profile-card .profileimage { position: absolute; top: 21px; left: 5px; width:118px }
+.profile-card .profilebackground { transform:scaleX(-1); position: absolute; top: 0; left: 0;  }
+.profile-card .namefield { position: absolute; top: 139px; right: 5px; overflow:hidden; width:119px}
+.profile-card .classificationsymbol { position: absolute; top: 5px; right: 5px;}
+.profile-card .cardtitle { position: absolute; text-decoration: none; color: black; top: 138px; left: 8px; font-size: 125%; text-shadow: none; color: black; font-weight: bold; font-family: "Times New Roman",Times,serif; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.profile-card .range { background-image: url('https://iopwiki.com/images/b/b1/HOC_Range.png'); background-size: 13px 13px; background-repeat: no-repeat; padding-left: 14px; padding-right: 2px; position: absolute; top: 6px; left: 6px; font-size: 12px; font-weight: bold; color: orange; background-color: black; line-height: 14px; }
+.profile-card .indexnumber { position: absolute; bottom: 5px; left: 80px; color: white;}
+
+/* === Equipment named card === */
+.equipmentnamedcard {
+  width: 80px;
+  text-align: center;
+  display: inline-block;
+  margin-right: 15px;
+  vertical-align: top;
+}
+
+.equipmentnamedcard .equipmentcard {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.equipmentnamedcard .equipname {
+  font-size: 0.9em;
+}
+
+.equipmentnamedcard .equipname small {
+  display: none;
+}
+
+/* === Equipment cards === */
+.equipmentcard {
+  display: inline-block;
+  background-color:#303030;
+  border: 2px solid #d0d0d0;
+  width: 64px;
+  height: 60px;
+  position: relative;
+  overflow: hidden;
+}
+
+.equipmentcard .equipmentcardfiller {
+  position: absolute;
+  z-index: 5;
+}
+
+.equipmentcard img.typeicon {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+}
+
+.equipmentcard .raritystars {
+  position: absolute;
+  margin-top: 1px;
+  margin-left: auto;
+  margin-right: 1px;
+  height: 8px;
+  z-index: 3;
+  top: 0px;
+  right: 0px;
+}
+
+.equipmentcard .equipimage {
+  position: absolute;
+  margin-top: 3px;
+  top: 0;
+  left: 0;
+}
+
+.event-node-difficulties .tabs-content {
+	width: 100%;
+}
+
+.event-map-summary {
+	float: right;
+	width: 450px;
+	max-width: 450px;
+}
+
+.event-map-overview {
+	float: right;
+}
+
+.enemylist-entry {
+  display: inline-block;
+  overflow: hidden;
+  width: 130px;
+  height: 190px;
+  padding: 5px;
+  position: relative;
+}
+
+.enemylist-entry .enemylist-entry-box {
+  position: absolute;
+  z-index: 5;
+  overflow: hidden;
+  height: 190px;
+}
+
+.enemylist-entry .enemylist-entry-name {
+  position: absolute;
+  left: 10px;
+  top: 144px;
+  z-index: 4;
+  text-align: left;
+  font-size: 125%;
+  text-shadow: none;
+  color: black;
+  font-weight: bold;
+  font-family: "Times New Roman",Times,serif;
+  display: block;
+  width: 116px;
+  height: 26px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 2px;
+}
+
+.enemylist-entry .enemylist-entry-name.sangvisferri {
+  background-image: url('https://iopwiki.com/images/e/ee/Infobox_name_sangvisferri.png');
+}
+
+.enemylist-entry .enemylist-entry-name.kcco {
+  background-image: url('https://iopwiki.com/images/5/52/Infobox_name_kcco.png');
+}
+
+.enemylist-entry .enemylist-entry-name.paradeus {
+  background-image: url('https://iopwiki.com/images/3/32/Infobox_name_paradeus.png');
+}
+
+.enemylist-entry .enemylist-entry-name.collab {
+  background-image: url('https://iopwiki.com/images/c/c0/Infobox_name_EXTRAstar.png');
+}
+
+.enemylist-entry .enemylist-entry-name.other {
+  background-image: url('https://iopwiki.com/images/c/ce/Infobox_name_other.png');
+}
+
+.enemylist-entry .enemylist-entry-profile {
+  position: absolute;
+  width: 118px;
+  top: 25px;
+  left: 10px;
+}
+
+.enemylist-entry .enemylist-entry-faction {
+  position: absolute;
+  top: 164px;
+  left: 12px;
+  opacity: 0.5;
+}
+
+.enemylist-entry .enemylist-entry-classification-boss {
+  position: absolute;
+  top: 13px;
+  left: 20px;
+  height: 18px;
+}
+
+.enemylist-entry .enemylist-entry-frame {
+  position: absolute;
+}
+
+.ombox,
+table.ombox,
+.ombox.ombox-notice {
+	border: 2px solid #929292;
+	background-color:#5151511f;
+	background-image: radial-gradient(#727272 5%, transparent 5%), radial-gradient(#727272 5%, transparent 5%);
+	background-size: 6px 6px;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* ===image=== */
+div.thumbinner {
+    border: 0;
+    background-color: rgba(255,255,255,0.25);
+}
+
+.card-bg {
+  background-image:url("https://iopwiki.com/images/5/5a/Infobox_bg.png");
+  width:256px;
+  height:456px;
+  padding:10px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+/* === For compatibility. Move to card-bg class if possible. === */
+.profiletable .card-bg {
+  height:auto;
+  margin: 0;
+  display: inline-block;
+}
+
+.card-bg .raritystars {
+  position: absolute;
+  top: 11px;
+  right: 15px;
+  z-index: 3;
+}
+
+.card-bg .raritystars.rarityEXTRA {
+  top: inherit;
+  bottom: 120px;
+}
+
+.card-bg .dollname {
+  position: absolute;
+  margin-left: 2px;
+  z-index: 4;
+  text-align: left;
+  font-size: 250%;
+  text-shadow: none;
+  color: black;
+  font-weight: bold;
+  font-family: times new roman;
+  bottom: 50px;
+}
+
+.card-bg .indexnumber {
+  position: absolute;
+  bottom: 3px;
+  width: 66px;
+  z-index: 4;
+  font-size: 245%;
+  text-shadow: none;
+  color: white;
+  font-family: courier new;
+  letter-spacing: -6px;
+  text-align: center;
+  right: 8px;
+  line-height: 1;
+}
+
+.card-bg .namefield {
+  position: absolute;
+  z-index: 3;
+  bottom: 52px;
+}
+
+.card-bg .classificationsymbol {
+  position: absolute;
+  margin-left: 1px;
+  margin-top: 1px;
+  z-index: 3;
+}
+
+.card-bg .profilebackground {
+  position: absolute;
+  z-index: 2;
+}
+
+.card-bg .dollprofileimage {
+  margin-top: 21px;
+  min-width: 256px;
+  margin-bottom: 94px;
+}
+
+.card-bg-small {
+	background-image:url("https://iopwiki.com/images/thumb/5/5a/Infobox_bg.png/138px-Infobox_bg.png");
+	width:128px;
+	height:228px;
+	padding:5px;
+	display:inline-block;
+}
+
+.card-bg-small.unreleased,
+.unreleased {
+  opacity: 0.25;
+}
+
+.card-bg-small .pad {
+	position:absolute;
+	z-index:5
+}
+
+.card-bg-small .name {
+	position:absolute;
+	margin-left:2px;
+	margin-top:178px;
+	z-index:4;
+	text-align:left;
+	font-size:125%;
+	text-shadow:none;
+	color: black;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+	text-overflow: ellipsis;
+    width: 126px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.card-bg-small .index {
+	position:absolute;
+	margin-top:206px;
+	width:128px;
+	z-index:4;
+	font-size:110%;
+	text-shadow:none;
+	text-align:right;
+	color: white;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	letter-spacing: -3px
+}
+
+.card-bg-small .rarity-stars {
+	position:absolute;
+	margin-top:178px;
+	z-index:3
+}
+
+.card-bg-small .rarity-class {
+	position:absolute;
+	margin-left:1px;
+	margin-top:1px;
+	z-index:3
+}
+
+.card-bg-small .infobox-border {
+	position:absolute;
+	z-index:2
+}
+
+.card-bg-small .doll-image {
+	margin-top:10px;
+	height:167px;
+	display: inline-block;
+}
+
+.icon-bg-2star-small {
+	background-image:url("https://iopwiki.com/images/thumb/7/72/BG_2star_S.png/60px-BG_2star_S.png");
+	padding:5px;
+}
+
+.variable-columns {
+	-ms-column-width: 450px;
+	-moz-column-width: 450px;
+	-webkit-column-width: 450px;
+	column-width: 450px;
+	}
+
+li.gallerybox div.thumb {
+  background-color:#f9f9f91a;
+}
+
+.chibiAnimationContainer {
+  height: 300px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 260px;
+  max-width: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.chibiAnimationContainer .chibiScreenshotButton {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-image: url('https://iopwiki.com/images/8/8e/Screencap.png');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+}
+
+.chibi-costume-switcher {
+  width: 240px;
+}
+
+.profiletable {
+  overflow: hidden;
+}
+
+.profiletable .tdoll_chibi,
+.profiletable .chibiAnimationContainer,
+.chibiAnimationContainer.commander-chibi {
+  background: repeating-linear-gradient(-55deg,#22222266,#22222266 10px,#33333366 10px,#33333366 20px);
+}
+
+.profiletable .tdoll_chibi .chibiAnimation,
+.profiletable .chibiAnimationContainer .chibiAnimation {
+  margin-top: 80px;
+}
+
+.profiletable .tdoll_chibi .chibiAnimationClickArea,
+.profiletable .chibiAnimationContainer .chibiAnimationClickArea {
+  height: 260px;
+}
+
+.tdoll_chibi .chibiAnimation,
+.chibiAnimationContainer .chibiAnimation {
+    flex-shrink: 0;
+    pointer-events: none;
+}
+
+.commander-chibi-container {
+	display: inline-block;
+}
+
+.commander-chibi-container .chibiAnimationClickArea {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.commander-chibi-container .chibiAnimation {
+	position: absolute;
+}
+
+.notification {
+  margin-bottom: 10px;
+  display: inline-block;
+  font-size: 0.8em;
+  font-style: italic;
+  color:#71fdff;
+}
+
+.profiletable.boss {
+  background-image: url('https://iopwiki.com/images/f/fc/Boss_Skull_Icon.png');
+  background-repeat: no-repeat;
+  background-position-x: 5px;
+  background-position-y: 5px;
+}
+
+.gf-table.stattable {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.gf-table.stattable + .gf-table.stattable {
+  margin-left: 10px;
+}
+
+.gf-table.stattable .statlabel {
+  background:rgba(127, 127, 127, 0.2);
+}
+
+.gf-table.stattable .statlabel.statlabelgradient  {
+  background: linear-gradient(135deg, rgba(127, 127, 127, 0.4) 85%, rgba(0, 0, 0, 0.5) 85%);
+}
+
+.gf-table.stattable .statvalue {
+  background:rgba(0, 0, 0, 0.25);
+  padding-left:10px;
+  padding-right:10px;
+  text-align:center
+}
+
+.gf-table.stattable .statcomment {
+  font-style: italic;
+}
+
+/* === for color inversion === */
+.invertcolor{-webkit-filter:invert(1);filter:invert(1)}
+.invertcolor-50{-webkit-filter:invert(1);filter:invert(0.5)}
+
+/* === For construction tables === */
+.multi-column-table tbody {display:block;}
+.multi-column-table tr {display:table;}
+.multi-column-table td {display:table-cell;}
+.multi-column-table tbody, .multi-column-table tr {min-width:100%;}
+.multi-column-table table {width: 100%; max-width: 100%;}
+
+
+.multi-column-table tbody {
+    column-width:450px;
+    -moz-column-width:450px;
+    -webkit-column-width:450px;
+}
+
+.multi-column-200px tbody {
+	-ms-column-width: 200px;
+    -moz-column-width:200px;
+    -webkit-column-width:200px;
+    column-width:200px;
+}
+
+.multi-column-300px tbody {
+	-ms-column-width: 300px;
+    -moz-column-width:300px;
+    -webkit-column-width:300px;
+    column-width:300px;
+}
+
+@media only screen and (max-width: 820px) {
+	div#mw-panel {display:none;}
+	div#left-navigation{margin-left:0;}
+	.mw-body {margin-left:0;}
+}
+
+/* === plain links === */
+.plainlinks {
+	padding:0;
+	background:none;
+}
+
+/* === Spoiler Text === */
+.spoiler {
+    -moz-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+    -webkit-filter: blur(3px); /* === Safari 6.0 - 9.0 === */
+    filter: blur(3px);
+}
+
+.spoiler:hover {
+    filter:	none;
+}
+
+div.spoiler {
+	display: inline-block;	
+}
+
+.gfwiki-message-box {
+	padding: 4px;
+	min-height: 75px;
+	border: thin solid gray;
+	background:#323232;
+	background: rgba(50,50,50,0.5);
+	overflow: auto;
+}
+
+.darken {filter:brightness(30%);}
+
+/* === Tables === */
+.mw-templatedata-doc-wrap .mw-templatedata-doc-params th,
+.gf-table th,
+.gf-table.testcasetable th.testcasedescription {
+	color:#322300;
+	font-size: 110%;
+	background-color:#f0b000;
+	text-align: center;
+	padding: 5px;
+	text-shadow:none;
+}
+
+.gf-table th a {color:#875e00}
+
+.mw-templatedata-doc-wrap .mw-templatedata-doc-params > tbody > tr > td,
+.gf-table > tbody > tr > td {
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 5px;
+}
+
+
+.gf-table-lightcell > tbody > tr > td {
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.gf-table-layered > tbody > tr > td {
+	background: rgba(0, 0, 0, 0.3);
+	color:rgb(200,200,200);
+}
+
+.gf-table-layered > tbody > tr > th {
+	color:white;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.gf-table-darkcell > tbody > tr > td {
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.mw-templatedata-doc-wrap .mw-templatedata-doc-params {
+    color: white;
+    color: rgba(250,250,250,1);
+    text-shadow: 0 0 0.2em black,0 0 0.2em black;
+}
+
+.mw-templatedata-doc-wrap table.wikitable {
+    border: none;
+    border-collapse: separate;
+    background-color: transparent;
+}
+.mw-templatedata-doc-wrap table.wikitable > * > tr > th,
+.mw-templatedata-doc-wrap table.wikitable > * > tr > td {
+	border: none;
+}
+.mw-templatedata-format {
+	font-weight: normal;
+}
+
+/* === General button style === */
+button.gf-button {
+  padding: 3px 6px;
+  margin: 2px 2px;
+  border-radius: 15px;
+  border: thin solid transparent;
+  text-shadow:none;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 1em;
+  background-color:#4E443C;
+  color:#F0b000;
+
+  -moz-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  opacity:0.5;
+}
+
+button.gf-button.enabled {
+  border: thin solid #F0b000;
+  opacity:0.75;
+}
+
+button.gf-button.active {
+  color:#4E443C;
+  background-color:#F0b000;
+  border-radius: 15px;
+  border: none;
+  text-shadow:none;
+  opacity:1;
+}
+
+button.gf-button:hover {
+  opacity:1;
+}
+
+button.gf-button:disabled,
+button.gf-button:disabled:hover {
+  color:#a2a2a2;
+  opacity:0.75;
+}
+
+/* === equipment === */
+.greenrow > td {color:green}
+.redrow > td {color:red}
+
+/* === For droplists on T-Doll pages === */
+.skill {
+	background-color:#f0b000;
+	width:60px;
+	height:21px;
+	text-align:center;
+	border:none;
+	color:rgb(63,63,63);
+}
+
+/* === Documentational stuff === */
+.testcasetable {
+  width: 100%;
+}
+
+.testcasetable th,
+.gf-table.testcasetable th {
+  background: rgba(50,50,50,0.5);
+  text-align: left;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: lightgray;
+}
+
+.testcasetable td {
+  width: 100%;
+}
+
+.testcasetable .testcasedescription {
+	width: 100%;
+}
+
+.mw-templatedata-doc-wrap .mw-templatedata-doc-params > tbody > tr > td.mw-templatedata-doc-param-status-required,
+table > tbody > tr > td.cell-yes,
+table > tbody > tr > td.cell-no {
+  color: white;
+  vertical-align: middle;
+  text-align: left;
+}
+
+.mw-templatedata-doc-wrap .mw-templatedata-doc-params > tbody > tr > .mw-templatedata-doc-param-type + td.mw-templatedata-doc-param-status-required,
+table > tbody > tr > td.cell-yes {
+  background-color:#AB8C63;
+}
+
+.mw-templatedata-doc-wrap .mw-templatedata-doc-params > tbody > tr > .mw-templatedata-doc-param-type + td,
+table > tbody > tr > td.cell-no {
+  background-color:#67718A;
+}
+
+.mw-templatedata-doc-wrap dt {
+  float: left;
+  clear: left;
+  margin-right: 5px;
+}
+
+.navbox {
+  position: relative;
+  border: thin solid lightgray;
+  width: 100%;
+  margin: 1em auto 0;
+  background: rgba(0,0,0,0.5);
+  box-sizing: border-box;
+}
+
+.navbox + .navbox {
+    margin-top: -1px;
+}
+
+/* === Only style the navbox headers, not the childs of childs === */
+.navbox>tr>th,
+.navbox>tbody>tr>th,
+.navbox>thead>tr>th {
+  background: rgba(255,255,255,0.5);
+  border: none;
+  color: white;
+}
+
+.navbox th .navboxpopularizer {
+  float: right;
+  padding: 0 1em;
+}
+
+.navbox .navboxlist {
+  border: none;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(0,0,0,0.5);
+}
+
+.navboxlist table,
+.navboxlist-table {
+  border: none;
+  width: 100%;
+  background: rgba(0,0,0,0.0);
+}
+
+.navboxlist table .navboxlist-oddrow,
+.navboxlist-table .navboxlist-oddrow {
+  background: linear-gradient(115deg,rgba(100,100,100,0.2) 0%, transparent 100%);
+}
+
+/* === Definition for tooltips === */
+.tooltip {
+  position: relative;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: gray;
+}
+
+.tooltip .tooltipcontainer {
+    visibility: hidden;
+    width: 300px;
+
+    /* === Position the tooltip === */
+    position: absolute;
+    z-index: 1;
+
+    bottom: 100%;
+    left: 50%;
+    margin-left: -150px; /* === Use half of the width, to center the tooltip === */
+}
+
+.tooltip .tooltiptext {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color:#222222;
+  background-clip:content-box;
+  color: lightgray;
+  padding: 17px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.tooltiptext .tooltiptext-content {
+  margin: 17px;
+  margin-bottom: 20px;
+}
+.tooltiptext-corners {
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+    background:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAlCAYAAAAqXEs9AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAB3RJTUUH4gkQDhoCnuyTOgAAAqpJREFUWMPFmL2O00AUhc/4J469kDjJFlQ0CIUCiQeg5BXS0RDyCLwCEmIlXgBRpSZbUNDvNjQ020UrSkSklTYbR0mcxT+XImPixDOOvRs7I0WR7LHn073n3LljBvHQAJj8v9TBBNdqHIRwgBEHUgHYAEIccLBYigzHcd6HYXib9eGrq6thu90+BaBkiHwuoIcA5kQU5Hl44jinDdt+x6Mbf+dcAjXfBXsv8eqK0ur3+891XVezzA+CgDHGdkaoyQXsbEVomUHYIX/H3gwgddP5+c8/Jycfm6qqluo2aapMs9q4uPhBlYpRqsuUlHsHqUMFVWLKUYc3n9GKgTkWQC24T6SeBVDPD8QYcDNTSOZeIoJtgYFtAx1xKJlKfABOfqCbmULX33814UomGMCzN+bYcw2WrBA2ACcldf7dIgSXRz+UVCbfB1AVpE0FUE+FuruGQsB63b4+0gK2LaGa9ZetFq1LoEypnuJADwaDwavRaOT3er1PAJ7sYjrWAqaboST+AeRQFgCPz5EDqZ1OZwhA6Xa7i/04LuBCNgVOjFIXZC6MexquMBJrKLVsICaMxBpqsycsASiCmkiWi8oBlQkULTWR2F39L/5t23ur0raP7YMJRW7XxvS4AYsSpZwAhEKg6v1hbGk0XjxaVF4+dWllfSprt9f4Lynks0vLO7u0vHiaSnCZ2NLJzdTP1aAVDMUOURjzQ4k05GVdy6ovyUycAULMPcYCn7agpsIUraFWJ3hNcDcTECnA8PPvlqgfar9tjeHH+yHi+9lUUg6inqaW32VVnfDlW3156zFh41zRiGmeLoiFtqMX8gFM8wMZOrEPX1tu+qwZk/dC6VAFiTpIWVQVtCOluCwNypI6r2Db+xJnyctBwUC7eqEkVAnfECMoS3KiNTY+G/0Dnsrgv/SoxVYAAAAASUVORK5CYII='),  url('data:image/png;base64,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'),  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAB3RJTUUH4gkQDhgL1QZJHAAAAaVJREFUOMu1lT1P20AYx39nX5xLAlYxEgtDkceCxEC7MvIl+jEy8JXoABII9WN0QWJgapTBDBGBAOnFL7kOdlKH+BIS1L90Op3l5+fn5Z7HIgy/PFCpBMiw6eDgG5eXZ97F+fn303b7l9dqpf1+P42iKJXgAW6FWRN4BMYs0mazydHhYc0oVet2uzqKotSBJ4uhAbaWQoda8xjHGGOmzxwQQJ98f6sx4FsiyfWqNfedDs4sdLI9W8A1QBWez4ezEwT+8clJ8PuuY7KnPCoRhmGpUB7QsvgUA6/T0/7+V3N19SOYnIUQYkO6n17STDjzhsNqpvCK4lnlvKSZKIVflq42UUCzDjRYpgqoAB5m89sooHWg0bDldxF0Ah7+81CVPTagtheCpf17Ol/alpFwVU8/pv8ClUkSr2WYJIm2Qm9ubufbxCwpb/6WtR4yjvX1LNCYIAiOpZR7a0Y/AtgDPpfWbq/X+2lWVFGfbUDIYmh65XQppbw1PDTF5TaiGJpTua5LlmUjIF2F6Pt+fTAYPE9aZ+uDN0gU42v0jo56380C/rz9mf0F/562M0QxvvYAAAAASUVORK5CYII='),   url('data:image/png;base64,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');
+    background-attachment: local;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: top left, top right, bottom right, bottom left;
+    }
+.tooltiptext-borders-l {
+  position: absolute;
+  top: 30px;
+  bottom: 40px;
+  left: 0;
+  width: 20px;
+  background:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAACCAYAAACt+Hc7AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAB3RJTUUH4gkQDhowVjvCugAAAChJREFUCNdjZGBgEGRABZyfP39eePHiTeO4uDAGLPIkAyYsYmwMVAYAIvkHb69H/GoAAAAASUVORK5CYII=');
+  background-repeat: repeat-y;
+  background-position: top left;
+}
+.tooltiptext-borders-r {
+  position: absolute;
+  top: 30px;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  background:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAACCAYAAACt+Hc7AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAB3RJTUUH4gkQDhof/er/4wAAACpJREFUCNdjVFJS+s9AOXi/aNEqBn199bO8vLzxDAwM35ElmRioD9jQBQDWZwcb/aOfmQAAAABJRU5ErkJggg==');
+  background-repeat: repeat-y;
+  background-position: top right;
+}
+.tooltiptext-borders-t {
+  position: absolute;
+  top: 0;
+  left: 36px;
+  right: 103px;
+  height: 38px;
+  background:   url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAnCAYAAAAy9QloAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAB3RJTUUH4gkQDhoP4F3vhwAAAOhJREFUOMu1lMsNwjAQRJ9NSFAACVIBpAIOtJQKqCHVUBsRB5QPEjaHxJCP7RwQK/n2tLszO7IA9nhKMlO/AwGgvUCe5ycfILTWpbdDll1qb4c0TYu/y0xsk4Gb6aA6K/pPAbEBKkfzCIiR0AClE+qWdEM9FQ22cSOZVafACRh5wmfUEHI4KT77BG6TO+ClhOcSNUJf0b7QicPxXIw3H1xTCk170cIK9VQk1oCPZO4mkJzy0Vzk1kA4l8kNsDTA0wJoYAuESHjghlbI72FsRi3MDgq4zxllh0YqVG9c+wJ7DsrBD+NIVFtvbtw4Rw1j9KMAAAAASUVORK5CYII=');
+  background-repeat: repeat-x;
+  background-position: top left;
+}
+.tooltiptext-borders-b {
+  position: absolute;
+  bottom: 1px;
+  left: 130px;
+  right: 20px;
+  height: 20px;
+  background:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAVCAYAAABPPm7SAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAB3RJTUUH4gkQDhkdOMnNDAAAALdJREFUOMvNlMsOwiAQRQ+1Nmo0UT+hS7/f7yJojFaI4qKQaMPQNmy8GxZMztx5gGrbkyYpB7wYUw0NsEhcbQADvLOACi5CkAf2fUgeoDKZPLAOpwiAHvII51ANsBMhX/4scBPyLIHtGCBC7gKkCeVkAQDPUE5KkwAAnQDxwPGnH5kZSU2NkFVcJEkK0KObWFGoYkDtnC0CKGOuusiBtd25yEGYyRTF5+mHgMOMhD7xocx2/Gd78AFOSyj+CS+viAAAAABJRU5ErkJggg==');
+  background-repeat: repeat-x;
+  background-position: top left;
+}
+
+/* === New Tooltip engine === */
+#tooltip {
+	position: absolute;
+	z-index: 999;
+	font-size: 0.875em;
+	line-height: 1.6;
+}
+
+.tooltip-inline .tooltip-content.uninitialized {
+	display: none;
+}
+
+#description {
+	overflow-y:auto;	
+}
+
+.loading .chibiAnimationClickArea,
+.loading {
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: bottom right;
+    background-size: 50px;
+}
+
+.loading2 {
+  background-image: url("/images/5/5e/gf_loading2.gif");
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: bottom right;
+  background-size: 18px;
+}
+
+.enemyname {
+  color:#FF0012;
+  text-shadow: 0px 0px 3px #EC5151;
+  display: inline-block;
+}
+
+.enemyname.boss {
+  /* === background-image: url('https://iopwiki.com/images/url('/images/1/1e/Boss_Icon_Small.png');=== */ 
+  background-image: url('');
+  background-size: 12px;
+  background-repeat: no-repeat;
+  padding-left: 14px;
+  background-position-y: 3px;
+  background-position-x: 0;
+}
+
+/* === PNC specifics =========================== === */
+
+/* === Character index === */
+.pnc-index-entry {
+	position: relative;
+	display: inline-block;
+	height: 250px;
+	width: 128px;
+	overflow: hidden;
+	margin-right: 20px;
+	border-radius: 5px;
+}
+.pnc-index-entry .file {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.pnc-index-entry .card {
+	position: absolute;
+	top: 14px;
+	left: 2px;
+	width: 124px;
+}
+.pnc-index-entry .back {
+	position: absolute;
+	top: 20px;
+	left: 0px;
+}
+.pnc-index-entry .hero {
+	position: absolute;
+	top: 0px;
+	left: 1px;
+	width: 126px;
+}
+.pnc-index-entry .front {
+	position: absolute;
+	bottom: 0px;
+}
+.pnc-index-entry .company {
+	position: absolute;
+	top: 12px;
+	left: 40px;
+	width: 120px;
+	opacity: 20%;
+}
+.pnc-index-entry .rarity {
+	position: absolute;
+	bottom: 32px;
+	left: 4px;
+	height: 16px;
+}
+.pnc-index-entry .name {
+	position: absolute;
+	bottom: 10px;
+	left: 8px;
+	width: 120px;
+	color: lightgray;
+	font-size: 20px;
+}
+.pnc-index-entry .heroclass {
+	position: absolute;
+	top: 15px;
+	left: 4px;
+	width: 16px;
+}
+
+/* === Удаление иконок === */
+/* ==== Недавняя вики-деятельность, рельса ==== */
+.rail-module__header .wds-icon {
+    display: none;
+}
+
+/* ==== Содержание, статья ==== */
+.toc .toctitle h2 .wds-icon + .wds-icon {
+  display: none;
+}
+
+/* === Заглавная === */
+/* ==== Скрывает категории на заглавной странице ==== */
+.mainpage .article-categories, .mainpage .page-footer__categories {
+    display: none;
+}
+
+/* === Оформление профилей === */
+/* ==== HIHRAIM ==== */
+a[href$="/HIHRAIM"],
+a[href$=":HIHRAIM"] {
+    color:#666666; text-shadow: 0 0 10px rgba(20, 20, 20) !important;
+}
+
+a[href$=":HIHRAIM"] ~ .EntityHeader_middot__2f4XC:after {
+    content: "Главный администратор";
+    background: rgba(20, 20, 20);
+    padding: 3px;
+    border-radius: 5px;
+    margin-left:4px;
+    font-size: 12px;
+    color:#ffffff;
+}
+
+/* === Подстветка синтаксисов (Изменённый скрипт SolarizedSyntaxHighlight) === */
+.page pre {
+	border: 2px solid #0004;
+	padding: 8px 12px;
+	max-width: 100%;
+	line-height: 1.2em;
+	-webkit-overflow-scrolling: touch;
+}
+
+.page .mw-highlight pre {
+	color:#839496;
+}
+
+.theme-fandomdesktop-light .mw-highlight pre {
+	background-color:#ffffff;
+}
+
+.theme-fandomdesktop-dark .mw-highlight pre {
+	background-color:#2f2f2f;
+}
+
+/* ==== SYNTAX HIGHLIGHTING ==== */
+/* ===== HTML & CSS ===== */
+.mediawiki .mw-highlight .p  {color:#93a1a1;} /* punctuation CSS . # : { : ; } ( , ) HTML < / > */
+.mediawiki .mw-highlight .o  {color:#93a1a1;} /* punctuation CSS -- ( : ) [ = ] HTML = */
+.mediawiki .mw-highlight .c  {color:#586e75;font-style:italic;} /* HTML/CSS comment    */
+.mediawiki .mw-highlight .cp {color:#dc322f;} /* CSS !important  HTML <!DOCTYPE>       */
+.mediawiki .mw-highlight .nt {color:#268bd2;font-weight:bold;} /* html tag name (body, div), after @-rule*/
+
+/* ===== HTML ===== */
+.mediawiki .mw-highlight .na {color:#6c71c4;} /* attribute (id, class,...)    */
+.mediawiki .mw-highlight .s  {color:#2aa198;} /* attribute "value"            */
+.mediawiki .mw-highlight .ni {color:#b58900;} /* special character (&...;)    */
+
+/* ===== CSS ===== */
+.mediawiki .mw-highlight .n  {color:#93a1a1;} /* unrecognized syntax          */
+.mediawiki .mw-highlight .nn {color:#d33682;text-shadow:0 0 #d33682;} /* id   */
+.mediawiki .mw-highlight .nc {color:#6c71c4;} /* class                        */
+.mediawiki .mw-highlight .nd {color:#268bd2;} /* pseudo-class (hover, before) */
+.mediawiki .mw-highlight .nb {color:#2aa198;} /* text value (solid, hidden)   */
+.mediawiki .mw-highlight .kc {color:#2aa198;} /* text value (rgba, hsl, url)  */
+.mediawiki .mw-highlight .k  {color:#859900;} /* propertie, @-rule (@media)   */
+.mediawiki .mw-highlight .kp {color:#859900;font-style:italic;} /* -webkit-   */
+.mediawiki .mw-highlight .kp+.k {font-style:italic;} /* webkit propertie      */
+.mediawiki .mw-highlight .mh {color:#d33682;} /* hex color (#..)              */
+.mediawiki .mw-highlight .mi {color:#b58900;} /* numeric values               */
+.mediawiki .mw-highlight .mf {color:#d33682;} /* decimal numeric values (0.5) */
+.mediawiki .mw-highlight .kt {color:#b58900;} /* size unit (px, in)           */
+.mediawiki .mw-highlight .s2 {color:#cb4b16;} /* [...="value"]                */
+.mediawiki .mw-highlight .sx {color:#cb4b16;font-style:italic;} /* media link */
+.mediawiki .mw-highlight .nf {color:#cb4b16;font-weight:bold;} /* --var       */
+
+/* === Скроллбар (полоса прокрутки. Изменённый скрипт BalancedScrollbar) === */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--theme-page-background-color--secondary);
+}
+::-webkit-scrollbar-thumb {
+  background:#ffcc00;
+}
+::-webkit-scrollbar-thumb:hover {
+  background:#ffcc00;
+}
+
+/* ==== Firefox ==== */
+:root {
+  scrollbar-color:#ffcc00 var(--theme-page-background-color--secondary);
+  scrollbar-width: thin;
+}
+
+/* === Прозрачный фон статьи === */
+.page__main {
+    background-color: rgba(var(--theme-page-background-color--rgb),0.9);
+}
