@@ -1,0 +1,10 @@
+<includeonly>{| class="charactertabber" cellspacing="0" cellpadding="0" border="0"
+|-
+|class="{{#ifeq:{{SUBPAGENAME}}|{{ROOTPAGENAME}}|active}}"|[[{{ROOTPAGENAME}}]]<!--
+-->{{#ifexist:{{ROOTPAGENAME}}/Стратегия|{{!}}{{!}}class="{{#ifeq:{{SUBPAGENAME}}|Стратегия|active}}"{{!}}[[{{ROOTPAGENAME}}/Стратегия|Стратегия]]}}<!--
+-->{{#ifexist:{{ROOTPAGENAME}}/История|{{!}}{{!}}class="{{#ifeq:{{SUBPAGENAME}}|История|active}}"{{!}}[[{{ROOTPAGENAME}}/История|История]]}}<!--
+-->{{#ifexist:{{ROOTPAGENAME}}/Ассимилированный|{{!}}{{!}}class="{{#ifeq:{{SUBPAGENAME}}|Ассимилированный|active}}"{{!}}[[{{ROOTPAGENAME}}/Ассимилированный|Ассимилированный]]}}<!--
+-->{{#ifexist:{{ROOTPAGENAME}}/Цитаты|{{!}}{{!}}class="{{#ifeq:{{SUBPAGENAME}}|Цитаты|active}}"{{!}}[[{{ROOTPAGENAME}}/Цитаты|Цитаты]]}}<!--
+-->{{#ifexist:{{ROOTPAGENAME}}/Live2D|{{!}}{{!}}class="{{#ifeq:{{SUBPAGENAME}}|Live2D|active}}"{{!}}[[{{ROOTPAGENAME}}/Live2D|Live2D]]}}
+|class="filler"|
+|}</includeonly>
