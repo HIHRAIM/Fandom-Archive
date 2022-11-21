@@ -1,0 +1,88 @@
+{{PlayableUnit
+|index = 5
+|nationality = Russian Empire
+|classification = HG
+|rarity = 2
+|faction = [[Griffin & Kryuger]]
+|manufactureringame = [[I.O.P.]]
+|manufacturer = Fabrique d'armes Émile et Léon Nagant, Tula, Izhevsk, Państwowa Fabryka Karabinów
+|artist = {{artist name|X布}}
+|fullname = Nagant M1895 Revolver
+|voiceactor = {{voice actor name|Shinohara Narumi}}
+|releasedon = {{doll_server_alias|server=CN|alias=纳甘左轮}}, {{doll_server_alias|server=TW|alias=納甘左輪}}, {{doll_server_alias|server=KR|alias=나강 리볼버}}, {{doll_server_alias|server=EN|alias=M1895}}, {{doll_server_alias|server=JP|alias=M1895}}
+
+| weaponinfo =
+The Nagant M1895 is a seven-shot revolver designed and produced by Belgian industrialist Léon Nagant for the Russian Empire. The Nagant revolver was chambered for a proprietary 7.62×38mmR cartridge, and featured an unusual "gas-seal" system, in which the cylinder moved forward when the gun was cocked, to close the gap between the cylinder and the barrel, providing a boost to the muzzle velocity of the fired projectile and allowing the weapon to be suppressed (an unusual ability for a revolver).<ref name= "wiki">[[wikipedia:Nagant M1895|Wikipedia entry on Nagant M1895]]</ref>
+
+|min_dmg=11
+|max_dmg=32
+|min_eva=11
+|max_eva=92
+|min_acc=6
+|max_acc=46
+|min_rof=29
+|max_rof=44
+|min_hp=35
+|max_hp=70
+|mov=15
+
+|moddable=1
+|mod1_max_hp=71
+|mod1_max_dmg=35
+|mod1_max_acc=47
+|mod1_max_eva=98
+|mod1_max_rof=45
+|mod2_max_dmg=35
+|mod2_max_acc=48
+|mod2_max_eva=99
+|mod2_max_rof=45
+|mod3_max_hp=72
+|mod3_max_dmg=35
+|mod3_max_acc=48
+|mod3_max_eva=100
+|mod3_max_rof=45
+
+|noheavycraft=1
+|craft=0:20:00
+|drop= Can be obtained from any battle stage
+|reward=Upon creating a new profile, players will start with Nagant Revolver, along with 2 other HG's
+
+|aura1= Affects all guns
+|aura2= Increases damage by {{HG aura|32}}
+|aura3= Increases critical rate by {{HG aura|16}}
+|mod1_aura1= Affects all guns
+|mod1_aura2= Increases damage by {{HG aura|36}}
+|mod1_aura3= Increases critical rate by {{HG aura|20}}
+|tile2= 1
+|tile4= 1
+|tile8= 1
+|tile5= 0
+
+|costume1 = [Digimind Upgrade]
+|costume2 = Starry Reins
+|costume3 = Blushing Snow Princess
+|costume4 = Cream in the Nebula
+
+|gallery=<gallery>
+File:Nagant Revolver_S.png|Profile image
+File:Nagant Revolver.png|Full artwork
+File:Nagant Revolver_D.png|Full damaged artwork
+File:Nagant Revolver_costume1_S.png|Digimind Upgrade profile image
+File:Nagant Revolver_costume1.png|Digimind Upgrade full artwork
+File:Nagant Revolver_costume1_D.png|Digimind Upgrade full damaged artwork
+File:Nagant Revolver_costume2.png|"Starry Reins" full artwork
+File:Nagant Revolver_costume2_D.png|"Starry Reins" full damaged artwork
+File:Nagant Revolver_costume3.png|"Blushing Snow Princess" full artwork
+File:Nagant Revolver_costume3_D.png|"Blushing Snow Princess" full damaged artwork
+File:Nagant Revolver_costume4.png|"Cream in the Nebula" full artwork
+File:Nagant Revolver_costume4_D.png|"Cream in the Nebula" full damaged artwork
+</gallery>
+
+|galleryAlt=<gallery>
+File:Night in the Galaxy Login Wallpaper.png|"Night in the Galaxy" Login wallpaper illustrated by 黒井ススム
+</gallery>
+
+| trivia =*Speaks in an old, Russian accent.
+*On the EN server version of '''Girls' Frontline''', this gun's name was changed to ''M1895'', to avoid copyright issues.
+*Nagant Revolver wanting to drink milk to grow taller is a stereotype popularized in anime, where female characters believe drinking milk will help their breasts grow larger.
+}}
