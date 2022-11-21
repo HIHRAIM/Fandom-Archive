@@ -1,0 +1,379 @@
+<includeonly>{{CharacterTabber}}
+{| class="floatright profiletable {{#ifeq:{{{classification|}}}|boss|boss}}" style="color:white;border-style:none;width:350px;margin-left:10px;" cellpadding="5" cellspacing="0"
+|- [[EXTRAstar2.png|90px]]
+| colspan= 2 style="background-color:rgba(0,0,0,0.5);text-align:center"| {{Profileimage|rarity={{{rarity|}}}|classification={{{classification|}}}|dollname={{ROOTPAGENAME}}|index={{{index|}}}}}
+|-
+! colspan= 2 style="font-size:125%;background-color:#f0b000"|Gun Information
+|- style="background-color:rgba(0,0,0,0.5);"
+! Full name 
+| {{{fullname|{{BASEPAGENAME}}}}}
+|- style="background-color:rgba(0,0,0,0.5);"
+! Country of origin
+| {{{nationality|Unknown/Multiple}}}
+|- style="background-color:rgba(0,0,0,0.5);"
+! Manufacturer
+| {{{manufacturer|Unknown}}}
+|-
+! colspan= 2 style="font-size:125%;background-color:#f0b000"|Game Information
+|- style="background-color:rgba(0,0,0,0.5);"
+! Faction
+| {{{affiliation|{{{faction|Unknown/None}}}}}}
+|-
+{{#if:{{{manufactureringame|}}}|{{!}}- style="background-color:rgba(0,0,0,0.5);"
+! Manufactured&nbsp;/<br/>Revised by
+{{!}} {{{manufactureringame|}}}
+{{!}}-
+}}
+|- style="background-color:rgba(0,0,0,0.5);"
+! Voice actor
+| {{#if:{{{voiceactor|}}}|{{{voiceactor|}}}|-TBA-}}
+|-
+|- style="background-color:rgba(0,0,0,0.5);"
+! Artist
+| {{#if:{{{artist|}}}|{{{artist|}}}|Unknown}}
+|-
+|- style="background-color:rgba(0,0,0,0.5);"
+! Released on
+| {{#if:{{{releasedon|}}}|{{{releasedon|}}}|Not released yet}}
+{{#ifeq:{{{hasChibiAnimation|}}}|0||
+{{!}}-
+! colspan=2 style="font-size:125%;background-color:#f0b000"{{!}}Chibi Animation
+{{!}}- style="background-color:rgba(0,0,0,0.5);"
+{{!}}colspan=2{{!}}Variant:{{#widget:chibiCostumeSwitcher
+|target=enemyChibiAnimation
+|costumes.costume1={{{costume1|}}}
+|costumes.costume2={{{costume2|}}}
+|costumes.costume3={{{costume3|}}}
+|costumes.costume4={{{costume4|}}}
+|costumes.costume5={{{costume5|}}}
+|costumes.costume6={{{costume6|}}}
+|costumes.costume7={{{costume7|}}}
+|costumes.costume8={{{costume8|}}}
+|costumes.costume9={{{costume9|}}}}}
+<span class="notification">Click the marked area to switch between animations. For details regarding animations, please see [[Animations on the Wiki]].</span>
+<div id="enemyChibiAnimation" class="chibiAnimationContainer" data-tdoll-id="{{ROOTPAGENAMEE}}"></div>
+}}
+|}
+{{{summary|}}}
+__TOC__
+== How to obtain ==
+{{HowToObtainDoll
+|notnormal{{#if:{{{nonormalcraft|}}}||NULL}}={{{nonormalcraft}}}
+|notheavy{{#if:{{{noheavycraft|}}}||NULL}}={{{noheavycraft}}}
+|timer{{#if:{{{craft|}}}||NULL}}={{{craft|}}}
+|drop{{#if:{{{drop|}}}||NULL}}={{{drop|}}}
+|reward{{#if:{{{reward|}}}||NULL}}={{{reward|}}}}}
+== Exclusive Equipment ==
+{{#dpl:
+   category    =Exclusive Equipments
+ | notnamespace=Category
+ | notnamespace=Template
+ | linksto     ={{FULLPAGENAME}}
+ | includepage ={Equipment{{!}}EquipmentNamedCard}
+ | noresultsheader=There is no exclusive equipment for this T-Doll.
+ | listseparators=&#32; 
+}}
+== Stats / Data ==
+{{#vardefine:skilldataraw|{{#ifexist:{{ROOTPAGENAME}}/skilldata|{{:{{ROOTPAGENAME}}/skilldata}}}}}}{{#vardefine:skill2dataraw|{{#ifexist:{{ROOTPAGENAME}}/skill2data|{{:{{ROOTPAGENAME}}/skill2data}}}}}}{{#vardefine:skilldatamod1raw|{{#ifexist:{{ROOTPAGENAME}}/skilldata/mod1|{{:{{ROOTPAGENAME}}/skilldata/mod1}}}}}}<div class="upgradeablestattable"><div class="header">Stats</div><div class="stattabcontainer">{{#if:{{{mod3_max_hp|}}}|{{#tag:tabber|
+Base={{SimpleStatTable
+|classification={{{classification|}}}
+|nosecondskill=1
+|skilldataraw={{#if:provokingTheParser|<div>{{#var:skilldataraw}}</div>}}
+|tile1={{{tile1|}}}
+|tile2={{{tile2|}}}
+|tile3={{{tile3|}}}
+|tile4={{{tile4|}}}
+|tile5={{{tile5|}}}
+|tile6={{{tile6|}}}
+|tile7={{{tile7|}}}
+|tile8={{{tile8|}}}
+|tile9={{{tile9|}}}
+|aura1={{{aura1|}}}
+|aura2={{{aura2|}}}
+|aura3={{{aura3|}}}
+|aura4={{{aura4|}}}
+|slot1={{{slot1|accessory}}}
+|slot2={{{slot2|magazine}}}
+|slot3={{{slot3|doll}}}
+|use_Telescopic_Sight{{#if:{{{use_Telescopic_Sight|}}}||NULL}}={{{use_Telescopic_Sight}}}
+|use_Holographic_Sight{{#if:{{{use_Holographic_Sight|}}}||NULL}}={{{use_Holographic_Sight}}}
+|use_Red_Dot_Sight{{#if:{{{use_Red_Dot_Sight|}}}||NULL}}={{{use_Red_Dot_Sight}}}
+|use_Night_Combat_Equipment{{#if:{{{use_Night_Combat_Equipment|}}}||NULL}}={{{use_Night_Combat_Equipment}}}
+|use_Silencer{{#if:{{{use_Silencer|}}}||NULL}}={{{use_Silencer}}}
+|use_Armor-Piercing_Ammo{{#if:{{{use_Armor-Piercing_Ammo|}}}||NULL}}={{{use_Armor-Piercing_Ammo}}}
+|use_Status_Ammo{{#if:{{{use_Status_Ammo|}}}||NULL}}={{{use_Status_Ammo}}}
+|use_Shotgun_Ammo{{#if:{{{use_Shotgun_Ammo|}}}||NULL}}={{{use_Shotgun_Ammo}}}
+|use_High_Velocity_Ammo{{#if:{{{use_High_Velocity_Ammo|}}}||NULL}}={{{use_High_Velocity_Ammo}}}
+|use_Exoskeleton{{#if:{{{use_Exoskeleton|}}}||NULL}}={{{use_Exoskeleton}}}
+|use_Ballistic_Plate{{#if:{{{use_Ballistic_Plate|}}}||NULL}}={{{use_Ballistic_Plate}}}
+|use_Camo_Cape{{#if:{{{use_Camo_Cape|}}}||NULL}}={{{use_Camo_Cape}}}
+|use_Ammo_Box{{#if:{{{use_Ammo_Box|}}}||NULL}}={{{use_Ammo_Box}}}
+|use_exclusive{{#if:{{{use_exclusive|}}}||NULL}}={{{use_exclusive}}}
+|min_dmg={{{min_dmg|}}}
+|max_dmg={{{max_dmg|}}}
+|min_eva={{{min_eva|}}}
+|max_eva={{{max_eva|}}}
+|min_acc={{{min_acc|}}}
+|max_acc={{{max_acc|}}}
+|min_rof={{{min_rof|}}}
+|max_rof={{{max_rof|}}}
+|min_hp={{{min_hp|}}}
+|max_hp={{{max_hp|}}}
+|min_armor={{{min_armor|}}}
+|max_armor={{{max_armor|}}}
+|crit={{{crit|}}}
+|clipsize={{{clipsize|}}}
+|mov={{{mov|}}}
+|penetration{{#if:{{{penetration|}}}||NULL}}={{{penetration|}}}}}
+{{!}}-{{!}}
+Mod1={{SimpleStatTable
+|classification={{{classification|}}}
+|nosecondskill=1
+|skilldataraw={{#if:provokingTheParser|<div>{{#var:skilldatamod1raw}}</div>}}
+|tile1={{{mod1_tile1|{{{tile1|}}}}}}
+|tile2={{{mod1_tile2|{{{tile2|}}}}}}
+|tile3={{{mod1_tile3|{{{tile3|}}}}}}
+|tile4={{{mod1_tile4|{{{tile4|}}}}}}
+|tile5={{{mod1_tile5|{{{tile5|}}}}}}
+|tile6={{{mod1_tile6|{{{tile6|}}}}}}
+|tile7={{{mod1_tile7|{{{tile7|}}}}}}
+|tile8={{{mod1_tile8|{{{tile8|}}}}}}
+|tile9={{{mod1_tile9|{{{tile9|}}}}}}
+|aura1={{{mod1_aura1|{{{aura1|}}}}}}
+|aura2={{{mod1_aura2|{{{aura2|}}}}}}
+|aura3={{{mod1_aura3|{{{aura3|}}}}}}
+|aura4={{{mod1_aura4|{{{aura4|}}}}}}
+|slot1={{{slot1|accessory}}}
+|slot2={{{slot2|magazine}}}
+|slot3={{{slot3|doll}}}
+|use_Telescopic_Sight{{#if:{{{use_Telescopic_Sight|}}}||NULL}}={{{use_Telescopic_Sight}}}
+|use_Holographic_Sight{{#if:{{{use_Holographic_Sight|}}}||NULL}}={{{use_Holographic_Sight}}}
+|use_Red_Dot_Sight{{#if:{{{use_Red_Dot_Sight|}}}||NULL}}={{{use_Red_Dot_Sight}}}
+|use_Night_Combat_Equipment{{#if:{{{use_Night_Combat_Equipment|}}}||NULL}}={{{use_Night_Combat_Equipment}}}
+|use_Silencer{{#if:{{{use_Silencer|}}}||NULL}}={{{use_Silencer}}}
+|use_Armor-Piercing_Ammo{{#if:{{{use_Armor-Piercing_Ammo|}}}||NULL}}={{{use_Armor-Piercing_Ammo}}}
+|use_Status_Ammo{{#if:{{{use_Status_Ammo|}}}||NULL}}={{{use_Status_Ammo}}}
+|use_Shotgun_Ammo{{#if:{{{use_Shotgun_Ammo|}}}||NULL}}={{{use_Shotgun_Ammo}}}
+|use_High_Velocity_Ammo{{#if:{{{use_High_Velocity_Ammo|}}}||NULL}}={{{use_High_Velocity_Ammo}}}
+|use_Exoskeleton{{#if:{{{use_Exoskeleton|}}}||NULL}}={{{use_Exoskeleton}}}
+|use_Ballistic_Plate{{#if:{{{use_Ballistic_Plate|}}}||NULL}}={{{use_Ballistic_Plate}}}
+|use_Camo_Cape{{#if:{{{use_Camo_Cape|}}}||NULL}}={{{use_Camo_Cape}}}
+|use_Ammo_Box{{#if:{{{use_Ammo_Box|}}}||NULL}}={{{use_Ammo_Box}}}
+|use_exclusive{{#if:{{{use_exclusive|}}}||NULL}}={{{use_exclusive}}}
+|min_dmg={{{mod1_min_dmg|{{{min_dmg|}}}}}}
+|max_dmg={{{mod1_max_dmg|{{{max_dmg|}}}}}}
+|min_eva={{{mod1_min_eva|{{{min_eva|}}}}}}
+|max_eva={{{mod1_max_eva|{{{max_eva|}}}}}}
+|min_acc={{{mod1_min_acc|{{{min_acc|}}}}}}
+|max_acc={{{mod1_max_acc|{{{max_acc|}}}}}}
+|min_rof={{{mod1_min_rof|{{{min_rof|}}}}}}
+|max_rof={{{mod1_max_rof|{{{max_rof|}}}}}}
+|min_hp={{{mod1_min_hp|{{{min_hp|}}}}}}
+|max_hp={{{mod1_max_hp|{{{max_hp|}}}}}}
+|min_armor={{{mod1_min_armor|{{{min_armor|}}}}}}
+|max_armor={{{mod1_max_armor|{{{max_armor|}}}}}}
+|crit={{{mod1_crit|{{{crit|}}}}}}
+|clipsize={{{mod1_clipsize|{{{clipsize|}}}}}}
+|mov={{{mod1_mov|{{{mov|}}}}}}
+|penetration{{#if:{{{mod1_penetration|{{{penetration|}}}}}}||NULL}}={{{mod1_penetration|{{{penetration|}}}}}}}}
+{{!}}-{{!}}
+Mod2={{SimpleStatTable
+|classification={{{classification|}}}
+|skilldataraw={{#if:provokingTheParser|<div>{{#var:skilldatamod1raw}}</div>}}
+|skill2dataraw={{#if:provokingTheParser|<div>{{#var:skill2dataraw}}</div>}}
+|tile1={{{mod2_tile1|{{{mod1_tile1|{{{tile1|}}}}}}}}}
+|tile2={{{mod2_tile2|{{{mod1_tile2|{{{tile2|}}}}}}}}}
+|tile3={{{mod2_tile3|{{{mod1_tile3|{{{tile3|}}}}}}}}}
+|tile4={{{mod2_tile4|{{{mod1_tile4|{{{tile4|}}}}}}}}}
+|tile5={{{mod2_tile5|{{{mod1_tile5|{{{tile5|}}}}}}}}}
+|tile6={{{mod2_tile6|{{{mod1_tile6|{{{tile6|}}}}}}}}}
+|tile7={{{mod2_tile7|{{{mod1_tile7|{{{tile7|}}}}}}}}}
+|tile8={{{mod2_tile8|{{{mod1_tile8|{{{tile8|}}}}}}}}}
+|tile9={{{mod2_tile9|{{{mod1_tile9|{{{tile9|}}}}}}}}}
+|aura1={{{mod2_aura1|{{{mod1_aura1|{{{aura1|}}}}}}}}}
+|aura2={{{mod2_aura2|{{{mod1_aura2|{{{aura2|}}}}}}}}}
+|aura3={{{mod2_aura3|{{{mod1_aura3|{{{aura3|}}}}}}}}}
+|aura4={{{mod2_aura4|{{{mod1_aura4|{{{aura4|}}}}}}}}}
+|slot1={{{slot1|accessory}}}
+|slot2={{{slot2|magazine}}}
+|slot3={{{slot3|doll}}}
+|use_Telescopic_Sight{{#if:{{{use_Telescopic_Sight|}}}||NULL}}={{{use_Telescopic_Sight}}}
+|use_Holographic_Sight{{#if:{{{use_Holographic_Sight|}}}||NULL}}={{{use_Holographic_Sight}}}
+|use_Red_Dot_Sight{{#if:{{{use_Red_Dot_Sight|}}}||NULL}}={{{use_Red_Dot_Sight}}}
+|use_Night_Combat_Equipment{{#if:{{{use_Night_Combat_Equipment|}}}||NULL}}={{{use_Night_Combat_Equipment}}}
+|use_Silencer{{#if:{{{use_Silencer|}}}||NULL}}={{{use_Silencer}}}
+|use_Armor-Piercing_Ammo{{#if:{{{use_Armor-Piercing_Ammo|}}}||NULL}}={{{use_Armor-Piercing_Ammo}}}
+|use_Status_Ammo{{#if:{{{use_Status_Ammo|}}}||NULL}}={{{use_Status_Ammo}}}
+|use_Shotgun_Ammo{{#if:{{{use_Shotgun_Ammo|}}}||NULL}}={{{use_Shotgun_Ammo}}}
+|use_High_Velocity_Ammo{{#if:{{{use_High_Velocity_Ammo|}}}||NULL}}={{{use_High_Velocity_Ammo}}}
+|use_Exoskeleton{{#if:{{{use_Exoskeleton|}}}||NULL}}={{{use_Exoskeleton}}}
+|use_Ballistic_Plate{{#if:{{{use_Ballistic_Plate|}}}||NULL}}={{{use_Ballistic_Plate}}}
+|use_Camo_Cape{{#if:{{{use_Camo_Cape|}}}||NULL}}={{{use_Camo_Cape}}}
+|use_Ammo_Box{{#if:{{{use_Ammo_Box|}}}||NULL}}={{{use_Ammo_Box}}}
+|use_exclusive{{#if:{{{use_exclusive|}}}||NULL}}={{{use_exclusive}}}
+|min_dmg={{{mod2_min_dmg|{{{mod1_min_dmg|{{{min_dmg|}}}}}}}}}
+|max_dmg={{{mod2_max_dmg|{{{mod1_max_dmg|{{{max_dmg|}}}}}}}}}
+|min_eva={{{mod2_min_eva|{{{mod1_min_eva|{{{min_eva|}}}}}}}}}
+|max_eva={{{mod2_max_eva|{{{mod1_max_eva|{{{max_eva|}}}}}}}}}
+|min_acc={{{mod2_min_acc|{{{mod1_min_acc|{{{min_acc|}}}}}}}}}
+|max_acc={{{mod2_max_acc|{{{mod1_max_acc|{{{max_acc|}}}}}}}}}
+|min_rof={{{mod2_min_rof|{{{mod1_min_rof|{{{min_rof|}}}}}}}}}
+|max_rof={{{mod2_max_rof|{{{mod1_max_rof|{{{max_rof|}}}}}}}}}
+|min_hp={{{mod2_min_hp|{{{mod1_min_hp|{{{min_hp|}}}}}}}}}
+|max_hp={{{mod2_max_hp|{{{mod1_max_hp|{{{max_hp|}}}}}}}}}
+|min_armor={{{mod2_min_armor|{{{mod1_min_armor|{{{min_armor|}}}}}}}}}
+|max_armor={{{mod2_max_armor|{{{mod1_max_armor|{{{max_armor|}}}}}}}}}
+|crit={{{mod2_crit|{{{mod1_crit|{{{crit|}}}}}}}}}
+|clipsize={{{mod2_clipsize|{{{mod1_clipsize|{{{clipsize|}}}}}}}}}
+|mov={{{mod2_mov|{{{mod1_mov|{{{mov|}}}}}}}}}
+|penetration{{#if:{{{mod2_penetration|{{{mod1_penetration|{{{penetration|}}}}}}}}}||NULL}}={{{mod2_penetration|{{{mod1_penetration|{{{penetration|}}}}}}}}}}}
+{{!}}-{{!}}
+Mod3={{SimpleStatTable
+|classification={{{classification|}}}
+|skilldataraw={{#if:provokingTheParser|<div>{{#var:skilldatamod1raw}}</div>}}
+|skill2dataraw={{#if:provokingTheParser|<div>{{#var:skill2dataraw}}</div>}}
+|tile1={{{mod3_tile1|{{{mod2_tile1|{{{mod1_tile1|{{{tile1|}}}}}}}}}}}}
+|tile2={{{mod3_tile2|{{{mod2_tile2|{{{mod1_tile2|{{{tile2|}}}}}}}}}}}}
+|tile3={{{mod3_tile3|{{{mod2_tile3|{{{mod1_tile3|{{{tile3|}}}}}}}}}}}}
+|tile4={{{mod3_tile4|{{{mod2_tile4|{{{mod1_tile4|{{{tile4|}}}}}}}}}}}}
+|tile5={{{mod3_tile5|{{{mod2_tile5|{{{mod1_tile5|{{{tile5|}}}}}}}}}}}}
+|tile6={{{mod3_tile6|{{{mod2_tile6|{{{mod1_tile6|{{{tile6|}}}}}}}}}}}}
+|tile7={{{mod3_tile7|{{{mod2_tile7|{{{mod1_tile7|{{{tile7|}}}}}}}}}}}}
+|tile8={{{mod3_tile8|{{{mod2_tile8|{{{mod1_tile8|{{{tile8|}}}}}}}}}}}}
+|tile9={{{mod3_tile9|{{{mod2_tile9|{{{mod1_tile9|{{{tile9|}}}}}}}}}}}}
+|aura1={{{mod3_aura1|{{{mod2_aura1|{{{mod1_aura1|{{{aura1|}}}}}}}}}}}}
+|aura2={{{mod3_aura2|{{{mod2_aura2|{{{mod1_aura2|{{{aura2|}}}}}}}}}}}}
+|aura3={{{mod3_aura3|{{{mod2_aura3|{{{mod1_aura3|{{{aura3|}}}}}}}}}}}}
+|aura4={{{mod3_aura4|{{{mod2_aura4|{{{mod1_aura4|{{{aura4|}}}}}}}}}}}}
+|slot1={{{slot1|accessory}}}
+|slot2={{{slot2|magazine}}}
+|slot3={{{slot3|doll}}}
+|use_Telescopic_Sight{{#if:{{{use_Telescopic_Sight|}}}||NULL}}={{{use_Telescopic_Sight}}}
+|use_Holographic_Sight{{#if:{{{use_Holographic_Sight|}}}||NULL}}={{{use_Holographic_Sight}}}
+|use_Red_Dot_Sight{{#if:{{{use_Red_Dot_Sight|}}}||NULL}}={{{use_Red_Dot_Sight}}}
+|use_Night_Combat_Equipment{{#if:{{{use_Night_Combat_Equipment|}}}||NULL}}={{{use_Night_Combat_Equipment}}}
+|use_Silencer{{#if:{{{use_Silencer|}}}||NULL}}={{{use_Silencer}}}
+|use_Armor-Piercing_Ammo{{#if:{{{use_Armor-Piercing_Ammo|}}}||NULL}}={{{use_Armor-Piercing_Ammo}}}
+|use_Status_Ammo{{#if:{{{use_Status_Ammo|}}}||NULL}}={{{use_Status_Ammo}}}
+|use_Shotgun_Ammo{{#if:{{{use_Shotgun_Ammo|}}}||NULL}}={{{use_Shotgun_Ammo}}}
+|use_High_Velocity_Ammo{{#if:{{{use_High_Velocity_Ammo|}}}||NULL}}={{{use_High_Velocity_Ammo}}}
+|use_Exoskeleton{{#if:{{{use_Exoskeleton|}}}||NULL}}={{{use_Exoskeleton}}}
+|use_Ballistic_Plate{{#if:{{{use_Ballistic_Plate|}}}||NULL}}={{{use_Ballistic_Plate}}}
+|use_Camo_Cape{{#if:{{{use_Camo_Cape|}}}||NULL}}={{{use_Camo_Cape}}}
+|use_Ammo_Box{{#if:{{{use_Ammo_Box|}}}||NULL}}={{{use_Ammo_Box}}}
+|use_exclusive{{#if:{{{use_exclusive|}}}||NULL}}={{{use_exclusive}}}
+|min_dmg={{{mod3_min_dmg|{{{mod2_min_dmg|{{{mod1_min_dmg|{{{min_dmg|}}}}}}}}}}}}
+|max_dmg={{{mod3_max_dmg|{{{mod2_max_dmg|{{{mod1_max_dmg|{{{max_dmg|}}}}}}}}}}}}
+|min_eva={{{mod3_min_eva|{{{mod2_min_eva|{{{mod1_min_eva|{{{min_eva|}}}}}}}}}}}}
+|max_eva={{{mod3_max_eva|{{{mod2_max_eva|{{{mod1_max_eva|{{{max_eva|}}}}}}}}}}}}
+|min_acc={{{mod3_min_acc|{{{mod2_min_acc|{{{mod1_min_acc|{{{min_acc|}}}}}}}}}}}}
+|max_acc={{{mod3_max_acc|{{{mod2_max_acc|{{{mod1_max_acc|{{{max_acc|}}}}}}}}}}}}
+|min_rof={{{mod3_min_rof|{{{mod2_min_rof|{{{mod1_min_rof|{{{min_rof|}}}}}}}}}}}}
+|max_rof={{{mod3_max_rof|{{{mod2_max_rof|{{{mod1_max_rof|{{{max_rof|}}}}}}}}}}}}
+|min_hp={{{mod3_min_hp|{{{mod2_min_hp|{{{mod1_min_hp|{{{min_hp|}}}}}}}}}}}}
+|max_hp={{{mod3_max_hp|{{{mod2_max_hp|{{{mod1_max_hp|{{{max_hp|}}}}}}}}}}}}
+|min_armor={{{mod3_min_armor|{{{mod2_min_armor|{{{mod1_min_armor|{{{min_armor|}}}}}}}}}}}}
+|max_armor={{{mod3_max_armor|{{{mod2_max_armor|{{{mod1_max_armor|{{{max_armor|}}}}}}}}}}}}
+|crit={{{mod3_crit|{{{mod2_crit|{{{mod1_crit|{{{crit|}}}}}}}}}}}}
+|clipsize={{{mod3_clipsize|{{{mod2_clipsize|{{{mod1_clipsize|{{{clipsize|}}}}}}}}}}}}
+|mov={{{mod3_mov|{{{mod2_mov|{{{mod1_mov|{{{mov|}}}}}}}}}}}}
+|penetration{{#if:{{{mod3_penetration|{{{mod2_penetration|{{{mod1_penetration|{{{penetration|}}}}}}}}}}}}||NULL}}={{{mod3_penetration|{{{mod2_penetration|{{{mod1_penetration|{{{penetration|}}}}}}}}}}}}}}
+}}|{{SimpleStatTable
+|classification={{{classification|}}}
+|nosecondskill=1
+|skilldataraw={{#if:provokingTheParser|<div>{{#var:skilldataraw}}</div>}}
+|tile1={{{tile1|}}}
+|tile2={{{tile2|}}}
+|tile3={{{tile3|}}}
+|tile4={{{tile4|}}}
+|tile5={{{tile5|}}}
+|tile6={{{tile6|}}}
+|tile7={{{tile7|}}}
+|tile8={{{tile8|}}}
+|tile9={{{tile9|}}}
+|aura1={{{aura1|}}}
+|aura2={{{aura2|}}}
+|aura3={{{aura3|}}}
+|aura4={{{aura4|}}}
+|slot1={{{slot1|accessory}}}
+|slot2={{{slot2|magazine}}}
+|slot3={{{slot3|doll}}}
+|use_Telescopic_Sight{{#if:{{{use_Telescopic_Sight|}}}||NULL}}={{{use_Telescopic_Sight}}}
+|use_Holographic_Sight{{#if:{{{use_Holographic_Sight|}}}||NULL}}={{{use_Holographic_Sight}}}
+|use_Red_Dot_Sight{{#if:{{{use_Red_Dot_Sight|}}}||NULL}}={{{use_Red_Dot_Sight}}}
+|use_Night_Combat_Equipment{{#if:{{{use_Night_Combat_Equipment|}}}||NULL}}={{{use_Night_Combat_Equipment}}}
+|use_Silencer{{#if:{{{use_Silencer|}}}||NULL}}={{{use_Silencer}}}
+|use_Armor-Piercing_Ammo{{#if:{{{use_Armor-Piercing_Ammo|}}}||NULL}}={{{use_Armor-Piercing_Ammo}}}
+|use_Status_Ammo{{#if:{{{use_Status_Ammo|}}}||NULL}}={{{use_Status_Ammo}}}
+|use_Shotgun_Ammo{{#if:{{{use_Shotgun_Ammo|}}}||NULL}}={{{use_Shotgun_Ammo}}}
+|use_High_Velocity_Ammo{{#if:{{{use_High_Velocity_Ammo|}}}||NULL}}={{{use_High_Velocity_Ammo}}}
+|use_Exoskeleton{{#if:{{{use_Exoskeleton|}}}||NULL}}={{{use_Exoskeleton}}}
+|use_Ballistic_Plate{{#if:{{{use_Ballistic_Plate|}}}||NULL}}={{{use_Ballistic_Plate}}}
+|use_Camo_Cape{{#if:{{{use_Camo_Cape|}}}||NULL}}={{{use_Camo_Cape}}}
+|use_Ammo_Box{{#if:{{{use_Ammo_Box|}}}||NULL}}={{{use_Ammo_Box}}}
+|use_exclusive{{#if:{{{use_exclusive|}}}||NULL}}={{{use_exclusive}}}
+|min_dmg={{{min_dmg|}}}
+|max_dmg={{{max_dmg|}}}
+|min_eva={{{min_eva|}}}
+|max_eva={{{max_eva|}}}
+|min_acc={{{min_acc|}}}
+|max_acc={{{max_acc|}}}
+|min_rof={{{min_rof|}}}
+|max_rof={{{max_rof|}}}
+|min_hp={{{min_hp|}}}
+|max_hp={{{max_hp|}}}
+|min_armor={{{min_armor|}}}
+|max_armor={{{max_armor|}}}
+|crit={{{crit|}}}
+|clipsize={{{clipsize|}}}
+|mov={{{mov|}}}
+|penetration{{#if:{{{penetration|}}}||NULL}}={{{penetration|}}}}}}}
+</div></div>
+{{#dpl:
+category     =Union Skills
+|linksto     ={{FULLPAGENAME}}
+|includesubpages=false
+|includepage ={GflUnionSkill{{!}}GflUnionSkill.dpl}
+|mode        =inline
+|format      =,,,
+|ordermethod =title
+|resultsheader=\n== Union Skills ==\n{{Main|Union Skill}}\n
+|noresultsheader=<nowiki></nowiki>
+}}
+== Weapon Background ==
+{{{weaponinfo|}}}
+{{#if:{{{lore|}}}|== Lore / Story involvement ==
+{{{lore|}}}
+}}{{#if:{{{design|}}}|<nowiki></nowiki>
+== Design ==
+{{{design|}}}}}{{#if:{{{personality|}}}|<nowiki></nowiki>
+== Personality ==
+{{{personality|}}}}}
+{{#if:{{{gallery|}}}{{{galleryAlt|}}}|== Gallery ==
+{{#if:{{{gallery|}}}|=== Main artwork ===
+Gallery consisting of artworks used primarily in-game. For information on how to obtain certain costumes, see [[Skin Catalogue]].
+
+{{{gallery|}}}
+}}
+{{#if:{{{galleryAlt|}}}|=== Alternative artwork ===
+Alternate gallery consisting of artworks with slight alterations as well as miscellaneous artworks.
+
+{{{galleryAlt|}}}
+}}
+}}
+{{#if:{{{trivia|}}}|== Trivia ==
+{{{trivia|}}}}}
+== References ==
+<references />
+{{NavboxDoll}}
+[[Category:T-Dolls]]
+[[Category:{{{classification|}}} T-Dolls]]
+{{#ifeq:{{uc:{{{rarity|}}}}}|EXTRA|[[Category:Extra T-Dolls]]|[[Category:{{{rarity|}}}-Star T-Dolls]]}}
+{{#ifexist: {{BASEPAGENAMEE}}/Live2DSettings | [[Category:T-Dolls with Live2D]] }}
+{{#if: {{{mod3_max_hp|}}} | [[Category:T-Dolls with Digi-mind upgrade]] }}
+{{#if: {{{costume1|}}}{{{costume2|}}}{{{costume3|}}}{{{costume4|}}}{{{costume5|}}} | [[Category:T-Dolls with costume]] }}
+{{#if: {{{craft|}}}{{{timer|}}} | [[Category:Craftable T-Dolls]] }}
+{{#if: {{{rejected|}}} | [[Category:Rejected T-Dolls]] }}
+{{#if: {{{index|}}} | {{#if: {{{releasedon|}}} | | [[Category:Unreleased T-Dolls]] }} | [[Category:Unreleased T-Dolls]] }}
+{{#if: {{#pos:{{{artist|}}}|;}} | [[Category:T-Dolls with Multiple Artists]]}}
+</includeonly><noinclude>{{Documentation}}</noinclude>
