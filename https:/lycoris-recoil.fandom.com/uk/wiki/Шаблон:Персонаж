@@ -1,0 +1,36 @@
+<infobox>
+  <title source="ім'я"><default>{{PAGENAME}}</default></title>
+  <image source="image"/>
+  <data source="ім'я_японською"><label>Ім'я японською</label></data>
+  <data source="псевдонім"><label>Псевдонім</label></data>
+  <data source="особистий_код"><label>Особистий код</label></data>
+  <header>Біологічна інформація</header>
+  <data source="стать"><label>Стать</label><format>{{#switch:{{{стать}}}|чоловічий|Чоловічий=Чоловічий|жіночий|Жіночий=Жіночий}}</format></data>
+  <data source="вік"><label>Вік</label></data>
+  <data source="зріст"><label>Зріст</label></data>
+  <data source="вага"><label>Вага</label></data>
+  <data source="колір_волосся"><label>Колір волосся</label></data>
+  <data source="колір_очей"><label>Колір очей</label></data>
+  <data source="група_крові"><label>Група крові</label></data>
+  <data source="близькі"><label>Близькі</label></data>
+  <data source="день_народження"><label>День народження</label></data>
+  <data source="місце_народження"><label>Місце народження</label></data>
+  <data source="місце_проживання"><label>Місце проживання</label></data>
+  <data source="статус"><label>Статус</label><format>{{#switch:{{{статус}}}|мертвий|Мертвий=Мертвий|мертва|Мертва=Мертва|живий|Живий=Живий|жива|Жива=Жива|невідомо|Невідомо=Невідомо|#default=}}</format>
+  </data>
+  <header>Професійна інформація</header>
+  <data source="рід_діяльності"><label>Рід діяльності</label></data>
+  <data source="приналежність"><label>Приналежність</label></data>
+  <data source="колишня_приналежність"><label>Колишня приналежність</label></data>
+  <data source="колишня_професія"><label>Колишня професія</label></data>
+  <header>Дебют</header>
+  <data source="дебют_у_манзі"><label>Дебют у манзі</label></data>
+  <data source="дебют_у_аніме"><label>Дебют у аніме</label></data>
+  <header>Сейю</header>
+  <data source="актор_японської_озвучки"><label>Актор японської озвучки</label></data>
+</infobox>
+<includeonly>
+[[Category:Персонажі]]
+{{#if:{{{пол}}}|{{#switch:{{{стать}}}|Чоловічий=[[Category:Персонажі чоловічої статі]]|Жіночий=[[Category:Персонажі жіночої статі]]}}}}
+{{#if:{{{статус}}}|{{#switch:{{{статус}}}|Мертвий=[[Category:Мертві персонажі]]|Мертва=[[Category:Мертві персонажі]]|Живий=[[Category:Живі персонажі]]|Жива=[[Category:Живі персонажі]]}}}}
+</includeonly><noinclude>[[Категория:Шаблони]][[Категория:Шаблони інфобоксів]]</noinclude>
