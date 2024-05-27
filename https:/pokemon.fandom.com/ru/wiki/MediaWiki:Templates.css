@@ -1,0 +1,1531 @@
+/* == Шаблоны и другие элементы страниц == */
+/* === Модульные инфобоксы === */
+.normal-infobox .portable-infobox {
+    border:2px solid var(--theme-accent-color) !important;
+    box-shadow:0px 0px 2px 4px var(--theme-border-color);
+    border-radius:10px;
+    padding:2px !important;
+    text-align:center;
+    border-spacing:1px;
+    margin:5px;
+}
+
+.normal-infobox .pi-title {
+	display:block !important;
+	background:rgb(var(--theme-accent-color--rgb),.4) !important;
+	font-weight:500 !important;
+	width:100% !important;
+	border-radius:10px 10px 0px 0px !important;
+    margin-top:1px !important;
+	text-align:center !important;
+    padding:10px !important;
+    margin-bottom:2px !important;
+}
+
+.normal-infobox .pi-header {
+    display:block;
+	background:rgb(var(--theme-accent-color--rgb),.4);
+	font-weight:500;
+	width:100% !important;
+	border-radius:10px;
+    margin-top:1px !important;
+    margin-bottom:2px !important;
+	text-align:center;
+	color:var(--theme-page-text-color);
+}
+
+.normal-infobox .portable-infobox .pi-header {
+	margin-top:2px !important;
+}
+
+.normal-infobox .pi-caption, .normal-infobox .pi-data, .normal-infobox .pi-header, .normal-infobox .pi-navigation, .normal-infobox .pi-title {
+    padding-left:0px !important;
+    padding-right:1px !important;
+    padding-top:0px;
+    padding-bottom:1px;
+}
+
+.normal-infobox .portable-infobox .pi-data-label {
+    background:rgb(var(--theme-accent-color--rgb),.4);
+    text-align:left !important;
+    padding:3px 0px 3px 3px !important;
+}
+
+.normal-infobox .pi-data-value {
+    background:rgb(var(--theme-accent-color--rgb),.1);
+    text-align:left;
+}
+
+.normal-infobox .pi-image+.pi-data, .normal-infobox .pi-image-collection+.pi-data, .normal-infobox .pi-secondary-background+.pi-data, .normal-infobox .portable-infobox>.normal-infobox .pi-data:first-child {
+    margin-top:2px !important;
+}
+
+.normal-infobox .pi-data {
+	grid-column-gap:4px !important;
+}
+
+.normal-infobox .pi-border-color {
+    border-color:var(--theme-page-background-color);
+}
+
+/* === Кард === */
+.mp-card {
+	box-sizing:border-box;
+	display:flex;
+	flex-direction:column;
+	margin:5px;
+	padding:5px;
+	width:140px;
+}
+
+.theme-fandomdesktop-dark .mp-card:hover {
+	background:#262626;
+    border-radius:3px;
+}
+
+.theme-fandomdesktop-light .mp-card:hover {
+	background:#f2f2f2;
+    border-radius:3px;
+}
+
+.theme-fandomdesktop-dark .mp-card a {
+	font-weight:bold;
+    color:var(--theme-link-color);
+}
+
+.theme-fandomdesktop-light .mp-card a {
+	font-weight:bold;
+    color:var(--theme-link-color);
+}
+
+.theme-fandomdesktop-dark .mp-card:hover a {
+    color:var(--theme-link-color--hover);
+}
+
+.theme-fandomdesktop-light .mp-card:hover a {
+    color:var(--theme-link-color--hover);
+}
+
+/* === Блоги === */
+.theme-fandomdesktop-dark .blog-listing__post {
+    background-color:#161616;
+}
+
+.theme-fandomdesktop-light .blog-listing__post {
+    background-color:#dbdbdb;
+}
+
+/* === Discord === */
+.discord-widget-container {
+    height:auto;
+    width:auto;
+    margin-right:0;
+}
+
+.discord-widget .widget-header {
+    background-color:var(--theme-sticky-nav-background-color) !important;
+    color:#fff;
+    font-size:120%;
+    font-weight:600;
+}
+
+.theme-fandomdesktop-light .discord-widget .widget-logo {
+    -webkit-filter:invert(0.6);
+    filter:invert(0.6);
+}
+
+.discord-widget .widget-body {
+    display:none;
+}
+
+.theme-fandomdesktop-light .discord-widget .widget-theme-auto .widget-footer, .discord-widget .widget-footer {
+    background-color:rgba(0, 0, 0, 0.15);
+    box-shadow:none;
+}
+
+.theme-fandomdesktop-light .discord-widget .widget-theme-auto .widget-footer-info {
+    color:var(--theme-page-text-color);
+}
+
+.theme-fandomdesktop-light .discord-widget .widget-theme-auto .widget-footer .widget-footer-info a, .discord-widget .widget-footer-info a {
+    color:var(--theme-link-color);
+}
+
+.theme-fandomdesktop-light .discord-widget .widget-theme-auto .widget-btn-connect, .discord-widget .widget-btn-connect {
+    border:none;
+    background-color:var(--theme-sticky-nav-background-color);
+    font-size:110%;
+}
+
+.discord-widget .widget-footer .widget-footer-info {
+	font-size:110%;
+}
+
+/* == Шаблоны, взятые с украинской вики == */
+[class*="navbox"] div :is(h2, h3) {
+	text-align:center;
+	font-weight:500 !important;
+    margin:0 auto !important;
+}
+
+.audio-button {
+    width:30px;
+    height:20px;
+    opacity:.8;
+}
+
+/* === Таблицы === */
+.pokemons-navbox {
+	border:2px solid var(--poke-accent) !important;
+	box-shadow:0px 0px 2px 4px var(--theme-border-color);
+	border-radius:10px;
+	padding:1px;
+	text-align:center;
+    border-spacing:1px;
+	margin:5px;
+}
+
+.pokemons-navbox th,
+.pokemons-navbox td > div {
+	background:var(--poke-light);
+	font-weight:500;
+}
+
+.pokemons-navbox td > div {
+	margin:-1px auto;
+	width:90% !important;
+	border-radius:15px 15px 0 0;
+	padding:0 !important;
+}
+
+.pokemons-navbox tr > .th {	
+	background:none;
+}
+
+.pokemons-navbox .tr-first th {
+	border-radius:8px 0 0 0;
+}
+
+.pokemons-navbox .tr-first td {
+	border-radius:0 8px 0 0;
+}
+
+.pokemons-navbox .tr-last th {
+	border-radius:0 0 0 8px;
+}
+
+.pokemons-navbox .tr-last td {
+	border-radius:0 0 8px 0;
+}
+
+.pokemons-navbox td {
+	background:var(--poke-full-light);
+}
+
+/* === Навбоксы === */
+.poke-navbox, .pokemons-navbox {
+    --poke-accent:var(--theme-accent-color);
+    --poke-rgb:var(--theme-accent-color--rgb);
+    --poke-light:rgb(var(--theme-accent-color--rgb),.4);
+    --poke-full-light:rgb(var(--theme-accent-color--rgb),.1);
+}
+.poke-navbox .wds-tabs {
+    justify-content:center;
+}
+.poke-navbox .with-bottom-border {
+    border-bottom:0;
+}
+
+.poke-navbox {
+	position:relative;
+	border:2px solid var(--poke-accent) !important;
+	box-shadow:0px 0px 2px 3px var(--theme-border-color);
+	border-radius:15px;
+	padding:2px;
+	margin:5px;
+}
+
+.poke-navbox .mw-editsection {
+    display:none;
+}
+
+/* === Заголовок === */
+.poke-navbox > .th {
+	display:block;
+	background:var(--poke-light);
+	font-weight:500;
+	/* margin:-1px auto; */
+	width:100% !important;
+	border-radius:10px;
+	/* margin:.2em; */
+	height:var(--th-height);
+	text-align:center;
+}
+
+.poke-navbox > .th a {
+	position:relative;
+	z-index:1;
+}
+
+/* === Тогл === */
+.poke-navbox .mw-collapsible-toggle {
+	/* background:#000a; */
+	float:none !important;
+	position:absolute;
+	right:0;
+	width:100%;
+	text-align:right;
+	height:var(--th-height);
+}
+
+.poke-navbox .mw-collapsible-toggle .mw-collapsible-text {
+	display:block;
+	background:var(--poke-full-light);
+	/* width:100% !important; */
+	/* padding:0 100%; */
+	font-size:0;
+	z-index:0;
+}
+
+.poke-navbox .mw-collapsible-toggle:after {content:'';}
+.poke-navbox .mw-collapsible-toggle:before {
+    font-family:'FontAwesome' !important;
+    /* position:absolute; */
+    content:"\f106";
+	font-size:1.2rem !important;
+	font-weight:bold;
+	color:var(--theme-link-color);
+	/* transform:translateX(-3em); */
+	margin-right:1em;
+	height:var(--th-height);
+	line-height:1;
+}
+
+/* === Контейнер с покемонами === */
+.poke-navbox .content,
+[data-item-name="pokemons"] .group-layout {
+	font-size:80%;
+	display:flex;
+    flex-wrap:wrap;
+	justify-content:center;
+    align-items:end;
+	margin:.5em .1em;
+}
+
+.poke-generations.poke-navbox > .th {
+    margin:-1px auto;
+    width:90% !important;
+    border-radius:0 0 15px 15px;
+    padding:0 !important;
+}
+
+.poke-navbox.poke-generations .content {
+	overflow:auto;
+	height:300px;
+}
+
+/* === Скроллбар === */
+.poke-navbox ::-webkit-scrollbar {
+	transform:translateY(10px);
+	background:transparent !important;
+}
+.poke-navbox ::-webkit-scrollbar-thumb {
+    border-radius:5px;
+}
+
+/* === Ячейки покемонов === */
+[data-item-name="pokemons"] .group-layout > span,
+.poke-navbox .content > span {
+	position:relative;
+	display:grid;
+    justify-items:center;
+	align-items:end;
+    min-width:80px;
+    text-align:center;
+    transition:.5s;
+    border-radius:15px;
+    padding-bottom:1.7em;
+    line-height:normal;
+}
+
+.poke-navbox .content > span > :is(a,.new,.selflink),
+[data-item-name="pokemons"] .group-layout > span > :is(a,.new,.selflink) {
+	position:absolute;
+	width:100%;
+	height:100%;
+	display:grid;
+	align-items:end;
+	padding-bottom:.5em;
+}
+
+.poke-navbox .content > span img,
+[data-item-name="pokemons"] .group-layout > span img {
+    margin-bottom:4px;
+}
+
+/* ==== При наведении ==== */
+.poke-navbox .content > span:hover,
+[data-item-name="pokemons"] .group-layout > span:hover {
+	background:var(--poke-full-light);
+}
+
+/* === Названия типов покемонов === */
+.Нормальный,.Боевой,.Огненный,.Водный,.Ядовитый,.Земляной,.Каменный,.Насекомый,.Призрачный,.Стальной,.Волшебный,.Травяной,.Электрический,.Психический,.Ледяной,.Драконий,.Летающий,.Тёмный,
+[title~=тип],
+.Pokedex[class*="type2-"],
+[class*="type-"] .pi-theme-Pokedex,
+[class*="type-"] .pi-theme-Movedex,
+.Pokedex[class*="type-"] + p {
+--hsl:hsl(var(--cs-hsl),var(--cs-hsl2, 60%),var(--cs-hsl3, 50%),var(--cs-hsl4, 1));
+--hsl-2:hsl(var(--cs-hsl),var(--cs-hsl2-2, 80%),var(--cs-hsl3-2, 70%),var(--cs-hsl4-2, 1));
+--hsl-3:hsl(var(--cs-hsl),var(--cs-hsl2-3, 80%),var(--cs-hsl3-3, 80%),var(--cs-hsl4-3, 1));
+--hsl-4:hsl(var(--cs-hsl),var(--cs-hsl2-4, 50%),var(--cs-hsl3-4, 93%),var(--cs-hsl4-4, 1));
+}
+
+/* ==== Типы ==== */
+.theme-fandomdesktop-dark :is(.Нормальный,.Боевой,.Огненный,.Водный,.Ядовитый,.Земляной,.Каменный,.Насекомый,.Призрачный,.Стальной,.Волшебный,.Травяной,.Электрический,.Психический,.Ледяной,.Драконий,.Летающий,.Тёмный),
+[title~=тип],
+.Pokedex[class*="type2-"],
+[class*="type-"] .pi-theme-Pokedex,
+[class*="type-"] .pi-theme-Movedex,
+.Pokedex[class*="type-"] + p {
+--hsl:hsl(var(--cs-hsl),var(--cs-hsl2, 55%),var(--cs-hsl3, 66%),var(--cs-hsl4, .5));
+--hsl-2:hsl(var(--cs-hsl),var(--cs-hsl2-2, 88%),var(--cs-hsl3-2, 75%),var(--cs-hsl4-2, .6));
+--hsl-3:hsl(var(--cs-hsl),var(--cs-hsl2-3, 80%),var(--cs-hsl3-3, 85%),var(--cs-hsl4-3, .6));
+--hsl-4:hsl(var(--cs-hsl),var(--cs-hsl2-4, 50%),var(--cs-hsl3-4, 92%),var(--cs-hsl4-4, .6));
+}
+
+/* ==== Портабельный (Модульный) инфобокс ==== */
+.Pokedex {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	position:relative;
+	width:fit-content;
+	margin:0 auto;
+	padding:.5em 1em;
+	border-radius:10px;
+}
+
+.Pokedex[class*="type2-"]
+/* [class~="type-"], */
+ {
+	border:2px solid var(--hsl);
+	background-color:var(--hsl-2);
+}
+
+/* ==== Pokedex ==== */
+/* ===== Основа ===== */
+.Pokedex .portable-infobox {
+    width:unset;
+    border:unset;
+}
+
+.pi-theme-Pokedex,
+.pi-theme-Movedex {
+	background:transparent;
+	border:0;
+	width:100%;
+	margin:0;
+	display:flex;
+    flex-direction:row;
+	align-items:center;
+	justify-content:center;
+	gap:.5em;
+}
+
+.pi-navigation {
+	font-weight:normal;
+    /* background:var(--hsl-2,var(--pi-background)); */
+}
+
+[class*="type-"] .pi-theme-Pokedex .pi-navigation {
+    background:var(--hsl-2,var(--pi-background));
+}
+
+/* ===== Цвет рамок ===== */
+.pi-theme-Pokedex .pi-border-color {
+    border-color:var(--hsl);
+}
+
+/* ===== Секции ===== */
+.pi-theme-Pokedex > section,
+.pi-theme-Movedex > section {
+	width:calc(100% / 3);
+	max-width:360px;
+    background:var(--hsl,var(--pi-background));
+	border-width:2px;
+	border-style:solid;
+}
+
+[data-item-name="Pokedex-center"] {
+	border-radius:10px 10px 0 0;
+	/*overflow:hidden;*/
+}
+
+[data-item-name="Pokedex-left"] {
+	width:300px !important;
+}
+
+/* ===== Рамки ===== */
+.pi-theme-Pokedex .pi-item,
+.pi-theme-Pokedex .pi-smart-group-body,
+.pi-smart-group .pi-smart-data-value {
+	border-width:2px;
+}
+
+.pi-theme-Pokedex > section:not(:nth-child(2)) {
+	border-top:none;
+}
+
+/* ==== Заголовки */
+.pi-item {
+	margin:0 0px !important;
+}
+
+.pi-item-spacing {
+	margin:0 !important;
+    line-height:1 !important;
+}
+
+.pi-data-value {
+	background:var(--hsl-4);
+}
+
+.pi-data-label a,
+.pi-title a,
+[data-item-name="pi-data-label simple"] a {
+	color:var(--cs-txt, var(--theme-page-text-color));
+}
+
+.pi-data-label,
+.pi-title,
+[data-item-name="pi-data-label simple"],
+[data-item-name="pi-data-label simple-pass"]{
+	background:var(--hsl-3);
+	font-weight:500;
+	color:var(--cs-txt, var(--theme-page-text-color));
+}
+
+.pi-theme-Pokedex .pi-title {
+	font-size:18px;
+    line-height:18px;
+	padding:0;
+	background:var(--hsl-2, var(--pi-background));
+	color:var(--cs-txt, var(--theme-page-text-color));
+}
+
+section[data-item-name="Pokedex-center"] .pi-image {
+	background:var(--hsl-2, var(--pi-background));
+    padding:0 .5em;
+}
+
+[data-item-name="Pokedex-center"] .pi-image-thumbnail {
+	background:var(--hsl-4);
+	/*padding:1em;*/
+	border-radius:15px;
+}
+
+/* ==== ==== */
+.Pokedex + p {
+	text-align:center;
+	margin:1em 0 0 !important;
+	border:1px solid var(--hsl-2);
+	border-radius:10px;
+	background:var(--hsl-4);
+	padding:.5em !important;
+}
+
+.theme-fandomdesktop-dark .Pokedex + p {
+	--cs-hsl4-4:20%;
+	--cs-hsl3-4:50%;
+}
+
+/* ==== ==== */
+.ns-0 .mw-parser-output [title~=тип] {
+    display:inline-block;
+    border-radius:4px;
+    color:#fff !important;
+    background:var(--hsl-2);
+	--cs-hsl3-2:50%;
+    border:1px solid var(--hsl);
+    font-size:.75rem;
+    line-height:1;
+	padding:.2em;
+    text-shadow:1px 1px 2px rgb(0 0 0 / 70%);
+    text-transform:uppercase;
+	transition:.3s;
+}
+.ns-0.theme-fandomdesktop-dark .mw-parser-output [title~=тип] {
+    border:1px solid var(--hsl-3);
+}
+.ns-0 [title~=тип]:hover {
+    background:var(--hsl-2);
+	--cs-hsl3-2:50%;
+}
+
+/* === Movedex == */
+.Movedex {
+	display:inline-block;
+	padding:2px;
+}
+
+.pi-theme-Movedex > section {
+	box-shadow:0 0 0 2px var(--border);
+}
+
+[data-item-name="Movedex-center"] {
+	border-radius:10px 10px 0 0;
+	overflow:hidden;
+	/* width:300px !important; */
+}
+
+[data-item-name="Movedex-left"] {
+	min-width:200px !important;
+	border-radius:10px;
+	overflow:hidden;
+}
+
+[data-item-name="Movedex-right"] {
+	min-width:300px !important;
+	border-radius:10px;
+	overflow:hidden;
+}
+
+section[data-item-name="Movedex-center"] .pi-image {
+	background:var(--hsl, var(--pi-background));
+    padding-bottom:2px;
+}
+
+[data-item-name="Movedex-center"] .pi-image-thumbnail {
+	border-radius:15px;
+}
+
+[class*="type-"] .pi-theme-Movedex .pi-navigation {
+    background:var(--hsl,var(--pi-background));
+}
+
+/* ==== Цвет рамок ==== */
+.pi-theme-Movedex .pi-border-color {
+    border-color:var(--hsl);
+}
+
+.pi-theme-Movedex .pi-title {
+	font-size:24px !important;
+	background:var(--hsl, var(--pi-background));
+}
+
+.pi-theme-Movedex .pi-header {
+	background:var(--hsl, var(--pi-background));
+	color:var(--cs-txt, var(--theme-page-text-color));
+    font-weight:700 !important;
+}
+
+.pi-theme-Movedex .pi-item {
+	padding:0;
+    align-items:center;
+	gap:0;
+    background:var(--hsl,var(--pi-background));
+}
+
+.pi-theme-Movedex .pi-data-label,
+.pi-theme-Movedex .pi-group .pi-data-value {
+	padding:5px;
+}
+
+[data-item-name='layout-default'] .pi-data-value {
+	width:100% !important;
+	border-radius:0 0 10px 10px;
+}
+
+.pi-theme-Movedex .pi-group > section:not(:first-of-type) .pi-header {
+	margin-top:5px !important;
+}
+
+.pi-theme-Movedex .pi-horizontal-group .pi-header {
+	text-align:center;
+	background:var(--hsl-2, var(--pi-background));
+	border-radius:10px 10px 0 0;
+}
+
+/* === Другое === */
+.group-layout {
+	width:260px;
+	padding-left:10px;
+}
+
+
+/* === Темы === */
+/* ==== Тип (основной) ==== */
+.Нормальный,
+.type-Нормальный .pi-theme-Pokedex,
+.type-Нормальный .pi-theme-Movedex,
+.type2-Нормальный,
+[title~=Нормальный],[title~=Нормальный],
+.type-Нормальный + p {
+	--cs-hsl:60;
+	--cs-hsl2:20%;  --cs-hsl3:73%;
+	--cs-hsl2-2:22%;--cs-hsl3-2:85%;
+	--cs-hsl2-3:26%;--cs-hsl3-3:93%;
+	--cs-hsl2-4:16%;--cs-hsl3-4:99%;
+	
+	--cs-txt:#3a3a3a;
+}
+
+.Боевой,
+.type-Боевой .pi-theme-Pokedex,
+.type-Боевой .pi-theme-Movedex,
+.type2-Боевой,
+[title~=Боевой],
+.type-Боевой + p {
+	--cs-hsl:3;
+	--cs-hsl2:60%;  --cs-hsl3:50%;
+	--cs-hsl2-2:80%;--cs-hsl3-2:70%;
+	--cs-hsl2-3:80%;--cs-hsl3-3:80%;
+	--cs-hsl2-4:50%;--cs-hsl3-4:93%;
+}
+
+.Огненный,
+.type-Огненный .pi-theme-Pokedex,
+.type-Огненный .pi-theme-Movedex,
+.type2-Огненный,
+[title~=Огненный],
+.type-Огненный + p {
+	--cs-txt:;
+	
+	--cs-hsl:25;
+	--cs-hsl2:60%;  --cs-hsl3:50%;
+	--cs-hsl2-2:80%;--cs-hsl3-2:70%;
+	--cs-hsl2-3:80%;--cs-hsl3-3:80%;
+	--cs-hsl2-4:50%;--cs-hsl3-4:93%;
+}
+
+.Водный,
+.type-Водный .pi-theme-Pokedex,
+.type-Водный .pi-theme-Movedex,
+.type2-Водный,
+[title~=Водный],[title~=Водний],
+.type-Водный + p {
+	--cs-hsl:220;
+	--cs-hsl2:60%;  --cs-hsl3:50%;
+	--cs-hsl2-2:80%;--cs-hsl3-2:70%;
+	--cs-hsl2-3:80%;--cs-hsl3-3:80%;
+	--cs-hsl2-4:50%;--cs-hsl3-4:93%;
+	
+	--cs-txt:;
+}
+
+.Ядовитый,
+.type-Ядовитый .pi-theme-Pokedex,
+.type-Ядовитый .pi-theme-Movedex,
+.type2-Ядовитый,
+[title~=Ядовитый],
+.type-Ядовитый + p {
+	--hex:#D878D8;
+	--cs-hsl:300;
+	--cs-hsl2:60%;  --cs-hsl3:50%;
+	--cs-hsl2-2:60%;--cs-hsl3-2:70%;
+	--cs-hsl2-3:80%;--cs-hsl3-3:80%;
+	--cs-hsl2-4:50%;--cs-hsl3-4:93%;
+}
+
+.Земляной,
+.type-Земляной .pi-theme-Pokedex,
+.type-Земляной .pi-theme-Movedex,
+.type2-Земляной,
+[title~=Земляной],
+.type-Земляной + p {
+	--cs-hsl:40;
+	--cs-hsl2:60%;  --cs-hsl3:50%;
+	--cs-hsl2-2:80%;--cs-hsl3-2:70%;
+	--cs-hsl2-3:80%;--cs-hsl3-3:80%;
+	--cs-hsl2-4:50%;--cs-hsl3-4:93%;
+}
+
+.Каменный,
+.type-Каменный .pi-theme-Pokedex,
+.type-Каменный .pi-theme-Movedex,
+.type2-Каменный,
+[title~=Каменный],[title~="Каменный"],
+.type-Каменный + p {
+	--cs-hsl:40;
+	--cs-hsl2:20%;  --cs-hsl3:50%;
+	--cs-hsl2-2:20%;--cs-hsl3-2:80%;
+	--cs-hsl2-3:20%;--cs-hsl3-3:85%;
+	--cs-hsl2-4:15%;--cs-hsl3-4:85%;
+}
+
+.Насекомый,
+.type-Насекомый .pi-theme-Pokedex,
+.type-Насекомый .pi-theme-Movedex,
+.type2-Насекомый,
+[title~=Насекомый],[title^=Насекомый],
+.type-Насекомый + p {
+    --cs-hsl:70;
+	--cs-hsl2:60%;  --cs-hsl3:50%;
+	--cs-hsl2-2:80%;--cs-hsl3-2:75%;
+	--cs-hsl2-3:80%;--cs-hsl3-3:80%;
+	--cs-hsl2-4:50%;--cs-hsl3-4:93%;
+}
+
+.Призрачный,
+.type-Призрачный .pi-theme-Pokedex,
+.type-Призрачный .pi-theme-Movedex,
+.type2-Призрачный,
+[title~=Призрачный],
+.type-Призрачный + p {
+	--cs-hsl:260;
+	--cs-hsl2:60%;  --cs-hsl3:50%;
+	--cs-hsl2-2:30%;--cs-hsl3-2:65%;
+	--cs-hsl2-3:40%;--cs-hsl3-3:80%;
+	--cs-hsl2-4:50%;--cs-hsl3-4:93%;
+	
+--cs-txt:#fafafa;
+}
+
+.Стальной,
+.type-Стальной .pi-theme-Pokedex,
+.type-Стальной .pi-theme-Movedex,
+.type2-Стальной,
+[title~=Стальной],
+.type-Стальной + p {
+	--cs-hsl:200;
+	--cs-hsl2:20%;  --cs-hsl3:70%;
+	--cs-hsl2-2:20%;--cs-hsl3-2:80%;
+	--cs-hsl2-3:20%;--cs-hsl3-3:88%;
+	--cs-hsl2-4:50%;--cs-hsl3-4:95%;
+}
+
+.Волшебный,
+.type-Волшебный .pi-theme-Pokedex,
+.type-Волшебный .pi-theme-Movedex,
+.type2-Волшебный,
+[title~=Волшебный],
+.type-Волшебный + p {
+	--hex:#D878D8;
+	--cs-hsl:300;
+	--cs-hsl2:60%;  --cs-hsl3:50%;
+	--cs-hsl2-2:80%;--cs-hsl3-2:80%;
+	--cs-hsl2-3:80%;--cs-hsl3-3:88%;
+	--cs-hsl2-4:50%;--cs-hsl3-4:93%;
+}
+
+.Травяной,
+.type-Травяной .pi-theme-Pokedex,
+.type-Травяной .pi-theme-Movedex,
+.type2-Травяной,
+[title~=Травяной],[title~="Травяной"],
+.type-Травяной + p {
+	--hex:;
+	--cs-hsl:100;
+	--cs-hsl2:60%;  --cs-hsl3:50%;
+	--cs-hsl2-2:70%;--cs-hsl3-2:75%;
+	--cs-hsl2-3:50%;--cs-hsl3-3:85%;
+	--cs-hsl2-4:50%;--cs-hsl3-4:93%;
+}
+
+.Электрический,
+.type-Электрический .pi-theme-Pokedex,
+.type-Электрический .pi-theme-Movedex,
+.type2-Электрический,
+[title~=Электрический],
+.type-Электрический + p {
+	--hex:;
+	--cs-hsl:50;
+	--cs-hsl2:80%;  --cs-hsl3:50%;
+	--cs-hsl2-2:80%;--cs-hsl3-2:65%;
+	--cs-hsl2-3:80%;--cs-hsl3-3:80%;
+	--cs-hsl2-4:50%;--cs-hsl3-4:93%;
+}
+
+.Психический,
+.type-Психический .pi-theme-Pokedex,
+.type-Психический .pi-theme-Movedex,
+.type2-Психический,
+[title~=Психический],
+.type-Психический + p {
+	--cs-hsl:340;
+	--cs-hsl2:60%;  --cs-hsl3:50%;
+	--cs-hsl2-2:80%;--cs-hsl3-2:75%;
+	--cs-hsl2-3:80%;--cs-hsl3-3:85%;
+	--cs-hsl2-4:50%;--cs-hsl3-4:93%;
+}
+
+.Ледяной,
+.type-Ледяной .pi-theme-Pokedex,
+.type-Ледяной .pi-theme-Movedex,
+.type2-Ледяной,
+[title~=Ледяной],
+.type-Ледяной + p {
+	--hex:#69D1D1;
+	--cs-hsl:180;
+	--cs-hsl2:60%;  --cs-hsl3:50%;
+	--cs-hsl2-2:70%;--cs-hsl3-2:75%;
+	--cs-hsl2-3:80%;--cs-hsl3-3:90%;
+	--cs-hsl2-4:50%;--cs-hsl3-4:93%;
+}
+
+.Драконий,
+.type-Драконий .pi-theme-Pokedex,
+.type-Драконий .pi-theme-Movedex,
+.type2-Драконий,
+[title^=Дракон],
+.type-Драконий + p {
+	--hex:;
+	--cs-hsl:260;
+	--cs-hsl2:60%;  --cs-hsl3:50%;
+	--cs-hsl2-2:80%;--cs-hsl3-2:70%;
+	--cs-hsl2-3:80%;--cs-hsl3-3:80%;
+	--cs-hsl2-4:50%;--cs-hsl3-4:93%;
+}
+
+.Летающий,
+.type-Летающий .pi-theme-Pokedex,
+.type-Летающий .pi-theme-Movedex,
+.type2-Летающий,
+[title~=Летающий],
+.type-Летающий + p {
+	--hex:;
+	--cs-hsl:260;
+
+	--cs-hsl2:20%;  --cs-hsl3:50%;
+	--cs-hsl2-2:80%;--cs-hsl3-2:90%;
+	--cs-hsl2-3:80%;--cs-hsl3-3:88%;
+	--cs-hsl2-4:50%;--cs-hsl3-4:93%;
+}
+
+.Тёмный,
+.type-Тёмный .pi-theme-Pokedex,
+.type-Тёмный .pi-theme-Movedex,
+.type2-Тёмный,
+[title~=Тёмный],
+.type-Тёмный + p {
+--hex:;
+--cs-hsl:20;
+--cs-hsl2:40%;  --cs-hsl3:70%;
+--cs-hsl2-2:0%; --cs-hsl3-2:20%;
+--cs-hsl2-3:0%; --cs-hsl3-3:30%;
+--cs-hsl2-4:0%; --cs-hsl3-4:80%;
+	
+--cs-txt:#fafafa;
+--cs-txt-2:#fafafa;
+}
+
+/* ==== Фанатское ==== */
+/* ===== Ядерный тип ===== */
+.Ядерный,
+.type-Ядерный .pi-theme-Pokedex,
+.type-Ядерный .pi-theme-Movedex,
+.type2-Ядерный,
+[title~=Ядерный],[title~=Ядерный],
+.type-Ядерный + p {
+	--cs-hsl:120;
+	--cs-hsl2:100%;  --cs-hsl3:100%;
+	--cs-hsl2-2:50%;--cs-hsl3-2:50%;
+}
+
+/* === Mbox / Информационный (взято с английской вики) === */
+.mbox {
+    --type-important:rgba(200, 0, 0, 0.8);
+    --type-moderate:rgba(233, 124, 47, 0.8);
+    --type-minor:rgba(241, 197, 37, 0.8);
+    display:flex;
+    position:relative;
+    background-color:rgba(255, 255, 255, 0.7);
+    border:1px solid #d6d6d6;
+    border-left-width:8px;
+    border-left-color:#d6d6d6;
+    border-radius:3px;
+    margin-bottom:5px;
+    min-height:32px;
+}
+
+.mbox.mbox-type-important {
+    border-left-color:var(--type-important);
+}
+
+.mbox.mbox-type-moderate {
+    border-left-color:var(--type-moderate);
+}
+
+.mbox.mbox-type-minor {
+    border-left-color:var(--type-minor);
+}
+
+.mbox__content {
+    display:table;
+    box-sizing:border-box;
+    width:100%;
+    padding:8px 15px;
+}
+
+.mbox__content__image {
+    display:table-cell;
+    width:40px;
+    height:100%;
+    text-align:center;
+    vertical-align:middle;
+    padding-right:15px;
+}
+
+.mbox__content__wrapper {
+    display:table-cell;
+    vertical-align:middle;
+}
+
+.mbox__content__header {
+    display:block;
+    font-weight:bold;
+}
+
+.mbox__content__text {
+    display:block;
+}
+
+.mbox__content__text__comment {
+    font-size:small;
+}
+
+.mbox__content__aside {
+    display:table-cell;
+    width:100px;
+    vertical-align:middle;
+    text-align:center;
+    padding-left:15px;
+    border-left:1px solid #d6d6d6;
+}
+
+.mbox__close {
+    position:absolute;
+    right:0;
+    top:0;
+    padding:2px 7px;
+    font-weight:bold;
+    font-size:16px;
+    color:#bbb;
+    cursor:pointer;
+    transition:all .15s ease-in;
+}
+
+.mbox__close:hover {
+    color:#777;
+}
+
+.mbox__close:after {
+    content:'×';
+}
+
+.mw-collapsed + .mbox__close {
+    transform:rotate(45deg);
+    padding:8px 7px 8px 2px;
+}
+
+.theme-fandomdesktop-dark .mbox {
+    background-color:var(--theme-page-background-color--secondary);
+    border-color:var(--theme-border-color);
+}
+
+/* === Популярные страницы (изменённый скрипт TopArticles) === */
+.TopArticlesSearch {
+    width:300px;
+}
+
+.TopArticles h2 {
+    font-size:16px;
+    font-weight:bold;
+    border-width:0px;
+    border-style:initial;
+    border-color:initial;
+    border-image:initial;
+    margin:0px 0px 19px;
+    padding:0px;
+}
+
+rail-module h2, .rail-module__header {
+    display:inline-block;
+    font-size:16px;
+    font-weight:700;
+    line-height:1.25;
+    margin-bottom:15px;
+}
+
+.TopArticles ul {
+    list-style-type:none;
+    margin-left:0;
+}
+
+.TopArticlesSearch ul li {
+    border-top:0px solid #CCCCCC !important;
+    clear:left;
+    min-height:90px;
+    padding-bottom:6px;
+    padding-top:0px !important;
+}
+
+.TopArticlesSearch ul li:last-child {
+    border-bottom:0px solid #CCCCCC !important;
+}
+
+.oasis-dark-theme .TopArticlesSearch ul li {
+    border-color:#333333;
+}
+
+.TopArticlesThumbnail, .TopArticlesDescription {
+    display:inline-block;
+}
+
+.TopArticlesDescription {
+    width:198px;
+}
+
+.TopArticlesDescription a {
+    font-weight:bold;
+}
+
+.TopArticlesDescription span {
+    color:gray;
+}
+
+.TopArticlesThumbnail {
+    float:left;
+    margin-right:12px;
+}
+
+.TopArticlesThumbnail, .TopArticlesThumbnail img {
+    height:90px;
+    width:90px;
+}
+
+/* == Шаблоны заглавной (большая часть собрана из кодов с английской и испанской вики) == */
+/* === Таббер === */
+.mp-tabber {
+    display:flex;
+    margin:0;
+}
+
+.mp-tabber a.external:after {
+    display:none;
+}
+
+.mp-tabber__tab {
+    --color:#919191;
+    border-bottom:4px solid var(--color);
+    flex-basis:100%;
+    list-style:none;
+    padding-top:4px;
+    padding-bottom:4px;
+    position:relative;
+    z-index:1;
+}
+
+.mp-tabber__tab a {
+	display:block;
+	width:100%;
+	height:100%;
+	text-align:center;
+}
+
+.mp-tabber__tab::before {
+    background-color:var(--color);
+    content:"";
+    height:0;
+    left:0;
+    position:absolute;
+    top:0;
+    transition:all 0.5s;
+    width:100%;
+    z-index:-1;
+}
+
+.mp-tabber__tab::after {
+    background-color:#2e3039;
+    content:"";
+    height:100%;
+    left:0;
+    position:absolute;
+    top:0;
+    width:100%;
+    z-index:-2;
+}
+
+.mp-tabber__tab:first-child::after,
+.mp-tabber__tab:first-child::before {
+    border-radius:10px 0 0 0;
+}
+
+.mp-tabber__tab:last-child::after,
+.mp-tabber__tab:last-child::before {
+    border-radius:0 10px 0 0;
+}
+
+.mp-tabber__tab:hover::before {
+    height:100%;
+}
+
+.mp-tabber__content {
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+    z-index:2;
+}
+
+.mp-tabber__content {
+    z-index:2;
+}
+
+.mp-tabber__content a:last-child {
+    color:#fff;
+    font-size:0.85em;
+    margin-top:8px;
+    text-decoration:none;
+}
+
+/* ==== Цвета таббов ==== */
+.mp-tabber__tab:nth-child(1) {
+    box-shadow:2px 2px 10px #1e2124;
+}
+
+.mp-tabber__tab:nth-child(2) {
+    --color:#e3350d;
+    box-shadow:2px 2px 10px #1e2124;
+}
+
+.mp-tabber__tab:nth-child(3) {
+    --color:#ee6b2f;
+    box-shadow:2px 2px 10px #1e2124;
+}
+
+.mp-tabber__tab:nth-child(4) {
+    --color:#4dad5b;
+    box-shadow:2px 2px 10px #1e2124;
+}
+
+.mp-tabber__tab:nth-child(5) {
+    --color:#1b53ba;
+    box-shadow:2px 2px 10px #1e2124;
+}
+
+.mp-tabber__tab:nth-child(6) {
+    --color:#e6bc2f;
+    box-shadow:2px 2px 10px #1e2124;
+}
+
+.mp-tabber__tab:nth-child(7) {
+    --color:#30a7d7;
+    box-shadow:2px 2px 10px #1e2124;
+}
+
+.main-page-tag-lcs .mp-tabber {
+    margin:0;
+}
+
+/* === Баннер === */
+.mp-banner {
+    background-color:var(--mp-gray-element);
+    border-radius:10px;
+    color:#fff;
+    display:flex;
+    flex-direction:column;
+    overflow:hidden;
+    transition:background-color 0.5s linear;
+}
+
+.mp-banner:hover {
+    background-color:var(--mp-gray-element--hover);
+}
+
+.theme-fandomdesktop-dark .mp-banner {
+    --mp-gray-element:#262626;
+    --mp-gray-element--hover:#161616;
+}
+
+.theme-fandomdesktop-light .mp-banner {
+    --mp-gray-element:#f2f2f2;
+    --mp-gray-element--hover:#dbdbdb;
+    color:unset;
+}
+
+.main-page-tag-rcs .mp-banner {
+    max-width:calc(100% - 4px);
+}
+
+.main-page-tag-lcs .mp-banner:first-of-type {
+    border-radius:0 0 10px 10px;
+}
+
+.mp-banner:not(:first-of-type) {
+    margin-top:1em;
+}
+
+.mp-banner__image {
+    display:flex;
+    height:275px;
+    overflow:hidden;
+    position:relative;
+}
+
+.mp-banner__image::after {
+    background-image:linear-gradient( 165deg, #892e30, #ed4137 50%, #4d42ae 50%, #34288a );
+    bottom:0;
+    content:"";
+    height:5px;
+    left:0;
+    position:absolute;
+    width:100%;
+}
+
+.mp-banner__image + .mp-banner__title::before {
+    background-image:url('https://vignette.wikia.nocookie.net/pokemon/images/4/4c/Pokeball.svg/revision/latest?cb=20191230080306&path-prefix=ko');
+    background-size:contain;
+    content:"";
+    height:25px;
+    left:calc( 50% - 12.5px );
+    position:absolute;
+    top:-16px;
+    width:25px;
+    z-index:2;
+}
+
+.mp-banner__title {
+    border-bottom:2px solid #fff;
+    font-size:24px;
+    font-weight:bold;
+    padding-top:10px;
+    position:relative;
+    text-align:center;
+}
+
+.mp-banner__image + .mp-banner__title {
+    border-bottom:none;
+}
+
+.mp-banner__image img,
+.mp-banner__content > .center img {
+    height:auto;
+    max-width:100%;
+}
+
+.mp-banner__content {
+    padding:8px 16px;
+}
+
+/* === Старый код, сохраняем на память) === */
+/* ==== Блок заглавной ==== */
+/* .mp-element {
+	margin-bottom:15px;
+	width:100%;
+	border:1px solid var(--theme-link-color);
+	border-radius:25px 25px 25px 25px;
+}
+
+.mp-header {
+	background-color:var(--theme-accent-color);
+	-moz-box-shadow:0.1em 0.1em 1em var(--theme-link-color);
+	-webkit-box-shadow:0.1em 0.1em 1em var(--theme-link-color);
+	box-shadow:0.1em 0.1em 1em var(--theme-link-color);
+	border:1px solid var(--theme-link-color);
+	margin:0;
+	padding:4px;
+	-moz-border-radius:25px 25px 0 0;
+	-webkit-border-radius:25px 25px 0 0;
+	border-radius:25px 25px 0 0;
+	border-bottom:0;
+	text-align:center;
+	color:white;
+}
+
+.mp-content {
+	text-align:center;
+}
+
+.mp-end {
+	text-align:center;
+	background-color:var(--theme-accent-color);
+	color:var(--theme-accent-color);
+	-moz-box-shadow:0.1em 0.1em 1em var(--theme-link-color);
+	-webkit-box-shadow:0.1em 0.1em 1em var(--theme-link-color);
+	box-shadow:0.1em 0.1em 1em var(--theme-link-color);
+	border:1px solid var(--theme-link-color);
+	font-size:90%;
+	margin:0;
+	padding:4px;
+	-moz-border-radius:0 0 25px 25px;
+	-webkit-border-radius:0 0 25px 25px;
+	border-radius:0 0 25px 25px;
+	border-top:0;
+}
+
+/* ==== Социальный уголок ==== */
+/* ===== Категории ===== */
+.theme-fandomdesktop-dark .mp-categories {
+    background-color:#161616;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:3px;
+    padding:8px;
+}
+
+.theme-fandomdesktop-light .mp-categories {
+    background-color:#dbdbdb;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:3px;
+    padding:8px;
+}
+
+/* ==== Официальные страницы ==== */
+.soc-logo-button {
+	border-radius:3px;
+	padding:5px;
+    margin:3px;	
+	transition:box-shadow 0.25s, margin 0.25s;
+}
+
+.theme-fandomdesktop-dark .soc-logo-button {
+    background-color:#161616;
+}
+
+.theme-fandomdesktop-light .soc-logo-button {
+    background-color:#dbdbdb;
+}
+
+.soc-logo-button a.external:after {
+    display:none;
+}
+
+.soc-logo-button:hover {
+    background:var(--theme-page-background-color--secondary);;
+	box-shadow:0 0 3px 0.2em var(--theme-page-background-color--secondary);
+	margin:0.1875em 0.25em;
+}
+
+/* ==== Администраторы вики ==== */
+.mainpage .admin-avs img {
+    border-radius:5em;
+}
+
+/* === Таймер в навигации === */
+.main-container #UTCClock {
+    font-weight:700;
+    font-size:13px;
+    text-transform:uppercase;
+}
+
+/* === Навбокс администрации (Шаблон:Администраторы) === */
+.admins {
+    font-size:80%;
+    display:flex;
+    justify-content:center;
+    margin:0.5em 0.1em;
+}
+
+.admin {
+    display:grid;
+    min-width:80px;
+    border-radius:15px;
+    transition:.5s;
+}
+
+.admin img {
+    border-radius:5em;
+    padding:3px;
+}
+
+.admin:hover {
+    background-color:var(--poke-full-light);
+}
+
+/* === Шаблон:Легендарные_и_мифические_покемоны === */
+.poke-legends {
+    font-size:80%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin:0.5em 0.1em;
+}
+
+.lmpoke-collapsible-toggle .mw-collapsible-toggle {
+    margin:-1px;
+}
+
+.lmpokemon {
+    display:grid;
+    min-width:80px;
+    border-radius:15px;
+    transition:.5s;
+}
+
+.lmpokemon img {
+    justify-self:center !important;
+}
+
+.lmpokemon:hover {
+    background-color:var(--poke-full-light);
+}
+
+/* === Убирает кнопку редактирования раздела статьи на заглавной === */
+.mainpage .mw-editsection {
+    display:none;
+}
+
+/* === Reduced list === */
+.reduced-list span.comment, .reduced-list .mw-newpages-length, .reduced-list .mw-userlink.userlink, .reduced-list .mw-usertoollinks{
+    display:none;
+}
+
+/* === Admin Nav === */
+.admins-nav th,
+.admins-nav td > div {
+	background:var(--poke-light);
+	font-weight:500;
+}
+
+.admins-nav td > div {
+	margin:-1px auto;
+	width:90% !important;
+	border-radius:15px 15px 0 0;
+	padding:0 !important;
+}
+
+.admins-nav tr > .th {	
+	background:none;
+}
+
+.admins-nav .tr-first th {
+	border-radius:8px 0 0 0;
+}
+
+.admins-nav .tr-first td {
+	border-radius:0 8px 0 0;
+}
+
+.admins-nav .tr-last th {
+	border-radius:0 0 0 8px;
+}
+
+.admins-nav .tr-last td {
+	border-radius:0 0 8px 0;
+}
+
+.admins-nav td {
+	background:var(--poke-full-light);
+}
+
+.theme-fandomdesktop-dark .admins-nav {
+    --poke-light:rgb(38, 38, 38);
+    --poke-full-light:rgb(38, 38, 38);
+}
+
+.theme-fandomdesktop-light .admins-nav {
+    --poke-light:rgb(242, 242, 242);
+    --poke-full-light:rgb(242, 242, 242);
+}
+
+/* === Кабинет администратора === */
+.theme-fandomdesktop-dark .wds-toggle__label {
+    --theme-page-accent-mix-color:rgba(17, 63, 150) !important;
+}
+
+.theme-fandomdesktop-light .wds-toggle__label {
+    --theme-page-accent-mix-color:rgba(21, 101, 176) !important;
+}
