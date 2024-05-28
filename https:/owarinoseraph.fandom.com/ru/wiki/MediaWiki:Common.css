@@ -1,260 +1,137 @@
 /* == Импорты == */
-/* === Локальные импорты === */
-/* ==== Оформление профайлов (изменённый скрипт AdaptiveProfile) ==== */
-@import url("//hihraim-test.fandom.com/ru/load.php?mode=articles&articles=MediaWiki:OnSW:ru:Profile.css&only=styles");
+/* === Шрифты === */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 
+/* === Dev Wiki === */
+@import url("/load.php?mode=articles&only=styles&articles=u:dev:MediaWiki:BalancedSearch.css|u:dev:MediaWiki:UWAnimation.css|u:dev:MediaWiki:LocalNavExploreIcons.css|u:dev:MediaWiki:InterlanguageFlags.css|u:dev:MediaWiki:AjaxPoll.Discussions.css|u:dev:MediaWiki:BalancedCategories.css|u:dev:MediaWiki:BalancedPageBottom.css");
+
+/* === Локальные импорты === */
 /* ==== Оформление участников (цвет ника, локальные аватары и баннеры) ==== */
-@import url("//hihraim-test.fandom.com/ru/load.php?mode=articles&articles=MediaWiki:OnSW:ru:Users.css&only=styles");
+@import url("//owarinoseraph.fandom.com/ru/load.php?mode=articles&articles=MediaWiki:Users.css&only=styles");
 
 /* ==== Шаблоны ==== */
 @import url("//owarinoseraph.fandom.com/ru/load.php?mode=articles&articles=MediaWiki:Templates.css&only=styles");
 
-/* ==== Навигация на обложке ==== */
-@import url("//hihraim-test.fandom.com/ru/load.php?mode=articles&articles=MediaWiki:OnSW:ru:WikiHeader.css&only=styles");
-
-/* === Highlight: Подсветка ников участников с глобальными статусами === */
-@import "/load.php?mode=articles&articles=u:dev:MediaWiki:Highlight.css&only=styles";
-
-/* === InterlanguageFlags: Добавляет флаги в интервики === */
-@import "/load.php?mode=articles&articles=u:dev:MediaWiki:InterlanguageFlags.css&only=styles";
-
-/* === BringExternalLinkIconsBack: Возвращает индикацию внешних ссылок === */
-@import "/load.php?mode=articles&articles=u:dev:MediaWiki:BringExternalLinkIconsBack.css&only=styles";
-
-/* === Antiborder: Удаляет множество рамок === */
-@import "/load.php?mode=articles&articles=u:dev:MediaWiki:Antiborder.css&only=styles";
-
-/* === BalancedBloglists: Улучшает дизайн блогов === */
-@import "/load.php?mode=articles&articles=u:dev:MediaWiki:BalancedBloglists.css&only=styles";
-
-/* === LocalNavExploreIcons: Добавляет иконки в меню «Исследовать» локальной навигации вики === */
-@import "/load.php?mode=articles&articles=u:dev:MediaWiki:LocalNavExploreIcons.css&only=styles";
-
-/* === Fanimp: Улучшает некоторые моменты в стилях Фэндома === */
-@import "/load.php?mode=articles&articles=u:dev:MediaWiki:Fanimp.css&only=styles";
-
-/* === SpoilerBlur: Скрипт на замазывания текста === */
-@import "/load.php?mode=articles&articles=u:dev:MediaWiki:SpoilerBlur.css&only=styles";
-/* ==== Использование: ==== */
-/* ===== <span class="spoilerblur">Текст, который нужно замазать</span> ===== */
-
-/* === BalancedSlider: Улучшает дизайн слайдера === */
-@import "/load.php?mode=articles&articles=u:dev:MediaWiki:BalancedSlider.css&only=styles";
-
-/* === BalancedPagebottom:Улучшает дизайн интервики и категорий === */
-@import "/load.php?mode=articles&articles=u:dev:MediaWiki:BalancedPageBottom.css&only=styles";
-
-/* === BalancedSearch: Улучшает дизайн поиска === */
-@import "/load.php?mode=articles&articles=u:dev:MediaWiki:BalancedSearch.css&only=styles";
-
-/* === BalancedCategories: Улучшает вид страниц категорий === */
-@import "/load.php?mode=articles&articles=u:dev:MediaWiki:BalancedCategories.css&only=styles";
-
-/* === NewPagesModule: Исправляет отображение списка новых статей === */
-@import "/load.php?mode=articles&articles=u:dev:MediaWiki:NewPagesModule.css&only=styles";
-
-/* === UWAnimation: Делает открытие списков в навигации более плавным === */
-@import "/load.php?mode=articles&articles=u:dev:MediaWiki:UWAnimation.css&only=styles";
-
-/* == Ручное оформление == */
-/* === Инфобоксы === */
-.portable-infobox {
-   width:270px;
-   border: 2px solid #91bbff;
-   border-radius: 3px;
-   background-color: #0a1827;
-   color: #dfc5c5;
-   padding: 2px;
+/* == Оформление вики == */
+/* === Общее === */
+/* ==== Локальная навигация ==== */
+.main-container .fandom-community-header__community-name-wrapper,
+.main-container .page-counter,
+.main-container .fandom-community-header__local-navigation .wds-tabs__tab-label,
+.main-container #UTCClock {
+	filter:drop-shadow(0px 0px 1px var(--theme-accent-color))
+    	   drop-shadow(0px 0px 1px var(--theme-accent-color))
+    	   drop-shadow(0px 0px 1px var(--theme-accent-color));
 }
 
-.pi-secondary-background {
-   background-color: #91bbff;
-   
+.wiki-tools {
+	background-color:rgba(var(--theme-accent-color--rgb),.4);
 }
 
-.pi-title {
-  text-align:center;
-  background-color: #91bbff;
-  color: #0a1827;
-  
+.main-container #UTCClock {
+    font-size:14px;
+    font-weight:500;
 }
 
-.portable-infobox .pi-header {
-    color: #0a1827;
-    text-align:center;
+.theme-fandomdesktop-light .fandom-community-header {
+    --theme-community-header-color--hover:#f2f2f2;
 }
 
-.portable-infobox .pi-navigation {
-    color: #0a1827;
-    text-align:center;
+.theme-fandomdesktop-light .fandom-sticky-header {
+    --theme-sticky-nav-text-color:#fff;
+    --theme-sticky-nav-text-color--hover:#f2f2f2;
 }
 
-.pi-data .pi-data-label {
-    -ms-flex-preferred-size: auto;
-    -webkit-flex-basis:auto;
-    -moz-flex-basis:auto;
-    flex-basis:auto;
-    width:60%;
+.fandom-community-header__image img {
+    transition:transform .3s ease-in-out;
 }
 
-/* === Содержание === */
-.toc {
-	margin-bottom:-10px;
-    -moz-border-radius:1ex;
-    border-radius:1ex;
+.fandom-community-header__image img:hover {
+    transform:scale(1.1);
 }
 
-/* === Скругление аватара === */
-.avatar {
-    border-radius: 50% !important;
-    -webkit-border-radius: 50% !important;
-    border-width: 2px;
-    border-color: silver;
+/* ==== Выдвигающаяся при скроле навигация ==== */
+.fandom-sticky-header {
+    background:linear-gradient(90deg, var(--mp-header-color-left) 0%, var(--mp-header-color-right) 90%) !important;
 }
 
-/* === Удаление иконок === */
-/* ==== Большая часть блоков в рельсе ==== */
-.rail-module__header .wds-icon {
-    display:none;
+/* ==== Прозрачный фон статьи и рельсы ==== */
+.page__main {
+	background-color:rgba(var(--theme-page-background-color--rgb),0.9);
 }
 
-/* ==== Новые изображения, рельса ==== */
-.rail-module h2.has-icon svg {
+.page__right-rail {
+	background-color:rgba(var(--theme-page-background-color--secondary--rgb),0.9);
+}
+
+.rail-module, .AchievementsModule {
+	background-color:rgba(var(--theme-page-background-color--rgb),0.8) !important;
+}
+
+/* ==== Фикс блока RecentImages (взято с Honkai꞉ Star Rail Вики) ==== */
+.rail-module, .AchievementsModule {
+    background-color:var(--theme-page-background-color);
+    border-radius:10px;
+    padding:8px;
+}
+
+.recentImage__details-title {
+    color:var(--theme-page-dynamic-color-2) !important;
+}
+
+.recentImages__title {
+	background-image:none !important;
+}
+
+.recentImages__title::before {
+	content:"";
+    position:absolute;
+	display:inline-block;
+	width:14.8em;
+	height:125%;
+	top:-2px;
+	left:0;
+	background-image:-webkit-gradient(linear,left bottom,left top,color-stop(54%,var(--wds-midlight-color,rgba(var(--theme-accent-color--rgba),.15))),color-stop(54%,transparent),to(transparent));
+    background-image:linear-gradient(to top,var(--wds-midlight-color),rgba(var(--theme-accent-color--rgb),.15) 54%,transparent 54%,transparent 100%);
+	box-decoration-break:clone;
+	-webkit-box-decoration-break:clone;
+}
+
+.recentImages__title::after {
+	content:"Последние изображения";
+    position:absolute;
+	width:max-content;
+	top:0;
+	left:26px;
+}
+
+.recentImages__title span {
 	display:none;
 }
 
-/* ==== Содержание, статья ==== */
-.toc .toctitle h2 .wds-icon + .wds-icon {
-  display:none;
-}
-
-/* ==== Последние заработанные значки, таблица лидеров по достижениям ==== */
-.WikiaRail .achievements-title:before {
-    display:none;
-}
-
-/* ==== Таблица лидеров по достижениям ==== */
-.LeaderboardTable th:before {
-    display:none;
-}
-
-/* === Заглавная === */
-/* ==== Скрывает категории на заглавной странице ==== */
-.mainpage .article-categories, .mainpage .page-footer__categories {
-    display:none;
-}
-
-/* ==== Переводит таббы в таббере в центр ==== */
-.mainpage .tabber .wds-tabs {
-    justify-content:center;
-}
-
-/* ==== Отключение рамок изображений в галерее ==== */
-.gallery-image-wrapper {
-    border:none !important;
-}
-
-/* === Подстветка синтаксисов (изменённый скрипт SolarizedSyntaxHighlight) === */
-.page pre {
-	border: 2px solid #0004;
-	padding:8px 12px;
-	max-width:100%;
-	line-height:1.2em;
-	-webkit-overflow-scrolling: touch;
-}
-
-.page .mw-highlight pre {
-	color:#839496;
-}
-
-.theme-fandomdesktop-light .mw-highlight pre {
-	background-color:#ffffff;
-}
-
-.theme-fandomdesktop-dark .mw-highlight pre {
-	background-color:#2f2f2f;
-}
-
-/* ==== SYNTAX HIGHLIGHTING ==== */
-/* ===== HTML & CSS ===== */
-.mediawiki .mw-highlight .p  {color:#93a1a1;} /* punctuation CSS . # : { : ; } ( , ) HTML < / >          */
-.mediawiki .mw-highlight .o  {color:#93a1a1;} /* punctuation CSS -- ( : ) [ = ] HTML =                   */
-.mediawiki .mw-highlight .c  {color:#586e75;font-style:italic;} /* HTML/CSS comment                      */
-.mediawiki .mw-highlight .cp {color:#dc322f;} /* CSS !important  HTML <!DOCTYPE>                         */
-.mediawiki .mw-highlight .nt {color:#268bd2;font-weight:bold;} /* html tag name (body, div), after @-rule*/
-
-/* ===== HTML ===== */
-.mediawiki .mw-highlight .na {color:#6c71c4;} /* attribute (id, class,...)    */
-.mediawiki .mw-highlight .s  {color:#2aa198;} /* attribute "value"            */
-.mediawiki .mw-highlight .ni {color:#b58900;} /* special character (&...;)    */
-
-/* ===== CSS ===== */
-.mediawiki .mw-highlight .n  {color:#93a1a1;} /* unrecognized syntax          */
-.mediawiki .mw-highlight .nn {color:#d33682;text-shadow:0 0 #d33682;} /* id   */
-.mediawiki .mw-highlight .nc {color:#6c71c4;} /* class                        */
-.mediawiki .mw-highlight .nd {color:#268bd2;} /* pseudo-class (hover, before) */
-.mediawiki .mw-highlight .nb {color:#2aa198;} /* text value (solid, hidden)   */
-.mediawiki .mw-highlight .kc {color:#2aa198;} /* text value (rgba, hsl, url)  */
-.mediawiki .mw-highlight .k  {color:#859900;} /* propertie, @-rule (@media)   */
-.mediawiki .mw-highlight .kp {color:#859900;font-style:italic;} /* -webkit-   */
-.mediawiki .mw-highlight .kp+.k {font-style:italic;} /* webkit propertie      */
-.mediawiki .mw-highlight .mh {color:#d33682;} /* hex color (#..)              */
-.mediawiki .mw-highlight .mi {color:#b58900;} /* numeric values               */
-.mediawiki .mw-highlight .mf {color:#d33682;} /* decimal numeric values (0.5) */
-.mediawiki .mw-highlight .kt {color:#b58900;} /* size unit (px, in)           */
-.mediawiki .mw-highlight .s2 {color:#cb4b16;} /* [...="value"]                */
-.mediawiki .mw-highlight .sx {color:#cb4b16;font-style:italic;} /* media link */
-.mediawiki .mw-highlight .nf {color:#cb4b16;font-weight:bold;} /* --var       */
-
-/* === Цвет нумерации строк кода при просмотре вне редактора кода === */
-.theme-fandomdesktop-dark .mw-content-ltr.mw-highlight-lines pre, .mw-content-ltr.content .mw-highlight-lines pre {
-	padding-left:3.5em;
-	box-shadow: inset 2.75em 0 0 #232323;
-}
-
-/* === Скроллбар (полоса прокрутки. Изменённый скрипт BalancedScrollbar) === */
+/* ==== Кастомизация полосы прокрутки ==== */
+/* ===== Браузеры на движке Webkit ===== */
 ::-webkit-scrollbar {
-  width:10px;
+    width:13px;
 }
+
 ::-webkit-scrollbar-track {
-  background:var(--theme-page-background-color--secondary);
+    background:var(--theme-background-color);
 }
+
 ::-webkit-scrollbar-thumb {
-  background:var(--theme-accent-color);
+    background:var(--theme-link-color);
+    border-radius:2px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
-  background:var(--theme-accent-color);
+    background:var(--theme-link-color--hover);
 }
 
-/* ==== Firefox ==== */
+/* ===== Firefox ===== */
 :root {
-  scrollbar-color:var(--theme-accent-color) var(--theme-page-background-color--secondary);
-  scrollbar-width:thin;
-}
-
-/* === Рельса === */
-/* ==== Изменяет цвет фона блоков в рельсе ==== */
-.rail-module, .AchievementsModule {
-    background-color:var(--theme-page-background-color);
-    border-radius:8px;
-    padding:8px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    font-size: 100%;
-    border: 2px solid #91bbff;
-    moz-border-radius: 0.75em;
-    -webkit-border-radius: 0.75em;
-    border-radius: 0.75em;
-}
-
-/* ==== Отступ между блоками достижений ==== */
-.AchievementsModule {
-    margin-top:20px;
-}
-
-/* ==== Изменяет вид ссылок в рельсе (взято из BalancedUCX) ==== */
-.mw-parser-output a, .right-rail-wrapper a {
-    font-weight:500;
+    scrollbar-color:var(--theme-link-color) var(--theme-background-color);
+    scrollbar-width:auto;
 }
 
 /* ==== Исправляет отступ от заголовков в рельсе ==== */
@@ -262,73 +139,1103 @@
     margin-bottom:5px;
 }
 
-/* ==== Уменьшает отступ от верха рельсы ==== */
-.right-rail-wrapper {
-    margin-top:-20px;
+/* ==== Accent label color (по мнению сообщества так выглядит лучше) ==== */
+body.skin-fandomdesktop {
+    --theme-accent-label-color:#fff;
 }
 
-/* ==== Делает текст "Вы можете заработать ещё больше значков!" нормального размера ==== */
-.skin-fandomdesktop .UserProfileAchievementsModule .badges-profile-title, .skin-fandomdesktop .UserProfileAchievementsModule .title-challeneges {
-    font-size: 16px;
+/* ==== Фикс заголовков ==== */
+.page-content h2 {
+    overflow:hidden;
 }
 
-/* === Навигация === */
-/* ==== Название вики (взято из BalancedUCX) ==== */
-.fandom-community-header__community-name {
-    font-size:28px;
+/* ==== Комментарии ==== */
+.InlineEntityFormWrapper_inline-entity-form-wrapper__z2Uf9 {
+    background:linear-gradient(135deg, var(--theme-page-background-color), var(--theme-page-background-color--secondary));
+    border:1px solid rgba(var(--webeditor-border-color--rgb), .7);
+    box-shadow:0 4px 8px rgba(0,0,0,.1);
+    border-radius:6px;
+    color:var(--theme-page-text-color);
+    display:flex;
+    flex-direction:column;
+    padding:16px;
+    transition:transform .2s ease-in-out;
+}
+
+.InlineEntityFormWrapper_inline-entity-form-wrapper__z2Uf9:hover {
+    transform:translateY(-2px);
+    box-shadow:0 6px 12px rgba(0,0,0,.15);
+}
+
+.CommentList_comment-list__SA8FA {
+    padding:32px 0;
+    border-bottom:2px solid var(--webeditor-border-color);
+}
+
+.CommentList_comment-list-header-multi__d9AC2 {
+    justify-content:space-between;
+}
+
+.CommentList_comment-list-header__0D9Gj {
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:24px;
+}
+
+.Comment_wrapper__VysRy {
+    background-color:var(--theme-page-background-color--secondary);
+    border:none;
+    border-left:3px solid var(--webeditor-border-color) !important;
+    border-radius:6px;
+    margin-bottom:16px;
+    transition:all .3s ease;
+}
+
+.Comment_wrapper__VysRy:hover {
+    background-color:var(--theme-page-background-color);
+    border-left-color:var(--webeditor-link-color) !important;
+}
+
+.Comment_comment__50MD- {
+    position:relative;
+    padding:16px;
+}
+
+.Comment_body__Dw-zH {
+    margin:-15px !important;
+    line-height:1.6;
+    font-size:16px;
+}
+
+.EntityHeader_entity-header__RNUeH {
+    align-items:center;
+    display:flex;
+    font-size:16px;
+    margin-bottom:15px;
+    position:relative;
+}
+
+.ReplyList_container__bj-35 {
+    margin-bottom:16px;
+    padding-bottom:18px;
+}
+
+.ReplyList_top-border__fIxR2, .ReplyList_view-all-replies__h75Z0 {
+    margin:0 16px;
+    width:calc(100% - 32px);
+}
+
+.ReplyList_top-border__fIxR2 {
+    background-color:var(--theme-border-color);
+    height:2px;
+}
+
+.ReplyList_list-wrapper__cuHYs {
+    margin:16px 8px;
+}
+
+.ReplyCreate_reply-create__aSd5g {
+    margin:0 14px;
+    padding-left:0;
+}
+
+.ReplyCreate_reply-create__aSd5g:not(.Message__wrapper) {
+	margin-bottom:-15px !important;
+}
+
+.EditedBy_edited-by__SMxZY {
+	margin-top:9px;
+}
+
+/* ==== Новостная лента ==== */
+.mcf-card {
+    border:none;
+    border-radius:8px;
+    overflow:hidden;
+    transition:transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mcf-card:hover {
+    transform:translateY(-5px);
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+.mcf-card-wiki-articles__header {
+    background:var(--theme-accent-color);
+    color:var(--theme-accent-label-color);
+    font-size:16px;
+    padding:16px;
+    clip-path:polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+/* .mcf-card-wiki-articles__list {
+    padding:20px;
+} */
+
+.mcf-card-wiki-articles__circle {
+    background-color:rgba(var(--theme-page-text-color--rgb), .3);
+}
+
+/* ==== Флаги в интервиках ==== */
+.page-footer__languages a::before {
+    height:20px !important;
+    vertical-align:middle;
+}
+
+.interwiki-en::before,
+:is(.page-header__languages ul li, .page-footer__languages) a[data-tracking-label^="lang-de"]::before {
+	background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/20px-Flag_of_Germany.svg.png);
+}
+
+.interwiki-en::before,
+:is(.page-header__languages ul li, .page-footer__languages) a[data-tracking-label^="lang-en"]::before {
+	background-image:url(https://upload.wikimedia.org/wikipedia/commons/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg);
+}
+
+.interwiki-es::before,
+:is(.page-header__languages ul li, .page-footer__languages) a[data-tracking-label^="lang-es"]::before {
+	background-image:url(https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg);
+}
+
+.interwiki-fr::before,
+:is(.page-header__languages ul li, .page-footer__languages) a[data-tracking-label^="lang-fr"]::before {
+	background-image:url(https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg);
+}
+
+/* ==== Блоги ==== */
+.page-header__subtitle-blog-post .wds-avatar__image {
+    margin-top:5px;
+}
+
+/* ==== Голосования ==== */
+.theme-fandomdesktop-light .d-poll__answerBar > div {
+	--theme-page-background-color--secondary:#dfdfdf;
+}
+
+/* ==== Блок «Недавняя вики-деятельность» в рельсе ==== */
+#wikia-recent-activity #seemoreactivity-button {
+    display:none;
+}
+
+/* === Заглавная страниа === */
+/* ==== Стандартные блоки заглавной ==== */
+.theme-fandomdesktop-dark {
+    --mp-header-color-right:rgb(117, 183, 83);
+    --mp-header-color-left:rgb(86, 136, 61);
+    --mp-content-background-color:rgba(0, 0, 0, 0.3);
+    --mp-content-discord-background-color:rgb(51, 54, 57);
+}
+
+.theme-fandomdesktop-light {
+    --mp-header-color-right:rgb(117, 183, 83);
+    --mp-header-color-left:rgb(86, 136, 61);
+    --mp-content-background-color:rgba(187, 187, 187, 0.623);
+    --mp-content-discord-background-color:rgba(165, 165, 165, 0.753);
+}
+
+.mp-panel {
+    position:relative;
+    background-position:top left;
+    background-repeat:no-repeat;
+    background-color:var(--mp-content-background-color);
+    backdrop-filter:blur(20px);
+    border-radius:3px;
+    padding:0px 0px 0px 0px;
+    margin-bottom:12px;
+    font-size:13px;
+    overflow:hidden;
+}
+
+.mp-panel-header {
+    font-family:'EB Garamond', bold;
+    font-weight:600;
+    background:var(--mp-header-color-right);
+    background:linear-gradient(90deg, var(--mp-header-color-left) 0%, var(--mp-header-color-right) 90%);
+    padding:5px 10px 5px 10px;
+    color:#ffffff;
+    font-size:16px;
+    line-height:30px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+
+.mp-panel-content {
+    position:relative;
+    border-radius:5px;
+    padding:10px;
+    margin-bottom:0px;
+    font-size:13px;
+    overflow:hidden;
+}
+
+.mp-panel-content-h1 {
+    top:0;
+    left:5px;
+    font-size:1.5em;
+    margin:0;
+    padding:0;
+}
+
+.mp-panel-content-h2 {
+    margin:0;
+    padding:0;
+    border-bottom:thin solid var(--theme-border-color);
+    text-align:left;
+}
+
+.mp-panel-content-h3 {
+    line-height:1.6;
+    margin-top:0.3em;
+    margin-bottom:0;
+    padding-bottom:0;
+    font-weight:bold;
+}
+
+.mp-panel-content-admins img {
+    border-radius:50%;
+    border:2px solid var(--theme-accent-color);
+}
+
+.mp-panel-content .discord-widget .widget-footer {
+    background-color:var(--mp-content-discord-background-color) !important;
+}
+
+.mp-news-panel .mp-panel-header {
+	background:linear-gradient(90deg, rgb(0, 0, 155) 0%, rgb(0, 0, 223) 90%);
+}
+
+.mp-panel .wds-button {
+    transition:all 0.3s;
+}
+
+.mp-panel .wds-button:hover {
+  transform:scale(1.05);
+}
+
+/* ===== Верхний блок (вдохновлено у Honkai:Star Rail Вики) ===== */
+.theme-fandomdesktop-dark .mp-top-panel {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://static.wikia.nocookie.net/hihraim-test/images/f/fd/MpBg.jpg/revision/latest?cb=20240408162727&path-prefix=ru');
+}
+
+.theme-fandomdesktop-light .mp-top-panel {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://static.wikia.nocookie.net/hihraim-test/images/5/5e/MpGbL.jpeg/revision/latest?cb=20240408163929&path-prefix=ru');
+}
+
+.mp-top-panel {
+    color:white;
+    overflow:hidden;
+    border-top:5px solid var(--mp-header-color-right);
+    border-radius:3px;
+    margin-bottom:12px;
+    padding:15px;
+}
+
+/* ===== Блоки со списками ===== */
+.mp-panel-list ul {
+    margin:6px 0 18px 0px;
+}
+
+.mp-panel-list li {
+    list-style-type:none;
+}
+
+.mp-panel-list {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    font-family:Arial, sans-serif;
+}
+
+.mp-panel-list li {
+    padding:10px;
+    transition:all 0.3s ease;
+}
+
+.mp-panel-list li:hover {
+    transform:scale(1.02);
+    box-shadow:0px 0px 15px rgba(0,0,0,0.5);
+}
+
+/* ==== Слайдер на заглавной ==== */
+.fandom-slider {
+    align-items:center;
+    border-radius:10px;
+    display:flex;
+    width:100%;
+    height:360px;
+    margin:0 auto;
+    margin-bottom:-30px !important;
+    max-width:670px;
+    overflow:hidden;
+    position:relative;
+    transition:transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.fandom-slider:hover {
+    transform:scale(1.02);
+}
+
+.fandom-slider__list {
+    align-items:center;
+    display:flex;
+    flex-direction:row;
+    transition:margin-left 0.5s ease;
+}
+
+.fandom-slider__list .gallerybox {
+    align-items:center;
+    display:flex;
+    justify-content:center;
+    overflow:hidden;
+    transition:width 0.5s ease;
+    width:670px;
+}
+
+.fandom-slider img {
+    vertical-align:middle;
+    transition:transform 0.3s ease;
+}
+
+.fandom-slider img:hover {
+    transform:scale(1.05);
+}
+
+.fandom-slider img.lazyloaded {
+    opacity:1;
+    transition:opacity 0.5s ease, transform 0.5s ease-out;
+}
+
+.fandom-slider img.lazyloaded:hover {
+    opacity:0.7;
+    transform:scale(1.1);
+}
+
+.fandom-slider__nav {
+	background-color:rgba(0,0,0,0.7) !important;
+}
+
+.fandom-slider__nav__caption>div h2 {
+    font-family:'EB Garamond',bold;
+    font-weight:600;
+    font-size:16px;
+}
+
+.fandom-slider__nav__caption>div span {
     font-weight:600;
 }
 
-/* === Увеличивает заголовки и уменьшает нижний отступ в категориях и интервиках (изменение для скрипта BalancedPageBottom) === */
-.wds-collapsible-panel__header {
-    font-size:15px !important;
+/* ==== Статьи по категориям (автор оригинального кода꞉ LucyKuranSKYDOME) ==== */
+.mp-panel-menu {
+	display:grid;
+	width:800px;
+	place-items:center;
+    justify-content:center;
+	margin:auto;
+	position:relative;
 }
 
-#articleCategories .container, #articleCategories .toolbar, #articleCategories li {
+.mp-panel-menu #mp-panel-ctgr-1 img, .mp-panel-menu #mp-panel-ctgr-2 img, .mp-panel-menu #mp-panel-ctgr-3 img {
+	width:400px;
+	height:413.78px;
+	border:1px solid var(--theme-accent-color);
+}
+
+.mp-panel-menu #mp-panel-ctgr-1 {
+	grid-area:1/2/2/3;
+}
+
+.mp-panel-menu #mp-panel-ctgr-2 {
+	grid-area:1/3/3/4;
+}
+
+.mp-panel-menu #mp-panel-ctgr-3 {
+	grid-area:1/5/3/4;
+}
+
+.mp-panel-menu #mp-panel-ctgr-small-pics {
+	display:flex;
+	justify-content:center;
+	grid-area:3/1/4/8;
+	border:1px solid var(--theme-accent-color);
+}
+
+.mp-panel-menu img {transition:all 0.5s;}
+.mp-panel-menu img:hover {
+	transition:all 0.5s;
+	transform:scale(1.03);
+	box-shadow:0 0 5px var(--theme-accent-color);
+	border:1px solid var(--theme-accent-color);
+	z-index:200;
+	position:relative;
+}
+
+.mp-panel-menu div:has(img:hover) > p, .mp-panel-menu #mp-panel-ctgr-small-pics div:has(img:hover) > p {
+	transition:all 0.5s;
+	transform:scale(1.03);
+	top:88.5%;
+}
+
+.mp-panel-menu #mp-panel-ctgr-small-pics div:has(img:hover) > p {top:81.5%;}
+
+.mp-panel-menu:hover img {
+	filter:grayscale(1);
+}
+
+.mp-panel-menu:hover img:hover {
+	filter:unset;
+}
+
+.mp-panel-menu div, #mp-panel-ctgr-small-pics div {position:relative;}
+
+.mp-panel-menu p {
+	transition:all 0.5s;
+    position:absolute;
+    top:87%;
+    z-index:200;
+    font-size:30px;
+    color:white;
+    text-align:center;
+    font-weight:bold;
+    font-family:'Montserrat','Times New Roman', sans-serif;
+    text-shadow:-3px 0px 0px #150a21, 3px 0px 5px #150a21;
+    width:100%;
+}
+
+.mp-panel-menu #mp-panel-ctgr-small-pics p {top:80%;}
+
+.mp-panel-menu p:before {
+    content:"";
+    height:100%;
+    z-index:-1;
+	font-family:'EB Garamond', bold;
+    font-weight:800;
+    font-size:14px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    background-color:rgba(0, 0, 0, 0.7);
+    color:#ffffff;
+    padding:5px;
+    text-align:center;
+}
+
+@media only screen and (max-width:1400px) {
+	.mp-panel-menu {width:560px;}
+	.mp-panel-menu #mp-panel-ctgr-1 img, .mp-panel-menu #mp-panel-ctgr-2 img, .mp-panel-menu #mp-panel-ctgr-3 img {
+		width:220px;
+		height:220px;
+	}
+	.mp-panel-menu #mp-panel-ctgr-small-pics img {height:165px;}
+	.mp-panel-menu #mp-panel-ctgr-4 img {width:165px;}
+	.mp-panel-menu #mp-panel-ctgr-5 img {width:165px;}
+	.mp-panel-menu #mp-panel-ctgr-6 img {width:165px;}
+	.mp-panel-menu #mp-panel-ctgr-7 img {width:165px;}
+	.mp-panel-menu p {font-size:19px;}
+}
+
+/* ==== Список персонажей ==== */
+.mp-char-list {
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    justify-content:center;
+}
+
+.mp-char {
+    width:15%;
+    height:15%;
+    border-radius:10px;
+    overflow:hidden;
+    position:relative;
+    transition:transform 0.3s ease;
+}
+
+.mp-char:hover {
+    transform:scale(1.1);
+}
+
+.mp-char-image {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.mp-char-title {
+	font-family:'EB Garamond', bold;
+    font-weight:800;
+    font-size:14px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    background-color:rgba(0, 0, 0, 0.7);
+    color:#ffffff;
+    padding:5px;
+    font-size:12px;
+    text-align:center;
+    --theme-link-color:#fff;
+    --theme-link-color--hover:#fff;
+    --theme-alert-color:#fff;
+    --theme-alert-color--hover:#fff;
+}
+
+/* ==== Избранные статьи ==== */
+.mp-panel .featured-article img {
+    border-radius:10px;
+    margin:3px 0;
+    border:1px solid var(--theme-accent-color);
+    transition:transform 0.3s ease;
+}
+
+.mp-panel .featured-article img:hover {
+    transform:scale(1.05);
+}
+
+/* ==== Блоки Конфедерации и Альянса Отаку ===== */
+.animangafooter img, .confederation img {
+    vertical-align:middle;
+    transition:transform .3s ease-out;
+}
+
+.animangafooter img.lazyloaded, .confederation img.lazyloaded {
+    opacity:1;
+    transition:opacity .3s ease-out, transform .3s ease-out;
+}
+
+.animangafooter img:hover, .confederation img:hover {
+    transform:scale(1.05);
+}
+
+/* ==== Вики в цифрах ==== */
+.mp-numbers-line {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+
+.mp-number {
+    width:45%;
+    padding:10px;
+    margin:7px;
+    border:1px solid var(--theme-accent-color--hover);
+    transition:all 0.3s ease-in-out;
+    text-align:center;
+    border-radius:15px;
+}
+
+.mp-number:hover {
+    background-color:var(--theme-accent-color--hover);
+    transform:scale(1.05);
+}
+
+.mp-number a {
+    font-family:'EB Garamond',bold;
+    font-size:x-large;
+    font-weight:bold;
+}
+
+/* ==== Discord ==== */
+.mp-discord__tab {
+    border-bottom:4px solid #5765f2;
+    padding-top:4px;
+    padding-bottom:4px;
+    position:relative;
+    z-index:1;
+}
+
+.mp-discord__tab::before {
+    background-color:#5765f2;
+    content:"";
+    height:0;
+    left:0;
+    position:absolute;
+    top:0;
+    transition:all 0.5s;
+    width:100%;
+    z-index:-1;
+}
+
+.mp-discord__tab:hover::before {
+    height:100%;
+}
+
+.mp-discord__content {
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+    z-index:2;
+}
+
+.mp-discord img {
+    height:auto;
+    max-width:100%;
     margin-bottom:-10px;
+    vertical-align:middle;
+    transition:transform .3s ease-out;
 }
 
-#articleCategories {
-    margin-bottom:-10px;
+.mp-discord img.lazyloaded {
+    opacity:1;
+    transition:opacity .3s ease-out, transform .3s ease-out;
 }
 
-.page-footer__languages .wds-collapsible-panel__content {
-    margin-bottom:-10px;
+.mp-discord img:hover {
+    transform:scale(1.05);
 }
 
-/* === Уменьшает отступы от расширенного поиска (изменение для скрипта BalancedSearch) === */
-.unified-search__layout__main {
-    margin-top:-10px;
+/* ==== Случайная обложка ==== */
+.cover-bg {
+    background:var(--theme-accent-color);
+    border-radius:5px;
+    display:inline-block;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -khtml-border-radius:5px;
+    margin-top:-15px;
 }
 
-.unified-search__layout__right-rail {
-    margin-top:-10px;
+.cover {
+    background-color:var(--theme-accent-color);
+    border-radius:5px;
+    padding:0px;
+    width:260px;
+    position:relative;
 }
 
-/* === Интервики (взято из BalancedUCX) === */
-.page-header__languages .wds-dropdown__toggle,
-.page-header__variants .wds-dropdown__toggle {
-    transition-duration: .3s !important;
+.cover-img {
+	border:1px solid var(--theme-accent-color);
+    border-radius:2px;
+    overflow:hidden;
+    width:260px;
+    transition:all 0.3s;
+    position:relative;
+}
+
+.cover-img:hover {
+  transform:scale(1.05);
+}
+
+/* ==== Друзья вики ===== */
+.mp-panel-partners {
+    text-align:center;
+}
+
+.mp-panel-partners img {
+    width:130px;
+    height:auto;
+    transition:all 0.3s ease-in-out;
+}
+
+.mp-panel-partners img:hover {
+    transform:scale(1.1);
+}
+
+/* ==== Последние сообщения ==== */
+.mainpage .page .mcf-card {
+    border-radius:0px;
+}
+
+.theme-fandomdesktop-light.mainpage .page .mcf-card-discussions {
+    --theme-page-background-color:var(--mp-content-background-color);
+}
+
+.mp-panel .mcf-card-discussions {
+    width:280px;
+    height:280px;
+}
+
+.mp-panel .mcf-card-discussions__header {
+    display:none;
+}
+
+/* ==== Последние блоги ==== */
+.theme-fandomdesktop-light.mainpage .page .blog-listing__post {
+    --theme-page-background-color:var(--mp-content-background-color);
+}
+
+.blog-listing {
+    margin:0 0 0px !important;
+}
+
+.blog-listing__post {
+    background-color:var(--theme-page-background-color);
+    border:none;
+    margin:10px 10px -12px 10px;
+    padding:0;
+    transition:transform 0.3s ease,box-shadow 0.3s ease;
+}
+
+.blog-listing__post:hover {
+    transform:translateY(-5px);
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+.blog-listing__post-details {
+    padding-top:10px !important;
+    margin-left:16px !important;
+    margin-right:16px !important;
+}
+
+.blog-listing__comment-count svg {
+    opacity:0.4;
+}
+
+.blog-listing__comment-count {
+    opacity:0.7;
+}
+
+.blog-listing__title {
+    border-width:0;
+    margin-top:-0px !important;
+    margin-left:16px !important;
+    margin-right:16px !important;
+    font-size:18px !important;
+    border-bottom:1px solid var(--theme-border-color) !important;
+}
+
+.blog-listing__read-post {
+    display:none;
+}
+
+/* === Профайлы (автор оригинального скрипта AdaptiveProfile꞉ Dr.Bryan) === */
+/* ==== Общая часть ==== */
+.skin-fandomdesktop #userProfileApp {
+	--banner-image:url('');
+	--banner-pos:center;
+	--banner-ratio:;
+	--width-padding:186px;
+	margin:-24px -36px 12px -36px !important;
+}
+
+#userProfileApp .user-identity-box,
+#userProfileApp .user-identity-header__actions button {
+	margin:0;
+}
+
+/* ==== Баннер ==== */
+#userProfileApp:before {
+	background:lightgreen;
+	background-image:var(--banner-image);
+	background-position:var(--banner-pos);
+	background-size:cover;
+	content:'';
+	display:block;
+	padding-bottom:var(--banner-ratio);
+	width:100%;
+}
+
+/* ==== Заголовок ==== */
+body.skin-fandomdesktop #userProfileApp .user-identity-header {
+	background:var(--theme-accent-color);
+	left:calc(var(--width-padding)*-1);
+	min-height:37px;
+	padding-left:var(--width-padding);
+	position:relative;
+	width:calc(100% + var(--width-padding));
+}
+
+#userProfileApp .user-identity-header :is(h1,h2) {
+	color:var(--theme-accent-label-color);
+}
+
+#userProfileApp .user-identity-header__attributes,
+#userProfileApp .user-identity-header__action {
+	align-items:center;
+	display:flex;
+	flex-wrap:wrap;
+	grid-row-gap:5px;
+}
+
+body.skin-fandomdesktop #userProfileApp .user-identity-header__tag {
+	background-color:rgb(var(--theme-page-background-color--rgb),0.3);
+	color:var(--theme-accent-label-color);
+	margin:6px 12px 6px 0 !important;
+}
+
+/* ===== Кнопка в заголовке ===== */
+#userProfileApp .user-identity-header__actions {
+	align-items:center;
+	display:flex;
+}
+
+body.skin-fandomdesktop #userProfileApp .user-identity-header__actions .wds-button,
+.modal-wrapper__header .modal-wrapper__cta-button {
+	border:none;
+	border-radius:10px;
+	margin-right:1em;
+	color:rgb(var(--theme-accent-dynamic-color-2--rgb),.9);
+	padding:.4em .8em;
+}
+
+body.skin-fandomdesktop #userProfileApp .user-identity-header__actions .wds-button:hover,
+.modal-wrapper__header .modal-wrapper__cta-button:hover,
+.modal-wrapper__header .wds-is-square:hover {
+	background-color:var(--theme-link-color--hover);
+}
+
+/* ==== Аватар ==== */
+body.skin-fandomdesktop #userProfileApp .user-identity-avatar {
+	-webkit-box-sizing:content-box;
+	-moz-box-sizing:content-box;
+	box-sizing:content-box;
+	height:140px;
+	padding:18px 0 0 28px;
+	width:140px;
+	z-index:1;
+}
+
+#userProfileApp .user-identity-avatar__image {
+	border:solid 2px var(--theme-accent-color) !important;
+	border-radius:10px;
+	-webkit-box-shadow:0 0 10px rgb(0 0 0 / 50%);
+	-moz-box-shadow:0 0 10px rgb(0 0 0 / 50%);
+	box-shadow:0 0 10px rgb(0 0 0 / 50%);
+}
+
+/* ===== Локальный аватар ===== */
+body .user-identity-avatar:before {
+	background-image:var(--wiki-avatar);
+	background-position:center top;
+	background-size:auto 100%;
+	border-radius:50%;
+	content:'';
+	height:138px;
+	margin:2px 0 0 2px;
+	position:absolute;
+	width:138px;
+}
+
+/* ==== Навигация ==== */
+#userProfileApp .user-profile-navigation {
+    justify-content:space-around;
+    background-color:var(--theme-background-color);
+    border-radius:10px;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+    padding-top:6px;
+}
+
+body.skin-fandomdesktop #userProfileApp .user-profile-navigation__link {
+    font-size:16px;
+    font-weight:500;
+    letter-spacing:1px;
+    padding:15px;
+    color:var(--theme-link-color);
+    text-transform:uppercase;
+}
+
+#userProfileApp .user-profile-navigation__link {
+	padding:0 !important;
+	text-align:center !important;
+	-webkit-transition:.2s;
+    -moz-transition:.2s;
+    -o-transition:.2s;
+    transition:all .3s ease;
+}
+
+#userProfileApp .user-profile-navigation__link:hover {
+    border-bottom:4px solid;
+    transform:scale(1.1);
+    opacity:1;
+}
+
+#userProfileApp .user-profile-navigation__link a {
 	color:var(--theme-link-color) !important;
-	text-transform:uppercase !important;
-    font-family:inherit !important;
-    font-size:12px !important;
-    font-weight:600 !important;
-    letter-spacing:.15px !important;
-    line-height:16px !important;
+	display:block;
+	font-weight:bold;
+	padding:10px 15px;
+	text-decoration:none;
+	text-shadow:none;
 }
 
-.page-header__languages svg,
-.page-header__variants svg {
-	display:none !important;
+#userProfileApp .user-profile-navigation__link.is-active {
+	border-bottom:4px solid var(--theme-link-color);
+    opacity:1;
+    transform:scale(1.1);
 }
 
-/* === Исправление ссылок (взято из BalancedUCX) === */
-a {
-	text-decoration:none !important;
+#userProfileApp .user-profile-navigation__link.is-active a {
+	color:var(--theme-link-color);
 }
 
-/* === Увеличивает максимальную ширину контента навигации === */
-.fandom-community-header__local-navigation .wds-dropdown__content {
-    max-width:250px;
+#userProfileApp .user-profile-navigation__link:not(.is-active):hover {
+	border-bottom-color:var(--theme-link-color) !important;
+	opacity:1;
+	-webkit-transition:.2s;
+    -moz-transition:.2s;
+    -o-transition:.2s;
+    transition:.2s;
+}
+
+/* ==== Редактирование профайла ==== */
+#userProfileApp .modal-wrapper__main {
+	padding:0 !important;
+}
+
+.modal-wrapper__header {
+	background:var(--theme-accent-color);
+	color:var(--theme-accent-label-color) !important;
+	margin-bottom:-37px !important;
+	padding:0 0 0 20px !important;
+}
+
+.modal-wrapper__header h3 {display:none;}
+.modal-wrapper__header .wds-is-square {
+	border-radius:18px;
+	color:var(--theme-page-accent-mix-color);
+}
+
+.modal-wrapper__header .modal-wrapper__cta-button,
+.modal-wrapper__header .wds-is-square {
+	position:relative;
+	z-index:2;
+}
+
+.theme-fandomdesktop-dark :is(.modal-wrapper__header .modal-wrapper__cta-button,
+.modal-wrapper__header .wds-is-square) {
+	color:rgb(var(--theme-accent-dynamic-color-2--rgb),.9);
+}
+
+.wds-input.user-profile-editor__bio-field #wds_input_8 {
+    min-height:60px;
+}
+
+/* ===== Текстовая форма ===== */
+.user-profile-editor__form h1 {
+	color:var(--theme-accent-label-color);
+	line-height:normal;
+}
+
+.user-profile-editor__form {
+	margin-top:2px;
+}
+
+.user-profile-editor__form .wds-fieldset {
+	padding-top:0;
+}
+
+.user-identity-avatar__actions {
+	border-radius:50%;
+	-webkit-box-shadow:0 0 10px rgb(0 0 0 / 50%);
+	-moz-box-shadow:0 0 10px rgb(0 0 0 / 50%);
+	box-shadow:0 0 10px rgb(0 0 0 / 50%);
+	-webkit-transition:.5s;
+	-moz-transition:.5s;
+	-o-transition:.5s;
+	transition:.5s;
+}
+
+.user-identity-avatar__actions svg {
+	color:var(--theme-link-color);
+	-webkit-transition:color .3s;
+	-moz-transition:color .3s;
+	-o-transition:color .3s;
+	transition:color .3s;
+}
+
+.user-identity-avatar__actions:hover svg {
+	color:var(--theme-link-color--hover);
+}
+
+@media (min-width:1084px) {
+	.user-identity-avatar__actions {
+		opacity:.4;
+	}
+}
+
+.user-identity-avatar:hover .user-identity-avatar__actions {
+	opacity:1;
+}
+
+/* ==== Адаптация для мобильных устройств ==== */
+@media (max-width:713px) {
+	.user-profile-navigation {
+		overflow-x:scroll; white-space:nowrap;
+	}
+	.user-profile-navigation__link {
+		width:auto !important;
+	}
+	.user-identity-header {
+		flex-direction:column;
+	}
+	.user-identity-box {
+		flex-direction:column;
+	}
+	.user-identity-avatar {
+		margin:10px auto !important;
+		padding:0 !important;
+	}
+	.user-identity-header {
+		align-items:center;
+		left:0 !important;
+		gap:0px !important;
+		padding-left:0px !important;
+		width:100% !important;
+	}
+	.user-identity-box__info {
+		display:flex;
+		flex-direction:column;
+		gap:10px;
+	}
+	.user-identity-box__info > :is(ul,div:not(.user-identity-header)) {
+		margin:0 0 0 20px !important;
+	}
+}
+
+/* ==== Блок медалей ==== */
+.badgetooltipwindow {
+    color:var(--theme-page-text-color) !important;
+    border:solid 1px var(--theme-accent-color) !important;
+    background-color:var(--theme-page-background-color--secondary) !important;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+	font-size:12px;
+    line-height:1.3;
+}
+
+.badgetooltiparrow {
+    border-bottom:var(--theme-accent-color) solid 7px !important;
+}
+
+/* ==== Фикс блоков достижений ==== */
+.AchievementsModule {
+    margin-top:20px;
+}
+
+.skin-fandomdesktop .UserProfileAchievementsModule .badges-profile-title, .skin-fandomdesktop .UserProfileAchievementsModule .title-challeneges {
+    font-size:16px;
+}
+
+.badges li:has(.badge-icon:hover) .profile-hover {
+	display:block;
+	z-index:1;
+	pointer-events:none;
+}
+
+.rail-module {
+	overflow:visible;
+}
+
+/* ==== Раздел блогов ==== */
+.page__main .blog-listing__summary p {
+    padding-left:15px;
+    padding-right:15px;
+}
+
+/* === Страницы кода === */
+.theme-fandomdesktop-dark .mw-content-ltr.mw-highlight-lines pre {
+    box-shadow:inset 2.75em 0 0 #232323;
+}
+
+.theme-fandomdesktop-light .mw-content-ltr.mw-highlight-lines pre {
+    box-shadow:inset 2.75em 0 0 #ebebeb;
+}
+
+.page-content pre {
+    border:0px;
+    border-radius:5px;
+}
+
+.theme-fandomdesktop-dark pre {
+    background-color:#141414;
 }
