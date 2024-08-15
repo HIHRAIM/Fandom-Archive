@@ -1,0 +1,4087 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="ru">
+  <siteinfo>
+    <sitename>Politwar Factory Вики</sitename>
+    <dbname>ruworldofpolytwar</dbname>
+    <base>https://politwar-factory-wiki.fandom.com/ru/wiki/Politwar_Factory_%D0%92%D0%B8%D0%BA%D0%B8</base>
+    <generator>MediaWiki 1.39.7</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Медиа</namespace>
+      <namespace key="-1" case="first-letter">Служебная</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Обсуждение</namespace>
+      <namespace key="2" case="first-letter">Участник</namespace>
+      <namespace key="3" case="first-letter">Обсуждение участника</namespace>
+      <namespace key="4" case="first-letter">Politwar Factory Вики</namespace>
+      <namespace key="5" case="first-letter">Обсуждение Politwar Factory Вики</namespace>
+      <namespace key="6" case="first-letter">Файл</namespace>
+      <namespace key="7" case="first-letter">Обсуждение файла</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">Обсуждение MediaWiki</namespace>
+      <namespace key="10" case="first-letter">Шаблон</namespace>
+      <namespace key="11" case="first-letter">Обсуждение шаблона</namespace>
+      <namespace key="12" case="first-letter">Справка</namespace>
+      <namespace key="13" case="first-letter">Обсуждение справки</namespace>
+      <namespace key="14" case="first-letter">Категория</namespace>
+      <namespace key="15" case="first-letter">Обсуждение категории</namespace>
+      <namespace key="110" case="first-letter">Форум</namespace>
+      <namespace key="111" case="first-letter">Обсуждение форума</namespace>
+      <namespace key="420" case="first-letter">GeoJson</namespace>
+      <namespace key="421" case="first-letter">GeoJson talk</namespace>
+      <namespace key="500" case="first-letter">Блог участника</namespace>
+      <namespace key="501" case="first-letter">Комментарий блога участника</namespace>
+      <namespace key="502" case="first-letter">Блог</namespace>
+      <namespace key="503" case="first-letter">Обсуждение блога</namespace>
+      <namespace key="828" case="first-letter">Модуль</namespace>
+      <namespace key="829" case="first-letter">Обсуждение модуля</namespace>
+      <namespace key="1200" case="first-letter">Стена обсуждения</namespace>
+      <namespace key="1201" case="first-letter">Тема</namespace>
+      <namespace key="1202" case="first-letter">Приветствие стены обсуждения</namespace>
+      <namespace key="2000" case="first-letter">Board</namespace>
+      <namespace key="2001" case="first-letter">Board Thread</namespace>
+      <namespace key="2002" case="first-letter">Topic</namespace>
+      <namespace key="2900" case="first-letter">Карта</namespace>
+      <namespace key="2901" case="first-letter">Карта разговоры</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Категория:Города Израильского Рейха</title>
+    <ns>14</ns>
+    <id>519</id>
+    <revision>
+      <id>1088</id>
+      <timestamp>2022-05-27T11:12:52Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1088</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1089</id>
+      <parentid>1088</parentid>
+      <timestamp>2022-05-27T11:13:07Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Города Израильского Рейха]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1088</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Города Израиля</title>
+    <ns>14</ns>
+    <id>536</id>
+    <revision>
+      <id>1131</id>
+      <timestamp>2022-05-27T11:28:17Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1131</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1132</id>
+      <parentid>1131</parentid>
+      <timestamp>2022-05-27T11:28:36Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Города Израиля]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1131</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Города Ирландии</title>
+    <ns>14</ns>
+    <id>553</id>
+    <revision>
+      <id>1167</id>
+      <timestamp>2022-05-27T16:59:51Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1167</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1168</id>
+      <parentid>1167</parentid>
+      <timestamp>2022-05-27T16:59:58Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Города Ирландии]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1167</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Города Кипра</title>
+    <ns>14</ns>
+    <id>554</id>
+    <revision>
+      <id>1169</id>
+      <timestamp>2022-05-28T09:18:08Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1169</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1170</id>
+      <parentid>1169</parentid>
+      <timestamp>2022-05-28T09:18:18Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Города Кипра]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1169</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Города Мальдив</title>
+    <ns>14</ns>
+    <id>692</id>
+    <revision>
+      <id>1503</id>
+      <timestamp>2022-07-08T14:51:47Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Новая страница: «{{Города Мальдив}}»</comment>
+      <origin>1503</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="31" sha1="aoohm7lacbz7f9oljpsdewhtr6f5u4t" xml:space="preserve">{{Города Мальдив}}</text>
+      <sha1>aoohm7lacbz7f9oljpsdewhtr6f5u4t</sha1>
+    </revision>
+    <revision>
+      <id>1504</id>
+      <parentid>1503</parentid>
+      <timestamp>2022-07-08T14:52:06Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Города Мальдив]] ([Редактирование=Разрешено только администраторам] (бессрочно) [Переименование=Разрешено только администраторам] (бессрочно))</comment>
+      <origin>1503</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="31" sha1="aoohm7lacbz7f9oljpsdewhtr6f5u4t" xml:space="preserve">{{Города Мальдив}}</text>
+      <sha1>aoohm7lacbz7f9oljpsdewhtr6f5u4t</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Города Палестины</title>
+    <ns>14</ns>
+    <id>555</id>
+    <revision>
+      <id>1171</id>
+      <timestamp>2022-05-28T09:18:27Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1171</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1172</id>
+      <parentid>1171</parentid>
+      <timestamp>2022-05-28T09:18:36Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Города Палестины]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1171</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Города Северной Македонии</title>
+    <ns>14</ns>
+    <id>556</id>
+    <revision>
+      <id>1173</id>
+      <timestamp>2022-05-28T09:18:59Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1173</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1174</id>
+      <parentid>1173</parentid>
+      <timestamp>2022-05-28T09:19:10Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Города Северной Македонии]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1173</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Города Сирии</title>
+    <ns>14</ns>
+    <id>557</id>
+    <revision>
+      <id>1175</id>
+      <timestamp>2022-05-28T09:19:21Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1175</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1176</id>
+      <parentid>1175</parentid>
+      <timestamp>2022-05-28T09:19:29Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Города Сирии]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1175</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Города Чечни</title>
+    <ns>14</ns>
+    <id>537</id>
+    <revision>
+      <id>1133</id>
+      <timestamp>2022-05-27T11:28:42Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1133</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1134</id>
+      <parentid>1133</parentid>
+      <timestamp>2022-05-27T11:28:52Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Города Чечни]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1133</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Государства</title>
+    <ns>14</ns>
+    <id>505</id>
+    <revision>
+      <id>1060</id>
+      <timestamp>2022-05-27T11:06:50Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1060</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1061</id>
+      <parentid>1060</parentid>
+      <timestamp>2022-05-27T11:07:11Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Государства]] ([Редактирование=Разрешено только администраторам] (бессрочно) [Переименование=Разрешено только администраторам] (бессрочно))</comment>
+      <origin>1060</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1121</id>
+      <parentid>1061</parentid>
+      <timestamp>2022-05-27T11:19:42Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <origin>1121</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="16" sha1="jh7n5yvgum22hh8e7s792ltcejka7c3" xml:space="preserve">{{Страны}}</text>
+      <sha1>jh7n5yvgum22hh8e7s792ltcejka7c3</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Государства в составе Великой Украины</title>
+    <ns>14</ns>
+    <id>522</id>
+    <revision>
+      <id>1094</id>
+      <timestamp>2022-05-27T11:13:58Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1094</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1095</id>
+      <parentid>1094</parentid>
+      <timestamp>2022-05-27T11:14:08Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Государства в составе Великой Украины]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1094</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Государства в составе Израильского Рейха</title>
+    <ns>14</ns>
+    <id>523</id>
+    <revision>
+      <id>1096</id>
+      <timestamp>2022-05-27T11:14:16Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1096</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1097</id>
+      <parentid>1096</parentid>
+      <timestamp>2022-05-27T11:14:25Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Государства в составе Израильского Рейха]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1096</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Государства — члены ИВПС</title>
+    <ns>14</ns>
+    <id>520</id>
+    <revision>
+      <id>1090</id>
+      <timestamp>2022-05-27T11:13:16Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1090</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1091</id>
+      <parentid>1090</parentid>
+      <timestamp>2022-05-27T11:13:25Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Государства — члены ИВПС]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1090</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Государства — члены ИКЧШС</title>
+    <ns>14</ns>
+    <id>538</id>
+    <revision>
+      <id>1135</id>
+      <timestamp>2022-05-27T11:29:00Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1135</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1136</id>
+      <parentid>1135</parentid>
+      <timestamp>2022-05-27T11:29:11Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Государства — члены ИКЧШС]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1135</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Государства — члены Комминтерна</title>
+    <ns>14</ns>
+    <id>558</id>
+    <revision>
+      <id>1177</id>
+      <timestamp>2022-05-28T09:19:39Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1177</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1178</id>
+      <parentid>1177</parentid>
+      <timestamp>2022-05-28T09:19:52Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Государства — члены Комминтерна]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1177</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Государства — члены ММЛС</title>
+    <ns>14</ns>
+    <id>524</id>
+    <revision>
+      <id>1098</id>
+      <timestamp>2022-05-27T11:14:34Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1098</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1099</id>
+      <parentid>1098</parentid>
+      <timestamp>2022-05-27T11:14:45Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Государства — члены ММЛС]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1098</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Государства — члены ООН</title>
+    <ns>14</ns>
+    <id>510</id>
+    <revision>
+      <id>1070</id>
+      <timestamp>2022-05-27T11:09:02Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1070</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1071</id>
+      <parentid>1070</parentid>
+      <timestamp>2022-05-27T11:09:17Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Государства — члены ООН]] ([Редактирование=Разрешено только администраторам] (бессрочно) [Переименование=Разрешено только администраторам] (бессрочно))</comment>
+      <origin>1070</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Государства — члены ОПСФ</title>
+    <ns>14</ns>
+    <id>516</id>
+    <revision>
+      <id>1082</id>
+      <timestamp>2022-05-27T11:12:03Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1082</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1083</id>
+      <parentid>1082</parentid>
+      <timestamp>2022-05-27T11:12:12Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Государства — члены ОПСФ]] ([Редактирование=Разрешено только администраторам] (бессрочно) [Переименование=Разрешено только администраторам] (бессрочно))</comment>
+      <origin>1082</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Государственные деятели</title>
+    <ns>14</ns>
+    <id>559</id>
+    <revision>
+      <id>1180</id>
+      <timestamp>2022-05-28T09:21:07Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1180</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1181</id>
+      <parentid>1180</parentid>
+      <timestamp>2022-05-28T09:21:16Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Государственные деятели]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1180</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Государственные символы</title>
+    <ns>14</ns>
+    <id>560</id>
+    <revision>
+      <id>1182</id>
+      <timestamp>2022-05-28T09:21:21Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1182</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1183</id>
+      <parentid>1182</parentid>
+      <timestamp>2022-05-28T09:21:29Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Государственные символы]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1182</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Граждане Израиля</title>
+    <ns>14</ns>
+    <id>561</id>
+    <revision>
+      <id>1184</id>
+      <timestamp>2022-05-28T09:21:36Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1184</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1185</id>
+      <parentid>1184</parentid>
+      <timestamp>2022-05-28T09:21:45Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Граждане Израиля]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1184</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Граждане ОПСФ</title>
+    <ns>14</ns>
+    <id>562</id>
+    <revision>
+      <id>1186</id>
+      <timestamp>2022-05-28T09:21:52Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1186</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1187</id>
+      <parentid>1186</parentid>
+      <timestamp>2022-05-28T09:22:01Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Граждане ОПСФ]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1186</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Гражданства</title>
+    <ns>14</ns>
+    <id>563</id>
+    <revision>
+      <id>1188</id>
+      <timestamp>2022-05-28T09:22:12Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1188</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1189</id>
+      <parentid>1188</parentid>
+      <timestamp>2022-05-28T09:22:31Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Гражданства]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1188</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:До переезда на WoP</title>
+    <ns>14</ns>
+    <id>539</id>
+    <revision>
+      <id>1137</id>
+      <timestamp>2022-05-27T11:29:42Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1137</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1138</id>
+      <parentid>1137</parentid>
+      <timestamp>2022-05-27T11:29:52Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:До переезда на WoP]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1137</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Документация шаблонов</title>
+    <ns>14</ns>
+    <id>9</id>
+    <revision>
+      <id>9</id>
+      <timestamp>2021-11-19T18:02:56Z</timestamp>
+      <contributor>
+        <username>FANDOM</username>
+        <id>32769624</id>
+      </contributor>
+      <comment>Новая страница: «Список шаблонов-документаций. [[Категория:Шаблоны]]»</comment>
+      <origin>9</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="93" sha1="7wmyc0qdzcsu46t227grwcy9a49z1gx" xml:space="preserve">Список шаблонов-документаций.
+[[Категория:Шаблоны]]</text>
+      <sha1>7wmyc0qdzcsu46t227grwcy9a49z1gx</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Железнодорожные линии</title>
+    <ns>14</ns>
+    <id>564</id>
+    <revision>
+      <id>1190</id>
+      <timestamp>2022-05-28T09:23:25Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1190</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1191</id>
+      <parentid>1190</parentid>
+      <timestamp>2022-05-28T09:23:33Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Железнодорожные линии]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1190</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Железнодорожные станции</title>
+    <ns>14</ns>
+    <id>565</id>
+    <revision>
+      <id>1192</id>
+      <timestamp>2022-05-28T09:23:44Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1192</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1193</id>
+      <parentid>1192</parentid>
+      <timestamp>2022-05-28T09:23:52Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Железнодорожные станции]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1192</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Записи в блоге</title>
+    <ns>14</ns>
+    <id>131</id>
+    <revision>
+      <id>133</id>
+      <timestamp>2021-11-19T18:03:34Z</timestamp>
+      <contributor>
+        <username>FANDOM</username>
+        <id>32769624</id>
+      </contributor>
+      <minor/>
+      <comment>Создал статью категории для блогов</comment>
+      <origin>133</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="78" sha1="izjdipi5j0dte35vbmpb9vcf7nbwwjf" xml:space="preserve">Это автоматически созданный список блогов</text>
+      <sha1>izjdipi5j0dte35vbmpb9vcf7nbwwjf</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:ИВПС</title>
+    <ns>14</ns>
+    <id>566</id>
+    <revision>
+      <id>1194</id>
+      <timestamp>2022-05-28T09:23:58Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1194</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1195</id>
+      <parentid>1194</parentid>
+      <timestamp>2022-05-28T09:24:09Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:ИВПС]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1194</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Информационные шаблоны</title>
+    <ns>14</ns>
+    <id>98</id>
+    <revision>
+      <id>98</id>
+      <timestamp>2021-11-19T18:02:56Z</timestamp>
+      <contributor>
+        <username>FANDOM</username>
+        <id>32769624</id>
+      </contributor>
+      <comment>Новая страница: «Список информационных шаблонов. [[Категория:Шаблоны]]»</comment>
+      <origin>98</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="97" sha1="cerf0kg402xgvka2pwydnt4kzq44053" xml:space="preserve">Список информационных шаблонов.
+[[Категория:Шаблоны]]</text>
+      <sha1>cerf0kg402xgvka2pwydnt4kzq44053</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Кандидаты на удаление</title>
+    <ns>14</ns>
+    <id>108</id>
+    <revision>
+      <id>108</id>
+      <timestamp>2021-11-19T18:02:56Z</timestamp>
+      <contributor>
+        <username>FANDOM</username>
+        <id>32769624</id>
+      </contributor>
+      <origin>108</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="514" sha1="kbeqj3lzgp0wo9effd0pkp0go8k4wsq" xml:space="preserve">Статьи в этой категории помечены на удаление. Если вы желаете обсудить удаление каких-то страниц, пожалуйста используйте [[Category talk:{{PAGENAME}}|страницу обсуждения]].
+
+Чтобы добавить страницу в эту категорию, необходимо добавить &lt;code&gt;{{t|Удалить}}&lt;/code&gt; на страницу вики.
+[[Категория:Служебная]]</text>
+      <sha1>kbeqj3lzgp0wo9effd0pkp0go8k4wsq</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Конституции</title>
+    <ns>14</ns>
+    <id>567</id>
+    <revision>
+      <id>1196</id>
+      <timestamp>2022-05-28T09:24:16Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1196</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1197</id>
+      <parentid>1196</parentid>
+      <timestamp>2022-05-28T09:24:25Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Конституции]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1196</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Концентрационные лагеря</title>
+    <ns>14</ns>
+    <id>568</id>
+    <revision>
+      <id>1198</id>
+      <timestamp>2022-05-28T09:24:31Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1198</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1199</id>
+      <parentid>1198</parentid>
+      <timestamp>2022-05-28T09:24:42Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Концентрационные лагеря]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1198</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Корпорации</title>
+    <ns>14</ns>
+    <id>569</id>
+    <revision>
+      <id>1200</id>
+      <timestamp>2022-05-28T09:24:48Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1200</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1201</id>
+      <parentid>1200</parentid>
+      <timestamp>2022-05-28T09:24:57Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Корпорации]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1200</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Левоцентристские партии</title>
+    <ns>14</ns>
+    <id>570</id>
+    <revision>
+      <id>1202</id>
+      <timestamp>2022-05-28T09:25:04Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1202</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1203</id>
+      <parentid>1202</parentid>
+      <timestamp>2022-05-28T09:25:15Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Левоцентристские партии]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1202</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Левые партии</title>
+    <ns>14</ns>
+    <id>571</id>
+    <revision>
+      <id>1204</id>
+      <timestamp>2022-05-28T09:25:44Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1204</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1205</id>
+      <parentid>1204</parentid>
+      <timestamp>2022-05-28T09:26:00Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Левые партии]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1204</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Литературные произведения</title>
+    <ns>14</ns>
+    <id>572</id>
+    <revision>
+      <id>1206</id>
+      <timestamp>2022-05-28T09:26:10Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1206</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1207</id>
+      <parentid>1206</parentid>
+      <timestamp>2022-05-28T09:26:22Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Литературные произведения]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1206</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Литературные произведения HIHRAIM'a</title>
+    <ns>14</ns>
+    <id>573</id>
+    <revision>
+      <id>1208</id>
+      <timestamp>2022-05-28T09:26:43Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1208</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1209</id>
+      <parentid>1208</parentid>
+      <timestamp>2022-05-28T09:26:52Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Литературные произведения HIHRAIM'a]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1208</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Метрополитены</title>
+    <ns>14</ns>
+    <id>574</id>
+    <revision>
+      <id>1210</id>
+      <timestamp>2022-05-28T09:27:28Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1210</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1211</id>
+      <parentid>1210</parentid>
+      <timestamp>2022-05-28T09:27:55Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Метрополитены]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1210</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Мировые войны</title>
+    <ns>14</ns>
+    <id>540</id>
+    <revision>
+      <id>1141</id>
+      <timestamp>2022-05-27T16:56:07Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1141</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1142</id>
+      <parentid>1141</parentid>
+      <timestamp>2022-05-27T16:56:17Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Мировые войны]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1141</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Наборы</title>
+    <ns>14</ns>
+    <id>527</id>
+    <revision>
+      <id>1104</id>
+      <timestamp>2022-05-27T11:15:54Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1104</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1105</id>
+      <parentid>1104</parentid>
+      <timestamp>2022-05-27T11:16:03Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Наборы]] ([Редактирование=Разрешено только администраторам] (бессрочно) [Переименование=Разрешено только администраторам] (бессрочно))</comment>
+      <origin>1104</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Навигационные шаблоны</title>
+    <ns>14</ns>
+    <id>105</id>
+    <revision>
+      <id>105</id>
+      <timestamp>2021-11-19T18:02:56Z</timestamp>
+      <contributor>
+        <username>FANDOM</username>
+        <id>32769624</id>
+      </contributor>
+      <comment>Новая страница: «Список навигационных шаблонов. [[Категория:Шаблоны]]»</comment>
+      <origin>105</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="95" sha1="97v35lo5ymov4et9swg5453e7f4s8j2" xml:space="preserve">Список навигационных шаблонов.
+[[Категория:Шаблоны]]</text>
+      <sha1>97v35lo5ymov4et9swg5453e7f4s8j2</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Награды</title>
+    <ns>14</ns>
+    <id>575</id>
+    <revision>
+      <id>1212</id>
+      <timestamp>2022-05-28T09:28:05Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1212</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1213</id>
+      <parentid>1212</parentid>
+      <timestamp>2022-05-28T09:28:18Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Награды]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1212</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Награды Стального пакта</title>
+    <ns>14</ns>
+    <id>576</id>
+    <revision>
+      <id>1215</id>
+      <timestamp>2022-05-28T09:29:38Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1215</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1216</id>
+      <parentid>1215</parentid>
+      <timestamp>2022-05-28T09:29:46Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Награды Стального пакта]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1215</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Незавершённые статьи</title>
+    <ns>14</ns>
+    <id>106</id>
+    <revision>
+      <id>106</id>
+      <timestamp>2021-11-19T18:02:56Z</timestamp>
+      <contributor>
+        <username>FANDOM</username>
+        <id>32769624</id>
+      </contributor>
+      <comment>Новая страница: «Эта категория содержит незавершённые статьи. Вы можете помочь вики, дополнив их. Катего...»</comment>
+      <origin>106</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="189" sha1="ohdk0ew75n5h4kzlmw43iqfhr092h67" xml:space="preserve">Эта категория содержит незавершённые статьи. Вы можете помочь вики, дополнив их.
+[[Категория:Служебная]]</text>
+      <sha1>ohdk0ew75n5h4kzlmw43iqfhr092h67</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Неоднозначность</title>
+    <ns>14</ns>
+    <id>109</id>
+    <revision>
+      <id>109</id>
+      <timestamp>2021-11-19T18:02:56Z</timestamp>
+      <contributor>
+        <username>FANDOM</username>
+        <id>32769624</id>
+      </contributor>
+      <comment>Новая страница: «Список статей с многозначными терминами. [[Категория:Служебная]]»</comment>
+      <origin>109</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="117" sha1="dvlm471s0mui4ruagv3z8oop17v9d9f" xml:space="preserve">Список статей с многозначными терминами.
+[[Категория:Служебная]]</text>
+      <sha1>dvlm471s0mui4ruagv3z8oop17v9d9f</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:ОПСФ</title>
+    <ns>14</ns>
+    <id>528</id>
+    <revision>
+      <id>1106</id>
+      <timestamp>2022-05-27T11:16:14Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1106</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1107</id>
+      <parentid>1106</parentid>
+      <timestamp>2022-05-27T11:16:24Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:ОПСФ]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1106</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Обзор</title>
+    <ns>14</ns>
+    <id>11</id>
+    <revision>
+      <id>11</id>
+      <timestamp>2021-11-19T18:02:56Z</timestamp>
+      <contributor>
+        <username>FANDOM</username>
+        <id>32769624</id>
+      </contributor>
+      <comment>Новая страница: «Корневая категория для всего, что относится к вики. [[Категория:Обзор]]»</comment>
+      <origin>11</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="127" sha1="shkez8gs4xkb4d27mc25ac9ql6pdzhf" xml:space="preserve">Корневая категория для всего, что относится к вики.
+[[Категория:Обзор]]</text>
+      <sha1>shkez8gs4xkb4d27mc25ac9ql6pdzhf</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Организации</title>
+    <ns>14</ns>
+    <id>511</id>
+    <revision>
+      <id>1072</id>
+      <timestamp>2022-05-27T11:09:29Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1072</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1073</id>
+      <parentid>1072</parentid>
+      <timestamp>2022-05-27T11:09:56Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Организации]] ([Редактирование=Разрешено только администраторам] (бессрочно) [Переименование=Разрешено только администраторам] (бессрочно))</comment>
+      <origin>1072</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Острова</title>
+    <ns>14</ns>
+    <id>577</id>
+    <revision>
+      <id>1217</id>
+      <timestamp>2022-05-28T09:29:52Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1217</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1218</id>
+      <parentid>1217</parentid>
+      <timestamp>2022-05-28T09:30:04Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Острова]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1217</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Пакты</title>
+    <ns>14</ns>
+    <id>578</id>
+    <revision>
+      <id>1219</id>
+      <timestamp>2022-05-28T09:30:10Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1219</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1220</id>
+      <parentid>1219</parentid>
+      <timestamp>2022-05-28T09:30:19Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Пакты]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1219</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Партнёрство во имя мира</title>
+    <ns>14</ns>
+    <id>579</id>
+    <revision>
+      <id>1221</id>
+      <timestamp>2022-05-28T09:30:25Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1221</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1222</id>
+      <parentid>1221</parentid>
+      <timestamp>2022-05-28T09:30:35Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Партнёрство во имя мира]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1221</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Персоналии</title>
+    <ns>14</ns>
+    <id>541</id>
+    <revision>
+      <id>1143</id>
+      <timestamp>2022-05-27T16:56:24Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1143</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1144</id>
+      <parentid>1143</parentid>
+      <timestamp>2022-05-27T16:56:33Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Персоналии]] ([Редактирование=Разрешено только администраторам] (бессрочно) [Переименование=Разрешено только администраторам] (бессрочно))</comment>
+      <origin>1143</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Подразделения ВСУ</title>
+    <ns>14</ns>
+    <id>518</id>
+    <revision>
+      <id>1086</id>
+      <timestamp>2022-05-27T11:12:35Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1086</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1087</id>
+      <parentid>1086</parentid>
+      <timestamp>2022-05-27T11:12:45Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Подразделения ВСУ]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1086</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Подразделения ИВПС</title>
+    <ns>14</ns>
+    <id>580</id>
+    <revision>
+      <id>1223</id>
+      <timestamp>2022-05-28T09:30:45Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1223</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1224</id>
+      <parentid>1223</parentid>
+      <timestamp>2022-05-28T09:30:53Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Подразделения ИВПС]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1223</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Политические партии</title>
+    <ns>14</ns>
+    <id>529</id>
+    <revision>
+      <id>1108</id>
+      <timestamp>2022-05-27T11:16:30Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1108</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1109</id>
+      <parentid>1108</parentid>
+      <timestamp>2022-05-27T11:16:42Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Политические партии]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1108</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Политические партии ОПСФ</title>
+    <ns>14</ns>
+    <id>585</id>
+    <revision>
+      <id>1233</id>
+      <timestamp>2022-05-28T09:42:59Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1233</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1234</id>
+      <parentid>1233</parentid>
+      <timestamp>2022-05-28T09:43:16Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Политические партии ОПСФ]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1233</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Понятия</title>
+    <ns>14</ns>
+    <id>530</id>
+    <revision>
+      <id>1110</id>
+      <timestamp>2022-05-27T11:16:48Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1110</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1111</id>
+      <parentid>1110</parentid>
+      <timestamp>2022-05-27T11:16:58Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Понятия]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1110</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Регионы мира</title>
+    <ns>14</ns>
+    <id>525</id>
+    <revision>
+      <id>1100</id>
+      <timestamp>2022-05-27T11:15:18Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1100</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1101</id>
+      <parentid>1100</parentid>
+      <timestamp>2022-05-27T11:15:30Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Регионы мира]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1100</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Рейтинги</title>
+    <ns>14</ns>
+    <id>586</id>
+    <revision>
+      <id>1235</id>
+      <timestamp>2022-05-28T09:43:25Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1235</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1236</id>
+      <parentid>1235</parentid>
+      <timestamp>2022-05-28T09:43:34Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Рейтинги]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1235</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Рейтинги 2022</title>
+    <ns>14</ns>
+    <id>587</id>
+    <revision>
+      <id>1237</id>
+      <timestamp>2022-05-28T09:44:33Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1237</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1238</id>
+      <parentid>1237</parentid>
+      <timestamp>2022-05-28T09:44:42Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Рейтинги 2022]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1237</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1239</id>
+      <parentid>1238</parentid>
+      <timestamp>2022-05-28T09:44:50Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Изменил уровень защиты [[Категория:Рейтинги 2022]] ([Редактирование=Разрешено только администраторам] (бессрочно) [Переименование=Разрешено только администраторам] (бессрочно))</comment>
+      <origin>1237</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Рейтинги военной мощи стран мира</title>
+    <ns>14</ns>
+    <id>588</id>
+    <revision>
+      <id>1240</id>
+      <timestamp>2022-05-28T09:44:56Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1240</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1241</id>
+      <parentid>1240</parentid>
+      <timestamp>2022-05-28T09:45:10Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Рейтинги военной мощи стран мира]] ([Редактирование=Разрешено только администраторам] (бессрочно) [Переименование=Разрешено только администраторам] (бессрочно))</comment>
+      <origin>1240</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Религиозные партии</title>
+    <ns>14</ns>
+    <id>589</id>
+    <revision>
+      <id>1242</id>
+      <timestamp>2022-05-28T09:45:15Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1242</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1243</id>
+      <parentid>1242</parentid>
+      <timestamp>2022-05-28T09:45:24Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Религиозные партии]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1242</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:САУ</title>
+    <ns>14</ns>
+    <id>509</id>
+    <revision>
+      <id>1068</id>
+      <timestamp>2022-05-27T11:08:47Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1068</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1069</id>
+      <parentid>1068</parentid>
+      <timestamp>2022-05-27T11:08:55Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:САУ]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1068</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Серии танков</title>
+    <ns>14</ns>
+    <id>526</id>
+    <revision>
+      <id>1102</id>
+      <timestamp>2022-05-27T11:15:35Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1102</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1103</id>
+      <parentid>1102</parentid>
+      <timestamp>2022-05-27T11:15:46Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Серии танков]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1102</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Служебная</title>
+    <ns>14</ns>
+    <id>107</id>
+    <revision>
+      <id>107</id>
+      <timestamp>2021-11-19T18:02:56Z</timestamp>
+      <contributor>
+        <username>FANDOM</username>
+        <id>32769624</id>
+      </contributor>
+      <comment>Новая страница: «Эта категория содержит список страниц и категорий, которые помогают в работе вики. Кате...»</comment>
+      <origin>107</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="185" sha1="m2klkmh2sa9hqisutt0h2civ9ak5mlp" xml:space="preserve">Эта категория содержит список страниц и категорий, которые помогают в работе вики.
+[[Категория:Обзор]]</text>
+      <sha1>m2klkmh2sa9hqisutt0h2civ9ak5mlp</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Социалистические партии</title>
+    <ns>14</ns>
+    <id>590</id>
+    <revision>
+      <id>1244</id>
+      <timestamp>2022-05-28T09:45:30Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1244</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1245</id>
+      <parentid>1244</parentid>
+      <timestamp>2022-05-28T09:45:39Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Социалистические партии]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1244</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Союзы</title>
+    <ns>14</ns>
+    <id>531</id>
+    <revision>
+      <id>1112</id>
+      <timestamp>2022-05-27T11:17:04Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1112</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1113</id>
+      <parentid>1112</parentid>
+      <timestamp>2022-05-27T11:17:18Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Союзы]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1112</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Страницы, использующие временные диаграммы</title>
+    <ns>14</ns>
+    <id>591</id>
+    <revision>
+      <id>1246</id>
+      <timestamp>2022-05-28T09:45:46Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1246</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1247</id>
+      <parentid>1246</parentid>
+      <timestamp>2022-05-28T09:45:56Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Страницы, использующие временные диаграммы]] ([Редактирование=Разрешено только администраторам] (бессрочно) [Переименование=Разрешено только администраторам] (бессрочно))</comment>
+      <origin>1246</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Танки</title>
+    <ns>14</ns>
+    <id>506</id>
+    <revision>
+      <id>1062</id>
+      <timestamp>2022-05-27T11:07:37Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1062</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1063</id>
+      <parentid>1062</parentid>
+      <timestamp>2022-05-27T11:08:05Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Танки]] ([Редактирование=Разрешено только администраторам] (бессрочно) [Переименование=Разрешено только администраторам] (бессрочно))</comment>
+      <origin>1062</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Танки Германии</title>
+    <ns>14</ns>
+    <id>592</id>
+    <revision>
+      <id>1248</id>
+      <timestamp>2022-05-28T09:46:02Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1248</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1249</id>
+      <parentid>1248</parentid>
+      <timestamp>2022-05-28T09:46:11Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Танки Германии]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1248</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Танки Израиля</title>
+    <ns>14</ns>
+    <id>507</id>
+    <revision>
+      <id>1064</id>
+      <timestamp>2022-05-27T11:08:12Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1064</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1065</id>
+      <parentid>1064</parentid>
+      <timestamp>2022-05-27T11:08:21Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Танки Израиля]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1064</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Танки Сирии</title>
+    <ns>14</ns>
+    <id>593</id>
+    <revision>
+      <id>1250</id>
+      <timestamp>2022-05-28T09:46:22Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1250</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1251</id>
+      <parentid>1250</parentid>
+      <timestamp>2022-05-28T09:46:30Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Танки Сирии]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1250</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Танки серии «Ima Shelkha Zone»</title>
+    <ns>14</ns>
+    <id>508</id>
+    <revision>
+      <id>1066</id>
+      <timestamp>2022-05-27T11:08:28Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1066</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1067</id>
+      <parentid>1066</parentid>
+      <timestamp>2022-05-27T11:08:40Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Танки серии «Ima Shelkha Zone»]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1066</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Танки серии «Moishe»</title>
+    <ns>14</ns>
+    <id>478</id>
+    <revision>
+      <id>967</id>
+      <timestamp>2022-05-23T14:55:11Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Новая страница: «Основная статья: [[Moishe]].»</comment>
+      <origin>967</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="42" sha1="j88mmlaz3jt2u6f3gmquewxl1z9umrs" xml:space="preserve">Основная статья: [[Moishe]].</text>
+      <sha1>j88mmlaz3jt2u6f3gmquewxl1z9umrs</sha1>
+    </revision>
+    <revision>
+      <id>968</id>
+      <parentid>967</parentid>
+      <timestamp>2022-05-23T14:55:22Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Танки серии «Moishe»]] ([Редактирование=Разрешено только администраторам] (бессрочно) [Переименование=Разрешено только администраторам] (бессрочно))</comment>
+      <origin>967</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="42" sha1="j88mmlaz3jt2u6f3gmquewxl1z9umrs" xml:space="preserve">Основная статья: [[Moishe]].</text>
+      <sha1>j88mmlaz3jt2u6f3gmquewxl1z9umrs</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Танки серии «Moses X.I Ima Selha Zona Solomon Molot Kuvalda»</title>
+    <ns>14</ns>
+    <id>542</id>
+    <revision>
+      <id>1145</id>
+      <timestamp>2022-05-27T16:56:40Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1145</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1146</id>
+      <parentid>1145</parentid>
+      <timestamp>2022-05-27T16:56:51Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Танки серии «Moses X.I Ima Selha Zona Solomon Molot Kuvalda»]] ([Редактирование=Разрешено только администраторам] (бессрочно) [Переименование=Разрешено только администраторам] (бессрочно))</comment>
+      <origin>1145</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Танкисты</title>
+    <ns>14</ns>
+    <id>594</id>
+    <revision>
+      <id>1252</id>
+      <timestamp>2022-05-28T09:46:39Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1252</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1253</id>
+      <parentid>1252</parentid>
+      <timestamp>2022-05-28T09:46:48Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Танкисты]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1252</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Торговые союзы</title>
+    <ns>14</ns>
+    <id>595</id>
+    <revision>
+      <id>1254</id>
+      <timestamp>2022-05-28T09:46:55Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1254</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1255</id>
+      <parentid>1254</parentid>
+      <timestamp>2022-05-28T09:47:03Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Торговые союзы]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1254</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Файлы без лицензии</title>
+    <ns>14</ns>
+    <id>110</id>
+    <revision>
+      <id>110</id>
+      <timestamp>2021-11-19T18:02:56Z</timestamp>
+      <contributor>
+        <username>FANDOM</username>
+        <id>32769624</id>
+      </contributor>
+      <comment>Новая страница: «Список файлов с неясным лицензионным статусом. [[Категория:Служебная]]»</comment>
+      <origin>110</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="128" sha1="rk70gom6o8u0yr5rt8zpdf0r9u9zr0l" xml:space="preserve">Список файлов с неясным лицензионным статусом.
+[[Категория:Служебная]]</text>
+      <sha1>rk70gom6o8u0yr5rt8zpdf0r9u9zr0l</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Флаги государств</title>
+    <ns>14</ns>
+    <id>514</id>
+    <revision>
+      <id>1078</id>
+      <timestamp>2022-05-27T11:10:46Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1078</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1079</id>
+      <parentid>1078</parentid>
+      <timestamp>2022-05-27T11:10:56Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Флаги государств]] ([Редактирование=Разрешено только администраторам] (бессрочно) [Переименование=Разрешено только администраторам] (бессрочно))</comment>
+      <origin>1078</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Шаблоны</title>
+    <ns>14</ns>
+    <id>10</id>
+    <revision>
+      <id>10</id>
+      <timestamp>2021-11-19T18:02:56Z</timestamp>
+      <contributor>
+        <username>FANDOM</username>
+        <id>32769624</id>
+      </contributor>
+      <comment>Новая страница: «Список шаблонов вики. [[Категория:Обзор]]»</comment>
+      <origin>10</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="73" sha1="s4viva7hhwxhjqgzatchcxfn4ames15" xml:space="preserve">Список шаблонов вики.
+[[Категория:Обзор]]</text>
+      <sha1>s4viva7hhwxhjqgzatchcxfn4ames15</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Шаблоны лицензий</title>
+    <ns>14</ns>
+    <id>14</id>
+    <revision>
+      <id>14</id>
+      <timestamp>2021-11-19T18:02:56Z</timestamp>
+      <contributor>
+        <username>FANDOM</username>
+        <id>32769624</id>
+      </contributor>
+      <comment>Новая страница: «Список шаблонов-лицензий. [[Категория:Шаблоны]]»</comment>
+      <origin>14</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="85" sha1="jfkx6z4nq4kpqjd4tk3mwuxqsav0v4r" xml:space="preserve">Список шаблонов-лицензий.
+[[Категория:Шаблоны]]</text>
+      <sha1>jfkx6z4nq4kpqjd4tk3mwuxqsav0v4r</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Языки</title>
+    <ns>14</ns>
+    <id>596</id>
+    <revision>
+      <id>1256</id>
+      <timestamp>2022-05-28T09:47:11Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1256</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1257</id>
+      <parentid>1256</parentid>
+      <timestamp>2022-05-28T09:47:21Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Языки]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1256</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Языки Великой Украины</title>
+    <ns>14</ns>
+    <id>597</id>
+    <revision>
+      <id>1258</id>
+      <timestamp>2022-05-28T09:47:30Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1258</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1259</id>
+      <parentid>1258</parentid>
+      <timestamp>2022-05-28T09:47:43Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Языки Великой Украины]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1258</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Языки Израиля</title>
+    <ns>14</ns>
+    <id>582</id>
+    <revision>
+      <id>1227</id>
+      <timestamp>2022-05-28T09:40:23Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1227</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1228</id>
+      <parentid>1227</parentid>
+      <timestamp>2022-05-28T09:40:50Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Языки Израиля]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1227</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Языки Кадыка</title>
+    <ns>14</ns>
+    <id>583</id>
+    <revision>
+      <id>1229</id>
+      <timestamp>2022-05-28T09:40:59Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1229</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1230</id>
+      <parentid>1229</parentid>
+      <timestamp>2022-05-28T09:41:07Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Языки Кадыка]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1229</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Категория:Языки Синей Мезы</title>
+    <ns>14</ns>
+    <id>584</id>
+    <revision>
+      <id>1231</id>
+      <timestamp>2022-05-28T09:41:12Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Создана пустая страница</comment>
+      <origin>1231</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+    <revision>
+      <id>1232</id>
+      <parentid>1231</parentid>
+      <timestamp>2022-05-28T09:41:21Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>Защитил страницу [[Категория:Языки Синей Мезы]] ([Редактирование=Разрешено только автоподтверждённым участникам] (бессрочно) [Переименование=Разрешено только автоподтверждённым участникам] (бессрочно))</comment>
+      <origin>1231</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="0" sha1="phoiac9h4m842xq45sp7s6u21eteeq1" xml:space="preserve" />
+      <sha1>phoiac9h4m842xq45sp7s6u21eteeq1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Блог участника:FérẞteaX/Жильё в Испании</title>
+    <ns>500</ns>
+    <id>665</id>
+    <revision>
+      <id>1437</id>
+      <timestamp>2022-06-30T21:33:50Z</timestamp>
+      <contributor>
+        <username>FérẞteaX</username>
+        <id>45454242</id>
+      </contributor>
+      <comment>картинки потом</comment>
+      <origin>1437</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2630" sha1="qzriqhfeqczb4h5nt2xg24i25bq85kk" xml:space="preserve">В этой статье ты узнаешь, где и по чём можно приобрести место для проживания. На данный момент доступны такие варианты:
+=ЖК "Tropicomp"=
+Красивый ЖК у пляжа в районе Хихра, высотой в 25 этажей. Рядом лечебница и частный сектор. Планировка сделана так, что квартиры выходят не на лестничные площадки или общие коридоры, а на личный небольшой балкончик, откуда можно спуститься на лифте вниз. Он предлагает:
+{| class="wikitable mw-collapsible" cellpadding=4
+! Кол-во комнат !! Площадь !! Цена !! Кол-во доступных квартир
+|-
+| 1 || ~10x10 || 50$ || 25
+|-
+| 2 || ~20x20 || 150$ || 24
+|-
+| 3 || ~30x30 || 200$ || 25
+|-
+| 4 || ~40x40 || 325$ || 24
+|-
+|}
+=ЖК "Aero"=
+Этот ЖК также расположен у пляжа, хотя находится на краю города, в районе Стэйчий, но скоро там будут свои собственные магазины, а может даже развлекательные заведения. Внешне ЖК представляет из себя этажи, на которых построены небольшие, но красивые домики которые отличаются друг от друга. На данный момент ЖК недостроен и не предлагает много мест для проживания. 
+{| class="wikitable mw-collapsible" cellpadding=4
+! Кол-во комнат !! Площадь !! Цена !! Кол-во доступных домиков !! Этаж
+|-
+| 2 || 195 м&lt;sup&gt;2&lt;/sup&gt; || 50$ || 1 || 1
+|-
+| 1 || 120 м&lt;sup&gt;2&lt;/sup&gt; || 0$ || 2 || 1
+|-
+| 1 || 75 м&lt;sup&gt;2&lt;/sup&gt; || 0$ || 2 || 1
+|-
+| 2 || 210 м&lt;sup&gt;2&lt;/sup&gt; || 125$ || 2 || 2
+|-
+|}
+=Земельные участки=
+Это специально выделенные участки в районе Хихра, вокруг лечебницы, которые ты можешь выкупить и построить там свой дом. 
+{| class="wikitable mw-collapsible" cellpadding=4
+! Площадь !! Цена !! Кол-во доступных участков
+|-
+| ~510 м&lt;sup&gt;2&lt;/sup&gt; || 50$ || 6
+|-
+| ~154 м&lt;sup&gt;2&lt;/sup&gt; || 0$ || 3 
+|-
+| ~650 м&lt;sup&gt;2&lt;/sup&gt; || 125$ || 4 
+|-
+| ~800 м&lt;sup&gt;2&lt;/sup&gt; || 175$ || 4 
+|-
+| ~1150 м&lt;sup&gt;2&lt;/sup&gt; || 250$ || 2 
+|-
+|}</text>
+      <sha1>qzriqhfeqczb4h5nt2xg24i25bq85kk</sha1>
+    </revision>
+    <revision>
+      <id>1438</id>
+      <parentid>1437</parentid>
+      <timestamp>2022-07-01T07:19:17Z</timestamp>
+      <contributor>
+        <username>FérẞteaX</username>
+        <id>45454242</id>
+      </contributor>
+      <comment>Добавление категорий</comment>
+      <origin>1438</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2668" sha1="m11aaz582lyq08bzj6iiugfqxvyrqmx" xml:space="preserve">В этой статье ты узнаешь, где и по чём можно приобрести место для проживания. На данный момент доступны такие варианты:
+=ЖК "Tropicomp"=
+Красивый ЖК у пляжа в районе Хихра, высотой в 25 этажей. Рядом лечебница и частный сектор. Планировка сделана так, что квартиры выходят не на лестничные площадки или общие коридоры, а на личный небольшой балкончик, откуда можно спуститься на лифте вниз. Он предлагает:
+{| class="wikitable mw-collapsible" cellpadding=4
+! Кол-во комнат !! Площадь !! Цена !! Кол-во доступных квартир
+|-
+| 1 || ~10x10 || 50$ || 25
+|-
+| 2 || ~20x20 || 150$ || 24
+|-
+| 3 || ~30x30 || 200$ || 25
+|-
+| 4 || ~40x40 || 325$ || 24
+|-
+|}
+=ЖК "Aero"=
+Этот ЖК также расположен у пляжа, хотя находится на краю города, в районе Стэйчий, но скоро там будут свои собственные магазины, а может даже развлекательные заведения. Внешне ЖК представляет из себя этажи, на которых построены небольшие, но красивые домики которые отличаются друг от друга. На данный момент ЖК недостроен и не предлагает много мест для проживания. 
+{| class="wikitable mw-collapsible" cellpadding=4
+! Кол-во комнат !! Площадь !! Цена !! Кол-во доступных домиков !! Этаж
+|-
+| 2 || 195 м&lt;sup&gt;2&lt;/sup&gt; || 50$ || 1 || 1
+|-
+| 1 || 120 м&lt;sup&gt;2&lt;/sup&gt; || 0$ || 2 || 1
+|-
+| 1 || 75 м&lt;sup&gt;2&lt;/sup&gt; || 0$ || 2 || 1
+|-
+| 2 || 210 м&lt;sup&gt;2&lt;/sup&gt; || 125$ || 2 || 2
+|-
+|}
+=Земельные участки=
+Это специально выделенные участки в районе Хихра, вокруг лечебницы, которые ты можешь выкупить и построить там свой дом. 
+{| class="wikitable mw-collapsible" cellpadding=4
+! Площадь !! Цена !! Кол-во доступных участков
+|-
+| ~510 м&lt;sup&gt;2&lt;/sup&gt; || 50$ || 6
+|-
+| ~154 м&lt;sup&gt;2&lt;/sup&gt; || 0$ || 3 
+|-
+| ~650 м&lt;sup&gt;2&lt;/sup&gt; || 125$ || 4 
+|-
+| ~800 м&lt;sup&gt;2&lt;/sup&gt; || 175$ || 4 
+|-
+| ~1150 м&lt;sup&gt;2&lt;/sup&gt; || 250$ || 2 
+|-
+|}
+[[Категория:Испания]]</text>
+      <sha1>m11aaz582lyq08bzj6iiugfqxvyrqmx</sha1>
+    </revision>
+    <revision>
+      <id>1440</id>
+      <parentid>1438</parentid>
+      <timestamp>2022-07-02T09:24:21Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <minor/>
+      <comment>HIHRAIM переименовал страницу [[Испания/Жильё]] в [[Блог участника:FérẞteaX/Жильё в Испании]]</comment>
+      <origin>1438</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2668" sha1="m11aaz582lyq08bzj6iiugfqxvyrqmx" xml:space="preserve">В этой статье ты узнаешь, где и по чём можно приобрести место для проживания. На данный момент доступны такие варианты:
+=ЖК "Tropicomp"=
+Красивый ЖК у пляжа в районе Хихра, высотой в 25 этажей. Рядом лечебница и частный сектор. Планировка сделана так, что квартиры выходят не на лестничные площадки или общие коридоры, а на личный небольшой балкончик, откуда можно спуститься на лифте вниз. Он предлагает:
+{| class="wikitable mw-collapsible" cellpadding=4
+! Кол-во комнат !! Площадь !! Цена !! Кол-во доступных квартир
+|-
+| 1 || ~10x10 || 50$ || 25
+|-
+| 2 || ~20x20 || 150$ || 24
+|-
+| 3 || ~30x30 || 200$ || 25
+|-
+| 4 || ~40x40 || 325$ || 24
+|-
+|}
+=ЖК "Aero"=
+Этот ЖК также расположен у пляжа, хотя находится на краю города, в районе Стэйчий, но скоро там будут свои собственные магазины, а может даже развлекательные заведения. Внешне ЖК представляет из себя этажи, на которых построены небольшие, но красивые домики которые отличаются друг от друга. На данный момент ЖК недостроен и не предлагает много мест для проживания. 
+{| class="wikitable mw-collapsible" cellpadding=4
+! Кол-во комнат !! Площадь !! Цена !! Кол-во доступных домиков !! Этаж
+|-
+| 2 || 195 м&lt;sup&gt;2&lt;/sup&gt; || 50$ || 1 || 1
+|-
+| 1 || 120 м&lt;sup&gt;2&lt;/sup&gt; || 0$ || 2 || 1
+|-
+| 1 || 75 м&lt;sup&gt;2&lt;/sup&gt; || 0$ || 2 || 1
+|-
+| 2 || 210 м&lt;sup&gt;2&lt;/sup&gt; || 125$ || 2 || 2
+|-
+|}
+=Земельные участки=
+Это специально выделенные участки в районе Хихра, вокруг лечебницы, которые ты можешь выкупить и построить там свой дом. 
+{| class="wikitable mw-collapsible" cellpadding=4
+! Площадь !! Цена !! Кол-во доступных участков
+|-
+| ~510 м&lt;sup&gt;2&lt;/sup&gt; || 50$ || 6
+|-
+| ~154 м&lt;sup&gt;2&lt;/sup&gt; || 0$ || 3 
+|-
+| ~650 м&lt;sup&gt;2&lt;/sup&gt; || 125$ || 4 
+|-
+| ~800 м&lt;sup&gt;2&lt;/sup&gt; || 175$ || 4 
+|-
+| ~1150 м&lt;sup&gt;2&lt;/sup&gt; || 250$ || 2 
+|-
+|}
+[[Категория:Испания]]</text>
+      <sha1>m11aaz582lyq08bzj6iiugfqxvyrqmx</sha1>
+    </revision>
+    <revision>
+      <id>1464</id>
+      <parentid>1440</parentid>
+      <timestamp>2022-07-06T12:07:42Z</timestamp>
+      <contributor>
+        <username>FérẞteaX</username>
+        <id>45454242</id>
+      </contributor>
+      <minor/>
+      <comment>/* ЖК "Aero" */</comment>
+      <origin>1464</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2716" sha1="0u6zdeizi053wjndndmf73eot2ie18j" xml:space="preserve">В этой статье ты узнаешь, где и по чём можно приобрести место для проживания. На данный момент доступны такие варианты:
+=ЖК "Tropicomp"=
+Красивый ЖК у пляжа в районе Хихра, высотой в 25 этажей. Рядом лечебница и частный сектор. Планировка сделана так, что квартиры выходят не на лестничные площадки или общие коридоры, а на личный небольшой балкончик, откуда можно спуститься на лифте вниз. Он предлагает:
+{| class="wikitable mw-collapsible" cellpadding=4
+! Кол-во комнат !! Площадь !! Цена !! Кол-во доступных квартир
+|-
+| 1 || ~10x10 || 50$ || 25
+|-
+| 2 || ~20x20 || 150$ || 24
+|-
+| 3 || ~30x30 || 200$ || 25
+|-
+| 4 || ~40x40 || 325$ || 24
+|-
+|}
+=ЖК "Aero"=
+Этот ЖК также расположен у пляжа, хотя находится на краю города, в районе Стэйчий, но скоро там будут свои собственные магазины, а может даже развлекательные заведения. Внешне ЖК представляет из себя этажи, на которых построены небольшие, но красивые домики которые отличаются друг от друга. На данный момент ЖК недостроен и не предлагает много мест для проживания. 
+{| class="wikitable mw-collapsible" cellpadding=4
+! Кол-во комнат !! Площадь !! Цена !! Кол-во доступных домиков !! Этаж
+|-
+| 2 || 195 м&lt;sup&gt;2&lt;/sup&gt; || 50$ || 1 || 1
+|-
+| 1 || 120 м&lt;sup&gt;2&lt;/sup&gt; || 0$ || 2 || 1
+|-
+| 1 || 75 м&lt;sup&gt;2&lt;/sup&gt; || 0$ || 2 || 1
+|-
+| 2 || 210 м&lt;sup&gt;2&lt;/sup&gt; || 125$ || 2 || 2
+|-
+| 2 || 168 м&lt;sup&gt;2&lt;/sup&gt; || 100$ || 2 || 2
+|-
+|}
+
+=Земельные участки=
+Это специально выделенные участки в районе Хихра, вокруг лечебницы, которые ты можешь выкупить и построить там свой дом. 
+{| class="wikitable mw-collapsible" cellpadding=4
+! Площадь !! Цена !! Кол-во доступных участков
+|-
+| ~510 м&lt;sup&gt;2&lt;/sup&gt; || 50$ || 6
+|-
+| ~154 м&lt;sup&gt;2&lt;/sup&gt; || 0$ || 3 
+|-
+| ~650 м&lt;sup&gt;2&lt;/sup&gt; || 125$ || 4 
+|-
+| ~800 м&lt;sup&gt;2&lt;/sup&gt; || 175$ || 4 
+|-
+| ~1150 м&lt;sup&gt;2&lt;/sup&gt; || 250$ || 2 
+|-
+|}
+[[Категория:Испания]]</text>
+      <sha1>0u6zdeizi053wjndndmf73eot2ie18j</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Блог участника:HIHRAIM/Страны World of Politwar по MBTI</title>
+    <ns>500</ns>
+    <id>1070</id>
+    <revision>
+      <id>2966</id>
+      <timestamp>2023-03-18T01:31:37Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Тест</comment>
+      <origin>2966</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="8187" sha1="ebst0pyawz8itjz5j5h6tbyuxc78j3y" xml:space="preserve">Последнее время всё набирает популярность [https://ru.wikipedia.org/wiki/Типология_Майерс_—_Бриггс типология Майерс — Бриггс], комьюнити которой задело и реальные страны. Появилась идея создать список и наших стран по MBTI).
+
+Свои идеи и исправления можно предлагать в комментариях к блогу.
+
+==Государства==
+{|style="width:50%;"
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:Мальдивы.svg|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Мальдивская Федерация&lt;/big&gt;&lt;br&gt;&lt;small&gt;Клен Лайтович&lt;/small&gt;
+|style="border-radius:5px; width:20%; color:#b3879d"|ENTP
+|}
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:Ливия.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Ливия&lt;/big&gt;&lt;br&gt;&lt;small&gt;Муамар Аль-Кадафи&lt;/small&gt;
+|style="border-radius:5px; width:20%; color:#b3879d"|INTJ
+|}
+|-
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:Румыния.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Румыния&lt;/big&gt;&lt;br&gt;&lt;small&gt;Шамиль Бассаев&lt;/small&gt;
+|style="border-radius:5px; width:20%; color:lime"|ENFP
+|}
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:ОК (временный флаг).png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Объединённая Конфедерация&lt;/big&gt;&lt;br&gt;&lt;small&gt;Ферстикс Пасик&lt;/small&gt;
+|style="border-radius:5px; width:20%; color:#b3879d"|ENTJ
+|}
+|-
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:Украина.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Донецк&lt;/big&gt;
+|style="border-radius:5px; width:20%; color:cyan"|ISFJ
+|}
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:Литва.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Литва&lt;/big&gt;&lt;br&gt;&lt;small&gt;Ттоил&lt;/small&gt;
+|style="border-radius:5px; width:20%; color:#b3879d"|INTP
+|}
+|}
+
+===Автономные регионы===
+{|style="width:50%;"
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:Израиль.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Израиль&lt;/big&gt;&lt;br&gt;&lt;small&gt;Хихраим Марксффе&lt;/small&gt;
+|style="border-radius:5px; width:20%; color:#b3879d;"|ENTJ
+|}
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:Синяя Меза.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Синяя Меза&lt;/big&gt;&lt;br&gt;&lt;small&gt;Свип Ревер&lt;/small&gt;
+|style="border-radius:5px; width:20%; color:cyan"|ISFJ
+|}
+|-
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:Кадык.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Зелёная Меза (Кадык)&lt;/big&gt;&lt;br&gt;&lt;small&gt;Дмитро Гордон&lt;/small&gt;
+|style="border-radius:5px; width:20%; color:lime"|INFP
+|}
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:Великая Украина.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Великая Украина&lt;/big&gt;&lt;br&gt;&lt;small&gt;Бомбер&lt;/small&gt;
+|style="border-radius:5px; width:20%; color:lime"|INFP
+|}
+|-
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:Кипр.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Кипр&lt;/big&gt;&lt;br&gt;&lt;small&gt;Артём Зурбенко&lt;/small&gt;
+|style="border-radius:5px; width:20%; color:#b3879d"|INTJ
+|}
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:Словакия.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Словакия&lt;/big&gt;&lt;br&gt;&lt;small&gt;Ферстикс Пасик&lt;/small&gt;
+|style="border-radius:5px; width:20%; color:orange"|ISFP
+|}
+|-
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:Калмыкия.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Калмыкия&lt;/big&gt;&lt;br&gt;&lt;small&gt;Евгений Шацкий&lt;/small&gt;
+|style="border-radius:5px; width:20%; color:#b3879d"|ENTP
+|}
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:Израиль.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Еврейская АО (МФ)&lt;/big&gt;
+|style="border-radius:5px; width:20%; color:cyan"|ESTJ
+|}
+|}
+
+==Ранее существовавшие государства==
+{|style="width:50%;"
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:ИР2.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Израильский Рейх&lt;/big&gt;
+|style="border-radius:5px; width:20%; color:#b3879d;"|ENTP
+|}
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:ГР.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Германский Рейх&lt;/big&gt;
+|style="border-radius:5px; width:20%; color:lime"|INFJ
+|}
+|-
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:СОПБ.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;СОПБ&lt;/big&gt;
+|style="border-radius:5px; width:20%; color:lime"|ENFP
+|}
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:СССР.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;СССР&lt;/big&gt;
+|style="border-radius:5px; width:20%; color:#b3879d"|ENTJ
+|}
+|}
+[[Категория:Записи в блоге]]</text>
+      <sha1>ebst0pyawz8itjz5j5h6tbyuxc78j3y</sha1>
+    </revision>
+    <revision>
+      <id>2967</id>
+      <parentid>2966</parentid>
+      <timestamp>2023-03-18T01:33:56Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <origin>2967</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="8151" sha1="pusi33e2k04ra0t26s5s2ajmpp68p6p" xml:space="preserve">Последнее время всё набирает популярность [https://ru.wikipedia.org/wiki/Типология_Майерс_—_Бриггс типология Майерс — Бриггс], комьюнити которой задело и реальные страны. Появилась идея создать список и наших стран по MBTI).
+
+Свои идеи и исправления можно предлагать в комментариях к блогу.
+
+==Государства==
+{|style="width:50%;"
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:Мальдивы.svg|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Мальдивская Федерация&lt;/big&gt;&lt;br&gt;&lt;small&gt;Клен Лайтович&lt;/small&gt;
+|style="border-radius:5px; width:20%; color:#b3879d"|ENTP
+|}
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:Ливия.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Ливия&lt;/big&gt;&lt;br&gt;&lt;small&gt;Муамар Аль-Кадафи&lt;/small&gt;
+|style="border-radius:5px; width:20%; color:#b3879d"|INTJ
+|}
+|-
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:Румыния.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Румыния&lt;/big&gt;&lt;br&gt;&lt;small&gt;Шамиль Бассаев&lt;/small&gt;
+|style="border-radius:5px; width:20%; color:lime"|ENFP
+|}
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:ОК (временный флаг).png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Объединённая Конфедерация&lt;/big&gt;&lt;br&gt;&lt;small&gt;Ферстикс Пасик&lt;/small&gt;
+|style="border-radius:5px; width:20%; color:#b3879d"|ENTJ
+|}
+|-
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:Украина.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Донецк&lt;/big&gt;
+|style="border-radius:5px; width:20%; color:cyan"|ISFJ
+|}
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:Литва.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Литва&lt;/big&gt;&lt;br&gt;&lt;small&gt;Ттоил&lt;/small&gt;
+|style="border-radius:5px; width:20%; color:#b3879d"|INTP
+|}
+|}
+
+===Автономные регионы===
+{|style="width:50%;"
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:Израиль.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Израиль&lt;/big&gt;&lt;br&gt;&lt;small&gt;Хихраим Марксффе&lt;/small&gt;
+|style="border-radius:5px; width:20%; color:#b3879d;"|ENTJ
+|}
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:Синяя Меза.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Синяя Меза&lt;/big&gt;&lt;br&gt;&lt;small&gt;Свип Ревер&lt;/small&gt;
+|style="border-radius:5px; width:20%; color:cyan"|ISFJ
+|}
+|-
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:Кадык.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Зелёная Меза (Кадык)&lt;/big&gt;&lt;br&gt;&lt;small&gt;Дмитро Гордон&lt;/small&gt;
+|style="border-radius:5px; width:20%; color:lime"|INFP
+|}
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:УФГК.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Украина&lt;/big&gt;&lt;br&gt;&lt;small&gt;Бомбер&lt;/small&gt;
+|style="border-radius:5px; width:20%; color:lime"|INFP
+|}
+|-
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:Кипр.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Кипр&lt;/big&gt;&lt;br&gt;&lt;small&gt;Артём Зурбенко&lt;/small&gt;
+|style="border-radius:5px; width:20%; color:#b3879d"|INTJ
+|}
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:Словакия.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Словакия&lt;/big&gt;&lt;br&gt;&lt;small&gt;Ферстикс Пасик&lt;/small&gt;
+|style="border-radius:5px; width:20%; color:orange"|ISFP
+|}
+|-
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:Калмыкия.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Калмыкия&lt;/big&gt;&lt;br&gt;&lt;small&gt;Евгений Шацкий&lt;/small&gt;
+|style="border-radius:5px; width:20%; color:#b3879d"|ENTP
+|}
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:Израиль.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Еврейская АО (МФ)&lt;/big&gt;
+|style="border-radius:5px; width:20%; color:cyan"|ESTJ
+|}
+|}
+
+==Ранее существовавшие государства==
+{|style="width:50%;"
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:ИР2.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Израильский Рейх&lt;/big&gt;
+|style="border-radius:5px; width:20%; color:#b3879d;"|ENTP
+|}
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:ГР.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;Германский Рейх&lt;/big&gt;
+|style="border-radius:5px; width:20%; color:lime"|INFJ
+|}
+|-
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:СОПБ.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;СОПБ&lt;/big&gt;
+|style="border-radius:5px; width:20%; color:lime"|ENFP
+|}
+|style="width:50%"|
+{|class="fandom-table article-table" style="display:inline-block; border-radius:5px; text-align:center; margin-bottom:5px; background-color:#4e4e4e"
+|style="border-radius:5px; width:20%;"|[[Файл:СССР.png|100px]]
+|style="border-radius:5px; text-align:left"|&lt;big&gt;СССР&lt;/big&gt;
+|style="border-radius:5px; width:20%; color:#b3879d"|ENTJ
+|}
+|}
+[[Категория:Записи в блоге]]</text>
+      <sha1>pusi33e2k04ra0t26s5s2ajmpp68p6p</sha1>
+    </revision>
+    <revision>
+      <id>3091</id>
+      <parentid>2967</parentid>
+      <timestamp>2023-04-04T15:16:27Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <origin>3091</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="8358" sha1="n5fojpbzkba9uoyvpkqe5afkff8g76y" xml:space="preserve">Последнее время всё набирает популярность [https://ru.wikipedia.org/wiki/Типология_Майерс_—_Бриггс типология Майерс — Бриггс], комьюнити которой задело и реальные страны. Появилась идея создать список и наших стран по MBTI).
+
+Свои идеи и исправления можно предлагать в комментариях к блогу.
+
+==Государства==
+&lt;center&gt;
+{|class="fandom-table article-table"
+|+&lt;center&gt;&lt;h2&gt;Государства WoP&lt;/h2&gt;&lt;/center&gt;
+!Флаг
+!Название
+!Тип личности
+|-
+|[[Файл:Чечня.png|50px]]
+|[[Чечня]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''ENFJ'''&lt;/big&gt;
+|-
+|—
+|[[Империя Кипр]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''INFJ'''&lt;/big&gt;
+|-
+|[[Файл:Израиль.png|50px]]
+|[[Израиль]]
+|style="text-align:center; background-color:#00BFFF; color:fff"|&lt;big&gt;'''ESFJ'''&lt;/big&gt;
+|-
+|[[Файл:Швеция.png|50px]]
+|[[Швеция (WoP)|Швеция]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''INFP'''&lt;/big&gt;
+|-
+|[[Файл:Великая Украина.png|50px]]
+|[[Великая Украина]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''INFJ'''&lt;/big&gt;
+|-
+|[[Файл:Германия.png|50px]]
+|[[Германия]]
+|style="text-align:center; background-color:#00BFFF; color:fff"|&lt;big&gt;'''ISFJ'''&lt;/big&gt;
+|-
+|[[Файл:Великобритания.png|50px]]
+|[[Великобритания]]
+|style="text-align:center; background-color:#FFA500; color:fff"|&lt;big&gt;'''ESTP'''&lt;/big&gt;
+|-
+|[[Файл:Китай.png|50px]]
+|[[Китай]]
+|style="text-align:center; background-color:#FFA500; color:fff"|&lt;big&gt;'''ISFP'''&lt;/big&gt;
+|-
+|[[Файл:США.png|50px]]
+|[[Соединённые Штаты Америки (WoP)|Соединённые Штаты Америки]]
+|style="text-align:center; background-color:#00BFFF; color:fff"|&lt;big&gt;'''ESTJ'''&lt;/big&gt;
+|-
+|[[Файл:Дания.png|50px]]
+|[[Дания]]
+|style="text-align:center; background-color:#FFA500; color:fff"|&lt;big&gt;'''ISFP'''&lt;/big&gt;
+|-
+|[[Файл:Испания.png|50px]]
+|[[Словакия|Испания]]
+|style="text-align:center; background-color:#FFA500; color:fff"|&lt;big&gt;'''ISFP'''&lt;/big&gt;
+|-
+|[[Файл:Россия.png|50px]]
+|[[Россия (WoP)|Россия]]
+|style="text-align:center; background-color:#FFA500; color:fff"|&lt;big&gt;'''ISFP'''&lt;/big&gt;
+|-
+|[[Файл:Австрия.png|50px]]
+|[[Австрия]]
+|style="text-align:center; background-color:#FFA500; color:fff"|&lt;big&gt;'''ISTP'''&lt;/big&gt;
+|-
+|[[Файл:Бельгия.svg|50px]]
+|[[Бельгия]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''ENFP'''&lt;/big&gt;
+|-
+|[[Файл:ПИ.png|50px]]
+|[[Португалия|Португальская империя]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''ENFP'''&lt;/big&gt;
+|-
+|[[Файл:Франция.png|50px]]
+|[[Франция]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''INFP'''&lt;/big&gt;
+|-
+|[[Файл:Камерун.png|50px]]
+|[[Камерун (WoP)|Камерун]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''INFJ'''&lt;/big&gt;
+|-
+|[[Файл:Эстония.png|50px]]
+|[[Эстония]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''ENFP'''&lt;/big&gt;
+|-
+|[[Файл:Словения.png|50px]]
+|[[Словения]]
+|style="text-align:center; background-color:#FFA500; color:fff"|&lt;big&gt;'''ESFP'''&lt;/big&gt;
+|-
+|[[Файл:Монголия.png|50px]]
+|[[Монгольская Социалистическая Федеративная Империя|Монголия]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''INFP'''&lt;/big&gt;
+|-
+|[[Файл:Канада.png|50px]]
+|[[Канада (WoP)|Канада]]
+|style="text-align:center; background-color:#b3879d; color:fff"|&lt;big&gt;'''ENTJ'''&lt;/big&gt;
+|-
+|[[Файл:Армения.png|50px]]
+|[[Армения]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''ENFP'''&lt;/big&gt;
+|-
+|[[Файл:Япония.png|50px]]
+|[[Япония (WoP)|Япония]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''INFP'''&lt;/big&gt;
+|-
+|[[Файл:Флаг ОПСФ.png|50px]]
+|[[Объединённая Конфедерация|ОПСФ]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''ENFJ'''&lt;/big&gt;
+|-
+|[[Файл:КИ.png|50px]]
+|[[Италия (WoP)|Италия]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''ENFP'''&lt;/big&gt;
+|-
+|[[Файл:Украина.png|50px]]
+|[[Донецк]]
+|style="text-align:center; background-color:#00BFFF; color:fff"|&lt;big&gt;'''ISFJ'''&lt;/big&gt;
+|-
+|[[Файл:Узбекистан.png|50px]]
+|[[Узбекистан]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''INFJ'''&lt;/big&gt;
+|-
+|[[Файл:ПНГ.png|50px]]
+|[[Новая Гвинея]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''INFJ'''&lt;/big&gt;
+|-
+|[[Файл:Казахстан.png|50px]]
+|[[Казахстан (WoP)|Казахстан]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''INFJ'''&lt;/big&gt;
+|-
+|[[Файл:Мальдивы.svg|50px]]
+|[[Мальдивская Федерация|Мальдивы]]
+|style="text-align:center; background-color:#00BFFF; color:fff"|&lt;big&gt;'''ISTJ'''&lt;/big&gt;
+|-
+|[[Файл:Люксембург.svg|50px]]
+|[[Люксембург]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''ENFP'''&lt;/big&gt;
+|-
+|[[Файл:Сербия.png|50px]]
+|[[Сербия (WoP)|Сербия]]
+|style="text-align:center; background-color:#00BFFF; color:fff"|&lt;big&gt;'''ISFJ'''&lt;/big&gt;
+|-
+|[[Файл:Мексика.png|50px]]
+|[[Мексика (WoP)|Мексика]]
+|style="text-align:center; background-color:#00BFFF; color:fff"|&lt;big&gt;'''ESTJ'''&lt;/big&gt;
+|-
+|[[Файл:Польша.png|50px]]
+|[[Польша (WoP)|Польша]]
+|style="text-align:center; background-color:#00BFFF; color:fff"|&lt;big&gt;'''ESTJ'''&lt;/big&gt;
+|-
+|[[Файл:Саудовская Аравия.png|50px]]
+|[[Саудовская Аравия (WoP)|Саудовская Аравия]]
+|style="text-align:center; background-color:#00BFFF; color:fff"|&lt;big&gt;'''ISFJ'''&lt;/big&gt;
+|-
+|[[Файл:Фиджи.png|50px]]
+|[[Империя Фиджи|Фиджи]]
+|style="text-align:center; background-color:#FFA500; color:fff"|&lt;big&gt;'''ESTP'''&lt;/big&gt;
+|-
+|[[Файл:Египет.png|50px]]
+|[[Египет]]
+|style="text-align:center; background-color:#FFA500; color:fff"|&lt;big&gt;'''ISFP'''&lt;/big&gt;
+|-
+|[[Файл:Беларусь.png|50px]]
+|[[Беларусь (WoP)|Беларусь]]
+|style="text-align:center; background-color:#00BFFF; color:fff"|&lt;big&gt;'''ISFJ'''&lt;/big&gt;
+|-
+|[[Файл:Бразилия WoP.png|50px]]
+|[[Бразилия (WoP)|Бразилия]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''ENFP'''&lt;/big&gt;
+|-
+|[[Файл:Литва.png|50px]]
+|[[Литва]]
+|style="text-align:center; background-color:#00BFFF; color:fff"|&lt;big&gt;'''ESTJ'''&lt;/big&gt;
+|-
+|[[Файл:АИ.png|50px]]
+|[[Австрийская империя]]
+|style="text-align:center; background-color:#FFA500; color:fff"|&lt;big&gt;'''ISFP'''&lt;/big&gt;
+|-
+|[[Файл:Флаг Альпийского Союза.png|50px]]
+|[[Альпийский союз]]
+|style="text-align:center; background-color:#00BFFF; color:fff"|&lt;big&gt;'''ISFJ'''&lt;/big&gt;
+|-
+|[[Файл:Франция.png|50px]]
+|[[Французская империя]]
+|style="text-align:center; background-color:#b3879d; color:fff"|&lt;big&gt;'''ENTP'''&lt;/big&gt;
+|-
+|[[Файл:Румыния.png|50px]]
+|[[Румыния (WoP)|Румыния]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''ENFP'''&lt;/big&gt;
+|-
+|[[Файл:ВСНЛАД.png|50px]]
+|[[Ливия (WoP)|Ливия]]
+|style="text-align:center; background-color:#FFA500; color:fff"|&lt;big&gt;'''ESFP'''&lt;/big&gt;
+|-
+|[[Файл:Северогерманский Союз.png|50px]]
+|[[Северогерманский Союз]]
+|style="text-align:center; background-color:#b3879d; color:fff"|&lt;big&gt;'''ENTP'''&lt;/big&gt;
+|}&lt;/center&gt;
+[[Категория:Записи в блоге]]</text>
+      <sha1>n5fojpbzkba9uoyvpkqe5afkff8g76y</sha1>
+    </revision>
+    <revision>
+      <id>3092</id>
+      <parentid>3091</parentid>
+      <timestamp>2023-04-04T16:04:51Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <origin>3092</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="10255" sha1="97107iy20tn0ojkw6rzn58k4lgqq31a" xml:space="preserve">[https://ru.wikipedia.org/wiki/Типология_Майерс_—_Бриггс '''Типология Майерс — Бриггс'''] является одним из наиболее известных и широко используемых методов описания личности. Она основана на концепции четырех основных категорий, которые используются для описания личности в соответствии с тем, как человек получает энергию, воспринимает информацию, принимает решения и организует свою жизнь.
+
+В этом блоге можно узнать типы личности многих государств из вселенной [[World of Politwar]]. Тип личности государства основывается на его внешней и внутренней политике и населении. Свои идеи и исправления можно предлагать в комментариях к блогу.
+
+&lt;tabber&gt;
+WoP=
+&lt;center&gt;
+{|class="fandom-table article-table"
+!Флаг
+!Название
+!MBTI
+|-
+|[[Файл:Чечня.png|50px]]
+|[[Чечня]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''ENFJ'''&lt;/big&gt;
+|-
+|[[Файл:Кипр.png|50px]]
+|[[Империя Кипр]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''INFJ'''&lt;/big&gt;
+|-
+|[[Файл:Израиль.png|50px]]
+|[[Израиль]]
+|style="text-align:center; background-color:#00BFFF; color:fff"|&lt;big&gt;'''ESFJ'''&lt;/big&gt;
+|-
+|[[Файл:Швеция.png|50px]]
+|[[Швеция (WoP)|Швеция]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''INFP'''&lt;/big&gt;
+|-
+|[[Файл:Великая Украина.png|50px]]
+|[[Великая Украина]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''INFJ'''&lt;/big&gt;
+|-
+|[[Файл:Германия.png|50px]]
+|[[Германия]]
+|style="text-align:center; background-color:#00BFFF; color:fff"|&lt;big&gt;'''ISFJ'''&lt;/big&gt;
+|-
+|[[Файл:Великобритания.png|50px]]
+|[[Великобритания]]
+|style="text-align:center; background-color:#FFA500; color:fff"|&lt;big&gt;'''ESTP'''&lt;/big&gt;
+|-
+|[[Файл:Китай.png|50px]]
+|[[Китай]]
+|style="text-align:center; background-color:#FFA500; color:fff"|&lt;big&gt;'''ISFP'''&lt;/big&gt;
+|-
+|[[Файл:США.png|50px]]
+|[[Соединённые Штаты Америки (WoP)|Соединённые Штаты Америки]]
+|style="text-align:center; background-color:#00BFFF; color:fff"|&lt;big&gt;'''ESTJ'''&lt;/big&gt;
+|-
+|[[Файл:Дания.png|50px]]
+|[[Дания]]
+|style="text-align:center; background-color:#FFA500; color:fff"|&lt;big&gt;'''ISFP'''&lt;/big&gt;
+|-
+|[[Файл:Испания.png|50px]]
+|[[Словакия|Испания]]
+|style="text-align:center; background-color:#FFA500; color:fff"|&lt;big&gt;'''ISFP'''&lt;/big&gt;
+|-
+|[[Файл:Россия.png|50px]]
+|[[Россия (WoP)|Россия]]
+|style="text-align:center; background-color:#FFA500; color:fff"|&lt;big&gt;'''ISFP'''&lt;/big&gt;
+|-
+|[[Файл:Австрия.png|50px]]
+|[[Австрия]]
+|style="text-align:center; background-color:#FFA500; color:fff"|&lt;big&gt;'''ISTP'''&lt;/big&gt;
+|-
+|[[Файл:Бельгия.svg|50px]]
+|[[Бельгия]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''ENFP'''&lt;/big&gt;
+|-
+|[[Файл:ПИ.png|50px]]
+|[[Португалия|Португальская империя]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''ENFP'''&lt;/big&gt;
+|-
+|[[Файл:Франция.png|50px]]
+|[[Франция]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''INFP'''&lt;/big&gt;
+|-
+|[[Файл:Камерун.png|50px]]
+|[[Камерун (WoP)|Камерун]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''INFJ'''&lt;/big&gt;
+|-
+|[[Файл:Эстония.png|50px]]
+|[[Эстония]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''ENFP'''&lt;/big&gt;
+|-
+|[[Файл:Словения.png|50px]]
+|[[Словения]]
+|style="text-align:center; background-color:#FFA500; color:fff"|&lt;big&gt;'''ESFP'''&lt;/big&gt;
+|-
+|[[Файл:Монголия.png|50px]]
+|[[Монгольская Социалистическая Федеративная Империя|Монголия]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''INFP'''&lt;/big&gt;
+|-
+|[[Файл:Канада.png|50px]]
+|[[Канада (WoP)|Канада]]
+|style="text-align:center; background-color:#8A2BE2; color:fff"|&lt;big&gt;'''ENTJ'''&lt;/big&gt;
+|-
+|[[Файл:Армения.png|50px]]
+|[[Армения]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''ENFP'''&lt;/big&gt;
+|-
+|[[Файл:Япония.png|50px]]
+|[[Япония (WoP)|Япония]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''INFP'''&lt;/big&gt;
+|-
+|[[Файл:Флаг ОПСФ.png|50px]]
+|[[Объединённая Конфедерация|ОПСФ]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''ENFJ'''&lt;/big&gt;
+|-
+|[[Файл:КИ.png|50px]]
+|[[Италия (WoP)|Италия]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''ENFP'''&lt;/big&gt;
+|-
+|[[Файл:Украина.png|50px]]
+|[[Донецк]]
+|style="text-align:center; background-color:#00BFFF; color:fff"|&lt;big&gt;'''ISFJ'''&lt;/big&gt;
+|-
+|[[Файл:Узбекистан.png|50px]]
+|[[Узбекистан]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''INFJ'''&lt;/big&gt;
+|-
+|[[Файл:ПНГ.png|50px]]
+|[[Новая Гвинея]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''INFJ'''&lt;/big&gt;
+|-
+|[[Файл:Казахстан.png|50px]]
+|[[Казахстан (WoP)|Казахстан]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''INFJ'''&lt;/big&gt;
+|-
+|[[Файл:Мальдивы.svg|50px]]
+|[[Мальдивская Федерация|Мальдивы]]
+|style="text-align:center; background-color:#00BFFF; color:fff"|&lt;big&gt;'''ISTJ'''&lt;/big&gt;
+|-
+|[[Файл:Люксембург.svg|50px]]
+|[[Люксембург]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''ENFP'''&lt;/big&gt;
+|-
+|[[Файл:Сербия.png|50px]]
+|[[Сербия (WoP)|Сербия]]
+|style="text-align:center; background-color:#00BFFF; color:fff"|&lt;big&gt;'''ISFJ'''&lt;/big&gt;
+|-
+|[[Файл:Мексика.png|50px]]
+|[[Мексика (WoP)|Мексика]]
+|style="text-align:center; background-color:#00BFFF; color:fff"|&lt;big&gt;'''ESTJ'''&lt;/big&gt;
+|-
+|[[Файл:Польша.png|50px]]
+|[[Польша (WoP)|Польша]]
+|style="text-align:center; background-color:#00BFFF; color:fff"|&lt;big&gt;'''ESTJ'''&lt;/big&gt;
+|-
+|[[Файл:Саудовская Аравия.png|50px]]
+|[[Саудовская Аравия (WoP)|Саудовская Аравия]]
+|style="text-align:center; background-color:#00BFFF; color:fff"|&lt;big&gt;'''ISFJ'''&lt;/big&gt;
+|-
+|[[Файл:Фиджи.png|50px]]
+|[[Империя Фиджи|Фиджи]]
+|style="text-align:center; background-color:#FFA500; color:fff"|&lt;big&gt;'''ESTP'''&lt;/big&gt;
+|-
+|[[Файл:Египет.png|50px]]
+|[[Египет]]
+|style="text-align:center; background-color:#FFA500; color:fff"|&lt;big&gt;'''ISFP'''&lt;/big&gt;
+|-
+|[[Файл:Беларусь.png|50px]]
+|[[Беларусь (WoP)|Беларусь]]
+|style="text-align:center; background-color:#00BFFF; color:fff"|&lt;big&gt;'''ISFJ'''&lt;/big&gt;
+|-
+|[[Файл:Бразилия WoP.png|50px]]
+|[[Бразилия (WoP)|Бразилия]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''ENFP'''&lt;/big&gt;
+|-
+|[[Файл:Литва.png|50px]]
+|[[Литва]]
+|style="text-align:center; background-color:#00BFFF; color:fff"|&lt;big&gt;'''ESTJ'''&lt;/big&gt;
+|-
+|[[Файл:АИ.png|50px]]
+|[[Австрийская империя]]
+|style="text-align:center; background-color:#FFA500; color:fff"|&lt;big&gt;'''ISFP'''&lt;/big&gt;
+|-
+|[[Файл:Флаг Альпийского Союза.png|50px]]
+|[[Альпийский союз]]
+|style="text-align:center; background-color:#00BFFF; color:fff"|&lt;big&gt;'''ISFJ'''&lt;/big&gt;
+|-
+|[[Файл:Франция.png|50px]]
+|[[Французская империя]]
+|style="text-align:center; background-color:#8A2BE2; color:fff"|&lt;big&gt;'''ENTP'''&lt;/big&gt;
+|-
+|[[Файл:Румыния.png|50px]]
+|[[Румыния (WoP)|Румыния]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''ENFP'''&lt;/big&gt;
+|-
+|[[Файл:ВСНЛАД.png|50px]]
+|[[Ливия (WoP)|Ливия]]
+|style="text-align:center; background-color:#FFA500; color:fff"|&lt;big&gt;'''ESFP'''&lt;/big&gt;
+|-
+|[[Файл:Северогерманский Союз.png|50px]]
+|[[Северогерманский Союз]]
+|style="text-align:center; background-color:#8A2BE2; color:fff"|&lt;big&gt;'''ENTP'''&lt;/big&gt;
+|}&lt;/center&gt;
+|-|
+CW2 (некоторые)=
+&lt;center&gt;
+{|class="fandom-table article-table"
+!Флаг
+!Название
+!MBTI
+|-
+|[[Файл:ГР.png|50px]]
+|[[Германия|Германский Рейх]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''ENFP'''&lt;/big&gt;
+|-
+|[[Файл:Украинский Израиль.png|50px]]
+|[[Украинский Израиль]]
+|style="text-align:center; background-color:#8A2BE2; color:fff"|&lt;big&gt;'''ENTP'''&lt;/big&gt;
+|-
+|[[Файл:Великая Украина.png|50px]]
+|[[Великая Украина]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''ENFJ'''&lt;/big&gt;
+|}&lt;/center&gt;
+|-|
+CW (некоторые)=
+&lt;center&gt;
+{|class="fandom-table article-table"
+!Флаг
+!Название
+!MBTI
+|-
+|[[Файл:ГР.png|50px]]
+|[[Германия|Германский Рейх]]
+|style="text-align:center; background-color:#00BFFF; color:fff"|&lt;big&gt;'''ISFJ'''&lt;/big&gt;
+|-
+|[[Файл:ИР2.png|50px]]
+|[[Израильский Рейх]]
+|style="text-align:center; background-color:#8A2BE2; color:fff"|&lt;big&gt;'''ENTP'''&lt;/big&gt;
+|-
+|[[Файл:СОПБ.png|50px]]
+|[[Союз Советских Социалистических Республик|СССР]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''ENFJ'''&lt;/big&gt;
+|}&lt;/center&gt;
+&lt;/tabber&gt;
+[[Категория:Записи в блоге]]</text>
+      <sha1>97107iy20tn0ojkw6rzn58k4lgqq31a</sha1>
+    </revision>
+    <revision>
+      <id>3095</id>
+      <parentid>3092</parentid>
+      <timestamp>2023-04-04T17:19:23Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <origin>3095</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2261" sha1="sq1rjysnfaw1hz8e28rf3rjrj7rnkmg" xml:space="preserve">[https://ru.wikipedia.org/wiki/Типология_Майерс_—_Бриггс '''Типология Майерс — Бриггс'''] является одним из наиболее известных и широко используемых методов описания личности. Она основана на концепции четырех основных категорий, которые используются для описания личности в соответствии с тем, как человек получает энергию, воспринимает информацию, принимает решения и организует свою жизнь.
+
+В этом блоге можно узнать типы личности многих государств из вселенной [[World of Politwar]]. Тип личности государства основывается на его внешней и внутренней политике и населении. Свои идеи и исправления можно предлагать в комментариях к блогу.
+
+&lt;tabber&gt;
+2023=
+&lt;center&gt;
+{|class="fandom-table article-table"
+!Флаг
+!Название
+!MBTI
+|-
+|[[Файл:АИ.png]]
+|[[Австрийская империя]]
+|style="text-align:center; background-color:#FFA500; color:fff"|&lt;big&gt;'''ISFP'''&lt;/big&gt;
+|-
+|[[Файл:Флаг Альпийского Союза.png]]
+|[[Альпийский союз]]
+|style="text-align:center; background-color:#00BFFF; color:fff"|&lt;big&gt;'''ISFJ'''&lt;/big&gt;
+|-
+|[[Файл:Бангладеш.png]]
+|[[Бангладеш]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''INFP'''&lt;/big&gt;
+|-
+|[[Файл:ВСНЛАД.png]]
+|[[Ливия (WoP)|Ливия]]
+|
+|-
+|[[Файл:Литва.png]]
+|[[Литва]]
+|
+|-
+|[[Файл:Мальдивы.svg|50px]]
+|[[Мальдивская Федерация]]
+|
+|-
+|[[Файл:ОК (временный флаг).png]]
+|[[Объединённая Конфедерация]]
+|
+|-
+|[[Файл:Северогерманский Союз.png]]
+|[[Северогерманский Союз]]
+|
+|}&lt;/center&gt;
+|-|
+Все=
+{{Страны/MBTI}}
+&lt;/tabber&gt;
+[[Категория:Записи в блоге]]</text>
+      <sha1>sq1rjysnfaw1hz8e28rf3rjrj7rnkmg</sha1>
+    </revision>
+    <revision>
+      <id>3096</id>
+      <parentid>3095</parentid>
+      <timestamp>2023-04-04T17:19:49Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <origin>3096</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2296" sha1="m02vixqr9slh3byh5fic1c5lr2pi03c" xml:space="preserve">[https://ru.wikipedia.org/wiki/Типология_Майерс_—_Бриггс '''Типология Майерс — Бриггс'''] является одним из наиболее известных и широко используемых методов описания личности. Она основана на концепции четырех основных категорий, которые используются для описания личности в соответствии с тем, как человек получает энергию, воспринимает информацию, принимает решения и организует свою жизнь.
+
+В этом блоге можно узнать типы личности многих государств из вселенной [[World of Politwar]]. Тип личности государства основывается на его внешней и внутренней политике и населении. Свои идеи и исправления можно предлагать в комментариях к блогу.
+
+&lt;tabber&gt;
+2023=
+&lt;center&gt;
+{|class="fandom-table article-table"
+!Флаг
+!Название
+!MBTI
+|-
+|[[Файл:АИ.png|50px]]
+|[[Австрийская империя]]
+|style="text-align:center; background-color:#FFA500; color:fff"|&lt;big&gt;'''ISFP'''&lt;/big&gt;
+|-
+|[[Файл:Флаг Альпийского Союза.png|50px]]
+|[[Альпийский союз]]
+|style="text-align:center; background-color:#00BFFF; color:fff"|&lt;big&gt;'''ISFJ'''&lt;/big&gt;
+|-
+|[[Файл:Бангладеш.png|50px]]
+|[[Бангладеш]]
+|style="text-align:center; background-color:#32CD32; color:fff"|&lt;big&gt;'''INFP'''&lt;/big&gt;
+|-
+|[[Файл:ВСНЛАД.png|50px]]
+|[[Ливия (WoP)|Ливия]]
+|
+|-
+|[[Файл:Литва.png|50px]]
+|[[Литва]]
+|
+|-
+|[[Файл:Мальдивы.svg|50px]]
+|[[Мальдивская Федерация]]
+|
+|-
+|[[Файл:ОК (временный флаг).png|50px]]
+|[[Объединённая Конфедерация]]
+|
+|-
+|[[Файл:Северогерманский Союз.png|50px]]
+|[[Северогерманский Союз]]
+|
+|}&lt;/center&gt;
+|-|
+Все=
+{{Страны/MBTI}}
+&lt;/tabber&gt;
+[[Категория:Записи в блоге]]</text>
+      <sha1>m02vixqr9slh3byh5fic1c5lr2pi03c</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Блог участника:HIHRAIM/Что такое World of Politwar?</title>
+    <ns>500</ns>
+    <id>744</id>
+    <revision>
+      <id>1630</id>
+      <timestamp>2022-07-28T13:40:56Z</timestamp>
+      <contributor>
+        <username>HIHRAIM</username>
+        <id>46406356</id>
+      </contributor>
+      <comment>Новая страница: «'''[[World of Politwar]]''' — свободный ролевой военно-политический [https://ru.wikipedia.org/wiki/Minecraft Minecraft]-[https://ru.wikipedia.org/wiki/Сервер_Minecraft сервер]. Основным режимом игры является [https://minecraft.fandom.com/ru/wiki/Творчество креатив], в котором игроки строят свои [https://ru.wikipedia.org/wiki/Государст...»</comment>
+      <origin>1630</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1586" sha1="hial4lssm8292si5889kiqed9ul4usw" xml:space="preserve">'''[[World of Politwar]]''' — свободный ролевой военно-политический [https://ru.wikipedia.org/wiki/Minecraft Minecraft]-[https://ru.wikipedia.org/wiki/Сервер_Minecraft сервер]. Основным режимом игры является [https://minecraft.fandom.com/ru/wiki/Творчество креатив], в котором игроки строят свои [https://ru.wikipedia.org/wiki/Государство государства]. Государство может быть с любой [https://ru.wikipedia.org/wiki/Идеология идеологией], [https://ru.wikipedia.org/wiki/Форма_государственного_правления формой правления], может носить название реального государства, а может носить и придуманное её народом или управляющим. Игроки могут создавать военные, экономические или других целей альянсы или организации. Одной из самых крепких и многочисленных организаций является [[Организация Объединённых Наций]] созданная с целью поддержания мира между государствами после второй мировой войны. На сервере идёт своя история, у нас нет официального года.
+[[Категория:Записи в блоге]]</text>
+      <sha1>hial4lssm8292si5889kiqed9ul4usw</sha1>
+    </revision>
+  </page>
+</mediawiki>
