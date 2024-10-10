@@ -1,0 +1,95 @@
+/* 05-06.05.2023 */
+:root {
+    --fandom-global-nav-background-color:var(--theme-page-background-color);
+    --fandom-global-nav-text-color:var(--theme-body-text-color);
+    --fandom-global-nav-link-color:var(--theme-link-color);
+    --fandom-global-nav-link-color--hover:var(--theme-accent-color--hover);
+    --fandom-global-nav-icon-color:var(--theme-page-text-color);
+    --fandom-global-nav-icon-background-color:var(--theme-border-color);
+    --fandom-global-nav-icon-background-color--hover:var(--theme-border-color);
+    --fandom-global-nav-icon-border-color:var(--theme-page-dynamic-color-1);
+    --fandom-global-nav-icon-border-color--hover:var(--theme-body-text-color--hover);
+    --fandom-global-nav-icon-border-color--active:var(--theme-page-text-color);
+    --fandom-global-nav-bottom-icon-color:var(--theme-page-dynamic-color-1);
+    --fandom-global-nav-counter-background-color:var(--theme-page-background-color);
+    --fandom-global-nav-counter-label-color:var(--theme-page-background-color--secondary);
+    --fandom-global-nav-mobile-background-color:var(--fandom-global-nav-background-color);
+    --fandom-global-nav-mobile-community-sticky-bar-background-color:var(--theme-sticky-nav-background-color);
+    --fandom-global-nav-mobile-community-sticky-bar-color:var(--theme-sticky-nav-text-color);
+    --fandom-global-nav-mobile-community-sticky-bar-color--hover:var(--theme-sticky-nav-text-color--hover);
+    --fandom-global-nav-mobile-community-bar-background-color:var(--theme-sticky-nav-background-color);
+    --fandom-global-nav-mobile-community-bar-color:var(--theme-sticky-nav-text-color);
+    --fandom-global-nav-mobile-community-bar-color--hover:var(--theme-sticky-nav-text-color--hover);
+    --fandom-global-nav-mobile-community-bottom-border-color:var(--theme-border-color);
+    --fandom-notifications-background-color:var(--theme-page-background-color);
+    --fandom-notifications-read-card-background-color:var(--theme-page-background-color);
+    --fandom-link-color:var(--theme-link-color);
+    --fandom-border-color:var(--theme-border-color);
+    --theme-body-text-color--hover:var(--theme-border-color);
+}
+
+/* == Fandom logo == */
+#wds-brand-fandom-logo-light > path:nth-of-type(1),
+#wds-brand-fandom-logomark > path:nth-of-type(1) {
+	fill:var(--theme-accent-color);
+}
+
+#wds-brand-fandom-logo-light > path:nth-of-type(2),
+#wds-brand-fandom-logomark > path:nth-of-type(2) {
+	fill:var(--theme-accent-color--hover);
+}
+
+#wds-brand-fandom-logo-light > path:nth-of-type(3),
+#wds-brand-fandom-logomark > path:nth-of-type(3) {
+	fill:rgb(var(--theme-page-text-color--rgb), 1);
+}
+
+/* == Global navigation == */
+.global-navigation .wds-dropdown {
+    --wds-dropdown-background-color:var(--fandom-global-nav-icon-background-color);
+    --wds-dropdown-border-color:var(--fandom-global-nav-icon-background-color--hover);
+    --wds-dropdown-text-color:var(--theme-page-text-color);
+}
+
+/* == Global footer == */
+.global-footer, .global-footer__bottom {
+    background-color:var(--theme-page-background-color);
+    color:var(--theme-page-text-color);
+}
+
+.global-footer__section-header, .global-footer__section-social-links .wds-icon {
+    color:var(--theme-page-text-color);
+}
+
+.global-footer__section-social-links:after .wds-icon {
+    color:var(--theme-page-text-color);
+}
+
+#wds-icons-facebook, #wds-icons-twitter, #wds-icons-vkontakte {
+    color:rgb(var(--theme-page-text-color--rgb), 0.8);
+}
+
+.global-footer__link, .global-footer__link:active, .global-footer__link:focus, .global-footer__link:visited, .global-footer__bottom a, .global-footer__bottom a:visited {
+    color:var(--theme-link-color);
+}
+
+.global-footer__link:hover, .global-footer__switch-view:hover {
+    color:var(--theme-link-color--hover) !important;
+}
+
+/* == Scrollbar == */
+::-webkit-scrollbar {
+  width:10px;
+}
+
+::-webkit-scrollbar-track {
+  background:var(--theme-page-background-color--secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background:var(--theme-accent-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background:rgb(var(--theme-accent-color--rgb), 0.8);
+}
