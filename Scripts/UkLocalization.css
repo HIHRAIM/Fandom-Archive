@@ -1,0 +1,84 @@
+/* == Українська локалізація == */
+/* === Глобальная навігація === */
+/* ==== другие, подобные вам, просматривали ==== */
+h3.VerticalCards-module_header__l5d-3 {
+	visibility:hidden;
+}
+
+h3.VerticalCards-module_header__l5d-3::after {
+	content:"Це може вас зацікавити";
+	visibility:visible;
+	top:0;
+	background:none !important;
+}
+
+.VerticalCards-module_wrapper__P9g8o .wds-card-vertical--16-9 {
+	margin-top:-20px;
+}
+
+/* ==== Лучшие страницы на этой неделе ==== */
+.HorizontalCards-module_wrapper__HEjSo h3.wds-widget-frame__title {
+	visibility:hidden;
+}
+
+.HorizontalCards-module_wrapper__HEjSo h3.wds-widget-frame__title::after {
+	content:"Популярні статті цієї вікі";
+	visibility:visible;
+	top:0;
+	background:none !important;
+}
+
+.wds-widget-frame__content {
+	margin-top:-20px;
+}
+
+/* ==== «Скрыть» ==== */
+#close-current-wiki-tab > span {
+	visibility:hidden;
+	margin-left:-45px;
+}
+
+#close-current-wiki-tab > span::after {
+	content:"Приховати";
+	visibility:visible;
+	top:0;
+}
+
+/* === Локальна навігація === */
+/* ==== «Исследовать» ==== */
+li.wds-dropdown.explore-menu .wds-tabs__tab-label.wds-dropdown__toggle.first-level-item > a > span {
+	visibility:hidden;
+}
+
+li.wds-dropdown.explore-menu .wds-tabs__tab-label.wds-dropdown__toggle.first-level-item > a > span::after {
+	content:"Головне";
+	visibility:visible;
+	margin-left:-93px;
+}
+
+/* === Права рейка === */
+/* ==== Page Tools ==== */
+.page-tools-module .rail-module__header.has-icon {
+	visibility:hidden;
+}
+
+.page-tools-module .rail-module__header.has-icon::after {
+	content:"Головне меню";
+	visibility:visible;
+	margin-left:-80px;
+}
+
+/* ==== Recent Wiki Activity ==== */
+.recent-wiki-activity .rail-module__header.has-icon {
+	visibility:hidden;
+}
+
+.recent-wiki-activity .rail-module__header.has-icon::after {
+	content:"Нещодавні правки";
+	visibility:visible;
+	margin-left:-147px;
+}
+
+.recent-wiki-activity h2.has-icon svg {
+	display:none !important;
+}
