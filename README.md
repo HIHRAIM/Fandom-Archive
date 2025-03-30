@@ -1,1 +1,2 @@
-<p>Этот репозиторий используется для сбережения кода и страниц.<img align="right" src="https://komarev.com/ghpvc/?username=HIHRAIM&Fandom-Archive" /></p>
+# 📂 Fandom Archive<img align="right" src="https://komarev.com/ghpvc/?username=HIHRAIM&Fandom-Archive" />
+В этом репозитории я держу страницы и скриптов из и для Фэндома, над которыми я работал.
