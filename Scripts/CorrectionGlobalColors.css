@@ -1,4 +1,6 @@
-/* 05-06.05.2023 */
+/* RU: Этот скрипт исправляет глобально установленные цвета в глобальной навигации, глобальном футере и скроллбаре в соответсвии с цветами вики, установленными их администраторами. Может быть, когда-то этот скрипт попадёт на Dev Wiki, надеюсь. = */
+/* UK: Цей скрипт виправляє глобально встановлені кольори у глоабльній навігації, глобальном футері й скролбарі у відповідності з кольорамі вікі, встановленними їх адміністраторами. Можливо, колись цей скрипт попаде на Dev Wiki, сподіваюся. */
+/* EN: This script fixes the globally set colors in the global navigation, global footer and scrollbar to match the wiki colors set by their admins. Maybe someday this script will get on the Dev Wiki, I hope. */
 :root {
     --fandom-global-nav-background-color:var(--theme-page-background-color);
     --fandom-global-nav-text-color:var(--theme-body-text-color);
