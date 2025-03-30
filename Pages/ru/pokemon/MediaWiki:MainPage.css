@@ -1,0 +1,616 @@
+/* == Заглавная страница == */
+/* === Главный блок === */
+/* ==== Таббер ==== */
+.mp-tabber {
+	display:flex;
+	margin:0;
+}
+
+.mp-tabber a.external:after {
+	display:none;
+}
+
+.mp-tabber__tab {
+	--color:#919191;
+	border-bottom:4px solid var(--color);
+	flex-basis:100%;
+	list-style:none;
+	padding-top:4px;
+	padding-bottom:4px;
+	position:relative;
+	z-index:1;
+}
+
+.mp-tabber__tab a {
+	display:block;
+	width:100%;
+	height:100%;
+	text-align:center;
+}
+
+.mp-tabber__tab::before {
+	background-color:var(--color);
+	content:"";
+	height:0;
+	left:0;
+	position:absolute;
+	top:0;
+	transition:all 0.5s;
+	width:100%;
+	z-index:-1;
+}
+
+.mp-tabber__tab::after {
+	background-color:#2e3039;
+	content:"";
+	height:100%;
+	left:0;
+	position:absolute;
+	top:0;
+	width:100%;
+	z-index:-2;
+}
+
+.mp-tabber__tab:first-child::after,
+.mp-tabber__tab:first-child::before {
+	border-radius:10px 0 0 0;
+}
+
+.mp-tabber__tab:last-child::after,
+.mp-tabber__tab:last-child::before {
+	border-radius:0 10px 0 0;
+}
+
+.mp-tabber__tab:hover::before {
+	height:100%;
+}
+
+.mp-tabber__content {
+	align-items:center;
+	display:flex;
+	flex-direction:column;
+	z-index:2;
+}
+
+.mp-tabber__content {
+	z-index:2;
+}
+
+.mp-tabber__content a:last-child {
+	color:#fff;
+	font-size:0.85em;
+	margin-top:8px;
+	text-decoration:none;
+}
+
+.mp-tabber__tab:nth-child(1) {
+	box-shadow:2px 2px 10px #1e2124;
+}
+
+.mp-tabber__tab:nth-child(2) {
+	--color:#e3350d;
+	box-shadow:2px 2px 10px #1e2124;
+}
+
+.mp-tabber__tab:nth-child(3) {
+	--color:#ee6b2f;
+	box-shadow:2px 2px 10px #1e2124;
+}
+
+.mp-tabber__tab:nth-child(4) {
+	--color:#4dad5b;
+	box-shadow:2px 2px 10px #1e2124;
+}
+
+.mp-tabber__tab:nth-child(5) {
+	--color:#1b53ba;
+	box-shadow:2px 2px 10px #1e2124;
+}
+
+.mp-tabber__tab:nth-child(6) {
+	--color:#e6bc2f;
+	box-shadow:2px 2px 10px #1e2124;
+}
+
+.mp-tabber__tab:nth-child(7) {
+	--color:#30a7d7;
+	box-shadow:2px 2px 10px #1e2124;
+}
+
+.main-page-tag-lcs .mp-tabber {
+	margin:0;
+}
+
+/* ==== Баннер ===== */
+.mp-banner {
+	background-color:var(--mp-gray-element);
+	border-radius:10px;
+	color:#fff;
+	display:flex;
+	flex-direction:column;
+	overflow:hidden;
+	transition:background-color 0.5s linear;
+}
+
+.mp-banner:hover {
+	background-color:var(--mp-gray-element--hover);
+}
+
+.theme-fandomdesktop-dark .mp-banner {
+	--mp-gray-element:#262626;
+	--mp-gray-element--hover:#161616;
+}
+
+.theme-fandomdesktop-light .mp-banner {
+	--theme-page-text-color:#fff;
+	--theme-link-color:#E6BC2F;
+	--theme-link-color--hover:#E6BC2F;
+	--mp-gray-element:#6B6B6B;
+	--mp-gray-element--hover:#313131;
+}
+
+.main-page-tag-rcs .mp-banner {
+	max-width:calc(100% - 4px);
+}
+
+.main-page-tag-lcs .mp-banner:first-of-type {
+	border-radius:0 0 10px 10px;
+}
+
+.mp-banner:not(:first-of-type) {
+	margin-top:1em;
+}
+
+.mp-banner__image {
+	display:flex;
+	height:275px;
+	overflow:hidden;
+	position:relative;
+}
+
+.mp-banner__image::after {
+	background-image:linear-gradient( 165deg, #892e30, #ed4137 50%, #4d42ae 50%, #34288a );
+	bottom:0;
+	content:"";
+	height:5px;
+	left:0;
+	position:absolute;
+	width:100%;
+}
+
+.mp-banner__image + .mp-banner__title::before {
+	background-image:url('https://vignette.wikia.nocookie.net/pokemon/images/4/4c/Pokeball.svg/revision/latest?cb=20191230080306&path-prefix=ko');
+	background-size:contain;
+	content:"";
+	height:25px;
+	left:calc( 50% - 12.5px );
+	position:absolute;
+	top:-16px;
+	width:25px;
+	z-index:2;
+}
+
+.mp-banner__title {
+	position:relative;
+	text-align:center;
+	font-weight:bold;
+	font-size:25px;
+	font-family:Rubik, Arial, sans-serif;
+	line-height:27px;
+	padding-top:15px;
+	text-transform:uppercase;
+	border:none;
+}
+
+.mp-banner__image + .mp-banner__title {
+	border-bottom:none;
+}
+
+.mp-banner__image img,
+.mp-banner__content > .center img {
+	height:auto;
+	max-width:100%;
+}
+
+.mp-banner__content {
+	padding:8px 16px;
+}
+
+/* === Стандартные элементы === */
+.MainPageElement,
+.MainPageTable {
+	--mp-gray-element:#6B6B6B;
+	--mp-gray-element--hover:#313131;
+	--mp-gray-color:#FFFFFF;
+	--mp-black-element:#313131;
+	--mp-black-element--hover:#282828;
+	--mp-black-color:#FFFFFF;
+}
+
+.theme-fandomdesktop-dark .MainPageElement,
+.theme-fandomdesktop-dark .MainPageTable {
+	--mp-gray-element:#383838;
+	--mp-gray-element--hover:#0A0A0A;
+	--mp-black-element:#EFEFEF;
+	--mp-black-element--hover:#BDBDBD;
+	--mp-black-color:#000000;
+}
+
+.MainPageElement {
+	-webkit-backface-visibility:hidden;
+	-webkit-transform:translateZ(0);
+	-webkit-perspective:1000;
+	display:flex;
+	flex-direction:column;
+	position:relative;
+	width:100%;
+	overflow:hidden;
+	border-radius:5px;
+	margin-bottom:15px;
+}
+
+.WikiaArticle .MainPageElement .mp-banner {
+	margin-right:0;
+	margin-left:0;
+}
+
+.MainPageElement.center .mp-banner {
+	width:100%;
+}
+
+.MainPageElement .mp-banner {
+	order:1;
+	background-color:#1B53BA;
+	padding:20px;
+	border-radius:0 0 5px 5px;
+	transition:background-color 0.3s ease-in-out;
+}
+
+.MainPageElement:hover .mp-banner {
+	background-color:#1847D7;
+}
+
+.MainPageElement .mp-banner h2 {
+	font-weight:bold;
+	font-size:22px;
+	font-family:Rubik, Arial, sans-serif;
+	line-height:27px;
+	text-transform:uppercase;
+	border:none;
+	margin-top:0;
+}
+
+.MainPageElement .mp-banner .caption {
+	margin-bottom:0;
+}
+
+.MainPageElement .mp-banner .caption,
+.MainPageElement .mp-banner h2 {
+	color:#FFFFFF;
+}
+
+.MainPageElement.items .mp-banner .caption {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
+}
+
+.MainPageElement .caption .mw-ui-input.mw-ui-input-inline {
+	color:inherit;
+}
+
+.MainPageElement .mp-images {
+	border-radius:5px;
+}
+
+.MainPageElement .mp-banner + .mp-images {
+	border-radius:5px 5px 0 0;
+}
+
+.MainPageElement .mp-images > img {
+	width:100%;
+	height:auto;
+}
+
+.MainPageElement .mp-link a {
+	display:block;
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+}
+
+.MainPageElement .mp-link a img {
+	width:100%;
+	height:100%;
+	visibility:hidden;
+	font-size:0;
+	color:transparent;
+}
+
+.MainPageElement-container {
+	display:flex;
+	align-items:stretch;
+}
+
+.MainPageElement-container .MainPageElement .mp-banner {
+	flex-grow:1;
+}
+
+.MainPageElement-container .MainPageElement .mp-images > img {
+	-o-object-fit:cover;
+	object-fit:cover;
+	max-height:190px;
+	margin-bottom:-1px;
+}
+
+.MainPageElement-container .MainPageElement:not(:first-child) {
+	margin-left:15px;
+}
+
+.mainpage #mw-content-text {
+	padding-top:5px;
+}
+
+/* ==== Цвета ==== */
+.MainPageTable .mp-gray div .mp-pokeball,
+.MainPageTable .mp-gray div .mp-events,
+.MainPageTable .mp-gray div .mp-anime,
+.MainPageTable .mp-gray div .mp-games,
+.MainPageTable .mp-gray div .mp-home,
+.MainPageTable .mp-gray div .mp-manga,
+.MainPageTable .mp-gray div .mp-tcg,
+.MainPageElement.mp-gray .mp-banner,
+.MainPageTable td.mp-gray:before,
+.MainPageTable td.mp-gray:after {
+	background-color:#919191;
+}
+
+.MainPageElement.mp-gray .mp-banner {
+	background-color:var(--mp-gray-element, #6B6B6B);
+}
+
+.MainPageElement.mp-gray .caption .embeddable-discussions-threads {
+	border-color:var(--mp-gray-element, #6B6B6B);
+}
+
+.MainPageElement.mp-gray:hover .mp-banner {
+	background-color:var(--mp-gray-element--hover, #313131);
+}
+
+.MainPageElement.mp-gray .mp-banner a {
+	color:#E6BC2F;
+}
+
+.MainPageElement.mp-gray .mp-banner .caption,
+.MainPageElement.mp-gray .mp-banner > h2 {
+	color:var(--mp-gray-color);
+}
+
+/* ===== Красный ===== */
+.MainPageTable .mp-red div .mp-pokeball,
+.MainPageTable .mp-red div .mp-events,
+.MainPageTable .mp-red div .mp-anime,
+.MainPageTable .mp-red div .mp-games,
+.MainPageTable .mp-red div .mp-home,
+.MainPageTable .mp-red div .mp-manga,
+.MainPageTable .mp-red div .mp-tcg,
+.MainPageElement.mp-red .mp-banner,
+.MainPageTable td.mp-red:before,
+.MainPageTable td.mp-red:after {
+	background-color:#E3350D;
+}
+
+.MainPageElement.mp-red .caption .embeddable-discussions-threads {
+	border-color:#E3350D;
+}
+
+.MainPageElement.mp-red:hover .mp-banner {
+	background-color:#C72F0C;
+}
+
+.MainPageElement.mp-red .mp-banner a {
+	color:#E6BC2F;
+}
+
+/* ===== Жёлтый ===== */
+.MainPageTable .mp-mustard div .mp-pokeball,
+.MainPageTable .mp-mustard div .mp-events,
+.MainPageTable .mp-mustard div .mp-anime,
+.MainPageTable .mp-mustard div .mp-games,
+.MainPageTable .mp-mustard div .mp-manga,
+.MainPageTable .mp-mustard div .mp-home,
+.MainPageTable .mp-mustard div .mp-tcg,
+.MainPageElement.mp-mustard .mp-banner,
+.MainPageTable td.mp-mustard:before,
+.MainPageTable td.mp-mustard:after {
+	background-color:#E6BC2F;
+}
+
+.MainPageElement.mp-mustard .caption .embeddable-discussions-threads {
+	border-color:#E6BC2F;
+}
+
+.MainPageElement.mp-mustard:hover .mp-banner {
+	background-color:#DAA31C;
+}
+
+/* ===== Голубой ===== */
+.MainPageTable .mp-teal div .mp-pokeball,
+.MainPageTable .mp-teal div .mp-events,
+.MainPageTable .mp-teal div .mp-anime,
+.MainPageTable .mp-teal div .mp-games,
+.MainPageTable .mp-teal div .mp-manga,
+.MainPageTable .mp-teal div .mp-home,
+.MainPageTable .mp-teal div .mp-tcg,
+.MainPageElement.mp-teal .mp-banner,
+.MainPageTable td.mp-teal:before,
+.MainPageTable td.mp-teal:after {
+	background-color:#30A7D7;
+}
+
+.MainPageElement.mp-teal .caption .embeddable-discussions-threads {
+	border-color:#30A7D7;
+}
+
+.MainPageElement.mp-teal:hover .mp-banner {
+	background-color:#1B82B1;
+}
+
+/* ===== Чёрный ===== */
+.MainPageTable .mp-black div .mp-pokeball,
+.MainPageTable .mp-black div .mp-events,
+.MainPageTable .mp-black div .mp-anime,
+.MainPageTable .mp-black div .mp-games,
+.MainPageTable .mp-black div .mp-manga,
+.MainPageTable .mp-black div .mp-home,
+.MainPageTable .mp-black div .mp-tcg,
+.MainPageElement.mp-black .mp-banner,
+.MainPageTable td.mp-black:before,
+.MainPageTable td.mp-black:after {
+	background-color:var(--mp-black-element, #313131);
+}
+
+.MainPageElement.mp-black .caption .embeddable-discussions-threads {
+	border-color:var(--mp-black-element, #313131);
+}
+
+.MainPageElement.mp-black:hover .mp-banner {
+	background-color:var(--mp-black-element--hover, #282828);
+}
+
+.MainPageElement.mp-black .mp-banner a {
+	color:#E6BC2F;
+}
+
+.MainPageElement.mp-black .mp-banner .caption,
+.MainPageElement.mp-black .mp-banner > h2 {
+	color:var(--mp-black-color);
+}
+
+/* ===== Фиолетовый ===== */
+.MainPageTable .mp-purple div .mp-pokeball,
+.MainPageTable .mp-purple div .mp-events,
+.MainPageTable .mp-purple div .mp-anime,
+.MainPageTable .mp-purple div .mp-games,
+.MainPageTable .mp-purple div .mp-manga,
+.MainPageTable .mp-purple div .mp-home,
+.MainPageTable .mp-purple div .mp-tcg,
+.MainPageElement.mp-purple .mp-banner,
+.MainPageTable td.mp-purple:before,
+.MainPageTable td.mp-purple:after {
+	background-color:#933FA4;
+}
+
+.MainPageElement.mp-purple .caption .embeddable-discussions-threads {
+	border-color:#933FA4;
+}
+
+.MainPageElement.mp-purple:hover .mp-banner {
+	background-color:#8a2d9c;
+}
+
+/* ==== Блоги ==== */
+.theme-fandomdesktop-light .caption .WikiaBlogListingBox .blog-listing__post {
+	flex:0 0 100%;
+	background-color:#454545;
+	margin:1px;
+	border-color:none !important;
+	border-radius:none !important;
+}
+
+.MainPageElement .caption .WikiaBlogListingBox {
+	display:flex;
+	flex-flow:wrap;
+	justify-content:flex-end;
+	max-height:500px;
+	overflow:scroll;
+	border-radius:3px;
+	margin-bottom:0;
+}
+
+.MainPageElement .caption .WikiaBlogListingBox .blog-listing__create-post,
+.MainPageElement .caption .WikiaBlogListingBox > h2 {
+	display:none;
+}
+
+.MainPageElement .caption .WikiaBlogListingBox .blog-listing__post {
+	flex:0 0 100%;
+	background-color:#1A1A1A;
+	border-color:rgba(58, 58, 58, 0.5);
+	border-radius:0 0 3px 3px;
+}
+
+.MainPageElement .caption .WikiaBlogListingBox .blog-listing__post:not(:last-of-type) {
+	flex:1 0 calc(100% / 3);
+	border-radius:0;
+	margin-bottom:0;
+}
+
+.MainPageElement .caption .WikiaBlogListingBox .blog-listing__comment-count {
+	color:inherit;
+}
+
+.MainPageElement .caption .WikiaBlogListingBox .blog-listing__comment-count svg {
+	fill:currentColor;
+}
+
+.MainPageElement .caption .WikiaBlogListingBox a.more {
+	margin-right:1em;
+}
+
+/* ==== Социальный уголок ==== */
+.theme-fandomdesktop-dark .mp-categories {
+	background-color:#161616;
+	margin-top:10px;
+	margin-bottom:10px;
+	border-radius:3px;
+	padding:8px;
+}
+
+.theme-fandomdesktop-light .mp-categories {
+	background-color:#454545;
+	margin-top:10px;
+	margin-bottom:10px;
+	border-radius:3px;
+	padding:8px;
+}
+
+/* ==== Официальные страницы ==== */
+.soc-logo-button {
+	border-radius:3px;
+	padding:5px;
+	margin:3px;	
+	transition:box-shadow 0.25s, margin 0.25s;
+}
+
+.theme-fandomdesktop-dark .soc-logo-button {
+	background-color:#161616;
+}
+
+.theme-fandomdesktop-light .soc-logo-button {
+	background-color:#454545;
+}
+
+.soc-logo-button a.external:after {
+	display:none;
+}
+
+.soc-logo-button:hover {
+	background:var(--theme-page-background-color--secondary);
+	box-shadow:0 0 3px 0.2em var(--theme-page-background-color--secondary);
+	margin:0.1875em 0.25em;
+}
+
+.theme-fandomdesktop-light .soc-logo-button:hover {
+	background:#6B6B6B !important;
+	box-shadow:0 0 3px 0.2em #6B6B6B !important;
+	margin:0.1875em 0.25em;
+}
+
+/* ==== Отключает предпросмотр страницы при наведении на ссылку ==== */
+.mainpage .npage-preview, .mainpage .npage-preview div, .mainpage .npage-preview img, .mainpage .npage-preview-noimage {
+	display:none;
+	border:0px solid var(--theme-border-color) !important;
+}
