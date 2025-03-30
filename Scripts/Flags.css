@@ -1,0 +1,62 @@
+/* = Данный скрипт обновляет некоторые флаги в InterlanguageFlags = */
+/* = This script updates some flags in InterlanguageFlags = */
+/* Авторы оригинального скрипта: leviathan 89 и Aeywoo. Автор этого скрипта: HIHRAIM */
+/* Original script authors: leviathan 89 and Aeywoo. Author of this script: HIHRAIM */
+/* Чтобы добавить этот скрипт на Вашу вики, используйте этот код (без черт и звёздочек): */
+/* To add this script to your wiki, use this code (without slash and asterisks): */
+/* @import url("//community.fandom.com/load.php?mode=articles&articles=User:HIHRAIM/Flags.css&only=styles"); */
+/* Добавляйте код в начало страницы MediaWiki:Common.css / MediaWiki:Fandomdesktop.css (для вики) или в Special:MyPage/global.css (для себя) */
+/* Add the code to the top of MediaWiki:Common.css / MediaWiki:Fandomdesktop.css (for wikis) or Special:MyPage/global.css (for yourself) */
+
+/* == Импорт оригинального скрипта | Importing the original script == */
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:InterlanguageFlags.css&only=styles";
+
+/* === Добавление китайских флагов | Adding Chinese flags === */
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:ZHVariantFlags.css&only=styles";
+
+/* == Мои изменения | My changes == */
+/* === be (Беларуская) / be-tarask/be-x-old (Беларуская (тарашкевіца)) === */
+/* Заменяет флаг образца Белорусской ССР на национальный бело-красно-белый флаг */
+/* Replaces the flag like of the Belarusian SSR with the national white-red-white flag */
+.interwiki-be::before,
+.interwiki-be-tarask::before,
+.interwiki-be-x-old::before,
+.page-header__languages ul li a:is([data-tracking-label="lang-be"], [data-tracking-label="lang-be-GP"], [data-tracking-label="lang-be-FD"], [data-tracking-label="lang-be-tarask"], [data-tracking-label="lang-be-tarask-GP"], [data-tracking-label="lang-be-tarask-FD"], [data-tracking-label="lang-be-x-old"], [data-tracking-label="lang-be-x-old-GP"], [data-tracking-label="lang-be-x-old-FD"])::before,
+.page-footer__languages a:is([data-tracking-label="lang-be"], [data-tracking-label="lang-be-GP"], [data-tracking-label="lang-be-FD"], [data-tracking-label="lang-be-tarask"], [data-tracking-label="lang-be-tarask-GP"], [data-tracking-label="lang-be-tarask-FD"], [data-tracking-label="lang-be-x-old"], [data-tracking-label="lang-be-x-old-GP"], [data-tracking-label="lang-be-x-old-FD"])::before {
+	content:url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Flag_of_Belarus_%281918%2C_1991–1995%29.svg/22px-Flag_of_Belarus_%281918%2C_1991–1995%29.svg.png");
+}
+
+/* === bn (বাংলা) === */
+/* Возвращает флаг Бангладеш | Returns the flag of Bangladesh */
+.interwiki-bn::before,
+:is(.page-header__languages ul li, .page-footer__languages) a[data-tracking-label^="lang-bn"]::before {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/f9/Flag_of_Bangladesh.svg);
+}
+
+/* === en (English) === */
+/* Возвращает флаг Великобритании | Returns the flag of the United Kingdom */
+.interwiki-en::before,
+:is(.page-header__languages ul li, .page-footer__languages) a[data-tracking-label^="lang-en"]::before {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg);
+}
+
+/* === es (Español) === */
+/* Возвращает флаг Испании | Returns the flag of Spain */
+.interwiki-es::before,
+:is(.page-header__languages ul li, .page-footer__languages) a[data-tracking-label^="lang-es"]::before {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg);
+}
+
+/* === fr (Français) === */
+/* Возвращает флаг Франции | Returns the flag of France */
+.interwiki-fr::before,
+:is(.page-header__languages ul li, .page-footer__languages) a[data-tracking-label^="lang-fr"]::before {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_France.svg);
+}
+
+/* === ru (Русский) === */
+/* Заменяет флаг Российской Федерации на бело-сине-белый флаг, используемый участниками протеста против российско-украинской войны */
+/* Replaces the flag of the Russian Federation with the white-blue-white flag used by protesters against the Russo-Ukrainian War */
+.interwiki-ru::before, :is(.page-header__languages ul li,.page-footer__languages) a[data-tracking-label^="lang-ru"]::before {
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/White-blue-white_flag.svg/20px-White-blue-white_flag.svg.png);
+}
