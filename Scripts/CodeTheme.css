@@ -1,0 +1,57 @@
+/* === Тема страницы кода (изменённый скрипт SolarizedSyntaxHighlight) === */
+.page pre {
+	border:2px solid #0004;
+	padding:8px 12px;
+	max-width:100%;
+	line-height:1.2em;
+	-webkit-overflow-scrolling:touch;
+}
+
+.page .mw-highlight pre {
+	color:#839496;
+}
+
+.theme-fandomdesktop-light .mw-highlight pre {
+	background-color:#ffffff;
+}
+
+.theme-fandomdesktop-dark .mw-highlight pre {
+	background-color:#2f2f2f;
+}
+
+/* ==== SYNTAX HIGHLIGHTING ==== */
+/* ===== HTML & CSS ===== */
+.mediawiki .mw-highlight .p  {color:#93a1a1;} /* punctuation CSS . # :{ :; } ( , ) HTML < / >          */
+.mediawiki .mw-highlight .o  {color:#93a1a1;} /* punctuation CSS -- ( :) [ = ] HTML =                   */
+.mediawiki .mw-highlight .c  {color:#586e75;font-style:italic;} /* HTML/CSS comment                      */
+.mediawiki .mw-highlight .cp {color:#dc322f;} /* CSS !important  HTML <!DOCTYPE>                         */
+.mediawiki .mw-highlight .nt {color:#268bd2;font-weight:bold;} /* html tag name (body, div), after @-rule*/
+
+/* ===== HTML ===== */
+.mediawiki .mw-highlight .na {color:#6c71c4;} /* attribute (id, class,...)    */
+.mediawiki .mw-highlight .s  {color:#2aa198;} /* attribute "value"            */
+.mediawiki .mw-highlight .ni {color:#b58900;} /* special character (&...;)    */
+
+/* ===== CSS ===== */
+.mediawiki .mw-highlight .n  {color:#93a1a1;} /* unrecognized syntax          */
+.mediawiki .mw-highlight .nn {color:#d33682;text-shadow:0 0 #d33682;} /* id   */
+.mediawiki .mw-highlight .nc {color:#6c71c4;} /* class                        */
+.mediawiki .mw-highlight .nd {color:#268bd2;} /* pseudo-class (hover, before) */
+.mediawiki .mw-highlight .nb {color:#2aa198;} /* text value (solid, hidden)   */
+.mediawiki .mw-highlight .kc {color:#2aa198;} /* text value (rgba, hsl, url)  */
+.mediawiki .mw-highlight .k  {color:#859900;} /* propertie, @-rule (@media)   */
+.mediawiki .mw-highlight .kp {color:#859900;font-style:italic;} /* -webkit-   */
+.mediawiki .mw-highlight .kp+.k {font-style:italic;} /* webkit propertie      */
+.mediawiki .mw-highlight .mh {color:#d33682;} /* hex color (#..)              */
+.mediawiki .mw-highlight .mi {color:#b58900;} /* numeric values               */
+.mediawiki .mw-highlight .mf {color:#d33682;} /* decimal numeric values (0.5) */
+.mediawiki .mw-highlight .kt {color:#b58900;} /* size unit (px, in)           */
+.mediawiki .mw-highlight .s2 {color:#cb4b16;} /* [...="value"]                */
+.mediawiki .mw-highlight .sx {color:#cb4b16;font-style:italic;} /* media link */
+.mediawiki .mw-highlight .nf {color:#cb4b16;font-weight:bold;} /* --var       */
+
+/* === Цвет нумерации строк кода при просмотре вне редактора кода === */
+.theme-fandomdesktop-dark .mw-content-ltr.mw-highlight-lines pre, .mw-content-ltr.content .mw-highlight-lines pre {
+	padding-left:3.5em;
+	box-shadow:inset 2.75em 0 0 #232323;
+}
