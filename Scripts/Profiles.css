@@ -1,0 +1,434 @@
+/* Вы можете использовать этот скрипт на своей вики, добавив следующий импорт в CSS:
+@import url("/load.php?mode=articles&only=styles&articles=u:ru.confederation:MediaWiki:Profiles.css");
+
+ВАЖНОЕ ПРИМЕЧАНИЕ: На некоторых википроектах при наведении на кнопки в заголовке профиля фон кнопок может не изменяться или нарушать общий дизайн. Чтобы исправить это, добавьте следующий код в CSS вашей вики:
+
+body.skin-fandomdesktop #userProfileApp .user-identity-header__actions .wds-button:hover,
+.modal-wrapper__header .modal-wrapper__cta-button:hover,
+.modal-wrapper__header .wds-is-square:hover {
+	background-color:var(--theme-link-color--hover) !important;
+}
+
+Если изменение фона по-прежнему некорректное, замените "var(--theme-link-color--hover)" на любой подходящий цвет. */
+
+/* You can use this script on your wiki by adding the following import to your CSS:
+@import url("/load.php?mode=articles&only=styles&articles=u:ru.confederation:MediaWiki:Profiles.css");
+
+IMPORTANT NOTE: On some wikis, when hovering over buttons in the profile header, the button background may not change or could disrupt the overall design. To fix this, add the following code to your wiki's CSS:
+
+body.skin-fandomdesktop #userProfileApp .user-identity-header__actions .wds-button:hover,
+.modal-wrapper__header .modal-wrapper__cta-button:hover,
+.modal-wrapper__header .wds-is-square:hover {
+	background-color:var(--theme-link-color--hover) !important;
+}
+
+If the background change is still incorrect, replace "var(--theme-link-color--hover)" with any suitable color. */
+
+/* === Профайлы (дочерний скрипт AdaptiveProfile) === */
+body.skin-fandomdesktop {
+	--banner-image:url('');
+	--banner-pos:center;
+	--banner-ratio:;
+	--width-padding:186px;
+}
+
+#userProfileApp {
+	margin:-24px -36px 12px -36px !important;
+}
+
+#userProfileApp .user-identity-box,
+#userProfileApp .user-identity-header__actions button {
+	margin:0;
+}
+
+/* ==== Баннер ==== */
+#userProfileApp:before {
+	background:lightgreen;
+	background-image:var(--banner-image);
+	background-position:var(--banner-pos);
+	background-size:cover;
+	content:'';
+	display:block;
+	padding-bottom:var(--banner-ratio);
+	width:100%;
+}
+
+/* ==== Заголовок профайла ==== */
+body.skin-fandomdesktop #userProfileApp .user-identity-header {
+	background:var(--theme-accent-color);
+	left:calc(var(--width-padding) * -1);
+	min-height:37px;
+	padding-left:var(--width-padding);
+	position:relative;
+	width:calc(100% + var(--width-padding));
+}
+
+#userProfileApp .user-identity-header :is(h1, h2) {
+	color:var(--theme-accent-label-color);
+}
+
+#userProfileApp .user-identity-header__attributes,
+#userProfileApp .user-identity-header__action {
+	align-items:center;
+	display:flex;
+	flex-wrap:wrap;
+	grid-row-gap:5px;
+}
+
+body.skin-fandomdesktop #userProfileApp .user-identity-header__tag {
+	background-color:rgb(var(--theme-page-background-color--rgb), 0.3);
+	color:var(--theme-accent-label-color);
+	margin:6px 12px 6px 0 !important;
+	padding:4px 8px;
+	border-radius:8px;
+}
+
+/* ===== Кнопка в заголовке ===== */
+#userProfileApp .user-identity-header__actions {
+	align-items:center;
+	display:flex;
+}
+
+body.skin-fandomdesktop #userProfileApp .user-identity-header__actions .wds-button,
+.modal-wrapper__header .modal-wrapper__cta-button {
+	border:none;
+	border-radius:8px;
+	margin-right:1em;
+	color:rgb(var(--theme-accent-dynamic-color-2--rgb), .9);
+	padding:0.6em 1em;
+	transition:background-color 0.3s ease, transform 0.3s ease;
+}
+
+body.skin-fandomdesktop #userProfileApp .user-identity-header__actions .wds-button:hover,
+.modal-wrapper__header .modal-wrapper__cta-button:hover,
+.modal-wrapper__header .wds-is-square:hover {
+	background-color:rgb(var(--theme-link-color--rgb),.9);
+	transform:scale(1.05);
+}
+
+/* ==== Аватар ==== */
+body.skin-fandomdesktop #userProfileApp .user-identity-avatar {
+	-webkit-box-sizing:content-box;
+	-moz-box-sizing:content-box;
+	box-sizing:content-box;
+	height:140px;
+	padding:18px 0 0 28px;
+	width:140px;
+	z-index:1;
+}
+
+#userProfileApp .user-identity-avatar__image {
+	border:solid 2px var(--theme-accent-color) !important;
+	border-radius:100px;
+	-webkit-box-shadow:0 0 10px rgb(0 0 0 / 50%);
+	-moz-box-shadow:0 0 10px rgb(0 0 0 / 50%);
+	box-shadow:0 0 10px rgb(0 0 0 / 50%);
+	transition:border-radius 0.5s ease, box-shadow 0.5s ease;
+	position:relative;
+}
+
+#userProfileApp .user-identity-avatar__image:hover {
+	border-radius:10px;
+	-webkit-box-shadow:0 0 15px rgb(0 0 0 / 60%);
+	-moz-box-shadow:0 0 15px rgb(0 0 0 / 60%);
+	box-shadow:0 0 15px rgb(0 0 0 / 60%);
+}
+
+/* ===== Локальный аватар ===== */
+body .user-identity-avatar:before {
+	background-image:var(--wiki-avatar);
+	background-position:center top;
+	background-size:auto 100%;
+	border-radius:50%;
+	content:'';
+	height:138px;
+	margin:2px 0 0 2px;
+	position:absolute;
+	width:138px;
+}
+
+/* ==== Социальные иконки ==== */
+body.skin-fandomdesktop #userProfileApp .user-identity-social .wds-dropdown:after,
+body.skin-fandomdesktop #userProfileApp .user-identity-social .wds-dropdown:before,
+body.skin-fandomdesktop #userProfileApp .user-identity-social__icon-tooltip:before {
+	display:none;
+}
+
+body.skin-fandomdesktop #userProfileApp .user-identity-social__icon-tooltip::after,
+#userProfileApp .user-identity-social__icon:hover .user-identity-social__icon-tooltip {
+	animation:wds-dropdown-social__icon 0.4s ease;
+	transition:1s;
+}
+
+@keyframes wds-dropdown-social__icon {
+	from {
+	opacity:0;
+	transform:translateX(-50%) translateY(10px);
+	}
+	to {
+	opacity:1;
+	transform:translateX(-50%) translateY(0);
+	}
+}
+
+/* ==== Навигация ==== */
+#userProfileApp .user-profile-navigation {
+	justify-content:space-around;
+	background-color:var(--theme-background-color);
+	border-radius:0px;
+	padding-top:6px;
+}
+
+body.skin-fandomdesktop #userProfileApp .user-profile-navigation__link {
+	font-size:16px;
+	font-weight:500;
+	letter-spacing:1px;
+	padding:15px;
+	color:var(--theme-link-color);
+	text-transform:uppercase;
+}
+
+#userProfileApp .user-profile-navigation__link {
+	padding:0 !important;
+	text-align:center !important;
+	-webkit-transition:.3s;
+	-moz-transition:.3s;
+	-o-transition:.3s;
+	transition:background-color 0.3s ease, transform 0.3s ease;
+}
+
+#userProfileApp .user-profile-navigation__link:hover {
+	border-bottom:4px solid;
+	transform:scale(1.05);
+	opacity:1;
+}
+
+#userProfileApp .user-profile-navigation__link a {
+	color:var(--theme-link-color) !important;
+	display:block;
+	font-weight:bold;
+	padding:10px 15px;
+	text-decoration:none;
+	text-shadow:none;
+}
+
+#userProfileApp .user-profile-navigation__link.is-active {
+	border-bottom:4px solid var(--theme-link-color);
+	opacity:1;
+	transform:scale(1.05);
+}
+
+#userProfileApp .user-profile-navigation__link.is-active a {
+	color:var(--theme-link-color);
+}
+
+#userProfileApp .user-profile-navigation__link:not(.is-active):hover {
+	border-bottom-color:var(--theme-link-color) !important;
+	opacity:1;
+	-webkit-transition:.3s;
+	-moz-transition:.3s;
+	-o-transition:.3s;
+	transition:.3s;
+}
+
+/* ==== Окно редактирования профайла ==== */
+#userProfileApp .modal-wrapper__main {
+	padding:0 !important;
+}
+
+.modal-wrapper__header {
+	background:var(--theme-accent-color);
+	color:var(--theme-accent-label-color) !important;
+	margin-bottom:-37px !important;
+	padding:0 0 0 20px !important;
+}
+
+.modal-wrapper__header h3 {
+	display:none;
+}
+
+.modal-wrapper__header .wds-is-square {
+	border-radius:18px;
+	color:var(--theme-page-accent-mix-color);
+}
+
+.modal-wrapper__header .modal-wrapper__cta-button,
+.modal-wrapper__header .wds-is-square {
+	position:relative;
+	z-index:2;
+}
+
+.theme-fandomdesktop-dark :is(.modal-wrapper__header .modal-wrapper__cta-button,
+.modal-wrapper__header .wds-is-square) {
+	color:rgb(var(--theme-accent-dynamic-color-2--rgb), .9);
+}
+
+.wds-input.user-profile-editor__bio-field #wds_input_8 {
+	min-height:60px;
+}
+
+.user-profile-editor__form h1 {
+	color:var(--theme-accent-label-color);
+	line-height:normal;
+}
+
+.user-profile-editor__form {
+	margin-top:2px;
+}
+
+.user-profile-editor__form .wds-fieldset {
+	padding-top:0;
+}
+
+.user-identity-avatar__actions {
+	border-radius:50%;
+	-webkit-box-shadow:0 0 10px rgb(0 0 0 / 50%);
+	-moz-box-shadow:0 0 10px rgb(0 0 0 / 50%);
+	box-shadow:0 0 10px rgb(0 0 0 / 50%);
+	-webkit-transition:.5s;
+	-moz-transition:.5s;
+	-o-transition:.5s;
+	transition:.5s;
+}
+
+.user-identity-avatar__actions svg {
+	color:var(--theme-link-color);
+	-webkit-transition:color .3s;
+	-moz-transition:color .3s;
+	-o-transition:color .3s;
+	transition:color .3s;
+}
+
+.user-identity-avatar__actions:hover svg {
+	color:var(--theme-link-color--hover);
+}
+
+@media (min-width:1084px) {
+	.user-identity-avatar__actions {
+	opacity:.4;
+	}
+}
+
+.user-identity-avatar:hover .user-identity-avatar__actions {
+	opacity:1;
+}
+
+.user-avatar-editor__label {
+	padding-top:4px;
+	font-size:medium;
+}
+
+body.skin-fandomdesktop #userProfileApp .user-avatar-editor__default-avatars-box {
+	margin-top:12px;
+}
+
+/* ==== Мобильная адаптация ==== */
+@media (max-width:713px) {
+	.user-profile-navigation {
+	overflow-x:auto;
+	white-space:nowrap;
+	border-radius:8px;
+	padding:1px;
+	box-shadow:0 2px 6px rgba(0, 0, 0, 0.1);
+	}
+	.user-profile-navigation__link {
+	padding:8px;
+	font-size:14px;
+	}
+	.user-identity-header {
+	flex-direction:column;
+	align-items:center;
+	left:0 !important;
+	padding-left:0 !important;
+	width:95% !important;
+	gap:10px;
+	display:flex !important;
+	}
+	.user-identity-box {
+	flex-direction:column;
+	align-items:center;
+	}
+	.user-identity-avatar {
+	margin:20px auto !important;
+	padding:0 !important;
+	height:100px;
+	width:100px;
+	}
+	.user-identity-avatar__image {
+	height:100px;
+	width:100px;
+	}
+	.user-identity-box__info {
+	width:703px !important;
+	display:flex;
+	flex-direction:column;
+	gap:10px;
+	align-items:center;
+	}
+	.user-identity-header__actions {
+	margin-top:-10px !important;
+	}
+	#userProfileApp:before {
+	width:665px !important;
+	}
+	.user-identity-header__attributes {
+	min-width:0px !important;
+	}
+}
+
+/* ==== Блок медалей (для скрипта Medals) ==== */
+.badgetooltipwindow {
+	color:var(--theme-page-text-color) !important;
+	border:solid 1px var(--theme-accent-color) !important;
+	background-color:var(--theme-page-background-color--secondary) !important;
+	box-shadow:0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	font-size:12px;
+	line-height:1.3;
+}
+
+.badgetooltiparrow {
+	border-bottom:var(--theme-accent-color) solid 7px !important;
+}
+
+/* ==== Блок достижений (для расширения «Достижения») ==== */
+.AchievementsModule {
+	margin-top:20px;
+	border-bottom:1px solid var(--theme-border-color);
+}
+
+h2.title-challeneges {
+	background-image:linear-gradient(to top, var(--wds-midlight-color, rgba(var(--theme-accent-color--rgb), .15)) 54%, #0000 54%, #0000 100%);
+	-webkit-box-decoration-break:clone;
+	box-decoration-break:clone;
+	display:inline;
+	margin-left:-3px;
+	margin-right:-3px;
+	padding-left:3px;
+	padding-right:3px;
+}
+
+.AchievementsModule div.data em {
+	float:left;
+	font-size:30px;
+	font-style:normal;
+	letter-spacing:-1px;
+	line-height:normal;
+	margin-right:5px;
+}
+
+.AchievementsModule .badges-icons {
+	display:grid;
+	grid-template-columns:repeat(3, 1fr);
+	justify-items:center;
+}
+
+.skin-fandomdesktop .UserProfileAchievementsModule .badges-profile-title,
+.skin-fandomdesktop .UserProfileAchievementsModule .title-challeneges {
+	font-size:16px;
+}
+
+/* ==== Значок волонтёров (w:Template:Administrator) ==== */
+.metadata, #administrator {
+	margin-top:-6px;
+	margin-right:-10px;
+}
