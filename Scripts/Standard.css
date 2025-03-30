@@ -1,0 +1,1167 @@
+/* Внимание: этот набор скриптов больше не поддерживается. */
+
+/* == Импорты == */
+/* === BringExternalLinkIconsBack: Возвращает индикацию внешних ссылок === */
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:BringExternalLinkIconsBack.css&only=styles";
+
+/* === Fanimp: Улучшает некоторые моменты в стилях Фэндома === */
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:Fanimp.css&only=styles";
+
+/* === Flags.css: Обновлённый скрипт InterlanguageFlags, добавляющий флаги в интервики === */
+@import url("//community.fandom.com/load.php?mode=articles&articles=User:HIHRAIM/Flags.css&only=styles");
+
+/* === FontAwesome: Добавляет векторные иконки === */
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:FontAwesome.css&only=styles";
+
+/* === Highlight: Подсветка ников участников с глобальными статусами === */
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:Highlight.css&only=styles";
+
+/* === LocalNavExploreIcons: Добавляет иконки в меню «Исследовать» локальной навигации вики === */
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:LocalNavExploreIcons.css&only=styles";
+
+/* === NewPagesModule: Исправляет отображение списка новых статей === */
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:NewPagesModule.css&only=styles";
+
+/* === SpoilerBlur: Скрипт на заблюривание текста === */
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:SpoilerBlur.css&only=styles";
+
+/* === StylizedDiff: Изменяет оформление в страницах разницы правок === */
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:StylizedDiff.css&only=styles";
+
+/* ==== UserAnimations: Создаёт возможность делать анимации из изображений ==== */
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:UserAnimations.css&only=styles";
+
+/* === UWAnimation: Делает открытие списков в навигации более плавным === */
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:UWAnimation.css&only=styles";
+
+/* == Исправления == */
+/* === Удаление иконок === */
+/* ==== Большая часть блоков в рельсе ==== */
+.rail-module__header .wds-icon {
+    display:none;
+}
+
+/* ==== Новые изображения, рельса ==== */
+.rail-module h2.has-icon svg {
+	display:none;
+}
+
+/* ==== Содержание, статья ==== */
+.toc .toctitle h2 .wds-icon + .wds-icon {
+  display:none;
+}
+
+/* ==== Последние заработанные значки, таблица лидеров по достижениям ==== */
+.WikiaRail .achievements-title:before {
+    display:none;
+}
+
+/* ==== Таблица лидеров по достижениям ==== */
+.LeaderboardTable th:before {
+    display:none;
+}
+
+/* === Инфобоксы === */
+/* ==== Горизонтальный макет для групп ==== */
+/* ===== Чтоб текст по горизонтали был слева ===== */
+.pi-horizontal-group .pi-horizontal-group-item {
+    text-align:left;
+    padding:6px;
+}
+
+/* ===== Чтоб текст по вертикали был вверху ===== */
+.pi-horizontal-group .pi-horizontal-group-item {
+    vertical-align:top;
+}
+
+/* === Заглавная === */
+/* ==== Скрывает категории на заглавной странице ==== */
+.mainpage .article-categories, .mainpage .page-footer__categories {
+    display:none;
+}
+
+/* ==== Отключение рамок изображений в галерее ==== */
+.mainpage .gallery-image-wrapper {
+    border:none !important;
+}
+
+/* ==== Скрывает "Содержание" ==== */
+.mainpage .toc {
+    display:none;
+}
+
+/* ==== Скрывает отображение пунктира в abbr title ==== */
+.mainpage abbr {
+	display:contents;
+}
+
+/* === Рельса === */
+/* ==== Изменяет цвет фона блоков в рельсе ==== */
+.rail-module, .AchievementsModule {
+    background-color:var(--theme-page-background-color);
+    border-radius:8px;
+    padding:8px;
+}
+
+/* ==== Отступ между блоками достижений ==== */
+.AchievementsModule {
+    margin-top:20px;
+}
+
+/* ==== Изменяет вид ссылок в рельсе (взято из BalancedUCX авторства Александра III) ==== */
+.mw-parser-output a, .right-rail-wrapper a {
+    font-weight:500;
+}
+
+/* ==== Исправляет отступ от заголовков в рельсе ==== */
+.rail-module h2, .rail-module__header {
+    margin-bottom:5px;
+}
+
+/* ==== Уменьшает отступ от верха рельсы ==== */
+.right-rail-wrapper {
+    margin-top:-20px;
+}
+
+/* ==== Делает текст "Вы можете заработать ещё больше значков!" нормального размера ==== */
+.skin-fandomdesktop .UserProfileAchievementsModule .badges-profile-title, .skin-fandomdesktop .UserProfileAchievementsModule .title-challeneges {
+    font-size:16px;
+}
+
+/* === Профайл (изменённый скрипт AdaptiveProfile авторства Dr.Bryan) === */
+/* ==== Mar/Pad ==== */
+.skin-fandomdesktop #userProfileApp {
+	--banner-image:url('');
+	--banner-pos:center;
+	--banner-ratio:;
+	--width-padding:186px;
+	margin:-24px -36px 12px -36px !important;
+}
+
+/* ==== Для UWStyle ==== */
+#userProfileApp .user-identity-box,
+#userProfileApp .user-identity-header__actions button {
+	margin:0;
+}
+
+/* ==== Баннер ==== */
+#userProfileApp:before {
+	background:lightgreen;
+	background-image:var(--banner-image);
+	background-position:var(--banner-pos);
+	background-size:cover;
+	content:'';
+	display:block;
+	padding-bottom:var(--banner-ratio);
+	width:100%;
+}
+
+/* ==== Заголовок ==== */
+body.skin-fandomdesktop #userProfileApp .user-identity-header {
+	background:var(--theme-accent-color);
+	left:calc(var(--width-padding)*-1);
+	min-height:37px;
+	padding-left:var(--width-padding);
+	position:relative;
+	width:calc(100% + var(--width-padding));
+}
+
+#userProfileApp .user-identity-header :is(h1,h2) {
+	color:var(--theme-accent-label-color);
+}
+
+#userProfileApp .user-identity-header__attributes,
+#userProfileApp .user-identity-header__action {
+	align-items:center;
+	display:flex;
+	flex-wrap:wrap;
+	grid-row-gap:5px;
+}
+
+body.skin-fandomdesktop #userProfileApp .user-identity-header__tag {
+	background-color:var(--theme-accent-color--hover);
+	color:var(--theme-accent-label-color);
+	margin:6px 12px 6px 0 !important;
+}
+
+/* ===== Кнопка в заголовке ===== */
+#userProfileApp .user-identity-header__actions {
+	align-items:center;
+	display:flex;
+}
+
+body.skin-fandomdesktop #userProfileApp .user-identity-header__actions .wds-button,
+.modal-wrapper__header .modal-wrapper__cta-button {
+	border:none;
+	border-radius:18px;
+	margin-right:1em;
+	color:rgb(var(--theme-accent-dynamic-color-2--rgb),.9);
+	padding:.4em .8em;
+}
+
+body.skin-fandomdesktop #userProfileApp .user-identity-header__actions .wds-button:hover,
+.modal-wrapper__header .modal-wrapper__cta-button:hover,
+.modal-wrapper__header .wds-is-square:hover {
+	background-color:rgba(var(--theme-link-color--rgb),.3);
+}
+
+/* ==== Аватар ==== */
+body.skin-fandomdesktop #userProfileApp .user-identity-avatar {
+	-webkit-box-sizing:content-box;
+	-moz-box-sizing:content-box;
+	box-sizing:content-box;
+	height:140px;
+	padding:18px 0 0 28px;
+	width:140px;
+	z-index:1;
+}
+
+#userProfileApp .user-identity-avatar__image {
+	border:solid 2px var(--theme-accent-color) !important;
+	-webkit-box-shadow:0 0 10px rgb(0 0 0 / 50%);
+	-moz-box-shadow:0 0 10px rgb(0 0 0 / 50%);
+	box-shadow:0 0 10px rgb(0 0 0 / 50%);
+}
+
+/* ===== Локальный аватар ===== */
+body .user-identity-avatar:before {
+	background-image:var(--wiki-avatar);
+	background-position:center top;
+	background-size:auto 100%;
+	border-radius:50%;
+	content:'';
+	height:138px;
+	margin:2px 0 0 2px;
+	position:absolute;
+	width:138px;
+}
+
+/* ==== Навигация ==== */
+#userProfileApp .user-profile-navigation {
+    justify-content:center;
+}
+
+#userProfileApp .user-profile-navigation__link {
+	padding:0 !important;
+	text-align:center !important;
+	-webkit-transition:.2s;
+    -moz-transition:.2s;
+    -o-transition:.2s;
+    transition:.3s;
+}
+
+#userProfileApp .user-profile-navigation__link:hover {
+    border-bottom:4px solid;
+}
+
+#userProfileApp .user-profile-navigation__link a {
+	color:var(--theme-link-color) !important;
+	display:block;
+	font-weight:bold;
+	padding:10px 15px;
+	text-decoration:none;
+	text-shadow:none;
+}
+
+#userProfileApp .user-profile-navigation__link.is-active {
+	border-bottom-color:var(--theme-link-color) !important;
+}
+
+#userProfileApp .user-profile-navigation__link.is-active a {
+	color:var(--theme-link-color);
+}
+
+#userProfileApp .user-profile-navigation__link:not(.is-active):hover {
+	border-bottom-color:var(--theme-link-color) !important;
+	opacity:1;
+	-webkit-transition:.2s;
+    -moz-transition:.2s;
+    -o-transition:.2s;
+    transition:.2s;
+}
+
+/* ==== Редактирование профайла ==== */
+#userProfileApp .modal-wrapper__main {
+	padding:0 !important;
+}
+
+.modal-wrapper__header {
+	background:var(--theme-accent-color);
+	color:var(--theme-accent-label-color) !important;
+	margin-bottom:-37px !important;
+	padding:0 0 0 20px !important;
+}
+
+.modal-wrapper__header h3 {display:none;}
+.modal-wrapper__header .wds-is-square {
+	border-radius:18px;
+	color:var(--theme-page-accent-mix-color);
+}
+
+.modal-wrapper__header .modal-wrapper__cta-button,
+.modal-wrapper__header .wds-is-square {
+	position:relative;
+	z-index:2;
+}
+
+.theme-fandomdesktop-dark :is(.modal-wrapper__header .modal-wrapper__cta-button,
+.modal-wrapper__header .wds-is-square) {
+	color:rgb(var(--theme-accent-dynamic-color-2--rgb),.9);
+}
+
+/* ===== Текстовая форма ===== */
+.user-profile-editor__form h1 {
+	color:var(--theme-accent-label-color);
+	line-height:normal;
+}
+
+.user-profile-editor__form {
+	margin-top:2px;
+}
+
+.user-profile-editor__form .wds-fieldset {
+	padding-top:0;
+}
+
+.user-identity-avatar__actions {
+	border-radius:50%;
+	-webkit-box-shadow:0 0 10px rgb(0 0 0 / 50%);
+	-moz-box-shadow:0 0 10px rgb(0 0 0 / 50%);
+	box-shadow:0 0 10px rgb(0 0 0 / 50%);
+	-webkit-transition:.5s;
+	-moz-transition:.5s;
+	-o-transition:.5s;
+	transition:.5s;
+}
+
+.user-identity-avatar__actions svg {
+	color:var(--theme-link-color);
+	-webkit-transition:color .3s;
+	-moz-transition:color .3s;
+	-o-transition:color .3s;
+	transition:color .3s;
+}
+
+.user-identity-avatar__actions:hover svg {
+	color:var(--theme-link-color--hover);
+}
+
+@media (min-width:1084px) {
+	.user-identity-avatar__actions {
+		opacity:.4;
+	}
+}
+
+.user-identity-avatar:hover .user-identity-avatar__actions {
+	opacity:1;
+}
+
+/* ==== Адаптация для мобильных устройств ==== */
+@media (max-width:713px) {
+	.user-profile-navigation {
+		overflow-x:scroll; white-space:nowrap;
+	}
+	.user-profile-navigation__link {
+		width:auto !important;
+	}
+	.user-identity-header {
+		flex-direction:column;
+	}
+	.user-identity-box {
+		flex-direction:column;
+	}
+	.user-identity-avatar {
+		margin:10px auto !important;
+		padding:0 !important;
+	}
+	.user-identity-header {
+		align-items:center;
+		left:0 !important;
+		gap:0px !important;
+		padding-left:0px !important;
+		width:100% !important;
+	}
+	.user-identity-box__info {
+		display:flex;
+		flex-direction:column;
+		gap:10px;
+	}
+	.user-identity-box__info > :is(ul,div:not(.user-identity-header)) {
+		margin:0 0 0 20px !important;
+	}
+}
+
+/* === Интервики === */
+/* ==== Оформление (взято из BalancedUCX авторства Александра III) ==== */
+.page-header__languages .wds-dropdown__toggle,
+.page-header__variants .wds-dropdown__toggle {
+    transition-duration:.3s !important;
+	color:var(--theme-link-color) !important;
+	text-transform:uppercase !important;
+    font-family:inherit !important;
+    font-size:12px !important;
+    font-weight:600 !important;
+    letter-spacing:.15px !important;
+    line-height:16px !important;
+}
+
+.page-header__languages svg,
+.page-header__variants svg {
+	display:none !important;
+}
+
+/* === Исправление ссылок (взято из BalancedUCX авторства Александра III) === */
+a {
+	text-decoration:none !important;
+}
+
+/* === Увеличивает максимальную ширину контента навигации === */
+.fandom-community-header__local-navigation .wds-dropdown__content {
+    max-width:250px;
+}
+
+/* === Исправляет блоги (взято из BalancedBloglists авторства Александра III) === */
+.WikiaBlogListingBox h2, .blog-listing__read-post, .WikiaBlogListingBox .more {
+    display:none;
+}
+
+.blog-listing__post {
+    padding:15px;
+    margin-bottom:10px;
+	border:none;
+}
+
+h2.blog-listing__title {
+    margin-top:13px;
+    border-bottom:none;
+    font-size:120%;
+    font-weight:600;
+    display:block !important;
+}
+
+/* === Исправляет вид категорий (взято из BalancedCategories авторства Не кочана и Александра III) === */
+/* ==== Трендовая часть ==== */
+#content .category-page__trending-page {
+	border-radius:5px;
+}
+
+#content .category-page__trending-page figure {
+	position:relative;
+	height:100%;
+}
+
+#content .category-page__trending-page img {
+	border-radius:5px;
+}
+
+#content .category-page__trending-page-title {
+	align-items:center;
+	background:#00000099;
+	border-radius:5px;
+	color:white;
+	display:flex;
+	height:100%;
+	justify-content:center;
+	margin:0;
+	padding:15px;
+	position:absolute;
+	text-align:center;
+	top:0;
+	transition:.3s;
+	width:100%;
+	z-index:1;
+}
+
+#content .category-page__trending-page-title:hover {
+	background:#00000066;
+}
+/* ==== Фикс локальной навигации ==== */
+.ns-14 .page__main {
+	backdrop-filter:saturate(180%);
+}
+
+/* ==== Antiborder.css ==== */
+.category-page__member-thumbnail,
+.category-page__trending-page-thumbnail {
+	border:none !important;
+}
+
+#content .category-page__trending-pages {
+    padding-bottom:20px;
+}
+
+#content .category-page__total-number {
+    margin-bottom:20px;
+    margin-top:20px;
+    text-align:center;
+}
+
+#content .category-page__trending-pages-header {
+    margin-top:20px;
+}
+
+#content .category-page__alphabet-shortcuts {
+    margin:0 0 20px;
+}
+
+/* ==== Нижняя часть ==== */
+.category-page__members-wrapper {
+	background:var(--theme-page-background-color--secondary);
+	padding:1em;
+	margin-bottom:.5em;
+	border-radius:4px;
+}
+
+.category-page__members-for-char {
+	margin:0 !important;
+}
+
+.category-page__member-left {
+    width:40px;
+    height:30px;
+	background:var(--theme-page-background-color);
+}
+
+.category-page__first-char {
+    border-bottom:none !important;
+    font-size:16px !important;
+	padding:0 !important;
+	display:inline;
+    background:linear-gradient(to top, rgba(var(--theme-link-color--rgb), 0.1) 54%, transparent 54%, transparent 100%);
+	padding-left:3px !important;
+	padding-right:3px !important;
+}
+
+#content .category-page__trending-pages-header {
+	justify-content:center;
+	display:flex;
+}
+
+/* === Исправление модуля Discord (взято из BalancedDiscord авторства Александра III) === */
+.widget-body {
+    background-image:none !important;
+}
+
+.widget-body::-webkit-scrollbar {
+	width:10px !important;
+}
+
+.widget-body::-webkit-scrollbar-track {
+	background:transparent !important;
+}
+
+.widget-body::-webkit-scrollbar-thumb {
+	background:#888 !important;
+    border-radius:0 !important; 
+}
+
+.widget-body::-webkit-scrollbar-thumb:hover { 
+     border-radius:0 !important; 
+}
+
+.widget-header {
+	background:var(--theme-accent-color) !important;
+}
+
+.widget-member-avatar img {
+    border:2px solid var(--theme-accent-color) !important;
+    background:var(--theme-accent-color) !important;
+}
+
+.widget-member-name {
+    background:var(--theme-accent-color) !important;
+    color:var(--theme-accent-label-color) !important;
+}
+
+.widget-header-count {
+    margin-left:4px !important;
+}
+
+/* === Оформление поиска (взято из BalancedSearch авторства Александра III) === */
+/* ==== Расположение ==== */
+.unified-search__layout {
+    grid-template-areas:
+    "left left left left left left left left left left left left"
+    "main main main main main main main main main right right right" !important;
+}
+
+/* ==== Поиск ==== */
+.unified-search__input .wds-dropdown,
+.unified-search__input__query {
+	background:none !important;
+}
+
+.unified-search__advanced__link {
+    padding:5px 10px;
+    border-radius:50px;
+    transition:0.25s;
+}
+
+.unified-search__advanced__link:hover {
+    background:rgb(var(--theme-link-color--rgb),.1);
+}
+
+.unified-search__advanced__link a:hover {
+    color:var(--theme-link-color);
+}
+
+.unified-search__advanced__link svg {
+    display:none;
+}
+
+/* ==== Разделы ==== */
+.unified-search__profiles {
+    display:flex;
+    justify-content:center;
+}
+
+.unified-search__profiles li {
+    padding:0;
+}
+
+.unified-search__profiles li>div>a,
+.unified-search__profiles li>span {
+    display:block;
+    padding:9px !important;
+    border-radius:3px;
+    transition:.25s;
+}
+
+.unified-search__profiles a:hover {
+    background:rgb(var(--theme-link-color--rgb),.1);
+}
+
+.unified-search__profiles__profile--selected {
+    padding:0 !important;
+}
+
+.unified-search__profiles__profile {
+    margin:2px !important;
+}
+
+/* ==== Wrapper settings ==== */
+.unified-search__input__wrapper {
+    margin:0 !important;
+    border-right:none !important;
+    border-radius:3px 0 0 3px !important;
+}
+
+/* ==== No radius for search ==== */
+.unified-search__input__button {
+    border-radius:0 3px 3px 0;
+}
+
+/* ==== Input settings ==== */
+.unified-search__input__query:hover,
+.unified-search__input__query:focus {
+    outline:none;
+}
+
+/* ==== 2-й Таббер ==== */
+.unified-search__profiles__profile__filters {
+    display:flex;
+    position:absolute;
+    transform:translateY(40px);
+    justify-content:center;
+}
+
+.unified-search__profiles__profile__filters__filter {
+    margin:3px;
+    padding-right:6px !important;
+    transition:.25s;
+}
+
+.unified-search__profiles__profile__filters__filter:hover {
+    color:var(--theme-link-color--hover);
+}
+
+/* ==== Центр ==== */
+.mw-search-createlink,
+.mw-search-exists {
+	text-align:center;
+}
+
+/* ==== Заголовок поля ==== */
+.unified-search__advanced__label {
+	text-align:center;
+	padding:10px
+}
+
+/* ==== Исправление заголовка файла ==== */
+.page-content .unified-search__result__header {
+    align-items:flex-start;
+    flex-direction:column;
+    gap:7px;
+    margin:0;
+}
+/* ==== Related community ==== */
+.unified-search__community__thumbnail,
+.unified-search__community__content__hub {
+	display:none !important;
+}
+
+body:not(.mw-special-SearchCommunity) .page-content .unified-search__community {
+	background:var(--theme-page-background-color--secondary);
+	border-radius:4px !important;
+	padding:1em !important;
+}
+
+.page-content .unified-search__community__content {
+	background:none !important;
+	border:none !important;
+	margin:0 !important;
+	padding:7px !important;
+}
+
+.page-content .unified-search__community__thumbnail {
+	border-radius:4px !important;
+}
+
+.unified-search__community__content__name {
+	justify-content:center !important;
+	margin:0 !important;
+}
+
+.unified-search__community__content__name a {
+	background-image:linear-gradient(to top, rgba(var(--theme-link-color--rgb), .15) 54%, transparent 54%, transparent 100%);
+	font-size:20px !important;
+	padding:0 3px !important;
+}
+
+.page-content .unified-search__community__content__statistics li p {
+	text-align:center !important;
+}
+
+.page-content .unified-search__community__content__description {
+	text-align:center !important;
+}
+
+.page-content .unified-search__community__view-more-wikis {
+	align-items:center !important;
+	display:flex !important;
+	gap:5px !important;
+	justify-content:center !important;
+	margin:15px 0 !important;
+}
+
+/* ==== Результаты ==== */
+.unified-search__result {
+	background:var(--theme-page-background-color--secondary);
+	border-radius:4px;
+	padding:1em;
+	margin-bottom:0.5em !important;
+}
+
+.unified-search__layout__main {
+	margin-top:13px;
+}
+
+/* === Оформление слайдера (взято из BalancedSlider авторства Не кочана) === */
+.fandom-slider.orientation-bottom .fandom-slider__nav {
+	background:linear-gradient(transparent, #000000CC);
+	bottom:0;
+	flex-direction:column;
+	height:auto;
+}
+
+.fandom-slider.orientation-right .fandom-slider__nav {
+	background:linear-gradient(270deg, transparent, #000000CC);
+	flex-direction:row;
+	height:100%;
+	right:0;
+	width:100%;
+}
+
+.fandom-slider__controls {
+	z-index:2;
+}
+
+.fandom-slider.orientation-right:hover .fandom-slider__controls__next {
+	right:22px;
+}
+
+.fandom-slider__nav__caption {
+	height:auto;
+	overflow:visible;
+	padding:0 !important;
+}
+
+.fandom-slider.orientation-right .fandom-slider__nav__caption {
+	height:100%;
+	width:100%;
+}
+
+.fandom-slider .fandom-slider__nav__caption>div {
+	flex-direction:column;
+	justify-content:center;
+}
+
+.fandom-slider .fandom-slider__nav__caption>div[style*="opacity:1"] {
+	display:flex !important;
+}
+
+.fandom-slider.orientation-bottom .fandom-slider__nav__caption>div {
+	align-items:center;
+}
+
+.fandom-slider.orientation-right .fandom-slider__nav__caption>div {
+	align-items:flex-start;
+	height:auto;
+	padding-left:45px;
+	width:100%;
+	transform:translatey(calc(100% + 40px));
+	text-align:left;
+}
+
+.fandom-slider__nav__caption>div>h2 {
+	animation:move-in .4s;
+	font-size:25px;
+	line-height:inherit;
+	text-shadow:0 0 10px #0009;
+}
+
+.fandom-slider__nav__caption>div>h2~p {
+	animation:move-in .6s;
+	font-size:14px;
+	line-height:20px;
+	padding:1px 0;
+}
+
+.fandom-slider__nav__caption>div>p:last-child {
+	animation:move-in .8s;
+	display:flex;
+	justify-content:center;
+	line-height:16px;
+}
+
+.fandom-slider__nav__caption>div>p:last-child>a {
+	background-color:rgba(var(--theme-accent-color--rgb), .3);
+	border-radius:5px;
+	border:1px solid rgba(var(--theme-accent-color--rgb), .5);
+	color:white;
+	display:flex;
+	font-size:16px;
+	line-height:16px;
+	margin:5px 0;
+	padding:6px 12px;
+	transition:.3s
+}
+
+.fandom-slider__nav__caption>div>p:last-child>a:hover {
+	background-color:rgba(var(--theme-accent-color--rgb), .6);
+	border-color:rgba(var(--theme-accent-color--rgb), .8);
+	text-decoration:none;
+}
+
+.fandom-slider .fandom-slider__nav__thumbs {
+	align-items:flex-end;
+	gap:10px;
+	justify-content:center;
+}
+
+.fandom-slider .fandom-slider__nav__thumbs>div {
+	background-color:white;
+	border-radius:5px;
+	padding:0;
+	transition:.3s;
+}
+
+.fandom-slider.orientation-right .fandom-slider__nav__thumbs {
+	width:auto;
+}
+
+.fandom-slider.orientation-bottom .fandom-slider__nav__thumbs>div {
+	height:6px;
+	margin:5px 0;
+}
+
+.fandom-slider.orientation-right .fandom-slider__nav__thumbs>div {
+	margin:0 5px;
+	width:6px;
+}
+
+.fandom-slider__nav__thumbs>div.current-thumb {
+	background-color:var(--theme-accent-color);
+	border-color:transparent;
+}
+
+.fandom-slider__nav__thumbs>div>img {
+	visibility:hidden;
+}
+
+.fandom-slider.orientation-right .fandom-slider__nav__caption>div>p:last-child {
+	justify-content:unset;
+}
+
+.fandom-slider.orientation-bottom .fandom-slider__nav__thumbs .fandom-slider__nav__thumb-0 {
+	animation:slider-move-in--bottom .5s;
+}
+
+.fandom-slider.orientation-bottom .fandom-slider__nav__thumbs .fandom-slider__nav__thumb-1 {
+	animation:slider-move-in--bottom .6s;
+}
+
+.fandom-slider.orientation-bottom .fandom-slider__nav__thumbs .fandom-slider__nav__thumb-2 {
+	animation:slider-move-in--bottom .7s;
+}
+
+.fandom-slider.orientation-bottom .fandom-slider__nav__thumbs .fandom-slider__nav__thumb-3 {
+	animation:slider-move-in--bottom .8s;
+}
+
+.fandom-slider.orientation-right .fandom-slider__nav__thumbs .fandom-slider__nav__thumb-0 {
+	animation:slider-move-in--right .5s;
+}
+
+.fandom-slider.orientation-right .fandom-slider__nav__thumbs .fandom-slider__nav__thumb-1 {
+	animation:slider-move-in--right .6s;
+}
+
+.fandom-slider.orientation-right .fandom-slider__nav__thumbs .fandom-slider__nav__thumb-2 {
+	animation:slider-move-in--right .7s;
+}
+
+.fandom-slider.orientation-right .fandom-slider__nav__thumbs .fandom-slider__nav__thumb-3 {
+	animation:slider-move-in--right .8s;
+}
+
+.fandom-slider__nav__thumbs img, .fandom-slider__nav__thumbs svg {
+	display:none !important;
+}
+
+.fandom-slider__nav__caption {
+    height:auto;
+    overflow:visible;
+    padding:0 !important;
+    text-align:center;
+}
+@keyframes slider-move-in--bottom {
+	0% {
+		opacity:0;
+		transform:translateY(30px);
+	}
+
+	50% {
+		transform:translateY(-5px);
+	}
+}
+
+@keyframes slider-move-in--right {
+	0% {
+		opacity:0;
+		transform:translateX(30px);
+	}
+
+	50% {
+		transform:translateX(-5px);
+	}
+}
+
+/* === Дизайн категорий и интервики (взято из BalancedPageBottom авторства Александра III) === */
+/* ==== Интервики ==== */
+.page-footer__languages a {
+    background-color:rgba(var(--theme-page-text-color--rgb), .1);
+    text-align:center;
+    margin:0 6px 6px 0;
+    border-radius:3px;
+    font-weight:bold;
+    line-height:28px !important;
+    color:var(--theme-page-text-color);
+    opacity:1;
+    transition:.2s;
+    padding:0 10px !important;
+	border:none !important;
+    margin-bottom:6px !important;
+}
+
+.page-footer__languages a:hover {
+    background-color:rgba(var(--theme-link-color--rgb), .15);
+    color:var(--theme-link-color);
+}
+
+.page-footer__languages a:first-of-type {
+    margin-left:6px;
+}
+
+/* ==== Категории ==== */
+.special-categories-label {
+	display:none !important;
+}
+
+.CategorySelect.articlePage .category {
+    margin-top:0;
+	margin-bottom:0;
+    padding-right:6px;
+}
+
+/* ==== License ==== */
+.page-footer .license-description {
+    padding-top:10px;
+    font-size:12px;
+}
+
+/* ==== Categories with tagging ==== */
+#articleCategories {
+	background:none;
+	border:none;
+}
+
+#articleCategories .container,
+#articleCategories .toolbar,
+#articleCategories li {
+	padding:0;
+    border:none;
+}
+
+#articleCategories li a,
+#articleCategories li .add,
+#articleCategories .new,
+#articleCategories li input {
+    background-color:rgba(var(--theme-page-text-color--rgb), .1);
+    text-align:center;
+    border-radius:3px;
+    font-weight:bold;
+    line-height:28px;
+    color:var(--theme-page-text-color);
+	font-size:14px !important;
+    transition:.2s;
+	font-size:14px !important;
+	text-transform:none;
+	border:none;
+	text-decoration:none;
+}
+
+#articleCategories li a {
+    padding:6px 10px !important;
+}
+
+#articleCategories li {
+    margin-bottom:6px !important;
+}
+
+#articleCategories li .add {
+    padding:0 10px !important;
+}
+
+#articleCategories .new {
+	padding:0 10px;
+}
+
+#articleCategories .add:hover,
+#articleCategories .new:hover,
+#articleCategories li a:hover {
+    background-color:rgba(var(--theme-link-color--rgb), .15);
+    color:var(--theme-link-color) !important;
+}
+
+#articleCategories .removeCategory {
+	color:Red !important;
+}
+
+/* ==== Categories without taging ==== */
+.article-categories {
+    margin:10px 0;
+    padding:0;
+}
+
+#catlinks {
+    font-size:0;
+    padding:0;
+	background:transparent;
+	border:none;
+}
+
+#articleCategories li {
+    margin-top:0 !important;
+    margin-bottom:6px !important;
+}
+
+/* ==== Common ==== */
+.wds-collapsible-panel__header .wds-icon {
+    width:10px !important;
+    height:10px !important;
+}
+
+.wds-collapsible-panel__header {
+    padding:10px 0;
+    font-size:12px;
+	text-transform:uppercase;
+}
+
+#articleCategories li {
+    margin-right:6px !important;
+}
+
+/* === Удаление лишних рамок (взято из Antiborder авторства Александра III) === */
+#msupload-div,
+.WikiaPageContentWrapper,
+.analytics_confidential,
+.category-page__member-thumbnail,
+.category-page__trending-page-thumbnail,
+.fandom-slider,
+.gallery-image-wrapper,
+.grid_box,
+.mcf-card,
+.page-content pre,
+.premium-recirculation-rail img,
+.search-modal__content,
+.community-page-card-module .wds-is-secondary,
+.wikiEditor-ui-toolbar,
+.nkch-css__button,
+.nkch-css__button:hover,
+.mcf-card-wiki-articles__item,
+.rcoptions hr,
+.SearchInput-module_input__1mP-U,
+.rich-text-editor__toolbar__icons-container,
+.interactive-maps__filters-dropdown-button,
+.page-content code,
+.code {
+	border:0;
+}
+
+/* === Виджет Discord-сервера Конфедерации === */
+.csw-server .discord-widget-container {
+    height:auto;
+    width:auto;
+    margin-right:0;
+}
+
+.csw-server .discord-widget .widget-header {
+    background-color:var(--theme-accent-color) !important;
+    color:#fff;
+    font-size:120%;
+    font-weight:600;
+}
+
+.csw-server .discord-widget .widget-body {
+    display:none;
+}
+
+.theme-fandomdesktop-light .csw-server .discord-widget .widget-theme-auto .widget-btn-connect, .csw-server .discord-widget .widget-btn-connect {
+    color:#fff;
+    border:none;
+    background-color:var(--theme-accent-color);
+    font-size:110%;
+}
+
+.csw-server .discord-widget .widget-footer .widget-footer-info {
+	font-size:110%;
+}
+
+/* === Скроллбар === */
+::-webkit-scrollbar {
+    width:12px;
+}
+
+::-webkit-scrollbar-track {
+    background:var(--theme-page-background-color--secondary);
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background:var(--theme-accent-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background:var(--theme-accent-color--hover);
+}
