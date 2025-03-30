@@ -1,0 +1,25 @@
+/* == Исправления ошибок русской локализации == */
+/* === Глобальная навигация === */
+/* ==== другие, подобные вам, просматривали ==== */
+h3.VerticalCards-module_header__l5d-3 {
+    visibility:hidden;
+}
+
+h3.VerticalCards-module_header__l5d-3::after {
+    content:"Это может вас заинтересовать";
+    visibility:visible;
+    top:0;
+    background:none !important;
+}
+
+/* ==== Лучшие страницы на этой неделе ==== */
+.HorizontalCards-module_wrapper__HEjSo h3.wds-widget-frame__title {
+    visibility:hidden;
+}
+
+.HorizontalCards-module_wrapper__HEjSo h3.wds-widget-frame__title::after {
+    content:"Популярные статьи на этой вики";
+    visibility:visible;
+    top:0;
+    background:none !important;
+}
