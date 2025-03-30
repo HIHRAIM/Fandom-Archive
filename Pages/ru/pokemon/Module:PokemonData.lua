@@ -3,6 +3,7 @@ local h = mw.InfoboxBuilderHF
 local getArgs = require('Dev:Arguments').getArgs
 local pokedata = mw.loadData( 'Module:PokemonData/data' )
 local pokename_from_number = mw.loadData( 'Module:PokemonData/fromNumber' )
+local pokename_from_number_pixelmon = mw.loadData( 'Module:PokemonData/fromNumber/pixelmon' )
 local numberregion = mw.loadData( 'Module:PokemonData/region' )
 local movedata = mw.loadData( 'Module:PokemonData/moves' )
 local epdata = mw.loadData( 'Module:PokemonData/epdata' )
@@ -51,6 +52,15 @@ function p.get_episode(frame)
 	local ep = epdata[pagename]
 	
     return ep[parameter]
+end
+
+--------
+function p.get_pokename_pixelmon(frame)
+	local args = getArgs(frame)
+	local parameter = tonumber(args[2])
+	local name = pokename_from_number_pixelmon[args[1]]
+	
+    return name[parameter]
 end
 
 --------
