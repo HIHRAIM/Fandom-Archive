@@ -1,0 +1,156 @@
+/* Вы можете использовать этот скрипт на своей вики, добавив следующий импорт в CSS:
+@import url("/load.php?mode=articles&only=styles&articles=u:ru.confederation:MediaWiki:Leaderboard.css");
+
+Leaderboard.css является дочерним скриптом ModernLeaderboard из Dev Wiki авторства Americhino.
+https://dev.fandom.com/wiki/ModernLeaderboard */
+
+/* You can use this script on your wiki by adding the following import to your CSS
+@import url("/load.php?mode=articles&only=styles&articles=u:ru.confederation:MediaWiki:Leaderboard.css");
+
+Leaderboard.css is a child script of ModernLeaderboard from Dev Wiki by Americhino:
+https://dev.fandom.com/wiki/ModernLeaderboard */
+
+/* == Таблица лидеров == */
+/* Оригинал꞉ https://dev.fandom.com/wiki/ModernLeaderboard */
+.LeaderboardTable .rank span {
+	background-image:none !important;
+	text-align:center;
+	padding-right:3px;
+	border-radius:50%;
+	background-color:none !important;
+}
+
+.LeaderboardTable tr:first-child .rank span:first-child {
+	background-color:gold !important;
+	color:#000;
+}
+
+.LeaderboardTable tr:nth-child(2) .rank span:first-child {
+	background-color:silver !important;
+	color:#000;
+}
+
+.LeaderboardTable tr:nth-child(3) .rank span:first-child {
+	background-color:chocolate !important;
+	color:#000;
+}
+
+.LeaderboardTable tr:first-child .rank:first-child:before {
+	content:url('https://vignette.wikia.nocookie.net/ursuul/images/f/fc/Crown.svg') !important;
+	position:absolute;
+	transform:rotate(-25deg);
+	margin-top:-10px;
+}
+
+.LeaderboardTable {
+	font-family:Rubik;
+}
+
+.LeaderboardTable .user {
+	padding-bottom:8px !important;
+}
+
+.LeaderboardTable .user .wds-avatar {
+	vertical-align:unset;
+}
+
+.LeaderboardTable .avatar {
+	border-radius:50%;
+}
+
+.LeaderboardTable thead th {
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:16px;
+}
+
+.LeaderboardTable .tally span {
+	font-weight:bold;
+}
+
+.LeaderboardTable td.tally {
+	width:15%;
+}
+
+.LeaderboardTable td.badge {
+	width:30%;
+}
+
+.LeaderboardTable .badges img {
+	width:35px;
+	height:auto;
+	margin-right:3px;
+}
+
+#about-achievements > span {
+	text-transform:uppercase;
+	font-weight:bold;
+	padding:4px 12px 2px 12px;
+	border:1px solid;
+	border-radius:3px;
+	margin-top:1px;
+	font-family:Rubik;
+}
+
+#about-achievements>span:after {
+	display:none
+}
+
+.achievements-title {
+	border-bottom:2px !important;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-family:Rubik;
+}
+
+#about-achievements {
+	background-image:none;
+	border:none;
+	border-left:6px solid !important;
+	font-family:Rubik
+}
+
+#about-achievements h1 {
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+#about-achievements p b {
+	text-transform:uppercase;
+}
+
+#about-achievements ul li span {
+	background-image:none !important;
+	border-radius:50%;
+	font-size:13px;
+}
+
+#about-achievements ul .bronze span {
+	background-color:chocolate;
+	color:black;
+}
+
+#about-achievements ul .silver span {
+	background-color:silver;
+	color:black;
+}
+
+#about-achievements ul .gold span {
+	background-color:gold;
+	color:black;
+}
+
+.skin-fandomdesktop #about-achievements ul li span {
+	height:50px;
+	width:50px;
+}
+
+.WikiaLatestEarnedBadgesModule .achievements-title {
+	text-transform:none;
+}
+
+.skin-fandomdesktop #about-achievements ul .bronze span,
+.skin-fandomdesktop #about-achievements ul .silver span,
+.skin-fandomdesktop #about-achievements ul .gold span {
+	margin-left:10px;
+}
