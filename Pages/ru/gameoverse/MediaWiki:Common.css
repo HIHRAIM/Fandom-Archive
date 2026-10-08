@@ -1,0 +1,1295 @@
+/* == Импорты == */
+/* === Стандартное оформление википроектов о проектах Glitch === */
+@import url("//tadc.fandom.com/ru/load.php?mode=articles&articles=MediaWiki:GlitchWikis.css&only=styles");
+
+/* == Оформление вики == */
+/* === Палитра === */
+:root {
+	--gv-void:#0a0a2e;
+	--gv-blue:#1672f8;
+	--gv-violet:#8651ea;
+	--gv-magenta:#bf0076;
+	--gv-pink:#fe25ac;
+	--gv-cyan:#90d3fd;
+	--gv-yellow:#fae05a;
+	--gv-text:#e8edff;
+	--gv-muted:#9aa6d8;
+	--gv-line:rgba(144, 211, 253, 0.24);
+	--gv-head:var(--theme-page-headings-font, 'Rubik'), 'Trebuchet MS', sans-serif;
+}
+
+.theme-fandomdesktop-light {
+	--gv-cyan:#2f7fd0;
+	--gv-text:#152144;
+	--gv-muted:#5b6890;
+	--gv-line:rgba(58, 143, 227, 0.38);
+}
+
+/* === Заглавная страница === */
+.gv {
+	display:grid;
+	grid-template-columns:minmax(0, 1fr);
+	gap:26px;
+	color:var(--gv-text);
+	font-size:15px;
+	line-height:1.6;
+}
+
+.gv a {
+	color:var(--gv-cyan);
+	transition:color 0.18s ease;
+}
+
+.gv a:hover {
+	color:#fff;
+}
+
+.theme-fandomdesktop-light .gv-text a,
+.theme-fandomdesktop-light .gv-quote a {
+	color:#963dc6;
+}
+
+.theme-fandomdesktop-light .gv-text a:hover,
+.theme-fandomdesktop-light .gv-quote a:hover {
+	color:#5f1a8f;
+}
+
+.gv img {
+	display:block;
+	max-width:100%;
+	height:auto;
+}
+
+.gv p {
+	margin:0 0 0.7em;
+}
+
+.gv p:last-child {
+	margin-bottom:0;
+}
+
+.gv p.mw-empty-elt {
+	display:none;
+}
+
+.gv hr {
+	height:2px;
+	margin:2px 0;
+	border:0;
+	background:linear-gradient(90deg, rgba(134, 81, 234, 0) 0%, var(--gv-violet) 50%, rgba(134, 81, 234, 0) 100%);
+}
+
+.gv-cols {
+	display:grid;
+	grid-template-columns:minmax(0, 1.85fr) minmax(0, 1fr);
+	gap:26px;
+	align-items:start;
+}
+
+.gv-col {
+	display:grid;
+	grid-template-columns:minmax(0, 1fr);
+	gap:26px;
+	align-content:start;
+	min-width:0;
+}
+
+.theme-fandomdesktop-light .fandom-community-header__image {
+	filter:drop-shadow(0px 0px 1px #4c95fe) drop-shadow(0px 0px 1px #4c95fe) drop-shadow(0px 0px 3px #4c95fe);
+	z-index:200;
+}
+
+.theme-fandomdesktop-dark .fandom-community-header__image {
+	filter:drop-shadow(0px 0px 2px #4c95fe) drop-shadow(0px 0px 2px #4c95fe) drop-shadow(0px 0px 3px #4c95fe);
+	z-index:200;
+}
+
+/* ==== Шапка ==== */
+.gv-hero {
+	position:relative;
+	overflow:hidden;
+	border:2px solid var(--gv-line);
+	background:var(--gv-void);
+	box-shadow:0 22px 60px rgba(0, 0, 0, 0.55);
+}
+
+.gv-hero__scene {
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+}
+
+.gv-hero__scene span,
+.gv-hero__scene a {
+	display:block;
+	height:100%;
+}
+
+.gv-hero__scene img {
+	width:100%;
+	height:100%;
+	object-fit:cover;
+	object-position:100% 50%;
+}
+
+.gv-hero__scene::after {
+	content:"";
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	background:linear-gradient(90deg, rgb(10, 10, 46) 0%, rgb(10, 10, 46) 34%, rgba(10, 10, 46, 0.86) 58%, rgba(10, 10, 46, 0.35) 82%, rgba(10, 10, 46, 0.05) 100%), repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.22) 0 1px, rgba(0, 0, 0, 0) 1px 3px);
+	pointer-events:none;
+}
+
+.gv-hero__body {
+	position:relative;
+	max-width:660px;
+	padding:clamp(22px, 4vw, 46px);
+}
+
+.gv-hero__title {
+	font-family:var(--gv-head);
+	font-size:clamp(23px, 3.4vw, 40px);
+	font-weight:800;
+	letter-spacing:0.01em;
+	line-height:1.1;
+	text-transform:uppercase;
+	color:#fff;
+	text-shadow:2px 0 0 rgba(254, 37, 172, 0.75), -2px 0 0 rgba(144, 211, 253, 0.7), 0 6px 26px rgba(0, 0, 0, 0.65);
+}
+
+.gv-hero__text {
+	margin-top:14px;
+	max-width:56ch;
+	color:#d7ddf7;
+}
+
+.gv-hero__actions {
+	display:flex;
+	flex-wrap:wrap;
+	gap:12px;
+	margin-top:20px;
+}
+
+.gv-hero__stats {
+	position:relative;
+	display:grid;
+	grid-template-columns:repeat(3, minmax(0, 1fr));
+	border-top:2px solid var(--gv-line);
+	background:rgba(7, 10, 36, 0.86);
+}
+
+.gv-stat {
+	display:grid;
+	justify-items:center;
+	gap:3px;
+	padding:14px 8px;
+	border-left:1px solid rgba(144, 211, 253, 0.14);
+}
+
+.gv-stat:first-child {
+	border-left:0;
+}
+
+.gv-stat__num {
+	font-family:var(--gv-head);
+	font-size:clamp(19px, 2.6vw, 29px);
+	font-weight:800;
+	line-height:1;
+	color:var(--gv-yellow);
+	text-shadow:0 0 18px rgba(250, 224, 90, 0.35);
+}
+
+.gv-stat__label {
+	font-size:11px;
+	letter-spacing:0.16em;
+	text-transform:uppercase;
+	color:var(--gv-muted);
+}
+
+.theme-fandomdesktop-light .gv-stat__label {
+	color:#9aa6d8;
+}
+
+.gv-stat__label a {
+	color:inherit;
+}
+
+/* ==== Кнопки ==== */
+.gv-btn {
+	display:inline-block;
+}
+
+.gv-btn a {
+	display:block;
+	padding:11px 24px;
+	border:2px solid var(--gv-cyan);
+	background:rgba(22, 114, 248, 0.18);
+	color:#fff;
+	font-family:var(--gv-head);
+	font-size:13px;
+	font-weight:700;
+	letter-spacing:0.1em;
+	text-transform:uppercase;
+	clip-path:polygon(10px 0, 100% 0, calc(100% - 10px) 100%, 0 100%);
+	transition:background 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease, color 0.18s ease;
+}
+
+.gv-btn a:hover {
+	background:var(--gv-cyan);
+	color:var(--gv-void);
+	transform:translateY(-2px);
+	box-shadow:0 12px 24px rgba(144, 211, 253, 0.3);
+}
+
+.theme-fandomdesktop-light .gv-btn a:hover {
+	color:#fff;
+}
+
+.gv-btn--primary a {
+	border-color:var(--gv-pink);
+	background:linear-gradient(100deg, var(--gv-magenta) 0%, var(--gv-violet) 100%);
+}
+
+.gv-btn--primary a:hover {
+	background:linear-gradient(100deg, var(--gv-pink) 0%, #a06bff 100%);
+	color:#fff;
+	box-shadow:0 12px 24px rgba(191, 0, 118, 0.42);
+}
+
+/* ==== Панели ==== */
+.gv-panel {
+	position:relative;
+	border:2px solid var(--gv-line);
+	background:linear-gradient(180deg, rgba(27, 21, 83, 0.92) 0%, rgba(10, 13, 46, 0.96) 100%);
+	box-shadow:0 18px 44px rgba(0, 0, 0, 0.45), inset 0 0 70px rgba(134, 81, 234, 0.14);
+}
+
+.theme-fandomdesktop-light .gv-panel {
+	background:linear-gradient(180deg, #ffffff 0%, #eef4ff 100%);
+	box-shadow:0 14px 32px rgba(23, 54, 120, 0.12), inset 0 0 60px rgba(58, 143, 227, 0.07);
+}
+
+.gv-panel::before,
+.gv-panel::after {
+	content:"";
+	position:absolute;
+	bottom:-2px;
+	width:8px;
+	height:8px;
+	pointer-events:none;
+}
+
+.gv-panel::before {
+	left:-2px;
+	background:var(--gv-pink);
+}
+
+.gv-panel::after {
+	right:-2px;
+	background:var(--gv-cyan);
+}
+
+.gv-panel__head {
+	position:relative;
+	display:flex;
+	align-items:center;
+	gap:14px;
+	padding:14px 22px;
+	background:linear-gradient(100deg, #1c2fb0 0%, var(--gv-blue) 44%, var(--gv-violet) 100%);
+	clip-path:polygon(0 0, 100% 0, 100% calc(100% - 11px), calc(100% - 28px) 100%, 0 100%);
+	font-family:var(--gv-head);
+	font-size:clamp(14px, 1.5vw, 18px);
+	font-weight:700;
+	letter-spacing:0.08em;
+	line-height:1.2;
+	text-transform:uppercase;
+	color:#fff;
+	text-shadow:0 2px 0 rgba(0, 0, 0, 0.35);
+}
+
+.gv-panel__head::after {
+	content:"";
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	background-image:radial-gradient(circle, rgba(255, 255, 255, 0.24) 1px, rgba(255, 255, 255, 0) 1.5px);
+	background-size:6px 6px;
+	-webkit-mask-image:linear-gradient(90deg, rgba(0, 0, 0, 0) 45%, #000 100%);
+	mask-image:linear-gradient(90deg, rgba(0, 0, 0, 0) 45%, #000 100%);
+	pointer-events:none;
+}
+
+.gv-panel__body {
+	display:grid;
+	grid-template-columns:minmax(0, 1fr);
+	gap:15px;
+	padding:18px 20px 20px;
+}
+
+.gv-text {
+	color:#d7ddf7;
+}
+
+.theme-fandomdesktop-light .gv-text {
+	color:#39476f;
+}
+
+/* ==== Слайдер ==== */
+.gv-slider {
+	border:2px solid rgba(144, 211, 253, 0.2);
+}
+
+.theme-fandomdesktop-light .gv-slider {
+	border-color:var(--gv-line);
+}
+
+.gv-slider .fandom-slider {
+	margin:0;
+	max-width:none;
+	width:100%;
+}
+
+/* ==== Табер ==== */
+.gv-tabs .wds-tabs__wrapper {
+	margin-bottom:16px;
+	border-bottom:1px solid var(--gv-line);
+	background:none;
+}
+
+.gv-tabs .wds-tabs {
+	flex-wrap:wrap;
+	gap:6px;
+	justify-content:flex-start;
+	overflow:visible;
+}
+
+.gv-tabs .wds-tabs__arrow-left,
+.gv-tabs .wds-tabs__arrow-right {
+	display:none;
+}
+
+.gv-tabs .wds-tabs__tab {
+	padding:0;
+	border:0;
+	background:none;
+}
+
+.gv-tabs .wds-tabs__tab.wds-is-current {
+	box-shadow:none !important;
+}
+
+.gv-tabs .wds-tabs__tab::after {
+	display:none;
+}
+
+.gv-tabs .wds-tabs__tab-label {
+	padding:8px 17px;
+	border:2px solid rgba(144, 211, 253, 0.2);
+	background:rgba(20, 26, 63, 0.8);
+	font-family:var(--gv-head);
+	font-size:12px;
+	font-weight:700;
+	letter-spacing:0.08em;
+	text-transform:uppercase;
+	clip-path:polygon(8px 0, 100% 0, calc(100% - 8px) 100%, 0 100%);
+	transition:background 0.18s ease, border-color 0.18s ease;
+}
+
+.theme-fandomdesktop-light .gv-tabs .wds-tabs__tab:not(.wds-is-current) .wds-tabs__tab-label {
+	border-color:var(--gv-line);
+	background:#eaf1ff;
+}
+
+.gv-tabs .wds-tabs__tab-label a {
+	color:var(--gv-muted);
+}
+
+.gv-tabs .wds-tabs__tab:hover .wds-tabs__tab-label {
+	border-color:var(--gv-cyan);
+}
+
+.gv-tabs .wds-tabs__tab:hover .wds-tabs__tab-label a {
+	color:#fff;
+}
+
+.theme-fandomdesktop-light .gv-tabs .wds-tabs__tab:hover .wds-tabs__tab-label a {
+	color:#123a72;
+}
+
+.gv-tabs .wds-tabs__tab.wds-is-current .wds-tabs__tab-label {
+	border-color:var(--gv-pink);
+	background:linear-gradient(100deg, var(--gv-magenta) 0%, var(--gv-violet) 100%);
+	box-shadow:0 8px 20px rgba(191, 0, 118, 0.32);
+}
+
+.gv-tabs .wds-tabs__tab.wds-is-current:hover .wds-tabs__tab-label a {
+	color:#fff !important;
+}
+
+.gv-tabs .wds-tabs__tab.wds-is-current .wds-tabs__tab-label a {
+	color:#fff;
+}
+
+/* ==== Список серий ==== */
+.gv-eps {
+	display:grid;
+	grid-template-columns:repeat(auto-fill, minmax(190px, 1fr));
+	gap:12px;
+}
+
+.gv-ep {
+	position:relative;
+	overflow:hidden;
+	border:2px solid rgba(144, 211, 253, 0.2);
+	background:linear-gradient(160deg, #1b1553 0%, #0a0d2e 100%);
+	transition:border-color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
+}
+
+.theme-fandomdesktop-light .gv-ep {
+	border-color:var(--gv-line);
+	background:linear-gradient(160deg, #ffffff 0%, #e9f1ff 100%);
+}
+
+.gv-ep__art {
+	position:relative;
+	aspect-ratio:16 / 9;
+	overflow:hidden;
+}
+
+.gv-ep__art span,
+.gv-ep__art a {
+	display:block;
+	height:100%;
+}
+
+.gv-ep__art img {
+	width:100%;
+	height:100%;
+	object-fit:cover;
+}
+
+.gv-ep__name {
+	padding:10px 12px;
+	border-top:2px solid rgba(144, 211, 253, 0.16);
+	background:rgba(22, 114, 248, 0.16);
+	font-family:var(--gv-head);
+	font-size:13px;
+	font-weight:700;
+	letter-spacing:0.1em;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+.theme-fandomdesktop-light .gv-ep__name {
+	border-top-color:var(--gv-line);
+	background:rgba(58, 143, 227, 0.12);
+}
+
+.gv-ep__name a {
+	color:#fff;
+}
+
+.theme-fandomdesktop-light .gv-ep__name a {
+	color:#123a72;
+}
+
+.gv-ep:hover {
+	border-color:var(--gv-cyan);
+	transform:translateY(-3px);
+	box-shadow:0 14px 28px rgba(22, 114, 248, 0.32);
+}
+
+/* ==== Чаты ==== */
+.gv-chats {
+	display:grid;
+	grid-template-columns:repeat(2, minmax(0, 1fr));
+	gap:12px;
+	max-width:340px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.gv-chat {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	aspect-ratio:1 / 1;
+	min-height:0;
+	padding:6px;
+}
+
+.gv-chat img {
+	width:100%;
+	height:100%;
+	object-fit:contain;
+	transition:transform 0.18s ease, filter 0.18s ease;
+}
+
+.gv-chat:hover img {
+	transform:translateY(-3px) scale(1.06);
+	filter:drop-shadow(0 8px 16px rgba(0, 0, 0, 0.45));
+}
+
+.gv-chat__name a {
+	display:block;
+	padding:9px 20px;
+	border:none;
+	color:#fff;
+	font-family:var(--gv-head);
+	font-size:12px;
+	font-weight:700;
+	letter-spacing:0.08em;
+	text-align:center;
+	text-transform:uppercase;
+	clip-path:polygon(8px 0, 100% 0, calc(100% - 8px) 100%, 0 100%);
+	transition:transform 0.18s ease, box-shadow 0.18s ease, filter 0.18s ease;
+}
+
+.gv-chat__name--discord a {
+	background:#5865f2;
+}
+
+.gv-chat__name--telegram a {
+	background:#229eda;
+}
+
+.gv-chat__name a:hover {
+	transform:translateY(-2px);
+	filter:brightness(1.12);
+	box-shadow:0 10px 22px rgba(0, 0, 0, 0.4);
+}
+
+.gv-chat__name .external:after, .gv-chat__name .extiw:after {
+	display:none;
+}
+
+/* ==== Служебные страницы ==== */
+.gv-links {
+	display:grid;
+	grid-template-columns:minmax(0, 1fr);
+	gap:6px;
+}
+
+.gv-link a {
+	display:flex;
+	align-items:center;
+	gap:10px;
+	padding:9px 12px;
+	border-left:3px solid var(--gv-violet);
+	background:rgba(22, 114, 248, 0.09);
+	color:var(--gv-text);
+	font-size:13.5px;
+	font-weight:500;
+	transition:background 0.18s ease, border-color 0.18s ease, transform 0.18s ease, color 0.18s ease;
+}
+
+.theme-fandomdesktop-light .gv-link a {
+	background:rgba(58, 143, 227, 0.1);
+}
+
+.gv-link a::before {
+	content:"\00B7";
+	font-size:12px;
+	line-height:1;
+	color:var(--gv-pink);
+}
+
+.gv-link a:hover {
+	border-left-color:var(--gv-pink);
+	background:rgba(134, 81, 234, 0.28);
+	color:#fff;
+	transform:translateX(4px);
+}
+
+.theme-fandomdesktop-light .gv-link a:hover {
+	background:rgba(134, 81, 234, 0.16);
+	color:#3d1a6b;
+}
+
+/* ==== Вики о проектах Glitch ==== */
+.gv-wikis {
+	display:grid;
+	grid-template-columns:repeat(auto-fit, minmax(132px, 1fr));
+	align-items:start;
+	gap:12px;
+}
+
+.gv-wiki {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	aspect-ratio:16 / 9;
+	min-height:0;
+	overflow:hidden;
+	padding:10px;
+	border:2px solid rgba(144, 211, 253, 0.18);
+	background:rgba(10, 13, 46, 0.7);
+	transition:border-color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
+}
+
+.theme-fandomdesktop-light .gv-wiki {
+    background: rgba(10, 13, 46, 0.3);
+}
+
+.gv-wiki img {
+	width:100%;
+	height:100%;
+	object-fit:contain;
+}
+
+.gv-wiki:hover {
+	border-color:var(--gv-cyan);
+	transform:translateY(-3px);
+	box-shadow:0 14px 28px rgba(22, 114, 248, 0.3);
+}
+
+/* ==== Партнёрство ==== */
+.gv-union {
+	justify-items:center;
+}
+
+.confederation {
+	width:100% !important;
+	margin:0 !important;
+	padding:0 !important;
+	background:transparent !important;
+	border-radius:0 !important;
+	color:var(--gv-text) !important;
+}
+
+.confederation-logo {
+	display:block;
+	padding:10px;
+	transition:border-color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
+}
+
+.confederation-logo img {
+	width:84px;
+	height:84px;
+	transition:transform 0.18s ease, filter 0.18s ease;
+}
+
+.confederation-logo:hover {
+	border-color:var(--gv-cyan);
+	transform:translateY(-3px);
+}
+
+.confederation-logo:hover img {
+	transform:scale(1.06);
+	filter:drop-shadow(0 0 10px rgba(144, 211, 253, 0.45));
+}
+
+.confederation-header {
+	font-size:15px !important;
+	letter-spacing:0.02em;
+	color:#fff;
+}
+
+.theme-fandomdesktop-light .confederation-header {
+	color:#152144;
+}
+
+.confederation-name b {
+	color:var(--gv-yellow);
+}
+
+.theme-fandomdesktop-light .confederation-name b {
+	color:var(--gv-magenta);
+}
+
+.confederation .wds-button {
+	display:inline-block;
+	margin-top:12px !important;
+	padding:9px 20px !important;
+	border-radius:0 !important;
+	font-family:var(--gv-head);
+	font-size:12px;
+	font-weight:700;
+	letter-spacing:0.08em;
+	text-transform:uppercase;
+	clip-path:polygon(8px 0, 100% 0, calc(100% - 8px) 100%, 0 100%);
+	transition:transform 0.18s ease, box-shadow 0.18s ease, filter 0.18s ease;
+}
+
+.confederation .confe__button2 {
+	border:2px solid var(--gv-pink) !important;
+	background:linear-gradient(100deg, var(--gv-magenta) 0%, var(--gv-violet) 100%) !important;
+	color:#fff !important;
+}
+
+.confederation .wds-button:hover {
+	transform:translateY(-2px);
+	filter:brightness(1.12);
+	box-shadow:0 10px 22px rgba(0, 0, 0, 0.4);
+}
+
+/* ==== Адаптив ==== */
+@media (max-width:1023px) {
+	.gv-cols {
+		grid-template-columns:minmax(0, 1fr);
+	}
+}
+
+@media (max-width:719px) {
+	.gv {
+		gap:20px;
+	}
+
+	.gv-cols,
+	.gv-col {
+		gap:20px;
+	}
+
+	.gv-hero__scene img {
+		object-position:78% 16%;
+	}
+
+	.gv-hero__scene::after {
+		background:linear-gradient(180deg, rgba(10, 10, 46, 0.55) 0%, rgba(10, 10, 46, 0.94) 46%, rgb(10, 10, 46) 100%), repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.22) 0 1px, rgba(0, 0, 0, 0) 1px 3px);
+	}
+
+	.gv-hero__body {
+		max-width:none;
+		padding-top:96px;
+	}
+
+	.gv-hero__actions {
+		display:grid;
+		grid-template-columns:minmax(0, 1fr);
+	}
+
+	.gv-btn a {
+		text-align:center;
+	}
+
+	.gv-panel__head {
+		gap:11px;
+		padding:12px 16px;
+	}
+
+	.gv-panel__body {
+		padding:15px 14px 16px;
+	}
+
+	.gv-chars {
+		grid-template-columns:repeat(auto-fill, minmax(88px, 1fr));
+		gap:9px;
+	}
+
+	.gv-chars--wide {
+		grid-template-columns:repeat(auto-fill, minmax(150px, 1fr));
+	}
+
+	.gv-eps {
+		grid-template-columns:minmax(0, 1fr);
+	}
+
+	.gv-wikis {
+		grid-template-columns:repeat(auto-fit, minmax(118px, 1fr));
+	}
+}
+
+@media (max-width:479px) {
+	.gv-navbox__row {
+		grid-template-columns:minmax(0, 1fr);
+	}
+
+	.gv-navbox__group {
+		justify-content:flex-start;
+		border-right:0;
+		border-bottom:2px solid var(--gv-line);
+	}
+}
+
+@media (max-width:419px) {
+	.gv-hero__stats {
+		grid-template-columns:minmax(0, 1fr);
+	}
+
+	.gv-stat {
+		grid-template-columns:auto auto;
+		justify-items:start;
+		gap:10px;
+		padding:10px 16px;
+		border-top:1px solid rgba(144, 211, 253, 0.14);
+		border-left:0;
+	}
+
+	.gv-stat:first-child {
+		border-top:0;
+	}
+}
+
+/* === Цитаты ({{Цитата}}) === */
+.gv-quote {
+	position:relative;
+	overflow:hidden;
+	padding:17px 20px 17px 26px;
+	border:2px solid rgba(144, 211, 253, 0.22);
+	background:linear-gradient(180deg, rgba(27, 21, 83, 0.85) 0%, rgba(10, 13, 46, 0.9) 100%);
+	color:#dfe6ff;
+}
+
+.theme-fandomdesktop-light .gv-quote {
+	border-color:var(--gv-line);
+	background:linear-gradient(180deg, #ffffff 0%, #eef4ff 100%);
+	color:#39476f;
+}
+
+.gv-quote::before {
+	content:"";
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	width:6px;
+	background:linear-gradient(180deg, var(--gv-blue) 0%, var(--gv-violet) 50%, var(--gv-magenta) 100%);
+}
+
+.gv-quote__by {
+	margin-top:10px;
+	font-size:12px;
+	font-weight:700;
+	letter-spacing:0.16em;
+	text-align:right;
+	text-transform:uppercase;
+	color:var(--gv-yellow);
+}
+
+.theme-fandomdesktop-light .gv-quote__by {
+	color:var(--gv-magenta);
+}
+
+/* === Карточки персонажей ({{Портрет}}) === */
+.gv-chars {
+	display:grid;
+	grid-template-columns:repeat(auto-fill, minmax(104px, 1fr));
+	gap:12px;
+}
+
+.gv-chars--wide {
+	grid-template-columns:repeat(auto-fill, minmax(184px, 1fr));
+}
+
+.gv-char {
+	position:relative;
+	overflow:hidden;
+	aspect-ratio:5 / 6;
+	border:2px solid rgba(144, 211, 253, 0.22);
+	background:linear-gradient(180deg, #241a63 0%, #0e1236 100%);
+	transition:transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.theme-fandomdesktop-light .gv-char {
+	border-color:var(--gv-line);
+	background:linear-gradient(180deg, #e9eeff 0%, #d7e3ff 100%);
+}
+
+.gv-chars--wide .gv-char {
+	aspect-ratio:16 / 9;
+}
+
+.gv-char__art {
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+}
+
+.gv-char__art span,
+.gv-char__art a {
+	display:block;
+	height:100%;
+}
+
+.gv-char__art img {
+	width:100%;
+	height:100%;
+	object-fit:cover;
+	object-position:50% 22%;
+}
+
+.gv-char__name {
+	position:absolute;
+	right:0;
+	bottom:0;
+	left:0;
+	padding:16px 7px 7px;
+	background:linear-gradient(180deg, rgba(10, 10, 46, 0) 0%, rgba(10, 10, 46, 0.94) 55%);
+	font-size:12px;
+	font-weight:700;
+	line-height:1.2;
+	text-align:center;
+}
+
+.theme-fandomdesktop-light .gv-char__name {
+	background:linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.94) 55%);
+}
+
+.gv-char__name a {
+	color:#fff;
+}
+
+.theme-fandomdesktop-light .gv-char__name a {
+	color:#152144;
+}
+
+.gv-char:hover {
+	transform:translateY(-4px);
+	border-color:var(--gv-pink);
+	box-shadow:0 14px 28px rgba(191, 0, 118, 0.36);
+}
+
+.gv-more {
+	text-align:right;
+}
+
+.gv-more a {
+	display:inline-block;
+	margin-top:1em;
+	padding:8px 16px;
+	border:2px solid var(--gv-violet);
+	background:rgba(134, 81, 234, 0.18);
+	color:#fff;
+	font-family:var(--gv-head);
+	font-size:12px;
+	font-weight:700;
+	letter-spacing:0.08em;
+	text-transform:uppercase;
+	clip-path:polygon(8px 0, 100% 0, calc(100% - 8px) 100%, 0 100%);
+	transition:background 0.18s ease;
+}
+
+.theme-fandomdesktop-light .gv-more a {
+	background:rgba(134, 81, 234, 0.14);
+	color:#4a1f80;
+}
+
+.gv-more a:hover {
+	background:var(--gv-violet);
+}
+
+.theme-fandomdesktop-light .gv-more a:hover {
+	background:var(--gv-violet);
+	color:#fff;
+}
+
+/* === Инфобоксы === */
+.portable-infobox {
+	border:2px solid var(--gv-line);
+	background:linear-gradient(180deg, rgba(27, 21, 83, 0.94) 0%, rgba(10, 13, 46, 0.97) 100%);
+	box-shadow:0 14px 34px rgba(0, 0, 0, 0.45);
+}
+
+.theme-fandomdesktop-light .portable-infobox {
+	background:linear-gradient(180deg, #ffffff 0%, #eef4ff 100%);
+	box-shadow:0 12px 28px rgba(23, 54, 120, 0.12);
+}
+
+.portable-infobox .pi-item {
+	border-color:var(--gv-line) !important;
+}
+
+.portable-infobox .pi-title {
+	background:linear-gradient(100deg, #1c2fb0 0%, var(--gv-blue) 44%, var(--gv-violet) 100%);
+	font-family:var(--gv-head);
+	font-weight:800;
+	letter-spacing:0.04em;
+	text-transform:uppercase;
+	color:#fff;
+	text-shadow:0 2px 0 rgba(0, 0, 0, 0.35);
+}
+
+.portable-infobox .pi-header {
+	background:linear-gradient(100deg, var(--gv-magenta) 0%, var(--gv-violet) 100%);
+	font-family:var(--gv-head);
+	font-weight:700;
+	letter-spacing:0.08em;
+	text-transform:uppercase;
+	color:#fff;
+}
+
+.portable-infobox .pi-data-label {
+	color:var(--gv-cyan);
+}
+
+.portable-infobox .pi-data-value {
+	color:var(--gv-text);
+}
+
+.portable-infobox .pi-data-value a,
+.portable-infobox .pi-title a {
+	color:var(--gv-cyan);
+}
+
+.portable-infobox .wds-tabs__tab.wds-is-current {
+	border-color:var(--gv-magenta);
+}
+
+/* === Табы страниц ({{Таб}}) === */
+.pagetab {
+	clear:both;
+	margin-bottom:14px;
+}
+
+.gv-ptabs__row {
+	display:flex;
+	flex-wrap:wrap;
+	gap:6px;
+	justify-content:center;
+}
+
+.gv-ptab {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	padding:0 17px;
+	border:2px solid rgba(144, 211, 253, 0.2);
+	background:rgba(20, 26, 63, 0.8);
+	font-family:var(--gv-head);
+	font-size:12px;
+	font-weight:700;
+	letter-spacing:0.08em;
+	line-height:1.2;
+	text-align:center;
+	text-transform:uppercase;
+	clip-path:polygon(8px 0, 100% 0, calc(100% - 8px) 100%, 0 100%);
+	transition:background 0.18s ease, border-color 0.18s ease;
+}
+
+.theme-fandomdesktop-light .gv-ptab:not(.gv-ptab--current) {
+	border-color:var(--gv-line);
+	background:#eaf1ff;
+}
+
+.gv-ptab a {
+	color:var(--gv-muted);
+}
+
+.gv-ptab:hover {
+	border-color:var(--gv-cyan);
+}
+
+.gv-ptab:hover a {
+	color:#fff;
+}
+
+.theme-fandomdesktop-light .gv-ptab:hover a {
+	color:#123a72;
+}
+
+.gv-ptab--current {
+	border-color:var(--gv-pink);
+	background:linear-gradient(100deg, var(--gv-magenta) 0%, var(--gv-violet) 100%);
+	box-shadow:0 8px 20px rgba(191, 0, 118, 0.32);
+}
+
+.theme-fandomdesktop-light .gv-ptab--current {
+	color:#fff;
+}
+
+.gv-ptab--current a {
+	color:#fff;
+}
+
+/* === Навбоксы === */
+.gv-navbox {
+	clear:both;
+	width:100%;
+	margin:1.4em 0 0.6em;
+	border-collapse:collapse;
+	border:2px solid var(--gv-line);
+	background:linear-gradient(180deg, rgba(27, 21, 83, 0.92) 0%, rgba(10, 13, 46, 0.96) 100%);
+	box-shadow:0 12px 30px rgba(0, 0, 0, 0.4);
+	font-size:14px;
+}
+
+.theme-fandomdesktop-light .gv-navbox {
+	background:linear-gradient(180deg, #ffffff 0%, #eef4ff 100%);
+	box-shadow:0 10px 24px rgba(23, 54, 120, 0.12);
+}
+
+.gv-navbox__title {
+	padding:12px 18px;
+	background:linear-gradient(100deg, #1c2fb0 0%, var(--gv-blue) 44%, var(--gv-violet) 100%);
+	font-family:var(--gv-head);
+	font-weight:800;
+	letter-spacing:0.08em;
+	text-align:center;
+	text-transform:uppercase;
+	color:#fff;
+	text-shadow:0 2px 0 rgba(0, 0, 0, 0.35);
+}
+
+.gv-navbox__title a {
+	color:#fff;
+}
+
+.gv-navbox__row {
+	display:grid;
+	grid-template-columns:minmax(120px, 0.22fr) minmax(0, 1fr);
+	border-top:2px solid var(--gv-line);
+}
+
+.gv-navbox__group {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	padding:10px 12px;
+	border-right:2px solid var(--gv-line);
+	background:rgba(134, 81, 234, 0.16);
+	font-family:var(--gv-head);
+	font-size:12.5px;
+	font-weight:700;
+	letter-spacing:0.06em;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+.theme-fandomdesktop-light .gv-navbox__group {
+	background:rgba(134, 81, 234, 0.12);
+}
+
+.gv-navbox__group a {
+	color:var(--gv-cyan);
+}
+
+.gv-navbox__list {
+	display:flex;
+	flex-wrap:wrap;
+	gap:7px;
+	padding:11px 14px;
+}
+
+.gv-navbox__list a {
+	display:inline-block;
+	padding:4px 11px;
+	border:1px solid rgba(144, 211, 253, 0.22);
+	background:rgba(22, 114, 248, 0.12);
+	color:var(--gv-cyan);
+	font-size:12.5px;
+	clip-path:polygon(6px 0, 100% 0, calc(100% - 6px) 100%, 0 100%);
+	transition:background 0.16s ease, border-color 0.16s ease, color 0.16s ease, transform 0.16s ease;
+}
+
+.theme-fandomdesktop-light .gv-navbox__list a {
+	border-color:var(--gv-line);
+	background:rgba(58, 143, 227, 0.1);
+}
+
+.gv-navbox__list a:hover {
+	border-color:var(--gv-pink);
+	background:rgba(134, 81, 234, 0.3);
+	color:#fff;
+	transform:translateY(-1px);
+}
+
+.theme-fandomdesktop-light .gv-navbox__list a:hover {
+	background:rgba(134, 81, 234, 0.18);
+	color:#3d1a6b;
+}
+
+.gv-navbox__list .mw-selflink,
+.gv-navbox__list b,
+.gv-navbox__list strong,
+.gv-navbox__content .mw-selflink {
+	display:inline-block;
+	padding:4px 11px;
+	border:1px solid rgba(233, 240, 255, 0.4);
+	background:rgba(233, 240, 255, 0.16);
+	color:#f4f8ff;
+	font-size:12.5px;
+	font-weight:700;
+	clip-path:polygon(6px 0, 100% 0, calc(100% - 6px) 100%, 0 100%);
+}
+
+.theme-fandomdesktop-light .gv-navbox__list .mw-selflink,
+.theme-fandomdesktop-light .gv-navbox__list b,
+.theme-fandomdesktop-light .gv-navbox__list strong,
+.theme-fandomdesktop-light .gv-navbox__content .mw-selflink {
+	border-color:rgba(21, 33, 68, 0.35);
+	background:rgba(21, 33, 68, 0.1);
+	color:#152144;
+}
+
+.gv-navbox__content {
+	padding:12px 16px;
+	border-top:2px solid var(--gv-line);
+	text-align:center;
+}
+
+.gv-navbox__content a {
+	color:var(--gv-cyan);
+}
+
+.gv-navbox__content a:hover {
+	color:#fff;
+}
+
+.theme-fandomdesktop-light .gv-navbox__content a:hover {
+	color:#5f1a8f;
+}
+
+/* === Профили === */
+.user-profile-navigation {
+	flex-wrap:wrap;
+	gap:6px;
+	padding-top:10px;
+}
+
+.user-profile-navigation__link {
+	border:0;
+}
+
+.user-profile-navigation__link::after {
+	display:none;
+}
+
+.user-profile-navigation__link a {
+	display:block;
+	padding:8px 17px;
+	border:2px solid rgba(144, 211, 253, 0.2);
+	background:rgba(20, 26, 63, 0.8);
+	color:var(--gv-muted);
+	font-family:var(--gv-head);
+	font-size:12px;
+	font-weight:700;
+	letter-spacing:0.08em;
+	text-transform:uppercase;
+	clip-path:polygon(8px 0, 100% 0, calc(100% - 8px) 100%, 0 100%);
+	transition:background 0.18s ease, border-color 0.18s ease, color 0.18s ease;
+}
+
+.theme-fandomdesktop-light .user-profile-navigation__link:not(.is-active) a {
+	border-color:var(--gv-line);
+	background:#eaf1ff;
+}
+
+.user-profile-navigation__link a:hover {
+	border-color:var(--gv-cyan);
+	color:#fff;
+}
+
+.theme-fandomdesktop-light .user-profile-navigation__link a:hover {
+	color:#123a72;
+}
+
+.user-profile-navigation__link.is-active a {
+	color:#fff !important;
+	--theme-link-color:#fff !important;
+	border-color:var(--gv-pink);
+	background:linear-gradient(100deg, var(--gv-magenta) 0%, var(--gv-violet) 100%);
+	box-shadow:0 8px 20px rgba(191, 0, 118, 0.32);
+}
+
+#userProfileApp .user-profile-navigation__link.is-active, #userProfileApp .user-profile-navigation__link:hover {
+	border-bottom:none;
+}
