@@ -1,0 +1,185 @@
+<mainpage-leftcolumn-start />
+<ul class="mp-tabber">
+<li class="mp-tabber__tab"><div class="mp-tabber__content">[[File:Иконка заглавной 1.png|x32px|link=Special:Community]] [[Special:Community|Вики]]</div></li>
+<li class="mp-tabber__tab"><div class="mp-tabber__content">[[File:Иконка заглавной 2.png|x32px|link=Category:Покемоны]] [[:Category:Покемоны|Покемоны]]</div></li>
+<li class="mp-tabber__tab"><div class="mp-tabber__content">[[File:Иконка заглавной 3.png|x32px|link=Category:Видеоигры]] [[:Category:Видеоигры|Игры]]</div></li>
+<li class="mp-tabber__tab"><div class="mp-tabber__content">[[File:Иконка заглавной 4.png|x32px|link=Покемон (аниме)]] [[Покемон (аниме)|Аниме]]</div></li>
+<li class="mp-tabber__tab"><div class="mp-tabber__content">[[File:Иконка заглавной 5.png|x32px|link=Pokémon Adventures]] [[Покемон (манга)|Манга]]</div></li>
+<li class="mp-tabber__tab"><div class="mp-tabber__content">[[File:Иконка заглавной 6.png|x32px|link=https://www.pokemon.com/us/pokemon-tcg]] [https://www.pokemon.com/us/pokemon-tcg Карточки]</div></li>
+<li class="mp-tabber__tab"><div class="mp-tabber__content">[[File:Иконка заглавной 7.png|x32px|link=https://www.pokemon.com/us/pokemon-news]] [https://www.pokemon.com/us/pokemon-news События]</div></li></ul>
+<div class="mp-banner">
+<div class="mp-banner__image">[[File:Site-mainpage-dark.webp|link=Pokémon Legends: Z-A]]</div>
+<div class="mp-banner__title"><div class="mp-banner__title-text">Добро пожаловать на Pokémon Wiki!</div></div>
+<div class="mp-banner__content">Мы будем рады, если вы присоединитесь к нам! Наша цель — стать ведущим русскоязычным ресурсом о мире покемонов в Интернете. Независимо от того, в чём вы разбираетесь — аниме, карточные игры, видеоигры или фильмы — ваш вклад будет неоценим. Просто зарегистрируйте абсолютно бесплатный аккаунт и начните делиться своими знаниями уже сегодня! Если у вас возникнут какие-либо проблемы, не стесняйтесь обратиться за помощью к одному из наших [[Special:ListUsers/sysop|администраторов]]. Также не забудьте ознакомиться с нашими [[Project:Правила|правилами]] и [[Справка:Функции Фэндома|справкой]] по редактированию, чтобы узнать, как вы можете внести эффективный вклад в развитие нашей базы данных.<hr>Наша вики основана в 2011 году и на сегодняшний день насчитывает '''[[Служебная:Свежие правки|{{NUMBEROFEDITS}} {{PLURAL:{{NUMBEROFEDITS}}|правку|правки|правок}}]]''' в ''' [[Служебная:Длинные страницы|{{NUMBEROFARTICLES}} {{PLURAL:{{NUMBEROFARTICLES}}|статье|статьях}}]]''', '''[[Служебная:Новые файлы|{{NUMBEROFFILES}} {{PLURAL:{{NUMBEROFFILES}}|файл|файла|файлов}}]]''' и '''[[Служебная:Сообщество|{{NUMBEROFACTIVEUSERS}} {{PLURAL:{{NUMBEROFACTIVEUSERS}}|активного участника|активных участников|активных участников}}]]'''.</div></div>
+<div class="MainPageElement-container first">
+{{Блок заглавной 2
+|Цвет = red
+|Заголовок = Покедекс
+|Содержимое =
+|Изображение =
+|Ссылка = Категория:Покемоны
+}}
+
+{{Блок заглавной 2
+|Цвет = blue
+|Заголовок = Движения
+|Содержимое =
+|Изображение =
+|Ссылка = Категория:Движения
+}}
+
+{{Блок заглавной 2
+|Цвет = mustard
+|Заголовок = Способности
+|Содержимое =
+|Изображение =
+|Ссылка = Категория:Способности
+}}
+</div>
+
+<div class="MainPageElement-container">
+{{Блок заглавной 2
+|Цвет = purple
+|Заголовок = Предметы
+|Содержимое =
+|Изображение =
+|Ссылка = Категория:Предметы
+}}
+
+{{Блок заглавной 2
+|Цвет = orange
+|Заголовок = Локации
+|Содержимое =
+|Изображение =
+|Ссылка = Категория:Локации
+}}
+
+{{Блок заглавной 2
+|Цвет = green
+|Заголовок = Персонажи
+|Содержимое =
+|Изображение =
+|Ссылка = Категория:Персонажи
+}}
+</div>
+
+<div class="MainPageElement-container">
+{{Блок заглавной 2
+|Цвет = teal
+|Заголовок = Видеоигры
+|Содержимое =
+|Изображение =
+|Ссылка = Категория:Видеоигры
+}}
+
+{{Блок заглавной 2
+|Цвет = red
+|Заголовок = Сериал
+|Содержимое =
+|Изображение =
+|Ссылка = Категория:Сериал
+}}
+
+{{Блок заглавной 2
+|Цвет = blue
+|Заголовок = Манга
+|Содержимое =
+|Изображение =
+|Ссылка = Pokémon Adventures
+}}
+</div>
+
+<div class="MainPageElement-container">
+{{Блок заглавной 2
+|Цвет = green
+|Заголовок = Фандом
+|Содержимое =
+|Изображение =
+|Ссылка = Категория:Фандом
+}}
+
+{{Блок заглавной 2
+|Цвет = mustard
+|Заголовок = Правила вики
+|Содержимое =
+|Изображение =
+|Ссылка = Project:Правила
+}}
+
+{{Блок заглавной 2
+|Цвет = purple
+|Заголовок = Форум
+|Содержимое =
+|Изображение =
+|Ссылка = https://pokemon.fandom.com/ru/f
+}}
+</div>
+
+{{Блок заглавной 2
+|Цвет = black
+|Заголовок  = Хотите помочь?
+|Содержимое = *Загляните на страницу '''[[Special:Community|сообщества]]''' — там есть задания для новичков и советы, как [[Help:Начало|сделать первые правки]].
+*Дополняйте '''[[:Category:Незавершённые статьи|незавершённые статьи]]''' или создайте одну из '''[[Special:WantedPages|недостающих страниц]]'''.
+*Другие участники всегда могут улучшить ваши правки — не бойтесь пробовать!
+Всё ещё не решаетесь? Напишите нашим специалистам в Telegram через бота [https://t.me/pokewiki_ru_bot @pokewiki_ru_bot], чтобы указать на ошибку в статье или предложить идею для вики. <span class="mw-customtoggle-bot-qr" style="cursor:pointer; color:var(--theme-link-color)">[Открыть/скрыть QR-код]</span><br><div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-bot-qr">[[Файл:Site-pokewiki-bot-qr.png|мини|центр|250px|link=https://t.me/pokewiki_ru_bot]]</div>
+|Изображение =
+|Ссылка =
+}}
+
+{{Блок заглавной 2
+|Цвет = gray
+|Заголовок='''Блоги'''
+|Содержимое=<bloglist></bloglist>
+}}
+<mainpage-endcolumn />
+<mainpage-rightcolumn-start />
+{{Блок заглавной 2
+|Цвет = gray
+|Заголовок=Чаты нашей вики
+|Содержимое=<div class="mp-logo">[[Файл:Discord logo.png|center|150px|link=https://discord.gg/hN9r9fYh24]][[Файл:Telegram logo.png|center|150px|link=https://t.me/+ct2Ztf5_KP9jNzdi]]</div><br><center>[https://discord.gg/hN9r9fYh24 '''Discord'''] · [https://t.me/+ct2Ztf5_KP9jNzdi '''Telegram''']</center>}}
+
+{{Блок заглавной 2
+|Цвет = gray
+|Заголовок='''Популярная статья месяца'''
+|Содержимое=[[Файл:PokemonTypes.png|260px|link=Стихийные типы]]<br>'''Стихийные типы''' или просто ''типы'' — это свойства, присущие покемонам и их приёмам, которые влияют на эффективность приёмов в боях. На момент выхода девятого поколения существует 19 типов, из которых 18 являются обычными, а один — особым (звёздный тип).<br>'''[[Стихийные типы|Больше информации...]]'''}}
+
+{{Блок заглавной 2
+|Цвет = gray
+|Заголовок='''Случайная статья'''
+|Содержимое=<div class="mp-logo">[[Файл:RandomArticleImage.png|link=Special:RandomInCategory/Покемоны|Нажми!|center|100px|class=rail-module-randpage]]</div>
+}}
+
+{{Блок заглавной 2
+|Цвет = gray
+|Заголовок='''Партнёрство'''
+|Содержимое=<div class="mp-logo">[https://confederation.fandom.com/ru https://confederation.fandom.com/ru/wiki/Special:FilePath/Site-logo.png]</div><br><center>'''[[w:c:ru.confederation|Конфедерация]]'''</center>
+}}
+
+{{Блок заглавной 2
+|Цвет = gray
+|Заголовок=Официальные страницы
+|Содержимое=<div style="display: flex; flex-wrap: wrap; justify-content: center; margin-bottom: 1em;">
+<div class="soc-logo-button">[https://www.pokemon.com/us Веб-сайт]</div>
+<div class="soc-logo-button">[https://www.pokemoncenter.com/ Магазин]</div>
+<div class="soc-logo-button">[https://www.facebook.com/Pokemon/ Facebook]</div>
+<div class="soc-logo-button">[https://www.youtube.com/user/Pokemon YouTube]</div>
+<div class="soc-logo-button">[https://twitter.com/pokemon Twitter]</div>
+<div class="soc-logo-button">[https://www.instagram.com/pokemon/ Instagram]</div>
+<div class="soc-logo-button">[https://www.pinterest.com/pokemon/ Pinterest]</div>
+</div>}}
+<mainpage-endcolumn />
+{{Clear}}
+{{Блок заглавной 2
+|Цвет = gray
+|Заголовок='''[[w:c:ru.otaku|Альянс Отаку]] · другие вики'''
+|Содержимое=<center>{{w:Альянс Отаку/актуальное}}
+<div><span style="display: inline-block; padding: 0 .1em; background-image: linear-gradient(to top,rgba(var(--theme-accent-color--rgb),.15) 54%,#0000 54%,#0000 100%);line-height: 1.4;font-size: 16px;margin: .5rem 0;">'''Случайные вики'''</span></div>
+<span class="mp-randwiki">{{w:Альянс Отаку/Рандомная вики}}</span>
+<div class="mw-collapsible mw-collapsed" data-expandtext="Показать" data-collapsetext="Скрыть">
+<div><span style="display: inline-block; padding: 0 .1em; background-image: linear-gradient(to top,rgba(var(--theme-accent-color--rgb),.15) 54%,#0000 54%,#0000 100%);line-height: 1.4;font-size: 16px;margin: .5rem 0;">'''Все википроекты'''</span></div><div class="mw-collapsible-content">{{w:Альянс Отаку/все вики}}</div></div>
+</center><span style="font-size: 80%;">[[{{FULLURL:w:c:community:Template:Альянс Отаку}} Шаблон]]</span>
+}}
+
+<div class="mp-banner"></div>
+{{Интервики заглавной}}
+[[Категория:Обзор|*]]
