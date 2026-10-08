@@ -1,0 +1,93 @@
+<div class="pedia">
+<div class="pedia-card">
+<div class="pedia-welcome">
+<div class="pedia-welcome__title"><span class="ph-bold ph-hand-waving"></span>Приветствуем вас!</div>
+<div class="pedia-welcome__text">Телепедия — свободная энциклопедия о телевидении: телеканалы и передачи, вещатели и их история, эфирное оформление и техника вещания. Всё это годами собирают и уточняют сами читатели, и присоединиться может любой зарегистрированный участник.<br>Нашли неточность или знаете больше — дополните статью или создайте новую прямо сейчас.</div>
+<div class="pedia-welcome__actions"><span class="pedia-btn pedia-btn--primary"><span class="ph-bold ph-plus-circle"></span>[[Служебная:CreatePage|Создать статью]]</span></div>
+</div>
+<div class="pedia-stats">
+<div class="pedia-stat"><span class="pedia-stat__num">{{NUMBEROFARTICLES}}</span><span class="pedia-stat__label">[[Служебная:Все страницы|{{PLURAL:{{NUMBEROFARTICLES}}|статья|статьи|статей}}]]</span></div>
+<div class="pedia-stat"><span class="pedia-stat__num">{{NUMBEROFFILES}}</span><span class="pedia-stat__label">[[Служебная:Новые файлы|{{PLURAL:{{NUMBEROFFILES}}|файл|файла|файлов}}]]</span></div>
+<div class="pedia-stat"><span class="pedia-stat__num">{{NUMBEROFACTIVEUSERS}}</span><span class="pedia-stat__label">[[Служебная:Список участников|{{PLURAL:{{NUMBEROFACTIVEUSERS}}|активный участник|активных участника|активных участников}}]]</span></div>
+<div class="pedia-stat"><span class="pedia-stat__num">{{NUMBEROFEDITS}}</span><span class="pedia-stat__label">[[Служебная:Свежие правки|{{PLURAL:{{NUMBEROFEDITS}}|правка|правки|правок}}]]</span></div>
+</div>
+</div>
+<div class="pedia-quick">
+<div class="pedia-quick__item"><span class="ph-bold ph-clock"></span><span class="pedia-quick__label">[[Служебная:Свежие правки|Свежие правки]]</span></div>
+<div class="pedia-quick__item"><span class="ph-bold ph-question"></span><span class="pedia-quick__label">[https://community.fandom.com/ru/wiki/Справка:Содержание Справка]</span></div>
+<div class="pedia-quick__item"><span class="ph-bold ph-scroll"></span><span class="pedia-quick__label">[[Project:Правила|Правила]]</span></div>
+<div class="pedia-quick__item"><span class="ph-bold ph-dice-six"></span><span class="pedia-quick__label">[[Служебная:Случайная страница|Случайная статья]]</span></div>
+</div>
+<div class="pedia-section">
+<div class="pedia-section__title">Куда отправимся?</div>
+<div class="pedia-nav">
+<div class="pedia-nav__item"><span class="pedia-nav__icon" style="background-color:#a855f7;"><span class="ph-bold ph-television-simple"></span></span><span class="pedia-nav__body"><span class="pedia-nav__title">[[:Категория:Телеканалы|Телеканалы]]</span><span class="pedia-nav__count">{{PAGESINCAT:Телеканалы}} {{PLURAL:{{PAGESINCAT:Телеканалы}}|статья|статьи|статей}}</span></span></div>
+<div class="pedia-nav__item"><span class="pedia-nav__icon" style="background-color:#ec4899;"><span class="ph-bold ph-play-circle"></span></span><span class="pedia-nav__body"><span class="pedia-nav__title">[[:Категория:Телепередачи|Телепередачи]]</span><span class="pedia-nav__count">{{PAGESINCAT:Телепередачи}} {{PLURAL:{{PAGESINCAT:Телепередачи}}|статья|статьи|статей}}</span></span></div>
+<div class="pedia-nav__item"><span class="pedia-nav__icon" style="background-color:#f97316;"><span class="ph-bold ph-calendar-blank"></span></span><span class="pedia-nav__body"><span class="pedia-nav__title">[[:Категория:Телегиды|Телегиды]]</span><span class="pedia-nav__count">{{PAGESINCAT:Телегиды}} {{PLURAL:{{PAGESINCAT:Телегиды}}|статья|статьи|статей}}</span></span></div>
+<div class="pedia-nav__item"><span class="pedia-nav__icon" style="background-color:#14b8a6;"><span class="ph-bold ph-buildings"></span></span><span class="pedia-nav__body"><span class="pedia-nav__title">[[:Категория:Телекомпании|Телекомпании]]</span><span class="pedia-nav__count">{{PAGESINCAT:Телекомпании}} {{PLURAL:{{PAGESINCAT:Телекомпании}}|статья|статьи|статей}}</span></span></div>
+<div class="pedia-nav__item"><span class="pedia-nav__icon" style="background-color:#0ea5e9;"><span class="ph-bold ph-wave-sine"></span></span><span class="pedia-nav__body"><span class="pedia-nav__title">[[:Категория:Частотные планы|Частотные планы]]</span><span class="pedia-nav__count">{{PAGESINCAT:Частотные планы}} {{PLURAL:{{PAGESINCAT:Частотные планы}}|статья|статьи|статей}}</span></span></div>
+<div class="pedia-nav__item"><span class="pedia-nav__icon" style="background-color:#8b5cf6;"><span class="ph-bold ph-circuitry"></span></span><span class="pedia-nav__body"><span class="pedia-nav__title">[[:Категория:Технологии телевидения|Технологии телевидения]]</span><span class="pedia-nav__count">{{PAGESINCAT:Технологии телевидения}} {{PLURAL:{{PAGESINCAT:Технологии телевидения}}|статья|статьи|статей}}</span></span></div>
+<div class="pedia-nav__item"><span class="pedia-nav__icon" style="background-color:#ef4444;"><span class="ph-bold ph-sparkle"></span></span><span class="pedia-nav__body"><span class="pedia-nav__title">[[:Категория:События в телевидении|События в телевидении]]</span><span class="pedia-nav__count">{{PAGESINCAT:События в телевидении}} {{PLURAL:{{PAGESINCAT:События в телевидении}}|статья|статьи|статей}}</span></span></div>
+<div class="pedia-nav__item"><span class="pedia-nav__icon" style="background-color:#f59e0b;"><span class="ph-bold ph-film-reel"></span></span><span class="pedia-nav__body"><span class="pedia-nav__title">[[:Категория:История телевидения|История телевидения]]</span><span class="pedia-nav__count">{{PAGESINCAT:История телевидения}} {{PLURAL:{{PAGESINCAT:История телевидения}}|статья|статьи|статей}}</span></span></div>
+<div class="pedia-nav__item"><span class="pedia-nav__icon" style="background-color:#64748b;"><span class="ph-bold ph-list-bullets"></span></span><span class="pedia-nav__body"><span class="pedia-nav__title">[[:Категория:Списки|Списки]]</span><span class="pedia-nav__count">{{PAGESINCAT:Списки}} {{PLURAL:{{PAGESINCAT:Списки}}|статья|статьи|статей}}</span></span></div>
+</div>
+</div>
+<div class="pedia-cols">
+<div class="pedia-col">
+<div class="pedia-card">
+<div class="pedia-card__head"><span class="ph-bold ph-trend-up"></span>Новости</div>
+{{Заглавная/Новость-1}}{{Заглавная/Новость-2}}{{Заглавная/Новость-3}}
+<div class="pedia-news__more">[https://t.me/tvpedia Остальные новости]</div>
+</div>
+<div class="pedia-card">
+<div class="pedia-card__head"><span class="ph-bold ph-pencil-simple-line"></span>Блоги</div>
+<div class="pedia-card__body pedia-blogs"><bloglist count="3" type="plain" timestamp="true" order="date"></bloglist></div>
+<div class="pedia-news__more">[[Служебная:CreateBlogPage|Написать запись]][[Блог:Recent posts|Остальные записи]]</div>
+</div>
+<div class="pedia-card">
+<div class="pedia-card__head"><span class="ph-bold ph-hand-heart"></span>Хотите помочь?</div>
+<div class="pedia-card__body pedia-tips">
+<div class="pedia-tips__item"><span class="pedia-tips__q">Начните с сообщества</span><span class="pedia-sub">На странице [[Служебная:Сообщество|сообщества]] собраны задания для новичков и подсказки, как сделать первые правки.</span></div>
+<div class="pedia-tips__item"><span class="pedia-tips__q">Дополните начатое</span><span class="pedia-sub">Загляните в [[:Категория:Статьи, которые находятся в разработке|незавершённые статьи]] или заведите одну из [[Служебная:Требуемые страницы|недостающих]].</span></div>
+<div class="pedia-tips__item"><span class="pedia-tips__q">Не бойтесь ошибиться</span><span class="pedia-sub">Любую правку можно улучшить или откатить, поэтому пробовать не страшно — так начинали все.</span></div>
+<div class="pedia-help">
+<div class="pedia-help__qr">[[File:Site-teleradiopedia-bot-qr.png|104px]]</div>
+<div class="pedia-help__text"><span class="pedia-tips__q">Всё ещё не решаетесь?</span><span class="pedia-sub">Напишите нам в Telegram через бота [https://t.me/andykovtun_bot @andykovtun_bot] — укажите на ошибку в статье или предложите идею для вики. Рядом QR-код на него: нажмите на картинку, чтобы увеличить.</span></div>
+</div>
+</div>
+</div>
+</div>
+<div class="pedia-col">
+<div class="pedia-card">
+<div class="pedia-card__head"><span class="ph-bold ph-shield-star"></span>Администрация</div>
+<div class="pedia-card__body pedia-list">
+<div class="pedia-sub">Напишите на стену обсуждения тому, чья тема ближе к вашему вопросу.</div>
+<div class="pedia-row pedia-row--avatar">{{User Avi|Gulp'D|50|link=Стена обсуждения:Gulp'D}}<span class="pedia-row__body"><span class="pedia-row__title">[[Стена обсуждения:Gulp'D|Gulp'D]]</span><span class="pedia-tags"><span class="pedia-tag">Любой вопрос</span></span></span></div>
+<div class="pedia-row pedia-row--avatar pedia-row--gif">{{User Avi|HIHRAIM|50|link=Стена обсуждения:HIHRAIM}}<span class="pedia-row__body"><span class="pedia-row__title">[[Стена обсуждения:HIHRAIM|HIHRAIM]]</span><span class="pedia-tags"><span class="pedia-tag">Работа сайта</span><span class="pedia-tag">Шаблоны</span><span class="pedia-tag">Массовые правки</span></span></span></div>
+<div class="pedia-row pedia-row--avatar">{{User Avi|Vladislav1015|50|link=Стена обсуждения:Vladislav1015}}<span class="pedia-row__body"><span class="pedia-row__title">[[Стена обсуждения:Vladislav1015|Vladislav1015]]</span><span class="pedia-tags"><span class="pedia-tag">Спорные правки</span><span class="pedia-tag">Поведение участников</span></span></span></div>
+<div class="pedia-row pedia-row--avatar">{{User Avi|Mr. Kirchise|50|link=Стена обсуждения:Mr. Kirchise}}<span class="pedia-row__body"><span class="pedia-row__title">[[Стена обсуждения:Mr. Kirchise|Mr. Kirchise]]</span><span class="pedia-tags"><span class="pedia-tag">Спорные правки</span><span class="pedia-tag">Поведение участников</span></span></span></div>
+<div class="pedia-row pedia-row--avatar">{{User Avi|Staroswitsky|50|link=Стена обсуждения:Staroswitsky}}<span class="pedia-row__body"><span class="pedia-row__title">[[Стена обсуждения:Staroswitsky|Staroswitsky]]</span><span class="pedia-tags"><span class="pedia-tag">Спорные правки</span><span class="pedia-tag">Поведение участников</span></span></span></div>
+</div>
+</div>
+<div class="pedia-card">
+<div class="pedia-card__head"><span class="ph-bold ph-star"></span>Полезные ссылки</div>
+<div class="pedia-card__body pedia-list">
+<div class="pedia-row pedia-row--framed">https://radiopedia.fandom.com/ru/wiki/Special:FilePath/Site-logo.png<span class="pedia-row__body"><span class="pedia-row__title">[[w:c:ru.radiopedia|Радиопедия]]</span><span class="pedia-sub">Свободная энциклопедия о радио на основе Телепедии</span></span></div>
+<div class="pedia-row">https://lub.fandom.com/ru/wiki/Special:FilePath/Site-logo.png<span class="pedia-row__body"><span class="pedia-row__title">[[w:c:ru.lub|Интепедия]]</span><span class="pedia-sub">Википроект о сфере любительского телевидения</span></span></div>
+<div class="pedia-row">[[File:Старый Телевизор лого.jpg|45px|link=]]<span class="pedia-row__body"><span class="pedia-row__title">[https://www.staroetv.su/ Старый Телевизор]</span><span class="pedia-sub">Сайт и форум по архивным записям, где также выпускаются качественные статьи о теле- и радиовещании</span></span></div>
+<div class="pedia-row">[[File:Утерянные медиа лого.svg|45px|link=]]<span class="pedia-row__body"><span class="pedia-row__title">[https://lostmediawiki.ru/wiki/Заглавная_страница Утерянные медиа Вики]</span><span class="pedia-sub">Проект, посвящённый поиску и документированию утерянных медиа</span></span></div>
+<div class="pedia-row">https://telehist.fandom.com/ru/wiki/Special:FilePath/Site-logo.png<span class="pedia-row__body"><span class="pedia-row__title">[[w:c:ru.telehist|Энциклопедия теледизайна]]</span><span class="pedia-sub">Новый дом для всего оформления телеканалов</span></span></div>
+<div class="pedia-row pedia-row--framed">https://faketvandradio.fandom.com/ru/wiki/Special:FilePath/Site-logo.png<span class="pedia-row__body"><span class="pedia-row__title">[[w:c:ru.faketvandradio|Фейковые телеканалы и радиостанции вики]]</span><span class="pedia-sub">Вики о вымышленных телеканалах и радиостанциях</span></span></div>
+<div class="pedia-row">[[File:Архив расписаний лого.jpeg|45px|link=]]<span class="pedia-row__body"><span class="pedia-row__title">[http://tvp.netcollect.ru/ Архив расписаний передач телеканалов и радио]</span><span class="pedia-sub">Программы передач телеканалов и радиостанций со всего мира, начиная с 1924 года</span></span></div>
+<div class="pedia-row">[[File:Victor City лого.png|45px|link=]]<span class="pedia-row__body"><span class="pedia-row__title">[https://vcfm.ru/ Victor City]</span><span class="pedia-sub">Портал по эфирному вещанию</span></span></div>
+<div class="pedia-row">[[File:LyngSat лого.png|45px|link=]]<span class="pedia-row__body"><span class="pedia-row__title">[https://www.lyngsat.com/ LyngSat]</span><span class="pedia-sub">Популярный англоязычный сайт с актуальной информацией по спутниковым транспондерам</span></span></div>
+</div>
+</div>
+{{w:CSW}}
+</div>
+</div>
+</div>
+__NOTOC__
+[[en:TeleRadioPedia]]
+[[pt-br:Wiki Báu da Mídia:Página principal]]
+[[uk:Телепедія]]
