@@ -1,0 +1,118 @@
+<div class="gp-main">
+<div class="gp-top">
+<div class="gp-hero">
+<div class="gp-hero__title">Glitch Productions Вики</div>
+<div class="gp-hero__text">Вики о лицах, стоящих за культовыми мультсериалами революционной инди-студии анимации: создателях, аниматорах, актёрах оригинальной и русской озвучки и студиях-партнёрах. Статьи, которые раньше повторялись на вики отдельных сериалов, собраны здесь в одном месте.</div>
+<div class="gp-actions"><span class="gp-btn gp-btn--primary">[[Служебная:CreatePage|Создать статью]]</span><span class="gp-btn">[[Служебная:Случайная страница|Случайная статья]]</span></div>
+</div>
+<div class="gp-stats">
+<div class="gp-stat"><span class="gp-stat__label">[[Служебная:Все страницы|{{PLURAL:{{NUMBEROFARTICLES:R}}|статья|статьи|статей}}]]</span><span class="gp-stat__num">{{NUMBEROFARTICLES}}</span></div>
+<div class="gp-stat"><span class="gp-stat__label">[[Служебная:Новые файлы|{{PLURAL:{{NUMBEROFFILES:R}}|файл|файла|файлов}}]]</span><span class="gp-stat__num">{{NUMBEROFFILES}}</span></div>
+<div class="gp-stat"><span class="gp-stat__label">[[Служебная:Свежие правки|{{PLURAL:{{NUMBEROFEDITS:R}}|правка|правки|правок}}]]</span><span class="gp-stat__num">{{NUMBEROFEDITS}}</span></div>
+<div class="gp-stat"><span class="gp-stat__label">[[Служебная:Список участников|{{PLURAL:{{NUMBEROFACTIVEUSERS:R}}|активный участник|активных участника|активных участников}}]]</span><span class="gp-stat__num">{{NUMBEROFACTIVEUSERS}}</span></div>
+</div>
+</div>
+<div class="gp-section">
+<div class="gp-head"><span class="gp-head__title">Сериалы студии</span><span class="gp-head__note">в порядке начала производства</span></div>
+<div class="gp-shows">
+<div class="gp-show"><div class="gp-show__cover">[[Файл:Обложка Meta Runner.png|640px|link=]]<span class="gp-show__logo">[[Файл:Логотип Meta Runner.png|320px|link=]]</span></div><div class="gp-show__body"><span class="gp-show__title">{{#ifexist:Категория:Команда сериала «Meta Runner»|[[:Категория:Команда сериала «Meta Runner»|Meta Runner]]|Meta Runner}}</span>{{#ifexist:Категория:Команда сериала «Meta Runner»|<span class="gp-show__meta">{{PAGESINCAT:Команда сериала «Meta Runner»}} {{PLURAL:{{PAGESINCAT:Команда сериала «Meta Runner»|R}}|статья|статьи|статей}} о команде</span>}}<span class="gp-show__links">[https://www.glitchprod.com/meta-runner Сайт сериала]</span></div></div>
+<div class="gp-show"><div class="gp-show__cover">[[Файл:Обложка Sunset Paradise.png|640px|link=]]<span class="gp-show__logo">[[Файл:Логотип Sunset Paradise.png|320px|link=]]</span></div><div class="gp-show__body"><span class="gp-show__title">{{#ifexist:Категория:Команда сериала «Sunset Paradise»|[[:Категория:Команда сериала «Sunset Paradise»|Sunset Paradise]]|Sunset Paradise}}</span>{{#ifexist:Категория:Команда сериала «Sunset Paradise»|<span class="gp-show__meta">{{PAGESINCAT:Команда сериала «Sunset Paradise»}} {{PLURAL:{{PAGESINCAT:Команда сериала «Sunset Paradise»|R}}|статья|статьи|статей}} о команде</span>}}<span class="gp-show__links">[https://www.glitchprod.com/sunset-paradise Сайт сериала]</span></div></div>
+<div class="gp-show"><div class="gp-show__cover">[[Файл:Обложка Дроны-Убийцы.jpg|640px|link=]]<span class="gp-show__logo">[[Файл:Логотип Дроны-Убийцы.png|320px|link=]]</span></div><div class="gp-show__body"><span class="gp-show__title">{{#ifexist:Категория:Команда сериала «Дроны-Убийцы»|[[:Категория:Команда сериала «Дроны-Убийцы»|Дроны-Убийцы]]|Дроны-Убийцы}}</span>{{#ifexist:Категория:Команда сериала «Дроны-Убийцы»|<span class="gp-show__meta">{{PAGESINCAT:Команда сериала «Дроны-Убийцы»}} {{PLURAL:{{PAGESINCAT:Команда сериала «Дроны-Убийцы»|R}}|статья|статьи|статей}} о команде</span>}}<span class="gp-show__links">[[w:c:ru.murderdrones|Вики сериала]][https://www.glitchprod.com/murder-drones Сайт сериала]</span></div></div>
+<div class="gp-show"><div class="gp-show__cover">[[Файл:Обложка Удивительный Цифровой Цирк.jpg|640px|link=]]<span class="gp-show__logo">[[Файл:Логотип Удивительный Цифровой Цирк.png|320px|link=]]</span></div><div class="gp-show__body"><span class="gp-show__title">{{#ifexist:Категория:Команда сериала «Удивительный Цифровой Цирк»|[[:Категория:Команда сериала «Удивительный Цифровой Цирк»|Удивительный Цифровой Цирк]]|Удивительный Цифровой Цирк}}</span>{{#ifexist:Категория:Команда сериала «Удивительный Цифровой Цирк»|<span class="gp-show__meta">{{PAGESINCAT:Команда сериала «Удивительный Цифровой Цирк»}} {{PLURAL:{{PAGESINCAT:Команда сериала «Удивительный Цифровой Цирк»|R}}|статья|статьи|статей}} о команде</span>}}<span class="gp-show__links">[[w:c:ru.tadc|Вики сериала]][https://www.glitchprod.com/digital-circus Сайт сериала]</span></div></div>
+<div class="gp-show"><div class="gp-show__cover">[[Файл:Обложка Ослепительный Район.jpg|640px|link=]]<span class="gp-show__logo">[[Файл:Логотип Ослепительный Район.png|320px|link=]]</span></div><div class="gp-show__body"><span class="gp-show__title">{{#ifexist:Категория:Команда сериала «Ослепительный Район»|[[:Категория:Команда сериала «Ослепительный Район»|Ослепительный Район]]|Ослепительный Район}}</span>{{#ifexist:Категория:Команда сериала «Ослепительный Район»|<span class="gp-show__meta">{{PAGESINCAT:Команда сериала «Ослепительный Район»}} {{PLURAL:{{PAGESINCAT:Команда сериала «Ослепительный Район»|R}}|статья|статьи|статей}} о команде</span>}}<span class="gp-show__links">[[w:c:ru.gaslight-district|Вики сериала]][https://www.glitchprod.com/gaslight-district Сайт сериала]</span></div></div>
+<div class="gp-show"><div class="gp-show__cover">[[Файл:Обложка Рыцари Гвиневры.jpg|640px|link=]]<span class="gp-show__logo">[[Файл:Логотип Рыцари Гвиневры.png|320px|link=]]</span></div><div class="gp-show__body"><span class="gp-show__title">{{#ifexist:Категория:Команда сериала «Рыцари Гвиневры»|[[:Категория:Команда сериала «Рыцари Гвиневры»|Рыцари Гвиневры]]|Рыцари Гвиневры}}</span>{{#ifexist:Категория:Команда сериала «Рыцари Гвиневры»|<span class="gp-show__meta">{{PAGESINCAT:Команда сериала «Рыцари Гвиневры»}} {{PLURAL:{{PAGESINCAT:Команда сериала «Рыцари Гвиневры»|R}}|статья|статьи|статей}} о команде</span>}}<span class="gp-show__links">[[w:c:ru.knights-of-guinevere|Вики сериала]][https://www.glitchprod.com/knights-of-guinevere Сайт сериала]</span></div></div>
+<div class="gp-show"><div class="gp-show__cover">[[Файл:Обложка Lackadaisy.webp|640px|link=]]<span class="gp-show__logo">[[Файл:Логотип Lackadaisy.webp|320px|link=]]</span></div><div class="gp-show__body"><span class="gp-show__title">{{#ifexist:Категория:Команда сериала «Lackadaisy»|[[:Категория:Команда сериала «Lackadaisy»|Lackadaisy]]|Lackadaisy}}</span>{{#ifexist:Категория:Команда сериала «Lackadaisy»|<span class="gp-show__meta">{{PAGESINCAT:Команда сериала «Lackadaisy»}} {{PLURAL:{{PAGESINCAT:Команда сериала «Lackadaisy»|R}}|статья|статьи|статей}} о команде</span>}}<span class="gp-show__meta">Сериал под лейблом Glitch Presents</span><span class="gp-show__links">[[w:c:ru.lackadaisy|Вики сериала]][https://www.glitchprod.com/lackadaisy Сайт сериала]</span></div></div>
+<div class="gp-show"><div class="gp-show__cover">[[Файл:Обложка Геймовёрс.jpg|640px|link=]]<span class="gp-show__logo">[[Файл:Логотип Геймовёрс.png|320px|link=]]</span></div><div class="gp-show__body"><span class="gp-show__title">{{#ifexist:Категория:Команда сериала «Геймовёрс»|[[:Категория:Команда сериала «Геймовёрс»|Геймовёрс]]|Геймовёрс}}</span>{{#ifexist:Категория:Команда сериала «Геймовёрс»|<span class="gp-show__meta">{{PAGESINCAT:Команда сериала «Геймовёрс»}} {{PLURAL:{{PAGESINCAT:Команда сериала «Геймовёрс»|R}}|статья|статьи|статей}} о команде</span>}}<span class="gp-show__links">[[w:c:ru.gameoverse|Вики сериала]][https://www.glitchprod.com/gameoverse Сайт сериала]</span></div></div>
+</div>
+</div>
+<div class="gp-grid">
+<div class="gp-col">
+<div class="gp-card">
+<div class="gp-card__head">Кто делает сериалы</div>
+<div class="gp-card__body">
+<div class="gp-roles">
+<div class="gp-role"><span class="gp-role__title">[[:Категория:Руководство|Руководство]]</span><span class="gp-role__desc">Основатели, шоураннеры, продюсеры</span></div>
+<div class="gp-role"><span class="gp-role__title">[[:Категория:Сценаристы|Сценаристы]]</span><span class="gp-role__desc">Сюжеты, сценарии и диалоги</span></div>
+<div class="gp-role"><span class="gp-role__title">[[:Категория:Режиссёры|Режиссёры]]</span><span class="gp-role__desc">Постановка серий</span></div>
+<div class="gp-role"><span class="gp-role__title">[[:Категория:Художественный отдел|Художественный отдел]]</span><span class="gp-role__desc">Арт-директора, концепт-художники, дизайнеры</span></div>
+<div class="gp-role"><span class="gp-role__title">[[:Категория:Раскадровщики|Раскадровщики]]</span><span class="gp-role__desc">Раскадровки и аниматики</span></div>
+<div class="gp-role"><span class="gp-role__title">[[:Категория:Анимация|Анимация]]</span><span class="gp-role__desc">Аниматоры, лейаут, клинап, эффекты</span></div>
+<div class="gp-role"><span class="gp-role__title">[[:Категория:3D-производство|3D-производство]]</span><span class="gp-role__desc">Моделирование, риггинг, текстуры, свет</span></div>
+<div class="gp-role"><span class="gp-role__title">[[:Категория:Монтажёры|Монтажёры]]</span><span class="gp-role__desc">Монтаж серий и трейлеров</span></div>
+<div class="gp-role"><span class="gp-role__title">[[:Категория:Музыка и звук|Музыка и звук]]</span><span class="gp-role__desc">Композиторы и звукорежиссёры</span></div>
+<div class="gp-role"><span class="gp-role__title">[[:Категория:Озвучивание|Озвучивание]]</span><span class="gp-role__desc">Актёры оригинальной озвучки, кастинг</span></div>
+<div class="gp-role"><span class="gp-role__title">[[:Категория:Русский дубляж|Русский дубляж]]</span><span class="gp-role__desc">Актёры, режиссёры дубляжа, переводчики</span></div>
+<div class="gp-role"><span class="gp-role__title">[[:Категория:Актёры в кадре|Актёры в кадре]]</span><span class="gp-role__desc">Реальные версии персонажей, реклама</span></div>
+</div>
+<div class="gp-chips gp-card__more"><span class="gp-chip gp-chip--more">[[:Категория:Люди по должностям|Все должности]]</span></div>
+</div>
+</div>
+<div class="gp-card">
+<div class="gp-card__head">Вне студии</div>
+<div class="gp-card__body">
+<div class="gp-card__text">Ютуберы, музыканты и авторы, которые появлялись в сериалах или работали со студией.</div>
+<div class="gp-chips"><span class="gp-chip">[[:Категория:Ютуберы и стримеры|Ютуберы и стримеры]]<span class="gp-chip__count">{{PAGESINCAT:Ютуберы и стримеры}}</span></span><span class="gp-chip">[[:Категория:Исполнители и музыканты|Исполнители и музыканты]]<span class="gp-chip__count">{{PAGESINCAT:Исполнители и музыканты}}</span></span><span class="gp-chip">[[:Категория:Комики|Комики]]<span class="gp-chip__count">{{PAGESINCAT:Комики}}</span></span><span class="gp-chip">[[:Категория:Писатели|Писатели]]<span class="gp-chip__count">{{PAGESINCAT:Писатели}}</span></span></div>
+<div class="gp-card__text">Люди по странам:</div>
+<div class="gp-chips"><span class="gp-chip">[[:Категория:Люди из США|США]]<span class="gp-chip__count">{{PAGESINCAT:Люди из США}}</span></span><span class="gp-chip">[[:Категория:Люди из России|Россия]]<span class="gp-chip__count">{{PAGESINCAT:Люди из России}}</span></span><span class="gp-chip">[[:Категория:Люди из Австралии|Австралия]]<span class="gp-chip__count">{{PAGESINCAT:Люди из Австралии}}</span></span><span class="gp-chip">[[:Категория:Люди из Канады|Канада]]<span class="gp-chip__count">{{PAGESINCAT:Люди из Канады}}</span></span><span class="gp-chip">[[:Категория:Люди из Филиппин|Филиппины]]<span class="gp-chip__count">{{PAGESINCAT:Люди из Филиппин}}</span></span><span class="gp-chip">[[:Категория:Люди из Великобритании|Великобритания]]<span class="gp-chip__count">{{PAGESINCAT:Люди из Великобритании}}</span></span><span class="gp-chip gp-chip--more">[[:Категория:Люди по странам|Все страны]]</span></div>
+</div>
+</div>
+<div class="gp-card">
+<div class="gp-card__head">Как помочь вики</div>
+<div class="gp-card__body gp-rows">
+<div class="gp-row"><span class="gp-row__body"><span class="gp-row__title">Прочитайте правила</span><span class="gp-row__sub">[[Glitch Productions Вики:Правила|Общие правила]] обязательны для всех: поведение, оформление статей, блокировки и защита страниц.</span></span></div>
+<div class="gp-row"><span class="gp-row__body"><span class="gp-row__title">Пишите о людях бережно</span><span class="gp-row__sub">Почти все статьи вики — о живых людях. [[Glitch Productions Вики:Статьи о реальных людях|Отдельные правила]] требуют нейтральности и источников и запрещают личные данные и слухи.</span></span></div>
+<div class="gp-row"><span class="gp-row__body"><span class="gp-row__title">Дополните начатое</span><span class="gp-row__sub">Загляните в [[:Категория:Незавершённые статьи|незавершённые статьи]]. Должности подтверждайте титрами и официальными публикациями.</span></span></div>
+<div class="gp-row gp-bot"><span class="gp-bot__qr">[[Файл:Site-glitchwiki-bot-qr.png|96px|link=https://t.me/glitchwiki_ru_bot|QR-код Telegram-бота]]</span><span class="gp-row__body"><span class="gp-row__title">Нашли ошибку или нарушение?</span><span class="gp-row__sub">Напишите Telegram-боту [https://t.me/glitchwiki_ru_bot @glitchwiki_ru_bot], чтобы сообщить об ошибке или нарушении либо предложить правку. Наведите камеру телефона на QR-код — он откроет бота.</span><span class="gp-bot__btn">[https://t.me/glitchwiki_ru_bot Написать]</span></span></div>
+</div>
+</div>
+</div>
+<div class="gp-col">
+<div class="gp-card">
+<div class="gp-card__head">Студии и организации</div>
+<div class="gp-card__body gp-rows">
+<div class="gp-row"><span class="gp-row__mark">[[Файл:GlitchNewLogo.webp|40px|link=УЦЦ/Glitch Productions]]</span><span class="gp-row__body"><span class="gp-row__title">[[УЦЦ/Glitch Productions|Glitch Productions]]</span><span class="gp-row__sub">Австралийская студия, создатель сериалов</span></span></div>
+<div class="gp-row"><span class="gp-row__mark">[[Файл:Logo.svg|40px|link=УЦЦ/NDRecords Production]]</span><span class="gp-row__body"><span class="gp-row__title">[[УЦЦ/NDRecords Production|NDRecords Production]]</span><span class="gp-row__sub">Российская студия дубляжа</span></span></div>
+<div class="gp-row"><span class="gp-row__mark">[[Файл:Studio_Meala.webp|40px|link=РГ/Studio Meala]]</span><span class="gp-row__body"><span class="gp-row__title">[[РГ/Studio Meala|Studio Meala]]</span><span class="gp-row__sub">Ирландская студия 2D-анимации</span></span></div>
+<div class="gp-row"><span class="gp-row__mark">[[Файл:SmallBu.jpeg|40px|link=SmallBu Animation Studio]]</span><span class="gp-row__body"><span class="gp-row__title">[[SmallBu Animation Studio|SmallBu Animation Studio]]</span><span class="gp-row__sub">Анимационный дуэт Алекса и Линдсей Смол-Бутера</span></span></div>
+<div class="gp-row"><span class="gp-row__mark">[[Файл:Screen Australia logo.png|40px|link=УЦЦ/Screen Australia]]</span><span class="gp-row__body"><span class="gp-row__title">[[УЦЦ/Screen Australia|Screen Australia]]</span><span class="gp-row__sub">Государственное агентство поддержки кино и ТВ</span></span></div>
+<div class="gp-chips gp-card__more"><span class="gp-chip gp-chip--more">[[:Категория:Студии|Все студии]]</span><span class="gp-chip gp-chip--more">[[:Категория:Организации|Все организации]]</span></div>
+</div>
+</div>
+<div class="gp-card gp-card--chats">
+<div class="gp-card__head">Чаты нашей вики</div>
+<div class="gp-card__body">
+<div class="gp-chats">
+<div class="gp-chat">[[Файл:Логотип Discord.png|144px|center|link=https://discord.gg/PBSzYUMSQ9|Discord]]<div class="gp-chat__btn">[https://discord.gg/PBSzYUMSQ9 Discord]</div></div>
+<div class="gp-chat">[[Файл:Логотип Telegram.png|144px|center|link=https://t.me/+V3voA8snJb4yNjQy|Telegram]]<div class="gp-chat__btn">[https://t.me/+V3voA8snJb4yNjQy Telegram]</div></div>
+</div>
+</div>
+</div>
+<div class="gp-card">
+<div class="gp-card__head">Администрация</div>
+<div class="gp-card__body gp-rows">
+<div class="gp-card__text">Напишите на стену обсуждения тому, чья тема ближе к вашему вопросу.</div>
+<div class="gp-row"><span class="gp-row__avatar"><span class="UserAvatarFetch"><span class="avi-thisUsername" style="display:none;">Skeleton Live</span><span class="avi-thisSize" style="display:none;">50</span><span class="avi-thisLink" style="display:none;">Стена обсуждения:Skeleton Live</span></span></span><span class="gp-row__body"><span class="gp-row__title">[[Стена обсуждения:Skeleton Live|Skeleton Live]]</span><span class="gp-tags"><span class="gp-tag">Любой вопрос</span></span></span></div>
+<div class="gp-row"><span class="gp-row__avatar"><span class="UserAvatarFetch"><span class="avi-thisUsername" style="display:none;">HIHRAIM</span><span class="avi-thisSize" style="display:none;">50</span><span class="avi-thisLink" style="display:none;">Стена обсуждения:HIHRAIM</span></span></span><span class="gp-row__body"><span class="gp-row__title">[[Стена обсуждения:HIHRAIM|HIHRAIM]]</span><span class="gp-tags"><span class="gp-tag">Работа сайта</span><span class="gp-tag">Шаблоны</span><span class="gp-tag">Массовые правки</span></span></span></div>
+</div>
+</div>
+<div class="gp-card">
+<div class="gp-card__head">Glitch в сети</div>
+<div class="gp-card__body">
+<div class="gp-card__text">Официальные страницы студии.</div>
+<div class="gp-links">
+<div class="gp-link">[https://www.glitchprod.com <span class="gp-link__text"><span class="gp-link__name">Сайт студии</span><span class="gp-link__handle">glitchprod.com</span></span>]</div>
+<div class="gp-link">[https://www.youtube.com/c/glitchprod <span class="gp-link__text"><span class="gp-link__name">YouTube</span><span class="gp-link__handle">GLITCH</span></span>]</div>
+<div class="gp-link">[https://twitter.com/glitch_prod <span class="gp-link__text"><span class="gp-link__name">X (Twitter)</span><span class="gp-link__handle">@glitch_prod</span></span>]</div>
+<div class="gp-link">[https://www.instagram.com/glitch_prod/ <span class="gp-link__text"><span class="gp-link__name">Instagram</span><span class="gp-link__handle">@glitch_prod</span></span>]</div>
+<div class="gp-link">[https://www.tiktok.com/@glitch_productions?lang=en <span class="gp-link__text"><span class="gp-link__name">TikTok</span><span class="gp-link__handle">@glitch_productions</span></span>]</div>
+<div class="gp-link">[https://bsky.app/profile/glitchprod.com <span class="gp-link__text"><span class="gp-link__name">Bluesky</span><span class="gp-link__handle">@glitchprod.com</span></span>]</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="gp-csw">{{w:CSW}}</div>
+</div>
+__NOTOC__
+[[Категория:Обзор]]
+[[uk:Вікі Glitch Productions]]
