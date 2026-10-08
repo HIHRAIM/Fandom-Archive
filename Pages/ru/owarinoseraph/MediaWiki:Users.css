@@ -1,0 +1,41 @@
+/* == Цветные ники, локальные аватары и баннеры. == */
+/* == За помощью можно обращаться к администрации вики, например, к HIHRAIM == */
+/* === Rinkashiki Tooka === */
+:is(.page-content,.page__right-rail,.article-with-rail)
+a[href$="Rinkashiki_Tooka"],
+a[href$="User:Rinkashiki_Tooka"] {
+    color:#A5B7F6 !important;
+    font-weight:bold !important;
+}
+
+/* === Milektor === */
+:is(.page-content,.page__right-rail,.article-with-rail)
+a[href$="Milektor"],
+a[href$="User:Milektor"] {
+    color:#A5B7F6 !important;
+    font-weight:bold !important;
+}
+
+/* === Viennese Sunset === */
+:is(.page-content,.page__right-rail,.article-with-rail)
+a[href$="Viennese_Sunset"],
+a[href$="User:Viennese_Sunset"] {
+    color:#8192D2 !important;
+    font-weight:bold !important;
+}
+
+/* === Долгоушечка === */
+:is(.page-content,.page__right-rail,.article-with-rail)
+a[href$="Долгоушечка"],
+a[href$="User:Долгоушечка"] {
+    color:#997dca !important;
+    font-weight:bold !important;
+}
+
+/* === HIHRAIM === */
+:is(.page-content,.page__right-rail,.article-with-rail)
+a[href$="HIHRAIM"],
+a[href$="User:HIHRAIM"] {
+	color:#8B00FF !important;
+	font-weight:bold !important;
+}
