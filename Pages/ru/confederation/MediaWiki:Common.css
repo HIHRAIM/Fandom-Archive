@@ -1,0 +1,489 @@
+/* == Импорты == */
+/* === Иконки и шрифты === */
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap');
+
+/* === Dev Wiki === */
+@import url("/load.php?mode=articles&only=styles&articles=u:dev:MediaWiki:BalancedSearch.css|u:dev:MediaWiki:UWAnimation.css|u:dev:MediaWiki:LocalNavExploreIcons.css|u:dev:MediaWiki:BalancedCategories.css");
+
+/* === Заглавная страница === */
+@import url("/load.php?mode=articles&only=styles&articles=u:ru.confederation:MediaWiki:Mainpage.css");
+
+/* === Шаблоны === */
+@import url("/load.php?mode=articles&only=styles&articles=u:ru.confederation:MediaWiki:Templates.css");
+
+/* ==== Участники ==== */
+@import url("/load.php?mode=articles&only=styles&articles=u:ru.confederation:MediaWiki:Users.css");
+
+/* === Профайлы === */
+@import url("/load.php?mode=articles&only=styles&articles=u:ru.confederation:MediaWiki:Profiles.css");
+
+/* == Общее оформление вики == */
+/* === Локальная навигация === */
+.fandom-community-header__image img {
+	transition:transform .3s ease-in-out;
+	filter:drop-shadow(0px 0px 0.1px #fff);
+}
+
+.fandom-community-header__image img:hover {
+	transform:scale(1.1);
+}
+
+.fandom-community-header__community-name.noto-emoji {
+	font-family:"Noto Color Emoji", sans-serif;
+	font-weight:bold;
+	font-size:24px;
+}
+
+.fandom-sticky-header__sitename.noto-emoji {
+	font-family:"Noto Color Emoji", sans-serif;
+}
+
+.main-container #UTCClock {
+	font-weight:700;
+	font-size:13px;
+	text-transform:uppercase;
+}
+
+/* === Рельса === */
+.rail-module {
+	background-color:var(--theme-body-background-color);
+	padding:1em;
+	border-radius:10px;
+}
+
+/* ==== Блок «RecentImages» в рельсе ==== */
+	text-indent:-9999px;
+	line-height:5px;
+	overflow:visible;
+	-webkit-box-orient:inherit;
+}
+
+.recent-images-module h2.wds-widget-frame__title::after {
+	content:"Последние изображения";
+	text-indent:0;
+	display:block;
+	line-height:initial;
+}
+
+.wds-widget-frame {
+	padding:0;
+	--widget-link-color:var(--theme-link-color);
+	--widget-link-color--hover:var(--theme-link-color--hover);
+}
+
+.wds-widget-frame__title {
+	background-image:linear-gradient(to top, var(--wds-midlight-color, rgba(var(--theme-accent-color--rgb), .15)) 54%, #0000 54%, #0000 100%);
+	--wds-midlight-color:rgba(var(--theme-link-color--rgb),0.1);
+}
+
+.card-image {
+	background-color:rgba(var(--theme-link-color--rgb),0.1);
+	border-radius:0;
+}
+
+.card-image img {
+	border:none;
+	border-radius:0;
+}
+
+.wds-card-vertical__image-container--hoverable:after {
+	border-radius:0;
+}
+
+.wds-text-card {
+	background-color:var(--theme-page-background-color--secondary) !important;
+	border-radius:0px;
+}
+
+.wds-widget-frame .alice-carousel__arrow {
+	background-color:var(--theme-page-background-color--secondary) !important;
+	border-radius:0px;
+}
+
+/* ==== Блок «Недавняя вики-деятельность» в рельсе ==== */
+#wikia-recent-activity #seemoreactivity-button {
+	display:none;
+}
+
+/* === Кастомизация полосы прокрутки === */
+/* ==== Браузеры на движке Webkit ==== */
+::-webkit-scrollbar {
+	width:13px;
+}
+
+::-webkit-scrollbar-track {
+	background:var(--theme-page-background-color--secondary);
+}
+
+::-webkit-scrollbar-thumb {
+	background:var(--theme-accent-color);
+	border-radius:2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background:var(--theme-accent-color--hover);
+}
+
+/* ==== Firefox ==== */
+:root {
+	scrollbar-color:var(--theme-link-color) var(--theme-background-color);
+	scrollbar-width:auto;
+}
+
+/* === Страницы кода === */
+.theme-fandomdesktop-dark .mw-content-ltr.mw-highlight-lines pre {
+	box-shadow:inset 2.75em 0 0 #232323;
+}
+
+.theme-fandomdesktop-light .mw-content-ltr.mw-highlight-lines pre {
+	box-shadow:inset 2.75em 0 0 #ebebeb;
+}
+
+.page-content pre {
+	border:0px;
+	border-radius:5px;
+}
+
+.theme-fandomdesktop-dark pre {
+	background-color:#141414;
+}
+
+.mw-parser-output pre {
+	word-break:break-all;
+	white-space:pre-wrap;
+}
+
+/* === Содержание === */
+.toc .toctitle h2 .wds-icon + .wds-icon {
+	display:none;
+}
+
+.toc ul li a {
+	color:var(--theme-page-text-color) !important;
+}
+
+/* === Сноски (частично взято с Викии Вики) === */
+.references {
+	background-color:var(--theme-page-background-color--secondary);
+	max-height:300px;
+	min-height:30px;
+	overflow:auto;
+	margin:5px !important;
+	padding:3px;
+	border-radius:8px;
+}
+
+.references::-webkit-scrollbar-track, .references::-webkit-scrollbar-thumb {
+	border-radius:8px !important;
+}
+
+/* === Кнопки === */
+.mw-ui-button.mw-ui-progressive:not(:disabled) {
+	background-color:#e21818;
+	color:#fff;
+	border-color:#e21818;
+}
+
+.mw-ui-button.mw-ui-progressive:not(:disabled):hover {
+	background-color:var(--theme-accent-color--hover);
+	border-color:var(--theme-accent-color--hover);
+}
+
+.page-side-tool {
+	border-radius:10px;
+	border:1px solid rgba(var(--theme-page-dynamic-color-1--rgb),0.3);
+	background-color:var(--theme-page-text-mix-color-95);
+}
+
+/* === Новостная лента === */
+h2.mcf-header {
+	color:var(--theme-page-text-color);
+	font-size:24px;
+	font-weight:700;
+	line-height:1.2;
+	margin-bottom:18px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+}
+
+.mcf-column {
+	display:flex;
+	flex-basis:32%;
+	flex-direction:column;
+	width:32%;
+	gap:12px;
+}
+
+.mcf-card {
+	border-radius:1em;
+	background-color:var(--theme-page-text-mix-color-95);
+	border:1px solid var(--theme-border-color);
+	box-sizing:border-box;
+	display:flex;
+	flex-direction:column;
+	overflow:hidden;
+	transition:transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mcf-card:hover {
+	transform:translateY(-10px);
+	box-shadow:0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.mcf-card-wiki-articles__header {
+	border-radius:0.7em;
+	margin:5px
+}
+
+.mcf-card-wiki-articles__item-link {
+	padding:10px;
+	transition:background .3s, border-radius .3s;
+}
+
+.mcf-card-wiki-articles__item-link:hover {
+	background:rgba(var(--theme-page-dynamic-color-1--rgb),0.1);
+	border-radius:1rem;
+}
+
+/* ==== Категории + интервики-ссылки (взято с Genshin Impact Вики) ==== */
+.page-header__categories {
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center;
+	gap:2px;
+	font-size:0;
+	margin-bottom:5px;
+}
+
+.page-header__categories-in, .CategorySelect.articlePage .container .categories .special-categories-label, .CategorySelect.articlePage.editMode .container .categories li.last .add {
+	display:none;
+}
+
+.page-header__categories > a, .page-footer__languages .wds-collapsible-panel__content a {
+	display:flex;
+	align-items:center;
+	background-color:var(--theme-page-text-mix-color-95);
+	border:1px solid rgba(var(--theme-page-dynamic-color-1--rgb),0.3);
+	border-radius:10px;
+	color:var(--theme-page-text-color);
+	font-size:12px;
+	line-height:1;
+	padding:0.6em 0.8em;
+	transition:background-color 0.3s;
+}
+
+.page-header__categories > a:before {
+	content:"#";
+	color:var(--theme-link-color);
+	padding-right:6px;
+}
+
+.page-header__categories > a:hover:before {
+	color:var(--theme-link-color--hover);
+}
+
+.page-header__categories > a:before {
+	content:"#";
+	color:var(--theme-link-color);
+	padding-right:6px;
+	transition:color 0.5s ease;
+}
+
+.page-header__categories-dropdown {
+	font-size:12px;
+}
+
+.page-header__categories > :last-child {
+	display:flex;
+	padding:0.6em 0.8em;
+}
+
+.page-header__categories .page-header__categories-dropdown {
+	display:inline-block;
+	padding:0.6em 0;
+}
+
+.page-header__languages .wds-dropdown__toggle, .page-header__variants .wds-dropdown__toggle {
+	border-radius:10px;
+}
+
+.CategorySelect.articlePage .container {
+	padding-right:0;
+}
+
+.CategorySelect.articlePage .container .categories {
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center;
+	gap:4px;
+}
+
+.CategorySelect.articlePage .container .categories li {
+	border:none;
+	margin:0;
+	padding:0;
+}
+
+.CategorySelect.articlePage .container .categories li a {
+	display:flex;
+	align-items:center;
+	background-color:var(--theme-page-text-mix-color-95);
+	border:1px solid rgba(var(--theme-page-dynamic-color-1--rgb),0.3);
+	border-radius:10px;
+	color:var(--theme-page-text-color);
+	font-size:12px;
+	line-height:1;
+	padding:0.6em 0.8em;
+	transition:background-color 0.3s;
+}
+
+.CategorySelect.articlePage .container .categories li a:before {
+	content:"#";
+	color:var(--theme-link-color);
+	padding-right:6px;
+	transition:color 0.5s ease;
+}
+
+.CategorySelect.articlePage .container .categories li a:hover:before {
+	color:var(--theme-link-color--hover);
+}
+
+.CategorySelect.articlePage .container .categories li.last .add {
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	height:26px;
+	width:26px;
+	background-color:var(--theme-page-text-mix-color-95);
+	border:1px solid rgba(var(--theme-page-dynamic-color-1--rgb),0.3);
+	border-radius:10px;
+	color:var(--theme-link-color);
+	font-size:0;
+	line-height:0;
+	padding:0;
+	transition:color 0.5s ease;
+}
+
+.CategorySelect.articlePage .container .categories li.last .add:before {
+	content:"+";
+	font-size:16px;
+}
+
+.CategorySelect.articlePage .container .categories li.last .add:hover:before {
+	color:var(--theme-link-color--hover);
+}
+
+.CategorySelect.articlePage.editMode .container .categories li.last input {
+	display:flex;
+	align-items:center;
+	height:28px;
+	background-color:var(--theme-page-text-mix-color-95);
+	border:1px solid rgba(var(--theme-page-dynamic-color-1--rgb),0.3);
+	border-radius:10px;
+	font-size:12px;
+	line-height:1;
+	padding:0 16px;
+	margin-bottom:0;
+	transition:background-color 0.3s;
+}
+
+.CategorySelect.articlePage .hidden-categories-label {
+	float:none;
+	font-weight:500;
+	padding:10px 0;
+}
+
+.CategorySelect.articlePage .container div + .categories li {
+	border-right:1px solid var(--theme-border-color);
+	line-height:0.8;
+	margin:0 1px 4px 0;
+	padding-right:0.5em;
+}
+
+.CategorySelect.articlePage .container div + .categories li a {
+	background-color:inherit;
+	border:none;
+	color:var(--theme-link-color);
+	display:inherit;
+	font-size:0.8em;
+	padding:0;
+	transition:0.3s;
+}
+
+.CategorySelect.articlePage .container div + .categories li a:before {
+	content:normal;
+}
+
+.CategorySelect.articlePage .container div + .categories li a:hover {
+	background-color:inherit;
+	color:var(--theme-link-color--hover);
+}
+
+.CategorySelect.articlePage .container div + .categories li a:active {
+	background-color:inherit;
+}
+
+.page-footer__languages .wds-collapsible-panel__content {
+	gap:4px;
+	margin-left:0;
+}
+
+.page-footer__languages .wds-collapsible-panel__content a::before {
+	height:15px !important;
+	width:auto;
+}
+
+.page-footer__languages .wds-collapsible-panel__content a:last-child {
+	border-right:1px solid rgba(var(--theme-link-color--rgb), 0.3);
+}
+
+#mw-normal-catlinks {
+	font-size:0;
+}
+
+#mw-normal-catlinks ul {
+	display:flex;
+	flex-wrap:wrap;
+	gap:4px;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+#mw-normal-catlinks ul li {
+	margin:0;
+	padding:0;
+}
+
+#mw-normal-catlinks ul li a {
+	display:flex;
+	align-items:center;
+	background-color:var(--theme-page-text-mix-color-95);
+	border:1px solid rgba(var(--theme-page-dynamic-color-1--rgb),0.3);
+	border-radius:10px;
+	color:var(--theme-page-text-color);
+	font-size:12px;
+	line-height:1;
+	padding:0.6em 0.8em;
+	text-decoration:none;
+	transition:background-color 0.3s;
+	position:relative;
+}
+
+#mw-normal-catlinks ul li a::before {
+	content:"#";
+	color:var(--theme-link-color);
+	padding-right:6px;
+}
+
+.catlinks li {
+	border-left:none;
+}
+
+/* === Профайлы === */
+body.skin-fandomdesktop #userProfileApp .user-identity-header__actions .wds-button:hover,
+.modal-wrapper__header .modal-wrapper__cta-button:hover,
+.modal-wrapper__header .wds-is-square:hover {
+	background-color:var(--theme-accent-color--hover) !important;
+}
