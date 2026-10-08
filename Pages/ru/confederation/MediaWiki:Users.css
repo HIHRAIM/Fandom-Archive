@@ -1,0 +1,14 @@
+/* == Настройка оформления участников == */
+/* === Ники администрации вики === 
+:is(.page-content,.page__right-rail,.article-with-rail)
+a[href$="HIHRAIM"],
+a[href$="User:HIHRAIM"],
+:is(.page-content,.page__right-rail,.article-with-rail)
+a[href$="YD_STRIKER"],
+a[href$="User:YD_STRIKER"],
+:is(.page-content,.page__right-rail,.article-with-rail)
+a[href$="%C5%81irtuSH"],
+a[href$="User:%C5%81irtuSH"] {
+	color:var(--theme-link-color) !important;
+	font-weight:bold;
+} */
