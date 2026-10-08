@@ -1,0 +1,282 @@
+/* == Цветные ники, локальные аватары и баннеры. == */
+/* == За помощью можно обращаться к администрации вики, например, к HIHRAIM'у, или просто в чат Discord-сервера. == */
+/* === Max-88 === */
+.EntityHeader_header-details__-lQuR > [href$="Max-88"]:after {
+	color:#ffffff;
+	background-color:#AC0025;
+	border-radius:5px;
+	padding:1px 8px;
+	margin-left:7px;
+	font-size:12.5px;
+}
+
+.theme-fandomdesktop-dark .page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:Max-88"],
+.theme-fandomdesktop-dark .page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D1%86%D0%B0:Max-88"] {
+	color:#df0505 !important;
+	font-weight:bold !important;
+}
+
+.theme-fandomdesktop-light .page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:Max-88"],
+.theme-fandomdesktop-light .page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D1%86%D0%B0:Max-88"] {
+	color:#900020 !important;
+	font-weight:bold !important;
+}
+
+/* === Лори Лауд === */
+.theme-fandomdesktop-dark .page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:%D0%9B%D0%BE%D1%80%D0%B8_%D0%9B%D0%B0%D1%83%D0%B4"] {
+	color:#1E90FF !important;
+	text-shadow:0 0 5px rgba(0, 0, 139) !important;
+	font-weight:bold !important;
+}
+
+.theme-fandomdesktop-light .page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:%D0%9B%D0%BE%D1%80%D0%B8_%D0%9B%D0%B0%D1%83%D0%B4"] {
+	color:#004b94 !important;
+	font-weight:bold !important;
+}
+
+/* === Delen4ik === */
+.theme-fandomdesktop-dark .page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:Delen4ik"],
+.theme-fandomdesktop-dark .page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D1%86%D0%B0:Delen4ik"] {
+	color:#00a800 !important;
+	text-shadow:0 0 5px rgba(0, 0, 139) !important;
+	font-weight:bold !important;
+}
+
+.theme-fandomdesktop-light .page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:Delen4ik"],
+.theme-fandomdesktop-light .page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D1%86%D0%B0:Delen4ik"] {
+	color:#007000 !important;
+	font-weight:bold !important;
+}
+
+/* === ЖабкаИвизавр === */
+.theme-fandomdesktop-dark .page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:%D0%96%D0%B0%D0%B1%D0%BA%D0%B0%D0%98%D0%B2%D0%B8%D0%B7%D0%B0%D0%B2%D1%80"] {
+	color:#30D5C8 !important;
+	text-shadow:0 0 5px rgba(0, 0, 139) !important;
+	font-weight:bold !important;
+}
+
+.theme-fandomdesktop-light .page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:%D0%96%D0%B0%D0%B1%D0%BA%D0%B0%D0%98%D0%B2%D0%B8%D0%B7%D0%B0%D0%B2%D1%80"] {
+	color:#39a2a7 !important;
+	font-weight:bold !important;
+}
+
+/* === AkVoN === */
+.theme-fandomdesktop-dark .page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:AkVoN"] {
+	color:#c557ff !important;
+	font-weight:bold !important;
+}
+
+.theme-fandomdesktop-light .page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:AkVoN"] {
+	color:#9d00f0 !important;
+	font-weight:bold !important;
+}
+
+[class*=AkVoN].theme-fandomdesktop-dark .skin-fandomdesktop #userProfileApp {
+	--banner-ratio:45%;
+	--banner-image:url('https://static.wikia.nocookie.net/pokemon/images/f/f0/Inger.png/revision/latest?cb=20230219094330&path-prefix=ru');
+	--banner-bg-pos:center;
+}
+
+[class*=AkVoN].theme-fandomdesktop-light .skin-fandomdesktop #userProfileApp {
+	--banner-ratio:45%;
+	--banner-image:url('https://static.wikia.nocookie.net/pokemon/images/0/09/Real_akvon.png/revision/latest?cb=20230219094122&path-prefix=ru');
+	--banner-bg-pos:center;
+}
+
+/* === Axulie === */
+.page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:Axulie"],
+.page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D1%86%D0%B0:Axulie"] {
+	color:#FC1E91 !important;
+	font-weight:bold !important;
+}
+
+/* === MystyTheif === */
+.theme-fandomdesktop-dark .page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:MystyTheif"] {
+	color:#ffa500 !important;
+	font-weight:bold !important;
+}
+
+.theme-fandomdesktop-light .page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:MystyTheif"] {
+	color:#a86200 !important;
+	font-weight:bold !important;
+}
+
+/* === Ротомдекс === */
+.theme-fandomdesktop-dark .page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:%D0%A0%D0%BE%D1%82%D0%BE%D0%BC%D0%B4%D0%B5%D0%BA%D1%81"] {
+	color:#ff3333 !important;
+	font-weight:bold !important;
+}
+
+.theme-fandomdesktop-light .page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:%D0%A0%D0%BE%D1%82%D0%BE%D0%BC%D0%B4%D0%B5%D0%BA%D1%81"] {
+	color:#b80000 !important;
+	font-weight:bold !important;
+}
+
+/* === Владосик === */
+.theme-fandomdesktop-dark .page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:D0%92%D0%BB%D0%B0%D0%B4%D0%BE%D1%81%D0%B8%D0%BA"] {
+	color:#c66bff !important;
+	font-weight:bold !important;
+}
+
+.theme-fandomdesktop-light .page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:D0%92%D0%BB%D0%B0%D0%B4%D0%BE%D1%81%D0%B8%D0%BA"] {
+	color:#a311ff !important;
+	font-weight:bold !important;
+}
+
+/* === Я участник фандома === */
+.theme-fandomdesktop-dark .page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:%D0%AF_%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA_%D1%84%D0%B0%D0%BD%D0%B4%D0%BE%D0%BC%D0%B0"] {
+	color:#e6e6e6 !important;
+	font-weight:bold !important;
+}
+
+.theme-fandomdesktop-light .page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:%D0%AF_%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA_%D1%84%D0%B0%D0%BD%D0%B4%D0%BE%D0%BC%D0%B0"] {
+	color:#000000 !important;
+	font-weight:bold !important;
+}
+
+/* === Gardestalker === */
+.theme-fandomdesktop-dark .page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:Gardestalker"] {
+	color:#d0ecc7 !important;
+	font-weight:bold !important;
+}
+
+.theme-fandomdesktop-light .page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:Gardestalker"] {
+	color:#2aad00 !important;
+	font-weight:bold !important;
+}
+
+/* === Киприн В.В. === */
+.theme-fandomdesktop-dark .page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:%D0%9A%D0%B8%D0%BF%D1%80%D0%B8%D0%BD_%D0%92.%D0%92."] {
+	color:#3d47ff !important;
+	font-weight:bold !important;
+}
+
+.theme-fandomdesktop-light .page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:%D0%9A%D0%B8%D0%BF%D1%80%D0%B8%D0%BD_%D0%92.%D0%92."] {
+	color:#00008b !important;
+	font-weight:bold !important;
+}
+
+/* === HIHRAIM === */
+.EntityHeader_header-details__-lQuR > [href$="HIHRAIM"]:after {
+	color:#ffffff;
+	background-color:rgb(125, 20, 37);
+	border-radius:5px;
+	padding:1px 8px;
+	margin-left:7px;
+	font-size:12.5px;
+}
+
+.page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:HIHRAIM"] {
+	color:rgb(179, 28, 53) !important;
+	font-weight:bold !important;
+}
+
+.EntityHeader_header-details__-lQuR > [href$="HIHRAIM"]:after {
+	content:"Бюрократ";
+}
+
+[class*=HIHRAIM] #userProfileApp {
+	--theme-accent-color:rgb(179, 28, 53);
+	--theme-accent-color--hover:rgb(125, 20, 37);
+	--theme-accent-color--rgb:179, 28, 53;
+	--theme-link-color:rgb(179, 28, 53);
+	--theme-link-color--hover:rgb(125, 20, 37);
+	--theme-link-color--rgb:179, 28, 53;
+}
+
+[class*=HIHRAIM] #userProfileApp ul.user-identity-stats {
+	font-size:12px !important;
+	margin-top:10px !important;
+	margin-bottom:5px !important;
+}
+
+[class*=HIHRAIM].theme-fandomdesktop-dark #userProfileApp ul.user-identity-stats {
+	background:linear-gradient(90deg, rgba(71, 58, 126, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+	padding:5px 10px;
+	border-radius:8px 0 0 8px;
+	box-shadow:0 2px 6px rgba(33, 5, 100, 0.3);
+}
+
+[class*=HIHRAIM].theme-fandomdesktop-light #userProfileApp ul.user-identity-stats {
+	background:linear-gradient(90deg, rgba(71, 58, 126, 0.623), rgba(0, 0, 0, 0) 100%);
+	padding:5px 10px;
+	border-radius:8px 0 0 8px;
+	box-shadow:0 2px 6px rgba(38, 95, 19, 0.3);
+}
+
+[class*=HIHRAIM] #userProfileApp ul.user-identity-stats a {
+	color:var(--theme-page-text-color) !important;
+	font-weight:normal !important;
+}/*
+
+[class*=HIHRAIM].skin-fandomdesktop #userProfileApp {
+	--banner-ratio:33%;
+	--banner-image:url('https://static.wikia.nocookie.net/pokemon/images/0/04/HIHRAIM-BBA.png/revision/latest?cb=20260615214652&path-prefix=ru');
+	--banner-bg-pos:center;
+}*/
+
+[class*=HIHRAIM] #userProfileApp .user-identity-box {
+	background-image:url(https://static.wikia.nocookie.net/pokemon/images/c/c3/HIHRAIM-Profile.png/revision/latest?cb=20260615220639&path-prefix=ru) !important;
+}
+
+/* body[class*='HIHRAIM'] {
+	--wiki-avatar:url(https://static.wikia.nocookie.net/pokemon/images/3/3e/14062023.png/revision/latest?cb=20230614133658&path-prefix=ru);
+}
+
+[class^="wds-avatar EntityHeader_avatar"]:has([href$="HIHRAIM"]) .wds-avatar__image,
+[src="https://static.wikia.nocookie.net/de7dec22-9a92-4f88-8981-42f4666c22d6/scale-to-width/100"] {
+	content:url(https://static.wikia.nocookie.net/pokemon/images/3/3e/14062023.png/revision/latest?cb=20230614133658&path-prefix=ru);
+}*/
+
+/* === Banette Bot === */
+.theme-fandomdesktop-dark .page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:Banette_Bot"] {
+	color:#9370DB !important;
+	text-shadow:0 0 10px rgba(40, 20, 60) !important;
+	font-weight:bold !important;
+}
+
+[class*=Banette_Bot].skin-fandomdesktop #userProfileApp {
+	--banner-ratio:50%;
+	--banner-image:url('https://i.pinimg.com/originals/9f/6a/20/9f6a2023593b9041273c9ea2d7f588d6.gif');
+	--banner-bg-pos:top;
+}
+
+body[class*='Banette_Bot'] {
+	--wiki-avatar:url(https://static.wikia.nocookie.net/pokemon/images/9/91/Alva_Mega_Banette.png/revision/latest/scale-to-width-down/300?cb=20161220205950);
+}
+
+/* === Dr.Bryan === */
+body[class*=Dr_Bryan] #userProfileApp {
+	--banner-ratio:35%;
+	--banner-image:url(https://c.tenor.com/xgv2CTPWsooAAAAC/marnie-pokemon.gif) !important;
+}
+
+body[class*='Dr_Bryan'] {
+	--wiki-avatar:url(https://i.ytimg.com/vi/FiVC-7el2Ss/maxresdefault.jpg);
+}
+
+[class^="wds-avatar EntityHeader_avatar"]:has([href$="Dr.Bryan"]) .wds-avatar__image,
+[src="https://static.wikia.nocookie.net/9973c9ca-e04a-4b80-8249-4acd0f436190/scale-to-width/100"] {
+	content:url(https://i.ytimg.com/vi/FiVC-7el2Ss/maxresdefault.jpg);
+}
+
+/* === Egorka290346 === */
+.EntityHeader_header-details__-lQuR > [href$="Egorka290346"]:after {
+	color:#ffffff;
+	background-color:#4a8f8f;
+	border-radius:5px;
+	padding:1px 8px;
+	margin-left:7px;
+	font-size:12.5px;
+}
+
+.page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:Egorka290346"] {
+	color:#87c9c9 !important;
+	font-weight:bold !important;
+}
+
+[class*=Egorka290346].skin-fandomdesktop #userProfileApp {
+	--banner-ratio:55%;
+	--banner-image:url('https://media1.tenor.com/m/-Wlf37nrF44AAAAC/arknights-arknights-kafka.gif');
+	--banner-bg-pos:center;
+}
