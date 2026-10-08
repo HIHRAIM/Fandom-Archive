@@ -1,0 +1,124 @@
+<div class="gv">
+<div class="gv-hero">
+<div class="gv-hero__scene">[[Файл:GlitchBanner.jpg|1200px|link=Геймовёрс (сериал)|Геймовёрс]]</div>
+<div class="gv-hero__body">
+<div class="gv-hero__title">Добро пожаловать на {{SITENAME}}!</div>
+<div class="gv-hero__text">Это онлайн-энциклопедия о '''Геймовёрсе''', куда любой участник может внести свой вклад. Мы рады каждому участнику! Просто нажмите «Править» в верхней части любой страницы или «Создать страницу» ниже.</div>
+<div class="gv-hero__actions"><span class="gv-btn gv-btn--primary">[[Служебная:CreatePage|Создать страницу]]</span><span class="gv-btn">[[Геймовёрс (сериал)|О сериале]]</span></div>
+</div>
+<div class="gv-hero__stats">
+<div class="gv-stat"><span class="gv-stat__num">{{NUMBEROFARTICLES}}</span><span class="gv-stat__label">[[Служебная:Allpages|{{PLURAL:{{NUMBEROFARTICLES}}|статья|статьи|статей}}]]</span></div>
+<div class="gv-stat"><span class="gv-stat__num">{{NUMBEROFFILES}}</span><span class="gv-stat__label">[[Служебная:Newimages|{{PLURAL:{{NUMBEROFFILES}}|файл|файла|файлов}}]]</span></div>
+<div class="gv-stat"><span class="gv-stat__num">{{NUMBEROFEDITS}}</span><span class="gv-stat__label">[[Служебная:RecentChanges|{{PLURAL:{{NUMBEROFEDITS}}|правка|правки|правок}}]]</span></div>
+</div>
+</div>
+<div class="gv-cols">
+<div class="gv-col">
+<div class="gv-panel">
+<div class="gv-panel__head">Описание</div>
+<div class="gv-panel__body">
+<div class="gv-slider">
+<gallery type="slider">
+Gameoverse Pilot.jpg|link=ПИЛОТ|Добро пожаловать в ГЕЙМОВЁРС!
+Задание успешно провалено...png|link=ПИЛОТ|Место, где победа — это уничтожение мира!
+Тра-та-та.png|link=ПИЛОТ|А меж тем злодеи не спешат помогать своим собратьям.
+Screenshot_7.png|link=ПИЛОТ|Победят ли герои? Оставайтесь с нами, и не переключайтесь!
+</gallery>
+</div>
+{{Цитата|цитата=Геймовёрс — это анимационный сериал о МИРАХ В ВИДЕОИГРАХ!!!... Которые начинают катастрофически разрушаться. А чтобы спасти их, приходится помогать злодеям остановить хороших ребят или погибнут все.|автор=GLITCH Productions}}
+<div class="gv-text">'''Геймовёрс''' (aнгл. ''Gameoverse'') — экшен-драма, действие которой разворачивается в игровых мирах, где победа в традиционном понимании сулит за собой их гибель. Место, где царит расчёт и прагматизм, в котором злодеи как никогда нуждаются в помощи. И всё это пало на плечи хрупкой девочки-кошки, которая стремится спасти всех, кого можно...</div>
+<div class="gv-text">Премьера пилотного эпизода состоялась 15 мая 2026 г. на канале GLITCH. Данный сериал является седьмым по счёту, после сериала [[w:c:ru.knights-of-guinevere:Рыцари Гвиневры (сериал)|Рыцари Гвиневры]].</div>
+{{Цитата|цитата=Присоединяйтесь к Кит, Всячине, к Обжоре и Гребуну к их безумному приключению по Геймовёрсу.<br>Сериал, который критики окрестили "Эрин говорит сам с собой" и "Что за туфту я только что посмотрел?"|автор=Аниматор, продюсер, и шоураннер проекта — '''[[w:c:ru.glitchproductions:Росс О'Донован|Росс О'Донован]]'''}}
+</div>
+</div>
+<div class="gv-panel">
+<div class="gv-panel__head">Список серий</div>
+<div class="gv-panel__body">
+<div class="gv-eps">
+<div class="gv-ep">
+<div class="gv-ep__art">[[Файл:Gameoverse - Kit and Kaboodle.png|240px|link=ПИЛОТ|ПИЛОТ]]</div>
+<div class="gv-ep__name">[[ПИЛОТ]]</div>
+</div>
+</div>
+</div>
+</div>
+<div class="gv-panel">
+<div class="gv-panel__head">Навигация</div>
+<div class="gv-panel__body">
+<div class="gv-tabs">
+<tabber>
+Саппортаж=
+<div class="gv-chars">{{Портрет|image=KitRender.png|articlename=Кит Бодега|name=Кит}}{{Портрет|image=KaboodleMain.png|articlename=Всячина|name=Всячина}}{{Портрет|image=Screenshot_8.png|articlename=Сумрак|name=Сумрак}}{{Портрет|image=Gobbles.png|articlename=Обжора|name=Обжора}}{{Портрет|image=Flappers.png|articlename=Гребун|name=Гребун}}</div>
+<div class="gv-more plainlinks">[[:Категория:Персонажи|Все персонажи →]]</div>
+|-|
+Синтаксис=
+<div class="gv-chars">{{Портрет|image=Warick.webp|articlename=Уоррик|name=Уоррик}}{{Портрет|image=Фолд (квадрат).png|articlename=Папье|name=Папье}}{{Портрет|image=MissInformation.png|articlename=Мисс Н. Е. Правда|name=Мисс Н. Е. Правда}}{{Портрет|image=Злючка.webp|articlename=Злоба|name=Злоба}}{{Портрет|image=MAYHEM HOLDING MALICE.jpg|articlename=Погром|name=Погром}}</div>
+<div class="gv-more plainlinks">[[:Категория:Персонажи|Все персонажи →]]</div>
+|-|
+Игровые миры=
+<div class="gv-chars gv-chars--wide">{{Портрет|image=Gameoverse Pilot Prologue 002.png|articlename=Кит и Всячина|name=Кит и Всячина}}{{Портрет|image=Gobbles & the Learnosaurus Title Screen.jpg|articlename=Обжора и Обучалозавры|name=Обжора и Обучалозавры}}{{Портрет|image=Flappers the Super Dolphin Title Screen.jpg|articlename=Супер Дельфин Гребун|name=Супер Дельфин Гребун}}</div>
+<div class="gv-more plainlinks">[[:Категория:Игровые миры|Все миры →]]</div>
+</tabber>
+</div>
+</div>
+</div>
+</div>
+<div class="gv-col">
+<div class="gv-panel">
+<div class="gv-panel__head">Чаты нашей вики</div>
+<div class="gv-panel__body">
+<div class="gv-chats">
+<div class="gv-chat">[[Файл:Discord logo.png|120px|link=https://discord.gg/qSegcrXQhf|Discord]]</div>
+<div class="gv-chat">[[Файл:Telegram logo.png|120px|link=https://t.me/+V3voA8snJb4yNjQy|Telegram]]</div>
+<div class="gv-chat__name gv-chat__name--discord plainlinks">[https://discord.gg/qSegcrXQhf Discord]</div>
+<div class="gv-chat__name gv-chat__name--telegram plainlinks">[https://t.me/+V3voA8snJb4yNjQy Telegram]</div>
+</div>
+</div>
+</div>
+<div class="gv-panel">
+<div class="gv-panel__head">Служебный список</div>
+<div class="gv-panel__body">
+<div class="gv-text">Cписок служебных страниц, которые пригодятся любому участнику вики:</div>
+<div class="gv-links">
+
+<div class="gv-link">[[Служебная:Allpages|Все статьи вики]]</div>
+<div class="gv-link">[[Служебная:Categories|Категории]]</div>
+<div class="gv-link">[[Служебная:RecentChanges|Свежие правки]]</div>
+<div class="gv-link">[[Служебная:Newimages|Изображения на вики]]</div>
+<div class="gv-link">[[Служебная:Требуемые_страницы|Требуемые страницы]]</div>
+<div class="gv-link">[[w:c:ru.community:Справка:Функции_Фэндома|Инструменты вики]]</div>
+<div class="gv-link">[[Служебная:Статистика|Статистика вики]]</div>
+<div class="gv-link">[[Служебная:Журналы|Журналы]]</div>
+<div class="gv-link">[[Служебная:Список_участников|Список участников]]</div>
+</div>
+</div>
+</div>
+<div class="gv-panel">
+<div class="gv-panel__head">Вики о других проектах Glitch</div>
+<div class="gv-panel__body">
+<div class="gv-wikis">
+<div class="gv-wiki">[[Файл:Дроны-убийцы лого.png|240px|link=w:c:ru.murderdrones|Дроны-убийцы Вики]]</div>
+<div class="gv-wiki">[[Файл:Tadc.webp|240px|link=w:c:ru.tadc|Удивительный Цифровой Цирк Вики]]</div>
+<div class="gv-wiki">[[Файл:TGD wiki.webp|240px|link=w:c:ru.gaslight-district|Ослепительный Район Вики]]</div>
+<div class="gv-wiki">[[Файл:KoG wiki.webp|240px|link=w:c:ru.knights-of-guinevere:Рыцари Гвиневры Вики|Рыцари Гвиневры Вики]]</div>
+</div>
+</div>
+</div>
+<div class="gv-panel">
+<div class="gv-panel__head">Glitch Productions Вики</div>
+<div class="gv-panel__body">
+<div class="gv-wikis">
+<div class="gv-wiki">[[Файл:Glitch Wiki logo.png|200px|link=w:c:ru.glitchproductions:Glitch_Productions_Вики]]</div>
+</div>
+<center>Статьи о создателях, аниматорах, актёрах озвучки и студиях-партнёрах сериалов Glitch собраны на общей вики студии.</center>
+</div>
+</div>
+<div class="gv-panel">
+<div class="gv-panel__head">Партнёрство</div>
+<div class="gv-panel__body gv-union">{{w:CSW}}</div>
+</div>
+</div>
+</div>
+</div>
+[[Категория:Обзор]]
+[[en:]][[es:]]
