@@ -54,4 +54,15 @@ function p.get_episode(frame)
 end
 
 --------
+function p.uk_name(frame)
+	local args = getArgs(frame)
+	local name = args[1] or ''
+	for _, row in pairs(pokename_from_number) do
+		if row[1] == name then
+			return row[2]
+		end
+	end
+	return name
+end
+
 return p
