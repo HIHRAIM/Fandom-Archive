@@ -1,0 +1,57 @@
+/* == Цветные ники == */
+/* === Axulie === */
+.EntityHeader_header-details__-lQuR > [href$="Axulie"]:after {
+	color:#ffffff;
+	background-color:#FC1E91;
+	border-radius:5px;
+	padding:1px 8px;
+	margin-left:7px;
+	font-size:12.5px;
+}
+
+.page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D1%86%D0%B0:Axulie"] {
+	color:#FC1E91 !important;
+	font-weight:bold !important;
+}
+
+.EntityHeader_header-details__-lQuR > [href$="Axulie"]:after {
+	content:"Бюрократ";
+}
+
+/* === HIHRAIM === */
+.EntityHeader_header-details__-lQuR > [href$="HIHRAIM"]:after {
+	color:#ffffff;
+	background-color:#2d7017;
+	border-radius:5px;
+	padding:1px 8px;
+	margin-left:7px;
+	font-size:12.5px;
+}
+
+.page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:HIHRAIM"] {
+	color:#569e3e !important;
+	font-weight:bold !important;
+}
+
+.EntityHeader_header-details__-lQuR > [href$="HIHRAIM"]:after {
+	content:"Администратор";
+}
+
+/* === TheFirstRunowolf === */
+.EntityHeader_header-details__-lQuR > [href$="TheFirstRunowolf"]:after {
+	color:#ffffff;
+	background-color:#ca0000;
+	border-radius:5px;
+	padding:1px 8px;
+	margin-left:7px;
+	font-size:12.5px;
+}
+
+.page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:TheFirstRunowolf"] {
+	color:#ff2525 !important;
+	font-weight:bold !important;
+}
+
+.EntityHeader_header-details__-lQuR > [href$="TheFirstRunowolf"]:after {
+	content:"Модератор";
+}
