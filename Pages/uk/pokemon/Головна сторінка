@@ -1,0 +1,149 @@
+{{Україна}}
+<ul class="mp-tabber">
+<li class="mp-tabber__tab"><div class="mp-tabber__content">[[Файл:Іконка головної 1.png|x32px|link=Спеціальна:Community]] [[Спеціальна:Community|Вікі]]</div></li>
+<li class="mp-tabber__tab"><div class="mp-tabber__content">[[Файл:Іконка головної 2.png|x32px|link=Категорія:Покемони]] [[:Категорія:Покемони|Покемони]]</div></li>
+<li class="mp-tabber__tab"><div class="mp-tabber__content">[[Файл:Іконка головної 3.png|x32px|link=Ігри]] [[Ігри|Ігри]]</div></li>
+<li class="mp-tabber__tab"><div class="mp-tabber__content">[[Файл:Іконка головної 4.png|x32px|link=Покемон (аніме)]] [[Покемон (аніме)|Аніме]]</div></li>
+<li class="mp-tabber__tab"><div class="mp-tabber__content">[[Файл:Іконка головної 5.png|x32px|link=https://www.pokemon.com/us/pokemon-tcg]] [https://www.pokemon.com/us/pokemon-tcg Картки]</div></li>
+<li class="mp-tabber__tab"><div class="mp-tabber__content">[[Файл:Іконка головної 6.png|x32px|link=https://www.pokemon.com/us/pokemon-news]] [https://www.pokemon.com/us/pokemon-news Події]</div></li></ul>
+<div class="mp-banner">
+<div class="mp-banner__image">[[Файл:Site-mainpage-dark.webp|link=Спеціальна:Community]]</div>
+<div class="mp-banner__title"><div class="mp-banner__title-text">Ласкаво просимо на Покемон Вікі!</div></div>
+<div class="mp-banner__content">Ми будемо раді, якщо ви приєднаєтеся до нас! Наша мета — стати провідним українськомовним ресурсом про світ покемонів в інтернеті. Незалежно від того, на чому ви знаєтеся — на аніме, карткових іграх, відеоіграх чи фільмах, — ваш внесок буде неоціненним. Просто зареєструйте абсолютно безплатний обліковий запис і почніть ділитися своїми знаннями вже сьогодні! Якщо у вас виникнуть будь-які проблеми, не соромтеся звернутися по допомогу до одного з наших [[Спеціальна:Список користувачів/sysop|адміністраторів]]. Також не забудьте ознайомитися з нашими [[Покемон Вікі:Правила|правилами]] та [[Довідка:Редагування|довідкою]] з редагування, щоб дізнатися, як ви можете зробити ефективний внесок у розвиток нашої бази даних.<hr>Нашу вікі засновано 2016 року, і на сьогодні вона налічує '''[[Спеціальна:Нові редагування|{{NUMBEROFEDITS}} {{PLURAL:{{NUMBEROFEDITS}}|редагування|редагування|редагувань}}]]''' у '''[[Спеціальна:Найдовші сторінки|{{NUMBEROFARTICLES}} {{PLURAL:{{NUMBEROFARTICLES}}|статті|статтях}}]]''', '''[[Спеціальна:Нові файли|{{NUMBEROFFILES}} {{PLURAL:{{NUMBEROFFILES}}|файл|файли|файлів}}]]''' і '''[[Спеціальна:Community|{{NUMBEROFACTIVEUSERS}} {{PLURAL:{{NUMBEROFACTIVEUSERS}}|активного учасника|активні учасники|активних учасників}}]]'''.</div></div>
+<mainpage-leftcolumn-start />
+<div class="MainPageElement-container first">
+{{Блок головної
+|Колір = red
+|Заголовок = Покедекс
+|Посилання = Категорія:Покемони
+}}
+
+{{Блок головної
+|Колір = blue
+|Заголовок = Прийоми
+|Посилання = Категорія:Атаки
+}}
+
+{{Блок головної
+|Колір = mustard
+|Заголовок = Здібності
+|Посилання = Категорія:Здібності
+}}
+</div>
+
+<div class="MainPageElement-container">
+{{Блок головної
+|Колір = purple
+|Заголовок = Предмети
+|Посилання = Категорія:Речі тренера
+}}
+
+{{Блок головної
+|Колір = orange
+|Заголовок = Регіони
+|Посилання = Категорія:Регіони
+}}
+
+{{Блок головної
+|Колір = green
+|Заголовок = Персонажі
+|Посилання = Категорія:Персонажі
+}}
+</div>
+
+<div class="MainPageElement-container">
+{{Блок головної
+|Колір = teal
+|Заголовок = Відеоігри
+|Посилання = Категорія:Ігри
+}}
+
+{{Блок головної
+|Колір = red
+|Заголовок = Серіал
+|Посилання = Категорія:Серіал
+}}
+</div>
+
+<div class="MainPageElement-container">
+{{Блок головної
+|Колір = green
+|Заголовок = Типи
+|Посилання = Категорія:Типи покемонів
+}}
+
+{{Блок головної
+|Колір = mustard
+|Заголовок = Правила вікі
+|Посилання = Покемон Вікі:Правила
+}}
+
+{{Блок головної
+|Колір = purple
+|Заголовок = Форум
+|Посилання = https://pokemon.fandom.com/uk/f
+}}
+</div>
+
+{{Блок головної
+|Колір = black
+|Заголовок = Хочете допомогти?
+|Вміст = *Загляньте на сторінку '''[[Спеціальна:Community|спільноти]]''' — там є завдання для новачків і поради, як [[Довідка:Початок|зробити перші редагування]].
+*Доповнюйте '''[[Спеціальна:Короткі сторінки|короткі статті]]''' або створіть одну з '''[[Спеціальна:Потрібні сторінки|потрібних сторінок]]'''.
+*Інші учасники завжди можуть покращити ваші редагування — не бійтеся пробувати!
+}}
+<mainpage-endcolumn />
+<mainpage-rightcolumn-start />
+{{Блок головної
+|Колір = gray
+|Заголовок = Випадкова стаття
+|Вміст = <div class="mp-logo">[[Файл:RandomArticleImage.png|link=Спеціальна:Випадкова сторінка|Натисни!|center|100px]]</div>
+}}
+
+{{Блок головної
+|Колір = gray
+|Заголовок = Офіційні сторінки
+|Вміст = <div class="mp-socials">
+<div class="soc-logo-button">[https://www.pokemon.com/us Вебсайт]</div>
+<div class="soc-logo-button">[https://www.pokemoncenter.com/ Магазин]</div>
+<div class="soc-logo-button">[https://www.facebook.com/Pokemon/ Facebook]</div>
+<div class="soc-logo-button">[https://www.youtube.com/user/Pokemon YouTube]</div>
+<div class="soc-logo-button">[https://twitter.com/pokemon Twitter]</div>
+<div class="soc-logo-button">[https://www.instagram.com/pokemon/ Instagram]</div>
+<div class="soc-logo-button">[https://www.pinterest.com/pokemon/ Pinterest]</div>
+</div>
+}}
+<mainpage-endcolumn />
+{{Clear}}
+{{Блок головної
+|Колір = gray
+|Заголовок = Українські вікі-проєкти порталу «Ігри»
+|Вміст = <div class="mp-ukrportal">{{w:Український портал/Ігри}}</div>
+}}
+
+{{Блок головної
+|Колір = gray
+|Заголовок = Українські вікі-проєкти порталу «Аніманґа»
+|Вміст = <div class="mp-ukrportal">{{w:Український портал/Аніманґа}}</div>
+}}
+
+[[bg:]]
+[[ca:]]
+[[da:]]
+[[de:]]
+[[en:]]
+[[es:]]
+[[fr:]]
+[[it:]]
+[[ja:]]
+[[ko:]]
+[[nl:]]
+[[no:]]
+[[pl:]]
+[[pt-br:]]
+[[ru:]]
+[[tr:]]
+[[vi:]]
+[[zh:]]
+[[zh-hk:]]
+[[Категорія:Покемон Вікі]]
