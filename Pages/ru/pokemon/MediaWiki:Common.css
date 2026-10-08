@@ -1,14 +1,70 @@
 /* == Импорты == */
 /* === Внешние импорты === */
-@import url("/load.php?mode=articles&only=styles&articles=u:dev:MediaWiki:BalancedSearch.css|u:dev:MediaWiki:UWAnimation.css|u:dev:MediaWiki:LocalNavExploreIcons.css|u:dev:MediaWiki:InterlanguageFlags.css|u:dev:MediaWiki:AjaxPoll.Discussions.css|u:dev:MediaWiki:BalancedCategories.css|u:dev:MediaWiki:BalancedPageBottom.css|u:dev:MediaWiki:AccentColorButtons.css|u:dev:MediaWiki:NewPagesModule.css|u:ru.confederation:MediaWiki:Profiles.css|u:ru.confederation:MediaWiki:Leaderboard.css");
+@import url("/load.php?mode=articles&only=styles&articles=u:dev:MediaWiki:BalancedSearch.css|u:dev:MediaWiki:UWAnimation.css|u:dev:MediaWiki:LocalNavExploreIcons.css|u:dev:MediaWiki:InterlanguageFlags.css|u:dev:MediaWiki:AjaxPoll.Discussions.css|u:dev:MediaWiki:BalancedCategories.css|u:dev:MediaWiki:AccentColorButtons.css|u:dev:MediaWiki:NewPagesModule.css|u:ru.confederation:MediaWiki:Profiles.css|u:ru.confederation:MediaWiki:Leaderboard.css");
 
 /* === Локальные импорты === */
 @import "/ru/MediaWiki:Users.css?action=raw&ctype=text/css"; /* Оформление участников */
 @import "/ru/MediaWiki:Templates.css?action=raw&ctype=text/css"; /* Шаблоны */
-@import "/ru/MediaWiki:MainPage.css?action=raw&ctype=text/css"; /* Заглавная страница */
+@import "/ru/MediaWiki:Mainpage.css?action=raw&ctype=text/css"; /* Заглавная страница */
+
+/* == Надеюсь, временный фикс ошибки сотрудника == */
+.wds-widget-frame {
+    background-color:rgb(255 255 255 / 0%) !important;
+}
 
 /* == Оформление вики == */
 /* === Общее === */
+:root {
+	--pokewiki-border-radius:8px;
+	--pokewiki-border-radius-top:8px 8px 0 0;
+	--pokewiki-border-radius-bottom:0 0 8px 8px;
+	--pokewiki-border-radius-left:8px 0 0 8px;
+	--pokewiki-border-radius-right:0 8px 8px 0;
+}
+.page-side-tool, .WikiaBarWrapper, .WikiaBarWrapper .arrow .close-icon, #ca-edit, #ca-talk:not([data-tracking-label="ca-talk-dropdown"]), .WikiaBarCollapseWrapper .wikia-bar-collapse, .page-content pre, .page-header__subtitle > *, .oo-ui-tagMultiselectWidget-handle, .oo-ui-tagItemWidget, .category-page__trending-page-title, .category-page__members-wrapper, #userProfileApp .user-identity-avatar__image:hover, .grid_box, .InlineEntityFormWrapper_editor-form__fgyLD, .InlineEntityFormWrapper_inline-entity-form-wrapper__z2Uf9, .Comment_wrapper__VysRy, .wds-button, .wds-dropdown__content, .oo-ui-buttonElement > .oo-ui-buttonElement-button, .content-review__widget, .toc, .oo-ui-panelLayout-framed, .oo-ui-dropdownWidget-handle, .page .page__main, .rail-module, .AchievementsModule, .wds-avatar.wds-avatar--square::after, .wds-avatar.wds-avatar--square:hover::after, .Message__wrapper, #about-achievements > span, .oo-ui-window-frame, #content .category-page__trending-page img, .cdx-message, .announcements-content .announcements-list__card, .announcements-layout .announcements-about, .community-page-header, .community-page-cards-module .community-page-card-module, .community-page-module.community-page-module-box, #wikia-mediawiki-recentchangestext, .ooui-theme-fandomooui .mw-rcfilters-ui-filterTagMultiselectWidget.oo-ui-widget-enabled .oo-ui-tagMultiselectWidget-handle+.mw-rcfilters-ui-table, .oo-ui-selectFileWidget.oo-ui-widget-enabled.oo-ui-selectFileWidget-dropTarget, .rich-text-editor__toolbar__icons-container, .wds-dropdown__content .wds-list.wds-is-linked>li>a:not(.wds-button), .wds-dropdown__content .wds-list.wds-is-linked>li.wds-is-selected>a:not(.wds-button), .wds-dropdown__content .wds-list.wds-is-linked>li:hover>a:not(.wds-button), .modalWrapper, #LightboxNext, #LightboxPrevious, .options, #UploadNewImageModal .wds-dialog__content .upload-image-form .more-options-group .more-options-toggle, .analytics_confidential, .mw-editform .mw-scribunto-console-fieldset input[type=button], .pages-list__item, .LightboxModal .LightboxCarousel .LightboxCarouselContainer li, .WikiaPageContentWrapper .unified-search__input, .mw-body-content .unified-search__input, .page-content .unified-search__input, .unified-search__result, body:not(.mw-special-SearchCommunity) .unified-search__community, .ddd, .unified-search-pagination ul .paginator-page, .WikiaPageContentWrapper .unified-search__profiles__profile, .WikiaPageContentWrapper .unified-search__profiles__profile__filters__filter, .mw-body-content .unified-search__profiles__profile, .mw-body-content .unified-search__profiles__profile__filters__filter, .page-content .unified-search__profiles__profile, .page-content .unified-search__profiles__profile__filters__filter, .AdminDashboard .admin-dashboard-content .control-section, .admin-dashboard__module, #AdminDashboardAdvanced section, .AdminDashboard .admin-dashboard-content .control-section .controls .control .representation, .wds-modal__modal {
+	border-radius:var(--pokewiki-border-radius) !important;
+}
+
+.wds-button-group>.wds-button:first-child, html:not(.ve-active) .page.has-right-rail .page__main, .right-rail-toggle, .ooui-theme-fandomooui .mw-rcfilters-ui-filterTagMultiselectWidget-views-input input.oo-ui-inputWidget-input {
+	border-radius:var(--pokewiki-border-radius-left) !important;
+}
+
+.wds-button-group>.wds-dropdown:last-child .wds-button, .page__right-rail, .wds-button-group>.wds-button:last-child, .mw-rcfilters-container .mw-rcfilters-ui-filterTagMultiselectWidget-views-select-widget.oo-ui-widget, .wds-card-horizontal .wds-text-card {
+	border-radius:var(--pokewiki-border-radius-right) !important;
+}
+
+.wds-card-horizontal img {
+	border-radius:var(--pokewiki-border-radius-left);
+}
+
+.oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget.oo-ui-optionWidget-selected, .oo-ui-tabSelectWidget-framed .oo-ui-tabOptionWidget, #editform .wikiEditor-ui .wikiEditor-ui-toolbar, .ve-active .page .page__main, .ve-ui-summaryPanel-copyrightWarningFooter {
+	border-radius:var(--pokewiki-border-radius-top) !important;
+}
+
+.codeEditor-status {
+	border-radius:var(--pokewiki-border-radius-bottom);
+}
+
+.EntityTopBar_fold__g8x4- {
+	border-radius:var(--pokewiki-border-radius) 0 0 0;
+}
+
+.page-header__subtitle > * {
+	padding:4px !important;
+}
+
+.options {
+	margin-bottom:10px;
+}
+
+.community-page-wiki-representative-module.community-page-module, .community-page-module .community-page-module-additional-text, #wikia-recent-activity #seemoreactivity-button, .ve-ui-summaryPanel:before {
+	display:none;
+}
+
+.page-header__subtitle {
+	display:block !important;
+}
+
 /* ==== Локальная навигация ==== */
 .main-container .fandom-community-header__image,
 .main-container .fandom-community-header__community-name-wrapper,
@@ -20,8 +76,12 @@
 			drop-shadow(0px 0px 2px var(--theme-accent-color));
 }
 
-.wiki-tools {
+.community-header-wrapper .wiki-tools {
 	background-color:rgba(var(--theme-accent-color--rgb),.4);
+}
+
+.community-header-wrapper .wds-button {
+	border-radius:0 !important;
 }
 
 .fandom-community-header__image img {
@@ -45,25 +105,21 @@
 
 /* ==== Прозрачный фон статьи и рельсы ==== */
 .page__main {
-	background-color:rgba(var(--theme-page-background-color--rgb),0.95);
+	background-color:rgba(var(--theme-page-background-color--rgb),0.92);
 }
 
 .page__right-rail {
-	background-color:rgba(var(--theme-page-background-color--secondary--rgb),0.95);
+	background-color:rgba(var(--theme-page-background-color--secondary--rgb),0.92);
 }
 
 .rail-module, .AchievementsModule {
 	background-color:rgba(var(--theme-page-background-color--rgb),0.8) !important;
+	border:none;
 }
 
 /* ==== Рельса ==== */
 .rail-module, .AchievementsModule {
-	background-color:#F9F9F9;
 	padding:1em;
-}
-
-.theme-fandomdesktop-dark .rail-module, .theme-fandomdesktop-dark .AchievementsModule {
-	background-color:#3E3D3D;
 }
 
 /* ===== Блок «Recent Images» ===== */
@@ -92,13 +148,96 @@
 	--wds-midlight-color:rgba(var(--theme-link-color--rgb),0.1);
 }
 
+.card-image {
+	background-color:rgba(var(--theme-link-color--rgb),0.1);
+	border-radius:var(--pokewiki-border-radius-top);
+}
+
+.card-image img {
+	border:none;
+	border-radius:var(--pokewiki-border-radius-top);
+}
+
+.wds-card-vertical__image-container--hoverable:after {
+	border-radius:var(--pokewiki-border-radius-top);
+}
+
 .wds-text-card {
-	background-color:var(--theme-page-background-color--secondary);
+	background-color:var(--theme-page-background-color--secondary) !important;
+	border-radius:var(--pokewiki-border-radius-bottom);
+}
+
+.wds-widget-frame .alice-carousel__arrow {
+	background-color:var(--theme-page-background-color--secondary) !important;
+	border-radius:var(--pokewiki-border-radius);
+}
+
+/* ===== Блоки с иконками (достижения, особые награды, «Чаты нашей вики», «Случайная статья о покемоне») ===== */
+.badgetooltipwindow {
+	background-color:var(--theme-page-background-color--secondary) !important;
+	border:solid 1px var(--theme-border-color) !important;
+}
+
+.tippy-box, .tippy-content {
+	background-color:var(--theme-page-background-color--secondary) !important;
+	border-radius:var(--pokewiki-border-radius) !important;
+}
+
+.AchievementsModule ul.badges-icons li img, img.badge-icon-earnable, .RewardImage img, .rail-module-image img {
+	transition:transform 0.3s ease-in-out;
+}
+
+.AchievementsModule ul.badges-icons li img:hover, img.badge-icon-earnable:hover, .RewardImage img:hover, .rail-module-image img:hover {
+	transform:scale(1.14) rotate(-4deg);
+}
+
+.rail-socials {
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+}
+
+.rail-socials img {
+	display:block;
+	width:100px;
+	height:100px;
+	cursor:pointer;
 }
 
 /* ===== Блок «Новые статьи» ===== */
+.mw-index-pager-list-header {
+	display:block !important;
+	font-size:12px;
+	margin-bottom:-3px;
+	color:rgba(var(--right-rail-text-color--rgb),.75);
+}
+
 .new-pages-rail-module .mw-userlink {
 	color:rgba(var(--right-rail-text-color--rgb), .75);
+	margin-bottom:9px;
+}
+
+.more a[title="Служебная:Новые страницы"] {
+	color:inherit;
+	font-size:0 !important;
+	text-decoration:none;
+}
+
+.more a[title="Служебная:Новые страницы"]::after {
+	content:">";
+	font-size:18px;
+	margin-left:2px;
+	background-color:var(--theme-page-background-color--secondary) !important;
+	border-radius:var(--pokewiki-border-radius);
+	padding:2px 8px 2px 8px;
+	position:relative;
+	top:-35px;
+	z-index:1;
+}
+
+.new-pages-rail-module div.more {
+	height:0px;
 }
 
 /* ===== Блок «Недавняя вики-деятельность» ===== */
@@ -129,7 +268,7 @@
 
 ::-webkit-scrollbar-thumb {
 	background:var(--theme-link-color);
-	border-radius:2px;
+	border-radius:var(--pokewiki-border-radius);
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -196,7 +335,7 @@ body.skin-fandomdesktop {
 /* ==== Новостная лента ==== */
 .mcf-card {
 	border:none;
-	border-radius:1px;
+	border-radius:0px;
 	overflow:hidden;
 	transition:transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -218,7 +357,7 @@ body.skin-fandomdesktop {
 	background-color:rgba(var(--theme-page-text-color--rgb), .3);
 }
 
-/* ==== Категории вверху страницы (взято с Genshin Impact Вики) ==== */
+/* ==== Категории + интервики-ссылки (взято с Genshin Impact Вики) ==== */
 .page-header__categories {
 	display:flex;
 	flex-wrap:wrap;
@@ -227,41 +366,34 @@ body.skin-fandomdesktop {
 	font-size:0;
 }
 
-.page-header__categories-in {
+.page-header__categories-in, .CategorySelect.articlePage .container .categories .special-categories-label, .CategorySelect.articlePage.editMode .container .categories li.last .add {
 	display:none;
 }
 
-.page-header__categories>a {
+.page-header__categories > a, .page-footer__languages .wds-collapsible-panel__content a, .CategorySelect.articlePage .container .categories li a {
 	display:flex;
 	align-items:center;
+	background-color:rgba(var(--theme-link-color--rgb), 0.1);
 	border:1px solid rgba(var(--theme-link-color--rgb), 0.3);
-	border-radius:12px;
+	border-radius:var(--pokewiki-border-radius);
 	color:var(--theme-page-text-color);
-	font-size:14px;
+	font-size:12px;
 	line-height:1;
-	padding:0.5em 0.8em;
+	padding:0.6em 0.8em;
 	transition:background-color 0.3s;
 }
 
-.theme-fandomdesktop-light .page-header__categories>a {
-	background-color:rgba(var(--theme-page-background-color--secondary--rgb), 0.75);
-}
-
-.theme-fandomdesktop-dark .page-header__categories>a {
-	background-color:rgba(var(--theme-link-color--rgb), 0.1);
-}
-
-.page-header__categories>a:before {
+.page-header__categories > a:before {
 	content:"#";
 	color:var(--theme-link-color);
-	padding-right:4px;
+	padding-right:6px;
 }
 
-.page-header__categories>a:hover {
+.page-header__categories > a:hover, .page-footer__languages .wds-collapsible-panel__content > a:hover {
 	background-color:rgba(var(--theme-link-color--rgb), 0.2);
 }
 
-.page-header__categories>a:active {
+.page-header__categories > a:active {
 	background-color:rgba(var(--theme-link-color--rgb), 0.3);
 }
 
@@ -269,18 +401,335 @@ body.skin-fandomdesktop {
 	font-size:12px;
 }
 
-.page-header__categories> :last-child {
+.page-header__categories > :last-child {
 	display:flex;
-	padding:0.4em 0.8em;
+	padding:0.6em 0.8em;
 }
 
 .page-header__categories .page-header__categories-dropdown {
 	display:inline-block;
-	padding:0.4em 0;
+	padding:0.6em 0;
 }
 
 .page-header__meta {
 	margin-bottom:12px;
+}
+
+.page-header__languages .wds-dropdown__toggle, .page-header__variants .wds-dropdown__toggle {
+	border-radius:var(--pokewiki-border-radius);
+}
+
+.CategorySelect.articlePage .container {
+	padding-right:0;
+}
+
+.CategorySelect.articlePage .container .categories {
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center;
+	gap:4px;
+}
+
+.CategorySelect.articlePage .container .categories li {
+	border:none;
+	margin:0;
+	padding:0;
+}
+
+.CategorySelect.articlePage .container .categories li a:before {
+	content:"#";
+	color:var(--theme-link-color);
+	padding-right:6px;
+}
+
+.CategorySelect.articlePage .container .categories li a:hover {
+	background-color:rgba(var(--theme-link-color--rgb), 0.2);
+}
+
+.CategorySelect.articlePage .container .categories li a:active {
+	background-color:rgba(var(--theme-link-color--rgb), 0.3);
+}
+
+.CategorySelect.articlePage .container .categories li.last .add {
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	height:26px;
+	width:26px;
+	background-color:rgba(var(--theme-link-color--rgb), 0.1);
+	border:1px solid rgba(var(--theme-link-color--rgb), 0.3);
+	border-radius:var(--pokewiki-border-radius);
+	color:var(--theme-link-color);
+	font-size:0;
+	line-height:0;
+	padding:0;
+	transition:background-color 0.3s;
+}
+
+.CategorySelect.articlePage .container .categories li.last .add:before {
+	content:"+";
+	font-size:16px;
+}
+
+.CategorySelect.articlePage .container .categories li.last .add:hover {
+	background-color:rgba(var(--theme-link-color--rgb), 0.2);
+}
+
+.CategorySelect.articlePage .container .categories li.last .add:active {
+	background-color:rgba(var(--theme-link-color--rgb), 0.3);
+}
+
+.CategorySelect.articlePage.editMode .container .categories li.last input {
+	display:flex;
+	align-items:center;
+	height:28px;
+	background-color:rgba(var(--theme-link-color--rgb), 0.1);
+	border:1px solid rgba(var(--theme-link-color--rgb), 0.3);
+	border-radius:var(--pokewiki-border-radius);
+	font-size:12px;
+	line-height:1;
+	padding:0 16px;
+	margin-bottom:0;
+	transition:background-color 0.3s;
+}
+
+.CategorySelect.articlePage .hidden-categories-label {
+	float:none;
+	font-weight:500;
+	padding:10px 0;
+}
+
+.CategorySelect.articlePage .container div + .categories li {
+	border-right:1px solid var(--theme-border-color);
+	line-height:0.8;
+	margin:0 1px 4px 0;
+	padding-right:0.5em;
+}
+
+.CategorySelect.articlePage .container div + .categories li a {
+	background-color:inherit;
+	border:none;
+	color:var(--theme-link-color);
+	display:inherit;
+	font-size:0.8em;
+	padding:0;
+	transition:0.3s;
+}
+
+.CategorySelect.articlePage .container div + .categories li a:before {
+	content:normal;
+}
+
+.CategorySelect.articlePage .container div + .categories li a:hover {
+	background-color:inherit;
+	color:var(--theme-link-color--hover);
+}
+
+.CategorySelect.articlePage .container div + .categories li a:active {
+	background-color:inherit;
+}
+
+.page-footer__languages .wds-collapsible-panel__content {
+	gap:4px;
+	margin-left:0;
+}
+
+.page-footer__languages .wds-collapsible-panel__content a::before {
+	height:15px !important;
+	width:auto;
+}
+
+.page-footer__languages .wds-collapsible-panel__content a:last-child {
+	border-right:1px solid rgba(var(--theme-link-color--rgb), 0.3);
+}
+
+.wds-collapsible-panel__header {
+	font-size:24px;
+	font-weight:500;
+	border-bottom:1px solid var(--theme-border-color);
+	padding:20px 0 6px 0;
+	margin-bottom:8px;
+}
+
+.wds-collapsible-panel {
+	border-bottom:none;
+}
+
+#mw-normal-catlinks {
+	font-size:0;
+}
+
+#mw-normal-catlinks ul {
+	display:flex;
+	flex-wrap:wrap;
+	gap:4px;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+#mw-normal-catlinks ul li {
+	margin:0;
+	padding:0;
+}
+
+#mw-normal-catlinks ul li a {
+	display:flex;
+	align-items:center;
+	background-color:rgba(var(--theme-link-color--rgb), 0.1);
+	border:1px solid rgba(var(--theme-link-color--rgb), 0.3);
+	border-radius:var(--pokewiki-border-radius);
+	color:var(--theme-page-text-color);
+	font-size:12px;
+	line-height:1;
+	padding:0.6em 0.8em;
+	text-decoration:none;
+	transition:background-color 0.3s;
+	position:relative;
+}
+
+#mw-normal-catlinks ul li a::before {
+	content:"#";
+	color:var(--theme-link-color);
+	padding-right:6px;
+}
+
+#mw-normal-catlinks ul li a:hover {
+	background-color:rgba(var(--theme-link-color--rgb), 0.2);
+}
+
+.catlinks li {
+	border-left:none;
+}
+
+/* ==== Страницы скриптов на JS ==== */
+.content-review__widget {
+	border:none;
+	margin-top:24px !important;
+	background-color:rgba(var(--theme-page-background-color--rgb),0.8) !important;
+	padding:1em;
+}
+
+.content-review__widget__title {
+	--wds-midlight-color:rgba(var(--theme-link-color--rgb), 0.1);
+	display:inline;
+	font-size:16px;
+	font-weight:700;
+	line-height:1.25;
+	margin-bottom:15px;
+	background-image:linear-gradient(to top, var(--wds-midlight-color, rgba(var(--theme-accent-color--rgb), .15)) 54%, #0000 54%, #0000 100%);
+	-webkit-box-decoration-break:clone;
+	box-decoration-break:clone;
+	margin-left:-3px;
+	margin-right:-3px;
+	padding-left:3px;
+	padding-right:3px;
+}
+
+/* ==== Блоки уведомлений ==== */
+/* ===== Объявления ===== */
+.sitenotice-wrapper {
+	background-color:var(--theme-page-background-color--secondary);
+	border-color:var(--theme-border-color);
+	border-radius:var(--pokewiki-border-radius);
+	border:1px solid var(--theme-border-color);
+}
+
+.sitenotice-wrapper:before {
+	width:8px;
+}
+
+/* ==== Уведомления (например, об ошибках и переходах в тест. режим) ==== */
+.wds-banner-notification {
+	background-color:rgba(255, 255, 255, 0.7);
+	border:1px solid var(--theme-border-color);
+	border-radius:var(--pokewiki-border-radius);
+	--fandom-border-color:none;
+}
+
+.theme-fandomdesktop-dark .wds-banner-notification {
+	background-color:var(--theme-page-background-color--secondary);
+	border-color:var(--theme-border-color);
+}
+
+/* ==== Редактор ==== */
+.ve-ui-findAndReplaceDialog-row {
+	column-gap:0.5em;
+}
+
+.ve-ui-findAndReplaceDialog-row:last-child {
+	column-gap:0em;
+}
+
+.ve-ui-findAndReplaceDialog-row .oo-ui-buttonElement {
+	margin-left:8px;
+}
+
+.wikiEditor-ui .wikiEditor-ui-view.wikiEditor-ui-view-wikitext .wikiEditor-ui-top, .cdx-message {
+	min-height:0px;
+	margin-bottom:8px;
+}
+
+.wikiEditor-ui .wikiEditor-ui-toolbar {
+	border-radius:var(--pokewiki-border-radius);
+	border-width:1px;
+}
+
+#editform .wikiEditor-ui .wikiEditor-ui-toolbar {
+	margin-bottom:-8px !important;
+}
+
+.mw-editform .editOptions {
+	margin-top:8px;
+	border-radius:var(--pokewiki-border-radius);
+	border-width:1px;
+}
+
+.wikiEditor-ui .wikiEditor-ui-view.wikiEditor-ui-view-wikitext {
+	border:none !important;
+}
+
+.codeEditor-status {
+	border:1px solid var(--theme-border-color);
+}
+
+/* ==== Небольшие фиксы для Служебная:Свежие_правки ==== */
+#wikia-mediawiki-recentchangestext {
+	background-color:var(--theme-page-background-color--secondary);
+	border:1px solid var(--theme-border-color) !important;
+}
+
+.ooui-theme-fandomooui .mw-rcfilters-ui-filterTagMultiselectWidget.oo-ui-widget-enabled .oo-ui-tagMultiselectWidget-handle+.mw-rcfilters-ui-table {
+	margin-top:12px;
+}
+
+.mw-rcfilters-container .mw-rcfilters-ui-filterTagMultiselectWidget-views-select-widget.oo-ui-widget {
+	height:2.9em;
+	padding-top:3px;
+}
+
+/* ==== Всплывающие подсказки ==== */
+.refpopups-box, .SCMModal, .SCMModal a.wikia-button {
+	border-radius:var(--pokewiki-border-radius);
+}
+
+.refpopups-configure {
+	top:3px;
+	right:3px;
+}
+
+/* ==== Редактор исходного кода страницы ==== */
+.theme-fandomdesktop-dark .cm-mw-template-bracket, .theme-fandomdesktop-dark .cm-mw-template-name, .theme-fandomdesktop-dark .cm-mw-template-delimiter, .theme-fandomdesktop-dark .cm-mw-template-argument-name, .theme-fandomdesktop-dark .cm-mw-template {
+	color:#cc66ff !important;
+}
+
+.theme-fandomdesktop-dark .cm-mw-link-bracket, .theme-fandomdesktop-dark .cm-mw-link-pagename {
+	color:#33adff !important;
+}
+
+/* ==== Таблицы в служебных страницах ==== */
+.theme-fandomdesktop-dark .mw-listgrouprights-table tr:target, .theme-fandomdesktop-dark .mw-passwordpolicies-table tr:target, .theme-fandomdesktop-dark .mw-listgrouprights-table tr:target code, .theme-fandomdesktop-dark .mw-passwordpolicies-table tr:target code {
+	background-color:#1f1f1f;
 }
 
 /* === Профайлы === */
@@ -337,6 +786,14 @@ body.skin-fandomdesktop #userProfileApp .user-profile-navigation__link {
 	border-bottom:none;
 }
 
+#userProfileApp:before {
+	border-radius:var(--pokewiki-border-radius) 0 0 0 !important;
+}
+
+.mw-contributions-editor-info {
+	margin-top:3px;
+}
+
 /* === Страницы кода === */
 .theme-fandomdesktop-dark .mw-content-ltr.mw-highlight-lines pre {
 	box-shadow:inset 2.75em 0 0 #232323;
@@ -348,7 +805,7 @@ body.skin-fandomdesktop #userProfileApp .user-profile-navigation__link {
 
 .page-content pre {
 	border:0px;
-	border-radius:5px;
+	border-radius:var(--pokewiki-border-radius);
 }
 
 .theme-fandomdesktop-dark pre {
@@ -356,6 +813,6 @@ body.skin-fandomdesktop #userProfileApp .user-profile-navigation__link {
 }
 
 .mw-parser-output pre {
-	word-break:break-all; 
-	white-space:pre-wrap; 
+	word-break:break-all;
+	white-space:pre-wrap;
 }
