@@ -1,3 +1,25 @@
+/* == Временно == */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap');
+
+.MainPageElement.mp-ny .mp-banner {
+	background-image:linear-gradient(to right, rgba(70, 70, 70, 1), rgba(70, 70, 70, 0.5)), url('https://static.wikia.nocookie.net/pokemon/images/a/a9/Site-NY-2026.png/revision/latest?cb=20251231155745&path-prefix=ru');
+	background-size:cover;
+	background-position:center;
+}
+
+.theme-fandomdesktop-dark .MainPageElement.mp-ny .mp-banner {
+	background-image:linear-gradient(to right, rgba(38, 38, 38, 1), rgba(38, 38, 38, 0.5)), url('https://static.wikia.nocookie.net/pokemon/images/a/a9/Site-NY-2026.png/revision/latest?cb=20251231155745&path-prefix=ru');
+}
+
+.MainPageElement.mp-ny .mp-emoji {
+	font-family:"Noto Color Emoji", sans-serif;
+}
+
+.theme-fandomdesktop-light .mp-banner {
+	--theme-link-color:#31c560;
+	--theme-link-color--hover:#26974a;
+}
+
 /* == Заглавная страница == */
 /* === Главный блок === */
 /* ==== Таббер ==== */
@@ -19,6 +41,9 @@
 	padding-bottom:4px;
 	position:relative;
 	z-index:1;
+	border-radius:8px 8px 0 0;
+	box-shadow:0 2px 8px rgba(0,0,0,0.06);
+	transition:box-shadow 0.2s;
 }
 
 .mp-tabber__tab a {
@@ -26,6 +51,17 @@
 	width:100%;
 	height:100%;
 	text-align:center;
+	border-radius:8px 8px 0 0;
+}
+
+.mp-tabber__tab:first-child::after,
+.mp-tabber__tab:first-child::before {
+	border-radius:8px 0 0 0;
+}
+
+.mp-tabber__tab:last-child::after,
+.mp-tabber__tab:last-child::before {
+	border-radius:0 8px 0 0;
 }
 
 .mp-tabber__tab::before {
@@ -41,7 +77,7 @@
 }
 
 .mp-tabber__tab::after {
-	background-color:#2e3039;
+	background-color:var(--mp-gray-element, #6B6B6B);
 	content:"";
 	height:100%;
 	left:0;
@@ -49,16 +85,6 @@
 	top:0;
 	width:100%;
 	z-index:-2;
-}
-
-.mp-tabber__tab:first-child::after,
-.mp-tabber__tab:first-child::before {
-	border-radius:10px 0 0 0;
-}
-
-.mp-tabber__tab:last-child::after,
-.mp-tabber__tab:last-child::before {
-	border-radius:0 10px 0 0;
 }
 
 .mp-tabber__tab:hover::before {
@@ -72,10 +98,6 @@
 	z-index:2;
 }
 
-.mp-tabber__content {
-	z-index:2;
-}
-
 .mp-tabber__content a:last-child {
 	color:#fff;
 	font-size:0.85em;
@@ -83,39 +105,13 @@
 	text-decoration:none;
 }
 
-.mp-tabber__tab:nth-child(1) {
-	box-shadow:2px 2px 10px #1e2124;
-}
-
-.mp-tabber__tab:nth-child(2) {
-	--color:#e3350d;
-	box-shadow:2px 2px 10px #1e2124;
-}
-
-.mp-tabber__tab:nth-child(3) {
-	--color:#ee6b2f;
-	box-shadow:2px 2px 10px #1e2124;
-}
-
-.mp-tabber__tab:nth-child(4) {
-	--color:#4dad5b;
-	box-shadow:2px 2px 10px #1e2124;
-}
-
-.mp-tabber__tab:nth-child(5) {
-	--color:#1b53ba;
-	box-shadow:2px 2px 10px #1e2124;
-}
-
-.mp-tabber__tab:nth-child(6) {
-	--color:#e6bc2f;
-	box-shadow:2px 2px 10px #1e2124;
-}
-
-.mp-tabber__tab:nth-child(7) {
-	--color:#30a7d7;
-	box-shadow:2px 2px 10px #1e2124;
-}
+.mp-tabber__tab:nth-child(1) { --color:#919191; }
+.mp-tabber__tab:nth-child(2) { --color:#e3350d; }
+.mp-tabber__tab:nth-child(3) { --color:#ee6b2f; }
+.mp-tabber__tab:nth-child(4) { --color:#4dad5b; }
+.mp-tabber__tab:nth-child(5) { --color:#1b53ba; }
+.mp-tabber__tab:nth-child(6) { --color:#e6bc2f; }
+.mp-tabber__tab:nth-child(7) { --color:#30a7d7; }
 
 .main-page-tag-lcs .mp-tabber {
 	margin:0;
@@ -124,7 +120,7 @@
 /* ==== Баннер ===== */
 .mp-banner {
 	background-color:var(--mp-gray-element);
-	border-radius:10px;
+	border-radius:8px;
 	color:#fff;
 	display:flex;
 	flex-direction:column;
@@ -132,21 +128,23 @@
 	transition:background-color 0.5s linear;
 }
 
-.mp-banner:hover {
-	background-color:var(--mp-gray-element--hover);
-}
-
-.theme-fandomdesktop-dark .mp-banner {
+.mp-banner, .mp-tabber__tab {
 	--mp-gray-element:#262626;
 	--mp-gray-element--hover:#161616;
 }
 
-.theme-fandomdesktop-light .mp-banner {
+.theme-fandomdesktop-light .mp-banner, .theme-fandomdesktop-light .mp-tabber__tab {
 	--theme-page-text-color:#fff;
-	--theme-link-color:#E6BC2F;
-	--theme-link-color--hover:#E6BC2F;
-	--mp-gray-element:#6B6B6B;
-	--mp-gray-element--hover:#313131;
+	--mp-gray-element:#464646;
+	--mp-gray-element--hover:#353535;
+}
+
+.mp-banner:hover {
+	background-color:var(--mp-gray-element--hover);
+}
+
+.mp-banner .thumb.show-info-icon .info-icon {
+	display:none;
 }
 
 .main-page-tag-rcs .mp-banner {
@@ -154,7 +152,7 @@
 }
 
 .main-page-tag-lcs .mp-banner:first-of-type {
-	border-radius:0 0 10px 10px;
+	border-radius:0 0 8px 8px;
 }
 
 .mp-banner:not(:first-of-type) {
@@ -163,13 +161,13 @@
 
 .mp-banner__image {
 	display:flex;
-	height:275px;
+	height:max-content;
 	overflow:hidden;
 	position:relative;
 }
 
 .mp-banner__image::after {
-	background-image:linear-gradient( 165deg, #892e30, #ed4137 50%, #4d42ae 50%, #34288a );
+	background-image:linear-gradient(165deg, #363231, #525a63 50%, #9bda80 50%, #03723b);
 	bottom:0;
 	content:"";
 	height:5px;
@@ -183,7 +181,7 @@
 	background-size:contain;
 	content:"";
 	height:25px;
-	left:calc( 50% - 12.5px );
+	left:calc(50% - 12.5px);
 	position:absolute;
 	top:-16px;
 	width:25px;
@@ -208,8 +206,16 @@
 
 .mp-banner__image img,
 .mp-banner__content > .center img {
-	height:auto;
+	height:100%;
 	max-width:100%;
+}
+
+.theme-fandomdesktop-dark .mp-banner__image img {
+	content:url('https://static.wikia.nocookie.net/pokemon/images/b/bf/Site-mainpage-dark.webp/revision/latest?cb=20250810182550&path-prefix=ru');
+}
+
+.theme-fandomdesktop-light .mp-banner__image img {
+	content:url('https://static.wikia.nocookie.net/pokemon/images/7/7c/Site-mainpage-light.webp/revision/latest?cb=20250529170104&path-prefix=ru');
 }
 
 .mp-banner__content {
@@ -232,7 +238,7 @@
 	--mp-gray-element:#383838;
 	--mp-gray-element--hover:#0A0A0A;
 	--mp-black-element:#EFEFEF;
-	--mp-black-element--hover:#BDBDBD;
+	--mp-black-element--hover:#CFCFCF;
 	--mp-black-color:#000000;
 }
 
@@ -245,8 +251,9 @@
 	position:relative;
 	width:100%;
 	overflow:hidden;
-	border-radius:5px;
+	border-radius:8px;
 	margin-bottom:15px;
+	box-shadow:0 1px 6px rgba(30,33,36,0.07);
 }
 
 .WikiaArticle .MainPageElement .mp-banner {
@@ -262,7 +269,7 @@
 	order:1;
 	background-color:#1B53BA;
 	padding:20px;
-	border-radius:0 0 5px 5px;
+	border-radius:0 0 8px 8px;
 	transition:background-color 0.3s ease-in-out;
 }
 
@@ -278,6 +285,16 @@
 	text-transform:uppercase;
 	border:none;
 	margin-top:0;
+}
+
+.MainPageElement .mw-headline {
+	display:inline-block;
+	transform:translateY(0);
+	transition:transform 0.3s ease-in-out;
+}
+
+.MainPageElement:hover .mw-headline {
+	transform:translateY(-4px);
 }
 
 .MainPageElement .mp-banner .caption {
@@ -300,16 +317,17 @@
 }
 
 .MainPageElement .mp-images {
-	border-radius:5px;
+	border-radius:8px;
 }
 
 .MainPageElement .mp-banner + .mp-images {
-	border-radius:5px 5px 0 0;
+	border-radius:8px 8px 0 0;
 }
 
 .MainPageElement .mp-images > img {
 	width:100%;
 	height:auto;
+	border-radius:8px;
 }
 
 .MainPageElement .mp-link a {
@@ -334,6 +352,10 @@
 	align-items:stretch;
 }
 
+.MainPageElement-container.first {
+	margin-top:15px;
+}
+
 .MainPageElement-container .MainPageElement .mp-banner {
 	flex-grow:1;
 }
@@ -351,6 +373,12 @@
 
 .mainpage #mw-content-text {
 	padding-top:5px;
+}
+
+.theme-fandomdesktop-light .mainpage .page__main {
+	--theme-link-color:#2181c2;
+	--theme-link-color--rgb:33, 129, 194;
+	--theme-link-color--hover:#64b0e4;
 }
 
 /* ==== Цвета ==== */
@@ -380,7 +408,7 @@
 }
 
 .MainPageElement.mp-gray .mp-banner a {
-	color:#E6BC2F;
+	color:var(--theme-link-color);
 }
 
 .MainPageElement.mp-gray .mp-banner .caption,
@@ -480,10 +508,6 @@
 	background-color:var(--mp-black-element--hover, #282828);
 }
 
-.MainPageElement.mp-black .mp-banner a {
-	color:#E6BC2F;
-}
-
 .MainPageElement.mp-black .mp-banner .caption,
 .MainPageElement.mp-black .mp-banner > h2 {
 	color:var(--mp-black-color);
@@ -511,13 +535,83 @@
 	background-color:#8a2d9c;
 }
 
+/* ===== Зелёный ===== */
+.MainPageTable .mp-green div .mp-pokeball,
+.MainPageTable .mp-green div .mp-events,
+.MainPageTable .mp-green div .mp-anime,
+.MainPageTable .mp-green div .mp-games,
+.MainPageTable .mp-green div .mp-manga,
+.MainPageTable .mp-green div .mp-home,
+.MainPageTable .mp-green div .mp-tcg,
+.MainPageElement.mp-green .mp-banner,
+.MainPageTable td.mp-green:before,
+.MainPageTable td.mp-green:after {
+	background-color:#38b24d;
+}
+
+.MainPageElement.mp-green .caption .embeddable-discussions-threads {
+	border-color:#38b24d;
+}
+
+.MainPageElement.mp-green:hover .mp-banner {
+	background-color:#249636;
+}
+
+/* ===== Оранжевый ===== */
+.MainPageTable .mp-orange div .mp-pokeball,
+.MainPageTable .mp-orange div .mp-events,
+.MainPageTable .mp-orange div .mp-anime,
+.MainPageTable .mp-orange div .mp-games,
+.MainPageTable .mp-orange div .mp-manga,
+.MainPageTable .mp-orange div .mp-home,
+.MainPageTable .mp-orange div .mp-tcg,
+.MainPageElement.mp-orange .mp-banner,
+.MainPageTable td.mp-orange:before,
+.MainPageTable td.mp-orange:after {
+	background-color:#ff9800;
+}
+
+.MainPageElement.mp-orange .caption .embeddable-discussions-threads {
+	border-color:#ff9800;
+}
+
+.MainPageElement.mp-orange:hover .mp-banner {
+	background-color:#f57c00;
+}
+
+/* ===== Синий ===== */
+.MainPageTable .mp-blue div .mp-pokeball,
+.MainPageTable .mp-blue div .mp-events,
+.MainPageTable .mp-blue div .mp-anime,
+.MainPageTable .mp-blue div .mp-games,
+.MainPageTable .mp-blue div .mp-manga,
+.MainPageTable .mp-blue div .mp-home,
+.MainPageTable .mp-blue div .mp-tcg,
+.MainPageElement.mp-blue .mp-banner,
+.MainPageTable td.mp-blue:before,
+.MainPageTable td.mp-blue:after {
+	background-color:#2962ff;
+}
+
+.MainPageElement.mp-blue .caption .embeddable-discussions-threads {
+	border-color:#2962ff;
+}
+
+.MainPageElement.mp-blue:hover .mp-banner {
+	background-color:#0039cb;
+}
+
 /* ==== Блоги ==== */
 .theme-fandomdesktop-light .caption .WikiaBlogListingBox .blog-listing__post {
 	flex:0 0 100%;
-	background-color:#454545;
+	background-color:#313131 !important;
 	margin:1px;
-	border-color:none !important;
-	border-radius:none !important;
+	border:none !important;
+	border-radius:8px !important;
+}
+
+.theme-fandomdesktop-dark .MainPageElement .caption .WikiaBlogListingBox .blog-listing__post {
+	background-color:#1A1A1A;
 }
 
 .MainPageElement .caption .WikiaBlogListingBox {
@@ -525,8 +619,8 @@
 	flex-flow:wrap;
 	justify-content:flex-end;
 	max-height:500px;
-	overflow:scroll;
-	border-radius:3px;
+	overflow:auto;
+	border-radius:8px;
 	margin-bottom:0;
 }
 
@@ -537,9 +631,8 @@
 
 .MainPageElement .caption .WikiaBlogListingBox .blog-listing__post {
 	flex:0 0 100%;
-	background-color:#1A1A1A;
-	border-color:rgba(58, 58, 58, 0.5);
-	border-radius:0 0 3px 3px;
+	border:none;
+	border-radius:0 0 8px 8px;
 }
 
 .MainPageElement .caption .WikiaBlogListingBox .blog-listing__post:not(:last-of-type) {
@@ -560,28 +653,34 @@
 	margin-right:1em;
 }
 
-/* ==== Социальный уголок ==== */
-.theme-fandomdesktop-dark .mp-categories {
-	background-color:#161616;
-	margin-top:10px;
-	margin-bottom:10px;
-	border-radius:3px;
-	padding:8px;
+/* ==== Чаты, союз, партнёрство ==== */
+.mp-logo {
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
 }
 
-.theme-fandomdesktop-light .mp-categories {
-	background-color:#454545;
-	margin-top:10px;
-	margin-bottom:10px;
-	border-radius:3px;
-	padding:8px;
+.mp-logo img {
+	display:block;
+	width:100px;
+	height:100px;
+	margin-left:auto;
+	margin-right:auto;
+	transition:transform 0.3s ease-in-out;
+	cursor:pointer;
+}
+
+.mp-logo img:hover {
+	transform:scale(1.14);
+	z-index:1;
 }
 
 /* ==== Официальные страницы ==== */
 .soc-logo-button {
-	border-radius:3px;
+	border-radius:8px;
 	padding:5px;
-	margin:3px;	
+	margin:3px;
 	transition:box-shadow 0.25s, margin 0.25s;
 }
 
@@ -590,7 +689,7 @@
 }
 
 .theme-fandomdesktop-light .soc-logo-button {
-	background-color:#454545;
+	background-color:#313131;
 }
 
 .soc-logo-button a.external:after {
@@ -607,6 +706,35 @@
 	background:#6B6B6B !important;
 	box-shadow:0 0 3px 0.2em #6B6B6B !important;
 	margin:0.1875em 0.25em;
+}
+
+/* ==== Альянс Отаку ==== */
+.mp-randwiki {
+	display:flex;
+	justify-content:center;
+}
+
+.mp-randwiki img {
+	transition:transform 0.3s ease-in-out;
+	cursor:pointer;
+}
+
+.mp-randwiki img:hover {
+	transform:scale(1.14);
+	z-index:1;
+}
+
+.mw-parser-output .otaku-basic-wlist {
+	font-size:90%;
+	line-height:1.2;
+}
+
+.mw-parser-output .wlist-basic-item {
+	display:inline;
+}
+
+.mw-parser-output .wlist-basic-item:not(:last-of-type):after {
+	content:" • ";
 }
 
 /* ==== Отключает предпросмотр страницы при наведении на ссылку ==== */
