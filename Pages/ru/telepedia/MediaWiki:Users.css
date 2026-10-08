@@ -1,0 +1,84 @@
+/* == Настройка оформления участников == */
+/* === Цвета ников === */
+/* ==== Gulp'D ==== */
+a[href$="Gulp%27D"] {
+	--user-color:#33a214;
+}
+
+/* ==== HIHRAIM ==== */
+a[href$="HIHRAIM"] {
+	--user-color:#b31c35;
+}
+
+/* === Должности на Телепедии === */
+/* ==== Бюрократ ==== */
+.wiki-rutvpedia a[href$="Gulp%27D"] {
+	--user-role:"\ea79";
+	--user-weight:700;
+}
+
+/* ==== Администраторы ==== */
+.wiki-rutvpedia :is(a[href$="HIHRAIM"], a[href$="WreckingBall2014"], a[href$="Vladislav1015"], a[href$="Mr._Kirchise"], a[href$="Bubblezimon"]) {
+	--user-role:"\ecd8";
+	--user-weight:700;
+}
+
+/* ==== Модераторы ==== */
+.wiki-rutvpedia a[href$="Staroswitsky"] {
+	--user-role:"\ecd5";
+	--user-weight:700;
+}
+
+/* ==== Боты ==== */
+.wiki-rutvpedia a[href$="Confederate_Bot"] {
+	--user-role:"\ecb4";
+	--user-weight:700;
+}
+
+/* === Должности на Радиопедии === */
+/* ==== Старший администратор ==== */
+.wiki-ruradiopedia a[href$="Mr._Kirchise"] {
+	--user-role:"\ea79";
+	--user-weight:700;
+}
+
+/* ==== Администраторы ==== */
+.wiki-ruradiopedia :is(a[href$="HIHRAIM"], a[href$="WreckingBall2014"]) {
+	--user-role:"\ecd8";
+	--user-weight:700;
+}
+
+/* ==== Модераторы ==== */
+.wiki-ruradiopedia a[href$="Staroswitsky"] {
+	--user-role:"\ecd5";
+	--user-weight:700;
+}
+
+/* ==== Боты ==== */
+.wiki-ruradiopedia a[href$="Confederate_Bot"] {
+	--user-role:"\ecb4";
+	--user-weight:700;
+}
+
+/* === Где показываем цвет === */
+body:not(.mainpage) :is(.mw-userlink, .userlink, .pedia-nbox a, .tp-nbox a):is(a[href$="Gulp%27D"], a[href$="HIHRAIM"]):not([class*="mw-usertoollinks"]):not([href*="%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:"]):not(:has(img)) {
+	color:var(--user-color);
+}
+
+/* === Где показываем должность === */
+body:not(.mainpage) :is(.mw-userlink, .userlink, .pedia-nbox a, .tp-nbox a):is(a[href$="Gulp%27D"], a[href$="HIHRAIM"], a[href$="WreckingBall2014"], a[href$="Vladislav1015"], a[href$="Mr._Kirchise"], a[href$="Bubblezimon"], a[href$="Staroswitsky"], a[href$="Confederate_Bot"]):not([class*="mw-usertoollinks"]):not([href*="%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:"]):not(:has(img)) {
+	font-weight:var(--user-weight, inherit);
+}
+
+body:not(.mainpage) :is(.mw-userlink, .userlink, .pedia-nbox a, .tp-nbox a):is(a[href$="Gulp%27D"], a[href$="HIHRAIM"], a[href$="WreckingBall2014"], a[href$="Vladislav1015"], a[href$="Mr._Kirchise"], a[href$="Bubblezimon"], a[href$="Staroswitsky"], a[href$="Confederate_Bot"]):not([class*="mw-usertoollinks"]):not([href*="%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:"]):not(:has(img))::after {
+	content:var(--user-role, none);
+	margin-left:0.33em;
+	font-family:"Phosphor-Bold";
+	font-size:0.875em;
+	font-weight:400;
+	vertical-align:-0.05em;
+}
+
+.user-profile-navigation a::after {
+	content:none;
+}
