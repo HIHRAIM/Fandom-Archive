@@ -2,7 +2,7 @@
 /* === Модульные инфобоксы === */
 .normal-infobox .portable-infobox {
 	background-color:rgb(var(--theme-accent-color--rgb),.1);
-	border-radius:5px;
+	border-radius:var(--pokewiki-border-radius);
 	border-width:0;
 	box-shadow:0px 0px 2px 4px var(--theme-border-color);
 	margin:5px;
@@ -23,12 +23,12 @@
 
 .normal-infobox .pi-title {
 	font-weight:500 !important;
-	border-radius:10px 10px 0px 0px !important;
+	border-radius:var(--pokewiki-border-radius) !important;
 	margin:2px 2px 0px 2px !important;
 }
 
 .normal-infobox .pi-header {
-	border-radius:10px;
+	border-radius:var(--pokewiki-border-radius);
 	margin:2px !important;
 }
 
@@ -43,12 +43,11 @@
 .normal-infobox .portable-infobox .wds-tabs__tab {
 	margin-left:3px;
 	margin-right:3px;
-	border-radius:3px;
 	transition:all 0.3s !important;
 }
 
 .normal-infobox .portable-infobox .wds-tabs__tab:hover {
-  transform:scale(1.05);
+	transform:scale(1.05);
 }
 
 /* .normal-infobox .portable-infobox .wds-tabs__tab.wds-is-current {
@@ -87,10 +86,10 @@
 }
 
 .normal-infobox .portable-infobox .pi-data:hover .pi-data-value {
-	border-radius:0
+	border-radius:0;
 }
 
-/* == Шаблоны, взятые с украинской вики == */
+/* === Навбоксы === */
 [class*="navbox"] div :is(h2, h3) {
 	text-align:center;
 	font-weight:500 !important;
@@ -103,15 +102,15 @@
 	opacity:.8;
 }
 
-/* === Таблицы === */
 .pokemons-navbox {
 	border:2px solid var(--poke-accent) !important;
 	box-shadow:0px 0px 2px 4px var(--theme-border-color);
-	border-radius:10px;
+	border-radius:var(--pokewiki-border-radius);
 	padding:1px;
 	text-align:center;
 	border-spacing:1px;
 	margin:5px;
+	min-width:90%;
 }
 
 .pokemons-navbox th,
@@ -123,8 +122,12 @@
 .pokemons-navbox td > div {
 	margin:-1px auto;
 	width:90% !important;
-	border-radius:0 0 15px 15px;
+	border-radius:var(--pokewiki-border-radius-bottom);
 	padding:0 !important;
+}
+
+.pokemons-navbox tr {
+	border-bottom:1px solid var(--poke-light);
 }
 
 .pokemons-navbox tr > .th {	
@@ -132,11 +135,11 @@
 }
 
 .pokemons-navbox .tr-first th {
-	border-radius:8px 0 0 0;
+	border-radius:var(--pokewiki-border-radius) 0 0 0;
 }
 
 .pokemons-navbox .tr-first td {
-	border-radius:0 8px 0 0;
+	border-radius:0 var(--pokewiki-border-radius) 0 0;
 }
 
 .pokemons-navbox .tr-center th {
@@ -148,11 +151,11 @@
 }
 
 .pokemons-navbox .tr-last th {
-	border-radius:0 0 0 8px;
+	border-radius:0 0 0 var(--pokewiki-border-radius);
 }
 
 .pokemons-navbox .tr-last td {
-	border-radius:0 0 8px 0;
+	border-radius:0 0 var(--pokewiki-border-radius) 0;
 }
 
 .pokemons-navbox td {
@@ -161,6 +164,42 @@
 
 .pokemons-navbox h4 {
 	margin:9px 0 9px !important;
+}
+
+/* ==== Таблицы разведения покемонов ==== */
+.breeding-table .mw-file-element.mw-broken-media {
+	background-image:url('https://static.wikia.nocookie.net/pokemon/images/e/e3/No_Image.png/revision/latest?cb=20211113135653');
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center;
+	width:35px;
+	height:35px;
+	display:inline-block;
+	border:none;
+	text-indent:-9999px;
+}
+
+.breeding-table img {
+	width:35px;
+	height:35px;
+}
+
+/* ==== Таблицы изучаемых движений через предметы ==== */
+.bag-sprite .mw-file-element.mw-broken-media {
+	background-image:url('https://static.wikia.nocookie.net/pokemon/images/e/e3/No_Image.png/revision/latest?cb=20211113135653');
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center;
+	width:25px;
+	height:25px;
+	display:inline-block;
+	border:none;
+	text-indent:-9999px;
+}
+
+.bag-sprite img {
+	width:35px;
+	height:35px;
 }
 
 /* === Навбоксы === */
@@ -181,7 +220,7 @@
 	position:relative;
 	border:2px solid var(--poke-accent) !important;
 	box-shadow:0px 0px 2px 3px var(--theme-border-color);
-	border-radius:15px;
+	border-radius:var(--pokewiki-border-radius);
 	padding:2px;
 	margin:5px;
 }
@@ -202,7 +241,7 @@
 	font-weight:500;
 	/* margin:-1px auto; */
 	width:100% !important;
-	border-radius:10px;
+	border-radius:var(--pokewiki-border-radius);
 	/* margin:.2em; */
 	height:var(--th-height);
 	text-align:center;
@@ -261,7 +300,7 @@
 .poke-generations.poke-navbox > .th {
 	margin:-1px auto;
 	width:90% !important;
-	border-radius:0 0 15px 15px;
+	border-radius:var(--pokewiki-border-radius-bottom);
 	padding:0 !important;
 }
 
@@ -289,7 +328,7 @@
 	min-width:80px;
 	text-align:center;
 	transition:.5s;
-	border-radius:15px;
+	border-radius:var(--pokewiki-border-radius);
 	padding-bottom:1.7em;
 	line-height:normal;
 }
@@ -315,30 +354,59 @@
 	background:var(--poke-full-light);
 }
 
-/* === Названия типов покемонов === */
-.Нормальный,.Боевой,.Огненный,.Водный,.Ядовитый,.Земляной,.Каменный,.Насекомый,.Призрачный,.Стальной,.Волшебный,.Травяной,.Электрический,.Психический,.Ледяной,.Драконий,.Летающий,.Тёмный,
-[title~=тип],
-.Pokedex[class*="type2-"],
-[class*="type-"] .pi-theme-Pokedex,
-[class*="type-"] .pi-theme-Movedex,
-.Pokedex[class*="type-"] + p {
---hsl:hsl(var(--cs-hsl),var(--cs-hsl2, 60%),var(--cs-hsl3, 50%),var(--cs-hsl4, 1));
---hsl-2:hsl(var(--cs-hsl),var(--cs-hsl2-2, 80%),var(--cs-hsl3-2, 70%),var(--cs-hsl4-2, 1));
---hsl-3:hsl(var(--cs-hsl),var(--cs-hsl2-3, 80%),var(--cs-hsl3-3, 80%),var(--cs-hsl4-3, 1));
---hsl-4:hsl(var(--cs-hsl),var(--cs-hsl2-4, 50%),var(--cs-hsl3-4, 93%),var(--cs-hsl4-4, 1));
+/* === Цвета стихийных типов (HEX) === */
+:root {
+	--type-normal-color:#9FA19F;
+	--type-fire-color:#E62829;
+	--type-fighting-color:#FF8000;
+	--type-water-color:#2980EF;
+	--type-flying-color:#81B9EF;
+	--type-grass-color:#3FA129;
+	--type-poison-color:#9141CB;
+	--type-electric-color:#FAC000;
+	--type-ground-color:#915121;
+	--type-psychic-color:#EF4179;
+	--type-rock-color:#AFA981;
+	--type-ice-color:#3DCEF3;
+	--type-bug-color:#91A119;
+	--type-dragon-color:#5060E1;
+	--type-ghost-color:#704170;
+	--type-dark-color:#624D4E;
+	--type-steel-color:#60A1B8;
+	--type-fairy-color:#EF70EF;
+
+	--type-normal-color-dark:#676967;
+	--type-fire-color-dark:#961A1B;
+	--type-fighting-color-dark:#A65300;
+	--type-water-color-dark:#1B539B;
+	--type-flying-color-dark:#54789B;
+	--type-grass-color-dark:#29691B;
+	--type-poison-color-dark:#5E2A84;
+	--type-electric-color-dark:#A37D00;
+	--type-ground-color-dark:#5E3515;
+	--type-psychic-color-dark:#9B2A4F;
+	--type-rock-color-dark:#726E54;
+	--type-ice-color-dark:#28869E;
+	--type-bug-color-dark:#5E6910;
+	--type-dragon-color-dark:#343E92;
+	--type-ghost-color-dark:#492A49;
+	--type-dark-color-dark:#403233;
+	--type-steel-color-dark:#3E6978;
+	--type-fairy-color-dark:#9B499B;
 }
 
-/* ==== Типы ==== */
-.theme-fandomdesktop-dark :is(.Нормальный,.Боевой,.Огненный,.Водный,.Ядовитый,.Земляной,.Каменный,.Насекомый,.Призрачный,.Стальной,.Волшебный,.Травяной,.Электрический,.Психический,.Ледяной,.Драконий,.Летающий,.Тёмный),
+/* === Оттенки фона инфобокса === */
+.Нормальный,.Боевой,.Огненный,.Водный,.Ядовитый,.Земляной,.Каменный,.Насекомый,.Призрачный,.Стальной,.Волшебный,.Травяной,.Электрический,.Психический,.Ледяной,.Драконий,.Летающий,.Тёмный,.Звёздный,
 [title~=тип],
 .Pokedex[class*="type2-"],
 [class*="type-"] .pi-theme-Pokedex,
 [class*="type-"] .pi-theme-Movedex,
 .Pokedex[class*="type-"] + p {
---hsl:hsl(var(--cs-hsl),var(--cs-hsl2, 55%),var(--cs-hsl3, 66%),var(--cs-hsl4, .5));
---hsl-2:hsl(var(--cs-hsl),var(--cs-hsl2-2, 88%),var(--cs-hsl3-2, 75%),var(--cs-hsl4-2, .6));
---hsl-3:hsl(var(--cs-hsl),var(--cs-hsl2-3, 80%),var(--cs-hsl3-3, 85%),var(--cs-hsl4-3, .6));
---hsl-4:hsl(var(--cs-hsl),var(--cs-hsl2-4, 50%),var(--cs-hsl3-4, 92%),var(--cs-hsl4-4, .6));
+	--hsl:var(--type-color);
+	--hsl-2:color-mix(in srgb, var(--type-color) 70%, #fff);
+	--hsl-3:color-mix(in srgb, var(--type-color) 45%, #fff);
+	--hsl-4:color-mix(in srgb, var(--type-color) 20%, #fff);
+	--hsl-dark:var(--type-color-dark, color-mix(in srgb, var(--type-color), #000 30%));
 }
 
 /* ==== Портабельный (Модульный) инфобокс ==== */
@@ -348,15 +416,15 @@
 	justify-content:center;
 	position:relative;
 	width:fit-content;
-	margin:0 auto;
+	margin:0 0 1em 0;
 	padding:.5em 1em;
-	border-radius:10px;
+	border-radius:var(--pokewiki-border-radius);
 }
 
 .Pokedex[class*="type2-"]
 /* [class~="type-"], */
  {
-	border:2px solid var(--hsl);
+	border:2px solid var(--hsl-dark);
 	background-color:var(--hsl-2);
 }
 
@@ -391,7 +459,7 @@
 
 /* ===== Цвет рамок ===== */
 .pi-theme-Pokedex .pi-border-color {
-	border-color:var(--hsl);
+	border-color:var(--hsl-dark);
 }
 
 /* ===== Секции ===== */
@@ -404,6 +472,11 @@
 	border-style:solid;
 }
 
+.pi-theme-Pokedex > section {
+	border-radius:8px;
+	overflow:hidden;
+}
+
 /* [data-item-name="Pokedex-center"] {
 	border-radius:10px 10px 0 0;
 	overflow:hidden;
@@ -411,6 +484,12 @@
 
 [data-item-name="Pokedex-left"] {
 	width:300px !important;
+}
+
+@media (max-width:850px) {
+	[data-item-name="Pokedex-left"] {
+		max-width:200px !important;
+	}
 }
 
 /* ===== Рамки ===== */
@@ -422,6 +501,12 @@
 
 .pi-theme-Pokedex > section:not(:nth-child(2)) {
 	border-top:none;
+}
+
+/* ==== Текст блоков (контраст, одинаково в обеих темах) ==== */
+.pi-theme-Pokedex {
+	color:#000;
+	--theme-page-text-color:#000;
 }
 
 /* ==== Заголовки ==== */
@@ -441,16 +526,16 @@
 .pi-data-label a,
 .pi-title a,
 [data-item-name="pi-data-label simple"] a {
-	color:var(--cs-txt, var(--theme-page-text-color));
+	color:var(--theme-page-text-color);
 }
 
-.pi-data-label,
-.pi-title,
+.pi-theme-Pokedex .pi-data-label,
+.pi-theme-Pokedex .pi-title,
 [data-item-name="pi-data-label simple"],
 [data-item-name="pi-data-label simple-pass"]{
 	background:var(--hsl-3);
 	font-weight:500;
-	color:var(--cs-txt, var(--theme-page-text-color));
+	color:var(--theme-page-text-color);
 }
 
 .pi-theme-Pokedex .pi-title {
@@ -458,12 +543,12 @@
 	line-height:18px;
 	padding:0;
 	background:var(--hsl-2, var(--pi-background));
-	color:var(--cs-txt, var(--theme-page-text-color));
+	color:var(--theme-page-text-color);
 }
 
 .Pokedex .smallpic {
 	background:var(--hsl-4);
-	border-radius:15px;
+	border-radius:var(--pokewiki-border-radius);
 	display:inline-table;
 	margin-right:-4px;
 }
@@ -485,45 +570,26 @@ section[data-item-name="Pokedex-center"] .pi-image img {
 [data-item-name="Pokedex-center"] .pi-image-thumbnail {
 	background:var(--hsl-4);
 	/*padding:1em;*/
-	border-radius:15px;
+	border-radius:var(--pokewiki-border-radius);
 }
 
-/* ==== ==== */
-.Pokedex + p {
-	text-align:center;
-	margin:1em 0 0 !important;
-	border:1px solid var(--hsl-2);
-	border-radius:10px;
-	background:var(--hsl-4);
-	padding:.5em !important;
-}
-
-.theme-fandomdesktop-dark .Pokedex + p {
-	--cs-hsl4-4:20%;
-	--cs-hsl3-4:50%;
-}
-
-/* ==== ==== */
-.ns-0 .mw-parser-output [title~=тип] {
+/* ==== Бейджи типов ==== */
+.mw-parser-output [title~=тип] {
 	display:inline-block;
-	border-radius:4px;
-	color:#fff !important;
-	background:var(--hsl-2);
-	--cs-hsl3-2:50%;
-	border:1px solid var(--hsl);
+	border-radius:5px;
+	color:var(--cs-txt, #000) !important;
+	--theme-page-text-color:var(--cs-txt, #000);
+	background:var(--hsl);
+	border:1px solid var(--hsl-dark);
 	font-size:.75rem;
 	line-height:1;
 	padding:.2em;
-	text-shadow:1px 1px 2px rgb(0 0 0 / 70%);
+	text-shadow:none;
 	text-transform:uppercase;
 	transition:.3s;
 }
-.ns-0.theme-fandomdesktop-dark .mw-parser-output [title~=тип] {
-	border:1px solid var(--hsl-3);
-}
-.ns-0 [title~=тип]:hover {
+[title~=тип]:hover {
 	background:var(--hsl-2);
-	--cs-hsl3-2:50%;
 }
 
 /* ==== Иконки покемонов ==== */
@@ -543,20 +609,20 @@ section[data-item-name="Pokedex-center"] .pi-image img {
 }
 
 [data-item-name="Movedex-center"] {
-	border-radius:10px 10px 0 0;
+	border-radius:var(--pokewiki-border-radius-top);
 	overflow:hidden;
 	/* width:300px !important; */
 }
 
 [data-item-name="Movedex-left"] {
 	min-width:200px !important;
-	border-radius:10px;
+	border-radius:var(--pokewiki-border-radius);
 	overflow:hidden;
 }
 
 [data-item-name="Movedex-right"] {
 	min-width:300px !important;
-	border-radius:10px;
+	border-radius:var(--pokewiki-border-radius);
 	overflow:hidden;
 }
 
@@ -566,7 +632,7 @@ section[data-item-name="Movedex-center"] .pi-image {
 }
 
 [data-item-name="Movedex-center"] .pi-image-thumbnail {
-	border-radius:15px;
+	border-radius:var(--pokewiki-border-radius);
 }
 
 [class*="type-"] .pi-theme-Movedex .pi-navigation {
@@ -575,7 +641,7 @@ section[data-item-name="Movedex-center"] .pi-image {
 
 /* ==== Цвет рамок ==== */
 .pi-theme-Movedex .pi-border-color {
-	border-color:var(--hsl);
+	border-color:var(--hsl-dark);
 }
 
 .pi-theme-Movedex .pi-title {
@@ -585,7 +651,7 @@ section[data-item-name="Movedex-center"] .pi-image {
 
 .pi-theme-Movedex .pi-header {
 	background:var(--hsl, var(--pi-background));
-	color:var(--cs-txt, var(--theme-page-text-color));
+	color:var(--cs-txt, #000);
 	font-weight:700 !important;
 }
 
@@ -603,7 +669,7 @@ section[data-item-name="Movedex-center"] .pi-image {
 
 [data-item-name='layout-default'] .pi-data-value {
 	width:100% !important;
-	border-radius:0 0 10px 10px;
+	border-radius:var(--pokewiki-border-radius-bottom);
 }
 
 .pi-theme-Movedex .pi-group > section:not(:first-of-type) .pi-header {
@@ -613,7 +679,7 @@ section[data-item-name="Movedex-center"] .pi-image {
 .pi-theme-Movedex .pi-horizontal-group .pi-header {
 	text-align:center;
 	background:var(--hsl-2, var(--pi-background));
-	border-radius:10px 10px 0 0;
+	border-radius:var(--pokewiki-border-radius-top);
 }
 
 /* === Другое === */
@@ -622,7 +688,7 @@ section[data-item-name="Movedex-center"] .pi-image {
 	padding-left:10px;
 }
 
-/* === Темы === */
+/* === Темы типов === */
 /* ==== Тип (основной) ==== */
 .Нормальный,
 .type-Нормальный .pi-theme-Pokedex,
@@ -630,13 +696,8 @@ section[data-item-name="Movedex-center"] .pi-image {
 .type2-Нормальный,
 [title~=Нормальный],[title~=Нормальный],
 .type-Нормальный + p {
-	--cs-hsl:60;
-	--cs-hsl2:20%;  --cs-hsl3:73%;
-	--cs-hsl2-2:22%;--cs-hsl3-2:85%;
-	--cs-hsl2-3:26%;--cs-hsl3-3:93%;
-	--cs-hsl2-4:16%;--cs-hsl3-4:99%;
-	
-	--cs-txt:#3a3a3a;
+	--type-color:var(--type-normal-color);
+	--type-color-dark:var(--type-normal-color-dark);
 }
 
 .Боевой,
@@ -645,11 +706,8 @@ section[data-item-name="Movedex-center"] .pi-image {
 .type2-Боевой,
 [title~=Боевой],
 .type-Боевой + p {
-	--cs-hsl:3;
-	--cs-hsl2:60%;  --cs-hsl3:50%;
-	--cs-hsl2-2:80%;--cs-hsl3-2:70%;
-	--cs-hsl2-3:80%;--cs-hsl3-3:80%;
-	--cs-hsl2-4:50%;--cs-hsl3-4:93%;
+	--type-color:var(--type-fighting-color);
+	--type-color-dark:var(--type-fighting-color-dark);
 }
 
 .Огненный,
@@ -658,13 +716,8 @@ section[data-item-name="Movedex-center"] .pi-image {
 .type2-Огненный,
 [title~=Огненный],
 .type-Огненный + p {
-	--cs-txt:;
-	
-	--cs-hsl:25;
-	--cs-hsl2:60%;  --cs-hsl3:50%;
-	--cs-hsl2-2:80%;--cs-hsl3-2:70%;
-	--cs-hsl2-3:80%;--cs-hsl3-3:80%;
-	--cs-hsl2-4:50%;--cs-hsl3-4:93%;
+	--type-color:var(--type-fire-color);
+	--type-color-dark:var(--type-fire-color-dark);
 }
 
 .Водный,
@@ -673,13 +726,8 @@ section[data-item-name="Movedex-center"] .pi-image {
 .type2-Водный,
 [title~=Водный],[title~=Водний],
 .type-Водный + p {
-	--cs-hsl:220;
-	--cs-hsl2:60%;  --cs-hsl3:50%;
-	--cs-hsl2-2:80%;--cs-hsl3-2:70%;
-	--cs-hsl2-3:80%;--cs-hsl3-3:80%;
-	--cs-hsl2-4:50%;--cs-hsl3-4:93%;
-	
-	--cs-txt:;
+	--type-color:var(--type-water-color);
+	--type-color-dark:var(--type-water-color-dark);
 }
 
 .Ядовитый,
@@ -688,12 +736,9 @@ section[data-item-name="Movedex-center"] .pi-image {
 .type2-Ядовитый,
 [title~=Ядовитый],
 .type-Ядовитый + p {
-	--hex:#D878D8;
-	--cs-hsl:300;
-	--cs-hsl2:60%;  --cs-hsl3:50%;
-	--cs-hsl2-2:60%;--cs-hsl3-2:70%;
-	--cs-hsl2-3:80%;--cs-hsl3-3:80%;
-	--cs-hsl2-4:50%;--cs-hsl3-4:93%;
+	--type-color:var(--type-poison-color);
+	--type-color-dark:var(--type-poison-color-dark);
+	--cs-txt:#fff;
 }
 
 .Земляной,
@@ -702,11 +747,9 @@ section[data-item-name="Movedex-center"] .pi-image {
 .type2-Земляной,
 [title~=Земляной],
 .type-Земляной + p {
-	--cs-hsl:40;
-	--cs-hsl2:60%;  --cs-hsl3:50%;
-	--cs-hsl2-2:80%;--cs-hsl3-2:70%;
-	--cs-hsl2-3:80%;--cs-hsl3-3:80%;
-	--cs-hsl2-4:50%;--cs-hsl3-4:93%;
+	--type-color:var(--type-ground-color);
+	--type-color-dark:var(--type-ground-color-dark);
+	--cs-txt:#fff;
 }
 
 .Каменный,
@@ -715,11 +758,8 @@ section[data-item-name="Movedex-center"] .pi-image {
 .type2-Каменный,
 [title~=Каменный],[title~="Каменный"],
 .type-Каменный + p {
-	--cs-hsl:40;
-	--cs-hsl2:20%;  --cs-hsl3:50%;
-	--cs-hsl2-2:20%;--cs-hsl3-2:80%;
-	--cs-hsl2-3:20%;--cs-hsl3-3:85%;
-	--cs-hsl2-4:15%;--cs-hsl3-4:85%;
+	--type-color:var(--type-rock-color);
+	--type-color-dark:var(--type-rock-color-dark);
 }
 
 .Насекомый,
@@ -728,11 +768,8 @@ section[data-item-name="Movedex-center"] .pi-image {
 .type2-Насекомый,
 [title~=Насекомый],[title^=Насекомый],
 .type-Насекомый + p {
-	--cs-hsl:70;
-	--cs-hsl2:60%;  --cs-hsl3:50%;
-	--cs-hsl2-2:80%;--cs-hsl3-2:75%;
-	--cs-hsl2-3:80%;--cs-hsl3-3:80%;
-	--cs-hsl2-4:50%;--cs-hsl3-4:93%;
+	--type-color:var(--type-bug-color);
+	--type-color-dark:var(--type-bug-color-dark);
 }
 
 .Призрачный,
@@ -741,13 +778,9 @@ section[data-item-name="Movedex-center"] .pi-image {
 .type2-Призрачный,
 [title~=Призрачный],
 .type-Призрачный + p {
-	--cs-hsl:260;
-	--cs-hsl2:60%;  --cs-hsl3:50%;
-	--cs-hsl2-2:30%;--cs-hsl3-2:65%;
-	--cs-hsl2-3:40%;--cs-hsl3-3:80%;
-	--cs-hsl2-4:50%;--cs-hsl3-4:93%;
-	
---cs-txt:#fafafa;
+	--type-color:var(--type-ghost-color);
+	--type-color-dark:var(--type-ghost-color-dark);
+	--cs-txt:#fafafa;
 }
 
 .Стальной,
@@ -756,11 +789,8 @@ section[data-item-name="Movedex-center"] .pi-image {
 .type2-Стальной,
 [title~=Стальной],
 .type-Стальной + p {
-	--cs-hsl:200;
-	--cs-hsl2:20%;  --cs-hsl3:70%;
-	--cs-hsl2-2:20%;--cs-hsl3-2:80%;
-	--cs-hsl2-3:20%;--cs-hsl3-3:88%;
-	--cs-hsl2-4:50%;--cs-hsl3-4:95%;
+	--type-color:var(--type-steel-color);
+	--type-color-dark:var(--type-steel-color-dark);
 }
 
 .Волшебный,
@@ -769,12 +799,8 @@ section[data-item-name="Movedex-center"] .pi-image {
 .type2-Волшебный,
 [title~=Волшебный],
 .type-Волшебный + p {
-	--hex:#D878D8;
-	--cs-hsl:300;
-	--cs-hsl2:60%;  --cs-hsl3:50%;
-	--cs-hsl2-2:80%;--cs-hsl3-2:80%;
-	--cs-hsl2-3:80%;--cs-hsl3-3:88%;
-	--cs-hsl2-4:50%;--cs-hsl3-4:93%;
+	--type-color:var(--type-fairy-color);
+	--type-color-dark:var(--type-fairy-color-dark);
 }
 
 .Травяной,
@@ -783,12 +809,8 @@ section[data-item-name="Movedex-center"] .pi-image {
 .type2-Травяной,
 [title~=Травяной],[title~="Травяной"],
 .type-Травяной + p {
-	--hex:;
-	--cs-hsl:100;
-	--cs-hsl2:60%;  --cs-hsl3:50%;
-	--cs-hsl2-2:70%;--cs-hsl3-2:75%;
-	--cs-hsl2-3:50%;--cs-hsl3-3:85%;
-	--cs-hsl2-4:50%;--cs-hsl3-4:93%;
+	--type-color:var(--type-grass-color);
+	--type-color-dark:var(--type-grass-color-dark);
 }
 
 .Электрический,
@@ -797,12 +819,8 @@ section[data-item-name="Movedex-center"] .pi-image {
 .type2-Электрический,
 [title~=Электрический],
 .type-Электрический + p {
-	--hex:;
-	--cs-hsl:50;
-	--cs-hsl2:80%;  --cs-hsl3:50%;
-	--cs-hsl2-2:80%;--cs-hsl3-2:65%;
-	--cs-hsl2-3:80%;--cs-hsl3-3:80%;
-	--cs-hsl2-4:50%;--cs-hsl3-4:93%;
+	--type-color:var(--type-electric-color);
+	--type-color-dark:var(--type-electric-color-dark);
 }
 
 .Психический,
@@ -811,11 +829,8 @@ section[data-item-name="Movedex-center"] .pi-image {
 .type2-Психический,
 [title~=Психический],
 .type-Психический + p {
-	--cs-hsl:340;
-	--cs-hsl2:60%;  --cs-hsl3:50%;
-	--cs-hsl2-2:80%;--cs-hsl3-2:75%;
-	--cs-hsl2-3:80%;--cs-hsl3-3:85%;
-	--cs-hsl2-4:50%;--cs-hsl3-4:93%;
+	--type-color:var(--type-psychic-color);
+	--type-color-dark:var(--type-psychic-color-dark);
 }
 
 .Ледяной,
@@ -824,12 +839,8 @@ section[data-item-name="Movedex-center"] .pi-image {
 .type2-Ледяной,
 [title~=Ледяной],
 .type-Ледяной + p {
-	--hex:#69D1D1;
-	--cs-hsl:180;
-	--cs-hsl2:60%;  --cs-hsl3:50%;
-	--cs-hsl2-2:70%;--cs-hsl3-2:75%;
-	--cs-hsl2-3:80%;--cs-hsl3-3:90%;
-	--cs-hsl2-4:50%;--cs-hsl3-4:93%;
+	--type-color:var(--type-ice-color);
+	--type-color-dark:var(--type-ice-color-dark);
 }
 
 .Драконий,
@@ -838,12 +849,9 @@ section[data-item-name="Movedex-center"] .pi-image {
 .type2-Драконий,
 [title^=Дракон],
 .type-Драконий + p {
-	--hex:;
-	--cs-hsl:260;
-	--cs-hsl2:60%;  --cs-hsl3:50%;
-	--cs-hsl2-2:80%;--cs-hsl3-2:70%;
-	--cs-hsl2-3:80%;--cs-hsl3-3:80%;
-	--cs-hsl2-4:50%;--cs-hsl3-4:93%;
+	--type-color:var(--type-dragon-color);
+	--type-color-dark:var(--type-dragon-color-dark);
+	--cs-txt:#fff;
 }
 
 .Летающий,
@@ -852,13 +860,8 @@ section[data-item-name="Movedex-center"] .pi-image {
 .type2-Летающий,
 [title~=Летающий],
 .type-Летающий + p {
-	--hex:;
-	--cs-hsl:260;
-
-	--cs-hsl2:20%;  --cs-hsl3:50%;
-	--cs-hsl2-2:80%;--cs-hsl3-2:90%;
-	--cs-hsl2-3:80%;--cs-hsl3-3:88%;
-	--cs-hsl2-4:50%;--cs-hsl3-4:93%;
+	--type-color:var(--type-flying-color);
+	--type-color-dark:var(--type-flying-color-dark);
 }
 
 .Тёмный,
@@ -867,16 +870,21 @@ section[data-item-name="Movedex-center"] .pi-image {
 .type2-Тёмный,
 [title~=Тёмный],
 .type-Тёмный + p {
---hex:;
---cs-hsl:20;
---cs-hsl2:40%;  --cs-hsl3:70%;
---cs-hsl2-2:0%; --cs-hsl3-2:20%;
---cs-hsl2-3:0%; --cs-hsl3-3:30%;
---cs-hsl2-4:0%; --cs-hsl3-4:80%;
-	
---cs-txt:#fafafa;
---cs-txt-2:#fafafa;
+	--type-color:var(--type-dark-color);
+	--type-color-dark:var(--type-dark-color-dark);
+	--cs-txt:#fafafa;
 }
+
+.Звёздный,
+.type-Звёздный .pi-theme-Pokedex,
+.type-Звёздный .pi-theme-Movedex,
+.type2-Звёздный,
+[title~=Звёздный],[title~=Звёздный],
+.type-Звёздный + p {
+	--type-color:#83CFC5;
+	--cs-txt:#293D3B;
+}
+
 
 /* ==== Фанатское ==== */
 /* ===== Ядерный тип ===== */
@@ -886,9 +894,7 @@ section[data-item-name="Movedex-center"] .pi-image {
 .type2-Ядерный,
 [title~=Ядерный],[title~=Ядерный],
 .type-Ядерный + p {
-	--cs-hsl:120;
-	--cs-hsl2:100%;  --cs-hsl3:100%;
-	--cs-hsl2-2:50%;--cs-hsl3-2:50%;
+	--type-color:#40BF40;
 }
 
 /* === Mbox / Информационный (взято с английской вики) === */
@@ -902,7 +908,7 @@ section[data-item-name="Movedex-center"] .pi-image {
 	border:1px solid #d6d6d6;
 	border-left-width:8px;
 	border-left-color:#d6d6d6;
-	border-radius:3px;
+	border-radius:var(--pokewiki-border-radius);
 	margin-bottom:5px;
 	min-height:32px;
 }
@@ -1003,7 +1009,7 @@ section[data-item-name="Movedex-center"] .pi-image {
 .admin {
 	display:grid;
 	min-width:80px;
-	border-radius:15px;
+	border-radius:var(--pokewiki-border-radius);
 	transition:.5s;
 }
 
@@ -1032,7 +1038,7 @@ section[data-item-name="Movedex-center"] .pi-image {
 .lmpokemon {
 	display:grid;
 	min-width:80px;
-	border-radius:15px;
+	border-radius:var(--pokewiki-border-radius);
 	transition:.5s;
 }
 
@@ -1064,7 +1070,7 @@ section[data-item-name="Movedex-center"] .pi-image {
 .admins-nav td > div {
 	margin:-1px auto;
 	width:90% !important;
-	border-radius:15px 15px 0 0;
+	border-radius:var(--pokewiki-border-radius-top);
 	padding:0 !important;
 }
 
@@ -1073,19 +1079,19 @@ section[data-item-name="Movedex-center"] .pi-image {
 }
 
 .admins-nav .tr-first th {
-	border-radius:8px 0 0 0;
+	border-radius:var(--pokewiki-border-radius) 0 0 0;
 }
 
 .admins-nav .tr-first td {
-	border-radius:0 8px 0 0;
+	border-radius:0 var(--pokewiki-border-radius) 0 0;
 }
 
 .admins-nav .tr-last th {
-	border-radius:0 0 0 8px;
+	border-radius:0 0 0 var(--pokewiki-border-radius);
 }
 
 .admins-nav .tr-last td {
-	border-radius:0 0 8px 0;
+	border-radius:0 0 var(--pokewiki-border-radius) 0;
 }
 
 .admins-nav td {
@@ -1102,67 +1108,24 @@ section[data-item-name="Movedex-center"] .pi-image {
 	--poke-full-light:rgb(242, 242, 242);
 }
 
-/* === Новый инфобокс для покемонов === */
+/* === Утилиты инфобокса покемонов === */
 .roundy {
-	border-radius:10px;
-	-moz-border-radius:10px;
-	-webkit-border-radius:10px;
-	-khtml-border-radius:10px;
-	-icab-border-radius:10px;
-	-o-border-radius:10px;
+	border-radius:var(--pokewiki-border-radius);
+	-moz-border-radius:var(--pokewiki-border-radius);
+	-webkit-border-radius:var(--pokewiki-border-radius);
+	-khtml-border-radius:var(--pokewiki-border-radius);
+	-icab-border-radius:var(--pokewiki-border-radius);
+	-o-border-radius:var(--pokewiki-border-radius);
+	color:#000;
 }
 
-.Нормальный,.Боевой,.Огненный,.Водный,.Ядовитый,.Земляной,.Каменный,.Насекомый,.Призрачный,.Стальной,.Волшебный,.Травяной,.Электрический,.Психический,.Ледяной,.Драконий,.Летающий,.Тёмный,
-[title~=тип],
-.Pokedex2[class*="type2-"],
-[class*="type-"] .pi-theme-Pokedex2,
-[class*="type-"] .pi-theme-Movedex,
-.Pokedex2[class*="type-"] + p {
---hsl:hsl(var(--cs-hsl),var(--cs-hsl2, 60%),var(--cs-hsl3, 50%),var(--cs-hsl4, 1));
---hsl-2:hsl(var(--cs-hsl),var(--cs-hsl2-2, 80%),var(--cs-hsl3-2, 70%),var(--cs-hsl4-2, 1));
---hsl-3:hsl(var(--cs-hsl),var(--cs-hsl2-3, 80%),var(--cs-hsl3-3, 80%),var(--cs-hsl4-3, 1));
---hsl-4:hsl(var(--cs-hsl),var(--cs-hsl2-4, 50%),var(--cs-hsl3-4, 93%),var(--cs-hsl4-4, 1));
-}
-
-.theme-fandomdesktop-dark :is(.Нормальный,.Боевой,.Огненный,.Водный,.Ядовитый,.Земляной,.Каменный,.Насекомый,.Призрачный,.Стальной,.Волшебный,.Травяной,.Электрический,.Психический,.Ледяной,.Драконий,.Летающий,.Тёмный),
-[title~=тип],
-.Pokedex2[class*="type2-"],
-[class*="type-"] .pi-theme-Pokedex2,
-[class*="type-"] .pi-theme-Movedex,
-.Pokedex2[class*="type-"] + p {
---hsl:hsl(var(--cs-hsl),var(--cs-hsl2, 55%),var(--cs-hsl3, 66%),var(--cs-hsl4, .5));
---hsl-2:hsl(var(--cs-hsl),var(--cs-hsl2-2, 88%),var(--cs-hsl3-2, 75%),var(--cs-hsl4-2, .6));
---hsl-3:hsl(var(--cs-hsl),var(--cs-hsl2-3, 80%),var(--cs-hsl3-3, 85%),var(--cs-hsl4-3, .6));
---hsl-4:hsl(var(--cs-hsl),var(--cs-hsl2-4, 50%),var(--cs-hsl3-4, 92%),var(--cs-hsl4-4, .6));
-}
-
-.Pokedex2[class*="type2-"] {
-	border:2px solid var(--hsl);
-	background-color:var(--hsl-2);
-}
-
-.Pokedex2 [title~=тип] {
-	display:inline-block;
-	border-radius:4px;
-	color:#fff !important;
-	background:var(--hsl-2);
-	--cs-hsl3-2:50%;
-	border:1px solid var(--hsl);
-	font-size:.75rem;
-	line-height:1;
-	padding:.2em;
-	text-shadow:1px 1px 2px rgb(0 0 0 / 70%);
-	text-transform:uppercase;
-	transition:.3s;
-}
-
-.ns-0.theme-fandomdesktop-dark .mw-parser-output [title~=тип] {
-	border:1px solid var(--hsl-3);
-}
-
-.ns-0 [title~=тип]:hover {
-	background:var(--hsl-2);
-	--cs-hsl3-2:50%;
+.roundytop {
+	border-radius:var(--pokewiki-border-radius);
+	-moz-border-radius:var(--pokewiki-border-radius);
+	-webkit-border-radius:var(--pokewiki-border-radius);
+	-khtml-border-radius:var(--pokewiki-border-radius);
+	-icab-border-radius:var(--pokewiki-border-radius);
+	-o-border-radius:var(--pokewiki-border-radius);
 }
 
 .Pokedex .altforms img {
@@ -1181,7 +1144,7 @@ section[data-item-name="Movedex-center"] .pi-image {
 	float:right;
 	width:22em;
 	background-color:rgba(var(--theme-accent-color--rgb), .1);
-	border-radius:5px;
+	border-radius:var(--pokewiki-border-radius);
 	border:2px solid var(--theme-accent-color);
 	box-shadow:0px 0px 2px 4px var(--theme-border-color);
 	margin:5px;
@@ -1195,7 +1158,7 @@ section[data-item-name="Movedex-center"] .pi-image {
 	font-weight:bold;
 	text-align:center;
 	text-shadow:0px 0px 0px rgba(0, 10, 41, 1);
-	border-radius:10px 10px 0 0;
+	border-radius:var(--pokewiki-border-radius-top);
 	padding:10px;
 	margin-bottom:5px;
 	font-size:18px;
@@ -1208,7 +1171,7 @@ section[data-item-name="Movedex-center"] .pi-image {
 	font-size:15px;
 	text-align:center;
 	padding:5px;
-	border-radius:5px;
+	border-radius:var(--pokewiki-border-radius);
 	margin-top:10px;
 }
 
@@ -1231,4 +1194,486 @@ section[data-item-name="Movedex-center"] .pi-image {
 
 .theme-fandomdesktop-light .vnav.rbox.move_infobox .data.highlight tr:hover {
 	background-color:rgba(0, 0, 0, 0.1);
+}
+
+/* === Соперники === */
+.mw-parser-output .partycontainer {
+	display:table;
+}
+
+.mw-parser-output .partycaption {
+	box-sizing:border-box;
+	margin:2px auto 0 auto;
+	padding:5px 0 0 0;
+	text-align:center;
+}
+
+.mw-parser-output .partybox {
+	border-radius:var(--pokewiki-border-radius);
+	margin:5px 0;
+	padding:8px;
+	text-align:center;
+}
+
+.mw-parser-output .partytop {
+	display:grid;
+	grid-template-columns:1fr 60px;
+	gap:10px;
+}
+
+.mw-parser-output .partygrid {
+	display:grid;
+	grid-template-columns:85px 175px 85px;
+	gap:5px;
+}
+
+.mw-parser-output .partycenter {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+}
+
+.mw-parser-output .partytrainer {
+	display:grid;
+	grid-template-columns:85px 1fr;
+	gap:5px;
+}
+
+.mw-parser-output .partycircle {
+	border-radius:var(--pokewiki-border-radius);
+	padding:5px;
+	background:#FFF;
+}
+
+.mw-parser-output .partyimage {
+	border-radius:var(--pokewiki-border-radius);
+	width:75px;
+	height:75px;
+	background:#FFF;
+	overflow:hidden;
+}
+
+.mw-parser-output .partydetails {
+	border-radius:var(--pokewiki-border-radius);
+	width:165px;
+	padding:5px;
+	margin:auto 0;
+}
+
+.mw-parser-output .partyclass {
+	font-size:85%;
+}
+
+.mw-parser-output .partyname {
+	color:#000;
+	font-size:larger;
+}
+
+.mw-parser-output .partylocation {
+	margin-top:5px;
+}
+
+.mw-parser-output .partygame {
+	font-size:smaller;
+}
+
+.mw-parser-output .partyreward {
+	color:#000;
+	border-radius:var(--pokewiki-border-radius);
+	padding:5px;
+	line-height:15px;
+	min-width:75px;
+}
+
+.mw-parser-output .partyballs {
+	border-radius:var(--pokewiki-border-radius);
+	width:100px;
+	padding:2px;
+	line-height:10px;
+}
+
+.mw-parser-output .partytoggle {
+	transform:rotate(90deg);
+	border-radius:var(--pokewiki-border-radius);
+	padding:3px;
+}
+
+.mw-parser-output .partypokemon {
+	margin-top:8px;
+	padding:5px;
+	width:auto;
+	background:#FFF;
+}
+
+.mw-parser-output .partypokemondiv {
+	padding:5px;
+	width:auto;
+	background:#FFF;
+}
+
+.mw-parser-output .partypokemongrid {
+	display:grid;
+	margin:auto;
+}
+
+.mw-parser-output .partypokemongrid2 {
+	display:grid;
+	margin:auto;
+}
+
+@media(max-width:850px) {
+	.mw-parser-output .partypokemongrid {
+		grid-template-columns:auto;
+	}
+
+	.mw-parser-output .partypokemongrid2 {
+		grid-template-columns:auto;
+	};
+}
+
+@media(min-width:851px) {
+	.mw-parser-output .partydetails {
+		width:190px;
+	}
+
+	.mw-parser-output .partypokemongrid {
+		grid-template-columns:auto auto;
+	}
+
+	.mw-parser-output .partypokemongrid2 {
+		grid-template-columns:auto auto;
+	};
+}
+
+.mw-parser-output .partygridtemplate {
+	display:grid;
+	grid-template-columns:390px;
+	gap:5px 0;
+}
+
+.mw-parser-output .PKMNcontainer {
+	margin:5px;
+}
+
+.mw-parser-output .PKMNcaption {
+	box-sizing:border-box;
+	width:316px;
+	padding:5px 0 2px 0;
+	text-align:center;
+	display:flex;
+	justify-content:center;
+}
+
+.mw-parser-output .PKMNbox {
+	display:flex;
+	flex-flow:column;
+	box-sizing:border-box;
+	border-radius:var(--pokewiki-border-radius);
+	width:316px;
+	min-height:270px;
+	padding:5px;
+}
+
+.mw-parser-output .PKMNcolumns {
+	flex:1 1 auto;
+	display:grid;
+	grid-template-columns:1fr 1fr;
+	gap:5px;
+}
+
+.mw-parser-output .PKMNleft {
+	padding-left:2px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+
+.mw-parser-output .PKMNartbox {
+	border-radius:var(--pokewiki-border-radius);
+	position:relative;
+	margin:5px auto;
+	width:110px;
+	height:110px;
+	padding:2px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.mw-parser-output .PKMNicon {
+	filter:drop-shadow(-1px 1px white)drop-shadow(1px -1px white)drop-shadow(1px 1px white)drop-shadow(-1px -1px white);
+}
+
+.mw-parser-output .PKMNnamebox {
+	box-sizing:border-box;
+	border-radius:var(--pokewiki-border-radius);
+	min-width:135px;
+	padding:3px;
+	margin-bottom:2px;
+	line-height:120%;
+	text-align:center;
+}
+
+.mw-parser-output .PKMNright {
+	color:#000;
+	padding-right:2px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	line-height:12px;
+}
+
+.mw-parser-output .PKMNtypes {
+	padding-bottom:5px;
+}
+
+.mw-parser-output .PKMNtypebox {
+	border-radius:var(--pokewiki-border-radius);
+	display:inline-block;
+	padding:3px 5px;
+	text-align:center;
+	line-height:12px;
+}
+
+.mw-parser-output .PKMNability {
+	text-align:center;
+	line-height:normal;
+}
+
+.mw-parser-output .PKMNheld {
+	text-align:center;
+}
+
+.mw-parser-output .PKMNeffortgrid {
+	margin:2px auto;
+	display:grid;
+	grid-template-columns:68px 68px;
+	gap:4px;
+	grid-auto-rows:minmax(12px,auto);
+}
+
+.mw-parser-output .PKMNeffort {
+	border-radius:var(--pokewiki-border-radius);
+	padding-left:5px;
+	text-align:left;
+	font-size:90%;
+	line-height:15px;
+}
+
+.mw-parser-output .PKMNmovegrid {
+	flex:0 1 auto;
+	margin:5px 2px 2px 2px;
+	display:grid;
+	grid-template-columns:1fr 1fr;
+	gap:6px;
+}
+
+.mw-parser-output .PKMNmovebox {
+	min-height:50px;
+	border-radius:var(--pokewiki-border-radius);
+	text-align:center;
+	overflow:hidden;
+	display:grid;
+	grid-template-columns:1fr 1fr;
+}
+
+.mw-parser-output .PKMNmovename {
+	grid-column:1/3;
+}
+
+.mw-parser-output .PKMNmovetype {
+	position:relative;
+	grid-row:2;
+}
+
+.mw-parser-output .PKMNmovemaster {
+	position:absolute;
+	right:-12px;
+	top:-2px;
+}
+
+.mw-parser-output .PKMNplusmove {
+	position:absolute;
+	right:-10px;
+	top:-1px;
+	filter:drop-shadow(0 0 0.2em #666666);
+}
+
+.mw-parser-output .PKMNmovecat {
+	border-left:2px solid #fff;
+	grid-row:2;
+	grid-column:2;
+}
+
+.mw-parser-output .PKMNmaxmove {
+	padding:2px;
+	font-size:90%;
+	grid-row:3;
+	grid-column:1/3;
+}
+
+.mw-parser-output .PKMNnone {
+	display:none;
+}
+
+.mw-parser-output .PKMNshadow {
+	background:#604E82;
+}
+
+.mw-parser-output .PKMNshadowl {
+	background:#988CAE;
+}
+
+.mw-parser-output .PKMNshadowt {
+	color:#FFF;
+}
+
+.mw-parser-output .PKMNshadowb {
+	border:2px solid #604E82;
+}
+
+.mw-parser-output .PKMNwhite {
+	background:#FFF;
+}
+
+.mw-parser-output .PKMNwhiteb {
+	border:2px solid #FFF;
+}
+
+.mw-parser-output .PKMNmale {
+	color:#34b4eb;
+}
+
+.mw-parser-output .PKMNfemale {
+	color:#FF6060;
+}
+
+.mw-parser-output .PKMNline14 {
+	line-height:14px;
+}
+
+.mw-parser-output .PKMNsmall {
+	font-size:80%;
+}
+
+.mw-parser-output .PKMNlevel {
+	color:#000;
+	font-size:90%;
+	white-space:nowrap;
+}
+
+.mw-parser-output .PKMNalpha {
+	position:absolute;
+	bottom:2px;
+	left:2px;
+}
+
+.mw-parser-output .PKMNzpower {
+	position:absolute;
+	bottom:6px;
+	left:4px;
+}
+
+.mw-parser-output .PKMNmega {
+	position:absolute;
+	bottom:5px;
+	left:7px;
+}
+
+.mw-parser-output .PKMNmax {
+	position:absolute;
+	bottom:5px;
+	left:3px;
+}
+
+.mw-parser-output .PKMNtera {
+	position:absolute;
+	bottom:4px;
+	left:4px;
+	filter:drop-shadow(0 0 0.2em #40B5A5);
+}
+
+.mw-parser-output .PKMNshiny {
+	position:absolute;
+	bottom:3px;
+	right:3px;
+}
+
+.mw-parser-output .PKMNtypelabel {
+	padding:2px 0 2px 0;
+}
+
+.mw-parser-output .PKMNlabel {
+	padding:5px 0 2px 0;
+}
+
+.mw-parser-output .PKMNtype1 {
+	background:none !important;
+	margin:2px auto;
+}
+
+.mw-parser-output .PKMNtype2 {
+	background:none !important;
+	margin:2px auto 2px 4px;
+}
+
+.mw-parser-output .PKMNheld2 {
+	padding-top:5px;
+}
+
+.mw-parser-output .PKMNhp {
+	background:#69DC12;
+}
+
+.mw-parser-output .PKMNatt {
+	background:#EFCC18;
+}
+
+.mw-parser-output .PKMNdef {
+	background:#E86412;
+}
+
+.mw-parser-output .PKMNspe {
+	background:#D51DAD;
+	color:#FFF;
+}
+
+.mw-parser-output .PKMNspa {
+	background:#14C3F1;
+}
+
+.mw-parser-output .PKMNspd {
+	background:#4A6ADF;
+	color:#FFF;
+}
+
+.mw-parser-output .PKMNpad2 {
+	padding:2px;
+}
+
+.mw-parser-output .PKMNpad5 {
+	padding:5px;
+}
+
+.mw-parser-output .PKMNmoveapp {
+	grid-row:3;
+	line-height:16px;
+}
+
+.mw-parser-output .PKMNmovejam {
+	grid-row:3;
+	grid-column:2;
+	line-height:16px;
+}
+
+.mw-parser-output .PKMNgrid {
+	display:grid;
+	grid-template-columns:repeat(auto-fit,316px);
+	gap:5px;
+	margin:5px 0;
+	align-items:end;
 }
