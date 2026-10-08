@@ -1,0 +1,127 @@
+<mainpage-leftcolumn-start />
+<div class="mp-panel">
+<div class="mp-panel-header">
+<big>Добро пожаловать на Girls’ Frontline Вики!</big></div>
+<div class="mp-panel-content">
+Эта вики служит базой данных о всех играх вселенной Girls’ Frontline. На данный момент она имеет '''[[Special:Statistics|{{NUMBEROFEDITS}} {{PLURAL:{{NUMBEROFEDITS}}|правку|правки|правок}}]]''' на ''' [[Special:AllPages|{{NUMBEROFARTICLES}} {{PLURAL:{{NUMBEROFARTICLES}}|странице|страницах}}]] ''' и ''' [[Special:NewFiles|{{NUMBEROFFILES}} {{PLURAL:{{NUMBEROFFILES}}|изображении|изображениях}}]]'''. Не забудьте посетить наш [https://discord.gg/5XSGrEHpTT Discord-сервер]!</div></div>
+
+<div class="mp-panel">
+<div class="mp-panel-header">
+Об игре</div>
+<div class="mp-panel-content">
+'''[[Girls’ Frontline]]''' — это мобильный тактический симулятор для Android и iOS разработанный [[Mica Team]], в котором игрок берёт на себя роль недавно завербованного командира частной военной компании [[Griffin & Kryuger]] и выполняет различные задания, командуя высокотехнологичными андроидами олицетворяющими огнестрельное оружие, известными как [[Т-Куклы]].<br>'''[[Project Neural Cloud]]''' — это игра-приквел с геймплеем в стиле автошахмат и рогалика.</div></div>
+
+<div class="mp-panel">
+<div class="mp-panel-header">
+Игры</div>
+<div class="mp-panel-content"><gallery type="slider" orientation="bottom" style="text-align:left">
+Login_Wallpaper_Shattered_Connexion.png|Girls’ Frontline|link=Girls’ Frontline
+PNC_Promo_First_Anniversary.png|Project Neural Cloud|link=Project Neural Cloud
+GFL2 2023 Banner.png|Girls’ Frontline 2: Exilium|link=Girls’ Frontline 2: Exilium
+Reverse_Collapse_Main_Art.png|Reverse Collapse: Code Name Bakery|link=Reverse Collapse: Code Name Bakery
+</gallery></div>
+</div>
+
+<div style="display: flex; justify-content: space-between;">
+<div style="width: 50%; padding-right: 10px;">
+<div class="mp-panel">
+<div class="mp-panel-header"><big>Официальные страницы</big></div>
+<div class="mp-panel-list">
+*[https://gf.sunborngame.com/ Официальный сайт]
+*[https://gf-anime.com/ Официальный сайт аниме]
+*[https://x.com/GirlsFrontlineE Официальный Twitter-аккаунт]
+*[https://discord.com/invite/gfen Официальный Discord-сервер]</div></div></div>
+<div style="width: 50%; padding-left: 10px;">
+<div class="mp-panel">
+<div class="mp-panel-header"><big>Медиа</big></div>
+<div class="mp-panel-list">
+*[[Dolls' Frontline]]
+*[[Healing Chapter & Madness Chapter|Чиби-серии]]
+*[[Girls' Frontline: Doll's Song]]</div></div></div></div>
+
+<div style="display: flex; justify-content: space-between;">
+<div style="width: 50%; padding-right: 10px;">
+<div class="mp-panel">
+<div class="mp-panel-header"><big>Механики (GFL)</big></div>
+<div class="mp-panel-list">
+*[[Бой]]
+*[[Логистика]]
+*[[Симуляция боя]]
+*[[Корпуса тяжёлых орудий|Корпуса ТО]]
+*[[Квесты]]
+*[[Ассимиляция]]
+*[[Привязанность]]
+*[[Общежитие]]
+*[[Мебель]]</div></div></div>
+<div style="width: 50%; padding-left: 10px;">
+<div class="mp-panel">
+<div class="mp-panel-header"><big>Механики (PNC)</big></div>
+<div class="mp-panel-list">
+*[[Бой (PNC)|Бой]]
+*[[Меню разведки]]
+*[[Улучшение кукол]]
+*[[Алгоритмы]]
+*[[Сектор Оазиса]]</div></div></div></div>
+
+<div style="display: flex; justify-content: space-between;">
+<div style="width: 50%; padding-right: 10px;">
+<div class="mp-panel">
+<div class="mp-panel-header"><big>Тактические куклы</big></div>
+<div class="mp-panel-list">
+*[[:Категория:Т-Куклы|Т-Куклы по алфавиту]] ({{PAGESINCATEGORY:Т-Куклы|pages}})
+*[[Производство Т-Кукол|Производство]]
+:<h4>Предметы и оборудование</h4>
+*[[Производство оборудования|Производство]]
+*[[:Категория:Оборудование|Оборудование по алфавиту]] ({{PAGESINCATEGORY:Оборудование|pages}})
+*[[Технические феи]]
+*[[Функции (PNC)]]
+*[[Предметы (GFL)]]
+*[[Предметы (PNC)]]</div></div></div>
+<div style="width: 50%; padding-right: 10px;">
+<div class="mp-panel">
+<div class="mp-panel-header"><big>Враги и NPC</big></div>
+<div class="mp-panel-list">
+*[[:Категория:Враги (GFL)|Список врагов (GFL)]] ({{PAGESINCATEGORY:Враги (GFL)|pages}})
+*[[:Категория:Враги (PNC)|Список врагов (PNC)]] ({{PAGESINCATEGORY:Враги (PNC)|pages}})
+*[[:Категория:NPC (GFL)|Список NPC (GFL)]] ({{PAGESINCATEGORY:NPC (GFL)|pages}})
+*[[:Категория:NPC (PNC)|Список NPC (PNC)]] ({{PAGESINCATEGORY:NPC (PNC)|pages}})</div></div></div></div>
+<mainpage-endcolumn />
+<mainpage-rightcolumn-start />
+<div class="mp-panel">
+<div class="mp-panel-header">
+Служебные страницы</div>
+<div class="mp-panel-content">
+*[[Служебная:Случайная_страница|Случайная страница]]
+*[[Служебная:Allpages|Все статьи вики]]
+*[[Служебная:Categories|Категории]]
+*[[Служебная:RecentChanges|Свежие правки]]
+*[[Служебная:Newimages|Изображения на вики]]
+*[[Служебная:Требуемые_страницы|Требуемые страницы]]
+*[[w:c:ru.community:Справка:Функции_Фэндома|Инструменты вики]]
+*[[Служебная:Статистика|Статистика вики]]
+*[[Служебная:Журналы|Журналы]]
+*[[Служебная:Список_участников|Список участников]]</div></div>
+
+<div class="mp-panel">
+<div class="mp-panel-header">
+Форум</div>
+<div class="mp-panel-content">
+Заходите, смотрите и делитесь свежей информацией об игре [https://girls-frontline.fandom.com/ru/f здесь]!</div></div>
+
+<div class="mp-panel">
+<div class="mp-panel-header">
+Наш Discord-сервер</div>
+<div class="mp-panel-content">{{DiscordIntegrator
+|id = 869581908277866526
+|height = 500px
+}}</div>
+
+<div class="mp-panel">
+<div class="mp-panel-header">
+Викисоюз</div>
+<div class="mp-panel-content">
+<center>{{w:CSW}}</center></div></div>
+<mainpage-endcolumn />
+{{Интервики заглавной}}
+__NOTOC__
+[[Категория:Обзор]]
