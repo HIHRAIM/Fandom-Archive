@@ -1,0 +1,456 @@
+/* == Оформление шаблонов == */
+/* === Инфобоксы === */
+.portable-infobox {
+	box-shadow:0px 0px 2px #000 !important;
+	border-width:3px;
+	border-style:outset;
+	margin:5px 0 5px 5px;
+}
+
+.page-content .portable-infobox .pi-title {
+	background:linear-gradient(to right, rgb(0, 0, 128) 0, rgb(16, 132, 208) 100%) !important;
+	color:#fff;
+	font-family:'PerfectDOSVGA437', auto;
+	font-size:22px;
+	line-height:20px;
+	padding:5px;
+	text-align:left;
+	margin:2px;
+	border-bottom:2px solid #fff;
+	position:relative;
+}
+
+.page-content .portable-infobox .pi-title:after {
+	content:url('https://static.wikia.nocookie.net/enajoelg/images/5/52/Cross_main_page.png/revision/latest/scale-to-width-down/24?cb=20210714195420&path-prefix=ru');
+	position:absolute;
+	right:4px;
+	top:4px;
+}
+
+.pi-image img {
+	max-width:96%;
+	background:#fff;
+	margin-bottom:5px;
+	border-width:3px;
+	border-style:inset;
+	border-color:grey #fff #fff grey;
+}
+
+.theme-fandomdesktop-dark .pi-image img {
+	background:#7d7c7b;
+	border-color:#515051 #b2b2b2 #b2b2b2 #515051 !important;
+}
+
+.theme-fandomdesktop-light .pi-image img {
+	background:#edeeea;
+	border-color:grey #fff #fff grey !important;
+}
+
+.pi-border-color {
+	border-color:#777777 grey grey #777777 !important;
+}
+
+.page-content .portable-infobox {
+	font-family:'VCR OSD Mono RUS', auto;
+	font-size:16px;
+}
+
+.theme-fandomdesktop-dark .portable-infobox {
+	border-color:silver #515051 #515051 silver !important;
+	background-color:#515051;
+}
+
+.theme-fandomdesktop-dark .page-content .portable-infobox .pi-title {
+	border-bottom-color:#000;
+	background:#3D3C3D;
+}
+
+.theme-fandomdesktop-dark .pi-background {
+	background-color:#515051;
+}
+
+.theme-fandomdesktop-dark .page-content .portable-infobox .pi-header {
+	background:#3D3C3D;
+	color:#fff;
+	font-family:'PerfectDOSVGA437', auto;
+}
+
+.theme-fandomdesktop-light .portable-infobox {
+	border-color:#ececec grey grey #ececec !important;
+	background-color:#c0bfc0;
+}
+
+.theme-fandomdesktop-light .page-content .portable-infobox .pi-title {
+	border-bottom-color:#000;
+	background:#3D3C3D;
+}
+
+.theme-fandomdesktop-light .pi-background {
+	background-color:#c0bfc0;
+}
+
+.theme-fandomdesktop-light .page-content .portable-infobox .pi-header {
+	background:#757575;
+	color:#fff;
+	font-family:'PerfectDOSVGA437', auto;
+}
+
+.page-content .portable-infobox ol, .page-content .portable-infobox ul {
+	margin:0;
+}
+
+.portable-infobox .wds-tabs__tab-label {
+	background-color:#c0c0c0;
+	color:#000;
+	border-color:#fff #000 #000 #fff;
+	border-style:solid;
+	border-width:2px 2px;
+	padding:5px 15px 5px 10px;
+	margin:1px 5px 3px 5px;
+}
+
+.portable-infobox .wds-tabs__tab.wds-is-current {
+	box-shadow:none;
+}
+
+.theme-fandomdesktop-dark .portable-infobox .wds-tabs__tab.wds-is-current .wds-tabs__tab-label {
+	background-color:#a0a0a0;
+}
+
+.theme-fandomdesktop-light .portable-infobox .wds-tabs__tab.wds-is-current .wds-tabs__tab-label {
+	background-color:#a5a5a5;
+}
+
+/* === Навбоксы === */
+.navtemplate {
+	font-family:'VCR OSD Mono RUS', Arial, sans-serif;
+	font-size:16px;
+	background:#777777;
+	border-width:3px;
+	border-style:outset;
+	border-color:#fff grey grey #fff !important;
+	box-shadow:0px 0px 2px #000 !important;
+	margin:10px 0 10px 10px;
+	border-radius:0;
+	width:auto;
+	min-width:260px;
+}
+
+.navtemplate th, .navtemplate td {
+	padding:6px 12px;
+}
+
+.navbox-title {
+	background:linear-gradient(to right, rgb(0, 0, 128) 0, rgb(16, 132, 208) 100%) !important;
+	color:#fff;
+	font-family:'PerfectDOSVGA437', auto;
+	font-size:20px;
+	line-height:20px;
+	padding:6px 12px;
+	text-align:left;
+	border-bottom:2px solid #fff;
+	position:relative;
+}
+
+.navbox-title:after {
+	content:url('https://static.wikia.nocookie.net/enajoelg/images/5/52/Cross_main_page.png/revision/latest/scale-to-width-down/24?cb=20210714195420&path-prefix=ru');
+	position:absolute;
+	right:4px;
+	top:4px;
+}
+
+.navbox-section {
+	font-family:'PerfectDOSVGA437', auto;
+	font-weight:bold;
+	padding:6px 12px;
+	text-align:left;
+	border-bottom:1px solid #000;
+}
+
+.navbox-list {
+	background:#c0bfc0;
+	color:#000;
+	padding:6px 12px;
+}
+
+.theme-fandomdesktop-dark .navtemplate {
+	border-color:silver #515051 #515051 silver !important;
+}
+
+.theme-fandomdesktop-dark .navbox-title {
+	background:#3D3C3D;
+	color:#fff;
+	border-bottom-color:#000;
+}
+
+.theme-fandomdesktop-dark .navbox-section {
+	background:#3D3C3D;
+	color:#fff;
+	border-bottom:1px solid #515051;
+}
+
+.theme-fandomdesktop-dark .navbox-section-mchars {
+	background:#374d7b;
+	color:#eaeaea;
+}
+
+.theme-fandomdesktop-dark .navbox-section-serial {
+	background:#cac416;
+	color:#000;
+}
+
+.theme-fandomdesktop-dark .navbox-section-game {
+	background:#a32626;
+	color:#fff;
+}
+
+.theme-fandomdesktop-light .navbox-section-mchars {
+	background:#0066FF;
+	color:#fff;
+}
+
+.theme-fandomdesktop-light .navbox-section-serial {
+	background:#FFFF00;
+	color:#000;
+}
+
+.theme-fandomdesktop-light .navbox-section-game {
+	background:#FF0000;
+	color:#fff;
+}
+
+.theme-fandomdesktop-dark .navbox-list {
+	background:#515051;
+	color:#fff;
+}
+
+/* === Для специальных шаблонов === */
+/* ==== Шаблон:Цитата ==== */
+.cquote {
+	font-family:'PerfectDOSVGA437', auto;
+}
+
+/* ==== Шаблон:Диалоговое окно ==== */
+.dialogue_block ::-webkit-scrollbar {
+	width:16px;
+	background:url('https://static.wikia.nocookie.net/enajoelg/images/b/b5/Scrollbar_pixel.png/revision/latest?cb=20210716083845&path-prefix=ru') repeat;
+	image-rendering:pixelated;
+	border-width:1.5px;
+	border-style:inset;
+	border-color:grey #fff #fff grey;
+}
+
+.dialogue_block ::-webkit-scrollbar-thumb {
+	width:16px;
+	background:#c0bfc0;
+	border-width:1.5px;
+	border-style:ridge;
+	border-color:#fff #000 #000 #fff;
+}
+
+.dialogue_block ::-webkit-scrollbar:active{
+	background:url('https://static.wikia.nocookie.net/enajoelg/images/7/7a/Scroll_pixels_active.png/revision/latest?cb=20210716092139&path-prefix=ru') repeat;
+}
+
+.dialogue_block ::-webkit-scrollbar-button {
+	width:16px;
+	height:16px;
+	background-color:silver;
+	border-width:1.5px;
+	border-style:ridge;
+	border-color:#fff grey grey #fff !important;
+}
+
+.dialogue_block ::-webkit-scrollbar-button:active {
+	border:1.5px solid grey;
+}
+
+.dialogue_block ::-webkit-scrollbar-button:vertical:decrement {
+	background-image:url('https://static.wikia.nocookie.net/enajoelg/images/d/da/Up.png/revision/latest?cb=20210716090333&path-prefix=ru');
+}
+
+.dialogue_block ::-webkit-scrollbar-button:vertical:increment {
+	background-image:url('https://static.wikia.nocookie.net/enajoelg/images/f/f9/Down.png/revision/latest?cb=20210716090056&path-prefix=ru');
+}
+
+.dialogue_block {
+	background-color:#c0bfc0;
+	border-color:#fff grey grey #fff !important;
+	border-style:ridge;
+	border-width:2px;
+	box-shadow:0 0 2px #000 !important;
+	margin:5px 0 20px 5px;
+	width:550px;
+}
+
+.dialogue_header {
+	background-color:#010081;
+	color:#fff;
+	font-family:'PerfectDOSVGA437', auto;
+	font-size:18px;
+	line-height:15px;
+	padding:5px;
+	text-align:left;
+	margin:2px;
+	border-bottom:2px solid #fff;
+	position:relative;
+}
+
+.dialogue_header:after {
+	content:url(https://static.wikia.nocookie.net/enajoelg/images/9/91/Other_dialogue.png/revision/latest/scale-to-width-down/48?cb=20210716102523&path-prefix=ru) url(https://static.wikia.nocookie.net/enajoelg/images/5/52/Cross_main_page.png/revision/latest/scale-to-width-down/24?cb=20210714195420&path-prefix=ru);
+	position:absolute;
+	right:2px;
+	top:2px;
+}
+
+.dialogue_header:before {
+	content:url(https://static.wikia.nocookie.net/enajoelg/images/3/38/Text_file_dialogue.png/revision/latest?cb=20210716114144&path-prefix=ru);
+	float:left;
+	margin:-3px 5px 0 -2px;
+}
+
+.dialogue_letterdecor {
+	border-color:#fff grey grey #fff !important;
+	border-style :outset;
+	border-width :1.5px;
+	cursor:default;
+	padding:0 5px;
+	text-align:left;
+	font-family:'W95FA', auto;
+}
+
+.dialogue_ld {
+	display:inline-block;
+	margin:0 15px 0 0 !important;
+}
+
+.dialogue_ld:first-letter, .dialogue_teller {
+	text-decoration:underline;
+}
+
+.dialogue_content {
+	border-color:#c0bfc0;
+	border-width:1.5px;
+	border-style:inset;
+}
+
+.dialogue_secondary_content {
+	font-family:'VCR OSD Mono RUS', auto;
+	overflow-y:scroll;
+	height:300px;
+	width:auto;
+	display:block;
+	border-width:1.5px;
+	border-style:inset;
+	border-color:black;
+	background:#c0bfc0;
+	padding:0 3px;
+	line-height:inherit !important;
+}
+
+.dialogue_left {
+	margin-right:150px;
+	text-align:left;
+}
+
+.dialogue_right {
+	margin-left:150px;
+	text-align:right;
+}
+
+.dialogue_happy:hover, .dialogue_sad:hover, .dialogue_red:hover, .dialogue_white:hover, .dialogue_char:hover {
+	text-decoration:underline;
+}
+
+.dialogue_char {
+	color:#008081;
+}
+
+.dialogue_happy {
+	color:#f9e74e;
+}
+
+.dialogue_sad {
+	color:#0066FF;
+}
+
+.dialogue_red {
+	color:#e64437;
+}
+
+.dialogue_white {
+	color:#181405;
+}
+
+.dialogue_content > .tabber > .wds-tabs__wrapper {
+	border-width:1.5px;
+	border-style:outset;
+	border-color:white grey grey white;
+}
+
+.dialogue_content > .tabber > .wds-tabs__wrapper > .wds-tabs > .wds-tabs__tab >
+.wds-tabs__tab-label {
+	color:var(--theme-page-text-color);
+	font-family:'VCR OSD Mono RUS',auto;
+}
+
+.theme-fandomdesktop-dark .dialogue_secondary_content {
+	background-color:#008081;
+}
+
+.theme-fandomdesktop-dark .dialogue_block {
+	border-width:2.5px;
+	border-style:outset;
+	border-color:white black black white !important;
+	background-color:#515051;
+	box-shadow:0 0 0.5px #000 !important;
+}
+
+.theme-fandomdesktop-dark .dialogue_ld {
+	color:#e6e6e6;
+}
+
+.theme-fandomdesktop-dark .dialogue_char {
+	color:white;
+}
+
+.theme-fandomdesktop-dark .dialogue_block ::-webkit-scrollbar-thumb {
+	background-color:#515051;
+}
+
+.theme-fandomdesktop-dark .dialogue_secondary_content{
+	background-color:#005454;
+}
+
+.theme-fandomdesktop-dark .dialogue_block ::-webkit-scrollbar-button {
+	background-color:#515051;
+	border-color:white black black white !important;
+}
+
+.theme-fandomdesktop-dark .dialogue_sad {
+	color:#00d0ff;
+}
+
+.theme-fandomdesktop-dark .dialogue_happy {
+	color:yellow;
+}
+
+.theme-fandomdesktop-dark .dialogue_red {
+	color:#ff1e1e;
+}
+
+.theme-fandomdesktop-dark .dialogue_white {
+	color:#fff;
+}
+
+.theme-fandomdesktop-dark #tooltip-wrapper > .main-tooltip > div:not(.win_block) {
+	color:#e6e6e6;
+	border-color:silver #515051 #515051 silver !important;
+	background-color:#515051;
+}
+
+.theme-fandomdesktop-light #tooltip-wrapper > .main-tooltip > div:not(.win_block) {
+	color:white;
+	border-color:white grey grey white !important;
+	background-color:#008081;
+}
