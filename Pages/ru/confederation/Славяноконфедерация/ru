@@ -1,0 +1,94 @@
+<div class="confe-top__border">
+<div class="confe-top">[[File:Site-logo.png|150px|link=]]
+<div class="confe-top__main">
+<div class="confe-top__header">Славяноконфедерация</div>
+<div class="confe-top__subheader">Мы — сообщество участников различных википроектов! Мы поддерживаем проекты на языках славянской группы, обмениваемся знаниями и опытом, устраиваем мероприятия и уютные беседы.
+<div class="confe-top__header2">'''{{#invoke:Mainpage|getThree}}'''</div></div></div></div></div><div id="confe-main"></div>
+<mainpage-leftcolumn-start />
+<div class="confe-container">
+<h2>Что есть в Конфедерации?</h2>
+Расскажем вкратце! Конфедерация состоит из '''[[Сенат/ru|Сената]]''', '''[[Директория/ru|Директории]]''', '''[[Викисервис/ru|Викисервиса]]''', википроектов и их участников.<br><span class="ph-bold ph-bank"></span> '''Сенат''' — законодательный орган, отвечающий за разработку и принятие законов, регулирование внутренней и внешней политики Конфедерации.<br><span class="ph-bold ph-users-three"></span> '''Директория''' — представительный орган, формируемый из делегатов википроектов, обеспечивающий посредничество между проектами-участниками и Сенатом.<br><span class="ph-bold ph-user-gear"></span> '''Викисервис''' — наша волонтёрская организация, участники которой помогают википроектам.
+
+Википроекты Конфедерации являются абсолютно автономными, но сенаторы и делегаты работают строго по '''[[Конституция Конфедерации/ru|Конституции]]'''.</div>
+
+<div class="confe-container articles">
+<h2>Статьи</h2>
+<div style="display:flex;">
+<div style="flex:1;">
+<h3>Конфедерация</h3>
+<div class="punkt">[[Конституция Конфедерации/ru|Конституция]]</div><div class="punkt">[[Сенат/ru|Сенат]]</div><div class="punkt">[[Директория/ru|Директория]]</div><div class="punkt">[[Викисервис/ru|Викисервис]]</div><div class="punkt">[[Администрация/ru|Администрация]]</div><div class="punkt">[[Супраконфедерация/ru|Супраконфедерация]]</div><div class="podpunkt"><span class="ph-bold ph-arrow-bend-down-right"></span> [[Супраконфедеративный договор/ru|Супраконфедеративный договор]]</div><div class="podpunkt"><span class="ph-bold ph-arrow-bend-down-right"></span> [[Супраконфедеративные Викиолимпиады/ru|Супраконфедеративные Викиолимпиады]]</div>
+<h3>Вступление</h3>
+<div class="podpunkt"><span class="ph-bold ph-arrow-bend-down-right"></span> [[Вступление в Конфедерацию/ru|в Конфедерацию]]</div><div class="podpunkt"><span class="ph-bold ph-arrow-bend-down-right"></span> [[Викисервис/ru#Вступление|в Викисервис]]</div><div class="podpunkt"><span class="ph-bold ph-arrow-bend-down-right"></span> [[Сенат/ru#Вступление|в Сенат]]</div>
+</div>
+<div style="flex:1;">
+<h3>Другое</h3>
+<div class="punkt">[[Праздники/ru|Праздники]]</div><div class="podpunkt"><span class="ph-bold ph-arrow-bend-down-right"></span> [[Праздники/ru#4-11 апреля — Неделя Конфедерации|Неделя Конфедерации]]</div><div class="podpunkt"><span class="ph-bold ph-arrow-bend-down-right"></span> [[Праздники/ru#25 апреля — День объединения|День объединения]]</div><div class="punkt">[[:Категория:Интервью|Интервью]]</div><div class="podpunkt"><span class="ph-bold ph-arrow-bend-down-right"></span> [[Интервью:Белохвостик/ru|с Белохвостиком]]</div><div class="podpunkt"><span class="ph-bold ph-arrow-bend-down-right"></span> [[Интервью:Redptich/ru|с Redptich]]</div><div class="podpunkt"><span class="ph-bold ph-arrow-bend-down-right"></span> [[Интервью:Ivan-kaleydoskop/ru|с Ivan-kaleydoskop]]</div><div class="punkt">[[:Категория:Партии/ru|Партии]]</div><div class="punkt">[[Термины/ru|Термины]]</div><div class="punkt">[[:Категория:Архив|Архив]]</div>
+</div>
+</div></div>
+
+<div class="confe-container">
+<h2>Присоединяйтесь!</h2>
+Присоединившись к Конфедерации, вы сможете сотрудничать с другими участниками, получать техническую, дизайнерскую и дипломатическую поддержку. Помимо этого, можно запросить временное шефство над проектом с неактивной администрацией. Мы принимаем вики любой тематики на любых славянских языках. Вы можете присоединиться в любое время! Если вы желаете присоединиться к нам, ознакомьтесь с [[Вступление в Конфедерацию/ru|этой статьёй]].</div>
+
+<div class="confe-container">
+<h2>Мы постоянно открыты для новых коллег!</h2>
+<tabber>
+Викисервис=Вы способны по возможности помогать википроектам?
+* Хорошо владеете викиразметкой, CSS, JS или Lua,
+* являетесь уверенным пользователем AWB или PWB,
+* умеете переводить тексты с других языков лучше «Google Переводчика»,
+* разбираетесь в дизайне или нормах правописания?
+Тогда в любой момент вы можете отправить заявку на вступление в Викисервис на нашем [https://discord.gg/5XSGrEHpTT Discord-сервере] на [https://discord.com/channels/869581908277866526/1242885760609288224 этом форуме].
+|-|
+Сенат=Вы желаете помочь нам постоянно обновлять и совершенствовать систему Конфедерации? Вы грамотны, общительны и умело излагаете свои мысли? Тогда ждём вас в Сенате! Заявку на вступление в Сенат, как и Викисервис, можно отправить на [https://discord.com/channels/869581908277866526/1242885760609288224 форуме] на нашем [https://discord.gg/5XSGrEHpTT Discord-сервере]!
+|-|
+Discord-сервер=Если вы хотя бы несколько месяцев активно общаетесь на нашем Discord-сервере, ознакомлены с нашими правилами и готовы следить за их соблюдением, то можете подать заявку на должность куратора центрального Discord-сервера Конфедерации. Куратор должен не только знать правила, но и быть добросовестным, коммуникабельным и способным к урегулированию конфликтов. Готовы? Подать заявку можно [https://discord.com/channels/869581908277866526/1242885760609288224 тут].
+</tabber></div>
+<mainpage-endcolumn />
+<mainpage-rightcolumn-start />
+<div class="confe-container">
+<h2>Discord</h2>
+Хотите общаться с нашими редакторами и следить за новостями Конфедерации? Присоединяйтесь к нашему Discord-серверу!
+[https://discord.gg/5XSGrEHpTT <div class="confe-button inline"><span class="ph-bold ph-discord-logo"></span> Присоединиться</div>]</div>
+
+<div class="confe-container">
+<h2>Telegram-группа</h2>
+Хотите пообщаться с сообществом и обсудить актуальные темы? Присоединяйтесь к нашей Telegram-группе!
+[https://t.me/+GZR9KOC-UqA1YjI6 <div class="confe-button inline"><span class="ph-bold ph-telegram-logo"></span> Присоединиться</div>]</div>
+
+<div class="confe-container">
+<h2>Telegram-канал</h2>
+Хотите следить за новостями и важными обновлениями? Подписывайтесь на наш Telegram-канал!
+[https://t.me/slavconfederation <div class="confe-button inline"><span class="ph-bold ph-telegram-logo"></span> Читать</div>]</div>
+
+<div class="confe-container">
+<h2>История</h2>
+{{Факты/ru}}Историю Конфедерации можно почитать тут:
+[[w:c:wikies:Славяноконфедерация#История|<div class="confe-button inline""><span class="ph-bold ph-book-open-text"></span> Читать</div>]]</div><!--
+
+<div class="confe-container">
+<h2>Связь</h2>
+По любым вопросам и предложениям касательно Конфедерации можно связаться с нашим Президентом:
+[[Message Wall:HIHRAIM|<div class="confe-button inline"><span class="ph-bold ph-envelope"></span> Связаться</div>]]</div> -->
+<mainpage-endcolumn />
+{{Clear}}<div class="confe-members">
+<center><h1>Наши википроекты</h1></center>
+<tabber>
+Русскоязычные вики=
+{{Заглавная/Участники/ru}}
+|-|
+Польскоязычные вики=
+{{Заглавная/Участники/pl}}
+|-|
+Украиноязычные вики=
+{{Заглавная/Участники/uk}}</div>
+</tabber>
+
+<div class="confe-container">
+<h2>Партнёры</h2>
+{{Заглавная/Партнёры}}
+</div>
+
+<div class="confe-mp-disclaimer">
+Славяноконфедерация является виртуальным информационно-развлекательным сообществом, созданным для обмена знаниями и культурными ценностями между участниками. Мы не связаны с компанией Fandom, Inc. и её сервисами, включая платформу Fandom.<br>Славяноконфедерация не продвигает национальный, политический и этнический панславизм, а также любые националистические или политические движения. Наше сообщество стремится к созданию безопасного, гуманного и толерантного пространства для всех участников.</div>
+__NOTOC__[[Категория:Славяноконфедерация/ru]]{{Languages/MP}}{{DISPLAYTITLE:Заглавная страница}}
