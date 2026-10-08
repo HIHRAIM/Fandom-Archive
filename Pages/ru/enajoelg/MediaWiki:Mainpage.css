@@ -1,0 +1,561 @@
+/* == Контейнеры заглавной == */
+.win_block,
+.win_block_right {
+	background-color:#c0bfc0;
+	box-shadow:0px 0px 2px #000 !important;
+	border-width:3px;
+	border-style:outset;
+	border-color:#ececec grey grey #ececec !important;
+	margin:5px 0 -30px 5px;
+}
+
+.win_header {
+	background:linear-gradient(to right, rgb(0, 0, 128) 0, rgb(16, 132, 208) 100%);
+	color:#fff;
+	font-family:'PerfectDOSVGA437', auto;
+	font-size:22px;
+	line-height:20px;
+	padding:5px;
+	text-align:left;
+	margin:2px;
+	border-bottom:2px solid #fff;
+	position:relative;
+}
+
+.win_header:after {
+	content:url('https://static.wikia.nocookie.net/enajoelg/images/5/52/Cross_main_page.png/revision/latest/scale-to-width-down/24?cb=20210714195420&path-prefix=ru');
+	position:absolute;
+	right:4px;
+	top:4px;
+}
+
+.win_header_right:after {
+	content:url('https://static.wikia.nocookie.net/enajoelg/images/6/6b/Other_main_page.png/revision/latest/scale-to-width-down/48?cb=20210714195442&path-prefix=ru') url('https://static.wikia.nocookie.net/enajoelg/images/5/52/Cross_main_page.png/revision/latest/scale-to-width-down/24?cb=20210714195420&path-prefix=ru');
+	position:absolute;
+	right:2px;
+	top:2px;
+}
+
+.win_header_right:before {
+	content:url('https://static.wikia.nocookie.net/enajoelg/images/7/71/Computer_main_page.png/revision/latest/scale-to-width-down/20?cb=20210714143447&path-prefix=ru');
+	float:left;
+	margin:-3px 5px 0px -2px;
+}
+
+.win_content {
+	padding:20px;
+	font-family:'VCR OSD Mono RUS', auto;
+}
+
+.win_content#ena_whois img {
+	margin:0 20px 20px 20px;
+	vertical-align:middle;
+	display:inline-block;
+	line-height:88px;
+}
+
+.win_content#ena_whois img ~ div {
+	display:inline-block;
+	line-height:88px;
+	vertical-align:middle;
+}
+
+.win_secondary_content {
+	display:block;
+	background:#edeeea;
+	border-width:3px;
+	border-style:outset;
+	border-color:grey #fff #fff grey !important;
+	padding:10px;
+	width:100%;
+	line-height:inherit !important;
+}
+
+.win_header_right {
+	background-color:#808080;
+	color:#fff;
+	font-family:'PerfectDOSVGA437', auto;
+	font-size:18px;
+	line-height:15px;
+	padding:5px;
+	text-align:left;
+	margin:2px;
+	border-bottom:2px solid #fff;
+	position:relative;
+}
+
+.win_soc {
+	margin:5px 10px;
+	text-align:center;
+}
+
+#win_soc {
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:space-around;
+	align-items:center;
+	font-size:16px;
+	font-family:'PerfectDOSVGA437', auto;
+}
+
+.letterdecor {
+	text-align:left;
+	padding:0px 5px;
+}
+
+p.ld {
+	display:inline-block;
+	margin:0px 15px 0px 0px !important;
+}
+
+p.ld:first-letter {
+	text-decoration:underline;
+}
+
+p.ld:last-child {
+	cursor:pointer;
+}
+
+.win_soc:hover {
+	filter:drop-shadow(0px 0px 4px var(--theme-accent-color));
+}
+
+.win_footer {
+	border-width:3px;
+	border-style:outset;
+	border-color:grey #fff #fff grey !important;
+	padding:0px 5px;
+	width:120px;
+	display:inline-block;
+	vertical-align:top;
+	user-select:none;
+	font-size:16px;
+}
+
+.win_footer2 {
+	width:164px;
+	display:inline-block;
+	vertical-align:top;
+	border-width:3px;
+	border-style:outset;
+	border-color:grey #fff #fff grey !important;
+	height:35px;
+	position:relative;
+	overflow:hidden;
+	user-select:none;
+}
+
+.win_footer2:after {
+	content:'';
+	position:absolute;
+	top:12px;
+	right:-15px;
+	width:32px;
+	height:32px;
+	transform:rotate(45deg);
+	background:repeating-linear-gradient(90deg, #808080 1px, #808080 2px, #c0bfc0 2px, #c0bfc0 4px);
+}
+
+#number_header,
+.letterdecor,
+.win_footer {
+	font-family:'W95FA', auto !important;
+}
+
+/* === Слайдер === */
+.win_slider {
+	display:flex;
+	flex-flow:row nowrap;
+	justify-content:space-around;
+}
+
+.slide_header {
+	font-family:'PerfectDOSVGA437', auto;
+	font-size:32px;
+}
+
+.slide_content {
+	border-width:3px;
+	border-style:inset;
+	border-color:grey #fff #fff grey;
+	background:#edeeea;
+	height:400px;
+	min-width:500px;
+	overflow:hidden;
+}
+
+.slide_content:not(.err) {
+	padding:10px;
+}
+
+.win_slider_2 .slide_content a, .win_slider_5 .slide_content a {
+	font-size:18px;
+}
+
+.theme-fandomdesktop-dark .win_slider_2 .slide_content a, .theme-fandomdesktop-dark .win_slider_5 .slide_content a {
+	font-size:18px;
+	--theme-link-color:#fff;
+	--theme-link-color--hover:#d1d1d1;
+}
+
+.win_slide {
+	flex-grow:2;
+	flex-shrink:3;
+}
+
+.win_slider_content {
+	display:flex;
+	flex-flow:row wrap;
+	flex-basis:1050px;
+	flex-shrink:3;
+	margin-right:20px;
+}
+
+@media only screen and (max-width:1400px) {
+.win_slide {
+	font-size:12px;
+}
+
+.slide_header {
+	font-size:24px;
+}
+
+.slide_content, #err {
+	min-width:100px !important;
+}
+
+#err img {
+	transform:scale(0.9);
+}
+
+#sliderena {
+	top:13%;
+	left:0% !important;
+}
+
+#slidermuni {
+	left:40%;
+}
+
+.slide_season {
+	font-size:18px !important;
+}
+}
+
+@media only screen and (min-width:970px) and (max-width:1100px) {
+#err img{
+	transform:scale(0.6) !important;
+}
+#sliderena {
+	top:25% !important;
+	left:-30% !important;
+}
+#slidermuni {
+	left:35% !important;
+	top:60% !important;
+}
+}
+
+.hide_slide {
+	display:none;
+}
+
+.win_slider_button div:not(#win_dog) {
+	font-family:'PerfectDOSVGA437', auto;
+	text-align:center;
+	border-width:3px;
+	border-style:outset;
+	border-color:#ececec grey grey #ececec !important;
+	padding:5px;
+	margin:5px 0px;
+	cursor:pointer;
+}
+
+.win_slider_button div:active {
+	transform:scale(0.9);
+}
+
+.win_slider_button hr {
+	margin:30px 0px;
+}
+
+#err {
+	background-image:url(https://static.wikia.nocookie.net/enajoelg/images/2/26/Background_main_page.png/revision/latest?cb=20210714221411&path-prefix=ru);
+	background-size:cover;
+	height:400px;
+	min-width:500px;
+}
+
+#sliderena {
+	position:absolute;
+	top:13%;
+	left:10%;
+}
+
+#sliderena:hover {
+	filter:drop-shadow(0px 0px 10px #0000FF);
+}
+
+#slidermuni {
+	position:absolute;
+	top:50%;
+	left:50%;
+}
+
+#slidermuni:hover {
+	filter:drop-shadow(0px 0px 10px #2F4F4F);
+}
+
+#win_dog {
+	text-align:center;
+	border:2px solid #0002;
+	margin-top:20px;
+}
+
+.win_slider_2 .slide_content {
+	display:flex;
+	justify-content:space-around;
+}
+
+.slide_content .advanced-tooltip:before {
+	content:'•';
+	margin-right:5px;
+}
+
+#tooltip-wrapper .win_block {
+	margin:-6px !important;
+	min-width:250px;
+	text-align:center;
+}
+
+#tooltip-wrapper .win_header:after {
+	display:none;
+}
+
+#tooltip-wrapper .win_block .win_content {
+	padding:0;
+}
+
+#tooltip-wrapper .win_block a {
+	color:#fff !important;
+}
+
+#tooltip-wrapper .win_block img {
+	background:#008081;
+	border-width:3px;
+	border-style:outset;
+	border-color:grey #fff #fff grey !important;
+	width:97%;
+	height:auto;
+}
+
+#win_help {
+	display:none;
+	font-family:'PerfectDOSVGA437', auto;
+	font-size:18px;
+	height:200px;
+}
+
+/* === Тёмная тема === */
+.theme-fandomdesktop-dark .win_block,
+.theme-fandomdesktop-dark .win_block_right,
+.theme-fandomdesktop-dark .win_slider_button div:not(#win_dog) {
+	border-color:silver #515051 #515051 silver !important;
+	background-color:#515051;
+}
+
+.theme-fandomdesktop-dark .win_secondary_content {
+	background:#7D7C7B;
+	border-style:inset;
+	border-color:#515051 #b2b2b2 #b2b2b2 #515051 !important;
+}
+
+.theme-fandomdesktop-dark .slide_content {
+	background:#005454;
+	border-color:#515051 #b2b2b2 #b2b2b2 #515051 !important;
+	border-style:inset;
+}
+
+.theme-fandomdesktop-dark .win_header, .theme-fandomdesktop-dark .win_header_right {
+	border-bottom-color:#000;
+}
+
+.theme-fandomdesktop-dark .win_header_right {
+	background:#3D3C3D;
+}
+
+.theme-fandomdesktop-dark .win_footer2::after {
+	background:repeating-linear-gradient(90deg,#515051 1px,#515051 2px,#aaaaaa 2px,#aaaaaa 4px);
+}
+
+.theme-fandomdesktop-dark .win_footer, .win_footer2 {
+	border-color:#515051 #b2b2b2 #b2b2b2 #515051 !important;
+	border-style:inset;
+}
+
+.shepherd_parent {
+	padding:0 !important;
+	text-align:center;
+}
+
+#mainpage_header {
+	height:100px;
+	text-align:center;
+	font-family:'PerfectDOSVGA437', auto;
+	font-size:32px;
+}
+
+.theme-fandomdesktop-dark #mainpage_header {
+	color:#fff;
+}
+
+.theme-fandomdesktop-light #mainpage_header {
+	color:#000;
+}
+
+.win_slide .advanced-tooltip {
+	display:inline-block;
+}
+
+.slide_season {
+	font-size:24px;
+}
+
+.theme-fandomdesktop-dark .slide_season {
+	color:#fff;
+	font-size:24px;
+}
+
+.slide_season img {
+	margin:5px 0px 5px 15px;
+}
+
+.win_slider_5 .slide_content {
+	color:#fff;
+	background-color:#000;
+}
+
+.win_slider_5 .slide_content img {
+	width:80%;
+	height:auto;
+}
+
+.win_slider_2, .win_slider_3 {
+	font-size:18px;
+}
+
+.game_chapter + p {
+	font-size:20px;
+}
+
+.win_slider_button .active_button {
+	outline:2px dotted ;
+}
+
+.win_slider_button {
+	user-select:none;
+}
+
+.win_footer p {
+	margin:0;
+}
+
+.slide_content .enagame img:hover {
+	filter:drop-shadow(0px 0px 5px #e6343a);
+}
+
+.theme-fandomdesktop-dark .slide_content .enagame img:hover {
+	filter:drop-shadow(0px 0px 5px #fff);
+}
+
+.slide_content .enaseries img:hover {
+	filter:drop-shadow(0px 0px 5px #f0ec02);
+}
+
+/* === Обновление от U.ayaao.p === */
+.win_slider {
+	flex-direction:column-reverse;
+	flex-flow:column-reverse nowrap;
+	justify-content:unset;
+}
+
+.win_slider_content {
+	flex-basis:unset;
+}
+
+.win_slider_button {
+	margin:-10px -20px -6px;
+}
+
+.win_slider_button div,.win_slider_button div:not(#win_dog) {
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	box-shadow:inset -1px 0 #0a0a0a, inset 1px 3px #dfdfdf, inset -2px 0 grey, inset 2px 2px #fff;
+	z-index:1;
+	border:0!important;
+	display:inline-block;
+	padding:8px 14px;
+	line-height:1;
+	margin:0;
+	margin-left:0;
+	position:relative;
+	opacity:.75;
+}
+
+.win_slider_button hr {
+	margin:0;
+	display:inline-block;
+	border:0;
+}
+
+.win_slider_button div:active, .win_slider_button div:not(#win_dog):active {
+	transform:none;
+	outline:none;
+}
+
+.win_slider_button div.active_button, .win_slider_button div.active_button:not(#win_dog),.win_slider_button:not(:has(.active_button)) div.button:not(#win_dog):first-child {
+	background-color:silver;
+	margin-left:0;
+	margin-top:-4px;
+	padding-bottom:4px;
+	position:relative;
+	z-index:8;
+	opacity:1;
+	outline:none;
+}
+
+.win_slider_button div:not(#win_dog,:first-of-type),.win_slider_button div.active_button:not(#win_dog,:first-of-type) {
+	margin-left:-8px;
+}
+
+#win_dog {
+	margin:0;
+	padding:3px;
+}
+
+#win_dog img {
+	width:20px;
+	height:20px;
+}
+
+.win_slide {
+	position:relative;
+	z-index:2;
+	background:silver;
+	box-shadow:inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff;
+	padding:8px;
+	margin:0 -40px -20px -20px;
+	height:fit-content;
+	width:calc(100% + 80px);
+	max-width:calc(100% + 80px);
+}
+
+.win_slide .slide_header {
+	display:none;
+}
+
+/* === Викисоюз === */
+.confederation {
+	background-color:unset !important;
+	padding:15px 5px 0px 5px !important;
+}
