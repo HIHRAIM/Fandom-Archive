@@ -1,0 +1,3345 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.11/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.11/ http://www.mediawiki.org/xml/export-0.11.xsd" version="0.11" xml:lang="ru">
+  <siteinfo>
+    <sitename>Беспозвоночные Вики</sitename>
+    <dbname>ruinvertebrate</dbname>
+    <base>https://invertebrate.fandom.com/ru/wiki/%D0%91%D0%B5%D1%81%D0%BF%D0%BE%D0%B7%D0%B2%D0%BE%D0%BD%D0%BE%D1%87%D0%BD%D1%8B%D0%B5_%D0%92%D0%B8%D0%BA%D0%B8</base>
+    <generator>MediaWiki 1.39.5</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Медиа</namespace>
+      <namespace key="-1" case="first-letter">Служебная</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Обсуждение</namespace>
+      <namespace key="2" case="first-letter">Участник</namespace>
+      <namespace key="3" case="first-letter">Обсуждение участника</namespace>
+      <namespace key="4" case="first-letter">Беспозвоночные Вики</namespace>
+      <namespace key="5" case="first-letter">Обсуждение Беспозвоночные Вики</namespace>
+      <namespace key="6" case="first-letter">Файл</namespace>
+      <namespace key="7" case="first-letter">Обсуждение файла</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">Обсуждение MediaWiki</namespace>
+      <namespace key="10" case="first-letter">Шаблон</namespace>
+      <namespace key="11" case="first-letter">Обсуждение шаблона</namespace>
+      <namespace key="12" case="first-letter">Справка</namespace>
+      <namespace key="13" case="first-letter">Обсуждение справки</namespace>
+      <namespace key="14" case="first-letter">Категория</namespace>
+      <namespace key="15" case="first-letter">Обсуждение категории</namespace>
+      <namespace key="110" case="first-letter">Форум</namespace>
+      <namespace key="111" case="first-letter">Обсуждение форума</namespace>
+      <namespace key="420" case="first-letter">GeoJson</namespace>
+      <namespace key="421" case="first-letter">GeoJson talk</namespace>
+      <namespace key="500" case="first-letter">Блог участника</namespace>
+      <namespace key="501" case="first-letter">Комментарий блога участника</namespace>
+      <namespace key="502" case="first-letter">Блог</namespace>
+      <namespace key="503" case="first-letter">Обсуждение блога</namespace>
+      <namespace key="828" case="first-letter">Модуль</namespace>
+      <namespace key="829" case="first-letter">Обсуждение модуля</namespace>
+      <namespace key="1200" case="first-letter">Стена обсуждения</namespace>
+      <namespace key="1201" case="first-letter">Тема</namespace>
+      <namespace key="1202" case="first-letter">Приветствие стены обсуждения</namespace>
+      <namespace key="2000" case="first-letter">Board</namespace>
+      <namespace key="2001" case="first-letter">Board Thread</namespace>
+      <namespace key="2002" case="first-letter">Topic</namespace>
+      <namespace key="2900" case="first-letter">Map</namespace>
+      <namespace key="2901" case="first-letter">Map talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Odontomachus</title>
+    <ns>0</ns>
+    <id>471</id>
+    <revision>
+      <id>1415</id>
+      <timestamp>2014-05-04T16:04:54Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Новая страница: «{{Stub}} Odontomachus - род муравьёв, живущих в Австралии, Азии. [[Категория:Муравьи]] [[Категория:Пе…»</comment>
+      <origin>1415</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="389" sha1="cdkvp8zuo61t79up5gjbeo5wwoy42zg" xml:space="preserve">{{Stub}} Odontomachus - род муравьёв, живущих в Австралии, Азии.
+[[Категория:Муравьи]]
+[[Категория:Перепончатокрылые]]
+[[Категория:Архив]]
+[[Категория:Беспозвоночные]]
+[[Категория:Беспозвоночные по родам]]
+[[Категория:Насекомые]]</text>
+      <sha1>cdkvp8zuo61t79up5gjbeo5wwoy42zg</sha1>
+    </revision>
+    <revision>
+      <id>1469</id>
+      <parentid>1415</parentid>
+      <timestamp>2022-08-27T16:39:54Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <origin>1469</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1037" sha1="i6m220qawqzgsljdh2k3co19ezv1o5k" xml:space="preserve">{{Stub}}
+{{Беспозвоночное
+|Надтип=Линяющие
+|Тип=Членистоногие
+|Класс=Насекомые
+|Отряд=Перепончатокрылые
+|Семейство=Муравьи
+|Род=Odontomachus
+|Длина=До 2 см (рабочие)
+|Ареал=Тропики и субтропики
+|Рацион питания=Хищники
+|Среда обитания=Наземная
+|Значение имени="Сражающийся зубами"
+}}
+ '''Odontomachus''' - род муравьёв, живущих в тропиках и субтропиках. Отличительной особенностью рода являются челюсти, способные смыкаться с огромной скоростью. 
+
+[[Категория:Муравьи]]
+[[Категория:Перепончатокрылые]]
+[[Категория:Архив]]
+[[Категория:Беспозвоночные]]
+[[Категория:Хищники]]
+[[Категория:Насекомые]]</text>
+      <sha1>i6m220qawqzgsljdh2k3co19ezv1o5k</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Беспозвоночные Вики</title>
+    <ns>0</ns>
+    <id>84</id>
+    <revision>
+      <id>1396</id>
+      <parentid>1390</parentid>
+      <timestamp>2014-05-01T19:01:32Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <origin>1396</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1907" sha1="2dfvgqkt37lg1qc7hahpmgog01hgxn5" xml:space="preserve">&lt;!-- Начало левой колонки --&gt;
+&lt;mainpage-leftcolumn-start /&gt;
+{|style="width:100%; border:1px solid #ccc;-moz-border-radius:10px"
+|&lt;center&gt;&lt;big&gt;Добро пожаловать на '''{{SITENAME}}.'''&lt;/big&gt; &lt;br /&gt;
+На данный момент создано [[Служебная:Allpages|{{NUMBEROFARTICLES}}]] {{plural:{{NUMBEROFARTICLES}}|статья|статьи|статей}}, и вы '''[[{{MediaWiki:Portal-url}}|можете помочь нам]]'''
+[[Служебная:RecentChanges|Свежие правки]] | [[Служебная:Newimages|Новые изображения]] | [[Служебная:Activeusers|Активные участники]] | [[Служебная:Categories|Категории]] | [[Справка:Содержание|Справка]] | [[:Категория:Шаблоны|Шаблоны]]&lt;/center&gt;
+|}
+'''Wikia''' — это сообщество интернет-энциклопедий на разные темы. Любой пользователь может редактировать страницы на этой Вики. Просто нажмите кнопку «Править» в верхней части любой страницы!
+
+Посетите [[w:c:ru.community|Вики Сообщества]] и задайте любой вопрос на центральном форуме.
+
+== Эта Вики о... ==
+ Эта вики о беспозвоночных существах всех времён и континентов, и обо всём, что с этим связано.
+
+== Недавние правки ==
+&lt;activityfeed/&gt;
+&lt;mainpage-endcolumn /&gt;
+&lt;!-- Конец левой колонки --&gt;
+&lt;!-- Начало правой колонки --&gt;
+&lt;mainpage-rightcolumn-start /&gt;
+[[Файл:Placeholder|thumb|300px]]
+&lt;mainpage-endcolumn /&gt;
+&lt;!-- Конец правой колонки --&gt;
+[[Категория:Обзор]]</text>
+      <sha1>2dfvgqkt37lg1qc7hahpmgog01hgxn5</sha1>
+    </revision>
+    <revision>
+      <id>1390</id>
+      <timestamp>2014-05-01T19:01:35Z</timestamp>
+      <contributor>
+        <username>CreateWiki script</username>
+        <id>929702</id>
+      </contributor>
+      <minor/>
+      <comment>CreateWiki script переименовал страницу [[Заглавная страница]] в [[Беспозвоночные вики]]: SEO</comment>
+      <origin>1390</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2080" sha1="9bx45lfaqtbprgjw8w6frsb4cqxe8xu" xml:space="preserve">&lt;!-- Начало левой колонки --&gt;
+&lt;mainpage-leftcolumn-start /&gt;
+{|style="width:100%; border:1px solid #ccc;-moz-border-radius:10px"
+|&lt;center&gt;&lt;big&gt;Добро пожаловать на '''{{SITENAME}}.'''&lt;/big&gt; &lt;br /&gt;
+На данный момент создано [[Служебная:Allpages|{{NUMBEROFARTICLES}}]] {{plural:{{NUMBEROFARTICLES}}|статья|статьи|статей}}, и вы '''[[{{MediaWiki:Portal-url}}|можете помочь нам]]'''
+[[Служебная:RecentChanges|Свежие правки]] | [[Служебная:Newimages|Новые изображения]] | [[Служебная:Activeusers|Активные участники]] | [[Служебная:Categories|Категории]] | [[Справка:Содержание|Справка]] | [[:Категория:Шаблоны|Шаблоны]]&lt;/center&gt;
+|}
+'''Wikia''' — это сообщество интернет-энциклопедий на разные темы. Любой пользователь может редактировать страницы на этой Вики. Просто нажмите кнопку «Править» в верхней части любой страницы!
+
+Посетите [[w:c:ru.community|Вики Сообщества]] и задайте любой вопрос на центральном форуме.
+
+== Эта Вики о... ==
+Напишите здесь о чём эта Вики, сделайте ссылки на основные разделы Вики. Добавьте описание на страницу «[[Project:Описание|Об этой вики]]». Читатели и участники этой Вики должны знать, о чём она.
+
+== Недавние правки ==
+&lt;activityfeed/&gt;
+&lt;mainpage-endcolumn /&gt;
+&lt;!-- Конец левой колонки --&gt;
+&lt;!-- Начало правой колонки --&gt;
+&lt;mainpage-rightcolumn-start /&gt;
+[[Файл:Placeholder|thumb|300px]]
+&lt;mainpage-endcolumn /&gt;
+&lt;!-- Конец правой колонки --&gt;
+[[Категория:Обзор]]</text>
+      <sha1>9bx45lfaqtbprgjw8w6frsb4cqxe8xu</sha1>
+    </revision>
+    <revision>
+      <id>1352</id>
+      <parentid>1390</parentid>
+      <timestamp>2014-05-01T19:01:36Z</timestamp>
+      <contributor>
+        <username>Default</username>
+        <id>49312</id>
+      </contributor>
+      <origin>1352</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2080" sha1="9bx45lfaqtbprgjw8w6frsb4cqxe8xu" xml:space="preserve">&lt;!-- Начало левой колонки --&gt;
+&lt;mainpage-leftcolumn-start /&gt;
+{|style="width:100%; border:1px solid #ccc;-moz-border-radius:10px"
+|&lt;center&gt;&lt;big&gt;Добро пожаловать на '''{{SITENAME}}.'''&lt;/big&gt; &lt;br /&gt;
+На данный момент создано [[Служебная:Allpages|{{NUMBEROFARTICLES}}]] {{plural:{{NUMBEROFARTICLES}}|статья|статьи|статей}}, и вы '''[[{{MediaWiki:Portal-url}}|можете помочь нам]]'''
+[[Служебная:RecentChanges|Свежие правки]] | [[Служебная:Newimages|Новые изображения]] | [[Служебная:Activeusers|Активные участники]] | [[Служебная:Categories|Категории]] | [[Справка:Содержание|Справка]] | [[:Категория:Шаблоны|Шаблоны]]&lt;/center&gt;
+|}
+'''Wikia''' — это сообщество интернет-энциклопедий на разные темы. Любой пользователь может редактировать страницы на этой Вики. Просто нажмите кнопку «Править» в верхней части любой страницы!
+
+Посетите [[w:c:ru.community|Вики Сообщества]] и задайте любой вопрос на центральном форуме.
+
+== Эта Вики о... ==
+Напишите здесь о чём эта Вики, сделайте ссылки на основные разделы Вики. Добавьте описание на страницу «[[Project:Описание|Об этой вики]]». Читатели и участники этой Вики должны знать, о чём она.
+
+== Недавние правки ==
+&lt;activityfeed/&gt;
+&lt;mainpage-endcolumn /&gt;
+&lt;!-- Конец левой колонки --&gt;
+&lt;!-- Начало правой колонки --&gt;
+&lt;mainpage-rightcolumn-start /&gt;
+[[Файл:Placeholder|thumb|300px]]
+&lt;mainpage-endcolumn /&gt;
+&lt;!-- Конец правой колонки --&gt;
+[[Категория:Обзор]]</text>
+      <sha1>9bx45lfaqtbprgjw8w6frsb4cqxe8xu</sha1>
+    </revision>
+    <revision>
+      <id>1494</id>
+      <parentid>1396</parentid>
+      <timestamp>2022-08-30T14:10:19Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <minor/>
+      <comment>Белохвостик переименовал страницу [[Беспозвоночные вики]] в [[Беспозвоночные Вики]]</comment>
+      <origin>1396</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1907" sha1="2dfvgqkt37lg1qc7hahpmgog01hgxn5" xml:space="preserve">&lt;!-- Начало левой колонки --&gt;
+&lt;mainpage-leftcolumn-start /&gt;
+{|style="width:100%; border:1px solid #ccc;-moz-border-radius:10px"
+|&lt;center&gt;&lt;big&gt;Добро пожаловать на '''{{SITENAME}}.'''&lt;/big&gt; &lt;br /&gt;
+На данный момент создано [[Служебная:Allpages|{{NUMBEROFARTICLES}}]] {{plural:{{NUMBEROFARTICLES}}|статья|статьи|статей}}, и вы '''[[{{MediaWiki:Portal-url}}|можете помочь нам]]'''
+[[Служебная:RecentChanges|Свежие правки]] | [[Служебная:Newimages|Новые изображения]] | [[Служебная:Activeusers|Активные участники]] | [[Служебная:Categories|Категории]] | [[Справка:Содержание|Справка]] | [[:Категория:Шаблоны|Шаблоны]]&lt;/center&gt;
+|}
+'''Wikia''' — это сообщество интернет-энциклопедий на разные темы. Любой пользователь может редактировать страницы на этой Вики. Просто нажмите кнопку «Править» в верхней части любой страницы!
+
+Посетите [[w:c:ru.community|Вики Сообщества]] и задайте любой вопрос на центральном форуме.
+
+== Эта Вики о... ==
+ Эта вики о беспозвоночных существах всех времён и континентов, и обо всём, что с этим связано.
+
+== Недавние правки ==
+&lt;activityfeed/&gt;
+&lt;mainpage-endcolumn /&gt;
+&lt;!-- Конец левой колонки --&gt;
+&lt;!-- Начало правой колонки --&gt;
+&lt;mainpage-rightcolumn-start /&gt;
+[[Файл:Placeholder|thumb|300px]]
+&lt;mainpage-endcolumn /&gt;
+&lt;!-- Конец правой колонки --&gt;
+[[Категория:Обзор]]</text>
+      <sha1>2dfvgqkt37lg1qc7hahpmgog01hgxn5</sha1>
+    </revision>
+    <revision>
+      <id>1499</id>
+      <parentid>1494</parentid>
+      <timestamp>2023-05-16T23:25:33Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <origin>1499</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1918" sha1="n00lybif8lyhte58re7f5alxskjeymt" xml:space="preserve">&lt;!-- Начало левой колонки --&gt;
+&lt;mainpage-leftcolumn-start /&gt;
+{|style="width:100%; border:1px solid #ccc;-moz-border-radius:10px"
+|&lt;center&gt;&lt;big&gt;Добро пожаловать на '''{{SITENAME}}.'''&lt;/big&gt; &lt;br /&gt;
+На данный момент создано [[Служебная:Allpages|{{NUMBEROFARTICLES}}]] {{plural:{{NUMBEROFARTICLES}}|статья|статьи|статей}}, и вы '''[[{{MediaWiki:Portal-url}}|можете помочь нам]]'''
+[[Служебная:RecentChanges|Свежие правки]] | [[Служебная:Newimages|Новые изображения]] | [[Служебная:Activeusers|Активные участники]] | [[Служебная:Categories|Категории]] | [[Справка:Содержание|Справка]] | [[:Категория:Шаблоны|Шаблоны]]&lt;/center&gt;
+|}
+'''Wikia''' — это сообщество интернет-энциклопедий на разные темы. Любой пользователь может редактировать страницы на этой Вики. Просто нажмите кнопку «Править» в верхней части любой страницы!
+
+Посетите [[w:c:ru.community|Вики Сообщества]] и задайте любой вопрос на центральном форуме.
+
+== Эта Вики о... ==
+ Эта вики о беспозвоночных существах всех времён и континентов, и обо всём, что с ними связано.
+
+== Недавние правки ==
+&lt;activityfeed/&gt;
+&lt;mainpage-endcolumn /&gt;
+&lt;!-- Конец левой колонки --&gt;
+&lt;!-- Начало правой колонки --&gt;
+&lt;mainpage-rightcolumn-start /&gt;
+[[Файл:Placeholder|thumb|300px]]
+&lt;mainpage-endcolumn /&gt;
+&lt;!-- Конец правой колонки --&gt;
+{{СИВ}}
+[[Категория:Обзор]]</text>
+      <sha1>n00lybif8lyhte58re7f5alxskjeymt</sha1>
+    </revision>
+    <revision>
+      <id>1500</id>
+      <parentid>1499</parentid>
+      <timestamp>2023-05-16T23:26:01Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <origin>1500</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1918" sha1="pxd7wlixqzsfyb3wx0l9ptkf95pky4g" xml:space="preserve">&lt;!-- Начало левой колонки --&gt;
+&lt;mainpage-leftcolumn-start /&gt;
+{|style="width:100%; border:1px solid #ccc;-moz-border-radius:10px"
+|&lt;center&gt;&lt;big&gt;Добро пожаловать на '''{{SITENAME}}.'''&lt;/big&gt; &lt;br /&gt;
+На данный момент создано [[Служебная:Allpages|{{NUMBEROFARTICLES}}]] {{plural:{{NUMBEROFARTICLES}}|статья|статьи|статей}}, и вы '''[[{{MediaWiki:Portal-url}}|можете помочь нам]]'''
+[[Служебная:RecentChanges|Свежие правки]] | [[Служебная:Newimages|Новые изображения]] | [[Служебная:Activeusers|Активные участники]] | [[Служебная:Categories|Категории]] | [[Справка:Содержание|Справка]] | [[:Категория:Шаблоны|Шаблоны]]&lt;/center&gt;
+|}
+'''Wikia''' — это сообщество интернет-энциклопедий на разные темы. Любой пользователь может редактировать страницы на этой Вики. Просто нажмите кнопку «Править» в верхней части любой страницы!
+
+Посетите [[w:c:ru.community|Вики Сообщества]] и задайте любой вопрос на центральном форуме.
+
+== Эта Вики о... ==
+ Эта вики о беспозвоночных существах всех времён и континентов, и обо всём, что с ними связано.
+{{СИВ}}
+== Недавние правки ==
+&lt;activityfeed/&gt;
+&lt;mainpage-endcolumn /&gt;
+&lt;!-- Конец левой колонки --&gt;
+&lt;!-- Начало правой колонки --&gt;
+&lt;mainpage-rightcolumn-start /&gt;
+[[Файл:Placeholder|thumb|300px]]
+&lt;mainpage-endcolumn /&gt;
+&lt;!-- Конец правой колонки --&gt;
+
+[[Категория:Обзор]]</text>
+      <sha1>pxd7wlixqzsfyb3wx0l9ptkf95pky4g</sha1>
+    </revision>
+    <revision>
+      <id>1502</id>
+      <parentid>1500</parentid>
+      <timestamp>2023-08-10T16:47:49Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <origin>1502</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1608" sha1="d40t70cpaacihglb2yhwx0bveo46ytp" xml:space="preserve">&lt;!-- Начало левой колонки --&gt;
+&lt;mainpage-leftcolumn-start /&gt;
+{|style="width:100%; border:1px solid #ccc;-moz-border-radius:10px"
+|&lt;center&gt;&lt;big&gt;Добро пожаловать на '''{{SITENAME}}.'''&lt;/big&gt; &lt;br /&gt;
+На данный момент создано [[Служебная:Allpages|{{NUMBEROFARTICLES}}]] {{plural:{{NUMBEROFARTICLES}}|статья|статьи|статей}}, и вы '''[[{{MediaWiki:Portal-url}}|можете помочь нам]]'''
+[[Служебная:RecentChanges|Свежие правки]] | [[Служебная:Newimages|Новые изображения]] | [[Служебная:Activeusers|Активные участники]] | [[Служебная:Categories|Категории]] | [[Справка:Содержание|Справка]] | [[:Категория:Шаблоны|Шаблоны]]&lt;/center&gt;
+|}
+'''Wikia''' — это сообщество интернет-энциклопедий на разные темы. Любой пользователь может редактировать страницы на этой Вики. Просто нажмите кнопку «Править» в верхней части любой страницы!
+
+Посетите [[w:c:ru.community|Вики Сообщества]] и задайте любой вопрос на центральном форуме.
+
+== Эта Вики о... ==
+ Эта вики о беспозвоночных существах всех времён и континентов, и обо всём, что с ними связано.
+{{w:CSW}}
+
+
+[[Категория:Обзор]]</text>
+      <sha1>d40t70cpaacihglb2yhwx0bveo46ytp</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Беспозвоночные вики</title>
+    <ns>0</ns>
+    <id>505</id>
+    <redirect title="Беспозвоночные Вики" />
+    <revision>
+      <id>1495</id>
+      <timestamp>2022-08-30T14:10:19Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Белохвостик переименовал страницу [[Беспозвоночные вики]] в [[Беспозвоночные Вики]]</comment>
+      <origin>1495</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="73" sha1="sn34a8jeq9wa1x9rdcbuapvnbsrs5xt" xml:space="preserve">#перенаправление [[Беспозвоночные Вики]]</text>
+      <sha1>sn34a8jeq9wa1x9rdcbuapvnbsrs5xt</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Водяные клопы</title>
+    <ns>0</ns>
+    <id>473</id>
+    <revision>
+      <id>1417</id>
+      <timestamp>2014-05-05T12:57:53Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Новая страница: «Водяные клопы - часть отряда клопов. Эти клопы делятся на три семейства.  Nera - водяные скор…»</comment>
+      <origin>1417</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1056" sha1="5adeknhmrmsc7nl14sr98iotoqnsul7" xml:space="preserve">Водяные клопы - часть отряда клопов. Эти клопы делятся на три семейства.
+
+Nera - водяные скорпионы.
+
+Rantara - тонкие водяные клопы
+
+Lethocerus - массивные и большие клопы.
+
+{{Инфобокс
+|Название = Водяные клопы
+|Название строки 1 = Царство:
+|Содержание строки 1 = Животные
+|Название строки 2 = Тип:
+|Содержание строки 2 = Членистоногие
+|Название строки 3 = Класс:
+|Содержание строки 3 = Насекомые
+|Название строки 4 = Отряд:
+|Содержание строки 4 = Клопы}}
+[[Категория:Архив]]
+[[Категория:Клопы]]
+[[Категория:Беспозвоночные]]
+[[Категория:Беспозвоночные по отрядам]]
+[[Категория:Насекомые]]
+[[Категория:Членистоногие]]</text>
+      <sha1>5adeknhmrmsc7nl14sr98iotoqnsul7</sha1>
+    </revision>
+    <revision>
+      <id>1467</id>
+      <parentid>1417</parentid>
+      <timestamp>2022-08-27T16:34:00Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <origin>1467</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1092" sha1="cweg9c5dzlovmzsx96yw683ebmihcqy" xml:space="preserve">{{Беспозвоночное
+|имя=Водяные клопы
+|Надтип=Линяющие
+|Тип=Членистоногие
+|Класс=Насекомые
+|Отряд=Полужесткокрылые
+|Подотряд=Клопы
+|Инфраотряд=Водные клопы
+|Длина=До 12 см
+|Ареал=Все континенты, кроме Антарктиды
+|Рацион питания=Хищники
+|Среда обитания=Водоёмы
+}}
+
+'''Водные клопы''' - часть подотряда клопов, подразделяющееся на три семейства.
+
+Nera - водяные скорпионы.
+
+Rantara - тонкие водяные клопы
+
+Lethocerus - массивные и большие клопы.
+
+
+[[Категория:Архив]]
+[[Категория:Клопы]]
+[[Категория:Беспозвоночные]]
+[[Категория:Беспозвоночные по отрядам]]
+[[Категория:Насекомые]]
+[[Категория:Членистоногие]]
+[[Категория:Хищники]]</text>
+      <sha1>cweg9c5dzlovmzsx96yw683ebmihcqy</sha1>
+    </revision>
+    <revision>
+      <id>1470</id>
+      <parentid>1467</parentid>
+      <timestamp>2022-08-27T16:40:32Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <origin>1470</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1020" sha1="gqf3os0f5vx6kf4vdm0xg9stq5uip3p" xml:space="preserve">{{Беспозвоночное
+|имя=Водяные клопы
+|Надтип=Линяющие
+|Тип=Членистоногие
+|Класс=Насекомые
+|Отряд=Полужесткокрылые
+|Подотряд=Клопы
+|Инфраотряд=Водные клопы
+|Длина=До 12 см
+|Ареал=Все континенты, кроме Антарктиды
+|Рацион питания=Хищники
+|Среда обитания=Водоёмы
+}}
+
+'''Водные клопы''' - часть подотряда клопов, подразделяющееся на три семейства.
+
+Nera - водяные скорпионы.
+
+Rantara - тонкие водяные клопы
+
+Lethocerus - массивные и большие клопы.
+
+
+[[Категория:Архив]]
+[[Категория:Клопы]]
+[[Категория:Беспозвоночные]]
+[[Категория:Насекомые]]
+[[Категория:Членистоногие]]
+[[Категория:Хищники]]</text>
+      <sha1>gqf3os0f5vx6kf4vdm0xg9stq5uip3p</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Заглавная страница</title>
+    <ns>0</ns>
+    <id>449</id>
+    <redirect title="Беспозвоночные вики" />
+    <revision>
+      <id>1391</id>
+      <timestamp>2014-05-01T19:01:35Z</timestamp>
+      <contributor>
+        <username>CreateWiki script</username>
+        <id>929702</id>
+      </contributor>
+      <comment>CreateWiki script переименовал страницу [[Заглавная страница]] в [[Беспозвоночные вики]]: SEO</comment>
+      <origin>1391</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="73" sha1="g5c5ie7eg74m9tlpjtz9be66etbcluj" xml:space="preserve">#перенаправление [[Беспозвоночные вики]]</text>
+      <sha1>g5c5ie7eg74m9tlpjtz9be66etbcluj</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Класс: Насекомые</title>
+    <ns>0</ns>
+    <id>453</id>
+    <revision>
+      <id>1397</id>
+      <timestamp>2014-05-02T10:13:04Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Новая страница: «Насекомые - многочисленный и распостранённый класс членистоногих. {{Инфобокс |Название = …»</comment>
+      <origin>1397</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1122" sha1="set6u9qsmzt46uneb01hkf8djrf0mp0" xml:space="preserve">Насекомые - многочисленный и распостранённый класс членистоногих. {{Инфобокс
+|Название = Класс: Насекомые
+|Название строки 1 = Тип:
+|Содержание строки 1 = Членистоногие
+|Название строки 2 = Класс:
+|Содержание строки 2 = Насекомые.}}Насекомые живут на всех континентах (Антарктида - не исключение). Размеры насекомых разные - от пчелиных вшей, размером 0,1 мм, до индонезийского палочника, длинной до 80 см, и жука-голиафа весом 100 г.
+
+В мире существуют более 700 000 видов насекомых, учёные постоянно открывают новые виды.
+[[Категория:Насекомые]]
+[[Категория:Архив]]
+[[Категория:Беспозвоночные]]
+[[Категория:Беспозвоночные по классам]]</text>
+      <sha1>set6u9qsmzt46uneb01hkf8djrf0mp0</sha1>
+    </revision>
+    <revision>
+      <id>1447</id>
+      <parentid>1397</parentid>
+      <timestamp>2016-02-03T13:59:57Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Добавление категорий</comment>
+      <origin>1447</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1185" sha1="5rxu127an3r178cp1r6rbl3h4na0gh9" xml:space="preserve">Насекомые - многочисленный и распостранённый класс членистоногих. {{Инфобокс
+|Название = Класс: Насекомые
+|Название строки 1 = Тип:
+|Содержание строки 1 = Членистоногие
+|Название строки 2 = Класс:
+|Содержание строки 2 = Насекомые.}}Насекомые живут на всех континентах (Антарктида - не исключение). Размеры насекомых разные - от пчелиных вшей, размером 0,1 мм, до индонезийского палочника, длинной до 80 см, и жука-голиафа весом 100 г.
+
+В мире существуют более 700 000 видов насекомых, учёные постоянно открывают новые виды.
+[[Категория:Насекомые]]
+[[Категория:Архив]]
+[[Категория:Беспозвоночные]]
+[[Категория:Беспозвоночные по классам]]
+[[Категория:Классы членистоногих]]</text>
+      <sha1>5rxu127an3r178cp1r6rbl3h4na0gh9</sha1>
+    </revision>
+    <revision>
+      <id>1471</id>
+      <parentid>1447</parentid>
+      <timestamp>2022-08-27T16:44:42Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <origin>1471</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1191" sha1="nanehh882rddwkvfc7myk0hmgz70w1e" xml:space="preserve">{{Беспозвоночное
+|Надтип=Линяющие
+|Тип=Членистоногие
+|Класс=Насекомые
+|Длина=До 80 см
+|Вес=До 100 г
+|Ареал=Все континенты
+}}
+'''Насекомые''' - многочисленный и распространённый класс членистоногих. 
+
+Насекомые обитают на всех континентах (Антарктида - не исключение). Размеры насекомых разные - от пчелиных вшей, размером 0,1 мм, до индонезийского палочника, длинной до 80 см, и жука-голиафа весом 100 г.
+
+В мире существуют более 700 000 видов насекомых, учёные постоянно открывают новые виды.
+[[Категория:Насекомые]]
+[[Категория:Архив]]
+[[Категория:Беспозвоночные]]
+[[Категория:Классы членистоногих]]
+[[Категория:Растительноядные]]
+[[Категория:Всеядные]]
+[[Категория:Хищники]]</text>
+      <sha1>nanehh882rddwkvfc7myk0hmgz70w1e</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Класс: Паукообразные</title>
+    <ns>0</ns>
+    <id>455</id>
+    <revision>
+      <id>1399</id>
+      <timestamp>2014-05-02T10:54:16Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Новая страница: «Паукообразные - класс членистоногих, как и ракообразные, имеет 8 ног.{{Инфобокс |Название =…»</comment>
+      <origin>1399</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1477" sha1="5u5gg7ynj7cwxbam53r11bzf51d7oo8" xml:space="preserve">Паукообразные - класс членистоногих, как и ракообразные, имеет 8 ног.{{Инфобокс
+|Название = Класс: Паукообразные.
+|Название строки 1 = Тип:
+|Содержание строки 1 = Членистоногие
+|Название строки 2 = Класс:
+|Содержание строки 2 = Паукообразные}}В отличче от ракообразных, они растут из соединения головогруди и брюшка. Очень крупными размерамине отличаются. Самый большой представитель этого класса - птицеед-голиаф достигает длины (с лапками) 30 см.
+
+Жабров паукообразные не имеют, но всё же ухитряются осваивать подводную среду. Паук- середрынка плетёт под водой водолазные колокол, и наполняет его воздухом с поверхности. Он нужен ему для того, чтобы яд, который он впрыскивает в жертву не вымывался водой.
+[[Категория:Архив]]
+[[Категория:Беспозвоночные]]
+[[Категория:Членистоногие]]
+[[Категория:Беспозвоночные по классам]]</text>
+      <sha1>5u5gg7ynj7cwxbam53r11bzf51d7oo8</sha1>
+    </revision>
+    <revision>
+      <id>1448</id>
+      <parentid>1399</parentid>
+      <timestamp>2016-02-03T14:00:06Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Добавление категорий</comment>
+      <origin>1448</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1540" sha1="qi18horahhws6vtfo8mcuc8zy3arkl8" xml:space="preserve">Паукообразные - класс членистоногих, как и ракообразные, имеет 8 ног.{{Инфобокс
+|Название = Класс: Паукообразные.
+|Название строки 1 = Тип:
+|Содержание строки 1 = Членистоногие
+|Название строки 2 = Класс:
+|Содержание строки 2 = Паукообразные}}В отличче от ракообразных, они растут из соединения головогруди и брюшка. Очень крупными размерамине отличаются. Самый большой представитель этого класса - птицеед-голиаф достигает длины (с лапками) 30 см.
+
+Жабров паукообразные не имеют, но всё же ухитряются осваивать подводную среду. Паук- середрынка плетёт под водой водолазные колокол, и наполняет его воздухом с поверхности. Он нужен ему для того, чтобы яд, который он впрыскивает в жертву не вымывался водой.
+[[Категория:Архив]]
+[[Категория:Беспозвоночные]]
+[[Категория:Членистоногие]]
+[[Категория:Беспозвоночные по классам]]
+[[Категория:Классы членистоногих]]</text>
+      <sha1>qi18horahhws6vtfo8mcuc8zy3arkl8</sha1>
+    </revision>
+    <revision>
+      <id>1472</id>
+      <parentid>1448</parentid>
+      <timestamp>2022-08-27T16:46:25Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <origin>1472</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1417" sha1="nqaobq33cvf1xuy88uor4mvbfy5jbj9" xml:space="preserve">{{Беспозвоночное
+|Надтип=Линяющие
+|Тип=Членистоногие
+|Класс=Паукообразные
+|Длина=До 30 см
+|Ареал=Все континенты
+}}
+'''Паукообразные''' - класс членистоногих, как и ракообразные, имеет 8 ног.
+
+В отличие от ракообразных, они растут из соединения головогруди и брюшка. Очень крупными размерами не отличаются. Самый большой представитель этого класса - птицеед-голиаф достигает длины (с лапками) 30 см.
+
+Жабров паукообразные не имеют, но всё же ухитряются осваивать подводную среду. Паук- серебрянка плетёт под водой водолазные колокол, и наполняет его воздухом с поверхности. Он нужен ему для того, чтобы яд, который он впрыскивает в жертву не вымывался водой.
+[[Категория:Архив]]
+[[Категория:Беспозвоночные]]
+[[Категория:Членистоногие]]
+[[Категория:Хищники]]
+[[Категория:Классы членистоногих]]</text>
+      <sha1>nqaobq33cvf1xuy88uor4mvbfy5jbj9</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Класс: Ракообразные</title>
+    <ns>0</ns>
+    <id>454</id>
+    <revision>
+      <id>1398</id>
+      <timestamp>2014-05-02T10:21:26Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Новая страница: «Ракообразные - класс членистоногих, имеющих 8 лап.{{Инфобокс |Название = Класс: Ракообразн…»</comment>
+      <origin>1398</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1145" sha1="9gqewgqup1u4h6yurazjdffaapq3hm0" xml:space="preserve">Ракообразные - класс членистоногих, имеющих 8 лап.{{Инфобокс
+|Название = Класс: Ракообразные
+|Название строки 1 = Тип:
+|Содержание строки 1 = Членистоногие
+|Название строки 2 = Класс:
+|Содержание строки 2 = Ракообразные.}} Главное отличие от паукообразных - лапки растут из головогруди. Ракообразные, как и насекомые, достигают разных размеров - от крохотных рачков, образующих зоопланктон, до американского омара, длинной до метра и японского краба-паука, с размахом передних лапок 3 м. Но при этом туловище этого краба имеет площадь, как лист бумаги формата А4
+
+Ракообразные освоили почти все среды обитания. Они живут от пещер, до морей.</text>
+      <sha1>9gqewgqup1u4h6yurazjdffaapq3hm0</sha1>
+    </revision>
+    <revision>
+      <id>1473</id>
+      <parentid>1398</parentid>
+      <timestamp>2022-08-27T16:48:04Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <origin>1473</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1280" sha1="fdp4luvkk2xf8neyn7jyazxc9bh3ybi" xml:space="preserve">{{Беспозвоночное
+|Надтип=Линяющие
+|Тип=Ракообразные
+|Класс=Насекомые
+|Длина=До 3 м
+|Ареал=Все континенты
+}}
+'''Ракообразные''' - класс членистоногих, имеющих 8 лап.
+Главное отличие от паукообразных - лапки растут из головогруди. Ракообразные, как и насекомые, достигают разных размеров - от крохотных рачков, образующих зоопланктон, до американского омара, длинной до метра и японского краба-паука, с размахом передних лапок 3 м. Но при этом туловище этого краба имеет площадь, как лист бумаги формата А4
+
+Ракообразные освоили почти все среды обитания. Они живут от пещер, до морей.
+[[Категория:Архив]]
+[[Категория:Беспозвоночные]]
+[[Категория:Членистоногие]]
+[[Категория:Хищники]]
+[[Категория:Классы членистоногих]]</text>
+      <sha1>fdp4luvkk2xf8neyn7jyazxc9bh3ybi</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Клопы - хищнецы</title>
+    <ns>0</ns>
+    <id>474</id>
+    <revision>
+      <id>1418</id>
+      <timestamp>2014-05-06T12:52:58Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Новая страница: «Хищнецы - часть отряда клопов{{Инфобокс |Название = Хищнецы |Название строки 1 = Царства: |С…»</comment>
+      <origin>1418</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1398" sha1="7gwwj128kxpvzh3nih6gd5snjx42563" xml:space="preserve">Хищнецы - часть отряда клопов{{Инфобокс
+|Название = Хищнецы
+|Название строки 1 = Царства:
+|Содержание строки 1 = Животные
+|Название строки 2 = Тип:
+|Содержание строки 2 = Хордовые
+|Название строки 3 = Класс:
+|Содержание строки 3 = Насекомые
+|Название строки 4 = Отряд:
+|Содержание строки 4 = Клопы}}, которые, как сказано в названии, хищники.
+
+'''Тактика охоты'''
+
+Хищнец сначала несколько раз трогает жертву длинными антеннами. От этого жертва успокаивается. Затем хищнец втыкает в добычу острый, как игла для шприца. Через эту иглу поступают яд и желудочный сок. Затем, через эту же иглу, хищнец выпивает жидкие внутренности жертвы.
+[[Категория:Архив]]
+[[Категория:Беспозвоночные]]
+[[Категория:Беспозвоночные по родам]]
+[[Категория:Насекомые]]
+[[Категория:Членистоногие]]
+[[Категория:Клопы]]</text>
+      <sha1>7gwwj128kxpvzh3nih6gd5snjx42563</sha1>
+    </revision>
+    <revision>
+      <id>1474</id>
+      <parentid>1418</parentid>
+      <timestamp>2022-08-27T16:51:12Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <origin>1474</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1163" sha1="9ttyko7r3vliyc1fho9fjerlvy9k325" xml:space="preserve">{{Беспозвоночное
+|Надтип=Линяющие
+|Тип=Членистоногие
+|Класс=Насекомые
+|Отряд=Полужесткокрылые
+|Подотряд=Клопы
+|Рацион питания=Хищники
+}}
+
+'''Хищнецы''' - часть отряда клопов, которые, как сказано в названии, хищники.
+
+=== Тактика охоты ===
+
+Хищнец сначала несколько раз трогает жертву длинными антеннами. От этого жертва успокаивается. Затем хищнец втыкает в добычу острый, как игла для шприца. Через эту иглу поступают яд и желудочный сок. Затем, через эту же иглу, хищнец выпивает жидкие внутренности жертвы.
+[[Категория:Архив]]
+[[Категория:Беспозвоночные]]
+[[Категория:Хищники]]
+[[Категория:Насекомые]]
+[[Категория:Членистоногие]]
+[[Категория:Клопы]]</text>
+      <sha1>9ttyko7r3vliyc1fho9fjerlvy9k325</sha1>
+    </revision>
+    <revision>
+      <id>1475</id>
+      <parentid>1474</parentid>
+      <timestamp>2022-08-27T16:51:35Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Лишнее</comment>
+      <origin>1475</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1087" sha1="a5l7sfrik9am8say0v5fdj34jr3j0yt" xml:space="preserve">{{Беспозвоночное
+|Надтип=Линяющие
+|Тип=Членистоногие
+|Класс=Насекомые
+|Отряд=Полужесткокрылые
+|Подотряд=Клопы
+|Рацион питания=Хищники
+}}
+
+'''Хищнецы''' - часть отряда клопов.
+=== Тактика охоты ===
+
+Хищнец сначала несколько раз трогает жертву длинными антеннами. От этого жертва успокаивается. Затем хищнец втыкает в добычу острый, как игла для шприца. Через эту иглу поступают яд и желудочный сок. Затем, через эту же иглу, хищнец выпивает жидкие внутренности жертвы.
+[[Категория:Архив]]
+[[Категория:Беспозвоночные]]
+[[Категория:Хищники]]
+[[Категория:Насекомые]]
+[[Категория:Членистоногие]]
+[[Категория:Клопы]]</text>
+      <sha1>a5l7sfrik9am8say0v5fdj34jr3j0yt</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Крупнейшие вымершие беспозвоночные</title>
+    <ns>0</ns>
+    <id>467</id>
+    <revision>
+      <id>1411</id>
+      <timestamp>2014-05-03T11:26:05Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Новая страница: «Существовавшие в древние времена беспозвоночные были больше, чам сейчас.{{Stub}} [[Категори…»</comment>
+      <origin>1411</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="291" sha1="683dmovrwz2bwl6nayn500tuf5ybb2n" xml:space="preserve">Существовавшие в древние времена беспозвоночные были больше, чам сейчас.{{Stub}}
+[[Категория:Архив]]
+[[Категория:Незавершённые статьи]]
+[[Категория:Беспозвоночные]]</text>
+      <sha1>683dmovrwz2bwl6nayn500tuf5ybb2n</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Лига Муравьёв</title>
+    <ns>0</ns>
+    <id>476</id>
+    <revision>
+      <id>1420</id>
+      <timestamp>2014-05-07T18:57:43Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Новая страница: «В сериале "войны жуков гигантов" было много видов муравьёв. Они боролись со многими насе…»</comment>
+      <origin>1420</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4531" sha1="pk1rgnzves55r2hj9axarvefa73yv9e" xml:space="preserve">В сериале "войны жуков гигантов" было много видов муравьёв. Они боролись со многими насекомыми, и во многих битвах выигрывали благодаря численному превосходству. Челюсти и жала муравьёв поиогли им одерживать победы.
+
+'''Битвы'''
+
+[[Черные муравьи]] и [[Красные муравьи-гиганты]] вступили в битву. Но чёрных муравьёв оказалось больше, и они загрызли соперников.
+
+[[Зеленобрюхий крабовый паук]] и [[Прыгучие муравьи-бульдоги]] заметили друг друга. Паук убил разведчика, но разведчик попал на помощь. Муравьи дважды ужилили паука, и убили его.
+
+[[Муравьи-портные|Зелёные муравьи]] заметили на своей территории [[Чернохвостый скорпион|Чернохвостого скорпиона]]. Муравьи вступили в драку. Скорпион активно резал муравьёв клешнями, но против десятков муравьёв он был бессилен. Скорпион погиб.
+
+На территории личинки [[Муравьиный лев|Муравьиного льва]] показался[[Odontomachus|&amp;nbsp;Муравей-зубомётка]]. Муравей зашёл в центр ловушки и личинка затянула его. Муравей ничего не смог сделать.
+
+[[Муравьи-портные|Зелёные муравьи]] и [[Бумажные осы]] построили свои колонии слишком близко. Вот это была война! Однако муравьи не умели летать и проиграли осам. Муравьям пришлось  искать другое место.
+
+[[Кочевые муравьи|Кочевой муравей]] [[Муравьи-солдаты|солдат]]  попался в ловушку [[паук-огр|паука-огра]].
+
+[[Odontomachus|Муравей-зубомётка]] напал на [[Мраморный скорпион|Мраморного скорпиона]]. Муравей несколько раз больно укусил скорпиона в разные части тела. Подкрепление муравья убили скорпиона.
+
+[[Муравей-листорез]] попал в ловушку [[Домовый паук|Домового паука]].
+
+В Австралии началась война колоний[[Динозавровый муравей|&amp;nbsp;Динозавровых муравьёв]] и [[Odontomachus|Муравьёв-зуьомёток]] столкнулись в войне. Никто в этой войне не выиграл - динозавровые муравьи ушли с поля брани, муравьи-зубомётки занялись постройкой муравейника.
+
+[[Мясные муравьи]] напали на [[Жук-носорог|Жука-носорога]]. Жука убили.
+
+Кочевые муравьи напали на [[Тропический краб|Тропического краба]]. Краб погиб, несмотря на броню.
+
+[[Клопы - хищнецы|Клоп - хищнец]] проткнул самку[[Муравей-древоточец|&amp;nbsp;Муравья-древоточца]] острым хоботком.
+
+Итог:
+{| border="0" cellpadding="1" cellspacing="1" class="article-table" style="WIDTH: 500px"
+|-
+! scope="col"|Побед                                            Поранжений
+! scope="col"|
+|-
+|7                                                        5
+|
+|}
+[[Категория:Архив]]
+[[Категория:Беспозвоночные]]
+[[Категория:Лиги]]
+[[Категория:Войны жуков гигантов]]
+[[Категория:Насекомые]]
+[[Категория:Беспозвоночные в культуре]]
+[[Категория:Перепончатокрылые]]
+[[Категория:Муравьи]]</text>
+      <sha1>pk1rgnzves55r2hj9axarvefa73yv9e</sha1>
+    </revision>
+    <revision>
+      <id>1491</id>
+      <parentid>1420</parentid>
+      <timestamp>2022-08-30T13:55:18Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <origin>1491</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4403" sha1="3d74vc4v26pels8cua0z4gzrqw8z0ca" xml:space="preserve">В сериале "войны жуков гигантов" было много видов муравьёв. Они боролись со многими насекомыми, и во многих битвах выигрывали благодаря численному превосходству. Челюсти и жала муравьёв помогли им одерживать победы.
+
+'''Битвы'''
+
+[[Черные муравьи]] и [[Красные муравьи-гиганты]] вступили в битву. Но чёрных муравьёв оказалось больше, и они загрызли соперников.
+
+[[Зеленобрюхий крабовый паук]] и [[Прыгучие муравьи-бульдоги]] заметили друг друга. Паук убил разведчика, но разведчик позвал на помощь. Муравьи дважды ужилили паука, и убили его.
+
+[[Муравьи-портные|Зелёные муравьи]] заметили на своей территории [[Чернохвостый скорпион|Чернохвостого скорпиона]]. Муравьи вступили в драку. Скорпион активно резал муравьёв клешнями, но против десятков муравьёв он был бессилен. Скорпион погиб.
+
+На территории личинки [[Муравьиный лев|Муравьиного льва]] показался[[Odontomachus|&amp;nbsp;Муравей-зубомётка]]. Муравей зашёл в центр ловушки и личинка затянула его. Муравей ничего не смог сделать.
+
+[[Муравьи-портные|Зелёные муравьи]] и [[Бумажные осы]] построили свои колонии слишком близко. Состоялась жаркая битва. Однако муравьи не умели летать и проиграли осам. Муравьям пришлось искать другое место для колонии.
+
+[[Кочевые муравьи|Кочевой муравей]]-[[Муравьи-солдаты|солдат]]  попался в ловушку [[паук-огр|паука-огра]].
+
+[[Odontomachus|Муравей-зубомётка]] напал на [[Мраморный скорпион|Мраморного скорпиона]]. Муравей несколько раз больно укусил скорпиона в разные части тела. Подкрепление муравья убили скорпиона.
+
+[[Муравей-листорез]] попал в ловушку [[Домовый паук|Домового паука]].
+
+В Австралии началась битва колоний[[Динозавровый муравей|&amp;nbsp;Динозавровых муравьёв]] и [[Odontomachus|Муравьёв-зубомёток]]. Битва закончилась ничьей - динозавровые муравьи ушли с поля брани, муравьи-зубомётки занялись постройкой муравейника.
+
+Мелкие [[мясные муравьи]] напали на [[Жук-носорог|Жука-носорога]]. Жук был убит.
+
+Кочевые муравьи напали на [[Тропический краб|Тропического краба]]. Краб погиб, несмотря на его прочную броню.
+
+[[Клопы - хищнецы|Клоп - хищнец]] проткнул самку[[Муравей-древоточец|&amp;nbsp;Муравья-древоточца]] острым хоботком.
+
+Итог:
+{| border="5" cellpadding="1" cellspacing="1" class="article-table article-table-selected" style="width: 500px;"
+|-
+! scope="col"|Число побед
+! scope="col"|Число поражений
+|-
+|7
+|5
+|}
+[[Категория:Архив]]
+[[Категория:Беспозвоночные]]
+[[Категория:Лиги]]
+[[Категория:Войны жуков гигантов]]
+[[Категория:Насекомые]]
+[[Категория:Беспозвоночные в культуре]]
+[[Категория:Перепончатокрылые]]
+[[Категория:Муравьи]]</text>
+      <sha1>3d74vc4v26pels8cua0z4gzrqw8z0ca</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Лига богомолов</title>
+    <ns>0</ns>
+    <id>477</id>
+    <revision>
+      <id>1421</id>
+      <timestamp>2014-05-08T13:08:00Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Новая страница: «В сериале "Войны жуков-гигантов" было несколько видов богомолов.  '''Битвы'''  [[Гигантский б…»</comment>
+      <origin>1421</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3356" sha1="dpb046k06qd06d848xw0nnqfagy0phk" xml:space="preserve">В сериале "Войны жуков-гигантов" было несколько видов богомолов.
+
+'''Битвы'''
+
+[[Гигантский богомол]] напал на[[Острокрылый кузнечик|&amp;nbsp;острокрылого кузнечика]]. Несмотря на шипы, богомол сжевал ноги кузнечика, а потом и тело.
+
+[[Гигантский богомол]] встретил [[Колючий листовик|колючего листовика]]. Листовик понадеялся на броню, но богомон съел ему все ноги у половину тела - листовик был большой.
+
+[[Углокрылый кузнечик]] и [[Богомолы|богомол]] встретились. Драка поодолжалась, пока кузнечик не укусил богомола. Богомол погиб.
+
+[[Сверчки|Сверчок]] и молодой [[Богомолы|богомол]] встретились. Сверчок захотел кусить богомола, но богомол нанёс знаменитый удар. сверчок погиб, зажатый в передних лапах богомола.
+
+На территорию [[Моховой боломол|мохового боломола]] забрёл [[Жук-скакун|жук-скакун]]. На дереве, в этой битве жук побежал к богомолу, чтобы укусить богомола, но богомол схватил жука, несмотря на его скорость.
+
+Длинная и быстрая [[Многоножки|многоножка]] протаранила [[Древесный богомол|древесного богомола]]. Богомол, конечно же погиб.
+
+Небольшой [[Паук-краб|паук-краб]] пробежал около [[Лишайниковый богомол|лишайникого богомола]]. Богомол зажал паука.
+
+Крупный[[Крабовый паук|&amp;nbsp;крабовый паук]] напал на богомола. Богомол погиб от яда.
+
+На[[Листовидный богомол|&amp;nbsp;листовидного богомола]] напал [[Бразильский блуждающий паук|бразильский блуждающий паук]]. Паук убил богомола.
+
+Богомол и [[Паук-гетрапод|паук-гетрапод]] встретились. Богомол погиб.
+{| border="0" cellpadding="1" cellspacing="1" class="article-table" style="WIDTH: 500px"
+|-
+! scope="col"|побед                                                 поражений
+! scope="col"|
+|-
+|5                                                                   6
+|
+|}
+[[Категория:Архив]]
+[[Категория:Лиги]]
+[[Категория:Насекомые]]
+[[Категория:Богомолы, тараканы]]
+[[Категория:Членистоногие]]
+[[Категория:Беспозвоночные]]
+[[Категория:Беспозвоночные в культуре]]</text>
+      <sha1>dpb046k06qd06d848xw0nnqfagy0phk</sha1>
+    </revision>
+    <revision>
+      <id>1492</id>
+      <parentid>1421</parentid>
+      <timestamp>2022-08-30T13:55:38Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <origin>1492</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3325" sha1="61s2azow3ptyt195b1pp5j4u0g3yw1t" xml:space="preserve">В сериале "Войны жуков-гигантов" было несколько видов богомолов.
+
+'''Битвы'''
+
+[[Гигантский богомол]] напал на[[Острокрылый кузнечик|&amp;nbsp;острокрылого кузнечика]]. Несмотря на шипы, богомол сжевал ноги кузнечика, а потом и тело.
+
+[[Гигантский богомол]] встретил [[Колючий листовик|колючего листовика]]. Листовик имел прочную и покрытую шипами броню, но богомол съел ему сначала все ноги, а потом и половину тела.
+
+Крупный [[углокрылый кузнечик]] и [[Богомолы|богомол]] встретились. Драка продолжалась, пока кузнечик не укусил богомола. Богомол погиб.
+
+[[Сверчки|Сверчок]] и молодой [[Богомолы|богомол]] встретились. Сверчок захотел укусить богомола, но богомол нанёс удар лапами. Сверчок погиб, зажатый в передних лапах богомола.
+
+На территорию [[Моховой богомол|мохового богомола]] забрёл [[Жук-скакун|жук-скакун]]. Бой произошёл на дереве, в этой битве жук побежал к богомолу, чтобы нанести удар, но богомол успел схватить жука, несмотря на его скорость.
+
+Длинная и быстрая [[Многоножки|многоножка]] протаранила [[Древесный богомол|древесного богомола]], нанеся ему смертельный удар ядовитыми лапами.
+
+Небольшой [[Паук-краб|паук-краб]] пробежал около [[Лишайниковый богомол|лишайникого богомола]]. Богомол зажал паука в передних лапах.
+
+Крупный[[Крабовый паук|&amp;nbsp;крабовый паук]] напал на богомола. Богомол погиб от впрыснутого яда.
+
+На[[Листовидный богомол|&amp;nbsp;листовидного богомола]] напал [[Бразильский блуждающий паук|бразильский блуждающий паук]]. Паук убил богомола.
+
+Богомол и [[Паук-гетрапод|паук-гетрапод]] встретились. Богомол погиб.
+{| border="5" cellpadding="1" cellspacing="1" class="article-table article-table-selected" style="width: 500px;"
+|-
+! scope="col"|Число побед
+! scope="col"|Число поражений
+|-
+|5
+|6
+|}
+
+[[Категория:Архив]]
+[[Категория:Лиги]]
+[[Категория:Насекомые]]
+[[Категория:Богомолы, тараканы]]
+[[Категория:Членистоногие]]
+[[Категория:Беспозвоночные]]
+[[Категория:Беспозвоночные в культуре]]</text>
+      <sha1>61s2azow3ptyt195b1pp5j4u0g3yw1t</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Лига гусениц</title>
+    <ns>0</ns>
+    <id>483</id>
+    <revision>
+      <id>1427</id>
+      <timestamp>2014-05-09T15:33:38Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Новая страница: «В сериале " Войны жуков гагантов" участвовала всего лишь одна гусеница.  '''Битвы'''  [[Гусен…»</comment>
+      <origin>1427</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="936" sha1="95n76poajfcn3cjh71s6dj7e9v7a23t" xml:space="preserve">В сериале " Войны жуков гагантов" участвовала всего лишь одна гусеница.
+
+'''Битвы'''
+
+[[Гусеница]] [[Бабочка колиго|бабочки колиго]] столкнулась за едой с [[ Рогатый кузнечик|рогатым кузнечиком]]. Сначала гусеница демонстрировала свои рожки, но потом кузнечик нанёс удар и пропорол гусенице брюхо. Затем кузнечик съел всё, кроме кишок гусеницы.
+[[Категория:Лиги]]
+[[Категория:Насекомые]]
+[[Категория:Членистоногие]]
+[[Категория:Архив]]
+[[Категория:Бабочки]]
+[[Категория:Беспозвоночные]]
+[[Категория:Беспозвоночные в культуре]]</text>
+      <sha1>95n76poajfcn3cjh71s6dj7e9v7a23t</sha1>
+    </revision>
+    <revision>
+      <id>1493</id>
+      <parentid>1427</parentid>
+      <timestamp>2022-08-30T13:55:47Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <origin>1493</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1184" sha1="6kefammjv9t7f7xlde0tf92nby9pstf" xml:space="preserve">В сериале " Войны жуков гигантов" участвовала всего лишь одна гусеница.
+
+==Битвы==
+
+[[Гусеница]] [[Калиго|бабочки калиго]] столкнулась за едой с [[ Рогатый кузнечик|рогатым кузнечиком]]. Сначала гусеница демонстрировала свои "рожки", стремясь напугать противника, но потом кузнечик нанёс удар и пропорол гусенице тело. Затем кузнечик съел всё, кроме кишок гусеницы.
+{| border="5" cellpadding="1" cellspacing="1" class="article-table article-table-selected" style="width: 500px;"
+|-
+! scope="col"|Число побед
+! scope="col"|Число поражений
+|-
+|0
+|1
+|}
+
+[[Категория:Лиги]]
+[[Категория:Насекомые]]
+[[Категория:Членистоногие]]
+[[Категория:Архив]]
+[[Категория:Бабочки]]
+[[Категория:Беспозвоночные]]
+[[Категория:Беспозвоночные в культуре]]</text>
+      <sha1>6kefammjv9t7f7xlde0tf92nby9pstf</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Муравьи-портные</title>
+    <ns>0</ns>
+    <id>475</id>
+    <revision>
+      <id>1419</id>
+      <timestamp>2014-05-07T14:00:09Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Новая страница: «Муравьи-портные - подсемейство муравьёв{{Инфобокс |Название = Муравьи-портные |Название с…»</comment>
+      <origin>1419</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2736" sha1="9ecm4kfttks0wx73y7c00avv9b0pd66" xml:space="preserve">Муравьи-портные - подсемейство муравьёв{{Инфобокс
+|Название = Муравьи-портные
+|Название строки 1 = Царства:
+|Содержание строки 1 = Животные
+|Название строки 2 = Тип:
+|Содержание строки 2 = Членистоногие
+|Название строки 3 = Класс:
+|Содержание строки 3 = Насекомые
+|Название строки 4 = Отряд:
+|Содержание строки 4 = Перепончатокрылые
+|Название строки 5 = Семейство:
+|Содержание строки 5 = Муравьи
+|Название строки 6 = Род:
+|Содержание строки 6 = Муравии-портные}} Его представители живут в Азии и южной Америки.&lt;span style="display: none"&gt; &lt;/span&gt;
+
+'''Колония'''
+
+Колония муравьёв-портныхнаходится на деревьях. Там они сгибают и склеивают листья, образуя камеры для того, что и [[королева]] смогут там жить. Так же каждая колония город-государство с огромной армией.
+
+Все представители колонии ( кроме королевы) есть или будут воинами. Они могут добывать пищу, или убивать и расчленять врагов.
+
+'''В культуре'''
+
+В сериале "войны жуков гигантов", под названием "зелёные муравьи", муравьи-портные появлялись в двух сериях.
+
+В одной из них на территорию колонии забрёл [[черносвостый скорпион]], но армия муравьёв портных зазделили скорпиона на куски и раздали их личинкам. Во второй серии на муровьёв портных напали бумачные осы. Осы подедили, муравьям пришлось покинуть колонию.
+[[Категория:Архив]]
+[[Категория:Беспозвоночные]]
+[[Категория:Насекомые]]
+[[Категория:Беспозвоночные по родам]]
+[[Категория:Членистоногие]]
+[[Категория:Муравьи]]
+[[Категория:Перепончатокрылые]]
+[[Категория:Фауна Азии]]
+[[Категория:Фауна Америки]]
+[[Категория:Фауна Южной Арерики]]</text>
+      <sha1>9ecm4kfttks0wx73y7c00avv9b0pd66</sha1>
+    </revision>
+    <revision>
+      <id>1441</id>
+      <parentid>1419</parentid>
+      <timestamp>2015-12-28T08:17:13Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Добавление категорий</comment>
+      <origin>1441</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="3002" sha1="1jfvqhbx957a7fljugh1biij8mh3qzg" xml:space="preserve">Муравьи-портные - подсемейство муравьёв{{Инфобокс
+|Название = Муравьи-портные
+|Название строки 1 = Царства:
+|Содержание строки 1 = Животные
+|Название строки 2 = Тип:
+|Содержание строки 2 = Членистоногие
+|Название строки 3 = Класс:
+|Содержание строки 3 = Насекомые
+|Название строки 4 = Отряд:
+|Содержание строки 4 = Перепончатокрылые
+|Название строки 5 = Семейство:
+|Содержание строки 5 = Муравьи
+|Название строки 6 = Род:
+|Содержание строки 6 = Муравии-портные}} Его представители живут в Азии и южной Америки.&lt;span style="display: none"&gt; &lt;/span&gt;
+
+'''Колония'''
+
+Колония муравьёв-портныхнаходится на деревьях. Там они сгибают и склеивают листья, образуя камеры для того, что и [[королева]] смогут там жить. Так же каждая колония город-государство с огромной армией.
+
+Все представители колонии ( кроме королевы) есть или будут воинами. Они могут добывать пищу, или убивать и расчленять врагов.
+
+'''В культуре'''
+
+В сериале "войны жуков гигантов", под названием "зелёные муравьи", муравьи-портные появлялись в двух сериях.
+
+В одной из них на территорию колонии забрёл [[черносвостый скорпион]], но армия муравьёв портных зазделили скорпиона на куски и раздали их личинкам. Во второй серии на муровьёв портных напали бумачные осы. Осы подедили, муравьям пришлось покинуть колонию.
+[[Категория:Архив]]
+[[Категория:Беспозвоночные]]
+[[Категория:Насекомые]]
+[[Категория:Беспозвоночные по родам]]
+[[Категория:Членистоногие]]
+[[Категория:Муравьи]]
+[[Категория:Перепончатокрылые]]
+[[Категория:Фауна Азии]]
+[[Категория:Фауна Америки]]
+[[Категория:Фауна Южной Арерики]]
+[[Категория:Насекомые Америки]]
+[[Категория:Насекомые Южной Америки]]
+[[Категория:Членистоногие Америки]]
+[[Категория:Членистоногие Южной Америки]]</text>
+      <sha1>1jfvqhbx957a7fljugh1biij8mh3qzg</sha1>
+    </revision>
+    <revision>
+      <id>1476</id>
+      <parentid>1441</parentid>
+      <timestamp>2022-08-27T17:30:34Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <origin>1476</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2138" sha1="c79lix2gcy2f3ffkh3ik3rocur3a778" xml:space="preserve">{{Беспозвоночное
+|Надтип=Линяющие
+|Тип=членистоногие
+|Класс=Насекомые
+|Отряд=Перепончатокрылые
+|Семейство=Муравьи
+|Род=Oecophylla
+|Длина=До 1 см (рабочие)
+|Ареал=Африка, Южная и Юго-Восточная Азия, север Австралии
+|Рацион питания=Хищники
+}}
+
+'''Муравьи-портные''' - род муравьёв. Его представители обитают в Африке, Азии и Австралии.
+
+===Колония===
+
+Колония муравьёв-портных находится на деревьях. Там они сгибают и склеивают листья, образуя камеры для того, что и [[королева]] смогут там жить.
+
+Все представители колонии ( кроме королевы) есть или будут воинами. Они могут добывать пищу, или убивать и расчленять других животных.
+
+===В культуре===
+
+В сериале "войны жуков гигантов", под названием "зелёные муравьи", муравьи-портные появлялись в двух сериях.
+
+В одной из них на территорию колонии забрёл [[чернохвостый скорпион]], но армия муравьёв портных зазделили скорпиона на куски и раздали их личинкам. Во второй серии на муравьёв портных напали бумажные осы. Осы победили, после чего муравьям пришлось покинуть колонию.
+[[Категория:Архив]]
+[[Категория:Беспозвоночные]]
+[[Категория:Насекомые]]
+[[Категория:Хищники]]
+[[Категория:Членистоногие]]
+[[Категория:Муравьи]]
+[[Категория:Перепончатокрылые]]</text>
+      <sha1>c79lix2gcy2f3ffkh3ik3rocur3a778</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Насекомые и их знакомые</title>
+    <ns>0</ns>
+    <id>457</id>
+    <revision>
+      <id>1401</id>
+      <timestamp>2014-05-02T11:41:21Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Новая страница: «Насекомые и их знакомые - журнал о членистоногих.{{Инфобокс |Название = Насекомые и их зна…»</comment>
+      <origin>1401</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4337" sha1="fum4erdvogzov4yxprzk6303zu7qu26" xml:space="preserve">Насекомые и их знакомые - журнал о членистоногих.{{Инфобокс
+|Название = Насекомые и их знакомые
+|Название строки 1 = Страна - издатель
+|Содержание строки 1 = Россия, Украина
+|Название строки 2 = Число номеров
+|Содержание строки 2 = ?}}Выходит каждую неделю. Всего было две серии журналов - в 2011 и 2014 году.
+
+В жуналах говорится о группах насекомых. К каждому журналу прилагается само животное, залитое в акриловую упоковку. Ещё прилагаются коробки для этих животных. Коробку для кирпичиков акрила с животными среднего размера можно получить с номером 2, коробку для больших животных - с номером 12. В таблице показаны насекомые, которые прилагаются к журналам.
+{| border="0" cellpadding="1" cellspacing="1" class="article-table" style="WIDTH: 500px"
+|-
+! scope="col"|номер                                     Животное             группа
+! scope="col"|
+! scope="col"|
+|-
+|1                 Манчжурский золотой скорпион              Скорпионы
+|
+|
+|-
+|2                          Паук-крестовик                        Пауки-кругопряды
+|
+|
+|-
+|3                          Heterometrus                                             Скорпионы
+|
+|
+|-
+|4                           Изумрудный жук                                   Жуки
+|
+|
+|-
+|5                             Шершень                                              Осы
+|
+|
+|-
+|6                            Саранча                                            Кузнечики
+|
+|
+|-
+|7                      Азиатский усач                                             Жуки
+|
+|
+|-
+|8                       Азиатская цикада                                     Цикады
+|
+|
+|-
+|9                  Эуфолюс великолепный                          Долгоносики
+|
+|
+|-
+|10               Стерноцера хильдебрандти                          Златки
+|
+|
+|-
+|11                       Азиатский клоп                                            Клопы
+|
+|
+|-
+|12                          Гигантский водяной клоп                         Клопы
+|
+|
+|-
+|13                     Азиатский сверчок                                     Сверчки
+|
+|
+|-
+|14                Водолюб чёрный                                                Жуки
+|
+|
+|-
+|15                               Цикадка                                          Цикадки
+|
+|
+|-
+|16                   Златка восточная                        Муравьиные львы
+|
+|
+|}
+[[Категория:Архив]]
+[[Категория:Журналы]]
+[[Категория:Литература]]
+[[Категория:Беспозвоночные в культуре]]</text>
+      <sha1>fum4erdvogzov4yxprzk6303zu7qu26</sha1>
+    </revision>
+    <revision>
+      <id>1455</id>
+      <parentid>1401</parentid>
+      <timestamp>2016-05-03T07:35:20Z</timestamp>
+      <contributor>
+        <ip>95.106.154.39</ip>
+      </contributor>
+      <comment>Изменены помарки</comment>
+      <origin>1455</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4339" sha1="88n3vdunnnrro50tyycwcwhm21p8wwp" xml:space="preserve">Насекомые и их знакомые - журнал о членистоногих.{{Инфобокс
+|Название = Насекомые и их знакомые
+|Название строки 1 = Страна - издатель
+|Содержание строки 1 = Россия, Украина
+|Название строки 2 = Число номеров
+|Содержание строки 2 = ?}}Выходит каждую неделю. Всего было две серии журналов - в 2011 и 2014 году.
+
+В журналах говорится о группах насекомых. К каждому журналу прилагается само животное, залитое в акриловую упаковку. Ещё прилагаются коробки для этих животных. Коробку для кирпичиков акрила с животными среднего размера можно получить с номером 2, коробку для больших животных - с номером 12. В таблице показаны насекомые, которые прилагаются к журналам.
+{| border="0" cellpadding="1" cellspacing="1" class="article-table" style="WIDTH: 500px"
+|-
+! scope="col"|номер                                     Животное             группа
+! scope="col"|
+! scope="col"|
+|-
+|1                 Манчжурский золотой скорпион              Скорпионы
+|
+|
+|-
+|2                          Паук-крестовик                        Пауки-кругопряды
+|
+|
+|-
+|3                          Heterometrus                                             Скорпионы
+|
+|
+|-
+|4                           Изумрудный жук                                   Жуки
+|
+|
+|-
+|5                             Шершень                                              Осы
+|
+|
+|-
+|6                            Саранча                                            Кузнечики
+|
+|
+|-
+|7                      Азиатский усач                                             Жуки
+|
+|
+|-
+|8                       Азиатская цикада                                     Цикады
+|
+|
+|-
+|9                  Эуфолюс великолепный                          Долгоносики
+|
+|
+|-
+|10               Стерноцера хильдебрандти                          Златки
+|
+|
+|-
+|11                       Азиатский клоп                                            Клопы
+|
+|
+|-
+|12                          Гигантский водяной клоп                         Клопы
+|
+|
+|-
+|13                     Азиатский сверчок                                     Сверчки
+|
+|
+|-
+|14                Водолюб чёрный                                                Жуки
+|
+|
+|-
+|15                               Цикадка                                          Цикадки
+|
+|
+|-
+|16                   Златка восточная                        Муравьиные львы
+|
+|
+|}
+[[Категория:Архив]]
+[[Категория:Журналы]]
+[[Категория:Литература]]
+[[Категория:Беспозвоночные в культуре]]</text>
+      <sha1>88n3vdunnnrro50tyycwcwhm21p8wwp</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Острокрылый кузнечик</title>
+    <ns>0</ns>
+    <id>482</id>
+    <revision>
+      <id>1426</id>
+      <timestamp>2014-05-09T14:49:56Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Новая страница: «Острокрылый кузнечик - травоядный древесный кузнечик.{{Инфобокс |Название = Острокрылый …»</comment>
+      <origin>1426</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1795" sha1="g6idfs9ndprrsyi0cn420e7b8csnqu8" xml:space="preserve">Острокрылый кузнечик - травоядный древесный кузнечик.{{Инфобокс
+|Название = Острокрылый кузнечик
+|Название строки 1 = Царство:
+|Содержание строки 1 = Животные
+|Название строки 2 = Тип:
+|Содержание строки 2 = Членистоногие
+|Название строки 3 = Класс:
+|Содержание строки 3 = Насекомые
+|Название строки 4 = Отряд:
+|Содержание строки 4 = Прямокрылые
+|Название строки 5 = Род:
+|Содержание строки 5 = Острокрылый кузнечик
+|Название строки 6 = Длина:
+|Содержание строки 6 = 3 см
+|Название строки 7 = Среда обитания:
+|Содержание строки 7 = Джунгли}}Лапки и тело защищены острыми шипами. У этого кузнечика была тёмно-зелёная окраска. Его было трудно заметить, но его убил [[Гигантский богомол|гигантский богомол]] в сериале "Войны жуков гигантов".
+[[Категория:Кузнечики]]
+[[Категория:Прямокрылые]]
+[[Категория:Архив]]
+[[Категория:Беспозвоночные]]
+[[Категория:Беспозвоночные по отрядам]]
+[[Категория:Беспозвоночные по родам]]
+[[Категория:Беспозвоночные по классам]]
+[[Категория:Насекомые]]
+[[Категория:Беспозвоночные по типам]]</text>
+      <sha1>g6idfs9ndprrsyi0cn420e7b8csnqu8</sha1>
+    </revision>
+    <revision>
+      <id>1477</id>
+      <parentid>1426</parentid>
+      <timestamp>2022-08-30T12:18:08Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <origin>1477</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1229" sha1="k9uyit95vconhuxlylkg09b1hdzstoo" xml:space="preserve">{{Беспозвоночное
+|Надтип=Линяющие
+|Тип=Членистоногие
+|Класс=Насекомые
+|Отряд=Прямокрылые
+|Семейство=Кузнечики
+|Вид=Острокрылый кузнечик
+|Длина=3 см
+|Среда обитания=Джунгли
+|Рацион питания=Всеядный}}
+
+'''Острокрылый кузнечик''' - растительноядный древесный кузнечик.
+
+Лапки и тело защищены острыми шипами. У этого кузнечика была тёмно-зелёная окраска, благодаря чему его было трудно заметить, но это не помешало его победить [[Гигантский богомол|гигантскому богомолу]] в сериале "Войны жуков гигантов".
+[[Категория:Архив]]
+[[Категория:Членистоногие]]
+[[Категория:Насекомые]]
+[[Категория:Прямокрылые]]
+[[Категория:Кузнечики]]
+[[Категория:Беспозвоночные]]
+[[Категория:Растительноядные]]</text>
+      <sha1>k9uyit95vconhuxlylkg09b1hdzstoo</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Отряд: Бабочки</title>
+    <ns>0</ns>
+    <id>469</id>
+    <revision>
+      <id>1413</id>
+      <timestamp>2014-05-04T13:04:25Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Новая страница: «Бабочки - второй по колличеству видов отряд насекомых.{{Инфобокс |Название = Отряд: Бабочк…»</comment>
+      <origin>1413</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1643" sha1="9grum7wiqjm23xjry0dkagy2jbjd5fn" xml:space="preserve">Бабочки - второй по колличеству видов отряд насекомых.{{Инфобокс
+|Название = Отряд: Бабочки
+|Название строки 1 = Царство:
+|Содержание строки 1 = Животные
+|Название строки 2 = Тип:
+|Содержание строки 2 = Членистоногие
+|Название строки 3 = Класс:
+|Содержание строки 3 = Насекомые
+|Название строки 4 = Отряд:
+|Содержание строки 4 = Бабочки}}Тельце бабочки, как и у многих насекомых состоит из головы, груди и брюшка. Голова имеет 2 больших глаза, 2 антенны и хоботок чтобы пить нектар. Огромные крылья бабочки позволяют ей летать. Эти крылья, благодаря чешуйкам, могут иметь разнообразную расцветку. Но в отряде бабочки виды можно разделить на следующие группы:
+
+Бабочки
+
+Мотыльки
+
+Крупнейший представитель отряда - бабочка атлас. Каждое из её крыльев размером с лист бумаги формата А5.
+[[Категория:Архив]]
+[[Категория:Насекомые]]
+[[Категория:Беспозвоночные]]
+[[Категория:Беспозвоночные по отрядам]]
+[[Категория:Членистоногие]]</text>
+      <sha1>9grum7wiqjm23xjry0dkagy2jbjd5fn</sha1>
+    </revision>
+    <revision>
+      <id>1443</id>
+      <parentid>1413</parentid>
+      <timestamp>2016-02-03T13:57:26Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Добавление категорий</comment>
+      <origin>1443</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1698" sha1="emu02e2ccg7atg79jgo7wo283szs90k" xml:space="preserve">Бабочки - второй по колличеству видов отряд насекомых.{{Инфобокс
+|Название = Отряд: Бабочки
+|Название строки 1 = Царство:
+|Содержание строки 1 = Животные
+|Название строки 2 = Тип:
+|Содержание строки 2 = Членистоногие
+|Название строки 3 = Класс:
+|Содержание строки 3 = Насекомые
+|Название строки 4 = Отряд:
+|Содержание строки 4 = Бабочки}}Тельце бабочки, как и у многих насекомых состоит из головы, груди и брюшка. Голова имеет 2 больших глаза, 2 антенны и хоботок чтобы пить нектар. Огромные крылья бабочки позволяют ей летать. Эти крылья, благодаря чешуйкам, могут иметь разнообразную расцветку. Но в отряде бабочки виды можно разделить на следующие группы:
+
+Бабочки
+
+Мотыльки
+
+Крупнейший представитель отряда - бабочка атлас. Каждое из её крыльев размером с лист бумаги формата А5.
+[[Категория:Архив]]
+[[Категория:Насекомые]]
+[[Категория:Беспозвоночные]]
+[[Категория:Беспозвоночные по отрядам]]
+[[Категория:Членистоногие]]
+[[Категория:Отряды насекомых]]</text>
+      <sha1>emu02e2ccg7atg79jgo7wo283szs90k</sha1>
+    </revision>
+    <revision>
+      <id>1478</id>
+      <parentid>1443</parentid>
+      <timestamp>2022-08-30T12:23:34Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <origin>1478</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1471" sha1="augo60ccz7ew4c6xmzm17dp9hqpxiib" xml:space="preserve">{{Беспозвоночное
+|Надтип=Линяющие
+|Тип=Членистоногие
+|Класс=Насекомые
+|Отряд=Бабочки
+|Размах крыльев=До 30 см
+|Ареал=Все континенты, кроме Антарктиды
+}}
+
+'''Бабочки''' - второй по количеству видов отряд насекомых.Тельце бабочки, как и у многих насекомых состоит из головы, груди и брюшка. Голова имеет 2 больших глаза, 2 антенны и хоботок чтобы пить нектар. Огромные крылья бабочки позволяют ей летать. Эти крылья, благодаря чешуйкам, могут иметь разнообразную расцветку. Но в отряде бабочки виды можно разделить на следующие группы:
+
+Бабочки
+
+Мотыльки
+
+Крупнейший представитель отряда - бабочка атлас. Каждое из её крыльев размером с лист бумаги формата А5.
+[[Категория:Архив]]
+[[Категория:Насекомые]]
+[[Категория:Беспозвоночные]]
+[[Категория:Растительноядные]]
+[[Категория:Членистоногие]]
+[[Категория:Отряды насекомых]]</text>
+      <sha1>augo60ccz7ew4c6xmzm17dp9hqpxiib</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Отряд: Жесткокрылые</title>
+    <ns>0</ns>
+    <id>468</id>
+    <revision>
+      <id>1412</id>
+      <timestamp>2014-05-04T12:46:17Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Новая страница: «Жесткокрылые или жуки - самый многочисленный отряд насекомых.{{Инфобокс |Название = Отряд…»</comment>
+      <origin>1412</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1285" sha1="mw7uwm03p4w1wjpgax8hd0z2u5j1d2g" xml:space="preserve">Жесткокрылые или жуки - самый многочисленный отряд насекомых.{{Инфобокс
+|Название = Отряд: Жесткокрылые
+|Название строки 1 = Царство:
+|Содержание строки 1 = Животные
+|Название строки 2 = Тип:
+|Содержание строки 2 = Членистоногие
+|Название строки 3 = Класс:
+
+|Содержание строки 3 = Насекомые
+|Название строки 4 = Отряд:
+|Содержание строки 4 = Жесткокрылые}}Разнообразие делает этот оторяд самым приспособленным отрядом. Отряд можно разделить на следующие группы:
+
+Злакти
+
+Жуки
+
+Долгоносики.
+
+В этом семействе находтся самый тяжёлый представитель насекомых  - жук-голиаф.{{Stub}}
+[[Категория:Архив]]
+[[Категория:Насекомые]]
+[[Категория:Незавершённые статьи]]
+[[Категория:Беспозвоночные по отрядам]]
+[[Категория:Беспозвоночные]]</text>
+      <sha1>mw7uwm03p4w1wjpgax8hd0z2u5j1d2g</sha1>
+    </revision>
+    <revision>
+      <id>1445</id>
+      <parentid>1412</parentid>
+      <timestamp>2016-02-03T13:57:48Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Добавление категорий</comment>
+      <origin>1445</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1340" sha1="hhx6c283lmh66ydq3x1grp6mbf8gri1" xml:space="preserve">Жесткокрылые или жуки - самый многочисленный отряд насекомых.{{Инфобокс
+|Название = Отряд: Жесткокрылые
+|Название строки 1 = Царство:
+|Содержание строки 1 = Животные
+|Название строки 2 = Тип:
+|Содержание строки 2 = Членистоногие
+|Название строки 3 = Класс:
+
+|Содержание строки 3 = Насекомые
+|Название строки 4 = Отряд:
+|Содержание строки 4 = Жесткокрылые}}Разнообразие делает этот оторяд самым приспособленным отрядом. Отряд можно разделить на следующие группы:
+
+Злакти
+
+Жуки
+
+Долгоносики.
+
+В этом семействе находтся самый тяжёлый представитель насекомых  - жук-голиаф.{{Stub}}
+[[Категория:Архив]]
+[[Категория:Насекомые]]
+[[Категория:Незавершённые статьи]]
+[[Категория:Беспозвоночные по отрядам]]
+[[Категория:Беспозвоночные]]
+[[Категория:Отряды насекомых]]</text>
+      <sha1>hhx6c283lmh66ydq3x1grp6mbf8gri1</sha1>
+    </revision>
+    <revision>
+      <id>1479</id>
+      <parentid>1445</parentid>
+      <timestamp>2022-08-30T12:23:39Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <origin>1479</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1174" sha1="8vvtbiwmvic0upyrhl7kdrhjah8c1c6" xml:space="preserve">{{Беспозвоночное
+|Надтип=Линяющие
+|Тип=Членистоногие
+|Класс=Насекомые
+|Отряд=Жесткокрылые
+|Длина=До 20 см
+|Вес=До 100 г
+|Ареал=Все континенты, кроме Антарктиды
+}}
+'''Жесткокрылые''' - наиболее многочисленный отряд насекомых. Разнообразие делает этот отряд самым приспособленным из всех. Отряд можно разделить на следующие группы:
+
+Златки
+
+Жуки
+
+Долгоносики.
+
+В этом семействе находятся самый тяжёлый представитель насекомых  - жук-голиаф.{{Stub}}
+[[Категория:Архив]]
+[[Категория:Насекомые]]
+[[Категория:Незавершённые статьи]]
+[[Категория:Растительноядные]]
+[[Категория:Беспозвоночные]]
+[[Категория:Отряды насекомых]]
+[[Категория:Всеядные]]
+[[Категория:Хищники]]</text>
+      <sha1>8vvtbiwmvic0upyrhl7kdrhjah8c1c6</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Отряд: Перепончатокрылые</title>
+    <ns>0</ns>
+    <id>465</id>
+    <revision>
+      <id>1409</id>
+      <timestamp>2014-05-03T10:42:58Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Новая страница: «Перепончатокрылые - один из крупнейших по численности видов отряд насекомых.{{Инфобокс |…»</comment>
+      <origin>1409</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1080" sha1="5o49a1y8dab28c4hd5xfj7y36ietc2j" xml:space="preserve">Перепончатокрылые - один из крупнейших по численности видов отряд насекомых.{{Инфобокс
+|Название = Отряд: Перепончатокрылые
+|Название строки 1 = Тип:
+|Содержание строки 1 = Членистоногие
+|Название строки 2 = Класс:
+|Содержание строки 2 = Насекомые
+|Название строки 3 = Отряд:
+|Содержание строки 3 = ПЕрепончатокрылые}}В нём насчитывается более 110 000 видов. В основном это следующие группы:
+
+Муравьи
+
+Пчёлы
+
+Осы
+
+Наездники.
+
+Представители этого отряда заселили все континенты (кроме Антарктиды).
+[[Категория:Насекомые]]
+[[Категория:Архив]]
+[[Категория:Беспозвоночные]]
+[[Категория:Беспозвоночные по отрядам]]</text>
+      <sha1>5o49a1y8dab28c4hd5xfj7y36ietc2j</sha1>
+    </revision>
+    <revision>
+      <id>1444</id>
+      <parentid>1409</parentid>
+      <timestamp>2016-02-03T13:57:40Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Добавление категорий</comment>
+      <origin>1444</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1185" sha1="19i75bdp9otbfmm084l76n1ovrom6xo" xml:space="preserve">Перепончатокрылые - один из крупнейших по численности видов отряд насекомых.{{Инфобокс
+|Название = Отряд: Перепончатокрылые
+|Название строки 1 = Тип:
+|Содержание строки 1 = Членистоногие
+|Название строки 2 = Класс:
+|Содержание строки 2 = Насекомые
+|Название строки 3 = Отряд:
+|Содержание строки 3 = ПЕрепончатокрылые}}В нём насчитывается более 110 000 видов. В основном это следующие группы:
+
+Муравьи
+
+Пчёлы
+
+Осы
+
+Наездники.
+
+Представители этого отряда заселили все континенты (кроме Антарктиды).
+[[Категория:Насекомые]]
+[[Категория:Архив]]
+[[Категория:Беспозвоночные]]
+[[Категория:Беспозвоночные по отрядам]]
+[[Категория:Отряды насекомых]]
+[[Категория:Членистоногие]]</text>
+      <sha1>19i75bdp9otbfmm084l76n1ovrom6xo</sha1>
+    </revision>
+    <revision>
+      <id>1480</id>
+      <parentid>1444</parentid>
+      <timestamp>2022-08-30T12:27:02Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <origin>1480</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="988" sha1="eab4rdzyzxvnof4vls0pgoy5ck55rgw" xml:space="preserve">{{Беспозвоночное
+|Надтип=Линяющие
+|Тип=Членистоногие
+|Класс=Насекомые
+|Отряд=Перепончатокрылые
+|Ареал=Все континенты, кроме Антарктиды
+}}
+
+'''Перепончатокрылые''' - один из крупнейших по численности видов отряд насекомых.В нём насчитывается более 110 000 видов. В основном это следующие группы:
+
+Муравьи
+
+Пчёлы
+
+Осы
+
+Наездники.
+
+Представители этого отряда заселили все континенты (кроме Антарктиды).
+[[Категория:Насекомые]]
+[[Категория:Архив]]
+[[Категория:Беспозвоночные]]
+[[Категория:Хищники]]
+[[Категория:Растительноядные]]
+[[Категория:Членистоногие]]</text>
+      <sha1>eab4rdzyzxvnof4vls0pgoy5ck55rgw</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Отряд: Стрекозы</title>
+    <ns>0</ns>
+    <id>488</id>
+    <revision>
+      <id>1432</id>
+      <timestamp>2014-05-20T12:45:57Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Новая страница: «Стрекозы - один из отрядов насекомых. {{Инфобокс |Название = Отряд: Стрекозы  |Название стр…»</comment>
+      <origin>1432</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1696" sha1="l51nrbaxu6x8judo29pgju8cq2r2dqh" xml:space="preserve">Стрекозы - один из отрядов насекомых. {{Инфобокс
+|Название = Отряд: Стрекозы 
+|Название строки 1 = Класс:
+|Содержание строки 1 = Насекомые
+|Название строки 2 = Отряд:
+|Содержание строки 2 = СТрекозы}}Эти насекомые машут крыльями с большой скоростью и взлетают, как верталёт. Так же стрекоза - хищник. Её челюсти могут укусить человека. Но не только это отличает стрекоз. Но не только эти особенности делают стрекоз особыми существами. Глаза стрекоз огромны. Ширина лица с глазами у [[Стероза-коромысло|стерозы-коромысла]] достигает 1 см. Как и у всех насекомых стрекозы имеют фассеточные глаза. Эти глаза насчитывают 35 000 ячеек.&lt;gallery&gt;
+Стрекоза личинка.jpg
+Стрекоза крылья.jpg
+Стрекоза глаза.jpg
+Стрекоза1.jpg
+&lt;/gallery&gt;
+[[Категория:Архив]]
+[[Категория:Стрекозы]]
+[[Категория:Членистоногие]]
+[[Категория:Насекомые]]
+[[Категория:Беспозвоночные]]
+[[Категория:Беспозвоночные по отрядам]]
+[[Категория:Беспозвоночные по классам]]
+[[Категория:Беспозвоночные по типам]]</text>
+      <sha1>l51nrbaxu6x8judo29pgju8cq2r2dqh</sha1>
+    </revision>
+    <revision>
+      <id>1446</id>
+      <parentid>1432</parentid>
+      <timestamp>2016-02-03T13:57:56Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Добавление категорий</comment>
+      <origin>1446</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1751" sha1="iomlk5jvuk388s8jku239uqlrnj5k02" xml:space="preserve">Стрекозы - один из отрядов насекомых. {{Инфобокс
+|Название = Отряд: Стрекозы 
+|Название строки 1 = Класс:
+|Содержание строки 1 = Насекомые
+|Название строки 2 = Отряд:
+|Содержание строки 2 = СТрекозы}}Эти насекомые машут крыльями с большой скоростью и взлетают, как верталёт. Так же стрекоза - хищник. Её челюсти могут укусить человека. Но не только это отличает стрекоз. Но не только эти особенности делают стрекоз особыми существами. Глаза стрекоз огромны. Ширина лица с глазами у [[Стероза-коромысло|стерозы-коромысла]] достигает 1 см. Как и у всех насекомых стрекозы имеют фассеточные глаза. Эти глаза насчитывают 35 000 ячеек.&lt;gallery&gt;
+Стрекоза личинка.jpg
+Стрекоза крылья.jpg
+Стрекоза глаза.jpg
+Стрекоза1.jpg
+&lt;/gallery&gt;
+[[Категория:Архив]]
+[[Категория:Стрекозы]]
+[[Категория:Членистоногие]]
+[[Категория:Насекомые]]
+[[Категория:Беспозвоночные]]
+[[Категория:Беспозвоночные по отрядам]]
+[[Категория:Беспозвоночные по классам]]
+[[Категория:Беспозвоночные по типам]]
+[[Категория:Отряды насекомых]]</text>
+      <sha1>iomlk5jvuk388s8jku239uqlrnj5k02</sha1>
+    </revision>
+    <revision>
+      <id>1481</id>
+      <parentid>1446</parentid>
+      <timestamp>2022-08-30T12:34:32Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <origin>1481</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1516" sha1="iyk2gp2g2gzso5ixyfg4gku090aaufy" xml:space="preserve">{{Беспозвоночное
+
+|Надтип=Линяющие
+|Тип=Членистоногие
+|Класс=Насекомые
+|Отряд=Стрекозы
+|Ареал=Все континенты, кроме Антарктиды
+|изображение=Стрекоза1.jpg}}'''Стрекозы''' - один из отрядов насекомых. 
+
+Эти насекомые машут крыльями с большой скоростью. Так же стрекозы - хищники. Их челюсти могут прокусить кожу человека. Но не только эти особенности делают стрекоз крайне интересными существами. Глаза стрекоз огромны. Ширина лица с глазами у [[Стеркоза-коромысло|стеркозы-коромысла]] достигает 1 см. Как и у всех насекомых стрекозы имеют фасеточные глаза. Эти глаза насчитывают 35 000 ячеек.
+
+==Галерея==
+
+&lt;gallery&gt;
+Стрекоза личинка.jpg
+Стрекоза крылья.jpg
+Стрекоза глаза.jpg
+
+&lt;/gallery&gt;
+[[Категория:Архив]]
+[[Категория:Стрекозы]]
+[[Категория:Членистоногие]]
+[[Категория:Насекомые]]
+[[Категория:Беспозвоночные]]
+[[Категория:Хищники]]
+[[Категория:Отряды насекомых]]</text>
+      <sha1>iyk2gp2g2gzso5ixyfg4gku090aaufy</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Отряд: клопы</title>
+    <ns>0</ns>
+    <id>504</id>
+    <redirect title="Отряд:Полужесткокрылые" />
+    <revision>
+      <id>1488</id>
+      <timestamp>2022-08-30T12:46:17Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Белохвостик переименовал страницу [[Отряд: клопы]] в [[Отряд:Полужесткокрылые]]</comment>
+      <origin>1488</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="79" sha1="mwcfi476nptk6f25y3ja05bm3fb7nki" xml:space="preserve">#перенаправление [[Отряд:Полужесткокрылые]]</text>
+      <sha1>mwcfi476nptk6f25y3ja05bm3fb7nki</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Отряд:Полужесткокрылые</title>
+    <ns>0</ns>
+    <id>472</id>
+    <revision>
+      <id>1416</id>
+      <timestamp>2014-05-05T12:43:08Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Новая страница: «Клопы - четвёртый по многочисленности отряд насекомых.{{Инфобокс |Название = Отряд: клопы …»</comment>
+      <origin>1416</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1042" sha1="sod2cae04v2pw8g1q9kv61akbzjp0ul" xml:space="preserve">Клопы - четвёртый по многочисленности отряд насекомых.{{Инфобокс
+|Название = Отряд: клопы
+|Название строки 1 = Царство:
+|Содержание строки 1 = Животные
+|Название строки 2 = Тип:
+|Содержание строки 2 = Членистоногие
+|Название строки 3 = Класс:
+|Содержание строки 3 = Насекомые
+|Название строки 4 = Отряд:
+|Содержание строки 4 = Клопы}}Представители отряда живут и в воде, и на земле. Ротовой аппарат клопов представляет собой острый, как игла хоботок.
+[[Категория:Архив]]
+[[Категория:Насекомые]]
+[[Категория:Беспозвоночные]]
+[[Категория:Беспозвоночные по отрядам]]
+[[Категория:Членистоногие]]</text>
+      <sha1>sod2cae04v2pw8g1q9kv61akbzjp0ul</sha1>
+    </revision>
+    <revision>
+      <id>1442</id>
+      <parentid>1416</parentid>
+      <timestamp>2016-02-03T13:56:17Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Добавление категорий</comment>
+      <origin>1442</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1097" sha1="h7gczzm7hq3xti0r08islgxvxzx58r4" xml:space="preserve">Клопы - четвёртый по многочисленности отряд насекомых.{{Инфобокс
+|Название = Отряд: клопы
+|Название строки 1 = Царство:
+|Содержание строки 1 = Животные
+|Название строки 2 = Тип:
+|Содержание строки 2 = Членистоногие
+|Название строки 3 = Класс:
+|Содержание строки 3 = Насекомые
+|Название строки 4 = Отряд:
+|Содержание строки 4 = Клопы}}Представители отряда живут и в воде, и на земле. Ротовой аппарат клопов представляет собой острый, как игла хоботок.
+[[Категория:Архив]]
+[[Категория:Насекомые]]
+[[Категория:Беспозвоночные]]
+[[Категория:Беспозвоночные по отрядам]]
+[[Категория:Членистоногие]]
+[[Категория:Отряды насекомых]]</text>
+      <sha1>h7gczzm7hq3xti0r08islgxvxzx58r4</sha1>
+    </revision>
+    <revision>
+      <id>1482</id>
+      <parentid>1442</parentid>
+      <timestamp>2022-08-30T12:34:52Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <origin>1482</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="915" sha1="92x0sk9n4s6drwl3ltl1nvurlx89ea1" xml:space="preserve">{{Беспозвоночное
+|Надтип=Линяющие
+|Тип=Членистоногие
+|Класс=Насекомые
+|Отряд=Полужесткокрылые
+|Ареал=Все континенты, кроме Антарктиды
+}}'''Полужесткокрылые''' - четвёртый по числу видов отряд насекомых. Представители отряда живут как в воде, так и на земле. Ротовой аппарат клопов представляет собой острый, как игла хоботок.
+[[Категория:Архив]]
+[[Категория:Насекомые]]
+[[Категория:Беспозвоночные]]
+[[Категория:Хищники]]
+[[Категория:Растительноядные]]
+[[Категория:Членистоногие]]
+[[Категория:Отряды насекомых]]</text>
+      <sha1>92x0sk9n4s6drwl3ltl1nvurlx89ea1</sha1>
+    </revision>
+    <revision>
+      <id>1487</id>
+      <parentid>1482</parentid>
+      <timestamp>2022-08-30T12:46:16Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <minor/>
+      <comment>Белохвостик переименовал страницу [[Отряд: клопы]] в [[Отряд:Полужесткокрылые]]</comment>
+      <origin>1482</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="915" sha1="92x0sk9n4s6drwl3ltl1nvurlx89ea1" xml:space="preserve">{{Беспозвоночное
+|Надтип=Линяющие
+|Тип=Членистоногие
+|Класс=Насекомые
+|Отряд=Полужесткокрылые
+|Ареал=Все континенты, кроме Антарктиды
+}}'''Полужесткокрылые''' - четвёртый по числу видов отряд насекомых. Представители отряда живут как в воде, так и на земле. Ротовой аппарат клопов представляет собой острый, как игла хоботок.
+[[Категория:Архив]]
+[[Категория:Насекомые]]
+[[Категория:Беспозвоночные]]
+[[Категория:Хищники]]
+[[Категория:Растительноядные]]
+[[Категория:Членистоногие]]
+[[Категория:Отряды насекомых]]</text>
+      <sha1>92x0sk9n4s6drwl3ltl1nvurlx89ea1</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Пучеглазый кузнечик</title>
+    <ns>0</ns>
+    <id>481</id>
+    <revision>
+      <id>1425</id>
+      <timestamp>2014-05-08T18:51:51Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Новая страница: «Пучеглазый кузнечик - один из хищных видов кузнечиков.{{Инфобокс |Название = Пучеглазый к…»</comment>
+      <origin>1425</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1301" sha1="iy9dz1fg8n6ool68wqn4uexvfrfi6xr" xml:space="preserve">Пучеглазый кузнечик - один из хищных видов кузнечиков.{{Инфобокс
+|Название = Пучеглазый кузнечик
+|Название строки 1 = Царство:
+|Содержание строки 1 = Животные
+|Название строки 2 = Тип:
+|Содержание строки 2 = Хордовые
+|Название строки 3 = Класс:
+|Содержание строки 3 = Насекомые
+|Название строки 4 = Отряд:
+|Содержание строки 4 = Прымокрылые
+|Название строки 5 = Вид:
+|Содержание строки 5 = Пучеглазый кузнечик}}
+[[Категория:Архив]]
+[[Категория:Насекомые]]
+[[Категория:Беспозвоночные]]
+[[Категория:Беспозвоночные по отрядам]]
+[[Категория:Беспозвоночные по родам]]
+[[Категория:Беспозвоночные по классам]]
+[[Категория:Беспозвоночные по типам]]
+[[Категория:Членистоногие]]
+[[Категория:Прямокрылые]]
+[[Категория:Кузнечики]]
+[[Категория:Хищники]]</text>
+      <sha1>iy9dz1fg8n6ool68wqn4uexvfrfi6xr</sha1>
+    </revision>
+    <revision>
+      <id>1483</id>
+      <parentid>1425</parentid>
+      <timestamp>2022-08-30T12:44:28Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <origin>1483</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1026" sha1="i4691gppbc3s7dviavlm0vd0ozs2ajj" xml:space="preserve">{{Беспозвоночное
+|Надтип=Линяющие
+|Тип=Членистоногие
+|Класс=Насекомые
+|Отряд=Прямокрылые
+|Семейство=Кузнечики
+|Вид=Пучеглазый кузнечик
+|Длина=6 см
+|Среда обитания=Джунгли
+|Рацион питания=Всеядный
+}}
+'''Пучеглазый кузнечик''' - один из хищных видов кузнечиков.
+
+==В культуре==
+Пучеглазый кузнечик был побеждён ]]Углокрылый кузнечик|углокрылым кузнечиком]] в одной из серий сериала "Войны жуков гигантов"
+[[Категория:Архив]]
+[[Категория:Насекомые]]
+[[Категория:Беспозвоночные]]
+[[Категория:Членистоногие]]
+[[Категория:Прямокрылые]]
+[[Категория:Кузнечики]]
+[[Категория:Хищники]]</text>
+      <sha1>i4691gppbc3s7dviavlm0vd0ozs2ajj</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Тарантул</title>
+    <ns>0</ns>
+    <id>503</id>
+    <redirect title="Тарантулы" />
+    <revision>
+      <id>1486</id>
+      <timestamp>2022-08-30T12:45:45Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Белохвостик переименовал страницу [[Тарантул]] в [[Тарантулы]]</comment>
+      <origin>1486</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="54" sha1="gi7b1c6drscy0t6tk2u52chwk4kavi8" xml:space="preserve">#перенаправление [[Тарантулы]]</text>
+      <sha1>gi7b1c6drscy0t6tk2u52chwk4kavi8</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Тарантулы</title>
+    <ns>0</ns>
+    <id>494</id>
+    <revision>
+      <id>1450</id>
+      <timestamp>2016-03-22T15:38:11Z</timestamp>
+      <contributor>
+        <ip>46.0.92.24</ip>
+      </contributor>
+      <comment>Новая страница: «'''Тарантул''' крупный коричневый мигаломорфный паук.  == Питание. == Тарантул питается круп…»</comment>
+      <origin>1450</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="612" sha1="ou6vaw6ufa6l9qsihju275j0md4uwpz" xml:space="preserve">'''Тарантул''' крупный коричневый мигаломорфный паук.
+
+== Питание. ==
+Тарантул питается крупными беспозвоночными и маленькими позвоночными.
+
+== Враги. ==
+В основном это ящерицы и крупные паукообразные. А ещё это ракообразные, муравьи и осы.
+
+== В культуре. ==
+Тарантул убил углокрылого кузнечика в одной из серий &lt;nowiki&gt;''Войны жуков гигантов''&lt;/nowiki&gt;</text>
+      <sha1>ou6vaw6ufa6l9qsihju275j0md4uwpz</sha1>
+    </revision>
+    <revision>
+      <id>1453</id>
+      <parentid>1450</parentid>
+      <timestamp>2016-03-22T15:54:26Z</timestamp>
+      <contributor>
+        <ip>46.0.92.24</ip>
+      </contributor>
+      <comment>/* В культуре. */</comment>
+      <origin>1453</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="718" sha1="itku9l18vj5msprtgd8z695vld0zujw" xml:space="preserve">'''Тарантул''' крупный коричневый мигаломорфный паук.
+
+== Питание. ==
+Тарантул питается крупными беспозвоночными и маленькими позвоночными.
+
+== Враги. ==
+В основном это ящерицы и крупные паукообразные. А ещё это ракообразные, муравьи и осы.
+
+== В культуре. ==
+Тарантул убил углокрылого кузнечика в одной из серий &lt;nowiki&gt;''Войны жуков гигантов''&lt;/nowiki&gt;.
+
+Но он стал обедом для сверчка бульдога в ещё одной серии.</text>
+      <sha1>itku9l18vj5msprtgd8z695vld0zujw</sha1>
+    </revision>
+    <revision>
+      <id>1484</id>
+      <parentid>1453</parentid>
+      <timestamp>2022-08-30T12:45:19Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <origin>1484</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1246" sha1="6y8e04de6taxy3frrg3bpkfmw3x07u3" xml:space="preserve">{{Беспозвоночное
+|Надтип=Линяющие
+|Тип=Членистоногие
+|Класс=Паукообразные
+|Отряд=Пауки
+|Семейство=Пауки-волки
+|Род=Тарантулы
+|Длина=2-10 см
+|Рацион питания=Хищники
+|Инфраотряд=Аранеоморфные пауки}}
+
+'''Тарантулы''' - род аранеоморфных пауков
+
+==Питание==
+Тарантул питается крупными беспозвоночными и мелкими позвоночными.
+
+==Враги==
+В основном это ящерицы и крупные паукообразные. А ещё это ракообразные, муравьи и осы.
+
+==В культуре==
+Тарантул убил углокрылого кузнечика в одной из серий &lt;nowiki&gt;''Войны жуков гигантов''&lt;/nowiki&gt;.
+
+Но он стал обедом для сверчка-бульдога в ещё одной серии.
+[[Категория:Архив]]
+[[Категория:Беспозвоночные]]
+[[Категория:Паукообразные]]
+[[Категория:Пауки]]
+[[Категория:Хищники]]</text>
+      <sha1>6y8e04de6taxy3frrg3bpkfmw3x07u3</sha1>
+    </revision>
+    <revision>
+      <id>1485</id>
+      <parentid>1484</parentid>
+      <timestamp>2022-08-30T12:45:45Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <minor/>
+      <comment>Белохвостик переименовал страницу [[Тарантул]] в [[Тарантулы]]</comment>
+      <origin>1484</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1246" sha1="6y8e04de6taxy3frrg3bpkfmw3x07u3" xml:space="preserve">{{Беспозвоночное
+|Надтип=Линяющие
+|Тип=Членистоногие
+|Класс=Паукообразные
+|Отряд=Пауки
+|Семейство=Пауки-волки
+|Род=Тарантулы
+|Длина=2-10 см
+|Рацион питания=Хищники
+|Инфраотряд=Аранеоморфные пауки}}
+
+'''Тарантулы''' - род аранеоморфных пауков
+
+==Питание==
+Тарантул питается крупными беспозвоночными и мелкими позвоночными.
+
+==Враги==
+В основном это ящерицы и крупные паукообразные. А ещё это ракообразные, муравьи и осы.
+
+==В культуре==
+Тарантул убил углокрылого кузнечика в одной из серий &lt;nowiki&gt;''Войны жуков гигантов''&lt;/nowiki&gt;.
+
+Но он стал обедом для сверчка-бульдога в ещё одной серии.
+[[Категория:Архив]]
+[[Категория:Беспозвоночные]]
+[[Категория:Паукообразные]]
+[[Категория:Пауки]]
+[[Категория:Хищники]]</text>
+      <sha1>6y8e04de6taxy3frrg3bpkfmw3x07u3</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Тип: Членистоногие</title>
+    <ns>0</ns>
+    <id>470</id>
+    <revision>
+      <id>1414</id>
+      <timestamp>2014-05-04T15:57:54Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Новая страница: «Членистоногие - тип беспозвоночных с внешним скелетом.{{Инфобокс |Название = Тип: Членист…»</comment>
+      <origin>1414</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="854" sha1="c4vszt4r4tooois0cnnedzz8xjpzm4p" xml:space="preserve">Членистоногие - тип беспозвоночных с внешним скелетом.{{Инфобокс
+|Название = Тип: Членистоногие
+|Название строки 1 = Царство:
+|Содержание строки 1 = Животные
+|Название строки 2 = Тип:
+|Содержание строки 2 = Членистоногие}}Членистоногие смогли заселить все экосистемы мира, все среды обитания. Тип делится на 3 класса - насекомые, паукообразные и ракообразные. {{Stub}}
+[[Категория:Членистоногие]]
+[[Категория:Беспозвоночные]]
+[[Категория:Беспозвоночные по типам]]
+[[Категория:Архив]]</text>
+      <sha1>c4vszt4r4tooois0cnnedzz8xjpzm4p</sha1>
+    </revision>
+    <revision>
+      <id>1489</id>
+      <parentid>1414</parentid>
+      <timestamp>2022-08-30T12:50:12Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <origin>1489</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="644" sha1="ecos2y3k71mbojoasrwwyr99lyyr31t" xml:space="preserve">{{Беспозвоночное
+|Надтип=Линяющие
+|Тип=Членистоногие
+|Ареал=Все континенты
+}}
+
+'''Членистоногие''' - тип беспозвоночных с внешним скелетом.
+
+Членистоногие смогли заселить все экосистемы мира, все среды обитания. Тип делится на 3 класса - насекомые, паукообразные и ракообразные. {{Stub}}
+[[Категория:Членистоногие]]
+[[Категория:Беспозвоночные]]
+[[Категория:Архив]]</text>
+      <sha1>ecos2y3k71mbojoasrwwyr99lyyr31t</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Топ - 29, отряды насекомые по колличеству видов</title>
+    <ns>0</ns>
+    <id>466</id>
+    <revision>
+      <id>1410</id>
+      <timestamp>2014-05-03T11:16:50Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Новая страница: «Класс насекомых содержит 29 отрядов колличество видов в них в таблоице ниже: {| border="0" cellpaddi…»</comment>
+      <origin>1410</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4822" sha1="00glxnfmvqd3f21t5gvu9kwm4r3i1hi" xml:space="preserve">Класс насекомых содержит 29 отрядов колличество видов в них в таблоице ниже:
+{| border="0" cellpadding="1" cellspacing="1" class="article-table" style="WIDTH: 500px"
+|-
+! scope="col"|номер              название отряда               колличество видов
+! scope="col"|
+! scope="col"|
+|-
+|1                        Жесткокрылые                          350 000
+|
+|
+|-
+|2                          Бабочки                                   165 000
+|
+|
+|-
+|3                        Перепончатокрылые                110 000
+|
+|
+|-
+|4                         Двукрылые                                 70 000
+|
+|
+|-
+|5                            Клопы                                      60 000
+|
+|
+|-
+|6                              Прымокрылые                       20 000
+|
+|
+|-
+|7                      Богомолы, тараканы                      5 300
+|
+|
+|-
+|8                               Стрекозы                               5 000
+|
+|
+|-
+|9                                Трипсы                                 5 000
+|
+|
+|-
+|10                    Сетчатокрылые                             4 000
+|
+|
+|-
+|11                      Ручейники                                    3 000
+|
+|
+|-
+|12                       Вши                                             2 900
+|
+|
+|-
+|13                      Термиты                                      2 000
+|
+|
+|-
+|14                      Палочники                                   2 000
+|
+|
+|-
+|15                      Сеноеды                                     1 700
+|
+|
+|-
+|16                     Ногохвостки                                 1 500
+|
+|
+|-
+|17                     Веснянки                                     1 300
+|
+|
+|-
+|18                      Уховёртки                                   1 200
+|
+|
+|-
+|19                      Блохи                                          1 000
+|
+|
+|-
+|20                     Подёнки                                        1000
+|
+|
+|-
+|21                     Двухвостки                                     660
+|
+|
+|-
+|22                     Вислокрылки                                 500
+|
+|
+|-
+|23                   Щетинохвостки                               350
+|
+|
+|-
+|24                     Скорпионницы                             300
+|
+|
+|-
+|25                     Веерокрылки                                300
+|
+|
+|-
+|26                     Бесстячковые                              170
+|
+|
+|-
+|
+27                       Эмбии                                        140
+|
+|
+|-
+|28                    Зораптерры                                    16
+|
+|
+|-
+|29                   Гриллоблаттиды                              12
+|
+|
+|}
+Возможно, что-то изменилось - данные 1980-х годов.
+[[Категория:Рейтинги]]
+[[Категория:Архив]]
+[[Категория:Насекомые]]</text>
+      <sha1>00glxnfmvqd3f21t5gvu9kwm4r3i1hi</sha1>
+    </revision>
+    <revision>
+      <id>1449</id>
+      <parentid>1410</parentid>
+      <timestamp>2016-02-06T12:53:40Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <minor/>
+      <origin>1449</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="4326" sha1="gvvmd7oc6amckdirehcj0orfd9zp8pm" xml:space="preserve">Класс насекомых содержит 29 отрядов колличество видов в них в таблоице ниже:
+{| border="0" cellpadding="1" cellspacing="1" class="article-table" style="WIDTH: 500px"
+|-
+! scope="col"|№
+! scope="col"|&lt;span style="font-weight:bold;"&gt;название отряда&lt;/span&gt;
+! scope="col"|&lt;span style="font-weight:bold;"&gt;колличество видов&lt;/span&gt;
+|-
+|1
+|[[Жесткокрылые]]
+|&lt;span style="font-weight:normal;"&gt; 350 000&lt;/span&gt;
+|-
+|2
+|[[Бабочки]]
+|&lt;span style="font-weight:normal;"&gt;165 000&lt;/span&gt;
+|-
+|3 
+|[[Перепончатокрылые]]
+|&lt;span style="font-weight:normal;"&gt; 110 000&lt;/span&gt;
+|-
+|4
+|&lt;span style="font-weight:normal;"&gt;Двукрылые&lt;/span&gt;
+|&lt;span style="font-weight:normal;"&gt;70 000&lt;/span&gt;
+|-
+|5
+|&lt;span style="font-weight:normal;"&gt;Клопы&lt;/span&gt;
+|&lt;span style="font-weight:normal;"&gt;60 000&lt;/span&gt;
+|-
+|6
+|&lt;span style="font-weight:normal;"&gt;Прымокрылые&lt;/span&gt;
+|&lt;span style="font-weight:normal;"&gt;20 000&lt;/span&gt;
+|-
+|7
+|&lt;span style="font-weight:normal;"&gt;Богомолы, тараканы&lt;/span&gt;
+|&lt;span style="font-weight:normal;"&gt;5 300&lt;/span&gt;
+|-
+|8 
+|&lt;span style="font-weight:normal;"&gt;Стрекозы&lt;/span&gt;
+|&lt;span style="font-weight:normal;"&gt; 5 000&lt;/span&gt;
+|-
+|9
+|&lt;span style="font-weight:normal;"&gt;Трипсы&lt;/span&gt;
+|&lt;span style="font-weight:normal;"&gt;5 000&lt;/span&gt;
+|-
+|10
+|&lt;span style="font-weight:normal;"&gt;Сетчатокрылые&lt;/span&gt;
+|&lt;span style="font-weight:normal;"&gt;4 000&lt;/span&gt;
+|-
+|11
+|&lt;span style="font-weight:normal;"&gt;Ручейники&lt;/span&gt;
+|&lt;span style="font-weight:normal;"&gt;3 000&lt;/span&gt;
+|-
+|12
+|&lt;span style="font-weight:normal;"&gt;Вши&lt;/span&gt;
+|&lt;span style="font-weight:normal;"&gt;2 900&lt;/span&gt;
+|-
+|13
+|&lt;span style="font-weight:normal;"&gt;Термиты&lt;/span&gt;
+|&lt;span style="font-weight:normal;"&gt;2 000&lt;/span&gt;
+|-
+|14
+|&lt;span style="font-weight:normal;"&gt;Палочники&lt;/span&gt;
+|&lt;span style="font-weight:normal;"&gt;2 000&lt;/span&gt;
+|-
+|15
+|&lt;span style="font-weight:normal;"&gt;Сеноеды&lt;/span&gt;
+|&lt;span style="font-weight:normal;"&gt;1 700&lt;/span&gt;
+|-
+|16
+|&lt;span style="font-weight:normal;"&gt;Ногохвостки&lt;/span&gt;
+|&lt;span style="font-weight:normal;"&gt;1 500&lt;/span&gt;
+|-
+|17
+|&lt;span style="font-weight:normal;"&gt;Веснянки&lt;/span&gt;
+|&lt;span style="font-weight:normal;"&gt;1 300&lt;/span&gt;
+|-
+|18
+|&lt;span style="font-weight:normal;"&gt;Уховёртки&lt;/span&gt;
+|&lt;span style="font-weight:normal;"&gt;1 200&lt;/span&gt;
+|-
+|19
+|&lt;span style="font-weight:normal;"&gt;Блохи&lt;/span&gt;
+|&lt;span style="font-weight:normal;"&gt;1 000&lt;/span&gt;
+|-
+|20
+|&lt;span style="font-weight:normal;"&gt;Подёнки&lt;/span&gt;
+|&lt;span style="font-weight:normal;"&gt;1000&lt;/span&gt;
+|-
+|21
+|&lt;span style="font-weight:normal;"&gt;Двухвостки&lt;/span&gt;
+|&lt;span style="font-weight:normal;"&gt;660&lt;/span&gt;
+|-
+|22
+|&lt;span style="font-weight:normal;"&gt;Вислокрылки&lt;/span&gt;
+|&lt;span style="font-weight:normal;"&gt;500&lt;/span&gt;
+|-
+|23
+|&lt;span style="font-weight:normal;"&gt;Щетинохвостки&lt;/span&gt;
+|&lt;span style="font-weight:normal;"&gt;350&lt;/span&gt;
+|-
+|24
+|&lt;span style="font-weight:normal;"&gt;Скорпионницы&lt;/span&gt;
+|&lt;span style="font-weight:normal;"&gt;300&lt;/span&gt;
+|-
+|25
+|&lt;span style="font-weight:normal;"&gt;Веерокрылки&lt;/span&gt;
+|&lt;span style="font-weight:normal;"&gt;300&lt;/span&gt;
+|-
+|26
+|&lt;span style="font-weight:normal;"&gt;Бесстячковые&lt;/span&gt;
+|&lt;span style="font-weight:normal;"&gt;170&lt;/span&gt;
+|-
+|
+27
+|&lt;span style="font-weight:normal;"&gt;Эмбии&lt;/span&gt;
+|&lt;span style="font-weight:normal;"&gt;140&lt;/span&gt;
+|-
+|28
+|&lt;span style="font-weight:normal;"&gt;Зораптерры&lt;/span&gt;
+|&lt;span style="font-weight:normal;"&gt;16&lt;/span&gt;
+|-
+|29
+|&lt;span style="font-weight:normal;"&gt;Гриллоблаттиды&lt;/span&gt;
+|&lt;span style="font-weight:normal;"&gt; 12&lt;/span&gt;
+|}
+Возможно, что-то изменилось - данные 1980-х годов.
+[[Категория:Рейтинги]]
+[[Категория:Архив]]
+[[Категория:Насекомые]]
+[[Категория:Членистоногие]]
+[[Категория:Отряды насекомых]]
+[[Категория:Беспозвоночные по отрядам]]
+[[Категория:Беспозвоночные]]
+[[Категория:Рейтинги насекомых]]
+[[Категория:Рейтинги членистоногих]]
+[[Категория:Рейтинги беспозвоночных]]</text>
+      <sha1>gvvmd7oc6amckdirehcj0orfd9zp8pm</sha1>
+    </revision>
+    <revision>
+      <id>1490</id>
+      <parentid>1449</parentid>
+      <timestamp>2022-08-30T13:25:04Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <origin>1490</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1852" sha1="bjfzgcc5zlhsggupw13ernwjwggqahr" xml:space="preserve">Класс насекомых содержит 29 отрядов количество видов в них в таблице ниже:
+{| border="5" cellpadding="1" cellspacing="1" class="article-table article-table-selected" style="width: 500px;"
+|-
+! scope="col"|№
+! scope="col"|Отряд
+! scope="col"|Количество видов
+|-
+|1
+|[[Жесткокрылые]]
+|390000&gt;
+|-
+|2
+|[[Двукрылые]]
+|160000&gt;
+|-
+|3 
+|[[Бабочки]]
+|158000&gt;
+|-
+|4
+|[[Перепончатокрылые]]
+|155000&gt;
+|-
+|5
+|[[Полужесткокрылые]]
+|104000&gt;
+|-
+|6
+|[[Прямокрылые]]
+|240000&gt;
+|-
+|7
+|[[Ручейники]]
+|140000&gt;
+|-
+|8 
+|[[Тараканы]]
+|7570&gt;
+|-
+|9
+|[[Стрекозы]]
+|6650&gt;
+|-
+|10
+|[[Сетчатокрылые]]
+|5937
+|-
+|11
+|[[Трипсы]]
+|5800&gt;
+|-
+|12
+|[[Сеноеды]]
+|5700&gt;
+|-
+|13
+|[[Вши]]
+|5100&gt;
+|-
+|14
+|[[Веснянки]]
+|3800&gt;
+|-
+|15
+|[[Подёнки]]
+|3281
+|-
+|16
+|[[Палочники]]
+|3000&gt;
+|-
+|17
+|[[Богомолы]]
+|2800&gt;
+|-
+|18
+|[[Блохи]]
+|2082
+|-
+|19
+|[[Уховёртки]]
+|1900&gt;
+|-
+|20
+|[[Скорпионницы]]
+|769
+|-
+|21
+|[[Веерохвостки]]
+|615
+|-
+|22
+|[[Щетинохвостки]]
+|554
+|-
+|23
+|[[Древнечелюстные]]
+|514
+|-
+|24
+|[[Эмбии]]
+|400&gt;
+|-
+|25
+|[[Большекрылые]]
+|397
+|-
+|26
+|[[Верблюдки]]
+|184
+|-
+|
+27
+|[[Зораптеры]]
+|50
+|-
+|28
+|[[Тараканосверчки]]
+|49
+|}
+
+[[Категория:Рейтинги]]
+[[Категория:Архив]]
+[[Категория:Насекомые]]
+[[Категория:Членистоногие]]
+[[Категория:Беспозвоночные]]
+[[Категория:Рейтинги насекомых]]
+[[Категория:Рейтинги членистоногих]]
+[[Категория:Рейтинги беспозвоночных]]</text>
+      <sha1>bjfzgcc5zlhsggupw13ernwjwggqahr</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Углокрылый кузнечик</title>
+    <ns>0</ns>
+    <id>478</id>
+    <revision>
+      <id>1422</id>
+      <timestamp>2014-05-08T18:46:04Z</timestamp>
+      <contributor>
+        <ip>87.117.185.106</ip>
+      </contributor>
+      <comment>Новая страница: «Углокрылый кузнечик - трвоядный и хищный кузнечик.{{Инфобокс |Название = Углокрылый кущн…»</comment>
+      <origin>1422</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2742" sha1="tsq0lvizdhag2pu2d1986zwm7p7vaof" xml:space="preserve">Углокрылый кузнечик - трвоядный и хищный кузнечик.{{Инфобокс
+|Название = Углокрылый кущничик
+|Название строки 1 = Царство:
+|Содержание строки 1 = Животные
+|Название строки 2 = Тип:
+|Содержание строки 2 = Членистоногие
+|Название строки 3 = Класс:
+|Содержание строки 3 = Насекомые
+|Название строки 4 = Отряд:
+|Содержание строки 4 = Прямокрялые
+|Название строки 5 = Семейство:
+|Содержание строки 5 = Кузнечики
+|Название строки 6 = Вид:
+|Содержание строки 6 = Углокрылый кузнечик
+|Название строки 7 = Длина:
+|Содержание строки 7 = 6 см.
+|Название строки 8 = Среда обитания:
+|Содержание строки 8 = Джунгли}} Его мощные челюсти могут прогрызть панцирь любого насекомого. Они могут очень сильно цапнуть за палец.
+
+'''Описание'''
+
+Сбоку эти кузнечики похожи на лист дерева, с лапками и головой. Сливаться с окружением им помогает цвет, благодаря чему, они могут охотится из засады.
+
+'''  В культуре'''
+
+Углокрылый кузнечик напал на богомола и убил его в одной из серий сериала "Войны жуков гигантов".
+
+В другой серии он соревновался с [[Пучеглазый кузнечик|пучеглазым кузнечиком]].  Углокрылый кузнечик подедил.
+
+Но он был убит[[Тарантул|&amp;nbsp;тарантулом]] в ещё одной серии.
+
+Также, углокрылого кузнечик попал в ловушку [[Паук-тенетник|паука-тенетника]].
+[[Категория:Архив]]
+[[Категория:Членистоногие]]
+[[Категория:Насекомые]]
+[[Категория:Прямокрылые]]
+[[Категория:Кузнечики]]
+[[Категория:Беспозвоночные]]
+[[Категория:Беспозвоночные по отрядам]]
+[[Категория:Беспозвоночные по родам]]
+[[Категория:Беспозвоночные по классам]]
+[[Категория:Беспозвоночные по типам]]</text>
+      <sha1>tsq0lvizdhag2pu2d1986zwm7p7vaof</sha1>
+    </revision>
+    <revision>
+      <id>1440</id>
+      <parentid>1422</parentid>
+      <timestamp>2015-12-28T07:33:51Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <minor/>
+      <origin>1440</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="2746" sha1="648ubfqiiom05tpxqkgq5p0re3uzw06" xml:space="preserve">{{Инфобокс
+|Название = Углокрылый кущничик
+|Название строки 1 = Царство:
+|Содержание строки 1 = Животные
+|Название строки 2 = Тип:
+|Содержание строки 2 = Членистоногие
+|Название строки 3 = Класс:
+|Содержание строки 3 = Насекомые
+|Название строки 4 = Отряд:
+|Содержание строки 4 = Прямокрялые
+|Название строки 5 = Семейство:
+|Содержание строки 5 = Кузнечики
+|Название строки 6 = Вид:
+|Содержание строки 6 = Углокрылый кузнечик
+|Название строки 7 = Длина:
+|Содержание строки 7 = 6 см.
+|Название строки 8 = Среда обитания:
+|Содержание строки 8 = Джунгли}}'''Углокрылый кузнечик''' - трвоядный и хищный кузнечик. Его мощные челюсти могут прогрызть панцирь любого насекомого. Они способны очень сильно укусить за палец.
+
+==Описание==
+
+Сбоку эти кузнечики похожи на лист дерева, с лапками и головой. Сливаться с окружением им помогает цвет, благодаря чему, они могут охотится из засады.
+
+==В культуре==
+
+Углокрылый кузнечик напал на богомола и убил его в одной из серий сериала "Войны жуков гигантов".
+
+В другой серии он соревновался с [[Пучеглазый кузнечик|пучеглазым кузнечиком]].  Углокрылый кузнечик подедил.
+
+Но он был убит[[Тарантул|&amp;nbsp;тарантулом]] в ещё одной серии.
+
+Также, углокрылый кузнечик попал в ловушку [[Паук-тенетник|паука-тенетника]].
+[[Категория:Архив]]
+[[Категория:Членистоногие]]
+[[Категория:Насекомые]]
+[[Категория:Прямокрылые]]
+[[Категория:Кузнечики]]
+[[Категория:Беспозвоночные]]
+[[Категория:Беспозвоночные по отрядам]]
+[[Категория:Беспозвоночные по родам]]
+[[Категория:Беспозвоночные по классам]]
+[[Категория:Беспозвоночные по типам]]</text>
+      <sha1>648ubfqiiom05tpxqkgq5p0re3uzw06</sha1>
+    </revision>
+    <revision>
+      <id>1466</id>
+      <parentid>1440</parentid>
+      <timestamp>2022-08-27T16:21:10Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <origin>1466</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1796" sha1="nm9yrq0esme6hvkthcc9rj3bi6ctww3" xml:space="preserve">{{Беспозвоночное
+|Надтип=Линяющие
+|Тип=Членистоногие
+|Класс=Насекомые
+|Отряд=Прямокрылые
+|Семейство=Кузнечики
+|Вид=Углокрылый кузнечик
+|Длина=6 см
+|Среда обитания=Джунгли
+}}
+'''Углокрылый кузнечик''' - всеядный кузнечик, имеющий довольно мощные челюсти. Они способны очень сильно укусить за палец.
+
+==Описание==
+
+Сбоку эти кузнечики напоминают лист дерева, с лапками и головой. Сливаться с окружением им помогает цвет, благодаря чему, они могут охотится из засады.
+
+==В культуре==
+
+Углокрылый кузнечик напал на богомола и убил его в одной из серий сериала "Войны жуков гигантов".
+
+В другой серии он соревновался с [[Пучеглазый кузнечик|пучеглазым кузнечиком]], которого успешно победил.
+
+Однако, углокрылый кузнечик он был убит[[Тарантул|&amp;nbsp;тарантулом]] в ещё одной серии.
+
+Также, углокрылый кузнечик попал в ловушку [[Паук-тенетник|паука-тенетника]].
+[[Категория:Архив]]
+[[Категория:Членистоногие]]
+[[Категория:Насекомые]]
+[[Категория:Прямокрылые]]
+[[Категория:Кузнечики]]
+[[Категория:Беспозвоночные]]</text>
+      <sha1>nm9yrq0esme6hvkthcc9rj3bi6ctww3</sha1>
+    </revision>
+    <revision>
+      <id>1468</id>
+      <parentid>1466</parentid>
+      <timestamp>2022-08-27T16:34:14Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <origin>1468</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="1881" sha1="b1frez6kqs4nbzhvtji2bexy63xm9bf" xml:space="preserve">{{Беспозвоночное
+|Надтип=Линяющие
+|Тип=Членистоногие
+|Класс=Насекомые
+|Отряд=Прямокрылые
+|Семейство=Кузнечики
+|Вид=Углокрылый кузнечик
+|Длина=6 см
+|Среда обитания=Джунгли
+|Рацион питания=Всеядный}}
+'''Углокрылый кузнечик''' - всеядный кузнечик, имеющий довольно мощные челюсти. Они способны очень сильно укусить за палец.
+
+==Описание==
+
+Сбоку эти кузнечики напоминают лист дерева, с лапками и головой. Сливаться с окружением им помогает цвет, благодаря чему, они могут охотится из засады.
+
+==В культуре==
+
+Углокрылый кузнечик напал на богомола и убил его в одной из серий сериала "Войны жуков гигантов".
+
+В другой серии он соревновался с [[Пучеглазый кузнечик|пучеглазым кузнечиком]], которого успешно победил.
+
+Однако, углокрылый кузнечик он был убит[[Тарантул|&amp;nbsp;тарантулом]] в ещё одной серии.
+
+Также, углокрылый кузнечик попал в ловушку [[Паук-тенетник|паука-тенетника]].
+[[Категория:Архив]]
+[[Категория:Членистоногие]]
+[[Категория:Насекомые]]
+[[Категория:Прямокрылые]]
+[[Категория:Кузнечики]]
+[[Категория:Беспозвоночные]]
+[[Категория:Всеядные]]</text>
+      <sha1>b1frez6kqs4nbzhvtji2bexy63xm9bf</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Шаблон:RailModule</title>
+    <ns>10</ns>
+    <id>508</id>
+    <revision>
+      <id>1503</id>
+      <timestamp>2023-11-15T18:42:33Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Новая страница: «&lt;div class="csw-server"&gt;&lt;h2&gt;Наш Discord-сервер&lt;/h2&gt;  &lt;div    class="DiscordWidget"     data-id="869581908277866526"     data-theme="{{{theme|}}}"     data-invite="{{{invite|}}}"     data-header="{{{header|0}}}"     data-width="{{{width|{{{w|}}}}}}"     data-height="{{{height|{{{h|}}}}}}"     data-branding="{{{branding|}}}"  &gt;{{{text|}}}&lt;/div&gt;&lt;/div&gt;  &lt;noinclude&gt;[[Категория:Шаблоны]][[Категория:Шаблоны рельсы]] &lt;/...»</comment>
+      <origin>1503</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="472" sha1="07i5yrj9v9ojy0jedctv1ltu07ynyml" xml:space="preserve">&lt;div class="csw-server"&gt;&lt;h2&gt;Наш Discord-сервер&lt;/h2&gt; 
+&lt;div    class="DiscordWidget"    
+data-id="869581908277866526"    
+data-theme="{{{theme|}}}"    
+data-invite="{{{invite|}}}"    
+data-header="{{{header|0}}}"    
+data-width="{{{width|{{{w|}}}}}}"    
+data-height="{{{height|{{{h|}}}}}}"    
+data-branding="{{{branding|}}}" 
+&gt;{{{text|}}}&lt;/div&gt;&lt;/div&gt; 
+&lt;noinclude&gt;[[Категория:Шаблоны]][[Категория:Шаблоны рельсы]]
+&lt;/noinclude&gt;</text>
+      <sha1>07i5yrj9v9ojy0jedctv1ltu07ynyml</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>Шаблон:СИВ</title>
+    <ns>10</ns>
+    <id>507</id>
+    <revision>
+      <id>1501</id>
+      <timestamp>2023-05-16T23:26:27Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Новая страница: «{| cellspacing="0" cellpadding="0" style="width: 100%; text-align: center; margin-bottom: 20px;" | colspan="2" style="width: 97%; font-size: 130%; font-weight: bold; color: #8e1b1b; border-bottom: 4px solid #8e1b1b; vertical-align: bottom;" | СИВ |- | colspan="2" style="border: 3px dotted #8e1b1b; padding: 5px; border-top: none;" | {{w:UoIW}} |}&lt;noinclude&gt; [[Категория:Шаблоны для заглавной]] &lt;/noinclude&gt;»</comment>
+      <origin>1501</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="438" sha1="ora2vkdwk77dxvqd56l5mqva27mamn5" xml:space="preserve">{| cellspacing="0" cellpadding="0" style="width: 100%; text-align: center; margin-bottom: 20px;"
+| colspan="2" style="width: 97%; font-size: 130%; font-weight: bold; color: #8e1b1b; border-bottom: 4px solid #8e1b1b; vertical-align: bottom;" | СИВ
+|-
+| colspan="2" style="border: 3px dotted #8e1b1b; padding: 5px; border-top: none;" | {{w:UoIW}}
+|}&lt;noinclude&gt;
+[[Категория:Шаблоны для заглавной]]
+&lt;/noinclude&gt;</text>
+      <sha1>ora2vkdwk77dxvqd56l5mqva27mamn5</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Achievements-badge-name-1-0</title>
+    <ns>8</ns>
+    <id>491</id>
+    <revision>
+      <id>1436</id>
+      <timestamp>2014-06-12T11:06:55Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <origin>1436</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="33" sha1="hedbzm0u6qow81zxlc7qcdfovs5i9xv" xml:space="preserve">Вносить изменения</text>
+      <sha1>hedbzm0u6qow81zxlc7qcdfovs5i9xv</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Achievements-badge-name-2-0</title>
+    <ns>8</ns>
+    <id>492</id>
+    <revision>
+      <id>1437</id>
+      <timestamp>2014-06-12T11:06:56Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <origin>1437</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="33" sha1="hedbzm0u6qow81zxlc7qcdfovs5i9xv" xml:space="preserve">Вносить изменения</text>
+      <sha1>hedbzm0u6qow81zxlc7qcdfovs5i9xv</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Achievements-badge-name-3-0</title>
+    <ns>8</ns>
+    <id>493</id>
+    <revision>
+      <id>1438</id>
+      <timestamp>2014-06-12T11:06:56Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <origin>1438</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="33" sha1="hedbzm0u6qow81zxlc7qcdfovs5i9xv" xml:space="preserve">Вносить изменения</text>
+      <sha1>hedbzm0u6qow81zxlc7qcdfovs5i9xv</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Achievements-badge-name-edit-0</title>
+    <ns>8</ns>
+    <id>490</id>
+    <revision>
+      <id>1435</id>
+      <timestamp>2014-06-12T11:06:55Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <origin>1435</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="23" sha1="91eveeo2xz94wuh7p9xg0j40ar1fe12" xml:space="preserve">Первый взмах</text>
+      <sha1>91eveeo2xz94wuh7p9xg0j40ar1fe12</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Common.css</title>
+    <ns>8</ns>
+    <id>506</id>
+    <revision>
+      <id>1498</id>
+      <timestamp>2023-05-16T23:23:58Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Новая страница: «/* Размещённый здесь CSS будет применяться ко всем темам оформления */ @import url("//community.fandom.com/load.php?mode=articles&amp;articles=User:HIHRAIM/Standard.css&amp;only=styles");»</comment>
+      <origin>1498</origin>
+      <model>css</model>
+      <format>text/css</format>
+      <text bytes="232" sha1="bnmgdem2zcon1xvawx3rw80t91wdobz" xml:space="preserve">/* Размещённый здесь CSS будет применяться ко всем темам оформления */
+@import url("//community.fandom.com/load.php?mode=articles&amp;articles=User:HIHRAIM/Standard.css&amp;only=styles");</text>
+      <sha1>bnmgdem2zcon1xvawx3rw80t91wdobz</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:ImportJS</title>
+    <ns>8</ns>
+    <id>509</id>
+    <revision>
+      <id>1504</id>
+      <timestamp>2023-11-15T18:43:11Z</timestamp>
+      <contributor>
+        <username>Белохвостик</username>
+        <id>24579401</id>
+      </contributor>
+      <comment>Новая страница: «dev:AddRailModule/code.js  dev:Discord.js»</comment>
+      <origin>1504</origin>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text bytes="41" sha1="02e65na14yksvnyehqwfl081jdvg80r" xml:space="preserve">dev:AddRailModule/code.js 
+dev:Discord.js</text>
+      <sha1>02e65na14yksvnyehqwfl081jdvg80r</sha1>
+    </revision>
+  </page>
+  <page>
+    <title>MediaWiki:Wikia.css</title>
+    <ns>8</ns>
+    <id>27</id>
+    <revision>
+      <id>1318</id>
+      <timestamp>2014-05-01T19:01:36Z</timestamp>
+      <contributor>
+        <username>Default</username>
+        <id>49312</id>
+      </contributor>
+      <origin>1318</origin>
+      <model>css</model>
+      <format>text/css</format>
+      <text bytes="848" sha1="710hpuk4s6b88qih5whbtlv3d9nqtrg" xml:space="preserve">/***** CSS placed here will be applied to all skins on the entire site. Please ensure you do not violate Wikia's Terms of Use by obscuring or removing the advertising. *****/
+
+/* See also: [[MediaWiki:Monobook.css]] */
+/* &lt;pre&gt; */
+
+
+/*** Forum formatting (by -Algorithm &amp; -Splaka) ***/
+
+.forumheader { 
+     border: 1px solid #aaa; margin-top: 1em; padding: 12px; 
+}
+.forumlist td.forum_edited a { 
+     color: black; text-decoration: none 
+}
+.forumlist td.forum_title a { 
+     padding-left: 20px; 
+}
+.forumlist td.forum_title a.forum_new { 
+     font-weight: bold; background: url(/images/4/4e/Forum_new.gif) 
+     center left no-repeat; padding-left: 20px; 
+}
+.forumlist td.forum_title a.forum_new:visited { 
+     font-weight: normal; background: none; padding-left: 20px; 
+}
+.forumlist th.forum_title { 
+     padding-left: 20px; 
+}
+/* &lt;/pre&gt; */</text>
+      <sha1>710hpuk4s6b88qih5whbtlv3d9nqtrg</sha1>
+    </revision>
+  </page>
+</mediawiki>
