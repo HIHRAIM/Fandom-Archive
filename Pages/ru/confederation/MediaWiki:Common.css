@@ -480,10 +480,3 @@ h2.mcf-header {
 .catlinks li {
 	border-left:none;
 }
-
-/* === Профайлы === */
-body.skin-fandomdesktop #userProfileApp .user-identity-header__actions .wds-button:hover,
-.modal-wrapper__header .modal-wrapper__cta-button:hover,
-.modal-wrapper__header .wds-is-square:hover {
-	background-color:var(--theme-accent-color--hover) !important;
-}
