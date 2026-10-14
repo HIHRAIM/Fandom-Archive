@@ -1240,7 +1240,6 @@
 
 /* === Профили === */
 .user-profile-navigation {
-	flex-wrap:wrap;
 	gap:6px;
 	padding-top:10px;
 }
