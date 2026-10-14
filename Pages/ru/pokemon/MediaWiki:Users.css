@@ -251,12 +251,9 @@ body[class*=Dr_Bryan] #userProfileApp {
 	--banner-image:url(https://c.tenor.com/xgv2CTPWsooAAAAC/marnie-pokemon.gif) !important;
 }
 
-body[class*='Dr_Bryan'] {
-	--wiki-avatar:url(https://i.ytimg.com/vi/FiVC-7el2Ss/maxresdefault.jpg);
-}
-
-[class^="wds-avatar EntityHeader_avatar"]:has([href$="Dr.Bryan"]) .wds-avatar__image,
-[src="https://static.wikia.nocookie.net/9973c9ca-e04a-4b80-8249-4acd0f436190/scale-to-width/100"] {
+.user-identity-avatar__image[alt="Dr.Bryan"],
+.wds-avatar > a[href$=":Dr.Bryan"],
+img[src*="31b52562-63a7-4deb-98ae-a777148650dd"] {
 	content:url(https://i.ytimg.com/vi/FiVC-7el2Ss/maxresdefault.jpg);
 }
 
