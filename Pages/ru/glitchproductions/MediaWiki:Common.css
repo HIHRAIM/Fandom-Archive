@@ -680,30 +680,6 @@ body.skin-fandomdesktop #userProfileApp .user-identity-header {
 	background:var(--gp-stripe) bottom left/100% 3px no-repeat,repeating-linear-gradient(0deg,rgba(255,255,255,0.05) 0 1px,transparent 1px 4px),linear-gradient(120deg,var(--gp-magenta),var(--gp-deep-cyan));
 }
 
-@media only screen and (min-width:714px) {
-	body.skin-fandomdesktop #userProfileApp .user-identity-header {
-		display:flex;
-		flex-wrap:nowrap;
-		align-items:center;
-		column-gap:12px;
-	}
-
-	#userProfileApp .user-identity-header__attributes {
-		flex:1 1 auto;
-		min-width:0;
-	}
-
-	#userProfileApp .user-identity-header__actions {
-		flex:0 0 auto;
-		margin-top:0;
-		padding-right:12px;
-	}
-}
-
-#userProfileApp .user-identity-header__actions:empty {
-	display:none;
-}
-
 body.skin-fandomdesktop #userProfileApp .user-identity-header h1 {
 	font-family:var(--gp-display);
 	font-weight:400;
@@ -731,11 +707,6 @@ body.skin-fandomdesktop #userProfileApp .user-identity-header__actions .wds-butt
 	transform:none !important;
 }
 
-/* === Кнопка переименования === */
-#userProfileApp .user-identity-header__rename-button {
-	display:none;
-}
-
 /* === Аватар === */
 body.skin-fandomdesktop #userProfileApp .user-identity-avatar {
 	transition:filter 0.15s ease;
@@ -758,11 +729,6 @@ body.skin-fandomdesktop #userProfileApp .user-identity-avatar:hover {
 	box-shadow:none;
 	clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%);
 	object-fit:cover;
-}
-
-body .user-identity-avatar::before {
-	border-radius:0;
-	clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%);
 }
 
 .user-identity-avatar__actions {
@@ -788,10 +754,8 @@ body.ns-2 .page-side-tools {
 
 /* === Вкладки === */
 #userProfileApp .user-profile-navigation {
-	flex-wrap:wrap;
 	justify-content:flex-start;
 	gap:4px;
-	overflow-x:visible;
 	padding:6px 0 0;
 	border-bottom:1px solid var(--gp-line);
 	border-radius:0;
@@ -802,7 +766,6 @@ body.skin-fandomdesktop #userProfileApp .user-profile-navigation__link,
 body.skin-fandomdesktop #userProfileApp .user-profile-navigation__link:hover,
 body.skin-fandomdesktop #userProfileApp .user-profile-navigation__link.is-active {
 	border-bottom:0 !important;
-	transform:none;
 }
 
 body.skin-fandomdesktop #userProfileApp .user-profile-navigation__link a {
