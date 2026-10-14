@@ -374,22 +374,17 @@ body.page-Confederation_Ukrainian .page.has-right-rail .page__right-rail, body.p
 	border-radius:1rem;
 	overflow:hidden;
 	display:grid;
+	grid-template-columns:minmax(0, 1fr);
 	grid-template-rows:1fr auto;
 	gap:1rem;
 	position:relative;
 	border:solid 0 transparent;
 	filter:brightness(100%);
 	transition:border .2s, filter .2s;
-	flex-grow:1;
+	flex-grow:0;
 	flex-shrink:0;
-	flex-basis:300px;
-	width:300px;
+	flex-basis:calc((100% - 2rem) / 3);
 	box-shadow:1px 1px 5px rgba(0, 0, 0, 0.25);
-}
-
-.confe-mp-wikibox.mw-collapsed .confe-mp-wikibox__wikis .wikibox__wiki {
-	flex:0 0 auto;
-	width:32%;
 }
 
 .wikibox__wiki:focus-within {
@@ -401,6 +396,7 @@ body.page-Confederation_Ukrainian .page.has-right-rail .page__right-rail, body.p
 }
 
 .wikibox__img {
+	aspect-ratio:16 / 9;
 	border-radius:.5rem;
 	overflow:hidden;
 	background-color:var(--confe-background);
@@ -437,7 +433,8 @@ body.page-Confederation_Ukrainian .page.has-right-rail .page__right-rail, body.p
 .wikibox__text a {
 	text-overflow:ellipsis;
 	white-space:nowrap;
-	width:calc(280px - 2rem);
+	flex:1;
+	min-width:0;
 	overflow:hidden;
 	display:block;
 	color:var(--theme-page-dynamic-color-2);
