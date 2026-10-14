@@ -1,28 +1,8 @@
 /* Вы можете использовать этот скрипт на своей вики, добавив следующий импорт в CSS:
-@import url("/load.php?mode=articles&only=styles&articles=u:ru.confederation:MediaWiki:Profiles.css");
-
-ВАЖНОЕ ПРИМЕЧАНИЕ: На некоторых википроектах при наведении на кнопки в заголовке профиля фон кнопок может не изменяться или нарушать общий дизайн. Чтобы исправить это, добавьте следующий код в CSS вашей вики:
-
-body.skin-fandomdesktop #userProfileApp .user-identity-header__actions .wds-button:hover,
-.modal-wrapper__header .modal-wrapper__cta-button:hover,
-.modal-wrapper__header .wds-is-square:hover {
-	background-color:var(--theme-link-color--hover) !important;
-}
-
-Если изменение фона по-прежнему некорректное, замените "var(--theme-link-color--hover)" на любой подходящий цвет. */
+@import url("/load.php?mode=articles&only=styles&articles=u:ru.confederation:MediaWiki:Profiles.css"); */
 
 /* You can use this script on your wiki by adding the following import to your CSS:
-@import url("/load.php?mode=articles&only=styles&articles=u:ru.confederation:MediaWiki:Profiles.css");
-
-IMPORTANT NOTE: On some wikis, when hovering over buttons in the profile header, the button background may not change or could disrupt the overall design. To fix this, add the following code to your wiki's CSS:
-
-body.skin-fandomdesktop #userProfileApp .user-identity-header__actions .wds-button:hover,
-.modal-wrapper__header .modal-wrapper__cta-button:hover,
-.modal-wrapper__header .wds-is-square:hover {
-	background-color:var(--theme-link-color--hover) !important;
-}
-
-If the background change is still incorrect, replace "var(--theme-link-color--hover)" with any suitable color. */
+@import url("/load.php?mode=articles&only=styles&articles=u:ru.confederation:MediaWiki:Profiles.css"); */
 
 /* === Профайлы (дочерний скрипт AdaptiveProfile) === */
 body.skin-fandomdesktop {
@@ -67,12 +47,25 @@ body.skin-fandomdesktop #userProfileApp .user-identity-header {
 	color:var(--theme-accent-label-color);
 }
 
-#userProfileApp .user-identity-header__attributes,
-#userProfileApp .user-identity-header__action {
+#userProfileApp .user-identity-header__attributes {
 	align-items:center;
 	display:flex;
 	flex-wrap:wrap;
 	grid-row-gap:5px;
+}
+
+@media (min-width:714px) {
+	#userProfileApp .user-identity-header:has(.user-identity-header__actions:not(:empty)) .user-identity-header__attributes {
+	padding-right:88px;
+	}
+	#userProfileApp .user-identity-header__actions {
+	margin-top:0;
+	position:absolute;
+	right:12px;
+	top:50%;
+	transform:translateY(-50%);
+	z-index:1;
+	}
 }
 
 body.skin-fandomdesktop #userProfileApp .user-identity-header__tag {
@@ -83,13 +76,58 @@ body.skin-fandomdesktop #userProfileApp .user-identity-header__tag {
 	border-radius:8px;
 }
 
-/* ===== Кнопка в заголовке ===== */
+/* ===== Кнопки в заголовке ===== */
 #userProfileApp .user-identity-header__actions {
 	align-items:center;
 	display:flex;
+	gap:6px;
 }
 
-body.skin-fandomdesktop #userProfileApp .user-identity-header__actions .wds-button,
+#userProfileApp .user-identity-header__actions:empty {
+	display:none;
+}
+
+body.skin-fandomdesktop #userProfileApp .user-identity-header__actions .wds-button {
+	border:none;
+	border-radius:8px;
+	box-sizing:border-box;
+	color:rgb(var(--theme-accent-dynamic-color-2--rgb), .9);
+	flex-direction:row-reverse;
+	gap:8px;
+	justify-content:flex-start;
+	margin:0;
+	max-width:32px;
+	overflow:hidden;
+	padding:7px;
+	transition:max-width 0.3s ease, padding-left 0.3s ease, background-color 0.3s ease;
+	white-space:nowrap;
+}
+
+body.skin-fandomdesktop #userProfileApp .user-identity-header__actions .wds-button:is(:hover, :focus-visible) {
+	background-color:var(--theme-accent-color--hover);
+	max-width:320px;
+	padding-left:12px;
+}
+
+body.skin-fandomdesktop #userProfileApp .user-identity-header__actions .wds-button svg {
+	flex:none;
+	margin:0;
+}
+
+body.skin-fandomdesktop #userProfileApp .user-identity-header__rename-button svg {
+	display:none;
+}
+
+body.skin-fandomdesktop #userProfileApp .user-identity-header__rename-button::before {
+	background-color:currentColor;
+	content:'';
+	flex:none;
+	height:18px;
+	-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 18'%3E%3Cpath fill-rule='evenodd' d='M13 0H9C6.61 0 4.32 0.95 2.64 2.64C0.95 4.32 0 6.61 0 9C0 11.39 0.95 13.68 2.64 15.36C4.32 17.05 6.61 18 9 18H15C15.27 18 15.52 17.89 15.71 17.71C15.89 17.52 16 17.27 16 17C16 16.73 15.89 16.48 15.71 16.29C15.52 16.11 15.27 16 15 16H9C7.14 16 5.36 15.26 4.05 13.95C2.74 12.64 2 10.86 2 9C2 7.14 2.74 5.36 4.05 4.05C5.36 2.74 7.14 2 9 2H13C13.8 2 14.56 2.32 15.12 2.88C15.68 3.44 16 4.2 16 5V10.5C16 10.9 15.84 11.28 15.56 11.56C15.28 11.84 14.9 12 14.5 12C14.1 12 13.72 11.84 13.44 11.56C13.16 11.28 13 10.9 13 10.5V6C13 5.73 12.89 5.48 12.71 5.29C12.52 5.11 12.27 5 12 5C11.8 5 11.61 5.06 11.45 5.16C11.29 5.27 11.16 5.42 11.08 5.6C10.46 5.21 9.74 5.01 9 5C7.94 5 6.92 5.42 6.17 6.17C5.42 6.92 5 7.94 5 9C5 10.06 5.42 11.08 6.17 11.83C6.92 12.58 7.94 13 9 13C9.88 13 10.74 12.7 11.43 12.15C11.8 12.84 12.38 13.38 13.09 13.7C13.81 14.01 14.6 14.08 15.36 13.89C16.12 13.7 16.79 13.27 17.26 12.65C17.74 12.04 18 11.28 18 10.5V5C18 3.67 17.47 2.4 16.54 1.46C15.6 0.53 14.33 0 13 0V0ZM9 11C8.6 11 8.22 10.88 7.89 10.66C7.56 10.44 7.3 10.13 7.15 9.77C7 9.4 6.96 9 7.04 8.61C7.12 8.22 7.31 7.87 7.59 7.59C7.87 7.31 8.22 7.12 8.61 7.04C9 6.96 9.4 7 9.77 7.15C10.13 7.3 10.44 7.56 10.66 7.89C10.88 8.22 11 8.6 11 9C11 9.53 10.79 10.04 10.41 10.41C10.04 10.79 9.53 11 9 11Z'/%3E%3C/svg%3E") center / contain no-repeat;
+	mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 18'%3E%3Cpath fill-rule='evenodd' d='M13 0H9C6.61 0 4.32 0.95 2.64 2.64C0.95 4.32 0 6.61 0 9C0 11.39 0.95 13.68 2.64 15.36C4.32 17.05 6.61 18 9 18H15C15.27 18 15.52 17.89 15.71 17.71C15.89 17.52 16 17.27 16 17C16 16.73 15.89 16.48 15.71 16.29C15.52 16.11 15.27 16 15 16H9C7.14 16 5.36 15.26 4.05 13.95C2.74 12.64 2 10.86 2 9C2 7.14 2.74 5.36 4.05 4.05C5.36 2.74 7.14 2 9 2H13C13.8 2 14.56 2.32 15.12 2.88C15.68 3.44 16 4.2 16 5V10.5C16 10.9 15.84 11.28 15.56 11.56C15.28 11.84 14.9 12 14.5 12C14.1 12 13.72 11.84 13.44 11.56C13.16 11.28 13 10.9 13 10.5V6C13 5.73 12.89 5.48 12.71 5.29C12.52 5.11 12.27 5 12 5C11.8 5 11.61 5.06 11.45 5.16C11.29 5.27 11.16 5.42 11.08 5.6C10.46 5.21 9.74 5.01 9 5C7.94 5 6.92 5.42 6.17 6.17C5.42 6.92 5 7.94 5 9C5 10.06 5.42 11.08 6.17 11.83C6.92 12.58 7.94 13 9 13C9.88 13 10.74 12.7 11.43 12.15C11.8 12.84 12.38 13.38 13.09 13.7C13.81 14.01 14.6 14.08 15.36 13.89C16.12 13.7 16.79 13.27 17.26 12.65C17.74 12.04 18 11.28 18 10.5V5C18 3.67 17.47 2.4 16.54 1.46C15.6 0.53 14.33 0 13 0V0ZM9 11C8.6 11 8.22 10.88 7.89 10.66C7.56 10.44 7.3 10.13 7.15 9.77C7 9.4 6.96 9 7.04 8.61C7.12 8.22 7.31 7.87 7.59 7.59C7.87 7.31 8.22 7.12 8.61 7.04C9 6.96 9.4 7 9.77 7.15C10.13 7.3 10.44 7.56 10.66 7.89C10.88 8.22 11 8.6 11 9C11 9.53 10.79 10.04 10.41 10.41C10.04 10.79 9.53 11 9 11Z'/%3E%3C/svg%3E") center / contain no-repeat;
+	width:18px;
+}
+
 .modal-wrapper__header .modal-wrapper__cta-button {
 	border:none;
 	border-radius:8px;
@@ -99,10 +137,9 @@ body.skin-fandomdesktop #userProfileApp .user-identity-header__actions .wds-butt
 	transition:background-color 0.3s ease, transform 0.3s ease;
 }
 
-body.skin-fandomdesktop #userProfileApp .user-identity-header__actions .wds-button:hover,
 .modal-wrapper__header .modal-wrapper__cta-button:hover,
 .modal-wrapper__header .wds-is-square:hover {
-	background-color:rgb(var(--theme-link-color--rgb),.9);
+	background-color:var(--theme-accent-color--hover);
 	transform:scale(1.05);
 }
 
@@ -134,17 +171,18 @@ body.skin-fandomdesktop #userProfileApp .user-identity-avatar {
 	box-shadow:0 0 15px rgb(0 0 0 / 60%);
 }
 
-/* ===== Локальный аватар ===== */
-body .user-identity-avatar:before {
-	background-image:var(--wiki-avatar);
-	background-position:center top;
-	background-size:auto 100%;
+/* ===== Локальные аватары ===== */
+#userProfileApp .user-identity-avatar__image {
+	object-fit:cover;
+}
+
+.wds-avatar > a {
 	border-radius:50%;
-	content:'';
-	height:138px;
-	margin:2px 0 0 2px;
-	position:absolute;
-	width:138px;
+	object-fit:cover;
+}
+
+.global-top-navigation img {
+	content:normal !important;
 }
 
 /* ==== Социальные иконки ==== */
@@ -176,6 +214,7 @@ body.skin-fandomdesktop #userProfileApp .user-identity-social__icon-tooltip::aft
 	justify-content:space-around;
 	background-color:var(--theme-background-color);
 	border-radius:0px;
+	flex-wrap:wrap;
 	padding-top:6px;
 }
 
@@ -194,12 +233,11 @@ body.skin-fandomdesktop #userProfileApp .user-profile-navigation__link {
 	-webkit-transition:.3s;
 	-moz-transition:.3s;
 	-o-transition:.3s;
-	transition:background-color 0.3s ease, transform 0.3s ease;
+	transition:background-color 0.3s ease;
 }
 
 #userProfileApp .user-profile-navigation__link:hover {
 	border-bottom:4px solid;
-	transform:scale(1.05);
 	opacity:1;
 }
 
@@ -215,7 +253,6 @@ body.skin-fandomdesktop #userProfileApp .user-profile-navigation__link {
 #userProfileApp .user-profile-navigation__link.is-active {
 	border-bottom:4px solid var(--theme-link-color);
 	opacity:1;
-	transform:scale(1.05);
 }
 
 #userProfileApp .user-profile-navigation__link.is-active a {
@@ -325,7 +362,6 @@ body.skin-fandomdesktop #userProfileApp .user-avatar-editor__default-avatars-box
 /* ==== Мобильная адаптация ==== */
 @media (max-width:713px) {
 	.user-profile-navigation {
-	overflow-x:auto;
 	white-space:nowrap;
 	border-radius:8px;
 	padding:1px;
@@ -428,7 +464,7 @@ h2.title-challeneges {
 }
 
 /* ==== Значок волонтёров (w:Template:Administrator) ==== */
-.metadata, #administrator {
+#administrator {
 	margin-top:-6px;
 	margin-right:-10px;
 }
