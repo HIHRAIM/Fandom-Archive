@@ -1716,6 +1716,14 @@ body:not(.mainpage) .page-content .blog-listing__create-post {
 	display:none;
 }
 
+/* === Український портал === */
+.pedia .ukrportal {
+	background-color:var(--pedia-surface) !important;
+	border:1px solid var(--pedia-border);
+	border-radius:var(--pedia-radius) !important;
+	box-shadow:var(--pedia-shadow);
+}
+
 /* == LinkPreview == */
 /* === Окно без текста не показываем === */
 .npage-preview.pp-imgonly-landscape,
