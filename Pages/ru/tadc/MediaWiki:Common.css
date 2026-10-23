@@ -1,0 +1,25 @@
+/* == Импорты == */
+/* === Стандартное оформление википроектов о проектах Glitch === */
+@import url("//tadc.fandom.com/ru/load.php?mode=articles&articles=MediaWiki:GlitchWikis.css&only=styles");
+
+/* === Шаблоны === */
+@import url("//tadc.fandom.com/ru/load.php?mode=articles&articles=MediaWiki:Templates.css&only=styles");
+
+/* === Оформление участников === */
+@import url("//tadc.fandom.com/ru/load.php?mode=articles&articles=MediaWiki:Users.css&only=styles");
+
+/* == Ручное оформление == */
+/* === Инфобоксы === */
+.portable-infobox {
+	--pi-secondary-background:var(--theme-sticky-nav-background-color);
+}
+
+.pi-horizontal-group .pi-horizontal-group-item {
+	text-align:center !important;
+}
+
+.pi-horizontal-group-item.pi-data-label {
+	border-top-style:solid !important;
+	border-top-width:1px !important;
+	padding:9px 9px 0 !important;
+}
