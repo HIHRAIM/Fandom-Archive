@@ -1,0 +1,42 @@
+/* == Шаблоны == */
+/* === Табы по статьям === */
+.pagetab {
+    display:flex;
+}
+
+.pagetab .tab {
+    font-weight:700 !important;
+    text-transform:uppercase !important;
+    border-radius:3px !important;
+}
+
+.pagetab .tab .selflink {
+    font-size:17px !important;
+}
+
+/* === Навбоксы === */
+.navbox {
+    background-color:var(--theme-accent-color);
+}
+
+/* ==== Навбокс администрации ==== */
+.admin-navbox a.userlink {
+    color:var(--theme-link-color);
+    text-decoration:none;
+}
+
+.admin-navbox img {
+    border-radius:50%;
+}
+
+.admin-navbox-user {
+    padding:5px;
+    margin:2px;
+    border-radius:20px;
+    background-color:rgb(var(--theme-accent-color--rgb),.2);
+    transition:.5s;
+}
+
+.admin-navbox-user:hover {
+    background-color:rgb(var(--theme-accent-color--rgb),.4);
+}
