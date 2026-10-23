@@ -1,0 +1,43 @@
+/* == Оформление участников (цвет ника, аватар, баннер и т.д.) == */
+/* === HIHRAIM === */
+.page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:HIHRAIM"] {
+    color:#569e3e !important;
+    font-weight:bold !important;
+}
+
+/* === Skeleton Live === */
+.page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:HIHRAIM"] {
+    color:#569e3e !important;
+    font-weight:bold !important;
+}
+
+.EntityHeader_header-details__-lQuR > [href$="Skeleton_Live"]:after {
+    color:#ffffff;
+    background-color:#9500ff;
+    border-radius:3px;
+    padding:1px 8px;
+    margin-left:7px;
+    font-size:12.5px;
+}
+
+.page a[href$="/wiki/%D0%A3%D1%87%D0%B0%D1%81%D1%82%D0%BD%D0%B8%D0%BA:Skeleton_Live"] {
+    color:#9500ff !important;
+    font-weight:bold !important;
+}
+
+.EntityHeader_header-details__-lQuR > [href$="Skeleton_Live"]:after {
+    content:"Бюрократ";
+}
+
+/* ==== Acikd42 ==== */
+a[href$="Acikd42"] {
+	font-family:'Rubik';
+    font-weight:bold !important;
+	color:#ff0000 !important;
+	text-shadow:#87CEEB 0px 0px 5px, #87CEEB 0px 0px 5px !important;
+}
+
+/* ==== TheMurzik120k ==== */
+a[href$="TheMurzik120k"] {
+	color:#7851a9 !important;
+}
