@@ -1,0 +1,203 @@
+/* == Победители творческого конкурса == */
+:is(.page-content,.page__right-rail,.article-with-rail)
+a[href$="/%D0%A4%D1%80%D0%BE%D0%BD%D1%82%D0%B8%D1%80"],
+a[href$=":%D0%A4%D1%80%D0%BE%D0%BD%D1%82%D0%B8%D1%80"],
+a[href$="/Фронтир"],
+a[href$=":Фронтир"] {
+    color:#2d61ed;
+    font-weight:bold;
+}
+
+[class*=Фронтир] .user-identity-header {
+    background:rgb(45,97,237);
+    background:linear-gradient(90deg, rgba(46,97,237,0.75) 0%, rgba(0,0,0,0) 100%) !important;
+}
+
+:is(.page-content,.page__right-rail,.article-with-rail)
+a[href$="/%D0%9C%D0%B8%D1%85%D0%B0_%D0%9B%D1%83%D1%86%D0%B5%D0%BD%D0%BA%D0%BE"],
+a[href$=":%D0%9C%D0%B8%D1%85%D0%B0_%D0%9B%D1%83%D1%86%D0%B5%D0%BD%D0%BA%D0%BE"],
+a[href$="/Миха_Луценко"],
+a[href$=":Миха_Луценко"] {
+    color:#e82121 !important;
+    font-weight:bold;
+}
+
+[class*=Миха_Луценко] .user-identity-header {
+    background:rgb(285,43,43);
+    background:linear-gradient(90deg, rgba(285,43,43,0.75) 0%, rgba(0,0,0,0) 100%) !important;
+}
+
+:is(.page-content,.page__right-rail,.article-with-rail)
+a[href$="/NightTheme"],
+a[href$=":NightTheme"],
+a[href$="/NightTheme"],
+a[href$="/NightTheme"] {
+    color:#11ab19;
+    font-weight:bold;
+}
+
+[class*=NightTheme] .user-identity-header {
+    background:rgb(0,165,80);
+    background:linear-gradient(90deg, rgba(46,97,50,0.9) 0%, rgba(0,0,0,0) 100%) !important;
+}
+
+:is(.page-content,.page__right-rail,.article-with-rail)
+a[href$="/%D0%90%D0%BD%D1%83%D0%B1%D0%B8%D1%81_%D0%B8%D0%B7_%D0%A1%D0%BE%D1%83%D0%BB_%D0%9A%D0%BD%D0%B0%D0%B9%D1%82"],
+a[href$=":%D0%90%D0%BD%D1%83%D0%B1%D0%B8%D1%81_%D0%B8%D0%B7_%D0%A1%D0%BE%D1%83%D0%BB_%D0%9A%D0%BD%D0%B0%D0%B9%D1%82"],
+a[href$="/Анубис_из_Соул_Кнайт"],
+a[href$=":Анубис_из_Соул_Кнайт"] {
+    color:#de336b !important;
+    font-weight:bold;
+}
+
+[class*=Анубис_из_Соул_Кнайт] .user-identity-header {
+    background:linear-gradient(90deg, rgba(222,51,108,0.3) 0%, rgba(0,0,0,0) 100%) !important;
+}
+
+:is(.page-content,.page__right-rail,.article-with-rail)
+a[href$="/%D0%92%D0%BE%D0%B3%D0%BD%D0%B5%D0%B7%D1%96%D1%80%D0%A4%D0%BE%D1%80%D0%B5%D0%B2%D0%B5%D1%80"],
+a[href$=":%D0%92%D0%BE%D0%B3%D0%BD%D0%B5%D0%B7%D1%96%D1%80%D0%A4%D0%BE%D1%80%D0%B5%D0%B2%D0%B5%D1%80"],
+a[href$="/ВогнезірФоревер"],
+a[href$=":ВогнезірФоревер"] {
+    color:#43aaff !important;
+    font-weight:bold;
+}
+
+[class*=ВогнезірФоревер] .user-identity-header {
+    background:linear-gradient(90deg, rgba(67,170,255,0.75) 0%, rgba(0,0,0,0) 100%) !important;
+}
+
+:is(.page-content,.page__right-rail,.article-with-rail)
+a[href$="/Neptun101"],
+a[href$=":Neptun101"],
+a[href$="/Neptun101"],
+a[href$="/Neptun101"] {
+    color:#11ab19;
+    font-weight:bold;
+}
+
+[class*=Neptun101] .user-identity-header {
+    background:rgb(0,165,80);
+    background:linear-gradient(90deg, rgba(46,97,50,0.9) 0%, rgba(0,0,0,0) 100%) !important;
+}
+
+:is(.page-content,.page__right-rail,.article-with-rail)
+a[href$="/Tymofey.pozyr"],
+a[href$=":Tymofey.pozyr"],
+a[href$="/Tymofey.pozyr"],
+a[href$="/Tymofey.pozyr"] {
+    color:#11ab19;
+    font-weight:bold;
+}
+
+[class*=Tymofey.pozyr] .user-identity-header {
+    background:rgb(0,165,80);
+    background:linear-gradient(90deg, rgba(46,97,50,0.9) 0%, rgba(0,0,0,0) 100%) !important;
+}
+
+/* == Призёры в номинациях на конкурсе == */
+:is(.page-content,.page__right-rail,.article-with-rail)
+a[href$="/Snuiper228"],
+a[href$=":Snuiper228"],
+a[href$="/%D0%9C%D0%B0%D0%BA%D1%81_%D0%92%D0%B8%D0%BD%D0%BE"],
+a[href$=":%D0%9C%D0%B0%D0%BA%D1%81_%D0%92%D0%B8%D0%BD%D0%BE"],
+a[href$="/%D0%9C%D1%8F%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%B2"],
+a[href$=":%D0%9C%D1%8F%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%B2"],
+a[href$="/HenryST_NEW"],
+a[href$=":HenryST_NEW"],
+a[href$="/%D0%9C%D0%B0%D0%BA%D1%81_%D0%92%D0%B8%D0%BD%D0%BE"],
+a[href$=":%D0%9C%D0%B0%D0%BA%D1%81_%D0%92%D0%B8%D0%BD%D0%BE"],
+a[href$="/Among_You_1"],
+a[href$=":Among_You_1"],
+a[href$="/Cat_Burt_Curtis"],
+a[href$=":Cat_Burt_Curtis"],
+a[href$="/%D0%92%D0%BE%D0%B3%D0%BD%D0%B5%D0%B7i%D1%80%D0%A4%D0%BE%D1%80%D0%B5%D0%B2%D0%B5%D1%80"],
+a[href$=":%D0%92%D0%BE%D0%B3%D0%BD%D0%B5%D0%B7i%D1%80%D0%A4%D0%BE%D1%80%D0%B5%D0%B2%D0%B5%D1%80"]
+{
+    color:var(--greenUsername) !important;
+    font-weight:bold;
+}
+
+[class*=Snuiper228] .user-identity-header {
+    background:rgb(50,205,50);
+    background:linear-gradient(90deg, rgba(50,205,50,0.75) 0%, rgba(0,0,0,0) 100%) !important;
+}
+
+[class*=Макс_Вино] .user-identity-header {
+    background:rgb(50,205,50);
+    background:linear-gradient(90deg, rgba(50,205,50,0.75) 0%, rgba(0,0,0,0) 100%) !important;
+}
+
+[class*=Мяустроев] .user-identity-header {
+    background:rgb(50,205,50);
+    background:linear-gradient(90deg, rgba(50,205,50,0.75) 0%, rgba(0,0,0,0) 100%) !important;
+}
+
+[class*=HenryST_NEW] .user-identity-header {
+    background:rgb(50,205,50);
+    background:linear-gradient(90deg, rgba(50,205,50,0.75) 0%, rgba(0,0,0,0) 100%) !important;
+}
+
+[class*=Aviator-shik] .user-identity-header {
+    background:rgb(50,205,50);
+    background:linear-gradient(90deg, rgba(50,205,50,0.75) 0%, rgba(0,0,0,0) 100%) !important;
+}
+
+[class*=Among_You_1] .user-identity-header {
+    background:rgb(50,205,50);
+    background:linear-gradient(90deg, rgba(50,205,50,0.75) 0%, rgba(0,0,0,0) 100%) !important;
+}
+
+[class*=ВогнезірФоревер] .user-identity-header {
+    background:rgb(67,170,255);
+    background:linear-gradient(90deg, rgba(67,170,255,0.75) 0%, rgba(0,0,0,0) 100%) !important;
+}
+
+[class*=Cat_Burt_Curtis] .user-identity-header {
+    background:rgb(50,205,50);
+    background:linear-gradient(90deg, rgba(50,205,50,0.75) 0%, rgba(0,0,0,0) 100%) !important;
+}
+
+/* == Лавка Polus == */
+:is(.page-content,.page__right-rail,.article-with-rail)
+a[href$="/SNOW55555"],
+a[href$=":SNOW55555"] {
+    color:#43aaff !important;
+    font-weight:bold;
+}
+
+:is(.page-content,.page__right-rail,.article-with-rail)
+a[href$="/Aviator-shik"],
+a[href$=":Aviator-shik"] {
+    color:#8b00ff !important;
+    font-weight:bold;
+}
+
+/* == Администрация == */
+:is(.page-content,.page__right-rail,.article-with-rail)
+a[href$="/HIHRAIM"],
+a[href$=":HIHRAIM"]
+{
+    text-shadow:2px 1px 2px #8d450b;
+    font-weight:bold;
+}
+
+:is(.page-content,.page__right-rail,.article-with-rail)
+.theme-fandomdesktop-light a[href$="/HIHRAIM"],
+.theme-fandomdesktop-light a[href$=":HIHRAIM"]
+{
+    text-shadow:1px 1px 2px #ffc039;
+    font-weight:bold;
+}
+
+.EntityHeader_header-details__1bZ7- > [href$="HIHRAIM"]:after
+{
+    content:"Администратор";
+    color:var(--templates-text-color);
+    background-color:var(--theme-accent-color);
+    border-radius:4px;
+    padding:1px 8px;
+    margin-left:7px;
+    font-size:12px;
+    font-weight:bold;
+}
