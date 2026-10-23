@@ -1,0 +1,789 @@
+/* EXPERIMENTAL*/ 
+/* header*/
+.wds-community-header__sitename a {
+	color: #fff !important;
+}
+
+.wds-community-header__sitename .wds-link a {
+	color: #d8d8d8 !important;
+}
+
+.wds-community-header__counter {
+    color: #fff !important;
+}
+
+.wds-community-header .wds-button.wds-is-secondary {
+    --wds-secondary-button-label-color: #fff !important;
+    --wds-secondary-button-label-color--hover: #d8d8d8 !important;
+}
+ 
+.wds-community-header .wds-tabs {
+    --wds-tab-color: #fff !important;
+    --wds-tab-color--active: #d8d8d8 !important;
+} 
+ 
+.WikiaPage {
+	border-radius:0em 0em 0.5em 0.5em !important;
+	-webkit-box-shadow: 0px 8px 8px 0px #cde1f3 !important;
+    -moz-box-shadow : 0px 8px 8px 0px #cde1f3 !important;
+    box-shadow: 0px 8px 8px 0px #cde1f3 !important; 
+} 
+ /* http://dev.wikia.com/wiki/ToolbarStyle */
+.WikiaBarWrapper {
+	background: #6B7FA3 !important;
+	border-top: 1px solid #6B7FA3 !important;
+	border-radius: 0.5em 0.5em 0em 0em !important; 
+	box-shadow: none !important;
+	height: 24px !important;
+	font-family: 'rubik_ww';
+}
+.WikiaBarWrapper .wikia-bar {
+	background-image: none !important;
+}
+.WikiaBarWrapper .toolbar {
+	padding: 0 !important;
+}
+.wikia-bar .toolbar .tools li a,
+.WikiaBarWrapper .toolbar .tools li *{
+	color: #ffffff !important;
+	cursor: default !important;
+	text-decoration: none !important;
+}
+.WikiaFooter .toolbar .tools > li,
+.WikiaBarWrapper .toolbar .tools > li {
+	border: none !important;
+	margin: 0 !important;
+	padding: 4px 10px !important;
+	transition-duration: 0.1s !important;
+}
+.wikia-bar .toolbar .tools > li:hover {
+	background: #768AAE !important;
+}
+.WikiaBarWrapper .toolbar .tools .arrow-icon {
+	display: none !important;
+}
+/* Фикс табов от 13.04.2021 */
+.wds-tabs__tab-label {
+    text-transform: uppercase;
+}
+.pi-section-tab .pi-section-label {
+    text-transform: uppercase;
+}
+
+/* Оформление кнопки «Наверх» */
+#backtotop button{
+    background: none;
+    background-color: transparent;
+    color: white;
+    border: none;
+	font-family: 'rubik_ww';
+}
+#backtotop button:hover {
+    background: none;
+    background-color: transparent;
+    font-family: 'rubik_ww';
+
+}
+
+/* **** Change icons *****/
+.toolbar .sprite.gear {
+	filter: invert(0%);
+}
+.mytools.menu > a:before {
+	content: "\f0c9";
+	font-family: FontAwesome !important;
+	font-color: #ffffff !important;
+	margin-right: 0.75em !important;
+}
+.toolbar .wikify img {
+	margin: 0 !important ;
+}
+/* **** Tools menu *****/
+.tools-menu {
+	background: #6B7FA3 !important;
+	border: 1px solid #6B7FA3 !important;
+	border-radius: 0.5em 0.5em 0em 0em !important; 
+	box-shadow: none !important;
+	transform: translateY(2px);
+	transition-duration: 0.1s !important;
+	font-family: 'rubik_ww';
+}
+.tools-menu li:not(:first-child) {
+	border: none !important;
+}
+.tools-menu li > a,
+.tools-menu li span {
+	font-size: 12px !important;
+	font-color: #ffffff;
+	font-family: 'rubik_ww';
+	padding: 5px 11px 5px 7px !important;
+	transition-duration: 0.1s !important;
+}
+.tools-menu li > a:hover {
+	background: #768AAE !important;
+	font-family: 'rubik_ww';
+}
+ 
+.WikiaBarWrapper button,
+.WikiaBarWrapper button:hover,
+.WikiaBarWrapper button:active {
+	background-color: transparent !important;
+	background-image: none !important;
+	border: none !important;
+	font-family: 'rubik_ww';
+}
+/*Fixing the upload image form*/
+#UploadNewImageModal .wds-dialog__content .upload-image-form .more-options-group .options .file-name-area div,
+#UploadNewImageModal .wds-dialog__content .upload-image-form .more-options-group .options .file-description-area div{
+    display: flex;
+    color: var(--theme-article-text-color);
+}
+
+/* Шрифты */
+
+html {
+  -moz-osx-font-smoothing: grayscale !important;
+  -moz-font-smoothing: grayscale !important;
+}
+@font-face {
+  font-family: 'rubik_ww';
+  src: url(https://images.wikia.nocookie.net/bindingofisaac/ru/images/f/fe/Rubik_Regular.woff) format('woff');
+}
+ 
+@font-face {
+    font-family: Rubik, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-style: normal;
+}
+.a:hover, a:active{
+    text-decoration: none;
+}
+.WikiaPage{
+    font-family: 'rubik_ww', Rubik, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+ 
+/* Шрифты в шапке */
+.wds-community-header__sitename, .wds-tabs, .wds-community-header .wds-community-header__counter {
+    font-family: Rubik,"Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-style: Bold;
+}
+
+body {font-family: 'rubik_ww', Rubik, "Helvetica Neue", Helvetica, Arial, sans-serif !important}
+
+/*Рамка у аватарок*/ 
+.avatar,
+.User img,
+.Write img {
+    border-radius: 50%;
+    border: 2px solid #aab8c6
+}
+/*Округление страницы*/
+.WikiaPage .WikiaPageContentWrapper {
+    border-radius: 0.5em 0.5em 0.5em 0.5em !important;
+
+}
+ #mixed-content-footer {
+    border-radius: 0em 0em 0.5em 0.5em !important; 
+ }
+ 
+/*Флаги у ссылок на интервики*/
+.WikiaArticleInterlang a[href^='https://teleradiopedia.fandom.com/wiki/']:before {
+    content:url('https://static.wikia.nocookie.net/tvpedia/images/d/dd/USFLAG16.png/revision/latest?format=original&path-prefix=uk');
+}
+.WikiaArticleInterlang a[href^='https://telepedia.fandom.com/uk/']:before {
+    content:url('https://static.wikia.nocookie.net/tvpedia/images/5/55/UAFLAG16.png/revision/latest?format=original&path-prefix=uk');
+}
+.WikiaArticleInterlang a[href^='https://telepedia.fandom.com/ru/']:before {
+    content:url('https://static.wikia.nocookie.net/tvpedia/images/b/b6/RUFLAG16.png/revision/latest?format=original&path-prefix=uk');
+}
+.WikiaArticleInterlang a[href^='https://telepedia.fandom.com/be/']:before {
+    content:url('https://static.wikia.nocookie.net/tvpedia/images/8/8d/BYFLAG16.png/revision/latest?format=original&path-prefix=uk');
+}
+.WikiaArticleInterlang a[href^='https://telepedia.fandom.com/es/']:before {
+    content:url('https://static.wikia.nocookie.net/tvpedia/images/c/c6/ESFLAG16.png/revision/latest?format=original&path-prefix=uk');
+}
+.WikiaArticleInterlang a[href^='https://telepedia.fandom.com/pt-br/']:before {
+    content:url('https://static.wikia.nocookie.net/tvpedia/images/9/91/BRFLAG16.png/revision/latest?format=original&path-prefix=uk');
+}
+.WikiaArticleInterlang a[href^='https://tvpedia.fandom.com/tl/']:before {
+    content:url('https://static.wikia.nocookie.net/tvpedia/images/8/89/PLFLAG16.png/revision/latest?format=original&path-prefix=uk');
+}
+
+.WikiaArticleInterlang a:before {
+    padding:4px;
+} 
+/* h1 */
+
+/* h2 */
+.WikiaArticle h2 {
+    border-bottom: 0;
+    margin-top: 30px;
+    margin-bottom: 3px;
+    background-image: linear-gradient(90deg,#8C9CB9,#8C9CB9);
+    background-position: 0 0.9em;
+    background-repeat: repeat-x;
+    background-size: 1px 4px;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    color: #002a32;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.2;
+    padding: 0 6px;
+    text-transform: uppercase;
+}
+
+.WikiaArticle .toc .toctitle h2 {
+    background-size: 0px 0px !important;
+    padding: 0px !important;
+}
+h2.blog-listing__title {
+  background-size: 0px 0px !important;  
+  padding: 0px !important;
+  margin-top: 8px !important;
+}
+ 
+ /*Стена обсуждения*/
+#MessageWall .Message__wrapper {
+    background-color: #F3F4F8 !important;
+    border-color: rgba(185,187,188,0.5);
+    border-radius: 0.5em;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12) !important;
+    margin-bottom: 24px;
+    padding: 18px;
+    position: relative;
+} 
+
+#MessageWall .Reply {
+	background-color: #f7f9fb;
+    border-left-color: rgba(140,156,185,0.6) !important;
+    border-left-style: solid;
+    border-left-width: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12) !important;
+    margin-bottom: 26px;
+    padding: 15px 18px 15px 24px;
+    position: relative;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+}
+
+#MessageWall .MessageWallForum .load-more-button {
+    background-color: #F3F4F8 !important;
+    border-color: rgba(185,187,188,0.5);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12) !important;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+}
+#MessageWall .InlineEntityFormWrapper_inline-entity-form-wrapper__12amV {
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    background-color: #F3F4F8 !important;
+}
+#MessageWall .Message__wrapper  .InlineEntityFormWrapper_inline-entity-form-wrapper__12amV {
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    background-color: #f7f9fb !important;
+}
+/*Dropdown*/
+.wds-dropdown {
+    --wds-dropdown-background-color: #f3f5f8 !important;
+}
+.wds-dropdown__content {
+    border-radius: 0.5em;
+}
+/* Удаление пустых <p> тегов, созданных подгрузкой шаблона подписи */
+.pForceRemove p {
+    display:none;
+}
+ 
+/* Содержание */
+.WikiaArticle .toc {
+	border-left: thick solid #8C9CB9 !important;
+	border: none;
+}
+/*********UCP**********/
+
+/*фикс дубл. в заголовках*/
+.mw-editsection-visualeditor {
+    display:none
+}
+/*фикс страницы вклада участника*/
+.mw-input-with-label {
+    white-space: break-spaces;
+    display:block;}
+    
+/*ucp chrome fix border focus mw*/
+.mw-collapsible:focus,*{
+    outline:none!important
+}  
+
+/*ucp фикс изображений на стене*/
+.post__image {
+ width: fit-content!important;
+}
+
+.post__image-wrapper {
+ height: fit-content!important;
+} 
+
+
+/*ucp фикс*/
+.mw-parser-output{overflow-x: unset;}
+#userProfileApp .user-profile-navigation__link a {
+} 
+/* оформление шапки профайла. From Wikies.fandom.com/ru */
+#userProfileApp {
+    padding: 0px 0px 0px;}
+
+#userProfileApp .user-identity-header {
+    background-color: #6c80a4;
+    padding: 10px 20px 0px 148px;
+    position: relative;
+    border-top: solid 0.3px #8C9CB9 !important;
+    left: -168px;
+    top: -8px;
+    color: white;
+}
+
+#userProfileApp .user-identity-header__attributes {
+       margin: -2px 0px 10px 50px;}
+
+.user-identity-avatar__image {
+    border: solid 2px #aab8c6!important;
+    z-index: 20;
+    position: relative;
+     margin: 10px 0px 0px 30px;
+}
+
+#userProfileApp ul.user-identity-stats {
+    margin: 0px 10px 0px 30px;}
+
+#userProfileApp .user-identity-social, #userProfileApp .user-identity-bio {
+    margin: 0px 0px 0px 30px!important;}
+
+#userProfileApp .user-profile-navigation {
+    border-bottom: solid 4px #6c80a4;
+}
+
+#userProfileApp .user-profile-navigation__link.is-active {
+    position: relative;
+    top: 4px;
+    width: 155px;
+    text-align: center;
+}
+
+#userProfileApp .user-profile-navigation__link.false {
+    position: relative;
+    top: 4px;
+    width: 155px;
+text-align: center;
+}
+
+
+#userProfileApp .user-profile-navigation__link.is-active {
+    border-bottom-color: #8C9CB9;
+}
+
+#userProfileApp .user-profile-navigation__link.is-active a {
+    color: #8C9CB9;
+}
+
+#userProfileApp .user-profile-navigation__link a {
+    color: #6c80a4;
+}
+
+#userProfileApp .user-profile-navigation__link {
+    opacity: 1;
+}
+
+.mw-special-UserProfileActivity .WikiaPageContentWrapper, .ns-1200 .WikiaPageContentWrapper, .ns-500 .WikiaPageContentWrapper {
+    padding: 0px 30px 10px 30px !important;
+}
+
+
+#userProfileApp .user-identity-header__button.wds-is-secondary {
+    border-color: #fff;
+    color: #fff;
+}
+
+#userProfileApp .user-identity-header__tag {
+    background-color: #819ac3;
+    color: #ffffff;
+    border-radius: 0.5em;
+}
+
+#userProfileApp .wds-floating-button {
+    z-index:99;
+    left:15px;
+    position: relative;
+}
+
+#userProfileApp .user-profile-navigation__link.false:hover {
+    border-bottom: 4px solid #8C9CB9;
+}
+
+#userProfileApp .user-profile-navigation__link.false:hover a {
+ color: #8C9CB9;
+ display: inline-block;
+ height: 100%;
+ width:  100%;
+}
+
+/*Блоги*/
+.blog-listing__post-details {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.blog-listing__post {
+ -webkit-border-radius: 0.5em;
+    margin: 0 0 5px 0;
+    background: #fff;
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.4);
+    padding: 10px;
+}
+.blog-listing__user-avatar__image {
+	border-radius: 0.5em 0.5em 0.5em 0.5em !important; 
+}
+
+/*Оповещения*/
+.ooui-theme-fandom .mw-notification {
+	border-radius: 0.5em 0.5em 0.5em 0.5em !important;	
+}
+
+/* Убирает кнопку добавления файлов в галерею */
+.wikia-photogallery-add {
+	display: none !important;
+}
+
+.widget-szj0pM widget-theme-light {
+    -webkit-border-radius: 0.5em;
+}
+
+.widgetBtnConnect-2fvtGa {
+    -webkit-border-radius: 0.5em;
+}
+
+/* Смена цвета ссылки при наведении курсором*/
+a:hover {
+	text-shadow: black 0 0 0 5px;
+	text-decoration: blink;
+	transition: all .4s linear 0s;
+}
+
+/* Скроллбар */
+/* Размер Скроллбара */
+::-webkit-scrollbar {
+	width: 9px !important;
+	height: 9px !important;
+}
+/* Лента Скроллбара */
+::-webkit-scrollbar-thumb {
+	background: #6B7FA3;
+	border-radius: 0.5em 0.5em 0.5em 0.5em;
+}
+/* "Платформа" Скороллбара*/
+::-webkit-scrollbar-track {
+    background: #f3f5f8 !important;
+    -webkit-box-shadow: inset 0 0 6px rgb(140, 156, 185) !important;
+}
+/* Выделение лента скроллбара*/
+::-webkit-scrollbar-thumb:hover {
+	background: #768AAE;
+	border-radius: 0.5em 0.5em 0.5em 0.5em;
+}
+ 
+/* В FF */
+*, body {
+	scrollbar-color: #6B7FA3 #F3F4F8;
+	scrollbar-width: thin;
+}
+/*Конец Скроллбара*/
+
+
+/*Tabber*/
+.tabbernav {
+    font-family: inherit !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    font-size: 13px !important;
+    text-align: center;
+    border: none !important;
+    padding: 0px !important;
+    line-height: 23px!important;
+}
+.tabberlive .tabbertab {
+    border-top: 3.5px solid #8C9CB9 !important;
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.4)!important;
+    border-radius: 0.5em 0.5em 0.5em 0.5em !important;
+    background: #F1F3F5 !important;
+    margin: 0px 2px 5px 2px !important;
+    padding: 1.2px !important;
+}
+.tabbernav a {
+    padding: 0.3em 0.5em !important;
+    margin: 0 !important;
+    color: #3a3a3a !important;
+    border: none !important;
+    background: transparent !important;
+}
+.tabberactive a {
+    color: white !important;
+    background: #8C9CB9 !important;
+    border-radius: 0.5em 0.5em 0em 0em !important;
+    padding-bottom: -10px;
+}
+.tabbernav :not(.tabberactive) a:hover {
+    background: rgba(140,156,185, 0.2) !important;
+    border-radius: 0.5em 0.5em 0em 0em !important;
+}
+.tabbertab {
+    border: none !important;
+    padding: 0 !important;
+}
+
+/*Подложка под картинками*/
+.wikia-gallery-item .thumb a.image-no-lightbox img, .wikia-gallery-item .thumb a.image img {
+	background-color: #dddee2 !important;
+}
+
+/*Стиль Категорий*/
+.CategorySelect.articlePage{
+    background-image: none;
+    background-color: transparent;
+    line-height: normal;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    position: relative;
+    border: 1px solid #c6c7c9;
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    clear: both;
+ 
+}
+/* <references/> */
+/* __TOC__ */
+.references,
+#toc-wrapper {
+    background-image: radial-gradient(farthest-side at 50% 0, rgb(140, 156, 185), transparent), radial-gradient(farthest-side at 50% 100%, rgb(140, 156, 185), transparent);
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 9px;
+    overflow-y: auto;
+    position: relative;
+    z-index: 1;
+    font-size: 12px;
+    line-height: 14px;
+    max-height: 300px;
+    min-height: 30px;
+    overflow: auto;
+    margin: 5px !important;
+    display: block !important;
+}
+ 
+.references {
+    max-height: 200px !important;
+}
+ 
+.references::before,
+.references::after,
+#toc-wrapper::before,
+#toc-wrapper::after {
+    background-color: #F7F9FB;
+    content: '';
+    display: block;
+    height: 30px;
+    margin: 0 0 -30px;
+    position: relative;
+    z-index: -1;
+}
+ 
+.references::after,
+#toc-wrapper::after {
+    margin: -29px 0 0;
+}
+ 
+/*Rail*/
+.WikiaRail .rail-module{
+	margin: 0 5px 30px 10px;
+	padding: 6px 8px 6px 8px;
+}
+.WikiaRail .rail-module:hover {
+    padding: 6px 8px 6px 8px;
+    transition: all,.2s, linear;
+    border-radius: 0.3em;
+    box-shadow: 0.1px 1.4px 15.4px 0 hsla(0,0%,0%,.132),0 0px 0 0 hsla(0,0%,0%,.108) !important;
+}
+.WikiaRail .rail-module h2 {
+    border-bottom: none;
+}
+ 
+
+
+/*A Try to fix the ModernLightbox*/
+.LightboxModal .LightboxHeader .close {
+    height: 24px !important;
+    margin-top: 4px !important;
+    padding-right: 20px !important;
+    width: 28px !important;
+	background-color: transparent !important;
+	-webkit-mask-image: none !important;
+	mask-image: none !important;
+}
+
+.LightboxModal .LightboxHeader h1{
+	color: #fff;
+}
+
+.LightboxModal .LightboxHeader .close:hover {
+	background-color: transparent !important;
+	fill: var(--theme-accent-color);
+	transition: .3s;
+
+}
+
+.LightboxModal .LightboxHeader .close svg {
+    color: #fff;
+    fill: white;
+}	
+.LightboxModal .LightboxHeader .close:hover svg {
+	background-color: none !important;
+	fill: var(--theme-accent-color);
+}
+
+.LightboxModal .LightboxHeader .share-button::before {
+    height: 24px !important;
+    padding-left: 8px;
+    margin-left: -16px !important;
+    margin-top: -4px !important;
+    width: 16px !important;
+    margin-right: 30px !important;
+
+}
+.LightboxModal .LightboxHeader .more-info-button, .LightboxModal .LightboxHeader .share-button {
+
+    background-image: none !important;
+    border-radius: 0;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 7px 0px !important;
+}
+.LightboxModal .see-full-size-link:hover,
+.LightboxModal .LightboxHeader .more-info-button:hover::before,
+.LightboxModal .LightboxHeader .share-button:hover::before,
+.LightboxModal .icon.pin:hover::after,
+button.more-info-close.secondary:hover,
+button.article-add-button.secondary:hover {
+    background-color: var(--theme-accent-color) !important;
+    transition: .3s;
+}
+.LightboxModal .LightboxCarousel .carousel-arrow.next:hover svg,
+.LightboxModal .LightboxCarousel .carousel-arrow.previous:hover svg{
+	fill: var(--theme-accent-color) !important;
+	transition: .3s;
+}
+.LightboxModal .LightboxCarousel .carousel-arrow.next:hover svg{
+	fill: var(--theme-accent-color) !important;
+	transition: .3s;
+}
+ 
+.LightboxModal .lightbox-arrows .previous svg,
+.LightboxModal .lightbox-arrows .next svg {
+    color: #fff ;
+}    
+.LightboxModal .lightbox-arrows .next:hover svg{
+    color: var(--theme-accent-color) !important;
+	transition: .3s;
+}
+.LightboxModal .lightbox-arrows .previous:hover svg {
+    color: var(--theme-accent-color) !important;
+    transition: .3s;
+}
+.LightboxModal .LightboxCarousel .carousel-arrow.next svg {
+    color: #fff;
+    transform: rotate(180deg) !important;
+}
+.LightboxModal .LightboxCarousel .carousel-arrow.previous svg {
+    color: #fff;
+}
+.LightboxModal .modalWrapper {
+    color: #fff !important;
+}
+
+.LightboxModal .modalWrapper .close {
+	color: #fff !important;
+}
+.LightboxModal .more-info .more-info-close, .LightboxModal .share .more-info-close {
+    border: none;
+    color: #fff;
+    padding: 3px 5px;
+    text-transform: none;
+}
+.LightboxModal .modalWrapper .wds-textarea__field::placeholder {
+    color: #ddd !important;
+}
+.LightboxModal .modalWrapper .wds-textarea, .wds-textarea__field-wrapper {
+    position: relative;
+    color: #fff;
+}
+.LightboxModal .more-info .content .share-form textarea, .LightboxModal .share .content .share-form textarea {
+    color: #f2f2f2 !important;
+}
+.LightboxModal .more-info .content .bottom-forms > div textarea, .LightboxModal .share .content .bottom-forms > div textarea {
+    color: #eee !important;
+    overflow: hidden;
+}
+.LightboxModal .wds-textarea__field::placeholder {
+    color: #fff !important;
+}
+.LightboxModal .wds-button.wds-is-secondary, .wds-button.wds-is-secondary:disabled {
+    background: none;
+    border-color: #fff;
+    color: #fff;
+}
+
+.LightboxModal .share h2 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 0;
+    color: #fff;
+}
+.LightboxModal .more-info .content .bottom-forms > div:first-child, .LightboxModal .share .content .bottom-forms > div:first-child {
+    padding-right: 10px !important;
+}
+.LightboxModal .more-info .content .bottom-forms > div:nth-child(2), .LightboxModal .share .content .bottom-forms > div:nth-child(2) {
+    border-left: #eee !important;
+    padding-left: 10px !important;
+}
+
+.LightboxModal .modalWrapper .wds-textarea__hint, .wds-textarea__length-hint{
+    color: #ddd;
+}
+.LightboxModal .share .content .social-links li a.facebook {
+    -webkit-mask-image: none !important;
+	background: none !important;
+    height: 32px !important;
+    -webkit-mask-repeat: no-repeat;
+    mask-image: none !important;
+    width: 32px !important;
+    border-radius: 50%;
+    border: transparent !important;
+}
+
+.LightboxModal .share .content .social-links li a.twitter {
+    -webkit-mask-image: none !important;
+    background: none !important;
+    height: 32px !important;
+    -webkit-mask-repeat: no-repeat;
+    mask-image: none !important;
+    width: 32px !important;
+    border-radius: 50%;
+    border: transparent !important;
+}
+
+.LightboxModal .share .content .social-links li a.reddit {
+    -webkit-mask-image: none !important;
+    background: none !important;
+    height: 32px !important;
+    -webkit-mask-repeat: no-repeat;
+    mask-image: none !important;
+    width: 32px !important;
+    border-radius: 50%;
+    border: transparent !important;
+}
