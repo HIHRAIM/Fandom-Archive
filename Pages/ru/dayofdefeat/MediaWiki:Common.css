@@ -1,0 +1,50 @@
+/* == Импорты == */
+/* === Стандартный css === */
+@import url("//community.fandom.com/load.php?mode=articles&articles=User:HIHRAIM/Standard.css&only=styles");
+
+/* == Ручное оформление == */
+/* === Для участников вики === */
+/* ==== HIHRAIM ==== */
+a[href$="/HIHRAIM"],
+a[href$=":HIHRAIM"] {
+    color:#a351f5;
+}
+
+a[href$=":HIHRAIM"] ~ .EntityHeader_middot__2f4XC:after {
+    content:"Администратор";
+    background:#b90ddb;
+    padding:3px;
+    border-radius:5px;
+    margin-left:4px;
+    font-size:12px;
+    color:#ffffff;
+}
+
+/* === Виджет Дискорда === */
+.discord-widget-container {
+    height:auto;
+    width:auto;
+    margin-right:0;
+}
+
+.discord-widget .widget-header {
+    background-color:var(--theme-accent-color) !important;
+    color:#fff;
+    font-size:120%;
+    font-weight:600;
+}
+
+.discord-widget .widget-body {
+    display:none;
+}
+
+.theme-fandomdesktop-light .discord-widget .widget-theme-auto .widget-btn-connect, .discord-widget .widget-btn-connect {
+    color:#fff;
+    border:none;
+    background-color:var(--theme-accent-color);
+    font-size:110%;
+}
+
+.discord-widget .widget-footer .widget-footer-info {
+	font-size:110%;
+}
