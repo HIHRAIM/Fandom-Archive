@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url("//dev.fandom.com/load.php?mode=articles&articles=MediaWiki:Global_Lua_Modules/NavboxBuilder.css&only=styles");
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url("//among-us.fandom.com/ru/load.php?mode=articles&articles=MediaWiki:Root.css&only=styles");
+@import url("//among-us.fandom.com/ru/load.php?mode=articles&articles=MediaWiki:UsernamesColors.css&only=styles");
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:InterlanguageFlags.css&only=styles";
+@import "/load.php?mode=articles&articles=u:dev:MediaWiki:FandomIcons.css&only=styles";
+
+/* Добавляет границу "телу" страницы */
+.WikiaPageContentWrapper { 
+    border: 1px solid #2b2b2b;
+}
+
+/* Задаёт макс. длину картинок в инфобоксе */
+.pi-image-thumbnail { 
+    max-height: 200px !important;
+    width: auto;
+}
+
+/* Фикс шрифта вкладок */
+.wds-tabs__tab-label, .pi-section-tab .pi-section-label { 
+    text-transform: uppercase; 
+    font-weight: 700;
+}
+
+.wds-dialog__wrapper .wds-tabs {
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+}
+/* Добавляет границы ячейкам таблиц. !important используется, так как у Фэндома уже задан стиль нижних границ ячеек */
+.article-table td { border: 1px solid #383838 !important; }
+
+.article-table th { border: 1px solid #a43535 !important; }
+
+.article-table { width: 50%; }
+
+.mw-templatedata-doc-wrap { 
+    border: 2px solid var(--templates-borders);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.article-table th, .wikitable th {
+    background: var(--templates-titles) !important;
+    color: var(--templates-text-color);
+}
+
+.article-table td, .wikitable td {
+    background: var(--templates-bg-color) !important;  
+}
+
+.article-table th, .article-table td, 
+.wikitable th, .wikitable td { 
+    padding: 3px !important; 
+    text-align: center !important;
+}
+
+.mw-templatedata-doc-param-name { 
+    width: 12%;
+}
+
+/* Фикс размера картинок в комментах */
+.post__image-wrapper, .post__image-wrapper img { 
+    max-height: 300px;
+    object-fit: contain;
+    width: auto !important;
+}
+
+/* Оформление плашек */
+.plashka { 
+    background: var(--templates-bg-color);
+    width: 70%;
+    border: var(--templates-borders) 3px solid;
+    border-radius: 4px;
+    padding-top: 2px;
+    margin-bottom: 6px;
+}
+
+/* Фикс иконки викификатора и DecodeURI */
+.wikify img, .tool-button { filter: invert(1); }
+
+/* Разное для заглавной */
+.wikiaPhotoGallery-slider, .wikiaPhotoGallery-slider-body {background: black !important;}
+
+/* */ 
+.WikiBlockMP {    
+    margin: 1em;
+    font-family: 'Rubik';
+    font-size: smaller;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.WikiBlockMP a { padding: 4px 7px; }
+
+/* Центрирует текст в блоках с классом MainPageTextBlock */
+.MainPageTextBlock { text-align: center; }
+
+/* Оформление блоков интервики и категорий */
+.WikiaArticleInterlang {
+    background-color: var(--templates-bg-color);
+    border: 1px solid var(--theme-border-color);
+    border-top: none;
+    font-size: 12px;
+    margin: 10px 0;
+    margin-top: 0px !important;
+    padding: 10px 20px 4px;
+} 
+
+h3.article-inter-lang-header, .special-categories { display: none; }
+
+.article-categories { margin-bottom: 0px !important; }
+/* Оформление блоков заглавной */
+.MainPageSection { 
+    display: block;
+    border: 2px solid graytext;
+    margin-bottom: 7px;
+    border-radius: 7px;
+    backdrop-filter: blur(10px);
+}
+
+.MainPageTextBlock { 
+    padding: 5px;
+}
+
+.MainPageNav { 
+    background: rgb(176,0,0);
+    background: linear-gradient(90deg, rgba(176,0,0,0.35) 0%, rgba(0,0,0,0) 50%, rgba(0,95,187,0.33) 100%);
+}
+
+.MainPageH2 {
+    font-family: 'Amatic SC';
+    font-size: 2.3em !important;
+    font-weight: bold !important;
+    text-align: center;
+    border-bottom: 6px solid var(--templates-titles) !important;
+}
+
+.MainPageH3 {
+    font-family: 'Amatic SC';
+    font-size: 2.1em !important;
+    font-weight: bold !important;
+    text-align: center;
+    border-bottom: 1px solid graytext;
+    max-width: 60%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    border-bottom: 6px solid var(--templates-titles) !important;
+}
+
+.MainPageNav figure.thumb { margin: 2px !important; }
+
+.mainpage .thumb .caption { 
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* Оформление блока "Администрация" на заглавной */
+.AdminTable { 
+    margin-right: auto; 
+    margin-left: auto;
+    border-spacing: 10px;
+    border-top: 1px solid var(--templates-borders);
+    border-bottom: 1px solid var(--templates-borders);
+}
+
+
+.MsgWall .new { 
+    color: white !important; 
+    font-weight: bold; 
+    font-size: small;
+}
+
+.UserDiscord { font-family: monospace; }
+
+/* В разделе "карты" меняет цвет карт при наведении на них курсором мыши */
+.MapScheme { 
+    margin-top: 5%;
+    transition: .3s;
+}
+
+.MapScheme:hover { 
+  filter: hue-rotate(140deg) saturate(200%);
+}
+
+/* Дизайн опросов */
+
+.MainPagePoll { 
+    padding: 5px;
+}
+
+.d-poll__question {
+    text-align: center;
+    font-weight: bold;    
+}
+.d-poll__answer {
+    position: relative;
+    padding: 1em 0;
+    font-size: 0.9em;
+}
+
+.d-poll__answerName, .d-poll__answerVotes {
+    display: flex;
+    justify-content: center;
+}
+.d-poll__answerName > input {
+    margin-right: 3%;
+}
+
+.d-poll__answerBar {
+    background: var(--templates-borders);
+}
+
+.d-poll__answerBar > div {
+    height: 3px;
+    background: #c00;
+}
+
+.d-poll__info {
+    font-size: 0.8em;
+    font-style: italic;
+    text-align: center;
+}
+.d-poll input[type="submit"] {
+    width: 100%;
+    height: auto;
+    padding: 7px 18px;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: var(--templates-titles);
+    color: var(--templates-text-color);
+    border: 2px solid var(--templates-titles-secondary);
+    border-radius: 4px;
+}
+
+/* Мелочи для нормального оформления таблиц в статье про внешний вид */
+.SkinsArticle .caption { text-align: center !important; }
+
+.SkinsArticle .accent { background: none !important; }
+
+/* Оформление виджета блогов на заглавной*/
+
+/* Оформление набора ссылок */
+.WikiBlockMP {    
+    margin: 1em;
+    font-family: 'Rubik';
+    font-size: smaller;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.WikiBlockMP a { padding: 4px 7px; }
+
+.blog-listing__post { 
+    margin-top: 5%;
+    border-top: 1px solid var(--templates-borders);
+    border-bottom: 1px solid var(--templates-borders);
+    padding: 5px;
+    background: none !important;
+}
+
+.blog-listing__summary br { display: none; }
+
+.WikiaBlogListingBox>h2 { display: none; }
+
+.blog-listing__post-details {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.mainpage .blog-listing__title { font-size: 1.2em !important; }
+
+.mainpage .blog-listing__summary { 
+    font-size: small; 
+    font-style: italic !important;
+}
+
+.WikiaBlogListingBox svg { fill: #e6e6e6; }
+
+.blog-listing__user-avatar__image {
+    border: 2px solid gray;
+    border-radius: 50%;
+    height: 1.5em;
+    margin-right: 5px;
+    width: 1.5em;
+}
+
+.WikiaRail .blog-listing__create-post, .WikiaRail a.more { display: none; }
+
+/* Оформление табберов */
+
+.tabbernav {
+    font-family: inherit !important;
+    font-weight: normal !important;
+    font-size: medium !important;
+    border-bottom: 3px solid var(--templates-titles) !important;
+    padding: 0.3em 0 !important;
+}
+.tabbernav a {
+    padding: 0.3em 0.5em !important;
+    margin: 0 !important;
+    color: #3a3a3a !important;
+    border: none !important;
+    background: transparent !important;
+}
+.tabberactive a {
+    color: white !important;
+    background: var(--templates-titles) !important;
+}
+.tabbernav :not(.tabberactive) a:hover {
+    background: var(--templates-titles-secondary) !important;
+}
+.tabbertab {
+    border: none !important;
+    padding: 0 !important;
+}
+
+/* Убирает рамку вокруг изображений при клике на них */
+:focus { outline: none; }
+
+/* Перекрашивает заголовок вики (не через конструктор тем сделано намеренно, ибо иначе будет вырвиглаз в обсуждениях */
+.wds-community-header::before {
+    background:
+    linear-gradient(to right,rgba(92,1,1,0.5),
+     rgba(101,0,0,0.5)),
+    linear-gradient(to left, rgba(107,0,0,0) 200px,#940000 430px) !important;
+}
+
+/* И ещё одна штука для оформления виджета Дискорда, не поверите */
+.discord-guideline { font-size: 1em !important; }
+
+.discord-connect { 
+    width: 100%;
+    flex-direction: column-reverse !important;
+}
+
+.discord-join { 
+    background-color: var(--templates-titles-secondary) !important; 
+    width: 30%;
+     margin-top: 6px;
+}
+
+.discord-online { color: var(--text-color--light) !important; }
+
+.discord-content .floatright, .discord-content .floatleft { margin: 0px; }
+
+/* Фикс фона выпадающего тега Discord в профиле пользователя */
+#userProfileApp .user-identity-social__icon-tooltip { background: #2b2b2b; }
+
+/* Оформление навбоксов и инфобоксов */
+.pi-title, .pi-header {
+    font-family: 'Amatic SC';
+    font-size: 1.8em !important;
+    border: 2px solid var(--templates-borders) !important;
+    border-radius: 6px;
+    padding: 5px;
+    background: var(--templates-titles) !important;
+    color: var(--templates-text-color) !important;
+}
+
+.portable-infobox { 
+    background: var(--templates-bg-color) !important;
+    border:  var(--templates-borders) solid 2px !important;
+    border-radius: 5px;
+    border-collapse: collapse !important;
+}
+
+.pi-horizontal-group-item:nth-child(even), .pi-image-collection-tabs .current,
+.pi-europa .pi-smart-data-label:nth-child(2n), .pi-europa .pi-smart-data-value:nth-child(2n)
+{
+    background-color: #252525 !important;
+    border-left: none;
+}
+
+.pi-data ~ .pi-group, 
+.pi-group ~ .pi-data
+{ border-top: 1px solid graytext !important; }
+
+.navbox {
+    border: 1px solid var(--templates-borders) !important;
+    border-radius: 6px;
+}
+
+.navbox-title { 
+    background: var(--templates-titles) !important; 
+    color: var(--templates-text-color) !important;
+    border-top: none !important;
+    font-family: Amatic SC;
+    font-size: 1.8em;
+}
+
+.navbox-header {
+    border: 1px solid var(--templates-borders);
+    font-family: 'Amatic SC';
+    font-size: 1.7em !important;
+    background: var(--templates-titles-secondary);
+    color: var(--templates-text-color); 
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 5px;
+}
+
+.navbox-header a { color: rgb(255,171,12) !important; }
+
+.navbox {
+    width: 100%;
+    background: var(--templates-bg-color);
+}
+
+/* Оформление колонки справа */
+.rail-module h2 {
+    font-family: 'Amatic SC';
+	font-size: 1.9em !important;
+    font-weight: bold !important;
+    border-bottom: 6px solid var(--templates-titles) !important;
+}
+
+.rail-module {
+    border: 2px solid graytext;
+    border-radius: 7px;
+    margin-left: 0px !important; margin-right: 0px !important; 
+    padding: 5px;
+}
+
+.railModule figure { 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.WikiaRail .blog-listing__post { border: none !important; }
+
+.WikiaRail .oo-ui-buttonElement-button {
+    border: none;    
+    margin: 1em;
+    font-family: 'Rubik';
+    font-size: smaller;
+    font-weight: 700;
+
+}
+
+.blog-listing__read-post { 
+    margin: 0px !important;
+}
+
+.WikiaRail .blog-listing__title { 
+    font-family: 'Amatic SC' !important;
+    border: none !important; 
+    margin-top: 0.7em !important;
+    font-family: inherit;
+    font-size: 1.9em !important;
+    text-align: center;
+}
+
+
+/* Для автозаполняющихся навбоксов */
+.navbox .CategoryTreeTag { 
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+.navbox .CategoryTreeBullet { display: none; }
+
+.navbox .CategoryTreeLabel::after {
+    content: " •";
+    color: var(--templates-text-color);
+}
+
+.navbox .CategoryTreeItem {
+    text-align: center;
+    margin: 2px;
+}
+
+.navbox .CategoryTreeLabel {
+    font-style: normal;
+}
+/*//// НЕ РАЗОБРАННЫЙ CSS /////*/
+
+/* Оформление комментариев */
+.Comment_wrapper__2mxBn, .Message__wrapper {
+    border: none !important;
+    border-left: 3px solid var(--templates-borders) !important;
+    background: rgba(43,43,43,0.4) !important;
+}
+
+.entity-content {font-size: medium !important;}
+
+.entity-content code { 
+    background: rgb(43,43,43) !important;
+    border-left: 2px solid var(--themed-border-color-50);
+}
+
+.portable-infobox .pi-section-navigation { 
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+/* Прочая дребедень (требуется разобрать) */
+
+.article-categories { background: var(--templates-bg-color) !important; }
