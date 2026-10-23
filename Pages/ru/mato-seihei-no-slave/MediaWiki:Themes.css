@@ -1,0 +1,291 @@
+.chargallery .wikia-gallery { display: flex; flex-wrap: wrap; justify-content: center; margin-bottom: 15px; }
+.chargallery .wikia-gallery-item { border: 3px solid; margin: 0 -3px -3px 0; padding: 0; }
+.chargallery .wikia-gallery-item img { background-color: #ffffff; margin-top: 0 !important; }
+.chargallery .wikia-gallery-item .lightbox-caption { box-sizing: border-box; font: bold 9pt/1.25em sans-serif; margin: 0; padding: 4pt; }
+.chargallery-profile-caption { font-size: larger; }
+.chargallery-profile-subcaption { font-size: smaller; }
+
+.customheader { border: 1px solid transparent; border-radius: 0.3em; font-size: 100%; font-weight: bold; margin: 5px 0 10px; overflow: auto; padding: 0.3em 0.4em 0.2em; text-align: center; }
+
+.navibox { border: 1px solid; border-collapse: separate; border-spacing: 2px; font-size: 90%; width: 100%; }
+.navibox th, .navibox td { padding: 2px 6px; }
+.navibox th.navibox-title { padding: 2px; }
+.navibox-title, .navibox-header, .navibox-group { font-weight: bold; text-align: center; }
+.navibox-title .mw-collapsible-toggle { color: inherit; }
+.navibox-group { font-size: smaller; white-space: nowrap; }
+.navibox-list { text-align: center; }
+
+.page-theme { display: none; }
+
+.page-theme.theme-affiliation-1st_unit ~ blockquote.themed { border-color: #b82209; color: #ffffff; }
+.page-theme.theme-affiliation-1st_unit ~ blockquote.themed a { color: #ffffff; }
+.page-theme.theme-affiliation-1st_unit ~ blockquote.themed > div { background-color: #D1270A; }
+.chargallery.theme-affiliation-1st_unit .wikia-gallery-item { background-color: #D1270A; border-color: #b82209; }
+.chargallery.theme-affiliation-1st_unit .chargallery-profile-caption, .chargallery.theme-affiliation-1st_unit .chargallery-profile-subcaption { color: #ffffff; }
+.chargallery.theme-affiliation-1st_unit .chargallery-profile-caption a, .chargallery.theme-affiliation-1st_unit .chargallery-profile-subcaption a { color: #ffffff; }
+.customheader.theme-affiliation-1st_unit { background-color: #D1270A; color: #ffffff; }
+.customheader.theme-affiliation-1st_unit a { color: #ffffff; }
+.navibox.theme-affiliation-1st_unit { border-color: #b82209; }
+.navibox.theme-affiliation-1st_unit .navibox-title, .navibox.theme-affiliation-1st_unit .navibox-header, .navibox.theme-affiliation-1st_unit .navibox-group { background-color: #D1270A; color: #ffffff; }
+.navibox.theme-affiliation-1st_unit .navibox-title a, .navibox.theme-affiliation-1st_unit .navibox-header a, .navibox.theme-affiliation-1st_unit .navibox-group a { color: #ffffff; }
+.page-theme.theme-affiliation-1st_unit ~ .pagetabs li > :only-child { background-color: #D1270A; border-color: #ffffff; color: #ffffff; }
+.page-theme.theme-affiliation-1st_unit ~ .pagetabs li > :only-child a { color: #ffffff; }
+.page-theme.theme-affiliation-1st_unit ~ .pagetabs li > :only-child::before { background-color: #D1270A; }
+.page-theme.theme-affiliation-1st_unit ~ .pagetabs li > .selflink:only-child { background-color: #D1270A; color: #ffffff; }
+.page-theme.theme-affiliation-1st_unit ~ .pagetabs li > .selflink:only-child a { color: #ffffff; }
+.page-theme.theme-affiliation-1st_unit ~ .pagetabs li > .selflink:only-child::before { background-color: #D1270A; }
+.page-theme.theme-affiliation-1st_unit ~ .portable-infobox { border-color: #b82209; }
+.page-theme.theme-affiliation-1st_unit ~ .portable-infobox .pi-title, .page-theme.theme-affiliation-1st_unit ~ .portable-infobox .pi-header, .page-theme.theme-affiliation-1st_unit ~ .portable-infobox .pi-navigation { background-color: #D1270A; color: #ffffff; }
+.page-theme.theme-affiliation-1st_unit ~ .portable-infobox .pi-title a, .page-theme.theme-affiliation-1st_unit ~ .portable-infobox .pi-header a, .page-theme.theme-affiliation-1st_unit ~ .portable-infobox .pi-navigation a { color: #ffffff; }
+
+.page-theme.theme-affiliation-2nd_unit ~ blockquote.themed { border-color: #d08b18; color: #ffffff; }
+.page-theme.theme-affiliation-2nd_unit ~ blockquote.themed a { color: #ffffff; }
+.page-theme.theme-affiliation-2nd_unit ~ blockquote.themed > div { background-color: #FFAA1D; }
+.chargallery.theme-affiliation-2nd_unit .wikia-gallery-item { background-color: #FFAA1D; border-color: #d08b18; }
+.chargallery.theme-affiliation-2nd_unit .chargallery-profile-caption, .chargallery.theme-affiliation-2nd_unit .chargallery-profile-subcaption { color: #ffffff; }
+.chargallery.theme-affiliation-2nd_unit .chargallery-profile-caption a, .chargallery.theme-affiliation-2nd_unit .chargallery-profile-subcaption a { color: #ffffff; }
+.customheader.theme-affiliation-2nd_unit { background-color: #FFAA1D; color: #ffffff; }
+.customheader.theme-affiliation-2nd_unit a { color: #ffffff; }
+.navibox.theme-affiliation-2nd_unit { border-color: #d08b18; }
+.navibox.theme-affiliation-2nd_unit .navibox-title, .navibox.theme-affiliation-2nd_unit .navibox-header, .navibox.theme-affiliation-2nd_unit .navibox-group { background-color: #FFAA1D; color: #ffffff; }
+.navibox.theme-affiliation-2nd_unit .navibox-title a, .navibox.theme-affiliation-2nd_unit .navibox-header a, .navibox.theme-affiliation-2nd_unit .navibox-group a { color: #ffffff; }
+.page-theme.theme-affiliation-2nd_unit ~ .pagetabs li > :only-child { background-color: #FFAA1D; border-color: #ffffff; color: #ffffff; }
+.page-theme.theme-affiliation-2nd_unit ~ .pagetabs li > :only-child a { color: #ffffff; }
+.page-theme.theme-affiliation-2nd_unit ~ .pagetabs li > :only-child::before { background-color: #FFAA1D; }
+.page-theme.theme-affiliation-2nd_unit ~ .pagetabs li > .selflink:only-child { background-color: #FFAA1D; color: #ffffff; }
+.page-theme.theme-affiliation-2nd_unit ~ .pagetabs li > .selflink:only-child a { color: #ffffff; }
+.page-theme.theme-affiliation-2nd_unit ~ .pagetabs li > .selflink:only-child::before { background-color: #FFAA1D; }
+.page-theme.theme-affiliation-2nd_unit ~ .portable-infobox { border-color: #d08b18; }
+.page-theme.theme-affiliation-2nd_unit ~ .portable-infobox .pi-title, .page-theme.theme-affiliation-2nd_unit ~ .portable-infobox .pi-header, .page-theme.theme-affiliation-2nd_unit ~ .portable-infobox .pi-navigation { background-color: #FFAA1D; color: #ffffff; }
+.page-theme.theme-affiliation-2nd_unit ~ .portable-infobox .pi-title a, .page-theme.theme-affiliation-2nd_unit ~ .portable-infobox .pi-header a, .page-theme.theme-affiliation-2nd_unit ~ .portable-infobox .pi-navigation a { color: #ffffff; }
+
+.page-theme.theme-affiliation-3rd_unit ~ blockquote.themed { border-color: #60a5dc; color: #ffffff; }
+.page-theme.theme-affiliation-3rd_unit ~ blockquote.themed a { color: #ffffff; }
+.page-theme.theme-affiliation-3rd_unit ~ blockquote.themed > div { background-color: #6ebcfb; }
+.chargallery.theme-affiliation-3rd_unit .wikia-gallery-item { background-color: #6ebcfb; border-color: #60a5dc; }
+.chargallery.theme-affiliation-3rd_unit .chargallery-profile-caption, .chargallery.theme-affiliation-3rd_unit .chargallery-profile-subcaption { color: #ffffff; }
+.chargallery.theme-affiliation-3rd_unit .chargallery-profile-caption a, .chargallery.theme-affiliation-3rd_unit .chargallery-profile-subcaption a { color: #ffffff; }
+.customheader.theme-affiliation-3rd_unit { background-color: #6ebcfb; color: #ffffff; }
+.customheader.theme-affiliation-3rd_unit a { color: #ffffff; }
+.navibox.theme-affiliation-3rd_unit { border-color: #60a5dc; }
+.navibox.theme-affiliation-3rd_unit .navibox-title, .navibox.theme-affiliation-3rd_unit .navibox-header, .navibox.theme-affiliation-3rd_unit .navibox-group { background-color: #6ebcfb; color: #ffffff; }
+.navibox.theme-affiliation-3rd_unit .navibox-title a, .navibox.theme-affiliation-3rd_unit .navibox-header a, .navibox.theme-affiliation-3rd_unit .navibox-group a { color: #ffffff; }
+.page-theme.theme-affiliation-3rd_unit ~ .pagetabs li > :only-child { background-color: #6ebcfb; border-color: #ffffff; color: #ffffff; }
+.page-theme.theme-affiliation-3rd_unit ~ .pagetabs li > :only-child a { color: #ffffff; }
+.page-theme.theme-affiliation-3rd_unit ~ .pagetabs li > :only-child::before { background-color: #6ebcfb; }
+.page-theme.theme-affiliation-3rd_unit ~ .pagetabs li > .selflink:only-child { background-color: #6ebcfb; color: #ffffff; }
+.page-theme.theme-affiliation-3rd_unit ~ .pagetabs li > .selflink:only-child a { color: #ffffff; }
+.page-theme.theme-affiliation-3rd_unit ~ .pagetabs li > .selflink:only-child::before { background-color: #6ebcfb; }
+.page-theme.theme-affiliation-3rd_unit ~ .portable-infobox { border-color: #60a5dc; }
+.page-theme.theme-affiliation-3rd_unit ~ .portable-infobox .pi-title, .page-theme.theme-affiliation-3rd_unit ~ .portable-infobox .pi-header, .page-theme.theme-affiliation-3rd_unit ~ .portable-infobox .pi-navigation { background-color: #6ebcfb; color: #ffffff; }
+.page-theme.theme-affiliation-3rd_unit ~ .portable-infobox .pi-title a, .page-theme.theme-affiliation-3rd_unit ~ .portable-infobox .pi-header a, .page-theme.theme-affiliation-3rd_unit ~ .portable-infobox .pi-navigation a { color: #ffffff; }
+
+.page-theme.theme-affiliation-5th_unit ~ blockquote.themed { border-color: #a840a1; color: #ffffff; }
+.page-theme.theme-affiliation-5th_unit ~ blockquote.themed a { color: #ffffff; }
+.page-theme.theme-affiliation-5th_unit ~ blockquote.themed > div { background-color: #bc48b4; }
+.chargallery.theme-affiliation-5th_unit .wikia-gallery-item { background-color: #bc48b4; border-color: #a840a1; }
+.chargallery.theme-affiliation-5th_unit .chargallery-profile-caption, .chargallery.theme-affiliation-5th_unit .chargallery-profile-subcaption { color: #ffffff; }
+.chargallery.theme-affiliation-5th_unit .chargallery-profile-caption a, .chargallery.theme-affiliation-5th_unit .chargallery-profile-subcaption a { color: #ffffff; }
+.customheader.theme-affiliation-5th_unit { background-color: #bc48b4; color: #ffffff; }
+.customheader.theme-affiliation-5th_unit a { color: #ffffff; }
+.navibox.theme-affiliation-5th_unit { border-color: #a840a1; }
+.navibox.theme-affiliation-5th_unit .navibox-title, .navibox.theme-affiliation-5th_unit .navibox-header, .navibox.theme-affiliation-5th_unit .navibox-group { background-color: #bc48b4; color: #ffffff; }
+.navibox.theme-affiliation-5th_unit .navibox-title a, .navibox.theme-affiliation-5th_unit .navibox-header a, .navibox.theme-affiliation-5th_unit .navibox-group a { color: #ffffff; }
+.page-theme.theme-affiliation-5th_unit ~ .pagetabs li > :only-child { background-color: #bc48b4; border-color: #ffffff; color: #ffffff; }
+.page-theme.theme-affiliation-5th_unit ~ .pagetabs li > :only-child a { color: #ffffff; }
+.page-theme.theme-affiliation-5th_unit ~ .pagetabs li > :only-child::before { background-color: #bc48b4; }
+.page-theme.theme-affiliation-5th_unit ~ .pagetabs li > .selflink:only-child { background-color: #bc48b4; color: #ffffff; }
+.page-theme.theme-affiliation-5th_unit ~ .pagetabs li > .selflink:only-child a { color: #ffffff; }
+.page-theme.theme-affiliation-5th_unit ~ .pagetabs li > .selflink:only-child::before { background-color: #bc48b4; }
+.page-theme.theme-affiliation-5th_unit ~ .portable-infobox { border-color: #a840a1; }
+.page-theme.theme-affiliation-5th_unit ~ .portable-infobox .pi-title, .page-theme.theme-affiliation-5th_unit ~ .portable-infobox .pi-header, .page-theme.theme-affiliation-5th_unit ~ .portable-infobox .pi-navigation { background-color: #bc48b4; color: #ffffff; }
+.page-theme.theme-affiliation-5th_unit ~ .portable-infobox .pi-title a, .page-theme.theme-affiliation-5th_unit ~ .portable-infobox .pi-header a, .page-theme.theme-affiliation-5th_unit ~ .portable-infobox .pi-navigation a { color: #ffffff; }
+
+.page-theme.theme-affiliation-6th_unit ~ blockquote.themed { border-color: #b8a354; color: #ffffff; }
+.page-theme.theme-affiliation-6th_unit ~ blockquote.themed a { color: #ffffff; }
+.page-theme.theme-affiliation-6th_unit ~ blockquote.themed > div { background-color: #cbb45d; }
+.chargallery.theme-affiliation-6th_unit .wikia-gallery-item { background-color: #cbb45d; border-color: #b8a354; }
+.chargallery.theme-affiliation-6th_unit .chargallery-profile-caption, .chargallery.theme-affiliation-6th_unit .chargallery-profile-subcaption { color: #ffffff; }
+.chargallery.theme-affiliation-6th_unit .chargallery-profile-caption a, .chargallery.theme-affiliation-6th_unit .chargallery-profile-subcaption a { color: #ffffff; }
+.customheader.theme-affiliation-6th_unit { background-color: #cbb45d; color: #ffffff; }
+.customheader.theme-affiliation-6th_unit a { color: #ffffff; }
+.navibox.theme-affiliation-6th_unit { border-color: #b8a354; }
+.navibox.theme-affiliation-6th_unit .navibox-title, .navibox.theme-affiliation-6th_unit .navibox-header, .navibox.theme-affiliation-6th_unit .navibox-group { background-color: #cbb45d; color: #ffffff; }
+.navibox.theme-affiliation-6th_unit .navibox-title a, .navibox.theme-affiliation-6th_unit .navibox-header a, .navibox.theme-affiliation-6th_unit .navibox-group a { color: #ffffff; }
+.page-theme.theme-affiliation-6th_unit ~ .pagetabs li > :only-child { background-color: #cbb45d; border-color: #ffffff; color: #ffffff; }
+.page-theme.theme-affiliation-6th_unit ~ .pagetabs li > :only-child a { color: #ffffff; }
+.page-theme.theme-affiliation-6th_unit ~ .pagetabs li > :only-child::before { background-color: #cbb45d; }
+.page-theme.theme-affiliation-6th_unit ~ .pagetabs li > .selflink:only-child { background-color: #cbb45d; color: #ffffff; }
+.page-theme.theme-affiliation-6th_unit ~ .pagetabs li > .selflink:only-child a { color: #ffffff; }
+.page-theme.theme-affiliation-6th_unit ~ .pagetabs li > .selflink:only-child::before { background-color: #cbb45d; }
+.page-theme.theme-affiliation-6th_unit ~ .portable-infobox { border-color: #b8a354; }
+.page-theme.theme-affiliation-6th_unit ~ .portable-infobox .pi-title, .page-theme.theme-affiliation-6th_unit ~ .portable-infobox .pi-header, .page-theme.theme-affiliation-6th_unit ~ .portable-infobox .pi-navigation { background-color: #cbb45d; color: #ffffff; }
+.page-theme.theme-affiliation-6th_unit ~ .portable-infobox .pi-title a, .page-theme.theme-affiliation-6th_unit ~ .portable-infobox .pi-header a, .page-theme.theme-affiliation-6th_unit ~ .portable-infobox .pi-navigation a { color: #ffffff; }
+
+.page-theme.theme-affiliation-7th_unit ~ blockquote.themed { border-color: #a2152c; color: #ffffff; }
+.page-theme.theme-affiliation-7th_unit ~ blockquote.themed a { color: #ffffff; }
+.page-theme.theme-affiliation-7th_unit ~ blockquote.themed > div { background-color: #bc1833; }
+.chargallery.theme-affiliation-7th_unit .wikia-gallery-item { background-color: #bc1833; border-color: #a2152c; }
+.chargallery.theme-affiliation-7th_unit .chargallery-profile-caption, .chargallery.theme-affiliation-7th_unit .chargallery-profile-subcaption { color: #ffffff; }
+.chargallery.theme-affiliation-7th_unit .chargallery-profile-caption a, .chargallery.theme-affiliation-7th_unit .chargallery-profile-subcaption a { color: #ffffff; }
+.customheader.theme-affiliation-7th_unit { background-color: #bc1833; color: #ffffff; }
+.customheader.theme-affiliation-7th_unit a { color: #ffffff; }
+.navibox.theme-affiliation-7th_unit { border-color: #a2152c; }
+.navibox.theme-affiliation-7th_unit .navibox-title, .navibox.theme-affiliation-7th_unit .navibox-header, .navibox.theme-affiliation-7th_unit .navibox-group { background-color: #bc1833; color: #ffffff; }
+.navibox.theme-affiliation-7th_unit .navibox-title a, .navibox.theme-affiliation-7th_unit .navibox-header a, .navibox.theme-affiliation-7th_unit .navibox-group a { color: #ffffff; }
+.page-theme.theme-affiliation-7th_unit ~ .pagetabs li > :only-child { background-color: #bc1833; border-color: #ffffff; color: #ffffff; }
+.page-theme.theme-affiliation-7th_unit ~ .pagetabs li > :only-child a { color: #ffffff; }
+.page-theme.theme-affiliation-7th_unit ~ .pagetabs li > :only-child::before { background-color: #bc1833; }
+.page-theme.theme-affiliation-7th_unit ~ .pagetabs li > .selflink:only-child { background-color: #bc1833; color: #ffffff; }
+.page-theme.theme-affiliation-7th_unit ~ .pagetabs li > .selflink:only-child a { color: #ffffff; }
+.page-theme.theme-affiliation-7th_unit ~ .pagetabs li > .selflink:only-child::before { background-color: #bc1833; }
+.page-theme.theme-affiliation-7th_unit ~ .portable-infobox { border-color: #a2152c; }
+.page-theme.theme-affiliation-7th_unit ~ .portable-infobox .pi-title, .page-theme.theme-affiliation-7th_unit ~ .portable-infobox .pi-header, .page-theme.theme-affiliation-7th_unit ~ .portable-infobox .pi-navigation { background-color: #bc1833; color: #ffffff; }
+.page-theme.theme-affiliation-7th_unit ~ .portable-infobox .pi-title a, .page-theme.theme-affiliation-7th_unit ~ .portable-infobox .pi-header a, .page-theme.theme-affiliation-7th_unit ~ .portable-infobox .pi-navigation a { color: #ffffff; }
+
+.page-theme.theme-affiliation-8th_unit ~ blockquote.themed { border-color: #e1996e; color: #ffffff; }
+.page-theme.theme-affiliation-8th_unit ~ blockquote.themed a { color: #ffffff; }
+.page-theme.theme-affiliation-8th_unit ~ blockquote.themed > div { background-color: #f5a778; }
+.chargallery.theme-affiliation-8th_unit .wikia-gallery-item { background-color: #f5a778; border-color: #e1996e; }
+.chargallery.theme-affiliation-8th_unit .chargallery-profile-caption, .chargallery.theme-affiliation-8th_unit .chargallery-profile-subcaption { color: #ffffff; }
+.chargallery.theme-affiliation-8th_unit .chargallery-profile-caption a, .chargallery.theme-affiliation-8th_unit .chargallery-profile-subcaption a { color: #ffffff; }
+.customheader.theme-affiliation-8th_unit { background-color: #f5a778; color: #ffffff; }
+.customheader.theme-affiliation-8th_unit a { color: #ffffff; }
+.navibox.theme-affiliation-8th_unit { border-color: #e1996e; }
+.navibox.theme-affiliation-8th_unit .navibox-title, .navibox.theme-affiliation-8th_unit .navibox-header, .navibox.theme-affiliation-8th_unit .navibox-group { background-color: #f5a778; color: #ffffff; }
+.navibox.theme-affiliation-8th_unit .navibox-title a, .navibox.theme-affiliation-8th_unit .navibox-header a, .navibox.theme-affiliation-8th_unit .navibox-group a { color: #ffffff; }
+.page-theme.theme-affiliation-8th_unit ~ .pagetabs li > :only-child { background-color: #f5a778; border-color: #ffffff; color: #ffffff; }
+.page-theme.theme-affiliation-8th_unit ~ .pagetabs li > :only-child a { color: #ffffff; }
+.page-theme.theme-affiliation-8th_unit ~ .pagetabs li > :only-child::before { background-color: #f5a778; }
+.page-theme.theme-affiliation-8th_unit ~ .pagetabs li > .selflink:only-child { background-color: #f5a778; color: #ffffff; }
+.page-theme.theme-affiliation-8th_unit ~ .pagetabs li > .selflink:only-child a { color: #ffffff; }
+.page-theme.theme-affiliation-8th_unit ~ .pagetabs li > .selflink:only-child::before { background-color: #f5a778; }
+.page-theme.theme-affiliation-8th_unit ~ .portable-infobox { border-color: #e1996e; }
+.page-theme.theme-affiliation-8th_unit ~ .portable-infobox .pi-title, .page-theme.theme-affiliation-8th_unit ~ .portable-infobox .pi-header, .page-theme.theme-affiliation-8th_unit ~ .portable-infobox .pi-navigation { background-color: #f5a778; color: #ffffff; }
+.page-theme.theme-affiliation-8th_unit ~ .portable-infobox .pi-title a, .page-theme.theme-affiliation-8th_unit ~ .portable-infobox .pi-header a, .page-theme.theme-affiliation-8th_unit ~ .portable-infobox .pi-navigation a { color: #ffffff; }
+
+.page-theme.theme-affiliation-9th_unit ~ blockquote.themed { border-color: #248686; color: #ffffff; }
+.page-theme.theme-affiliation-9th_unit ~ blockquote.themed a { color: #ffffff; }
+.page-theme.theme-affiliation-9th_unit ~ blockquote.themed > div { background-color: #2a9c9c; }
+.chargallery.theme-affiliation-9th_unit .wikia-gallery-item { background-color: #2a9c9c; border-color: #248686; }
+.chargallery.theme-affiliation-9th_unit .chargallery-profile-caption, .chargallery.theme-affiliation-9th_unit .chargallery-profile-subcaption { color: #ffffff; }
+.chargallery.theme-affiliation-9th_unit .chargallery-profile-caption a, .chargallery.theme-affiliation-9th_unit .chargallery-profile-subcaption a { color: #ffffff; }
+.customheader.theme-affiliation-9th_unit { background-color: #2a9c9c; color: #ffffff; }
+.customheader.theme-affiliation-9th_unit a { color: #ffffff; }
+.navibox.theme-affiliation-9th_unit { border-color: #248686; }
+.navibox.theme-affiliation-9th_unit .navibox-title, .navibox.theme-affiliation-9th_unit .navibox-header, .navibox.theme-affiliation-9th_unit .navibox-group { background-color: #2a9c9c; color: #ffffff; }
+.navibox.theme-affiliation-9th_unit .navibox-title a, .navibox.theme-affiliation-9th_unit .navibox-header a, .navibox.theme-affiliation-9th_unit .navibox-group a { color: #ffffff; }
+.page-theme.theme-affiliation-9th_unit ~ .pagetabs li > :only-child { background-color: #2a9c9c; border-color: #ffffff; color: #ffffff; }
+.page-theme.theme-affiliation-9th_unit ~ .pagetabs li > :only-child a { color: #ffffff; }
+.page-theme.theme-affiliation-9th_unit ~ .pagetabs li > :only-child::before { background-color: #2a9c9c; }
+.page-theme.theme-affiliation-9th_unit ~ .pagetabs li > .selflink:only-child { background-color: #2a9c9c; color: #ffffff; }
+.page-theme.theme-affiliation-9th_unit ~ .pagetabs li > .selflink:only-child a { color: #ffffff; }
+.page-theme.theme-affiliation-9th_unit ~ .pagetabs li > .selflink:only-child::before { background-color: #2a9c9c; }
+.page-theme.theme-affiliation-9th_unit ~ .portable-infobox { border-color: #248686; }
+.page-theme.theme-affiliation-9th_unit ~ .portable-infobox .pi-title, .page-theme.theme-affiliation-9th_unit ~ .portable-infobox .pi-header, .page-theme.theme-affiliation-9th_unit ~ .portable-infobox .pi-navigation { background-color: #2a9c9c; color: #ffffff; }
+.page-theme.theme-affiliation-9th_unit ~ .portable-infobox .pi-title a, .page-theme.theme-affiliation-9th_unit ~ .portable-infobox .pi-header a, .page-theme.theme-affiliation-9th_unit ~ .portable-infobox .pi-navigation a { color: #ffffff; }
+
+.page-theme.theme-affiliation-10th_unit ~ blockquote.themed { border-color: #000000; color: #ffffff; }
+.page-theme.theme-affiliation-10th_unit ~ blockquote.themed a { color: #ffffff; }
+.page-theme.theme-affiliation-10th_unit ~ blockquote.themed > div { background-color: #000000; }
+.chargallery.theme-affiliation-10th_unit .wikia-gallery-item { background-color: #000000; border-color: #000000; }
+.chargallery.theme-affiliation-10th_unit .chargallery-profile-caption, .chargallery.theme-affiliation-10th_unit .chargallery-profile-subcaption { color: #ffffff; }
+.chargallery.theme-affiliation-10th_unit .chargallery-profile-caption a, .chargallery.theme-affiliation-10th_unit .chargallery-profile-subcaption a { color: #ffffff; }
+.customheader.theme-affiliation-10th_unit { background-color: #000000; color: #ffffff; }
+.customheader.theme-affiliation-10th_unit a { color: #ffffff; }
+.navibox.theme-affiliation-10th_unit { border-color: #000000; }
+.navibox.theme-affiliation-10th_unit .navibox-title, .navibox.theme-affiliation-10th_unit .navibox-header, .navibox.theme-affiliation-10th_unit .navibox-group { background-color: #000000; color: #ffffff; }
+.navibox.theme-affiliation-10th_unit .navibox-title a, .navibox.theme-affiliation-10th_unit .navibox-header a, .navibox.theme-affiliation-10th_unit .navibox-group a { color: #ffffff; }
+.page-theme.theme-affiliation-10th_unit ~ .pagetabs li > :only-child { background-color: #000000; border-color: #ffffff; color: #ffffff; }
+.page-theme.theme-affiliation-10th_unit ~ .pagetabs li > :only-child a { color: #ffffff; }
+.page-theme.theme-affiliation-10th_unit ~ .pagetabs li > :only-child::before { background-color: #000000; }
+.page-theme.theme-affiliation-10th_unit ~ .pagetabs li > .selflink:only-child { background-color: #000000; color: #ffffff; }
+.page-theme.theme-affiliation-10th_unit ~ .pagetabs li > .selflink:only-child a { color: #ffffff; }
+.page-theme.theme-affiliation-10th_unit ~ .pagetabs li > .selflink:only-child::before { background-color: #000000; }
+.page-theme.theme-affiliation-10th_unit ~ .portable-infobox { border-color: #000000; }
+.page-theme.theme-affiliation-10th_unit ~ .portable-infobox .pi-title, .page-theme.theme-affiliation-10th_unit ~ .portable-infobox .pi-header, .page-theme.theme-affiliation-10th_unit ~ .portable-infobox .pi-navigation { background-color: #000000; color: #ffffff; }
+.page-theme.theme-affiliation-10th_unit ~ .portable-infobox .pi-title a, .page-theme.theme-affiliation-10th_unit ~ .portable-infobox .pi-header a, .page-theme.theme-affiliation-10th_unit ~ .portable-infobox .pi-navigation a { color: #ffffff; }
+
+.page-theme.theme-affiliation-eight_gods ~ blockquote.themed { border-color: #55616d; color: #ffffff; }
+.page-theme.theme-affiliation-eight_gods ~ blockquote.themed a { color: #ffffff; }
+.page-theme.theme-affiliation-eight_gods ~ blockquote.themed > div { background-color: #708090; }
+.chargallery.theme-affiliation-eight_gods .wikia-gallery-item { background-color: #708090; border-color: #55616d; }
+.chargallery.theme-affiliation-eight_gods .chargallery-profile-caption, .chargallery.theme-affiliation-eight_gods .chargallery-profile-subcaption { color: #ffffff; }
+.chargallery.theme-affiliation-eight_gods .chargallery-profile-caption a, .chargallery.theme-affiliation-eight_gods .chargallery-profile-subcaption a { color: #ffffff; }
+.customheader.theme-affiliation-eight_gods { background-color: #708090; color: #ffffff; }
+.customheader.theme-affiliation-eight_gods a { color: #ffffff; }
+.navibox.theme-affiliation-eight_gods { border-color: #55616d; }
+.navibox.theme-affiliation-eight_gods .navibox-title, .navibox.theme-affiliation-eight_gods .navibox-header, .navibox.theme-affiliation-eight_gods .navibox-group { background-color: #708090; color: #ffffff; }
+.navibox.theme-affiliation-eight_gods .navibox-title a, .navibox.theme-affiliation-eight_gods .navibox-header a, .navibox.theme-affiliation-eight_gods .navibox-group a { color: #ffffff; }
+.page-theme.theme-affiliation-eight_gods ~ .pagetabs li > :only-child { background-color: #708090; border-color: #ffffff; color: #ffffff; }
+.page-theme.theme-affiliation-eight_gods ~ .pagetabs li > :only-child a { color: #ffffff; }
+.page-theme.theme-affiliation-eight_gods ~ .pagetabs li > :only-child::before { background-color: #708090; }
+.page-theme.theme-affiliation-eight_gods ~ .pagetabs li > .selflink:only-child { background-color: #708090; color: #ffffff; }
+.page-theme.theme-affiliation-eight_gods ~ .pagetabs li > .selflink:only-child a { color: #ffffff; }
+.page-theme.theme-affiliation-eight_gods ~ .pagetabs li > .selflink:only-child::before { background-color: #708090; }
+.page-theme.theme-affiliation-eight_gods ~ .portable-infobox { border-color: #55616d; }
+.page-theme.theme-affiliation-eight_gods ~ .portable-infobox .pi-title, .page-theme.theme-affiliation-eight_gods ~ .portable-infobox .pi-header, .page-theme.theme-affiliation-eight_gods ~ .portable-infobox .pi-navigation { background-color: #708090; color: #ffffff; }
+.page-theme.theme-affiliation-eight_gods ~ .portable-infobox .pi-title a, .page-theme.theme-affiliation-eight_gods ~ .portable-infobox .pi-header a, .page-theme.theme-affiliation-eight_gods ~ .portable-infobox .pi-navigation a { color: #ffffff; }
+
+.page-theme.theme-affiliation-hidden_village ~ blockquote.themed { border-color: #8d8d8d; color: #ffffff; }
+.page-theme.theme-affiliation-hidden_village ~ blockquote.themed a { color: #ffffff; }
+.page-theme.theme-affiliation-hidden_village ~ blockquote.themed > div { background-color: #aaaaaa; }
+.chargallery.theme-affiliation-hidden_village .wikia-gallery-item { background-color: #aaaaaa; border-color: #8d8d8d; }
+.chargallery.theme-affiliation-hidden_village .chargallery-profile-caption, .chargallery.theme-affiliation-hidden_village .chargallery-profile-subcaption { color: #ffffff; }
+.chargallery.theme-affiliation-hidden_village .chargallery-profile-caption a, .chargallery.theme-affiliation-hidden_village .chargallery-profile-subcaption a { color: #ffffff; }
+.customheader.theme-affiliation-hidden_village { background-color: #aaaaaa; color: #ffffff; }
+.customheader.theme-affiliation-hidden_village a { color: #ffffff; }
+.navibox.theme-affiliation-hidden_village { border-color: #8d8d8d; }
+.navibox.theme-affiliation-hidden_village .navibox-title, .navibox.theme-affiliation-hidden_village .navibox-header, .navibox.theme-affiliation-hidden_village .navibox-group { background-color: #aaaaaa; color: #ffffff; }
+.navibox.theme-affiliation-hidden_village .navibox-title a, .navibox.theme-affiliation-hidden_village .navibox-header a, .navibox.theme-affiliation-hidden_village .navibox-group a { color: #ffffff; }
+.page-theme.theme-affiliation-hidden_village ~ .pagetabs li > :only-child { background-color: #aaaaaa; border-color: #ffffff; color: #ffffff; }
+.page-theme.theme-affiliation-hidden_village ~ .pagetabs li > :only-child a { color: #ffffff; }
+.page-theme.theme-affiliation-hidden_village ~ .pagetabs li > :only-child::before { background-color: #aaaaaa; }
+.page-theme.theme-affiliation-hidden_village ~ .pagetabs li > .selflink:only-child { background-color: #aaaaaa; color: #ffffff; }
+.page-theme.theme-affiliation-hidden_village ~ .pagetabs li > .selflink:only-child a { color: #ffffff; }
+.page-theme.theme-affiliation-hidden_village ~ .pagetabs li > .selflink:only-child::before { background-color: #aaaaaa; }
+.page-theme.theme-affiliation-hidden_village ~ .portable-infobox { border-color: #8d8d8d; }
+.page-theme.theme-affiliation-hidden_village ~ .portable-infobox .pi-title, .page-theme.theme-affiliation-hidden_village ~ .portable-infobox .pi-header, .page-theme.theme-affiliation-hidden_village ~ .portable-infobox .pi-navigation { background-color: #aaaaaa; color: #ffffff; }
+.page-theme.theme-affiliation-hidden_village ~ .portable-infobox .pi-title a, .page-theme.theme-affiliation-hidden_village ~ .portable-infobox .pi-header a, .page-theme.theme-affiliation-hidden_village ~ .portable-infobox .pi-navigation a { color: #ffffff; }
+
+.page-theme.theme-affiliation-azuma_family ~ blockquote.themed { border-color: #3d3375; color: #ffffff; }
+.page-theme.theme-affiliation-azuma_family ~ blockquote.themed a { color: #ffffff; }
+.page-theme.theme-affiliation-azuma_family ~ blockquote.themed > div { background-color: #483d8b; }
+.chargallery.theme-affiliation-azuma_family .wikia-gallery-item { background-color: #483d8b; border-color: #3d3375; }
+.chargallery.theme-affiliation-azuma_family .chargallery-profile-caption, .chargallery.theme-affiliation-azuma_family .chargallery-profile-subcaption { color: #ffffff; }
+.chargallery.theme-affiliation-azuma_family  .chargallery-profile-caption a, .chargallery.theme-affiliation-azuma_family .chargallery-profile-subcaption a { color: #ffffff; }
+.customheader.theme-affiliation-azuma_family { background-color: #483d8b; color: #ffffff; }
+.customheader.theme-affiliation-azuma_family a { color: #ffffff; }
+.navibox.theme-affiliation-azuma_family { border-color: #3d3375; }
+.navibox.theme-affiliation-azuma_family .navibox-title, .navibox.theme-affiliation-azuma_family .navibox-header, .navibox.theme-affiliation-azuma_family  .navibox-group { background-color: #483d8b; color: #ffffff; }
+.navibox.theme-affiliation-azuma_family .navibox-title a, .navibox.theme-affiliation-azuma_family .navibox-header a, .navibox.theme-affiliation-azuma_family .navibox-group a { color: #ffffff; }
+.page-theme.theme-affiliation-azuma_family ~ .pagetabs li > :only-child { background-color: #483d8b; border-color: #ffffff; color: #ffffff; }
+.page-theme.theme-affiliation-azuma_family ~ .pagetabs li > :only-child a { color: #ffffff; }
+.page-theme.theme-affiliation-azuma_family ~ .pagetabs li > :only-child::before { background-color: #483d8b; }
+.page-theme.theme-affiliation-azuma_family ~ .pagetabs li > .selflink:only-child { background-color: #483d8b; color: #ffffff; }
+.page-theme.theme-affiliation-azuma_family ~ .pagetabs li > .selflink:only-child a { color: #ffffff; }
+.page-theme.theme-affiliation-azuma_family ~ .pagetabs li > .selflink:only-child::before { background-color: #483d8b; }
+.page-theme.theme-affiliation-azuma_family ~ .portable-infobox { border-color: #3d3375; }
+.page-theme.theme-affiliation-azuma_family ~ .portable-infobox .pi-title, .page-theme.theme-affiliation-azuma_family ~ .portable-infobox .pi-header, .page-theme.theme-affiliation-azuma_family ~ .portable-infobox .pi-navigation { background-color: #483d8b; color: #ffffff; }
+.page-theme.theme-affiliation-azuma_family ~ .portable-infobox .pi-title a, .page-theme.theme-affiliation-azuma_family ~ .portable-infobox .pi-header a, .page-theme.theme-affiliation-azuma_family ~ .portable-infobox .pi-navigation a { color: #ffffff; }
+
+.page-theme.theme-affiliation-others ~ blockquote.themed { border-color: #236f25; color: #ffffff; }
+.page-theme.theme-affiliation-others ~ blockquote.themed a { color: #ffffff; }
+.page-theme.theme-affiliation-others ~ blockquote.themed > div { background-color: #2c8a2e; }
+.chargallery.theme-affiliation-others .wikia-gallery-item { background-color: #2c8a2e; border-color: #236f25; }
+.chargallery.theme-affiliation-others .chargallery-profile-caption, .chargallery.theme-affiliation-others .chargallery-profile-subcaption { color: #ffffff; }
+.chargallery.theme-affiliation-others .chargallery-profile-caption a, .chargallery.theme-affiliation-others .chargallery-profile-subcaption a { color: #ffffff; }
+.customheader.theme-affiliation-others { background-color: #2c8a2e; color: #ffffff; }
+.customheader.theme-affiliation-others a { color: #ffffff; }
+.navibox.theme-affiliation-others { border-color: #236f25; }
+.navibox.theme-affiliation-others .navibox-title, .navibox.theme-affiliation-others  .navibox-header, .navibox.theme-affiliation-others  .navibox-group { background-color: #2c8a2e; color: #ffffff; }
+.navibox.theme-affiliation-others .navibox-title a, .navibox.theme-affiliation-others  .navibox-header a, .navibox.theme-affiliation-others  .navibox-group a { color: #ffffff; }
+.page-theme.theme-affiliation-others ~ .pagetabs li > :only-child { background-color: #2c8a2e; border-color: #ffffff; color: #ffffff; }
+.page-theme.theme-affiliation-others ~ .pagetabs li > :only-child a { color: #ffffff; }
+.page-theme.theme-affiliation-others ~ .pagetabs li > :only-child::before { background-color: #2c8a2e; }
+.page-theme.theme-affiliation-others ~ .pagetabs li > .selflink:only-child { background-color: #2c8a2e; color: #ffffff; }
+.page-theme.theme-affiliation-others ~ .pagetabs li > .selflink:only-child a { color: #ffffff; }
+.page-theme.theme-affiliation-others ~ .pagetabs li > .selflink:only-child::before { background-color: #2c8a2e; }
+.page-theme.theme-affiliation-others ~ .portable-infobox { border-color: #236f25; }
+.page-theme.theme-affiliation-others ~ .portable-infobox .pi-title, .page-theme.theme-affiliation-others  ~ .portable-infobox .pi-header, .page-theme.theme-affiliation-others ~ .portable-infobox .pi-navigation { background-color: #2c8a2e; color: #ffffff; }
+.page-theme.theme-affiliation-others ~ .portable-infobox .pi-title a, .page-theme.theme-affiliation-others  ~ .portable-infobox .pi-header a, .page-theme.theme-affiliation-others ~ .portable-infobox .pi-navigation a { color: #ffffff; }
