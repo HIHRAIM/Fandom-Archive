@@ -1,0 +1,466 @@
+/* == Импорты == */
+/* === Стандартное оформление википроектов о проектах Glitch === */
+@import url("//tadc.fandom.com/ru/load.php?mode=articles&articles=MediaWiki:GlitchWikis.css&only=styles");
+
+/* === Шрифты === */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* === Оформление участников (цвет ника, локальные аватары и баннеры) === */
+@import url("//gaslight-district.fandom.com/ru/load.php?mode=articles&articles=MediaWiki:Users.css&only=styles");
+
+/* == Оформление вики == */
+/* === Общее === */
+.page .page__main {
+	border-radius:20px;
+}
+
+.page.has-right-rail.page--has-rail-tabs {
+	column-gap:0px !important;
+}
+
+.right-rail-wrapper {
+	margin-top:0;
+}
+
+html:not(.ve-active) .page.has-right-rail.page--has-rail-tabs .page__main {
+	border-radius:20px 0 0 20px;
+}
+
+.right-rail-wrapper.has-rail-tabs>.rail-tabs-content {
+	border-radius:0 20px 20px 0;
+}
+
+/* ==== Локальная навигация ==== */
+.theme-fandomdesktop-light .fandom-community-header {
+	filter:drop-shadow(0px 0px 1px #117A11) drop-shadow(0px 0px 1px #117A11) drop-shadow(0px 0px 3px #117A11);
+	z-index:200;
+}
+
+.theme-fandomdesktop-dark .fandom-community-header {
+	filter:drop-shadow(0px 0px 2px var(--theme-accent-color)) drop-shadow(0px 0px 2px #169009) drop-shadow(0px 0px 3px #169009);
+	z-index:200;
+}
+
+.fandom-community-header__image img {
+	transition:transform .3s ease-in-out;
+}
+
+.fandom-community-header__image img:hover {
+	transform:scale(1.1);
+}
+
+.fandom-community-header a, .fandom-community-header__top-container {
+	font-weight:bold;
+}
+
+.main-container .fandom-community-header__community-name {
+	font-family:'Cormorant Infant';
+	font-size:30px;
+}
+
+/* .main-container .page-counter {
+	font-family:'Cormorant Infant';
+}
+
+.main-container .fandom-community-header__local-navigation {
+	font-family:'Cormorant Infant';
+} */
+
+/* ==== Прозрачный фон статьи и рельсы ==== */
+.page__main, .page__right-rail, .rail-module, .AchievementsModule {
+	background-color:rgba(var(--theme-page-background-color--rgb), 0.90);
+}
+
+/* ==== Рельса ==== */
+html:not(.ve-active) .page.has-right-rail .page__right-rail {
+	border-left:1px solid var(--widget-border-color--light);
+}
+
+.rail-module, .AchievementsModule {
+	background-color:var(--theme-page-background-color);
+	border:1px solid rgba(var(--webeditor-border-color--rgb),.5);
+	padding:1em;
+}
+
+/* ==== Кастомизация полосы прокрутки ==== */
+/* ===== Браузеры на движке Webkit ===== */
+::-webkit-scrollbar {
+	width:13px;
+}
+
+::-webkit-scrollbar-track {
+	background:var(--theme-background-color);
+}
+
+::-webkit-scrollbar-thumb {
+	background:var(--theme-link-color);
+	border-radius:2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background:var(--theme-link-color--hover);
+}
+
+/* ===== Firefox ===== */
+:root {
+	scrollbar-color:var(--theme-link-color) var(--theme-background-color);
+	scrollbar-width:auto;
+}
+
+/* ==== Кейфрейм для дропдауна ==== */
+@keyframes opacity {
+	from {opacity:0; transform:translateX(-50%), translateY(50px);}
+	to {opacity:1; transform:translateX(-50%), translateY(0px);}
+}
+
+.nav-tb {
+	border:5px solid rgb(252,250,124);
+}
+
+.nav-te {
+	box-sizing:border-box;
+	padding:5px;
+	transition:0.3s;
+}
+
+.nav-te:hover {
+	background-color:rgba(255, 255, 255, 0.1);
+	cursor:pointer;
+	transition:0.3s;
+	border-radius:3px;
+}
+
+body:has(a[title^="Категория:Персонажи"]) .stenogramma {
+	display:none;
+}
+
+body:has(a[title^="Категория:Серия"]) .citata {
+	display:none;
+}
+
+.nav-te:has(a[title*="(страница не существует)"]) {
+	display:none;
+}
+
+body:has(a[title^="Категория:"][title*="Актёры"]) .stenogramma, body:has(a[title^="Категория:"][title*="Актёры"]) .citata, body:has(a[title^="Категория:"][title*="Создатели"]) .stenogramma, body:has(a[title^="Категория:"][title*="Создатели"]) .citata {
+	display:none;
+}
+
+/* ==== Новостная лента ==== */
+.mcf-card {
+	border:none;
+	border-radius:8px;
+	overflow:hidden;
+	transition:transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mcf-card:hover {
+	transform:translateY(-5px);
+	box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+.mcf-card-wiki-articles__header {
+	background:var(--theme-accent-color);
+	color:var(--theme-accent-label-color);
+	font-size:16px;
+	padding:16px;
+	clip-path:polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+.mcf-card-wiki-articles__circle {
+	background-color:rgba(var(--theme-page-text-color--rgb), .3);
+}
+
+/* ==== Категории вверху страницы (взято с Genshin Impact Вики) ==== */
+.page-header__categories {
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center;
+	gap:2px;
+	font-size:0;
+}
+
+.page-header__categories-in {
+	display:none;
+}
+
+.page-header__categories>a {
+	display:flex;
+	align-items:center;
+	border:1px solid rgba(var(--theme-link-color--rgb), 0.3);
+	border-radius:12px;
+	color:var(--theme-page-text-color);
+	font-size:14px;
+	line-height:1;
+	padding:0.5em 0.8em;
+	transition:background-color 0.3s;
+}
+
+.theme-fandomdesktop-light .page-header__categories>a {
+	background-color:rgba(var(--theme-page-background-color--secondary--rgb), 0.75);
+}
+
+.theme-fandomdesktop-dark .page-header__categories>a {
+	background-color:rgba(var(--theme-link-color--rgb), 0.1);
+}
+
+.page-header__categories>a:before {
+	content:"#";
+	color:var(--theme-link-color);
+	padding-right:4px;
+}
+
+.page-header__categories>a:hover {
+	background-color:rgba(var(--theme-link-color--rgb), 0.2);
+}
+
+.page-header__categories>a:active {
+	background-color:rgba(var(--theme-link-color--rgb), 0.3);
+}
+
+.page-header__categories-dropdown {
+	font-size:12px;
+}
+
+.page-header__categories> :last-child {
+	display:flex;
+	padding:0.4em 0.8em;
+}
+
+.page-header__categories .page-header__categories-dropdown {
+	display:inline-block;
+	padding:0.4em 0;
+}
+
+.page-header__meta {
+	margin-bottom:12px;
+}
+
+/* ==== Инфобоксы ==== */
+.portable-infobox .pi-title,
+.portable-infobox .pi-header,
+.pi-horizontal-group .pi-header {
+	background-repeat:repeat;
+	background-position:left;
+	background-color:var(--theme-accent-color);
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	text-shadow:0px 0px 0px rgba(000, 10, 41, 100)
+}
+
+.portable-infobox {
+	background-color:rgba(41, 104, 41, 0.11);
+	border-radius:5px;
+	border-width:0
+}
+
+.portable-infobox .pi-border-color {
+	border-color:transparent;
+}
+
+.portable-infobox .wds-tabs {
+	justify-content:normal !important;
+}
+
+.portable-infobox .wds-tabs__tab {
+	background-color:rgba(var(--theme-accent-color--rgb), 0.8);
+	margin-left:3px;
+	margin-right:3px;
+	border-radius:3px;
+	transition:all 0.3s !important;
+}
+
+.portable-infobox .wds-tabs__tab:hover {
+	transform:scale(1.05);
+}
+
+.portable-infobox .wds-tabs__tab.wds-is-current {
+	color:#fff;
+}
+
+.portable-infobox .wds-tabs__tab {
+	color:rgb(230 230 230 / 75%);
+	cursor:pointer;
+	flex-shrink:0;
+	line-height:14px;
+	position:relative;
+}
+
+.portable-infobox .pi-data, .portable-infobox .pi-horizontal-group {
+	transition:background 0.4s;
+}
+
+.portable-infobox .pi-data .pi-data-value {
+	border-left:1px solid rgba(var(--theme-page-text-color--rgb),0.26);
+	padding-left:1em
+}
+
+.portable-infobox .pi-data:hover, .portable-infobox .pi-horizontal-group:hover {
+	background-color:rgba(0, 0, 0, 0.274);
+}
+
+.portable-infobox .pi-data:hover .pi-data-value {
+	border-radius:0
+}
+
+/* ==== Mbox / Информационный ==== */
+.mbox {
+	--type-important:rgba(200, 0, 0, 0.8);
+	--type-moderate:rgba(233, 124, 47, 0.8);
+	--type-minor:rgba(241, 197, 37, 0.8);
+	display:flex;
+	position:relative;
+	background-color:rgba(255, 255, 255, 0.7);
+	border:1px solid #d6d6d6;
+	border-left-width:8px;
+	border-left-color:#d6d6d6;
+	border-radius:3px;
+	margin-bottom:5px;
+	min-height:32px;
+}
+
+.mbox.mbox-type-important {
+	border-left-color:var(--type-important);
+}
+
+.mbox.mbox-type-moderate {
+	border-left-color:var(--type-moderate);
+}
+
+.mbox.mbox-type-minor {
+	border-left-color:var(--type-minor);
+}
+
+.mbox__content {
+	display:table;
+	box-sizing:border-box;
+	width:100%;
+	padding:8px 15px;
+}
+
+.mbox__content__image {
+	display:table-cell;
+	width:40px;
+	height:100%;
+	text-align:center;
+	vertical-align:middle;
+	padding-right:15px;
+}
+
+.mbox__content__wrapper {
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.mbox__content__header {
+	display:block;
+	font-weight:bold;
+}
+
+.mbox__content__text {
+	display:block;
+}
+
+.mbox__content__text__comment {
+	font-size:small;
+}
+
+.mbox__content__aside {
+	display:table-cell;
+	width:100px;
+	vertical-align:middle;
+	text-align:center;
+	padding-left:15px;
+	border-left:1px solid #d6d6d6;
+}
+
+.mbox__close {
+	position:absolute;
+	right:0;
+	top:0;
+	padding:2px 7px;
+	font-weight:bold;
+	font-size:16px;
+	color:#bbb;
+	cursor:pointer;
+	transition:all .15s ease-in;
+}
+
+.mbox__close:hover {
+	color:#777;
+}
+
+.mbox__close:after {
+	content:'×';
+}
+
+.mw-collapsed + .mbox__close {
+	transform:rotate(45deg);
+	padding:8px 7px 8px 2px;
+}
+
+.theme-fandomdesktop-dark .mbox {
+	background-color:var(--theme-page-background-color--secondary);
+	border-color:var(--theme-border-color);
+}
+
+/* === Профайлы === */
+body.skin-fandomdesktop #userProfileApp .user-identity-header {
+	border-top-left-radius:15px;
+}
+
+body.skin-fandomdesktop #userProfileApp .user-identity-header__actions .wds-button:hover,
+.modal-wrapper__header .modal-wrapper__cta-button:hover,
+.modal-wrapper__header .wds-is-square:hover {
+	background-color:var(--theme-accent-color--hover) !important;
+}
+
+/* ==== Раздел блогов ==== */
+.page__main .blog-listing__summary p {
+	padding-left:15px;
+	padding-right:15px;
+}
+
+/* === Страницы кода === */
+.theme-fandomdesktop-dark .mw-content-ltr.mw-highlight-lines pre {
+	box-shadow:inset 2.75em 0 0 #232323;
+}
+
+.theme-fandomdesktop-light .mw-content-ltr.mw-highlight-lines pre {
+	box-shadow:inset 2.75em 0 0 #ebebeb;
+}
+
+.page-content pre {
+	border:0px;
+	border-radius:5px;
+}
+
+.theme-fandomdesktop-dark pre {
+	background-color:#141414;
+}
+
+.mw-parser-output pre {
+	word-break:break-all;
+	white-space:pre-wrap;
+}
+
+.page__main h2 {
+	overflow:hidden;
+}
+
+.mw-customtoggle-mbox {
+	display:none;
+}
+
+/* == Ручное оформление == */
+/* === Инфобоксы === */
+.pi-horizontal-group .pi-horizontal-group-item {
+	text-align:center !important;
+}
+
+.pi-horizontal-group-item.pi-data-label {
+	border-top-style:solid !important;
+	border-top-width:1px !important;
+	padding:9px 9px 0 !important;
+}
