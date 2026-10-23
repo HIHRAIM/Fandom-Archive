@@ -1,0 +1,167 @@
+/* == Импорты == */
+/* === Dev Wiki === */
+@import url("/load.php?mode=articles&only=styles&articles=u:dev:MediaWiki:BalancedSearch.css|u:dev:MediaWiki:UWAnimation.css|u:dev:MediaWiki:LocalNavExploreIcons.css|u:dev:MediaWiki:InterlanguageFlags.css|u:dev:MediaWiki:AjaxPoll.Discussions.css|u:dev:MediaWiki:BalancedCategories.css|u:dev:MediaWiki:AccentColorButtons.css|u:dev:MediaWiki:BalancedSlider.css|u:dev:MediaWiki:StylizedDiff.css|u:dev:MediaWiki:ExternalIcons.css");
+
+/* === Профайлы === */
+@import url("/load.php?mode=articles&only=styles&articles=u:ru.confederation:MediaWiki:Profiles.css");
+
+/* === Страница лидеров по достижениям === */
+@import url("/load.php?mode=articles&only=styles&articles=u:ru.confederation:MediaWiki:Leaderboard.css");
+
+/* == Надеюсь, временный фикс ошибки сотрудника == */
+.wds-widget-frame {
+    background-color:rgb(255 255 255 / 0%) !important;
+}
+
+/* == Ручное оформление == */
+/* === Текст === */
+a {
+	text-decoration:none !important;
+}
+
+/* === Навигация === */
+/* ==== Увеличивает текст таймера ==== */
+.main-container #UTCClock {
+	font-size:14px;
+	font-weight:500;
+}
+
+/* ==== Устанавливает нормальный размер названия вики ==== */
+.fandom-community-header__community-name {
+	font-size:22px;
+}
+
+/* === Полупрозрачный фон статьи === */
+.page__main {
+	background-color:rgba(var(--theme-page-background-color--rgb), 0.93);
+}
+
+/* === Главная страница === */
+/* ==== Слайдер ==== */
+.mainpage .fandom-slider__nav__caption>div>h2 {
+	font-size:20px;
+}
+
+/* === Табер === */
+.wds-tabs:not(.portable-infobox .wds-tabs, nav.fandom-community-header__local-navigation .wds-tabs) {
+	overflow:hidden;
+	flex-wrap:wrap;
+}
+
+/* === Рельса === */
+.rail-module, .AchievementsModule {
+	background-color:var(--theme-page-background-color);
+	border-radius:8px;
+	padding:8px;
+}
+
+/* ==== Отступ между блоками достижений ==== */
+.AchievementsModule {
+	margin-top:20px;
+}
+
+/* ==== Изменяет вид ссылок в рельсе ==== */
+.right-rail-wrapper a {
+	font-weight:500;
+}
+
+/* ==== Исправляет отступ от заголовков в рельсе ==== */
+.rail-module h2, .rail-module__header {
+	margin-bottom:5px;
+}
+
+/* ==== Уменьшает отступ от верха рельсы ==== */
+.right-rail-wrapper {
+	margin-top: 0;
+}
+
+/* ==== Блок «Recent Images» ==== */
+.recent-images-module h2.wds-widget-frame__title {
+	text-indent:-9999px;
+	line-height:5px;
+	overflow:visible;
+	-webkit-box-orient:inherit;
+}
+
+.recent-images-module h2.wds-widget-frame__title::after {
+	content:"Последние изображения";
+	text-indent:0;
+	display:block;
+	line-height:initial;
+}
+
+.wds-widget-frame {
+	padding:0;
+	--widget-link-color:var(--theme-link-color);
+	--widget-link-color--hover:var(--theme-link-color--hover);
+}
+
+.wds-widget-frame__title {
+	background-image:linear-gradient(to top, var(--wds-midlight-color, rgba(var(--theme-accent-color--rgb), .15)) 54%, #0000 54%, #0000 100%);
+	--wds-midlight-color:rgba(var(--theme-link-color--rgb),0.1);
+}
+
+.card-image {
+	background-color:rgba(var(--theme-link-color--rgb),0.1);
+	border-radius:8px 8px 0 0;
+}
+
+.card-image img {
+	border:none;
+	border-radius:8px 8px 0 0;
+}
+
+.wds-card-vertical__image-container--hoverable:after {
+	border-radius:8px 8px 0 0;
+}
+
+.wds-text-card {
+	background-color:var(--theme-page-background-color--secondary) !important;
+	border-radius:0 0 8px 8px;
+}
+
+.wds-widget-frame .alice-carousel__arrow {
+	background-color:var(--theme-page-background-color--secondary) !important;
+	border-radius:8px;
+}
+
+/* === Скроллбар === */
+::-webkit-scrollbar {
+	width:12px;
+}
+
+::-webkit-scrollbar-track {
+	background:var(--theme-page-background-color--secondary);
+	width:12px;
+}
+
+::-webkit-scrollbar-thumb {
+	background:var(--theme-accent-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background:var(--theme-accent-color--hover);
+}
+
+/* === Интервики (взято из скрипта BalancedUCX) === */
+.page-header__languages .wds-dropdown__toggle,
+.page-header__variants .wds-dropdown__toggle {
+	transition-duration:.3s !important;
+	color:var(--theme-link-color) !important;
+	text-transform:uppercase !important;
+	font-family:inherit !important;
+	font-size:12px !important;
+	font-weight:600 !important;
+	letter-spacing:.15px !important;
+	line-height:16px !important;
+}
+
+.page-header__languages svg,
+.page-header__variants svg {
+	display:none !important;
+}
+
+/* === Глобшаблон Конфедерации === */
+.confederation .external.text::after {
+	display:none;
+}
