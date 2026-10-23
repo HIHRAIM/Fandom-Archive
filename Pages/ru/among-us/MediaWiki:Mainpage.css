@@ -1,0 +1,258 @@
+/* === Заглавная страниа === */
+/* ==== Красит фон слайдера в чёрный ==== */
+.wikiaPhotoGallery-slider, .wikiaPhotoGallery-slider-body {
+	background:black !important;
+}
+
+/* ==== Делает жирным описание к картинкам ==== */
+.mainpage .thumb .caption {
+	font-weight:bold;
+	text-align:center;
+	font-size:12px;
+}
+
+/* ==== Меняет цвет карты при наведении на неё курсора ==== */
+.MapScheme {
+	margin-top:5%;
+	transition:.3s;
+}
+
+.MapScheme:hover {
+	filter:hue-rotate(140deg) saturate(200%);
+}
+
+/* ==== Общее оформление блоков ==== */ 
+.WikiBlockMP {	
+	margin:1em;
+	font-size:smaller;
+	font-weight:700;
+	text-transform:uppercase;
+}
+
+.WikiBlockMP a {
+	padding:4px 7px;
+}
+
+.MainPageSection {
+	display:block;
+	border:2px solid graytext;
+	margin-bottom:7px;
+	border-radius:7px;
+	backdrop-filter:blur(10px);
+}
+
+.MainPageSection a {
+    padding:2px;
+}
+
+.MainPageTextBlock {
+    padding:5px;
+}
+
+.MainPageH2 {
+	font-family:'Amatic SC' !important;
+	font-size:2.1em !important;
+	font-weight:bold !important;
+	text-align:center;
+	border-bottom:6px solid var(--theme-sticky-nav-background-color) !important;
+	justify-content:center;
+	margin-top:2px !important;
+}
+
+.MainPageH3 {
+	font-family:'Amatic SC' !important;
+	font-size:1.8em !important;
+	font-weight:bold !important;
+	text-align:center;
+	border-bottom:1px solid graytext;
+	max-width:60%;
+	margin-left:auto !important;
+	margin-right:auto !important;
+	margin-top:2px !important;
+	border-bottom:6px solid var(--theme-sticky-nav-background-color) !important;
+	justify-content:center;
+}
+
+.MainPageTextBlock {
+	text-align:center;
+}
+
+/* ==== Оформление конкретных блоков ==== */
+/* ===== Навигация ===== */
+.MainPageNav {
+	background:rgb(176,0,0);
+	background:linear-gradient(90deg, rgba(176,0,0,0.35) 0%, rgba(0,0,0,0) 50%, rgba(0,95,187,0.33) 100%);
+}
+
+.MainPageNav figure.thumb {
+	margin:2px !important;
+}
+
+.MainPageAddsRoles .wikia-gallery-item {
+	padding-top:0px !important;
+	padding-bottom:0px !important;
+}
+
+.MainPageAddsRoles .lightbox-caption {
+    font-weight:bold;
+}
+
+/* ===== Администрация ===== */
+.AdminTable {
+	margin-right:auto; 
+	margin-left:auto;
+	border-spacing:10px;
+	border-top:1px solid var(--templates-borders);
+	border-bottom:1px solid var(--templates-borders);
+}
+
+.MsgWall .new {
+	color:white !important; 
+	font-weight:bold; 
+	font-size:small;
+}
+
+.UserDiscord {
+    font-family:monospace;
+}
+
+/* ===== Опросы ===== */
+.MainPagePoll {
+    padding:5px;
+}
+
+.d-poll__question {
+	text-align:center;
+	font-weight:bold;	
+}
+
+.d-poll__answer {
+	position:relative;
+	padding:1em 0;
+	font-size:0.9em;
+}
+
+.d-poll__answerName, .d-poll__answerVotes {
+	display:flex;
+	justify-content:center;
+}
+
+.d-poll__answerName > input {
+	margin-right:3%;
+}
+
+.d-poll__answerBar {
+    background:var(--templates-borders);
+}
+
+.d-poll__answerBar > div {
+	height:3px;
+	background:#c00;
+}
+
+.d-poll__info {
+	font-size:0.8em;
+	font-style:italic;
+	text-align:center;
+}
+
+.d-poll input[type="submit"] {
+	width:100%;
+	height:auto;
+	padding:7px 18px;
+	font-size:0.8em;
+	font-weight:bold;
+	text-transform:uppercase;
+	background:var(--theme-sticky-nav-background-color);
+	color:var(--templates-text-color);
+	border:2px solid var(--templates-titles-secondary);
+	border-radius:4px;
+}
+
+/* ===== Оформление набора ссылок (Discord) ===== */
+.WikiBlockMP {	
+	margin:1em;
+	font-family:'Rubik';
+	font-size:smaller;
+	font-weight:700;
+	text-transform:uppercase;
+}
+
+.WikiBlockMP a {
+	padding:4px 7px;
+}
+
+/* ===== Блоги ===== */
+.mainpage .blog-listing__post {
+	display:flex;
+	flex-wrap:wrap;
+	background-color:transparent !important;
+	border:0px solid rgba(144, 152, 159, 0.5) !important;
+	border-radius:0px;
+	border-bottom:solid 1px var(--theme-border-color) !important;
+	list-style:none;
+	margin-bottom:-5px; margin-top:-5px;
+	padding:10px !important;
+}
+
+.mainpage .blog-listing__summary br {
+	display:none;
+}
+
+.mainpage .blog-listing__comment-count {
+	float:right;
+}
+
+.mainpage .WikiaBlogListingBox>h2 {
+	display:none;
+}
+
+.mainpage .blog-listing__post-details {
+	font-size:12px;
+	display:flex;
+	align-items:center;
+	flex-basis:100%;
+	order:1;
+}
+
+.mainpage .blog-listing__title {
+	font-size:1.2em !important;
+	margin:5px !important;
+}
+
+.mainpage .blog-listing__summary {
+	font-size:small; 
+	font-style:italic !important;
+}
+
+.mainpage .WikiaBlogListingBox svg {
+	fill:#e6e6e6;
+}
+
+.mainpage .WikiaBlogListingBox .more {
+	margin-top:9px;
+	text-align:center!important;
+	display:block;
+	height:10px;
+}
+
+.mainpage section.blog-listing {
+	margin:0 0 0px !important;
+}
+
+.mainpage .blog-listing__user-avatar__image {
+	border:solid 1px;
+	border-radius:50%;
+	height:1.5em;
+	margin-right:5px;
+	width:1.5em;
+}
+
+.mainpage .WikiaBlogListingBox .blog-listing__read-post {
+	display:none !important;
+}
+
+/* ==== Скрывает категории ==== */
+.mainpage .article-categories, .mainpage .page-footer__categories {
+    display:none;
+}
