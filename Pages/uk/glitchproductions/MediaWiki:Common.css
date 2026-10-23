@@ -1,0 +1,27 @@
+/* == Імпорти == */
+/* === Оформлення російськомовної вікі === */
+@import url("/ru/load.php?mode=articles&articles=MediaWiki:Common.css&only=styles");
+
+/* == Переклад написів == */
+.recent-images-module h2.wds-widget-frame__title::after {
+	content:"Останні зображення";
+}
+
+body .rail-module.recent-wiki-activity h2:not(.wds-widget-frame__title):not(.widget-frame__title)::after {
+	content:"Останні редагування";
+}
+
+/* == Стартова заглавна сторінка == */
+.inputbox-gallery {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	gap:20px;
+	margin:0 auto;
+}
+
+.inputbox-gallery > div {
+	box-sizing:border-box;
+	flex-shrink:0;
+	width:calc(33.33% - 14px);
+}
