@@ -1,0 +1,22 @@
+<div style="color: var(--theme-page-text-color) !important; --theme-page-text-color: #e6e6e6; --theme-page-text-color--rgb: 230, 230, 230; --theme-link-color:#b0b1ff; --theme-link-color--hover:#fff">
+<mainpage-leftcolumn-start />
+{{ГолСторінка1}}
+{{ГолСторінка2}}
+{{ГолСторінка3}}
+{{ГолСторінка4}}
+{{ГолСторінка8}}
+<mainpage-endcolumn />
+</div><div>
+<mainpage-rightcolumn-start />
+{{ГолСторінка7}}
+{{ГолСторінка5}}
+{{ГолСторінка6}}
+{{ГолСторінка9}}
+<mainpage-endcolumn />
+</div><div>
+[[en:]]
+[[es:]]
+[[id:]]
+[[pl:]]
+[[ru:]]
+[[zh:]]
