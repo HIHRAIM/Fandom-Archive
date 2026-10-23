@@ -1,0 +1,76 @@
+/* == Импорты == */
+/* === Стандартное оформление википроектов о проектах Glitch === */
+@import url("//tadc.fandom.com/ru/load.php?mode=articles&articles=MediaWiki:GlitchWikis.css&only=styles");
+/* === Оформление с английской вики === */
+@import url("//knights-of-guinevere.fandom.com/load.php?mode=articles&articles=MediaWiki:Common.css&only=styles");
+.theme-fandomdesktop-light .portable-infobox .pi-title {
+	border-radius: 7px 7px 0 0;
+	border-color: transparent !important;
+	background-image: linear-gradient(#a9cbde, #769c7e, #75ba73, #59865f);
+	background-attachment: fixed;
+	text-shadow: 1px 1px #d1f0ff, 1px -1px #d1f0ff, -1px -1px #d1f0ff, -1px 1px #d1f0ff;
+}
+.theme-fandomdesktop-light .portable-infobox {
+	border: 2px solid #374a54;
+	border-radius: 9px !important;
+	outline: 2px solid #d1f0ff;
+}
+.theme-fandomdesktop-light .pi-secondary-background {
+	background-image: linear-gradient(#a9cbde, #769c7e, #75ba73, #59865f) !important;
+	background-attachment: fixed !important;
+}
+
+/** Убирание блюра **/
+.theme-fandomdesktop-light {
+	
+    /* Specific set settings */ 
+    main.page__main {
+	    backdrop-filter:blur(0px)
+	}
+	
+	div.WikiaRail {
+	    backdrop-filter:blur(0px)
+	}
+
+}
+
+/** Инфобокс **/
+.portable-infobox {
+    box-shadow: 0px 0px 5px 4px transparent;
+    width: 270px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.theme-fandomdesktop-dark .bgdesign {
+    background: #000;
+}
+
+.theme-fandomdesktop-light .bgdesign {
+    background: #000;
+}
+
+.portable-infobox {
+    border: 3px solid #6952aa;
+}
+ 
+.portable-infobox .pi-title {
+    background-color: #6952aa;
+}
+ 
+.portable-infobox .pi-title,
+.portable-infobox .pi-header {
+    text-align: center;
+}
+ 
+.portable-infobox .pi-border-color {
+    border-color: transparent;
+}
+
+/** Исправление шрифта заголовков страниц **/
+
+main span.mw-page-title-main,
+.page-header__title {
+    font-family: "Arial";
+    font-size: 40px;
+}
