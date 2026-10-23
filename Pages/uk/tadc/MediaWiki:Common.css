@@ -1,0 +1,133 @@
+/* == Імпорти == */
+/* === Стандартне оформлення вікіпроєктів про проєкти Glitch === */
+@import url("//tadc.fandom.com/ru/load.php?mode=articles&articles=MediaWiki:GlitchWikis.css&only=styles");
+
+/* === Dev Wiki === */
+@import url("/load.php?mode=articles&only=styles&articles=u:dev:MediaWiki:Nord.css");
+
+/* === Оформлення користувачів === */
+@import url("//tadc.fandom.com/uk/load.php?mode=articles&articles=MediaWiki:Users.css&only=styles");
+
+/* === Шаблони === */
+@import url("//tadc.fandom.com/ru/load.php?mode=articles&articles=MediaWiki:Templates.css&only=styles");
+
+/* == Ручне налаштування == */
+/* === Інфобокси === */
+.portable-infobox {
+    --pi-secondary-background:var(--theme-sticky-nav-background-color);
+}
+/* Модернізація категорій */
+/** Тренд. частина **/
+#content .category-page__trending-page {
+	border-radius: 5px;
+}
+#content .category-page__trending-page figure {
+	position: relative;
+	height: 100%;
+}
+#content .category-page__trending-page img {
+	border-radius: 5px;
+}
+#content .category-page__trending-page-title {
+	align-items: center;
+	background: #00000099;
+	border-radius: 5px;
+	color: white;
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	margin: 0;
+	padding: 15px;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	transition: .3s;
+	width: 100%;
+	z-index: 1;
+}
+#content .category-page__trending-page-title:hover {
+	background: #00000066;
+}
+/** Local nav fix **/
+.ns-14 .page__main {
+	backdrop-filter: saturate(180%);
+}
+/** Antiborder.css **/
+.category-page__member-thumbnail,
+.category-page__trending-page-thumbnail {
+	border: none !important;
+}
+#content .category-page__trending-pages {
+	padding-bottom: 20px;
+}
+#content .category-page__total-number {
+	margin-bottom: 20px;
+	margin-top: 20px;
+	text-align: center;
+}
+#content .category-page__trending-pages-header {
+	margin-top: 20px;
+}
+#content .category-page__alphabet-shortcuts {
+	margin: 0 0 20px;
+}
+/** Bottom part **/
+.category-page__members-wrapper {
+	background: var(--theme-page-background-color--secondary);
+	padding: 1em;
+	margin-bottom: .5em;
+	border-radius: 4px;
+}
+.category-page__members-for-char {
+	margin: 0 !important;
+}
+.category-page__member-left {
+	width: 40px;
+	height: 30px;
+	background: var(--theme-page-background-color);
+}
+.category-page__first-char {
+	border-bottom: none !important;
+	font-size: 16px !important;
+	padding: 0 !important;
+	display: inline;
+	background: linear-gradient(to top, rgba(var(--theme-link-color--rgb), 0.1) 54%, transparent 54%, transparent 100%);
+	padding-left: 3px !important;
+	padding-right: 3px !important;
+}
+#content .category-page__trending-pages-header {
+	justify-content: center;
+	display: flex;
+}
+
+/*Тло*/
+.page__main {
+	background-color: rgba(var(--theme-page-background-color--rgb), 0.70);
+}
+
+/*Astronomical Chaos's Background- I'm selfish lmao*/
+body.page-User_Astronomical_Chaos > div > div > div > main.page__main {
+	background-color: rgba(var(--theme-page-background-color--rgb),0.60)
+}
+
+/* Rounded button thingies */
+.fandom-community-header .wds-button.wds-is-secondary {
+	border-radius: 20px;
+	border-width: 2px;
+	margin: 3px;
+}
+
+.fandom-community-header .wds-button-group > .wds-dropdown:not(:first-child) .wds-button {
+	border: solid 2px;
+	border-radius: 10px;
+	margin: 3px;
+}
+
+/*Dotted line*/
+.theme-fandomdesktop-light hr {
+	border: 1px #f4ff00 dashed;
+}
+
+.theme-fandomdesktop-dark hr {
+	border: 1px #ffa7f0 dashed;
+}
