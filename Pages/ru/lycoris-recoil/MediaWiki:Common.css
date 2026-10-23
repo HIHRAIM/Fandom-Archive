@@ -1,0 +1,430 @@
+/* == Импорты == */
+/* === Внешние импорты === */
+@import url("/load.php?mode=articles&only=styles&articles=u:dev:MediaWiki:BalancedSearch.css|u:dev:MediaWiki:UWAnimation.css|u:dev:MediaWiki:LocalNavExploreIcons.css|u:dev:MediaWiki:InterlanguageFlags.css|u:dev:MediaWiki:AjaxPoll.Discussions.css|u:dev:MediaWiki:BalancedCategories.css|u:dev:MediaWiki:AccentColorButtons.css|u:ru.confederation:MediaWiki:Profiles.css|u:ru.confederation:MediaWiki:Leaderboard.css");
+
+/* == Оформление вики == */
+/* === Тень от тексте на обложке вики чтоб его было видно на фоне вики (взято с англовики) === */
+.main-container .fandom-community-header__community-name-wrapper,
+.main-container .page-counter,
+.main-container .fandom-community-header__local-navigation .wds-tabs__tab-label,
+#UTCClock {
+	filter:drop-shadow(0px 0px 2px var(--theme-accent-color))
+			drop-shadow(0px 0px 2px var(--theme-accent-color))
+			drop-shadow(0px 0px 2px var(--theme-accent-color));
+}
+.main-container .fandom-community-header__image {
+	filter:drop-shadow(0px 0px 1px var(--theme-accent-color))
+			drop-shadow(0px 0px 1px var(--theme-accent-color))
+			drop-shadow(0px 0px 1px var(--theme-accent-color));
+}
+.wiki-tools {
+	background-color:rgba(var(--theme-accent-color--rgb),.4);
+}
+
+/* === Удаление иконок === */
+/* ==== Большая часть блоков в рельсе ==== */
+.rail-module__header .wds-icon {
+	display:none;
+}
+
+/* ==== Новые изображения, рельса ==== */
+.rail-module h2.has-icon svg {
+	display:none;
+}
+
+/* ==== Содержание, статья ==== */
+.toc .toctitle h2 .wds-icon + .wds-icon {
+	display:none;
+}
+
+/* ==== Последние заработанные значки, таблица лидеров по достижениям ==== */
+.WikiaRail .achievements-title:before {
+	display:none;
+}
+
+/* ==== Таблица лидеров по достижениям ==== */
+.LeaderboardTable th:before {
+	display:none;
+}
+
+/* === Ключевый визуал (взято с англовики) === */
+.key-visual {
+	border-radius:5px;
+	margin-bottom:-12px;
+}
+
+.theme-fandomdesktop-light .key-visual {
+	border:2px solid #F5F5F5;
+}
+
+.theme-fandomdesktop-dark .key-visual {
+	border:2px solid #1F2430;
+}
+
+/* === Навигация по документации (взято с англовики) === */
+.documentation-nav-header {
+	color:var(--theme-page-text-color);
+	text-align:center;
+	font-size:1em;
+	padding:5px;
+	border-radius:5px;
+}
+
+.theme-fandomdesktop-light .documentation-nav-header {
+	background-color:#F5F5F5;
+}
+
+.theme-fandomdesktop-dark .documentation-nav-header {
+	background-color:#1F2430;
+}
+
+/* === Отображение таблицы (взято с англовики) === */
+.display-table {
+	border-radius:5px;
+	border-spacing:3px;
+	width:100%;
+	text-align:center;
+	margin-bottom:12px;
+}
+
+.display-table-side {
+	border-radius:5px;
+	border-spacing:3px;
+	width:290px;
+	text-align:center;
+	margin-bottom:12px;
+}
+
+.theme-fandomdesktop-light .display-table {
+	border:2px solid #F5F5F5;
+}
+
+.theme-fandomdesktop-dark .display-table {
+	border:2px solid #1F2430;
+}
+
+/* === Правильное использование (взято с англовики) === */
+.correct {
+	color:#317E2A;
+}
+
+.correct a {
+	color:#317E2A;
+}
+
+.incorrect {
+	color:#932015;
+}
+
+.incorrect a {
+	color:#932015;
+}
+
+/* === Для заглавной === */
+/* ==== Перевод таббов в таббере в центр (взято с англовики) ==== */
+.centered-tabs .wds-tabs {
+	justify-content:center;
+}
+
+.centered-tabs .wds-tab__content.wds-is-current {
+	padding:24px;
+}
+
+/* ==== Релизы (взято с англовики) ==== */
+.anime-thumbnail {
+	border-radius:5px;
+	margin-bottom:12px;
+}
+
+.theme-fandomdesktop-light .anime-thumbnail {
+	border:2px solid #F5F5F5;
+}
+
+.theme-fandomdesktop-dark .anime-thumbnail {
+	border:2px solid #1F2430;
+}
+
+/* ==== Форматирование таблиц (взято с англовики) ==== */
+/* ===== Заголовки ===== */
+.box-header {
+	background-color:var(--theme-accent-color);
+	text-align:center;
+	color:white;
+	font-size:1.5em;
+	padding:5px;
+	border-radius:5px;
+}
+
+/* ==== Кнопка главной страницы (взято с англовики) ==== */
+.main-page-button-wrapper {
+	display:flex;
+	flex-wrap:wrap;
+	align-items:stretch;
+	justify-content:space-evenly;
+	text-align:center;
+}
+
+.main-page-button :hover {
+	background-color:var(--theme-accent-color--hover);
+	font-weight:400;
+	transition:0.4s;
+}
+
+.main-page-button a {
+	background-color:var(--theme-accent-color);
+	border-radius:5px;
+	display:inline-block;
+	font-size:1em;
+	padding:8px;
+	min-width:180px;
+	color:white;
+	text-decoration:none;
+}
+
+/* ==== Скрывает категории на заглавной странице ==== */
+.mainpage .article-categories, .mainpage .page-footer__categories {
+	display:none;
+}
+
+/* === Бордер === */
+:root .theme-fandomdesktop-dark {
+	--theme-table-accent-color:#1f2430;
+}
+
+:root .theme-fandomdesktop-light {
+	--theme-table-accent-color:#F5F5F5;
+}
+
+/* === Цвет нумерации строк кода при просмотри вне редактора кода === */
+.mw-content-ltr.mw-highlight-lines pre, .mw-content-ltr.content .mw-highlight-lines pre {
+	padding-left:3.5em;
+	box-shadow:inset 2.75em 0 0 #2e3440;
+}
+
+/* === Скроллбар (полоса прокрутки. Изменённый скрипт BalancedScrollbar) === */
+::-webkit-scrollbar {
+	width:10px !important;
+}
+
+/* ==== Firefox ==== */
+:root {
+	scrollbar-width:thin;
+}
+
+/* === Название вики (взято из BalancedUCX) === */
+.fandom-community-header__community-name {
+	font-size:28px;
+	font-weight:600;
+}
+
+/* === Изменяет вид ссылок в рельсе (взято из BalancedUCX) === */
+.mw-parser-output a, .right-rail-wrapper a {
+	font-weight:500;
+}
+
+/* === Исправляет отступ от заголовков в рельсе === */
+.rail-module h2, .rail-module__header {
+	margin-bottom:5px;
+}
+
+/* === Увеличивает максимальную ширину контента навигации === */
+.fandom-community-header__local-navigation .wds-dropdown__content {
+	max-width:250px;
+}
+
+/* === Рельса === */
+/* ==== Изменяет цвет фона блоков в рельсе ==== */
+.rail-module, .AchievementsModule {
+	background-color:var(--theme-page-background-color);
+	border-radius:8px;
+	padding:5px;
+}
+
+/* ==== Отступ между блоками достижений ==== */
+.AchievementsModule {
+	margin-top:20px;
+}
+
+/* === hr === */
+hr {
+	margin-top:1em;
+}
+
+/* === Шаблон:Аватар === */
+.UserAvatarFetch img {
+	border-radius:50%;
+}
+
+/* == Сообщения == */
+.mbox {
+	display:flex;
+	position:relative;
+	background-color:rgba(255, 255, 255, 0.7);
+	border:1px solid #d6d6d6;
+	border-left-width:8px;
+	border-left-color:#d6d6d6;
+	border-radius:3px;
+	margin-bottom:5px;
+	min-height:32px;
+}
+
+.mbox__content {
+	display:table;
+	box-sizing:border-box;
+	width:100%;
+	padding:8px 15px;
+}
+
+.mbox__content__image {
+	display:table-cell;
+	width:40px;
+	height:100%;
+	text-align:center;
+	vertical-align:middle;
+	padding-right:15px;
+}
+
+.mbox__content__wrapper {
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.mbox__content__header {
+	display:block;
+	font-weight:bold;
+}
+
+.mbox__content__text {
+	display:block;
+}
+
+.mbox__content__text__comment {
+	font-size:small;
+}
+
+.mbox__content__aside {
+	display:table-cell;
+	width:100px;
+	vertical-align:middle;
+	text-align:center;
+	padding:0 15px;
+	border-left:1px solid #d6d6d6;
+}
+
+.mbox__close {
+	position:absolute;
+	right:0;
+	top:0;
+	padding:2px 7px;
+	font-weight:bold;
+	font-size:16px;
+	color:#bbb;
+	cursor:pointer;
+	transition:all .15s ease-in;
+}
+
+.mbox__close:hover {
+	color:#777;
+}
+
+.mbox__close:after {
+	content:'×';
+}
+
+.mw-collapsed + .mbox__close {
+	transform:rotate(45deg);
+	padding:4px 7px 5px 2px;
+}
+
+/* == Статьи == */
+/* === Инфобокс === */
+.portable-infobox {
+	border-color:var(--theme-table-accent-color);
+	border-radius:5px;
+	border-width:2px;
+	padding:2px 2px 0 2px;
+	width:285px;
+}
+
+.portable-infobox .pi-item {
+	border-radius:3px;
+}
+
+.page-content .portable-infobox h2 {
+	margin-bottom:2px;
+}
+
+.portable-infobox .pi-data {
+	background:var(--theme-table-accent-color);
+	border-top-width:0px;
+	margin-bottom:2px;
+}
+
+.portable-infobox .wds-tabs {
+	width:100%;
+	background-color:var(--theme-table-accent-color);
+	border-radius:3px;
+}
+
+.page-content .portable-infobox .wds-tabs {
+	margin-bottom:2px;
+}
+
+.portable-infobox .pi-image {
+	margin-bottom:2px;
+}
+
+/* === Стаб (взято с анловики) === */
+.stub {
+	border-color:#FCDB88;
+	background-color:rgba(252, 220, 141, 0.1);
+}
+
+/* == Для участников == */
+/* === HIHRAIM === */
+/* ==== Цветной ник ==== */
+a[href$="/HIHRAIM"],
+a[href$=":HIHRAIM"] {
+	color:#ed575a;
+}
+
+/* ==== Комментарии ==== */
+a[href$=":HIHRAIM"] ~ .EntityHeader_middot__39-65:before {
+	content:"Администратор";
+	background:#ed575a;
+	padding:3px;
+	border-radius:5px;
+	margin-left:4px;
+	font-size:12px;
+	color:#ffffff;
+}
+
+/* ==== Баннер в профайле ==== */
+[class*=HIHRAIM].skin-fandomdesktop #userProfileApp {
+	--banner-ratio:35%;
+	--banner-image:url('https://c.tenor.com/ltshRDoZTikAAAAd/lycoris-recoil-thighs.gif');
+	--banner-bg-pos:center;
+}
+
+/* ==== Аватар в профайле ==== */
+body[class*='HIHRAIM'] {
+	--wiki-avatar:url(https://c.tenor.com/dwqn-DDq0GkAAAAd/chisato-nishikigi-lycoris-recoil.gif);
+}
+
+/* === Banette Bot === */
+/* ==== Цветной ник ==== */
+a[href$="/Banette_Bot"],
+a[href$=":Banette_Bot"] {
+	color:#c15de7;
+}
+
+/* ==== Комментарии ==== */
+a[href$=":Banette_Bot"] ~ .EntityHeader_middot__39-65:before {
+	content:"Бот";
+	background:#c15de7;
+	padding:3px;
+	border-radius:5px;
+	margin-left:4px;
+	font-size:12px;
+	color:#ffffff;
+}
