@@ -1,0 +1,220 @@
+/* === Заглавная страница (Шаблон:Блок заглавной) === */
+.theme-fandomdesktop-dark {
+    --box-bg-color:rgba(0, 0, 0, 0.3);
+}
+
+.theme-fandomdesktop-light {
+    --box-bg-color:rgba(210, 210, 210, 0.400);
+}
+
+.box {
+	background-color:var(--box-bg-color);
+    backdrop-filter:blur(20px);
+    border-radius:.2em;
+    border:2px solid #000000;
+    padding:3px;
+    margin:auto;
+    margin-top:5px;
+    margin-bottom:1em;
+    width:96%;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.box-header {
+    background:url('https://static.wikia.nocookie.net/mato-seihei-no-slave/images/b/bd/Bg_red.jpg/revision/latest?cb=20240110151247&path-prefix=es') repeat;
+    padding:15px;
+    color:white;
+    font-weight:bold;
+    font-size:20pt;
+    font-variant:small-caps;
+    text-align:center;
+    border-radius:.2em;
+    border-bottom:2px solid #000;
+    --theme-body-text-color:#000;
+}
+
+.mainpage .page-footer__categories {
+    display:none;
+}
+
+/* ==== История ==== */
+.box-history .wikia-gallery-item {
+    transition:transform 0.2s ease-in-out;
+}
+
+.box-history .wikia-gallery-item:hover {
+    transform:scale(1.02);
+}
+
+/* ==== Персонажи ==== */
+.char-list {
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    justify-content:center;
+    margin-top:4px;
+}
+
+.char {
+	width:17%;
+    border-radius:5px;
+    overflow:hidden;
+    position:relative;
+    transition:transform 0.3s ease;
+    --theme-link-color:#eadd84;
+    --theme-link-color--hover:#f8f5db;
+    --theme-alert-color:#dd001a;
+}
+
+.char:hover {
+    transform:scale(1.1) rotate(-5deg);
+}
+
+.char-image {
+    width:100%;
+    display:block;
+}
+
+.char img {
+    width:100%;
+    height:auto;
+}
+
+.char-title {
+    font-family:'EB Garamond', serif;
+    font-weight:800;
+    font-size:14px;
+    position:relative;
+    width:100%;
+    background:url(https://static.wikia.nocookie.net/mato-seihei-no-slave/images/6/6a/Fondo_rojo.jpg/revision/latest?cb=20240109022005&format=original&path-prefix=es) repeat;
+    color:#ffffff;
+    padding:5px;
+    text-align:center;
+    margin-top:4px;
+}
+
+/* ==== Discord ==== */
+.box-discord {
+    width:277px;
+    height:450px;
+    margin-top:4px;
+    margin-bottom:-45px;
+}
+
+/* ==== Вики в цифрах ==== */
+.box-data {
+    color:#edeee8;
+    margin-left:3%;
+    margin-top:-26px !important;
+    margin-bottom:-28px !important;
+    width:100%;
+    margin:auto;
+    border-radius:15px;
+    overflow:hidden;
+    animation:fadeIn 1s ease-in-out;
+    --theme-link-color:#eadd84;
+    --theme-link-color--hover:#f8f5db;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+.box-data td {
+    color:#fff;
+    padding-left:15px;
+    text-align:center;
+    padding-right:10px;
+    transition:all 0.5s ease;
+}
+
+.box-data td:hover {
+    transform:scale(1.05);
+    background:rgba(255,255,255,0.1);
+}
+
+.box-data tr {
+    background:url(https://static.wikia.nocookie.net/mato-seihei-no-slave/images/6/6a/Fondo_rojo.jpg/revision/latest?cb=20240109022005&format=original&path-prefix=es) repeat;
+    transition:all 0.5s ease;
+}
+
+.box-data tr:hover {
+    background:url(https://static.wikia.nocookie.net/mato-seihei-no-slave/images/6/6a/Fondo_rojo.jpg/revision/latest?cb=20240109022005&format=original&path-prefix=es) no-repeat center center fixed;
+    background-size:cover;
+}
+
+.box-data img {
+    padding:5px;
+    filter:invert(1) grayscale(1) brightness(2);
+    transition:transform 0.3s ease;
+}
+
+.box-data img:hover {
+    transform:scale(1.1) rotate(10deg);
+}
+
+/* ==== Последние выпуски ==== */
+.releases .with-bottom-border {
+    border-bottom:none !important;
+}
+
+.releases .wds-tabs {
+    justify-content:center !important;
+}
+
+.releases .wds-tabs__tab {
+    background:url(https://static.wikia.nocookie.net/mato-seihei-no-slave/images/6/6a/Fondo_rojo.jpg/revision/latest?cb=20240109022005&format=original&path-prefix=es) repeat;
+    margin-left:2px;
+    margin-right:2px;
+    margin-top:6px;
+    border-radius:3px;
+    transition:all 0.3s !important;
+}
+
+.releases .wds-tabs__tab:hover {
+	transform:scale(1.05);
+}
+
+.releases .wds-tabs__tab.wds-is-current {
+    color:#fff;
+}
+
+.releases .wds-tabs__tab {
+    color:rgb(230 230 230 / 75%);
+    cursor:pointer;
+    flex-shrink:0;
+    line-height:14px;
+    position:relative;
+    transition:box-shadow .1s;
+}
+
+.releases img {
+    background-color:var(--theme-accent-color);
+	border:1px solid var(--theme-accent-color);
+    border-radius:3px;
+    width:90%;
+    height:auto;
+    margin-top:6px;
+    overflow:hidden;
+    transition:all 0.3s;
+    position:relative;
+}
+
+.releases img:hover {
+	transform:scale(1.05);
+}
+
+.releases .wds-button {
+    transition:all 0.3s;
+}
+
+.releases .wds-button:hover {
+	transform:scale(1.05);
+}
+
+.releases .nolink {
+    background:url(https://static.wikia.nocookie.net/mato-seihei-no-slave/images/6/6a/Fondo_rojo.jpg/revision/latest?cb=20240109022005&format=original&path-prefix=es) repeat;
+    border:none !important;
+    color:#fff !important;
+}
