@@ -1,0 +1,68 @@
+<div class="pedia">
+<div class="pedia-card">
+<div class="pedia-welcome">
+<div class="pedia-welcome__title"><span class="ph-bold ph-hand-waving"></span>Вітаємо вас!</div>
+<div class="pedia-welcome__text">Телепедія — вільна енциклопедія про телебачення: телеканали й передачі, мовники та їхня історія, ефірне оформлення й техніка мовлення. Усе це роками збирають і уточнюють самі читачі, і долучитися може кожен зареєстрований користувач.<br>Знайшли неточність або знаєте більше — доповніть статтю чи створіть нову просто зараз.</div>
+<div class="pedia-welcome__actions"><span class="pedia-btn pedia-btn--primary"><span class="ph-bold ph-plus-circle"></span>[[Спеціальна:CreatePage|Створити статтю]]</span></div>
+</div>
+<div class="pedia-stats">
+<div class="pedia-stat"><span class="pedia-stat__num">{{NUMBEROFARTICLES}}</span><span class="pedia-stat__label">[[Спеціальна:Усі сторінки|{{PLURAL:{{NUMBEROFARTICLES}}|стаття|статті|статей}}]]</span></div>
+<div class="pedia-stat"><span class="pedia-stat__num">{{NUMBEROFFILES}}</span><span class="pedia-stat__label">[[Спеціальна:Нові файли|{{PLURAL:{{NUMBEROFFILES}}|файл|файли|файлів}}]]</span></div>
+<div class="pedia-stat"><span class="pedia-stat__num">{{NUMBEROFACTIVEUSERS}}</span><span class="pedia-stat__label">[[Спеціальна:Список користувачів|{{PLURAL:{{NUMBEROFACTIVEUSERS}}|активний користувач|активні користувачі|активних користувачів}}]]</span></div>
+<div class="pedia-stat"><span class="pedia-stat__num">{{NUMBEROFEDITS}}</span><span class="pedia-stat__label">[[Спеціальна:Нові редагування|{{PLURAL:{{NUMBEROFEDITS}}|редагування|редагування|редагувань}}]]</span></div>
+</div>
+</div>
+<div class="pedia-quick">
+<div class="pedia-quick__item"><span class="ph-bold ph-clock"></span><span class="pedia-quick__label">[[Спеціальна:Нові редагування|Нові редагування]]</span></div>
+<div class="pedia-quick__item"><span class="ph-bold ph-question"></span><span class="pedia-quick__label">[https://community.fandom.com/uk/wiki/Довідка:Зміст Довідка]</span></div>
+<div class="pedia-quick__item"><span class="ph-bold ph-scroll"></span><span class="pedia-quick__label">[[Project:Правила|Правила]]</span></div>
+<div class="pedia-quick__item"><span class="ph-bold ph-dice-six"></span><span class="pedia-quick__label">[[Спеціальна:Випадкова сторінка|Випадкова стаття]]</span></div>
+</div>
+<div class="pedia-section">
+<div class="pedia-section__title">Куди вирушимо?</div>
+<div class="pedia-nav">
+<div class="pedia-nav__item"><span class="pedia-nav__icon" style="background-color:#a855f7;"><span class="ph-bold ph-television-simple"></span></span><span class="pedia-nav__body"><span class="pedia-nav__title">[[:Категорія:Телеканали|Телеканали]]</span><span class="pedia-nav__count">{{PAGESINCAT:Телеканали}} {{PLURAL:{{PAGESINCAT:Телеканали}}|стаття|статті|статей}}</span></span></div>
+<div class="pedia-nav__item"><span class="pedia-nav__icon" style="background-color:#ec4899;"><span class="ph-bold ph-play-circle"></span></span><span class="pedia-nav__body"><span class="pedia-nav__title">[[:Категорія:Телепередачі|Телепередачі]]</span><span class="pedia-nav__count">{{PAGESINCAT:Телепередачі}} {{PLURAL:{{PAGESINCAT:Телепередачі}}|стаття|статті|статей}}</span></span></div>
+<div class="pedia-nav__item"><span class="pedia-nav__icon" style="background-color:#14b8a6;"><span class="ph-bold ph-buildings"></span></span><span class="pedia-nav__body"><span class="pedia-nav__title">[[:Категорія:Телекомпанії|Телекомпанії]]</span><span class="pedia-nav__count">{{PAGESINCAT:Телекомпанії}} {{PLURAL:{{PAGESINCAT:Телекомпанії}}|стаття|статті|статей}}</span></span></div>
+<div class="pedia-nav__item"><span class="pedia-nav__icon" style="background-color:#8b5cf6;"><span class="ph-bold ph-chat-centered-text"></span></span><span class="pedia-nav__body"><span class="pedia-nav__title">[[:Категорія:Українськомовні телеканали|Українськомовні телеканали]]</span><span class="pedia-nav__count">{{PAGESINCAT:Українськомовні телеканали}} {{PLURAL:{{PAGESINCAT:Українськомовні телеканали}}|стаття|статті|статей}}</span></span></div>
+<div class="pedia-nav__item"><span class="pedia-nav__icon" style="background-color:#ef4444;"><span class="ph-bold ph-map-pin"></span></span><span class="pedia-nav__body"><span class="pedia-nav__title">[[:Категорія:Регіональні телеканали|Регіональні телеканали]]</span><span class="pedia-nav__count">{{PAGESINCAT:Регіональні телеканали}} {{PLURAL:{{PAGESINCAT:Регіональні телеканали}}|стаття|статті|статей}}</span></span></div>
+<div class="pedia-nav__item"><span class="pedia-nav__icon" style="background-color:#64748b;"><span class="ph-bold ph-power"></span></span><span class="pedia-nav__body"><span class="pedia-nav__title">[[:Категорія:Закриті телеканали|Закриті телеканали]]</span><span class="pedia-nav__count">{{PAGESINCAT:Закриті телеканали}} {{PLURAL:{{PAGESINCAT:Закриті телеканали}}|стаття|статті|статей}}</span></span></div>
+<div class="pedia-nav__item"><span class="pedia-nav__icon" style="background-color:#f97316;"><span class="ph-bold ph-calendar-blank"></span></span><span class="pedia-nav__body"><span class="pedia-nav__title">[[:Категорія:Роки в телебаченні|Роки в телебаченні]]</span><span class="pedia-nav__count">{{PAGESINCAT:Роки в телебаченні}} {{PLURAL:{{PAGESINCAT:Роки в телебаченні}}|стаття|статті|статей}}</span></span></div>
+<div class="pedia-nav__item"><span class="pedia-nav__icon" style="background-color:#0ea5e9;"><span class="ph-bold ph-wave-sine"></span></span><span class="pedia-nav__body"><span class="pedia-nav__title">[[:Категорія:Ефірні частоти в планах міст України|Частотні плани міст]]</span><span class="pedia-nav__count">{{PAGESINCAT:Ефірні частоти в планах міст України}} {{PLURAL:{{PAGESINCAT:Ефірні частоти в планах міст України}}|стаття|статті|статей}}</span></span></div>
+<div class="pedia-nav__item"><span class="pedia-nav__icon" style="background-color:#f59e0b;"><span class="ph-bold ph-monitor-play"></span></span><span class="pedia-nav__body"><span class="pedia-nav__title">[[:Категорія:Телеканали, що мовлять у HD-якості|Телеканали в HD]]</span><span class="pedia-nav__count">{{PAGESINCAT:Телеканали, що мовлять у HD-якості}} {{PLURAL:{{PAGESINCAT:Телеканали, що мовлять у HD-якості}}|стаття|статті|статей}}</span></span></div>
+</div>
+</div>
+<div class="pedia-cols">
+<div class="pedia-col">
+<div class="pedia-card">
+<div class="pedia-card__head"><span class="ph-bold ph-pencil-simple-line"></span>Блоги</div>
+<div class="pedia-card__body pedia-blogs"><bloglist count="3" type="plain" timestamp="true" order="date"></bloglist></div>
+<div class="pedia-news__more">[[Спеціальна:CreateBlogPage|Написати запис]][[Блог:Recent posts|Інші записи]]</div>
+</div>
+<div class="pedia-card">
+<div class="pedia-card__head"><span class="ph-bold ph-hand-heart"></span>Хочете допомогти?</div>
+<div class="pedia-card__body pedia-tips">
+<div class="pedia-tips__item"><span class="pedia-tips__q">Почніть зі спільноти</span><span class="pedia-sub">На сторінці [[Спеціальна:Community|спільноти]] зібрано завдання для новачків і підказки, як зробити перші редагування.</span></div>
+<div class="pedia-tips__item"><span class="pedia-tips__q">Доповніть розпочате</span><span class="pedia-sub">Загляньте до [[Спеціальна:Короткі сторінки|найкоротших статей]] або створіть одну з [[Спеціальна:Потрібні сторінки|відсутніх]].</span></div>
+<div class="pedia-tips__item"><span class="pedia-tips__q">Не бійтеся помилитися</span><span class="pedia-sub">Будь-яке редагування можна покращити або скасувати, тож пробувати не страшно — так починали всі.</span></div>
+</div>
+</div>
+</div>
+<div class="pedia-col">
+<div class="pedia-card">
+<div class="pedia-card__head"><span class="ph-bold ph-shield-star"></span>Адміністрація</div>
+<div class="pedia-card__body pedia-list">
+<div class="pedia-sub">З будь-якого питання пишіть на стіну обговорення.</div>
+<div class="pedia-row pedia-row--avatar pedia-row--gif">{{User Avi|HIHRAIM|50|link=Стіна обговорення:HIHRAIM}}<span class="pedia-row__body"><span class="pedia-row__title">[[Стіна обговорення:HIHRAIM|HIHRAIM]]</span></span></div>
+</div>
+</div>
+{{w:CSW/uk}}
+</div>
+</div>
+{{w:Український портал/Телебачення}}
+</div>
+__NOTOC__
+[[ru:Телепедия]]
+[[en:TeleRadioPedia]]
+[[pt-br:Wiki Báu da Mídia:Página principal]]
+[[Category:Телепедія]]
