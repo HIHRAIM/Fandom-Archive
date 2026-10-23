@@ -1,0 +1,137 @@
+/* == Импорты == */
+/* === Внешние импорты === */
+@import url("/load.php?mode=articles&only=styles&articles=u:dev:MediaWiki:UWAnimation.css|u:dev:MediaWiki:LocalNavExploreIcons.css|u:dev:MediaWiki:InterlanguageFlags.css|u:dev:MediaWiki:AjaxPoll.Discussions.css|u:dev:MediaWiki:BalancedCategories.css|u:dev:MediaWiki:BalancedPageBottom.css|u:dev:MediaWiki:AccentColorButtons.css|u:ru.confederation:MediaWiki:Profiles.css|u:ru.confederation:MediaWiki:Leaderboard.css");
+
+/* == Оформление вики == */
+/* === Общее === */
+/* ==== Локальная навигация ==== */
+.main-container .fandom-community-header__image,
+.main-container .fandom-community-header__community-name-wrapper,
+.main-container .page-counter,
+.main-container .fandom-community-header__local-navigation .wds-tabs__tab-label,
+.main-container #UTCClock {
+	filter:drop-shadow(0px 0px 1px var(--theme-accent-color))
+			drop-shadow(0px 0px 1px var(--theme-accent-color))
+			drop-shadow(0px 0px 1px var(--theme-accent-color));
+}
+
+.wiki-tools {
+	background-color:rgba(var(--theme-accent-color--rgb),.4);
+}
+
+.fandom-community-header__image img {
+	transition:transform .3s ease-in-out;
+	filter:drop-shadow(0px 0px 0.1px #fff);
+}
+
+.fandom-community-header__image img:hover {
+	transform:scale(1.1);
+}
+
+.theme-fandomdesktop-light {
+	--theme-sticky-nav-text-color:var(--theme-accent-label-color);
+}
+
+.main-container #UTCClock {
+	font-weight:700;
+	font-size:13px;
+	text-transform:uppercase;
+}
+
+/* ==== Прозрачный фон статьи и рельсы ==== */
+.page__main {
+	background-color:rgba(var(--theme-page-background-color--rgb),0.95);
+}
+
+.page__right-rail {
+	background-color:rgba(var(--theme-page-background-color--secondary--rgb),0.95);
+}
+
+.rail-module, .AchievementsModule {
+	background-color:rgba(var(--theme-page-background-color--rgb),0.8) !important;
+}
+
+/* ==== Рельса ==== */
+.rail-module, .AchievementsModule {
+	background-color:#F9F9F9;
+	padding:1em;
+}
+
+.theme-fandomdesktop-dark .rail-module, .theme-fandomdesktop-dark .AchievementsModule {
+	background-color:#3E3D3D;
+}
+
+/* ===== Блок «Recent Images» ===== */
+.recent-images-module h2.wds-widget-frame__title {
+	text-indent:-9999px;
+	line-height:5px;
+	overflow:visible;
+	-webkit-box-orient:inherit;
+}
+
+.recent-images-module h2.wds-widget-frame__title::after {
+	content:"Последние изображения";
+	text-indent:0;
+	display:block;
+	line-height:initial;
+}
+
+.wds-widget-frame {
+	padding:0;
+	--widget-link-color:var(--theme-link-color);
+	--widget-link-color--hover:var(--theme-link-color--hover);
+}
+
+.wds-widget-frame__title {
+	background-image:linear-gradient(to top, var(--wds-midlight-color, rgba(var(--theme-accent-color--rgb), .15)) 54%, #0000 54%, #0000 100%);
+	--wds-midlight-color:rgba(var(--theme-link-color--rgb),0.1);
+}
+
+.wds-text-card {
+	background-color:var(--theme-page-background-color--secondary);
+}
+
+/* ==== Кастомизация полосы прокрутки ==== */
+/* ===== Браузеры на движке Webkit ===== */
+::-webkit-scrollbar {
+	width:13px;
+}
+
+::-webkit-scrollbar-track {
+	background:--theme-page-background-color;
+}
+
+::-webkit-scrollbar-thumb {
+	background:var(--theme-link-color);
+	border-radius:2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background:var(--theme-link-color--hover);
+}
+
+/* ===== Firefox ===== */
+:root {
+	scrollbar-color:var(--theme-link-color) var(--theme-background-color);
+	scrollbar-width:auto;
+}
+
+/* ==== Исправляет отступ от заголовков в рельсе ==== */
+.rail-module h2, .rail-module__header {
+	margin-bottom:5px;
+}
+
+/* ==== Accent label color ==== */
+body.skin-fandomdesktop {
+	--theme-accent-label-color:#fff;
+}
+
+/* ==== Фикс заголовков ==== */
+.page-content h2 {
+	overflow:hidden;
+}
+
+/* ==== «Содержание» в статьях ==== */
+.toc .toctitle h2 .wds-icon + .wds-icon {
+	display:none;
+}
