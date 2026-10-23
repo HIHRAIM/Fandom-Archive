@@ -1,0 +1,120 @@
+/* == Оформление шаблонов вики == */
+/* === Кард (Шаблон:Card) === */
+.article-card {
+	border:2px solid var(--theme-accent-color);
+	border-radius:3px;
+	box-sizing:border-box;
+	display:flex;
+	flex-direction:column;
+	font-weight:bold;
+	height:120px;
+	margin:12px 6px 0;
+	padding:6px;
+	transition:box-shadow 0.3125s, margin 0.3125s;
+	width:120px;
+}
+.article-card-container:hover > .article-card {
+	box-shadow:0 0 3px 6px var(--theme-page-background-color--secondary);
+	margin:6px;
+	background:var(--theme-accent-color);
+}
+.article-card-container:hover a {
+	color:var(--theme-accent-label-color);
+}
+.article-card img {
+	height:80px;
+	object-fit:cover;
+	width:100%;
+}
+
+/* === Кнопка (Шаблон:Button) === */
+.button {
+	border:2px solid var(--theme-accent-color);
+	border-radius:3px;
+	font-weight:bold;
+	margin:6px 6px 0;
+	padding:0 0.5em;
+	text-align:center;
+	transition:box-shadow 0.3125s, margin 0.3125s;
+	width:max-content;
+}
+.button-container:hover > .button {
+	background:var(--theme-accent-color);
+	box-shadow:0 0 3px 3px var(--theme-page-background-color--secondary);
+	margin:3px 6px;
+}
+.button:hover a {
+	color:var(--theme-accent-label-color);
+}
+
+/* === Навбокс === */
+table.navbox {
+	background:var(--theme-page-background-color--secondary);
+	border:2px solid var(--theme-border-color);
+	border-radius:3px;
+	border-collapse:separate;
+	box-sizing:border-box;
+	margin:1em 0;
+	width:100%;
+}
+.page-content .navbox .navbox-title,
+.page-content .navbox .navbox-group {
+	background:var(--theme-accent-color);
+	color:var(--theme-accent-label-color);
+	padding:0.2em 0.5em;
+}
+.page-content .navbox .navbox-title a,
+.page-content .navbox .navbox-group a {
+	color:inherit;
+}
+.page-content .navbox .navbox-list {
+	background:var(--theme-page-background-color);
+	color:var(--theme-page-text-color);
+}
+.page-content .navbox .navbox-even,
+.page-content .navbox .navbox-abovebelow {
+	background:var(--theme-page-background-color--secondary);
+}
+
+/* === Светлая и тёмная тема === */
+.dark-mode-only {
+	display:none;
+}
+.theme-fandomdesktop-dark .light-mode-only {
+	display:none;
+}
+.theme-fandomdesktop-dark .dark-mode-only {
+	display:inline;
+}
+
+/* === Карточки «Содержания вики» на заглавной === */
+.mainpage-wiki-cards {
+	display:grid;
+	grid-template-columns:repeat(4,minmax(0,1fr));
+	gap:12px;
+	margin:16px 0 2em;
+	padding:0 9px;
+}
+.mainpage-wiki-cards .article-card {
+	width:100%;
+	height:148px;
+	margin:0;
+	padding:8px;
+}
+.mainpage-wiki-cards .article-card-container:hover > .article-card {
+	margin:0;
+}
+.mainpage-wiki-cards .article-card img {
+	height:88px;
+	object-fit:contain;
+}
+.mainpage-wiki-cards .article-card > a:last-child {
+	margin-top:auto;
+	line-height:1.25;
+	text-align:center;
+}
+@media (max-width:600px) {
+	.mainpage-wiki-cards {
+		grid-template-columns:repeat(2,minmax(0,1fr));
+	}
+}
