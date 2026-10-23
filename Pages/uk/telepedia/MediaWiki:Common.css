@@ -1,0 +1,27 @@
+/* == Імпорти == */
+/* === Зовнішні імпорти === */
+@import url("https://unpkg.com/@phosphor-icons/web@2.0.3/src/bold/style.css");
+@import url("/load.php?mode=articles&only=styles&articles=u:dev:MediaWiki:BalancedCategories.css|u:dev:MediaWiki:BalancedDiscord.css|u:dev:MediaWiki:InterlanguageFlags.css|u:dev:MediaWiki:Nord.css|u:dev:MediaWiki:UWAnimation.css|u:ru.confederation:MediaWiki:Profiles.css");
+
+/* === Оформлення учасників із російської Телепедії === */
+@import url("//telepedia.fandom.com/ru/load.php?mode=articles&articles=MediaWiki:Users.css&only=styles");
+
+/* === Оформлення шаблонів із російської Телепедії === */
+@import url("//telepedia.fandom.com/ru/load.php?mode=articles&articles=MediaWiki:Templates.css&only=styles");
+
+/* === Загальне оформлення із російської Телепедії === */
+@import url("//telepedia.fandom.com/ru/load.php?mode=articles&articles=MediaWiki:Design.css&only=styles");
+
+/* === Оформлення скіна із російської Телепедії === */
+@import url("//telepedia.fandom.com/ru/load.php?mode=articles&articles=MediaWiki:Common.css&only=styles");
+
+/* == Суто локальне оформлення == */
+/* === Кнопка запису в блозі === */
+.blog-listing__read-more-button .oo-ui-labelElement-label {
+	font-size:0;
+}
+
+.blog-listing__read-more-button .oo-ui-labelElement-label::after {
+	content:"Читати запис повністю";
+	font-size:0.9375rem;
+}
