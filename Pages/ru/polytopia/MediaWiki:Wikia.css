@@ -1,0 +1,49 @@
+/* Нормальный фон */
+body.skin-oasis,
+body.background-dynamic.skin-oasis::after,
+body.background-dynamic.skin-oasis::before {
+    background-size: cover;
+}
+
+/* Убирает кнопку добавить фото в галерею */
+.wikia-photogallery-add {
+    display: none !important;
+}
+
+/* Оформление для HIHRAIM'а */
+a[href$="/HIHRAIM"],
+a[href$=":HIHRAIM"] {
+    color: #0000FF !important;
+    text-shadow: 1px 1px 3px rgb(12,115,29);
+    font-weight: bold;
+}
+
+.EntityHeader_header-details__1bZ7- > [href$="HIHRAIM"]:after {
+    content: "Бюрократ";
+    color: var(--templates-text-color);
+    background-color: var(--templates-bg-color);
+    border-radius: 4px;
+    padding: 1px 8px;
+    margin-left: 7px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Оформление для Nefest'а */
+a[href$="/Nefest"],
+a[href$=":Nefest"] {
+    color: #1E90FF !important;
+    text-shadow: 1px 1px 3px rgb(12,115,29);
+    font-weight: bold;
+}
+
+.EntityHeader_header-details__1bZ7- > [href$="Nefest"]:after {
+    content: "Администратор";
+    color: var(--templates-text-color);
+    background-color: var(--templates-bg-color);
+    border-radius: 4px;
+    padding: 1px 8px;
+    margin-left: 7px;
+    font-size: 12px;
+    font-weight: bold;
+}
