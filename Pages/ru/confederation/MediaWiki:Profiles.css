@@ -192,23 +192,6 @@ body.skin-fandomdesktop #userProfileApp .user-identity-social__icon-tooltip:befo
 	display:none;
 }
 
-body.skin-fandomdesktop #userProfileApp .user-identity-social__icon-tooltip::after,
-#userProfileApp .user-identity-social__icon:hover .user-identity-social__icon-tooltip {
-	animation:wds-dropdown-social__icon 0.4s ease;
-	transition:1s;
-}
-
-@keyframes wds-dropdown-social__icon {
-	from {
-	opacity:0;
-	transform:translateX(-50%) translateY(10px);
-	}
-	to {
-	opacity:1;
-	transform:translateX(-50%) translateY(0);
-	}
-}
-
 /* ==== Навигация ==== */
 #userProfileApp .user-profile-navigation {
 	justify-content:space-around;
