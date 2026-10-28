@@ -1,6 +1,6 @@
 /* == Импорты == */
 /* === Внешние импорты === */
-@import url("/load.php?mode=articles&only=styles&articles=u:dev:MediaWiki:BalancedSearch.css|u:dev:MediaWiki:UWAnimation.css|u:dev:MediaWiki:LocalNavExploreIcons.css|u:dev:MediaWiki:InterlanguageFlags.css|u:dev:MediaWiki:AjaxPoll.Discussions.css|u:dev:MediaWiki:BalancedCategories.css|u:dev:MediaWiki:AccentColorButtons.css|u:ru.confederation:MediaWiki:Profiles.css|u:ru.confederation:MediaWiki:Leaderboard.css");
+@import url("/load.php?mode=articles&only=styles&articles=u:dev:MediaWiki:BalancedSearch.css|u:ru.confederation:MediaWiki:Animations.css|u:dev:MediaWiki:LocalNavExploreIcons.css|u:dev:MediaWiki:InterlanguageFlags.css|u:dev:MediaWiki:AjaxPoll.Discussions.css|u:dev:MediaWiki:BalancedCategories.css|u:dev:MediaWiki:AccentColorButtons.css|u:ru.confederation:MediaWiki:Profiles.css|u:ru.confederation:MediaWiki:Leaderboard.css");
 
 /* == Оформление вики == */
 /* === Тень от тексте на обложке вики чтоб его было видно на фоне вики (взято с англовики) === */
