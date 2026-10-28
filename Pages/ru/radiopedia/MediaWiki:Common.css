@@ -1,7 +1,7 @@
 /* == Импорты == */
 /* === Внешние импорты === */
 @import url("https://unpkg.com/@phosphor-icons/web@2.0.3/src/bold/style.css");
-@import url("/load.php?mode=articles&only=styles&articles=u:dev:MediaWiki:BalancedCategories.css|u:dev:MediaWiki:BalancedDiscord.css|u:dev:MediaWiki:InterlanguageFlags.css|u:dev:MediaWiki:Nord.css|u:dev:MediaWiki:UWAnimation.css|u:ru.confederation:MediaWiki:Profiles.css");
+@import url("/load.php?mode=articles&only=styles&articles=u:dev:MediaWiki:BalancedCategories.css|u:dev:MediaWiki:BalancedDiscord.css|u:dev:MediaWiki:InterlanguageFlags.css|u:dev:MediaWiki:Nord.css|u:ru.confederation:MediaWiki:Animations.css|u:ru.confederation:MediaWiki:Profiles.css");
 
 /* === Оформление участников с Телепедии === */
 @import url("//telepedia.fandom.com/ru/load.php?mode=articles&articles=MediaWiki:Users.css&only=styles");
