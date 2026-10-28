@@ -1,6 +1,6 @@
 /* == Импорты == */
 /* === Dev Wiki === */
-@import url("/load.php?mode=articles&only=styles&articles=u:dev:MediaWiki:BalancedSearch.css|u:dev:MediaWiki:UWAnimation.css|u:dev:MediaWiki:LocalNavExploreIcons.css|u:dev:MediaWiki:InterlanguageFlags.css|u:dev:MediaWiki:AjaxPoll.Discussions.css|u:dev:MediaWiki:BalancedCategories.css|u:dev:MediaWiki:AccentColorButtons.css|u:dev:MediaWiki:NewPagesModule.css|u:dev:MediaWiki:SpoilerTags.css|u:dev:MediaWiki:ThemedRailWidgets.css");
+@import url("/load.php?mode=articles&only=styles&articles=u:dev:MediaWiki:BalancedSearch.css|u:ru.confederation:MediaWiki:Animations.css|u:dev:MediaWiki:LocalNavExploreIcons.css|u:dev:MediaWiki:InterlanguageFlags.css|u:dev:MediaWiki:AjaxPoll.Discussions.css|u:dev:MediaWiki:BalancedCategories.css|u:dev:MediaWiki:AccentColorButtons.css|u:dev:MediaWiki:NewPagesModule.css|u:dev:MediaWiki:SpoilerTags.css|u:dev:MediaWiki:ThemedRailWidgets.css");
 
 /* === Иконки === */
 @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
