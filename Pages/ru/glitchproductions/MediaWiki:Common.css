@@ -199,23 +199,6 @@ body {
 }
 
 /* === Выпадающие меню === */
-@keyframes gp-dropdown-in {
-	from {
-		opacity:0;
-		translate:0 10px;
-	}
-	to {
-		opacity:1;
-		translate:0 0;
-	}
-}
-
-.wiki-tools .wds-dropdown:hover > .wds-dropdown__content,
-.page-header__actions .wds-dropdown:hover > .wds-dropdown__content,
-.page-header__categories-dropdown:hover > .wds-dropdown__content {
-	animation:gp-dropdown-in 0.4s ease;
-}
-
 .fandom-community-header__local-navigation .explore-menu .wds-list a[data-tracking="social-feed-stream-entrypoint-clicked"]::before {
 	content:none;
 }
