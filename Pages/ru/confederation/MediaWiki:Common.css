@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap');
 
 /* === Dev Wiki === */
-@import url("/load.php?mode=articles&only=styles&articles=u:dev:MediaWiki:BalancedSearch.css|u:dev:MediaWiki:UWAnimation.css|u:dev:MediaWiki:LocalNavExploreIcons.css|u:dev:MediaWiki:BalancedCategories.css");
+@import url("/load.php?mode=articles&only=styles&articles=u:dev:MediaWiki:BalancedSearch.css|u:ru.confederation:MediaWiki:Animations.css|u:dev:MediaWiki:LocalNavExploreIcons.css|u:dev:MediaWiki:BalancedCategories.css");
 
 /* === Заглавная страница === */
 @import url("/load.php?mode=articles&only=styles&articles=u:ru.confederation:MediaWiki:Mainpage.css");
