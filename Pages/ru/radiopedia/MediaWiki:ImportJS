@@ -1,5 +1,6 @@
 dev:AjaxPoll.js
 dev:AjaxRC.js
+dev:AjaxBatchDelete.js
 dev:AllPagesHideRedirect/code.js
 dev:BackToTopButton/code.js
 dev:EditConflictAlert/code.js
