@@ -136,7 +136,7 @@
 .gp-hero__text {
 	max-width:62ch;
 	color:var(--gp-muted);
-	font-size:0.9375rem;
+	font-size:1rem;
 	line-height:1.6;
 }
 
@@ -159,7 +159,7 @@
 	padding:9px 18px;
 	color:var(--gp-text);
 	font-family:var(--gp-display);
-	font-size:0.8125rem;
+	font-size:0.875rem;
 	line-height:1.3;
 	letter-spacing:0.04em;
 	text-transform:uppercase;
@@ -211,8 +211,8 @@
 .gp-main .gp-stat__label a {
 	color:var(--gp-muted);
 	font-family:var(--gp-mono);
-	font-size:0.6875rem;
-	font-weight:700;
+	font-size:0.75rem;
+	font-weight:500;
 	line-height:1.4;
 	letter-spacing:0.08em;
 	text-transform:uppercase;
@@ -250,7 +250,7 @@
 	align-items:center;
 	gap:12px;
 	font-family:var(--gp-display);
-	font-size:1.1875rem;
+	font-size:1.25rem;
 	line-height:1.3;
 	text-transform:uppercase;
 }
@@ -268,8 +268,8 @@
 	order:2;
 	color:var(--gp-muted);
 	font-family:var(--gp-mono);
-	font-size:0.6875rem;
-	font-weight:700;
+	font-size:0.75rem;
+	font-weight:500;
 	letter-spacing:0.08em;
 	text-transform:uppercase;
 }
@@ -392,7 +392,7 @@
 
 .gp-show__meta {
 	color:var(--gp-muted);
-	font-size:0.8125rem;
+	font-size:0.875rem;
 }
 
 .gp-show__links {
@@ -403,9 +403,8 @@
 	gap:4px 14px;
 	margin-top:auto;
 	padding-top:10px;
-	font-family:var(--gp-mono);
-	font-size:0.6875rem;
-	font-weight:700;
+	font-size:0.75rem;
+	font-weight:500;
 	letter-spacing:0.08em;
 	text-transform:uppercase;
 }
@@ -457,7 +456,7 @@
 
 .gp-link__name {
 	font-family:var(--gp-display);
-	font-size:0.9375rem;
+	font-size:1rem;
 	line-height:1.25;
 }
 
@@ -465,8 +464,8 @@
 	overflow:hidden;
 	color:var(--gp-muted);
 	font-family:var(--gp-mono);
-	font-size:0.6875rem;
-	font-weight:700;
+	font-size:0.75rem;
+	font-weight:500;
 	line-height:1.5;
 	text-overflow:ellipsis;
 	white-space:nowrap;
@@ -502,8 +501,8 @@
 	background:linear-gradient(90deg,var(--gp-magenta),transparent) no-repeat 26px 55%/28px 1px;
 	color:var(--gp-magenta);
 	font-family:var(--gp-mono);
-	font-size:0.6875rem;
-	font-weight:700;
+	font-size:0.75rem;
+	font-weight:500;
 	letter-spacing:0.08em;
 }
 
@@ -571,7 +570,7 @@
 .gp-card__text {
 	margin:0 0 10px;
 	color:var(--gp-muted);
-	font-size:0.8125rem;
+	font-size:0.875rem;
 	line-height:1.5;
 }
 
@@ -593,7 +592,7 @@
 	padding:4px 16px 4px 14px;
 	background-color:var(--gp-surface-strong);
 	clip-path:polygon(7px 0,100% 0,calc(100% - 7px) 100%,0 100%);
-	font-size:0.8125rem;
+	font-size:0.875rem;
 	font-weight:500;
 	line-height:1.5;
 	transition:background-color 0.15s ease;
@@ -616,7 +615,7 @@
 	color:var(--gp-magenta);
 	font-family:var(--gp-mono);
 	font-size:0.75rem;
-	font-weight:700;
+	font-weight:500;
 }
 
 .gp-rows {
@@ -710,7 +709,7 @@
 
 .gp-row__sub {
 	color:var(--gp-muted);
-	font-size:0.8125rem;
+	font-size:0.875rem;
 	line-height:1.45;
 }
 
@@ -726,8 +725,8 @@
 	background-color:rgba(var(--gp-cyan--rgb),0.16);
 	clip-path:polygon(6px 0,100% 0,calc(100% - 6px) 100%,0 100%);
 	font-family:var(--gp-mono);
-	font-size:0.625rem;
-	font-weight:700;
+	font-size:0.75rem;
+	font-weight:500;
 	line-height:1.8;
 	letter-spacing:0.06em;
 	text-transform:uppercase;
@@ -940,9 +939,12 @@
 	transition:background-color 0.15s ease;
 }
 
-.gp-main .gp-bot__btn a:hover {
+.gp-main .gp-bot__btn a:hover,
+.gp-main .gp-bot__btn a:focus-visible,
+.gp-csw .confederation .wds-button:focus-visible {
 	background-color:var(--theme-accent-color--hover);
 	color:var(--theme-accent-label-color);
+	outline:0;
 }
 
 .gp-main .gp-bot__btn a::after {
@@ -962,7 +964,7 @@
 	background:none;
 	color:var(--gp-magenta);
 	font-family:"Phosphor-Bold";
-	font-size:1.125rem;
+	font-size:1.25rem;
 	line-height:1;
 }
 
