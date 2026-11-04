@@ -2,8 +2,8 @@
 /* === Стандарт википроектов о проектах Glitch === */
 @import url("/ru/load.php?mode=articles&articles=MediaWiki:GlitchWikis.css&only=styles");
 
-/* === Стили шаблонов и заглавной === */
-@import url("/ru/load.php?mode=articles&articles=MediaWiki:Templates.css|MediaWiki:Mainpage.css&only=styles");
+/* === Стили шаблонов, заглавной и участников === */
+@import url("/ru/load.php?mode=articles&articles=MediaWiki:Templates.css|MediaWiki:Mainpage.css|MediaWiki:Users.css&only=styles");
 
 /* === Шрифты === */
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Russo+One&display=swap");
@@ -54,6 +54,49 @@ body {
 	font-display:block;
 }
 
+/* === Углы контейнеров страницы === */
+html:not(.ve-active) .page.has-right-rail .page__main,
+body .right-rail-wrapper.has-rail-tabs:not(:has(.rail-tabs-strip)) > .rail-tabs-content,
+body .right-rail-wrapper.has-rail-tabs .rail-tab-panel--expanded,
+body .right-rail-wrapper.has-rail-tabs .rail-widget-summary,
+body .rail-tab {
+	border-radius:3px;
+}
+
+@media only screen and (max-width:1023px) {
+	body .rail-tabs-strip {
+		border-radius:3px;
+	}
+}
+
+@media only screen and (min-width:1024px) and (max-width:1279px) {
+	body .right-rail-wrapper.has-rail-tabs > .rail-tabs-content,
+	body .right-rail-wrapper.has-rail-tabs.rail-mode-expanded .rail-tab-panel--expanded {
+		border-radius:0 0 3px 3px;
+	}
+
+	body .rail-tabs-strip {
+		border-radius:3px 3px 0 0;
+	}
+}
+
+@media only screen and (min-width:1280px) {
+	body .right-rail-wrapper.has-rail-tabs > .rail-tabs-content,
+	body .right-rail-wrapper.has-rail-tabs.rail-mode-expanded .rail-tab-panel--expanded {
+		border-radius:3px 0 3px 3px;
+	}
+
+	body .rail-tabs-strip {
+		border-radius:0 3px 3px 0;
+	}
+}
+
+@media only screen and (min-width:1024px) {
+	body .page__right-rail.is-rail-hidden .rail-tabs-strip {
+		border-radius:0 3px 3px 0;
+	}
+}
+
 /* === Без размытия === */
 .rail-tabs-strip,
 .right-rail-wrapper.has-rail-tabs > .rail-tabs-content,
@@ -91,7 +134,7 @@ body {
 .fandom-community-header .page-counter__label,
 .main-container #UTCClock {
 	font-family:var(--gp-mono);
-	font-weight:700;
+	font-weight:500;
 	letter-spacing:0.06em;
 	text-transform:uppercase;
 }
@@ -105,39 +148,37 @@ body {
 }
 
 /* === Логотип === */
-@keyframes gp-logo-glitch {
-	0% {
-		transform:translate(0,0);
-		filter:none;
+@keyframes gp-logo-shine {
+	from {
+		background-position:90% 0;
 	}
-	15% {
-		transform:translate(-2px,1px);
-		filter:drop-shadow(-3px 0 var(--gp-cyan)) drop-shadow(3px 0 var(--gp-pink));
-	}
-	30% {
-		transform:translate(2px,-1px);
-		filter:drop-shadow(3px 0 var(--gp-cyan)) drop-shadow(-3px 0 var(--gp-pink));
-	}
-	45% {
-		transform:translate(-1px,0);
-		filter:drop-shadow(-2px 0 var(--gp-pink)) drop-shadow(2px 0 var(--gp-cyan));
-	}
-	60% {
-		transform:translate(0,0);
-		filter:var(--gp-glitch);
-	}
-	100% {
-		transform:translate(0,0);
-		filter:var(--gp-glitch);
+	to {
+		background-position:10% 0;
 	}
 }
 
-.fandom-community-header__image img {
-	transition:filter 0.15s ease;
+.fandom-community-header__image {
+	position:relative;
+	transition:transform 0.2s ease-out;
 }
 
-.fandom-community-header__image:hover img {
-	animation:gp-logo-glitch 0.7s ease both;
+.fandom-community-header__image:hover {
+	transform:scale(1.03);
+	transition:transform 3s linear;
+}
+
+.fandom-community-header__image::after {
+	content:"";
+	position:absolute;
+	inset:0;
+	background:linear-gradient(60deg,transparent 43.4%,rgba(255,255,255,0.42) 50%,transparent 56.6%) 90% 0/400% 100% no-repeat;
+	-webkit-mask:url("https://static.wikia.nocookie.net/glitchproductions/images/e/e6/Site-logo.png/revision/latest?path-prefix=ru") center/contain no-repeat;
+	mask:url("https://static.wikia.nocookie.net/glitchproductions/images/e/e6/Site-logo.png/revision/latest?path-prefix=ru") center/contain no-repeat;
+	pointer-events:none;
+}
+
+.fandom-community-header__image:hover::after {
+	animation:gp-logo-shine 0.9s linear both;
 }
 
 /* === Кнопки === */
@@ -186,15 +227,18 @@ body {
 	--gp-br:10px;
 }
 
-.fandom-community-header .wiki-tools .wds-button:hover {
+.fandom-community-header .wiki-tools .wds-button:hover,
+.fandom-community-header .wiki-tools .wds-button:focus-visible {
 	background-color:var(--gp-magenta);
+	outline:0;
 }
 
 .fandom-community-header .wiki-tools .wds-button svg {
 	transition:filter 0.15s ease;
 }
 
-.fandom-community-header .wiki-tools .wds-button:hover svg {
+.fandom-community-header .wiki-tools .wds-button:hover svg,
+.fandom-community-header .wiki-tools .wds-button:focus-visible svg {
 	filter:drop-shadow(-2px 0 0 var(--gp-cyan)) drop-shadow(2px 0 0 var(--gp-pink));
 }
 
@@ -243,8 +287,20 @@ body {
 	transition:filter 0.15s ease;
 }
 
-.page-side-tools .page-side-tool:hover svg {
+.page-side-tools .page-side-tool:hover svg,
+.page-side-tools .page-side-tool:focus-visible svg {
 	filter:drop-shadow(-2px 0 0 var(--gp-cyan)) drop-shadow(2px 0 0 var(--gp-pink));
+}
+
+.page-side-tools .page-side-tool:focus-visible {
+	background-color:var(--theme-accent-color--hover);
+	outline:0;
+}
+
+/* === Кнопки шапки статьи === */
+.page-header__actions .wds-button,
+.page-header__languages .wds-dropdown__toggle {
+	font-weight:500;
 }
 
 /* === Теги категорий === */
@@ -264,7 +320,7 @@ body {
 .page-header__categories > * {
 	flex:0 1 auto;
 	min-width:0;
-	font-size:0.6875rem;
+	font-size:0.75rem;
 	line-height:1.6;
 }
 
@@ -273,7 +329,7 @@ body {
 	margin-right:8px;
 	color:var(--gp-muted);
 	font-family:var(--gp-mono);
-	font-weight:700;
+	font-weight:500;
 	letter-spacing:0.06em;
 	text-transform:uppercase;
 }
@@ -287,8 +343,7 @@ body {
 	background-color:var(--gp-surface-strong);
 	clip-path:polygon(6px 0,100% 0,calc(100% - 6px) 100%,0 100%);
 	color:var(--gp-text);
-	font-family:var(--gp-mono);
-	font-weight:700;
+	font-weight:500;
 	letter-spacing:0.04em;
 	text-overflow:ellipsis;
 	text-transform:uppercase;
@@ -302,9 +357,12 @@ body {
 }
 
 .page-header__categories > a:hover,
-.page-header__categories-dropdown:hover > .wds-dropdown__toggle {
+.page-header__categories > a:focus-visible,
+.page-header__categories-dropdown:hover > .wds-dropdown__toggle,
+.page-header__categories-dropdown > .wds-dropdown__toggle:focus-visible {
 	background-color:var(--gp-magenta);
 	color:var(--theme-accent-label-color);
+	outline:0;
 }
 
 .page-header__categories > a:last-child {
@@ -384,9 +442,8 @@ body {
 	background-color:var(--gp-surface-strong);
 	clip-path:polygon(5px 0,100% 0,100% calc(100% - 5px),calc(100% - 5px) 100%,0 100%,0 5px);
 	color:var(--gp-text);
-	font-family:var(--gp-mono);
-	font-size:0.625rem;
-	font-weight:700;
+	font-size:0.75rem;
+	font-weight:500;
 	line-height:1.5;
 	letter-spacing:0.08em;
 	text-decoration:none;
@@ -426,7 +483,7 @@ body {
 	color:var(--gp-link);
 	font-family:var(--gp-mono);
 	font-size:0.75rem;
-	font-weight:700;
+	font-weight:500;
 }
 
 .page-content .toc ul li a:hover .tocnumber,
@@ -448,7 +505,7 @@ body {
 	gap:12px;
 	margin:24px 0 16px;
 	font-family:var(--gp-display);
-	font-size:1.1875rem;
+	font-size:1.25rem;
 	font-weight:400;
 	line-height:1.3;
 	text-transform:uppercase;
@@ -524,7 +581,7 @@ body {
 	clip-path:polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px);
 	font-family:var(--gp-mono);
 	font-size:0.75rem;
-	font-weight:700;
+	font-weight:500;
 	line-height:1.6;
 	letter-spacing:0.08em;
 	text-transform:uppercase;
@@ -555,16 +612,18 @@ body {
 	background-color:var(--gp-surface);
 	clip-path:polygon(6px 0,100% 0,100% calc(100% - 6px),calc(100% - 6px) 100%,0 100%,0 6px);
 	color:var(--gp-link);
-	font-family:var(--gp-mono);
 	font-size:0.75rem;
-	font-weight:700;
+	font-weight:500;
 	transition:background-color 0.15s ease,color 0.15s ease;
 }
 
 #content .category-page__alphabet-shortcut a:hover,
-#content .category-page__alphabet-shortcut.is-active a {
+#content .category-page__alphabet-shortcut a:focus-visible,
+#content .category-page__alphabet-shortcut.is-active a,
+#content .category-page__pagination a:focus-visible {
 	background-color:var(--gp-magenta);
 	color:var(--theme-accent-label-color);
+	outline:0;
 }
 
 /* === Список страниц === */
@@ -613,7 +672,7 @@ body {
 	background:none;
 	color:var(--gp-magenta);
 	font-family:var(--gp-display);
-	font-size:1.125rem !important;
+	font-size:1.25rem !important;
 	font-weight:400;
 	line-height:1.4;
 	text-transform:uppercase;
@@ -660,6 +719,7 @@ body {
 /* == Профили участников == */
 /* === Шапка === */
 body.skin-fandomdesktop #userProfileApp .user-identity-header {
+	border-radius:3px 3px 0 0;
 	background:var(--gp-stripe) bottom left/100% 3px no-repeat,repeating-linear-gradient(0deg,rgba(255,255,255,0.05) 0 1px,transparent 1px 4px),linear-gradient(120deg,var(--gp-magenta),var(--gp-deep-cyan));
 }
 
@@ -677,8 +737,8 @@ body.skin-fandomdesktop #userProfileApp .user-identity-header__tag {
 	clip-path:polygon(7px 0,100% 0,calc(100% - 7px) 100%,0 100%);
 	color:#fff;
 	font-family:var(--gp-mono);
-	font-size:0.6875rem;
-	font-weight:700;
+	font-size:0.75rem;
+	font-weight:500;
 	letter-spacing:0.06em;
 	text-transform:uppercase;
 }
@@ -688,6 +748,13 @@ body.skin-fandomdesktop #userProfileApp .user-identity-header__actions .wds-butt
 	border-radius:0;
 	clip-path:polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px);
 	transform:none !important;
+}
+
+body.skin-fandomdesktop #userProfileApp .user-identity-header__actions .wds-button:focus-visible,
+.modal-wrapper__header .modal-wrapper__cta-button:focus-visible {
+	background-color:var(--gp-magenta);
+	color:var(--theme-accent-label-color);
+	outline:0;
 }
 
 /* === Аватар === */
@@ -856,7 +923,7 @@ body .AchievementsModule h2,
 	background-image:none;
 	color:var(--gp-text);
 	font-family:var(--gp-display);
-	font-size:0.9375rem;
+	font-size:1rem;
 	font-weight:400;
 	line-height:1.3;
 	letter-spacing:0.03em;
@@ -871,10 +938,10 @@ body .AchievementsModule h2::before,
 .content-review__widget__title::before {
 	content:"\ed0a";
 	flex:0 0 auto;
-	margin-right:0.28125rem;
+	margin-right:0.3rem;
 	color:var(--gp-magenta);
 	font-family:"Phosphor-Bold";
-	font-size:1.125rem;
+	font-size:1.25rem;
 	font-weight:400;
 	line-height:1;
 	letter-spacing:0;
@@ -894,7 +961,7 @@ body .rail-module__header .wds-icon {
 }
 
 .right-rail-wrapper .recent-images-module .wds-widget-frame__title::after {
-	font-size:0.9375rem;
+	font-size:1rem;
 	line-height:1.3;
 }
 
@@ -932,7 +999,7 @@ body .rail-module.recent-wiki-activity h2:not(.wds-widget-frame__title):not(.wid
 
 body .rail-module.recent-wiki-activity h2:not(.wds-widget-frame__title):not(.widget-frame__title)::after {
 	content:"Последние правки";
-	font-size:0.9375rem;
+	font-size:1rem;
 }
 
 /* === Списки === */
@@ -974,26 +1041,39 @@ body .rail-module.recent-wiki-activity h2:not(.wds-widget-frame__title):not(.wid
 	border-radius:0;
 	clip-path:polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px);
 	color:var(--gp-text);
-	font-family:var(--gp-mono);
-	font-weight:700;
+	font-weight:500;
 	letter-spacing:0.04em;
 	transition:background-color 0.15s ease,color 0.15s ease;
 }
 
 .rail-module .wds-button:hover,
+.rail-module .wds-button:focus-visible,
 .rail-module .pm-carousel-control:hover,
+.rail-module .pm-carousel-control:focus-visible,
 .AchievementsModule .wds-button:hover,
-.content-review__widget .wds-button:hover {
+.AchievementsModule .wds-button:focus-visible,
+.content-review__widget .wds-button:hover,
+.content-review__widget .wds-button:focus-visible {
 	background-color:var(--gp-magenta);
 	border-color:transparent;
 	color:var(--theme-accent-label-color);
+	outline:0;
 }
 
 .rail-module .wds-button:hover svg,
+.rail-module .wds-button:focus-visible svg,
 .AchievementsModule .wds-button:hover svg,
-.content-review__widget .wds-button:hover svg {
+.AchievementsModule .wds-button:focus-visible svg,
+.content-review__widget .wds-button:hover svg,
+.content-review__widget .wds-button:focus-visible svg {
 	color:var(--theme-accent-label-color);
 	fill:var(--theme-accent-label-color);
+}
+
+.photo-module .photo-stats .wds-button,
+.AchievementsModule .data-details p,
+.AchievementsModule .data-details a {
+	font-size:0.75rem;
 }
 
 /* === Последние изображения === */
@@ -1018,8 +1098,8 @@ body .rail-module.recent-wiki-activity h2:not(.wds-widget-frame__title):not(.wid
 .photo-module .tally span {
 	color:var(--gp-muted);
 	font-family:var(--gp-mono);
-	font-size:0.6875rem;
-	font-weight:700;
+	font-size:0.75rem;
+	font-weight:500;
 	letter-spacing:0.06em;
 	text-transform:uppercase;
 }
@@ -1041,9 +1121,8 @@ body .rail-module.recent-wiki-activity h2:not(.wds-widget-frame__title):not(.wid
 }
 
 .photo-module .all-link {
-	font-family:var(--gp-mono);
-	font-size:0.6875rem;
-	font-weight:700;
+	font-size:0.75rem;
+	font-weight:500;
 	letter-spacing:0.06em;
 	text-transform:uppercase;
 }
@@ -1055,17 +1134,20 @@ body .rail-module.recent-wiki-activity h2:not(.wds-widget-frame__title):not(.wid
 
 .AchievementsModule div.data em {
 	font-family:var(--gp-display);
-	font-size:1.75rem;
+	font-size:1.625rem;
 	font-style:normal;
 	letter-spacing:0;
+}
+
+.AchievementsModule .data-details {
+	font-family:var(--gp-mono);
 }
 
 .AchievementsModule .data-details,
 .AchievementsModule .view-all,
 .AchievementsModule .more {
-	font-family:var(--gp-mono);
-	font-size:0.6875rem;
-	font-weight:700;
+	font-size:0.75rem;
+	font-weight:500;
 	letter-spacing:0.06em;
 	text-transform:uppercase;
 }
@@ -1079,8 +1161,8 @@ body .rail-module.recent-wiki-activity h2:not(.wds-widget-frame__title):not(.wid
 	margin-top:14px;
 	color:var(--gp-muted);
 	font-family:var(--gp-mono);
-	font-size:0.6875rem;
-	font-weight:700;
+	font-size:0.75rem;
+	font-weight:500;
 	line-height:1.5;
 	letter-spacing:0.06em;
 	text-transform:uppercase;
@@ -1095,15 +1177,15 @@ body .rail-module.recent-wiki-activity h2:not(.wds-widget-frame__title):not(.wid
 	clip-path:polygon(0 0,100% 0,100% calc(100% - 6px),calc(100% - 6px) 100%,0 100%);
 	font-family:var(--gp-mono);
 	font-size:0.75rem;
-	font-weight:700;
+	font-weight:500;
 	line-height:1.5;
 	letter-spacing:0.04em;
 }
 
 .content-review__widget__help {
 	font-family:var(--gp-mono);
-	font-size:0.6875rem;
-	font-weight:700;
+	font-size:0.75rem;
+	font-weight:500;
 	letter-spacing:0.06em;
 	text-transform:uppercase;
 }
@@ -1140,9 +1222,8 @@ body .rail-module.recent-wiki-activity h2:not(.wds-widget-frame__title):not(.wid
 	background-color:var(--gp-surface-strong);
 	clip-path:polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px);
 	color:var(--gp-text);
-	font-family:var(--gp-mono);
-	font-size:0.6875rem;
-	font-weight:700;
+	font-size:0.75rem;
+	font-weight:500;
 	letter-spacing:0.06em;
 	text-align:center;
 	text-decoration:none;
@@ -1150,9 +1231,11 @@ body .rail-module.recent-wiki-activity h2:not(.wds-widget-frame__title):not(.wid
 	transition:background-color 0.15s ease,color 0.15s ease;
 }
 
-.gp-chats .gp-chat__btn a:hover {
+.gp-chats .gp-chat__btn a:hover,
+.gp-chats .gp-chat__btn a:focus-visible {
 	background-color:var(--gp-magenta);
 	color:var(--theme-accent-label-color);
+	outline:0;
 }
 
 .gp-chats .gp-chat__btn a::after {
@@ -1212,7 +1295,7 @@ body .rail-module.recent-wiki-activity h2:not(.wds-widget-frame__title):not(.wid
 .community-page-header .community-page-header-welcome-message {
 	color:var(--gp-text);
 	font-family:var(--gp-display);
-	font-size:clamp(1.625rem,3.4vw,2.375rem);
+	font-size:clamp(1.625rem,3.4vw,2.625rem);
 	font-weight:400;
 	line-height:1.15;
 	text-transform:uppercase;
@@ -1222,9 +1305,8 @@ body .rail-module.recent-wiki-activity h2:not(.wds-widget-frame__title):not(.wid
 .community-page-header .community-page-subheader-welcome-message {
 	margin-top:12px;
 	color:var(--gp-muted);
-	font-family:var(--gp-mono);
-	font-size:0.8125rem;
-	font-weight:700;
+	font-size:0.875rem;
+	font-weight:500;
 	letter-spacing:0.08em;
 	text-transform:uppercase;
 }
@@ -1236,7 +1318,7 @@ body .rail-module.recent-wiki-activity h2:not(.wds-widget-frame__title):not(.wid
 	gap:12px;
 	margin:30px 0 16px;
 	font-family:var(--gp-display);
-	font-size:1.1875rem;
+	font-size:1.25rem;
 	font-weight:400;
 	line-height:1.3;
 	text-transform:uppercase;
@@ -1271,6 +1353,19 @@ body .rail-module.recent-wiki-activity h2:not(.wds-widget-frame__title):not(.wid
 	padding-right:0;
 }
 
+.CommunityPageContainer .community-page-admins-module .community-page-users-list li {
+	flex:1 1 0;
+	width:auto;
+	min-width:0;
+}
+
+.CommunityPageContainer .community-page-admins-module .community-page-users-list a.ellipsis {
+	overflow:visible;
+	overflow-wrap:anywhere;
+	text-overflow:clip;
+	white-space:normal;
+}
+
 .community-page-cards-module .community-page-card-module,
 .community-page-module.community-page-module-box {
 	--gp-cut:14px;
@@ -1287,7 +1382,7 @@ body .rail-module.recent-wiki-activity h2:not(.wds-widget-frame__title):not(.wid
 
 .community-page-cards-module .community-page-card-module .community-page-card-module-header span {
 	font-family:var(--gp-display);
-	font-size:0.9375rem;
+	font-size:0.875rem;
 	font-weight:400;
 	letter-spacing:0.02em;
 }
@@ -1305,9 +1400,8 @@ body .rail-module.recent-wiki-activity h2:not(.wds-widget-frame__title):not(.wid
 	border-radius:0;
 	clip-path:polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px);
 	color:var(--gp-text);
-	font-family:var(--gp-mono);
-	font-size:0.6875rem;
-	font-weight:700;
+	font-size:0.75rem;
+	font-weight:500;
 	letter-spacing:0.03em;
 	transition:background-color 0.15s ease,color 0.15s ease;
 }
@@ -1317,10 +1411,12 @@ body .rail-module.recent-wiki-activity h2:not(.wds-widget-frame__title):not(.wid
 	padding-left:12px;
 }
 
-.CommunityPageContainer .wds-button.wds-is-secondary:hover {
+.CommunityPageContainer .wds-button.wds-is-secondary:hover,
+.CommunityPageContainer .wds-button.wds-is-secondary:focus-visible {
 	background-color:var(--gp-magenta);
 	border-color:transparent;
 	color:var(--theme-accent-label-color);
+	outline:0;
 }
 
 .community-page-module .community-page-module-section-title {
@@ -1328,7 +1424,7 @@ body .rail-module.recent-wiki-activity h2:not(.wds-widget-frame__title):not(.wid
 	align-items:center;
 	gap:10px;
 	font-family:var(--gp-display);
-	font-size:0.9375rem;
+	font-size:1rem;
 	font-weight:400;
 	line-height:1.3;
 	text-transform:uppercase;
@@ -1394,7 +1490,8 @@ body .rail-module.recent-wiki-activity h2:not(.wds-widget-frame__title):not(.wid
 	min-width:1.6em;
 	color:var(--gp-magenta);
 	font-family:var(--gp-mono);
-	font-size:0.8125rem;
+	font-size:0.875rem;
+	font-weight:500;
 }
 
 .community-page-help-module-links a,
@@ -1426,13 +1523,13 @@ body .rail-module.recent-wiki-activity h2:not(.wds-widget-frame__title):not(.wid
 	border-left:4px solid var(--gp-magenta);
 	border-radius:0;
 	clip-path:polygon(0 0,100% 0,100% calc(100% - var(--gp-cut)),calc(100% - var(--gp-cut)) 100%,0 100%);
-	font-size:0.8125rem;
+	font-size:0.875rem;
 	line-height:1.6;
 }
 
 #about-achievements h1 {
 	font-family:var(--gp-display);
-	font-size:1.125rem;
+	font-size:1.25rem;
 	font-weight:400;
 	letter-spacing:0.02em;
 	text-transform:uppercase;
@@ -1445,8 +1542,8 @@ body .rail-module.recent-wiki-activity h2:not(.wds-widget-frame__title):not(.wid
 	border:0;
 	border-radius:0;
 	clip-path:polygon(6px 0,100% 0,100% calc(100% - 6px),calc(100% - 6px) 100%,0 100%,0 6px);
-	font-family:var(--gp-mono);
-	font-size:0.6875rem;
+	font-size:0.75rem;
+	font-weight:500;
 	letter-spacing:0.06em;
 	transition:background-color 0.15s ease,color 0.15s ease;
 }
@@ -1459,7 +1556,8 @@ body .rail-module.recent-wiki-activity h2:not(.wds-widget-frame__title):not(.wid
 #about-achievements p b {
 	color:var(--gp-muted);
 	font-family:var(--gp-mono);
-	font-size:0.6875rem;
+	font-size:0.75rem;
+	font-weight:500;
 	letter-spacing:0.08em;
 }
 
@@ -1486,8 +1584,8 @@ body .rail-module.recent-wiki-activity h2:not(.wds-widget-frame__title):not(.wid
 	border-radius:0;
 	clip-path:polygon(25% 0,75% 0,100% 50%,75% 100%,25% 100%,0 50%);
 	font-family:var(--gp-mono);
-	font-size:0.625rem;
-	font-weight:700;
+	font-size:0.75rem;
+	font-weight:500;
 	line-height:1.15;
 	text-transform:uppercase;
 }
@@ -1500,7 +1598,7 @@ body .rail-module.recent-wiki-activity h2:not(.wds-widget-frame__title):not(.wid
 	padding:0;
 	border:0;
 	font-family:var(--gp-display);
-	font-size:1.1875rem;
+	font-size:1.25rem;
 	font-weight:400;
 	line-height:1.3;
 	text-transform:uppercase;
@@ -1533,8 +1631,8 @@ body .rail-module.recent-wiki-activity h2:not(.wds-widget-frame__title):not(.wid
 	padding:8px 5px;
 	color:var(--gp-muted);
 	font-family:var(--gp-mono);
-	font-size:0.6875rem;
-	font-weight:700;
+	font-size:0.75rem;
+	font-weight:500;
 	letter-spacing:0.08em;
 }
 
@@ -1562,6 +1660,7 @@ body .rail-module.recent-wiki-activity h2:not(.wds-widget-frame__title):not(.wid
 	line-height:35px;
 	text-align:center;
 	text-indent:-0.6em;
+	font-weight:500;
 }
 
 .LeaderboardTable .user {
@@ -1583,7 +1682,8 @@ body .rail-module.recent-wiki-activity h2:not(.wds-widget-frame__title):not(.wid
 	margin-left:4px;
 	color:var(--gp-muted);
 	font-family:var(--gp-mono);
-	font-size:0.6875rem;
+	font-size:0.75rem;
+	font-weight:500;
 	letter-spacing:0.06em;
 	text-transform:uppercase;
 }
