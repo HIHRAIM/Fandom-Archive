@@ -33,14 +33,14 @@
 </div>
 
 == Официальные страницы ==
-<div style="display: flex; flex-wrap: wrap; justify-content: center; margin-bottom: 0.25em;">
+<div class="mainpage-links">
 {{Button|https://polytopia.io/|Official Website}}
 {{Button|https://apps.apple.com/app/the-battle-of-polytopia/id1006393168|App Store}}
 {{Button|link = https://play.google.com/store/apps/details?id=air.com.midjiwan.polytopia|text = Google Play}}
 {{Button|https://steam.midjiwan.com/|Steam}}
 </div>
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; margin-bottom: 0.5em;">
+<div class="mainpage-links">
 {{Button|https://discord.com/invite/polytopia|Discord}}
 {{Button|https://www.facebook.com/polytopia/|Facebook}}
 {{Button|https://www.instagram.com/midjiwan/|Instagram}}
