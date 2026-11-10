@@ -258,6 +258,13 @@ body.skin-fandomdesktop #userProfileApp .user-identity-header__actions .wds-butt
 	margin:0;
 }
 
+.mainpage-links {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	margin-bottom:0.5em;
+}
+
 /* ==== Отключает предпросмотр страницы при наведении на ссылку ==== */
 .mainpage .npage-preview, .mainpage .npage-preview div, .mainpage .npage-preview img, .mainpage .npage-preview-noimage {
 	display:none;
